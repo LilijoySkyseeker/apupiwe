@@ -25,7 +25,7 @@ Facts from the repo as of 2026-10-13, so the comparison below has something fixe
 
 | Feature | Apupiwe | Where |
 |---|---|---|
-| Aim | A thought experiment in the best human language, for children who grow up with it (P3), and a real language its author learns and shares. No adoption campaign. | `docs/goal.md`, `CLAUDE.md` |
+| Aim | A thought experiment in the best human language, for children who grow up with it (P3), and a real language its author learns and shares. No adoption campaign. | `docs/goal.md`, `AGENTS.md` |
 | Designer | One author deciding, with an AI (Claude) researching, drafting and recommending; 194 commits in six days (2026-10-08 to 10-13). | `git log` |
 | Sounds | 5 vowels, 13 consonants, syllable (C)V(n), first-syllable stress, no tone. | language.md §2 |
 | Writing | Latin, 18 letters, one per sound, lowercase, three grammatical punctuation marks. | §3 |
