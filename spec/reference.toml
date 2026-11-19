@@ -366,7 +366,7 @@ type = "bullet"
 title = "Verb + verb"
 gap = 0
 text = '''
-- When one verb follows another and the first takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second verb describes the first: **doyu pume** "sit thinking". Phrases and clauses after a second verb that is an object belong to it, the nearest verb: **momu isi len guyi** "want to go home".'''
+- When one verb follows another and the first takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second verb describes the first: **doyu pume** "sit thinking", **to isi yinmi tanke** "I go through the forest" (go passing the forest; there is no word for "through"). Phrases and clauses after a second verb that is an object belong to it, the nearest verb: **momu isi len guyi** "want to go home".'''
 
 [[item]]
 id = "4.2.7"
