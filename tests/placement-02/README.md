@@ -29,7 +29,7 @@ Resumable as placement-01: every step writes `state/*.json` atomically; rerun th
 - [x] medians (`state/medians.json`), A (`state/A.json`), A without the vowel bonus (`state/A-nv.json`)
 - [x] keep sweep (`./run.sh`, logs in `logs/`): `report-k{0,0.03,0.1,0.3}.txt`, `forms-k*.tsv`
 - [x] no-vowel-bonus run at keep 0.1: `report-nv-k0.1.txt`
-- [ ] candidate for the author: no vowel bonus, keep 0.03, seeds 1–2 (`state/C-nv-k0.03-*.json`, `report-nv-k0.03.txt`)
+- [x] candidate for the author: no vowel bonus, keep 0.03, seeds 1–2 (`state/C-nv-k0.03-*.json`, `report-nv-k0.03.txt`)
 
 ## Results
 
@@ -41,6 +41,7 @@ J and R are on the same random baseline as placement-01 (R 1.0 = a random lexico
 | keep 0.03 | 32.48 | 0.119 | 135 | 62% | 5,742 | 482 | 10.6 |
 | keep 0.1 | 33.53 | 0.128 | 112 | 62% | 5,749 | 487 | 9.7 |
 | keep 0.3 | 35.13 | 0.142 | 104 | 70% | 5,729 | 489 | 10.1 |
+| **no vowel bonus, keep 0.03 (candidate)** | 33.44* | 0.120 | 136 | 54% | 5,747 | 95 | **7.5** |
 | no vowel bonus, keep 0.1 | 34.16* | **0.125** | 113 | (one seed) | 5,752 | **97** | **8.3** |
 
 \* J without the vowel bonus is in a slightly different unit (the length term changed); compare R.
@@ -53,3 +54,6 @@ Findings:
 2. **The −0.1 vowel-start bonus hurts.** With it, almost every three-syllable root is V.CV.CV (401 of 401). Without it (`--no-vbonus`) the robust confusion is lower (R 0.125 vs 0.128 at the same keep), near pairs are about the same (5,752 vs 5,749), the n + vowel junction risk falls by 15%, and vowel-initial roots drop from 487 to 97. The bonus only saves a tenth of a syllable on rare words. Its only source is the code, `tools/build.py` `length()`: `tools/why.py` and a search of docs and research notes find no record of it.
 3. **Number words take codas.** Forced off banned syllables (**kefi** starts with **ke**, **mape** with the digit **ma**, **tonen** with **to**), 8, 9 and 10^6 become **manwon**, **enfin**, **munfan**: the ×10 number weight pushes them into the sparse -n region. Two syllables, as decided, but heavy.
 4. **Frequent words to look at (keep 0.03):** "can" **lenu → eye** (reads as the English word; also a junction pair with **enye** "bowl"), "come" **obu → eka**, "small" **meli → guti** (MINUS's old form), "big" **kudu → pulu**, "food" **pasu → poso**. Closest frequent near pairs: new/department **duwa~fuwa**, yesterday/coffee **afe~kafe**, true/answer **feko~febo**, above/same **bige~kige**. Worst fixed-word pair still **kilo~kiyo**.
+
+5. **The candidate** (no vowel bonus, keep 0.03; `forms-nv-k0.03.tsv`, `report-nv-k0.03.txt`) moves 32 roots that weren't forced. Frequent ones: "come" **obu → mele**, "can" **lenu → iya**, "small" **meli → nebi**, "food" **pasu → gene** (reads as the English word), "big" **kudu → kulu**, "100" **loki → onwun**.
+6. **Number words crowd into won-**: 9 **wonlin**, 10^6 **wonfon**, percent **wonnon**, pair **wonken**, 8 **manwon**, 100 **onwun**, while **wo** is the digit 4. The ×10 weight on any pair with a number word (set for 500 words, placement-01 item 2) drives them into the sparse -n region, where they end up resembling each other and the digit. Question for the author: rescale ×10 for the larger lexicon, or fix these forms by hand.
