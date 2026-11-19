@@ -76,7 +76,7 @@ FREQ = np.array([w["freq"] for w in WORDS])
 IS_DIGIT = np.array([w["cls"] == "digit" for w in WORDS])
 OLD_FORM = {w["gloss"]: w["old"] for w in WORDS}
 FORM_GLOSS = {w["old"]: w["gloss"] for w in WORDS if w["old"]}
-OPERATORS = "genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyo mena".split()
+OPERATORS = "genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyu mena".split()
 
 # ------------------------------------------------------------------------------------------ position table
 # Named positions, from the reference (rule ids) and the formal grammar's categories (grammar/Apupiwe.gf).
@@ -267,6 +267,8 @@ HAPLO_OK = np.array([(NAME[s] not in _FIRSTS) or (NAME[s] in _HTODAY) or (_ROOTS
                      for s in range(NS)])
 DISPLACE = np.array([0 if (NAME[s] in _HTODAY or NAME[s] not in _FIRSTS) else _ROOTS_AT[NAME[s]] for s in range(NS)])
 HAPLO_W = np.array([w["gloss"] in _HG for w in WORDS])
+PRON_VOWEL = os.environ.get("SW_PRON_VOWEL") == "1"
+IS_PRON = np.array([w["gloss"] in PRON for w in WORDS])
 CF = {"p": ("-", "lab", "stop"), "b": ("+", "lab", "stop"), "t": ("-", "cor", "stop"), "d": ("+", "cor", "stop"),
       "k": ("-", "dor", "stop"), "g": ("+", "dor", "stop"), "f": ("-", "lab", "fric"), "s": ("-", "cor", "fric"),
       "m": ("+", "lab", "nas"), "n": ("+", "cor", "nas"), "l": ("+", "cor", "lat"), "w": ("+", "lab", "glide"),
@@ -418,6 +420,13 @@ def hard_ok(assign, i, s, fixed_other=None):
         return False
     if SOFT and HAPLO_W[i] and not HAPLO_OK[s]:      # 04 H6: no root may start with a haplology word's syllable
         return False
+    if PRON_VOWEL and IS_PRON[i]:                     # 04b H7 (author 2026-11-19): no two pronouns differ only by vowel
+        o, v, c = SYL[s]
+        for j in np.where(IS_PRON & (assign >= 0))[0]:
+            if j != i:
+                oj, vj, cj = SYL[assign[j]]
+                if oj == o and cj == c and vj != v:
+                    return False
     others = (np.arange(N) != i) & (assign >= 0)
     if (assign[others] == s).any():
         return False
@@ -436,6 +445,11 @@ def penalties(assign, off_w, one_w, op_w):
 
 def violations(assign):
     out = []
+    if PRON_VOWEL:
+        for a, b in itertools.combinations(np.where(IS_PRON)[0], 2):
+            (o1, v1, c1), (o2, v2, c2) = SYL[assign[a]], SYL[assign[b]]
+            if o1 == o2 and c1 == c2 and v1 != v2:
+                out.append((GL[a], GL[b], NAME[assign[a]], NAME[assign[b]], "pronouns differ only by vowel"))
     for a, b in itertools.combinations(range(N), 2):
         if SHARED[a, b] and MERGE[assign[a], assign[b]]:
             out.append((GL[a], GL[b], NAME[assign[a]], NAME[assign[b]], merger(assign[a], assign[b])))
