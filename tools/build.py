@@ -43,7 +43,7 @@ class Inventory:
         self.later = [i for i, s in enumerate(self.syl) if s[0] != ""]  # non-initial syllables need an onset
 
     def length(self, form):
-        return sum(1 + 0.4 * bool(self.syl[s][2]) for s in form) - 0.1 * (self.syl[form[0]][0] == "")
+        return sum(1 + 0.4 * bool(self.syl[s][2]) for s in form)   # no vowel-start bonus (author, 2026-11-18)
 
     def content_key(self, form):
         out = []
