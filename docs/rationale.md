@@ -68,22 +68,24 @@ This is the language's most distinctive machinery. Root **sounds are arbitrary o
 ### 3.3 Drift-proofing (`docs/drift.md`, `build.py`)
 [author asked to weigh drift heavily; evidence] A native language changes; the fast-changing layer is the one-syllable grammar words, which carry most of the precision machinery.
 - **Content words** must stay distinct after predicted changes: later-syllable e/i and o/u merge, middle p/t/k voice, final -n is lost, s/z merge. Implemented as `Inventory.content_key`: two words with the same key can't coexist.
-- **Grammar words** that can fill the same slot start with **different consonants** (`GROUPS_STRICT` in `build.py`), so vowel reduction can't merge them; words in the same wider position stay distinct after drift (`GROUPS_WIDE`, `grammar_key`).
+- **Grammar words** that can share a position never differ only by voicing, f/p, glide vs no onset, a final -n, or a declared accent merger (hard rule H4 of the short-word optimiser, `tests/shortwords-04/rebuild.py`, positions from the reference and GF; checked by `tools/accent.py`); the rest is scored by mishearing model v2 (`tools/confusion2.py`). The first layer's rule, different first consonants in the same slot (`GROUPS_STRICT` in `build.py`), is history: it was replaced by the short-word rebuilds of 2026-10-15 and 2026-11-19.
 - ~~**No two grammar words differ only by a final -n**~~ retired 2026-10-16 [author]: replaced by the position rule (no such pair among words that share a position) plus model v2's direct scoring of final-n loss (design log).
 
 ### 3.4 Juncture (`tools/juncture.py`)
-[Claude, idea from senary] Written tests can't hear word boundaries. Rules: no content word begins with a one-syllable digit's syllable (so "digit + grammar word" can't sound like a content word); no -n pairs; no grammar word ending in -n before a vowel-initial word that would be heard as another word. Run after any addition.
+[Claude, idea from senary] Written tests can't hear word boundaries. Rules: no content word begins with a one-syllable digit's syllable (so "digit + grammar word" can't sound like a content word); no grammar word ending in -n before a vowel-initial word that would be heard as another word. (-n pairs: only in a shared position, §3.3, since 2026-11-19.) Loans are exempt from the digit rule; one known case, **denu** "gene" after **de**, is recorded in the tool. Run after any addition.
 
 ### 3.4a Accent tolerance (`tools/accent.py`; language.md 2.9, 2.12)
 [Author, 2026-11-19; `tests/accent-01/`, `tests/shortwords-04/`] Speakers live among other languages and bring their accents, and children copy them (P4, B9). So the reference declares which realisations count as the same sound (2.9) and builds the words so that none of them turns one word into another (2.12). The cold review's replacement for "grammar words keep their consonants", a norm speakers can't obey: no contrast between words that can share a position may rest on a declared variant. The variants that mattered are the ones speech produces first: voiced stops softening between vowels, and k g palatalised before front vowels. Short, unstressed, frequent words wear fastest, so the grammar words were re-formed under the rule (27 changed), and digits, the name and the 22 grammar words that often precede roots constrain that (haplology). Vowel-only differences between same-position grammar words are kept out of new grammar words, since unstressed vowels weaken. Run `tools/accent.py` after any word change.
 
-### 3.5 The optimiser (`tools/words.py add-content`)
-For a new root it tries every two-syllable form not taken (after drift keys) and minimises:
+### 3.5 The optimiser (`tests/placement-05/place.py`; `tools/words.py add-content` is out of date)
+**Since 2026-11-18 roots are placed by the placement tool** (`tests/placement-01` to `-05`): model v2's robust score over 48 listener variants, the length rule (three syllables only for the rarest tier), the haplology, digit, juncture and accent rules, and a keep term so placed roots stay. `words.py add-content` below still uses model v1 and lacks those rules (roadmap); use the placement tool until it is updated.
+
+`words.py add-content`, as it was: for a new root it tries every two-syllable form not taken (after drift keys) and minimises:
 - confusion with every existing two-syllable word, **weighted by meaning**: ×30 antonyms (`--antonym`, recorded in `data/antonyms.tsv`), ×30 between two number words (a number misheard as another number goes unnoticed; design log 2026-11-18), ×3 same semantic field, ×1 other;
 - weighted by frequency (`TIER_FREQ` tiers 1–5) in both directions;
 - plus a length penalty (`EFFORT = 0.02`) so frequent words stay short.
 
-It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms are never hand-picked.** `add-grammar` does the same for one-syllable words but doesn't enforce the same-slot rule; only `build.py build` does (and a full rebuild breaks the freeze).
+It excludes digit-initial syllables and **offensive matches** (§3.6). **Forms are never hand-picked.** `add-grammar` does the same for one-syllable words but doesn't enforce the position rules; the short-word optimiser does (`tests/shortwords-04/rebuild.py`).
 
 ### 3.6 Offensive-word filter (`tools/offensive.py`, `data/offensive.tsv`)
 [author] 2026-10-09: no word should sound like an offensive word, or clash in a taboo topic, in major languages. **Narrowed 2026-10-15 [author]:** that can't be met for one-syllable words (the filter matches 80 of 140) and most matches are noise, so it's tiered: a short reviewed hard list of the strongest, most common words blocks forms; every other match only breaks ties (goal C3; design log 2026-10-15).
