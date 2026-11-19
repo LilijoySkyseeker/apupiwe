@@ -823,7 +823,7 @@ type = "bullet"
 title = "Number"
 gap = 0
 text = '''
-- A noun followed by a number is a count (**dili oma** "seven days"). A noun + **mena** + number is a label (**pata mena sa** "document 2"), and a label also gives a place in order: **bifo mena de** "the third time", **ewo mena ni** "the first person". "Last" is **pi fugi**, "of the end": **bifo pi fugi** "the last time". With a number before **pi** "of", the phrase is a part: **ni pi de** "one of three".'''
+- A noun followed by a number is a count (**dili oma** "seven days"). A noun + **mena** + number is a label (**pata mena sa** "document 2"), and a label also gives a place in order: **bifo mena de** "the third time", **ewo mena ni** "the first person". "Last" is **pi fugi**, "of the end": **bifo pi fugi** "the last time". With a number before **pi** "of" and a noun after it, the phrase is a part of a set: **sa pi ewo de** "two of the three people". Two numbers joined by **pi** are a fraction (9.2.7).'''
 
 [[item]]
 id = "5.2.6"
@@ -1424,7 +1424,7 @@ type = "bullet"
 title = "Arithmetic aloud"
 gap = 0
 text = '''
-- Arithmetic aloud is a reading of notation, like spelling aloud, not an ordinary sentence: read the signs in the order written, + **ginni**, − **guti**, × **bifo**, = **gun**: **sa ginni de gun ma** "2 + 3 = 5", **de bifo wo gun yawu sa** "3 × 4 = 12". **guti** before a number makes it negative and between two numbers means minus; a list keeps its pauses (**ma, guti de** "5, −3"). ÷ has no word yet.'''
+- Arithmetic aloud is a reading of notation, like spelling aloud, not an ordinary sentence: read the signs in the order written, + **ginni**, − **guti**, × **bifo**, ÷ **gonwu**, = **gun**: **sa ginni de gun ma** "2 + 3 = 5", **de bifo wo gun yawu sa** "3 × 4 = 12", **ufo gonwu sa gun de** "6 ÷ 2 = 3". **guti** before a number makes it negative and between two numbers means minus; a list keeps its pauses (**ma, guti de** "5, −3").'''
 
 [[item]]
 id = "9.2.6"
@@ -1433,6 +1433,14 @@ title = "Rates"
 gap = 0
 text = '''
 - A rate is said with **mesun** "each" after the unit, joined by the relation word that fits: **to nawi sa bifo no dili mesun** "I eat twice a day" (on each day), **to neke de yefi len ewo mesun** "I give three to each person". Unit symbols such as `60 km/h` pass through as written and are read with their borrowed names (9.3).'''
+
+[[item]]
+id = "9.2.7"
+type = "bullet"
+title = "Fractions"
+gap = 0
+text = '''
+- A fraction is a number, **pi**, and the number of equal parts: **ni pi de** ⅓, **de pi wo** ¾, **sa pi wo** or **timon** ½. Two numbers joined by **pi** are always a fraction. A fraction of something takes **pi** again: **sa pi de pi ewo la** "two thirds of the people", **to nawi de pi wo pi pasu** "I eat three quarters of the food". A part of a counted set puts the noun after **pi** instead: **sa pi ewo de** "two of the three people". Exact or long fractions can use decimals (9.2.4) or percent, **lonwon**.'''
 
 
 [[item]]

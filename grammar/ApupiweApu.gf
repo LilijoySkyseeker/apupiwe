@@ -263,6 +263,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
       ER | EC => npr Predef.nonExist EV False False ;
       _ => npr (cn.s ++ "fo" ++ n.s) EM cn.p False} ;
     NumQ n = (npr n.s EN False False) ** {ns = True ; hn = False ; cnt = True} ;
+    FracQ a b = (npr (a.s ++ "pi" ++ b.s) EN False False) ** {ns = True ; hn = False ; cnt = True} ;
     DetQ d = case d.alone of {
       True => (npr d.s EN False False) ** {dt = True ; hn = False} ;
       False => npr Predef.nonExist EV False False} ;
@@ -288,7 +289,8 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     NenD = {s = "nen" ; alone = False} ;
 
     PlainNP q = q ;
-    PiNP q n = q ** {s = seq q ("pi" ++ n.s) ; e = n.e ; p = pz q n.p ; cnt = n.cnt} ;
+    -- 9.2.7: two numbers joined by pi are a fraction (FracQ), never a part of a set; so no PiNP with a number on both sides
+    PiNP q n = q ** {s = case <q.ns, n.ns> of {<True, True> => Predef.nonExist ; _ => seq q ("pi" ++ n.s)} ; e = n.e ; p = pz q n.p ; cnt = n.cnt} ;
     RelNP q r = case r.p of {
       False => q ** {s = seq q r.s ; e = ER ; p = pz q False ; tm = False ; cnt = False} ;
       True => npr Predef.nonExist EV False False} ;

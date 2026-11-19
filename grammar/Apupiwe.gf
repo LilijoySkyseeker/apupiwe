@@ -177,6 +177,7 @@ abstract Apupiwe = Lex ** {
     NameKiyo : String -> NPq ;             -- 11.1 fo + name + kiyo: a name closed by kiyo may contain grammar words (author 2026-10-13)
     TitleName : CN -> String -> NPq ;      -- 10.1.2 title before the name; 5.4.4
     NumQ : Num -> NPq ;                    -- 5.2.4 a number alone
+    FracQ : Num -> Num -> NPq ;            -- 9.2.7 a fraction: number pi number (ni pi de 1/3)
     DetQ : Det -> NPq ;                    -- 5.2.8 a determiner alone; 4.8.2 yu "what"
     LabelQ : NPq -> Sub100 -> NPq ;        -- 5.2.5, 9.2.3 noun + mena + number: a label (quantity reading)
     LabelDigs : NPq -> Digs -> NPq ;       -- 9.2.3, 8.3.3 larger labels: digit reading

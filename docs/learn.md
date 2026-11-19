@@ -286,7 +286,7 @@ Many grammar words are spelled like English words and mean something else. Learn
 | **nun** | and | **mole nun sine** "mother and father" [§4.4.5](language.md#r-4-4-5) |
 | **ben** | done (finished) | **to ben nawi.** "I've eaten." [§8.1.2](language.md#r-8-1-2) |
 
-There are no words for "a" and "the". Usually context is enough. When it matters, use **yin** "this", **fin** "that", **kin** "some (unspecified)" or a number, as in **ewo kin** "someone" and **yefi kin** "something". These words go after the noun. Some can stand alone as a noun: **we** "all, everyone", **fe** "some", **pa** "none". For part of a whole, put the word or a number before **pi** and the noun: **ye pi silu la** "some of the photos", **ni pi de** "one of three". With **su**, **pa** doesn't cancel it out: **to su ibe poka pa** "I don't have any dogs". [§5.2.7](language.md#r-5-2-7) [§5.2.8](language.md#r-5-2-8) [§5.2.5](language.md#r-5-2-5) [§6.2.2](language.md#r-6-2-2)
+There are no words for "a" and "the". Usually context is enough. When it matters, use **yin** "this", **fin** "that", **kin** "some (unspecified)" or a number, as in **ewo kin** "someone" and **yefi kin** "something". These words go after the noun. Some can stand alone as a noun: **we** "all, everyone", **fe** "some", **pa** "none". For part of a whole, put the word or a number before **pi** and the noun: **ye pi silu la** "some of the photos", **sa pi ewo de** "two of the three people". With **su**, **pa** doesn't cancel it out: **to su ibe poka pa** "I don't have any dogs". [§5.2.7](language.md#r-5-2-7) [§5.2.8](language.md#r-5-2-8) [§5.2.5](language.md#r-5-2-5) [§6.2.2](language.md#r-6-2-2)
 
 ## Lesson 7: Of, at, to, from, with
 
@@ -373,7 +373,7 @@ To count things, put the number after the thing: **poka sa** "two dogs", **dili 
 
 Phone numbers, codes and years are read digit by digit too, so 2026 as a year is **sa mu sa ufo**. Phone numbers and codes are grouped in threes from the right. [§9.2.2](language.md#r-9-2-2)
 
-**mimi** is the decimal point, so **ni mimi ma** is 1.5, and **guti** is minus. Half is **timon**. As a number, 0.5 is **mu mimi ma**. A third is **ni pi de** "one of three". [§9.2.4](language.md#r-9-2-4) [§5.2.5](language.md#r-5-2-5)
+**mimi** is the decimal point, so **ni mimi ma** is 1.5, and **guti** is minus. Half is **timon**. As a number, 0.5 is **mu mimi ma**. A fraction is a number, **pi**, and the number of parts: **ni pi de** ⅓, **de pi wo** ¾. **sa pi de pi ewo la** is "two thirds of the people". [§9.2.4](language.md#r-9-2-4) [§9.2.7](language.md#r-9-2-7) [§5.2.5](language.md#r-5-2-5)
 
 
 ### Amounts and comparing

@@ -221,6 +221,7 @@ concrete ApupiweEng of Apupiwe = LexEng ** open SyntaxEng, (P=ParadigmsEng), (E=
     NameKiyo n = asNP (strNP n.s) ;
     TitleName cn n = asNP (mkNP (mkCN cn (strNP n.s))) ;
     NumQ n = asNP (case n.z of {True => strNP "0" ; False => mkNP (mkDet n.card)}) ;
+    FracQ a b = asNP (strNP ((mkUtt (mkNP (mkDet a.card))).s ++ "out of" ++ (mkUtt (mkNP (mkDet b.card))).s)) ;   -- 9.2.7
     DetQ d = asNP d.alone ;
     LabelQ q n = q ** {cn = mkCN q.cn (strNP n.s) ; np = addPost q.np n.s} ;
     LabelDigs q n = q ** {cn = mkCN q.cn (strNP n.s) ; np = addPost q.np n.s} ;
