@@ -12,7 +12,7 @@ A reading's structure is the set of units it builds, read from GF's bracketed Ap
 counting only units of two or more words: a one-word unit is a bare root in some role. Two readings
 with the same units differ only in the roles of bare roots. grammar/intended.tsv holds the
 intended structure of each sentence in this bracket notation, e.g.
-  to sin miya ewo gi sigo kiyo lin leso   [S to sin miya [NP ewo [REL gi sigo]] kiyo [ADV lin leso]]
+  to ben miya ewo gi sigo kiyo pu leso   [S to ben miya [NP ewo [REL gi sigo]] kiyo [ADV pu leso]]
 and whether the reference presents it as the precise form (then it must have one structural reading).
 
 Examples that aren't sentences: 2.10 (mm, huh?) is outside the grammar; an example made only of grammar
@@ -34,13 +34,13 @@ PGF = os.path.join(G, "Apupiwe.pgf")
 sys.path.insert(0, TOOLS)
 import spec as SPEC
 
-FILLER = "wan obu"          # "she comes": stands in for "…"
+FILLER = "mon obu"          # "she comes": stands in for "…"
 OUTSIDE = {"2.10", "9.2.5"}  # interjections carry no grammar (2.10); arithmetic read aloud is a reading of notation
                              # (9.2.5; author 2026-10-15: a notation reading, outside the sentence grammar like spelling aloud)
 # Single examples outside the reference grammar on purpose: words not in the lexicon (11.1, 11.3)
-OUTSIDE_SENT = {"mara sin obu": "casual speech: a name without en (11.1)",
+OUTSIDE_SENT = {"mara ben obu": "casual speech: a name without fo (11.1)",
                 "to nawi susi sa": "a speaker's borrowing, not in the lexicon (11.3)",
-                "to sin gugalu bun": "a speaker's borrowing used as a verb (11.3)"}
+                "to ben gugalu bun": "a speaker's borrowing used as a verb (11.3)"}
 UNIT = {"Cl0": "S", "Rel": "REL", "Adv": "ADV", "Manner": "ADV",
         "NP": "NP", "NPi": "NP", "NPq": "NP", "CN": "NP", "AP": "AP"}
 ORDER = ["S", "NP", "AP", "REL", "ADV"]
@@ -78,14 +78,14 @@ def gf(cmds):
 
 def tokens(sentence):
     """Words and pauses. A name runs from fo to the next grammar word or pause (11.1), so its words
-    are joined into one token for the grammar's String: fo xi jinping sin oyi -> fo xi_jinping sin oyi."""
+    are joined into one token for the grammar's String: fo xi jinping ben oyi -> fo xi_jinping ben oyi."""
     words = sentence.replace(",", " , ").split()
     out, i = [], 0
     while i < len(words):  # fo … kiyo: a name closed by kiyo may contain grammar words (11.1, 2026-10-13)
         # kiyo closes an open relative clause, built word or topic first (4.4.4, 5.3.5, 5.4.4); it closes a
         # name only when none is open since the last kiyo
         opened = words[:i][len(words[:i]) - words[:i][::-1].index("kiyo"):] if "kiyo" in words[:i] else words[:i]
-        if words[i] == "fo" and "kiyo" in words[i + 1:] and not set(opened) & {"gi", "no", "gen", "du", "pu"}:
+        if words[i] == "fo" and "kiyo" in words[i + 1:] and not set(opened) & {"gi", "win", "gen", "wa", "ban"}:
             j = words.index("kiyo", i + 1)
             if "," not in words[i + 1:j] and j > i + 1:
                 out += ["fo", "_".join(words[i + 1:j]), "kiyo"]

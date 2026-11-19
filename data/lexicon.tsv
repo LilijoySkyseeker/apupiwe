@@ -20,7 +20,7 @@ tongue	body	1	lisun
 hair	body	2	sonfa
 hand	body	4	kiti
 foot	body	3	sifi
-leg	body	2	bendo
+leg	body	2	sesen
 heart	body	3	sose
 blood	body	2	kenyan
 bone	body	2	yayun
@@ -34,7 +34,7 @@ stone	nature	3	wusu
 sky	nature	2	yaye
 sun	nature	3	feti
 month	time	2	dunan
-star	nature	2	nunma
+star	nature	2	segin
 rain	nature	3	gegi
 wind	nature	2	nensan
 tree	nature	3	gala
@@ -194,7 +194,7 @@ arrive	motion	2	liwon
 follow	motion	2	lefan
 carry	motion	2	dinyo
 push	motion	1	soneko
-pull	motion	1	nunya
+pull	motion	1	sekan
 throw	motion	1	kilayi
 turn, rotate or turn around	motion	2	menpu
 stop	motion	3	bamo
@@ -212,7 +212,7 @@ use	action	3	fone
 find	action	3	geno
 lose, misplace	action	2	agi
 protect	action	2	kuwi
-open	action	2	benbi
+open	action	2	selon
 close, shut	action	2	tapi
 cut	action	2	fonsu
 hit	action	2	payon
@@ -352,7 +352,7 @@ brain	body	2	lemon
 sweet	taste	2	santa
 sneeze	action	2	tinne
 horn	animal	2	yansi
-smooth	quality	2	windi
+smooth	quality	2	sesu
 lip	body	2	gonge
 touch	sense	2	sanne
 yawn	action	2	ganpa
@@ -362,7 +362,7 @@ deep	size	2	wonyu
 ant	animal	2	tonde
 testicles	body	2	bosun
 narrow	size	2	senwi
-buttocks	body	2	nunfo
+buttocks	body	2	sewu
 sour	taste	2	tufun
 flat, level	quality	2	sokun
 crooked	quality	2	ginda
@@ -537,13 +537,13 @@ window	thing	2	gonso
 chair	thing	2	yonwa
 spoon	thing	2	denka
 bottle	thing	2	denye
-knife	thing	2	nunse
+knife	thing	2	sepun
 soap	thing	2	kinin
 pillow	thing	2	fegen
 doctor	loan	4	dokutolu
 monkey	animal	2	tewin
 elephant	animal	2	kansa
-butterfly	animal	2	sense
+butterfly	animal	2	wanbo
 lion	animal	2	kopon
 frog	animal	2	solen
 train	thing	3	memo
@@ -693,7 +693,7 @@ spill	action	2	wenyo
 watermelon	nature	2	gofen
 soda	thing	2	fonsa
 spider	animal	2	tonfu
-mirror	thing	2	winka
+mirror	thing	2	seyo
 smile	sense	2	yeyan
 last, final	abstract	4	nano
 maize	nature	2	tinyun
@@ -827,7 +827,7 @@ real	quality	3	punpo
 danger	abstract	3	goto
 official, civil servant	people	3	dakun
 vote	action	2	sanmun
-hero	people	2	winbin
+hero	people	2	yendo
 communication	sense	2	panman
 limit	abstract	3	minu
 policy	people	2	sunsun
@@ -849,12 +849,12 @@ rise, go up	motion	3	yanwi
 modern	quality	2	yanyan
 expert	people	2	ginden
 judge (person; to judge)	people	2	kunnon
-possible	quality	3	winbo
+possible	quality	3	sepe
 machine	loan	3	masina
 industry	abstract	2	ninkon
 debt	abstract	2	kanfun
 president	people	3	teban
-activity	abstract	3	nunli
+activity	abstract	3	yenge
 test, exam	people	3	igin
 address (postal or email)	space	2	mogan
 map	thing	2	landan
@@ -922,7 +922,7 @@ captain	loan	2	kaputan
 luck	abstract	2	yungan
 stage, phase	abstract	2	gingun
 stage (theatre platform)	abstract	1	likafe
-honey	thing	2	kensen
+honey	thing	2	sanse
 react	action	2	yinpon
 size	size	2	poden
 model (simplified representation; fashion model)	loan	3	modelu
@@ -960,7 +960,7 @@ witness	people	2	finfon
 customer	people	2	panwo
 league (sports)	loan	2	liga
 serve	action	2	gonkan
-brave	quality	2	winsen
+brave	quality	2	yenli
 benefit	abstract	2	yanwon
 standard, norm	abstract	2	kangen
 escape	motion	3	somi
@@ -1014,7 +1014,7 @@ character, personality	mind	2	tede
 establish, found	action	2	nonlen
 expression (phrase; facial)	sense	1	yosapo
 job, occupation	abstract	4	yepo
-list	sense	3	benge
+list	sense	3	sema
 fresh	quality	1	nemisa
 screen (display)	thing	1	femigu
 campaign	people	1	yegufa
@@ -1078,7 +1078,7 @@ proud	mind	1	dusate
 perform	action	1	watesi
 gender	people	1	kigoyo
 claim	sense	2	miwin
-hell	abstract	2	benten
+hell	abstract	2	lunli
 guarantee	sense	1	wuyume
 terrorism	people	1	wiwigo
 airport	thing	2	bugun
@@ -1210,7 +1210,7 @@ credit	abstract	1	lebeto
 bar (place serving drinks)	loan	1	balu
 repeat	action	1	bukili
 responsible	quality	3	mona
-manage	action	2	mosen
+manage	action	2	dense
 release, let go	action	2	tanlin
 department	abstract	3	eye
 tradition	people	2	linsi
@@ -1257,7 +1257,7 @@ mud	nature	1	ganegu
 income	abstract	2	wenmun
 copper	nature	1	komisa
 band (music group)	abstract	1	mokimo
-honest	quality	2	kakin
+honest	quality	2	yenbun
 curse	action	1	tadota
 port, harbour	space	2	kinwin
 evolution	nature	1	sodida

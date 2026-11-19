@@ -29,7 +29,7 @@ guyi   gun  tugu.
 house  is   big
 "The house is big."
 
-pe ma       wan  gun  mon  guyi.
+pe ma       mon  gun  no   guyi.
 sure 5/6    she  is   at   house
 "She must be home."
 ```

@@ -52,10 +52,6 @@ bebu	yes	yes	disgust: action (disgust someone) or the feeling noun?
 bedan	yes	yes	
 bekan	no	no	
 bekin	no	no	
-benbi	yes	yes	
-bendo	no	no	
-benge	no	no	
-benten	no	no	
 bese	no	no	
 besube	no	no	
 bewon	no	no	
@@ -129,6 +125,7 @@ denka	no	no
 denku	no	no	
 denlan	no	no	
 dennin	no	no	
+dense	yes	yes	
 densun	no	no	
 denu	no	no	
 denwo	yes	yes	
@@ -472,7 +469,6 @@ kadeso	yes	yes	register: also intransitive (enrol)
 kafe	no	no	
 kafewe	no	no	
 kagun	no	no	
-kakin	no	no	
 kalendalu	no	no	
 kamela	no	no	
 kamon	no	no	
@@ -501,7 +497,6 @@ kenfi	yes	yes
 kenken	yes	yes	
 kenlo	no	no	
 kennun	no	no	
-kensen	no	no	
 kenta	no	no	field action, but the gloss is the basin; sink (go under) is gumewe
 kentu	no	no	
 kenwe	no	no	
@@ -686,6 +681,7 @@ lunbe	no	no
 lunfan	no	no	
 lungon	no	no	
 lunla	no	no	
+lunli	no	no	
 lunmun	no	no	
 lunsun	no	no	
 lunti	no	no	
@@ -776,7 +772,6 @@ momuge	no	no
 mona	no	no	
 monato	no	no	
 monin	yes	yes	shake: also intransitive (vibrate)
-mosen	yes	yes	
 mosu	yes	no	
 mosuli	no	no	
 moti	no	no	
@@ -884,13 +879,8 @@ nulu	yes	yes
 numase	no	no	
 nume	yes	no	live: takes a duration (to nume fawu ka yawu); no verb object
 numon	no	no	
-nunfo	no	no	
 nunini	yes	yes	
-nunli	no	no	
-nunma	no	no	
 nunole	no	no	
-nunse	no	no	
-nunya	yes	yes	
 nupen	no	no	
 nusan	no	no	
 nusese	no	no	
@@ -1003,6 +993,7 @@ sanlo	no	no
 sanmun	yes	no	vote: 'vote for X' may take an object
 sanne	yes	yes	
 sansan	yes	no	
+sanse	no	no	
 sanso	no	no	
 santa	no	no	
 sanwa	yes	yes	
@@ -1011,6 +1002,10 @@ sanwu	no	no
 sanyi	yes	yes	
 sanyon	no	no	
 sayitu	no	no	
+segin	no	no	
+sekan	yes	yes	
+selon	yes	yes	
+sema	no	no	
 sendi	no	no	
 senfa	no	no	
 senfu	yes	yes	
@@ -1021,13 +1016,18 @@ senmin	no	no
 senmo	no	no	
 sennan	no	no	
 sennu	no	no	
-sense	no	no	
 sentimetulu	no	no	
 sento	no	no	
 senwi	no	no	
 senya	no	no	
 senyen	no	no	
 senyun	no	no	
+sepe	no	no	
+sepun	no	no	
+sesen	no	no	
+sesu	no	no	
+sewu	no	no	
+seyo	no	no	
 siben	no	no	
 sidako	yes	yes	rape: event or the thing?
 siduyu	no	no	
@@ -1290,6 +1290,7 @@ wamu	yes	yes
 wamuse	no	no	
 wanafo	no	no	
 wanan	yes	no	
+wanbo	no	no	
 wane	no	no	
 waniki	no	no	
 wanole	no	no	
@@ -1325,13 +1326,8 @@ wikene	no	no
 wikun	no	no	
 wilopi	yes	no	
 wimuta	no	no	
-winbin	no	no	
-winbo	no	no	
-windi	no	no	
 wine	no	no	
-winka	no	no	
 wino	no	no	
-winsen	no	no	
 wisa	no	no	
 wisaya	no	no	
 wisiwe	yes	yes	
@@ -1424,6 +1420,10 @@ yegufa	no	no
 yekoni	no	no	
 yema	yes	yes	
 yemuku	no	no	
+yenbun	no	no	
+yendo	no	no	
+yenge	no	no	
+yenli	no	no	
 yepo	no	no	
 yesa	yes	yes	
 yesinu	no	no	

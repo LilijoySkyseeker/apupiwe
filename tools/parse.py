@@ -33,19 +33,19 @@ sentence: (call ",")? (opener ",")* actp? clop* clause ("," choice)? end*
 choice: "yu"
 end: ","? stance | "," call
 call: np
-opener: "bo" "win" | JOIN | relp | "pi" np | subcl
+opener: "bo" "yin" | JOIN | relp | "pi" np | subcl
 subcl: phop* SUBLINK clop* clause
-actp: ("genso" | "ba")? ACT "fin"* | "fin"+
-clop: "pe" (N | "pa") | SOURCE
+actp: ("genso" | "ka")? ACT "wu"* | "wu"+
+clop: "pe" (N | "kin") | SOURCE
 clause: (np | heavy)? predicate (","? JOIN (np | heavy)? predicate)*
 heavy: np ","
-predicate: phop* "manni"? (asp* | "le" "su") C (phop+ C)? det* ("pi" np)* relcl? obj? (obj | "," longobj)? result? ("gun" gunarg)? trail* | phop* "gun" gunarg trail*
+predicate: phop* "manni"? (asp* | "li" "su") C (phop+ C)? det* ("pi" np)* relcl? obj? (obj | "," longobj)? result? ("gun" gunarg)? trail* | phop* "gun" gunarg trail*
 // C (phop+ C): verb, operator, verb, as in kifa mu neke "must not give"; le mu "still not" (8.1.3)
 result: phop* C  // after a pronoun object: tula go bi yomo, "make/do it so" (4.2)
 longobj: np
 obj: np
-gunarg: np obj? result? | relp | "wun" clause
-trail: ","? relp | ","? subcl | "wun" "bi"? clop* clause
+gunarg: np obj? result? | relp | "me" clause
+trail: ","? relp | ","? subcl | "me" "bi"? clop* clause
 relp: phop* REL (np | np predicate | relp) | "fan" C obj | "fan" "gun" gunarg  // li + verb + its object: purpose
 np: phop* head det* ("pi" npi)* relcl? (JOIN np)?
 npi: phop* head det* ("pi" npi)* relcl?  // a pi phrase is one noun: a yen/lu list stays outside it (5.2)
@@ -54,18 +54,18 @@ relcl: "gi" clause REL?
 date: C "pi" N "," C "pi" N
 stance: "bi" | "yan" | "buni" | "donon"
 phop: PHOP | "min" | "su" | "pon" | "yon" | "ga" | "ke" | "ten"
-asp: "sin" | "le" | "buntu"
-det: DET | "mesun" | "yu" | "pa" | "nen"
+asp: "ben" | "li" | "buntu"
+det: DET | "mesun" | "yu" | "kin" | "nen"
 fragment: np | date | predicate | relp | subcl | "pi" np | stance | clop+ clause? | actp clause?
-ACT: "bi" | "ta" | "ti" | "fon" | "me" | "yo"
+ACT: "bi" | "lo" | "ti" | "fon" | "du" | "yo"
 SOURCE: "wanme" | "inwun" | "wemen"
-JOIN: "yen" | "lu" | "ka"
-SUBLINK: "don" | "lin" | "kon" | "ya" | "bo"
-REL: "anko" | "nuwen" | "mon" | "tun" | "se" | "nan" | "fan" | "ya" | "kon" | "fun" | "lin"
+JOIN: "nun" | "lu" | "won"
+SUBLINK: "sin" | "pu" | "kon" | "ya" | "bo"
+REL: "anko" | "nuwen" | "no" | "len" | "don" | "nan" | "fan" | "ya" | "kon" | "fun" | "pu"
 PHOP: "konsin" | "nedin" | "tason"
-DET: "la" | "win" | "ben" | "we" | "go" | "kin" | "fen"
-PRON: "to" | "nun" | "kan" | "din" | "wan" | "yi" | "son" | "dan" | "nen" | "bun"
-DERIV: "no" | "gen" | "du" | "pu"
+DET: "la" | "yin" | "fin" | "we" | "fe" | "ye" | "pa"
+PRON: "to" | "sen" | "kan" | "din" | "mon" | "tun" | "son" | "dan" | "nen" | "bun"
+DERIV: "win" | "gen" | "wa" | "ban"
 C: "C"
 N: "N"
 NAME: "NAME"
@@ -154,7 +154,7 @@ def readings(tree):
     trees = lark.visitors.CollapseAmbiguities().transform(tree)
     sigs = {signature(t) for t in trees[:5000]}
     # 4.6: a pause before the verb only after a subject holding a clause or a phrasal derived word
-    sigs = {sg for sg in sigs if all("relcl[" in h or re.match(r"(no|gen|du|pu) ", h)
+    sigs = {sg for sg in sigs if all("relcl[" in h or re.match(r"(win|gen|wa|ban) ", h)
                                      for h in re.findall(r"heavy\[([^]]*)", sg))}
     # 4.6: a pause between a recipient and a long object (here: more than one word)
     sigs = {sg for sg in sigs if all(len(o.split()) > 1 for o in re.findall(r"longobj\[([^]]*)", sg))}

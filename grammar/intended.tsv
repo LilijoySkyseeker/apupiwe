@@ -2,69 +2,69 @@ sentence	intended	precise	note
 apu pi we	[NP apu pi we]	no	
 nen nen	[NP nen nen]	no	
 feko feko	[AP feko feko]	no	doubling strengthens (1.5)
-bo win	[ADV bo win]	no	
+bo yin	[ADV bo yin]	no	
 guyi gun tugu	[S guyi gun tugu]	yes	
 to nuta	[S to nuta]	yes	
-ewo le tedo	[S ewo le tedo]	yes	
+ewo li tedo	[S ewo li tedo]	yes	
 ewo manni tedo	[S ewo manni tedo]	yes	
-ewo sin tedo	[S ewo sin tedo]	yes	
+ewo ben tedo	[S ewo ben tedo]	yes	
 mosu	mosu	no	
 fun	fun	no	
 nawi pasu fun yobe	[S nawi pasu [ADV fun yobe]]	no	
 nawi pasu yobe	[S nawi [NP pasu yobe]]	no	bare word after the object describes it (4.2.4)
 oyi tesin	[S oyi tesin]	no	
-wiwa nun nuta	[S wiwa nun nuta]	yes	
+wiwa sen nuta	[S wiwa sen nuta]	yes	
 walo alun	[S walo alun]	no	
 doyu pume	[S doyu pume]	no	
 tula	tula	no	
-tula upe win	[S tula upe win]	no	
-tula win fun upe	[S tula win [ADV fun upe]]	yes	
-mon minfi , wan obu	[ADV mon minfi] , [S wan obu]	no	
-pi tale la , no kuwi guyi , yidu bun la	pi [NP tale la] , [S [NP no kuwi guyi] , yidu [NP bun la]]	yes	
-pi upe yen yomo , wan obu	pi [NP upe yen yomo] , [S wan obu]	yes	
-lin	lin	no	
+tula upe yin	[S tula upe yin]	no	
+tula yin fun upe	[S tula yin [ADV fun upe]]	yes	
+no minfi , mon obu	[ADV no minfi] , [S mon obu]	no	
+pi tale la , win kuwi guyi , yidu bun la	pi [NP tale la] , [S [NP win kuwi guyi] , yidu [NP bun la]]	yes	
+pi upe nun yomo , mon obu	pi [NP upe nun yomo] , [S mon obu]	yes	
+pu	pu	no	
 kon	kon	no	
 ya	ya	no	
 anko	anko	no	
 nuwen	nuwen	no	
-sola gi gun mon fide pi yolan	[NP sola [REL gi gun [ADV mon [NP fide pi yolan]]]]	yes	
-to isi mon wuma kon dili ni	[S to isi [ADV mon [NP wuma kon [NP dili ni]]]]	yes	
-kon wan la yidu ewo pa	[ADV kon [S [NP wan la] yidu [NP ewo pa]]]	yes	
-se kusa	[ADV se kusa]	no	
-lin leso , to sin miya ewo gi sigo	[ADV lin leso] , [S to sin miya [NP ewo [REL gi sigo]]]	yes	
-to sin miya ewo gi sigo lin leso	[S to sin miya [NP ewo [REL gi sigo [ADV lin leso]]]]	yes	
-wan doku yen nawi mon guyi	[S wan doku yen nawi [ADV mon guyi]]	yes	
-mon guyi , wan doku yen nawi	[ADV mon guyi] , [S wan doku yen nawi]	yes	
-mole yen sine	[NP mole yen sine]	no	
-wan su nawi yen fimo	[S wan su nawi yen fimo]	yes	
-to nagu yen yidu bun	[S to nagu yen yidu bun]	yes	
+sola gi gun no fide pi yolan	[NP sola [REL gi gun [ADV no [NP fide pi yolan]]]]	yes	
+to isi no wuma kon dili ni	[S to isi [ADV no [NP wuma kon [NP dili ni]]]]	yes	
+kon mon la yidu ewo kin	[ADV kon [S [NP mon la] yidu [NP ewo kin]]]	yes	
+don kusa	[ADV don kusa]	no	
+pu leso , to ben miya ewo gi sigo	[ADV pu leso] , [S to ben miya [NP ewo [REL gi sigo]]]	yes	
+to ben miya ewo gi sigo pu leso	[S to ben miya [NP ewo [REL gi sigo [ADV pu leso]]]]	yes	
+mon doku nun nawi no guyi	[S mon doku nun nawi [ADV no guyi]]	yes	
+no guyi , mon doku nun nawi	[ADV no guyi] , [S mon doku nun nawi]	yes	
+mole nun sine	[NP mole nun sine]	no	
+mon su nawi nun fimo	[S mon su nawi nun fimo]	yes	
+to nagu nun yidu bun	[S to nagu nun yidu bun]	yes	
 nufi yu	[NP nufi yu]	no	
 moti	moti	no	
-nagu nun la mon dili mena ufo	[S nagu [NP nun la] [ADV mon [NP dili mena ufo]]]	no	
+nagu sen la no dili mena ufo	[S nagu [NP sen la] [ADV no [NP dili mena ufo]]]	no	
 gun nasi	[S gun nasi]	no	
 ten upe	[AP ten upe]	no	a bare state (4.5.2)
 ibe	ibe	no	
-wan gun tiwu	[S wan gun tiwu]	yes	
-wan gun mon guyi	[S wan gun [ADV mon guyi]]	yes	
+mon gun tiwu	[S mon gun tiwu]	yes	
+mon gun no guyi	[S mon gun [ADV no guyi]]	yes	
 gun tapi	[S gun tapi]	yes	
-wan gun kuwi	[S wan gun kuwi]	yes	
+mon gun kuwi	[S mon gun kuwi]	yes	
 to gun nuta	[S to gun nuta]	yes	
 momu gun tiwu	[S momu gun tiwu]	yes	
 dan ibe sogan fan gun kuwi	[S dan ibe sogan [ADV fan [S gun kuwi]]]	yes	
-wan obu yen gun simi	[S wan obu yen gun simi]	yes	
+mon obu nun gun simi	[S mon obu nun gun simi]	yes	
 ibe pasu	[S ibe pasu]	no	ibe with no subject: there is (4.7.7)
 su ibe pasu	[S su ibe pasu]	no	
-ka , ibe yefi fefa	ka , [S ibe [NP yefi fefa]]	no	
-don ibe pasu	[ADV don [S ibe pasu]]	yes	
+won , ibe yefi fefa	won , [S ibe [NP yefi fefa]]	no	
+sin ibe pasu	[ADV sin [S ibe pasu]]	yes	
 to ibe pasu	[S to ibe pasu]	yes	
-nun momu wun to oyi yu	[S nun momu wun [S to oyi yu]]	yes	
+sen momu me to oyi yu	[S sen momu me [S to oyi yu]]	yes	
 ewo wifu yu	[NP ewo wifu yu]	no	
-bi wan obu lu wan obu	bi [S wan obu] lu [S wan obu]	no	
-to su loya wun bi wan obu	[S to su loya wun bi [S wan obu]]	yes	
-to su loya wun bi ewo yu obu	[S to su loya wun bi [S [NP ewo yu] obu]]	no	
+bi mon obu lu mon obu	bi [S mon obu] lu [S mon obu]	no	
+to su loya me bi mon obu	[S to su loya me bi [S mon obu]]	yes	
+to su loya me bi ewo yu obu	[S to su loya me bi [S [NP ewo yu] obu]]	no	
 guyi tugu	[NP guyi tugu]	no	the gloss is the description; 4.2.2 also allows the statement
 tiwu futa	[NP tiwu futa]	no	
-no wungu futa	[NP [NP no wungu] futa]	no	
+win wungu futa	[NP [NP win wungu] futa]	no	
 yawu gun upe	[S yawu gun upe]	no	
 wuma gun upe	[S wuma gun upe]	no	
 dili oma	[NP dili oma]	no	
@@ -73,48 +73,48 @@ bifo mena de	[NP bifo mena de]	yes
 ewo mena ni	[NP ewo mena ni]	yes	
 bifo pi fugi	[NP bifo pi fugi]	yes	
 ni pi de	[NP ni pi de]	yes	
-guyi win	[NP guyi win]	no	
-ewo pa	[NP ewo pa]	no	
-yefi pa	[NP yefi pa]	no	
-pu nume mesun	[NP [NP pu nume] mesun]	no	
-to iko ben tun wan	[S to iko ben [ADV tun wan]]	yes	
+guyi yin	[NP guyi yin]	no	
+ewo kin	[NP ewo kin]	no	
+yefi kin	[NP yefi kin]	no	
+ban nume mesun	[NP [NP ban nume] mesun]	no	
+to iko fin len mon	[S to iko fin [ADV len mon]]	yes	
 we	we	no	
-go	go	no	
-fen	fen	no	
-kin pi silu la	[NP kin pi [NP silu la]]	yes	
+fe	fe	no	
+pa	pa	no	
+ye pi silu la	[NP ye pi [NP silu la]]	yes	
 guyi pi fo mara	[NP guyi pi [NP fo mara]]	yes	
-enpa pi pume yen enpa pi lite pi dakuwu	[NP [NP enpa pi pume] yen [NP enpa pi [NP lite pi dakuwu]]]	yes	
+enpa pi pume nun enpa pi lite pi dakuwu	[NP [NP enpa pi pume] nun [NP enpa pi [NP lite pi dakuwu]]]	yes	
 to ibe guyi pi nen	[S to ibe [NP guyi pi nen]]	yes	
-guyi gi fo mara yen to ibe	[NP guyi [REL gi [NP [NP fo mara] yen to] ibe]]	yes	
+guyi gi fo mara nun to ibe	[NP guyi [REL gi [NP [NP fo mara] nun to] ibe]]	yes	
 ewo gi tedo	[NP ewo [REL gi tedo]]	yes	
-natun gi nun la yaga	[NP natun [REL gi [NP nun la] yaga]]	yes	
-fela gi to nume mon	[NP fela [REL gi to nume mon]]	yes	
+natun gi sen la yaga	[NP natun [REL gi [NP sen la] yaga]]	yes	
+fela gi to nume no	[NP fela [REL gi to nume no]]	yes	
 wonnun gi to fonsu nan	[NP wonnun [REL gi to fonsu nan]]	yes	
-ewo gi guyi pi wan gun tugu	[NP ewo [REL gi guyi pi wan gun tugu]]	yes	
+ewo gi guyi pi mon gun tugu	[NP ewo [REL gi guyi pi mon gun tugu]]	yes	
 ewo gi nagu	[NP ewo [REL gi nagu]]	yes	
-to sin miya ewo gi sigo kiyo lin leso	[S to sin miya [NP ewo [REL gi sigo]] kiyo [ADV lin leso]]	yes	
-no febo	[NP no febo]	no	
+to ben miya ewo gi sigo kiyo pu leso	[S to ben miya [NP ewo [REL gi sigo]] kiyo [ADV pu leso]]	yes	
+win febo	[NP win febo]	no	
 gen iko	[NP gen iko]	no	
-du bubo	[NP du bubo]	no	
-pu tedo	[NP pu tedo]	no	
-du kuwi pi to	[NP [NP du kuwi] pi to]	yes	
-no isi se guyi	[NP no isi [ADV se guyi]]	no	second reading (a bare root as a noun + a relation phrase, 4.4.1) means the same
+wa bubo	[NP wa bubo]	no	
+ban tedo	[NP ban tedo]	no	
+wa kuwi pi to	[NP [NP wa kuwi] pi to]	yes	
+win isi don guyi	[NP win isi [ADV don guyi]]	no	second reading (a bare root as a noun + a relation phrase, 4.4.1) means the same
 ewo gi gun wiwa	[NP ewo [REL gi gun wiwa]]	yes	
-pu pi natun	[NP pu pi natun]	yes	
-no obu se yaye	[NP no obu [ADV se yaye]]	no	second reading (a bare root as a noun + a relation phrase, 4.4.1) means the same
+ban pi natun	[NP ban pi natun]	yes	
+win obu don yaye	[NP win obu [ADV don yaye]]	no	second reading (a bare root as a noun + a relation phrase, 4.4.1) means the same
 su upe	[AP su upe]	no	
 yomo	yomo	no	
-ga mon loso , wan obu	[ADV ga [ADV mon loso]] , [S wan obu]	yes	
-wan doku su mon guyi	[S wan doku [ADV su [ADV mon guyi]]]	yes	
+ga no loso , mon obu	[ADV ga [ADV no loso]] , [S mon obu]	yes	
+mon doku su no guyi	[S mon doku [ADV su [ADV no guyi]]]	yes	
 to su yidu bun	[S to su yidu bun]	yes	
-min fo tomas sin yidu bun	[S [NP min [NP fo tomas]] sin yidu bun]	yes	
+min fo tomas ben yidu bun	[S [NP min [NP fo tomas]] ben yidu bun]	yes	
 to min unfu	[S to min unfu]	yes	
 ke tugu	[AP ke tugu]	no	
 nasi ke uyo	[NP nasi [AP ke uyo]]	no	
-ta to nagu	ta [S to nagu]	yes	
-ta dakuwu kuwi nun	ta [S dakuwu kuwi nun]	yes	
-genso bi nun loya	genso bi [S nun loya]	yes	
-mon wuma , gegi nuwo	[ADV mon wuma] , [S gegi nuwo]	no	
+lo to nagu	lo [S to nagu]	yes	
+lo dakuwu kuwi sen	lo [S dakuwu kuwi sen]	yes	
+genso bi sen loya	genso bi [S sen loya]	yes	
+no wuma , gegi nuwo	[ADV no wuma] , [S gegi nuwo]	no	
 nan momu	[ADV nan momu]	no	
 su nan momu	[ADV su [ADV nan momu]]	no	
 bifo sa	[NP bifo sa]	no	
@@ -122,14 +122,14 @@ wuma kon dili ni	[NP wuma kon [NP dili ni]]	yes
 kon nelon ni	[ADV kon [NP nelon ni]]	no	
 ya dunan ni	[ADV ya [NP dunan ni]]	no	
 yiwo de	[NP yiwo de]	no	
-lin dili oma	[ADV lin [NP dili oma]]	no	
+pu dili oma	[ADV pu [NP dili oma]]	no	
 to nume fawu de yawu	[S to nume [NP fawu de yawu]]	no	
-mon mu tuli de mu	[ADV mon [NP mu tuli de mu]]	yes	
-mon sa ni de mu	[ADV mon [NP sa ni de mu]]	yes	
-mon tuli de mu pi yami	[ADV mon [NP [NP tuli de mu] pi yami]]	yes	
-mon yawu mu sa	[ADV mon [NP yawu mu sa]]	yes	
-mon yawu sa	[ADV mon [NP yawu sa]]	yes	
-mon fun minfi	[ADV mon [NP fun minfi]]	yes	
+no mu tuli de mu	[ADV no [NP mu tuli de mu]]	yes	
+no sa ni de mu	[ADV no [NP sa ni de mu]]	yes	
+no tuli de mu pi yami	[ADV no [NP [NP tuli de mu] pi yami]]	yes	
+no yawu mu sa	[ADV no [NP yawu mu sa]]	yes	
+no yawu sa	[ADV no [NP yawu sa]]	yes	
+no fun minfi	[ADV no [NP fun minfi]]	yes	
 dili mena de	[NP dili mena de]	yes	
 dili mena de pi dunan	[NP [NP dili mena de] pi dunan]	yes	
 dili mena de pi isi	[NP [NP dili mena de] pi isi]	yes	
@@ -137,84 +137,84 @@ dunan mena yawu , dili mena tuli	[NP [NP dunan mena yawu] , [NP dili mena tuli]]
 fawu mena sa mu sa ufo	[NP fawu mena sa mu sa ufo]	yes	
 dili mena yawu wo	[NP dili mena yawu wo]	yes	
 ewo fun de yawu	[NP ewo fun de yawu]	no	
-ke tugu se guyi ben	[AP ke tugu se [NP guyi ben]]	no	
-ke tugu se we	[AP ke tugu se we]	no	
+ke tugu don guyi fin	[AP ke tugu don [NP guyi fin]]	no	
+ke tugu don we	[AP ke tugu don we]	no	
 ke meli	[AP ke meli]	no	
 tugu fun bun	[AP tugu fun bun]	no	
 kilometulu ma	[NP kilometulu ma]	no	
-no wiwa fo mara	[NP [NP no wiwa] fo mara]	yes	
-no wiwa fo mara sin oyi	[S [NP [NP no wiwa] fo mara] sin oyi]	yes	
+win wiwa fo mara	[NP [NP win wiwa] fo mara]	yes	
+win wiwa fo mara ben oyi	[S [NP [NP win wiwa] fo mara] ben oyi]	yes	
 lanno fo olusegun	[NP lanno fo olusegun]	yes	
 lanno faba pi sine	[NP [NP lanno faba] pi sine]	yes	
-lanno , ta fin wan obu	lanno , ta fin [S wan obu]	no	
-lanno sin oyi	[S lanno sin oyi]	yes	
-ta fin wan obu	ta fin [S wan obu]	no	
-yo fin osa le obu	yo fin [S osa le obu]	no	
-fon fin kan wupi isi	fon fin [S kan wupi isi]	no	
+lanno , lo wu mon obu	lanno , lo wu [S mon obu]	no	
+lanno ben oyi	[S lanno ben oyi]	yes	
+lo wu mon obu	lo wu [S mon obu]	no	
+yo wu osa li obu	yo wu [S osa li obu]	no	
+fon wu kan wupi isi	fon wu [S kan wupi isi]	no	
 upe leso	[NP upe leso]	no	a fixed routine (10.2.5): structure not stated
 upe isi	[NP upe isi]	no	a fixed routine (10.2.5): structure not stated
-wan	wan	no	
-wan nagu yi	[S wan nagu yi]	no	
+mon	mon	no	
+mon nagu tun	[S mon nagu tun]	no	
 bun	bun	no	
-nun momu bun lu ben , yu	[S nun momu [NP bun lu ben]] , yu	no	
-ben gun upe	[S ben gun upe]	no	
+sen momu bun lu fin , yu	[S sen momu [NP bun lu fin]] , yu	no	
+fin gun upe	[S fin gun upe]	no	
 to kuwi nen	[S to kuwi nen]	yes	
-wan nen obu	[S [NP wan nen] obu]	yes	
-nun la	[NP nun la]	no	
+mon nen obu	[S [NP mon nen] obu]	yes	
+sen la	[NP sen la]	no	
 doku	doku	no	
-don pe mu to sin isi , to sin nagu wan	[ADV don pe mu [S to sin isi]] , [S to sin nagu wan]	yes	
+sin pe mu to ben isi , to ben nagu mon	[ADV sin pe mu [S to ben isi]] , [S to ben nagu mon]	yes	
 nebi	nebi	no	
 kifa	kifa	no	
 wupi	wupi	no	
 efon	efon	no	
-nun gun efon nawi	[S nun gun efon nawi]	yes	
+sen gun efon nawi	[S sen gun efon nawi]	yes	
 fan bika	[ADV fan bika]	no	
 to doku anko lokagi	[S to doku [ADV anko lokagi]]	yes	
-wan obu nuwen nasi	[S wan obu [ADV nuwen nasi]]	yes	
-se	se	no	
-kuwi wan se ben	[S kuwi wan [ADV se ben]]	yes	
+mon obu nuwen nasi	[S mon obu [ADV nuwen nasi]]	yes	
+don	don	no	
+kuwi mon don fin	[S kuwi mon [ADV don fin]]	yes	
 ninsu	ninsu	no	
 gufu	gufu	no	
 apu	apu	no	
-momu isi tun guyi	[S momu isi [ADV tun guyi]]	no	second reading (a bare root as a noun + a relation phrase, 4.4.1) means the same
+momu isi len guyi	[S momu isi [ADV len guyi]]	no	second reading (a bare root as a noun + a relation phrase, 4.4.1) means the same
 bo yu	[ADV bo yu]	no	
 guyi gi beya pi bun gun tapi	[NP guyi [REL gi beya pi bun gun tapi]]	yes	
-pe pa wan obu	pe pa [S wan obu]	yes	
-pe de yawu pi loki wan obu	pe de yawu pi loki [S wan obu]	yes	
-to le su nawi	[S to le su nawi]	yes	
-to su sin nawi	[S to su sin nawi]	yes	
-fo xi_jinping sin oyi	[S [NP fo xi_jinping] sin oyi]	yes	a name runs to the next grammar word (11.1); gf_check joins its words
-to nawi pasu , yen fimo	[S to nawi pasu , yen fimo]	yes	
-wan sin oyi bun , yan bi	[S wan sin oyi bun] , yan bi	yes	
+pe kin mon obu	pe kin [S mon obu]	yes	
+pe de yawu pi loki mon obu	pe de yawu pi loki [S mon obu]	yes	
+to li su nawi	[S to li su nawi]	yes	
+to su ben nawi	[S to su ben nawi]	yes	
+fo xi_jinping ben oyi	[S [NP fo xi_jinping] ben oyi]	yes	a name runs to the next grammar word (11.1); gf_check joins its words
+to nawi pasu , nun fimo	[S to nawi pasu , nun fimo]	yes	
+mon ben oyi bun , yan bi	[S mon ben oyi bun] , yan bi	yes	
 obu	obu	no	
 ti su kusa	ti [S su kusa]	yes	
-to su ibe poka fen	[S to su ibe [NP poka fen]]	no	
-to sin le nawi	[S to sin le nawi]	yes	
-to sin ditun bun mon fo google	[S to sin ditun bun [ADV mon [NP fo google]]]	yes	
+to su ibe poka pa	[S to su ibe [NP poka pa]]	no	
+to ben li nawi	[S to ben li nawi]	yes	
+to ben ditun bun no fo google	[S to ben ditun bun [ADV no [NP fo google]]]	yes	
 osa nan tanun tufun	[NP osa nan [NP tanun tufun]]	no	
-du siten sokun kiyo tikun	[NP [NP du siten sokun] kiyo tikun]	no	
-du siten sokun	[NP du siten sokun]	no	
-fo cuerpo_de_paz kiyo sin obu	[S [NP fo cuerpo_de_paz kiyo] sin obu]	yes	
-guyi gi fo mara sin miya kiyo gun tugu	[S [NP guyi [REL gi [NP fo mara] sin miya]] kiyo gun tugu]	yes	
-bi nun obu , bi	bi [S nun obu] , bi	yes	
+wa siten sokun kiyo tikun	[NP [NP wa siten sokun] kiyo tikun]	no	
+wa siten sokun	[NP wa siten sokun]	no	
+fo cuerpo_de_paz kiyo ben obu	[S [NP fo cuerpo_de_paz kiyo] ben obu]	yes	
+guyi gi fo mara ben miya kiyo gun tugu	[S [NP guyi [REL gi [NP fo mara] ben miya]] kiyo gun tugu]	yes	
+bi sen obu , bi	bi [S sen obu] , bi	yes	
 to obu	[S to obu]	yes	
-pe de wan sin oyi bun , bi	pe de [S wan sin oyi bun] , bi	yes	
+pe de mon ben oyi bun , bi	pe de [S mon ben oyi bun] , bi	yes	
 feko	feko	no	answer word
 su feko	[AP su feko]	no	answer; bare NP reading harmless
-bi nun su obu	bi [S nun su obu]	yes	
-nunma	nunma	no	word gloss
-beya sin tapi	[S beya sin tapi]	yes	
-fileni sin alun	[S fileni sin alun]	yes	
-fo mara sin ibe fileni	[S [NP fo mara] sin ibe fileni]	no	name + verb readings
-wan sin alun	[S wan sin alun]	yes	
+bi sen su obu	bi [S sen su obu]	yes	
+segin	segin	no	word gloss
+beya ben tapi	[S beya ben tapi]	yes	
+fileni ben alun	[S fileni ben alun]	yes	
+fo mara ben ibe fileni	[S [NP fo mara] ben ibe fileni]	no	name + verb readings
+mon ben alun	[S mon ben alun]	yes	
 nen	nen	no	word gloss
-fela gi to nume mon bun	[NP fela [REL gi to nume [ADV mon bun]]]	yes	
+fela gi to nume no bun	[NP fela [REL gi to nume [ADV no bun]]]	yes	
 to ibe lipo wiwi buda	[S to ibe [NP [NP lipo wiwi] buda]]	no	each describing word describes the noun (5.2.11)
 to ibe lipo wiwi tan buda	[S to ibe [NP lipo [AP wiwi tan buda]]]	yes	tan: buda describes wiwi (5.2.11)
 lipo gun wiwi tan buda	[S lipo gun [AP wiwi tan buda]]	yes	
-poka fi	[NP poka fi]	no	fi right after the noun (5.2.12)
-fo mara fi	[NP fo mara fi]	no	
-poka fi tugu	[NP [NP poka fi] tugu]	no	fi before the describing words
-fo mara fi obu	[S [NP fo mara fi] obu]	yes	fi ends the name (5.2.12, 11.1)
-to nawi sa bifo mon dili mesun	[S to nawi sa bifo [ADV mon [NP dili mesun]]]	no	relation phrase may also attach to the noun (4.4.1)
-to neke de yefi tun ewo mesun	[S to neke de yefi [ADV tun [NP ewo mesun]]]	no	relation phrase may also attach to the noun (4.4.1)
+poka wan	[NP poka wan]	no	fi right after the noun (5.2.12)
+fo mara wan	[NP fo mara wan]	no	
+poka wan tugu	[NP [NP poka wan] tugu]	no	fi before the describing words
+fo mara wan obu	[S [NP fo mara wan] obu]	yes	fi ends the name (5.2.12, 11.1)
+to nawi sa bifo no dili mesun	[S to nawi sa bifo [ADV no [NP dili mesun]]]	no	relation phrase may also attach to the noun (4.4.1)
+to neke de yefi len ewo mesun	[S to neke de yefi [ADV len [NP ewo mesun]]]	no	relation phrase may also attach to the noun (4.4.1)

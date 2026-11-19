@@ -89,7 +89,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     NoCall = {first, last = []} ;
     SomeCall c = {first = c.s ++ "," ; last = "," ++ c.s} ;
     CallName n = ss ("fo" ++ n.s) ;
-    CallNameFi n = ss ("fo" ++ n.s ++ "fi") ;
+    CallNameFi n = ss ("fo" ++ n.s ++ "wan") ;
     CallN n = ss n.s ;
     CallLanno = ss "lanno" ;
     LannoCall c = ss ("lanno" ++ c.s) ;
@@ -103,7 +103,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     MkSent l f c k = ss (l.s ++ f.s ++ c.s ++ k.s) ;
     NoLink = ss [] ;
     Link k = ss (k.s ++ ",") ;
-    GiTan = ss ("bo" ++ "win") ; UnL = ss "ka" ; YenL = ss "yen" ;
+    GiTan = ss ("bo" ++ "yin") ; UnL = ss "won" ; YenL = ss "nun" ;
     NoFrame = ss [] ;
     Scene a = case a.sc of {True => ss (a.s ++ ",") ; False => no} ;
     Topic np = case np.p of {False => ss ("pi" ++ np.s ++ ("," | "kiyo")) ; True => no} ;
@@ -118,16 +118,16 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     PartAct p = ss p.s ;
     PartNun p n = ss (p.s ++ n.s) ;
     NunAct n = n ;
-    Nun1 = ss "fin" ; NunNun = ss ("fin" ++ "fin") ;
-    MinP = {s = "bi" ; m = False} ; So = {s = "ta" ; m = False} ; Tin = {s = "ti" ; m = False} ;
-    Fon = {s = "fon" ; m = False} ; De = {s = "me" ; m = False} ; Yo = {s = "yo" ; m = False} ;
-    BaP = {s = "ba" ; m = True} ; GensoP = {s = "genso" ; m = True} ;
+    Nun1 = ss "wu" ; NunNun = ss ("wu" ++ "wu") ;
+    MinP = {s = "bi" ; m = False} ; So = {s = "lo" ; m = False} ; Tin = {s = "ti" ; m = False} ;
+    Fon = {s = "fon" ; m = False} ; De = {s = "du" ; m = False} ; Yo = {s = "yo" ; m = False} ;
+    BaP = {s = "ka" ; m = True} ; GensoP = {s = "genso" ; m = True} ;
     YoYo = {s = "yo" ++ "yo" ; m = True} ; GensoGenso = {s = "genso" ++ "genso" ; m = True} ;
     ModPart pm p = case p.m of {True => {s = Predef.nonExist ; m = True} ; False => {s = pm.s ++ p.s ; m = True}} ;
-    GensoM = ss "genso" ; BaM = ss "ba" ;
+    GensoM = ss "genso" ; BaM = ss "ka" ;
 
     MkCl cf sr c = c ** {s = cf.s ++ sr.s ++ c.s} ;
-    NoConf = ss [] ; Kon n = ss ("pe" ++ n.s) ; KonOf n m = ss ("pe" ++ n.s ++ "pi" ++ m.s) ; KonBo = ss ("pe" ++ "pa") ;
+    NoConf = ss [] ; Kon n = ss ("pe" ++ n.s) ; KonOf n m = ss ("pe" ++ n.s ++ "pi" ++ m.s) ; KonBo = ss ("pe" ++ "kin") ;
     NoSrc = ss [] ; Wanme = ss "wanme" ; Inwun = ss "inwun" ; Wemen = ss "wemen" ;
 
     PredCl np vp = {s = seq np vp.s ; e = vp.e ; p = pz np vp.p ; sj = True} ;
@@ -142,10 +142,10 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
       <True, True> => v ** {s = h.s ++ a.s ++ v.s} ;
       _ => v ** {s = h.s ++ a.s ++ v.s ; w1 = False}} ;
     OpVP o v = v ** {s = o.s ++ v.s ; w1 = False} ;
-    StillNot h v = v ** {s = h.s ++ "le" ++ "su" ++ v.s ; w1 = False} ;
+    StillNot h v = v ** {s = h.s ++ "li" ++ "su" ++ v.s ; w1 = False} ;
     NoHab = {s = [] ; e = True} ; Manni = {s = "manni" ; e = False} ;
     NoAsp = {s = [] ; e = True} ; SomeAsp a = {s = a.s ; e = False} ;
-    Sin = ss "sin" ; Le = ss "le" ; Buntu = ss "buntu" ; SinLe = ss ("sin" ++ "le") ;
+    Sin = ss "ben" ; Le = ss "li" ; Buntu = ss "buntu" ; SinLe = ss ("ben" ++ "li") ;
     Mu = op "su" ; Na = op "ga" ; Fe = op "pon" ; Wi = op "yon" ; O = op "min" ;
     Konsin = op "konsin" ; Nedin = op "nedin" ;
     Ke = {s = "ke" ; ke = True} ; Bi = op "ten" ; Tason = op "tason" ;
@@ -183,8 +183,8 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     ComplVV v c = case v.obj of {
       True => (vpc (v.s ++ c.s) c.e c.p c.et c.ek v.obj) ** {vv = True} ;
       False => vpc Predef.nonExist EV False False False False} ;
-    ComplWun v c = vpc (v.s ++ "wun" ++ c.s) EC c.p False False v.obj ;
-    ComplWunMin v c = vpc (v.s ++ "wun" ++ "bi" ++ c.s) EC c.p False False v.obj ;
+    ComplWun v c = vpc (v.s ++ "me" ++ c.s) EC c.p False False v.obj ;
+    ComplWunMin v c = vpc (v.s ++ "me" ++ "bi" ++ c.s) EC c.p False False v.obj ;
     MugeRes v a np = case v.res of {
       True => vpc (v.s ++ seq a np.s) np.e (pz a np.p) np.tm False True ;
       False => vpc Predef.nonExist EV False False False False} ;
@@ -203,7 +203,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     GunVV v c = case <v.act, v.obj> of {
       <True, True> => (vpc ("gun" ++ v.s ++ c.s) c.e c.p c.et c.ek False) ** {vv = True} ;
       _ => vpc Predef.nonExist EV False False False False} ;
-    GunWun c = vpc ("gun" ++ "wun" ++ c.s) EC c.p False False False ;
+    GunWun c = vpc ("gun" ++ "me" ++ c.s) EC c.p False False False ;
 
     PrepNP pr np = {s = pr.s ++ np.s ; e = np.e ; p = np.p ; et = np.tm ; wy = pr.wy ; sc = True ; cd = False ; se = pr.se} ;
     PrepCl pr c = {s = pr.s ++ c.s ; e = EC ; p = c.p ; et = False ; wy = pr.wy ; sc = notB pr.cd ; cd = pr.cd ; se = pr.se} ;
@@ -211,22 +211,22 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     SubCl sb c = (adv (sb.s ++ c.s) EC c.p) ** {cd = True} ;
     GiNP np = adv ("bo" ++ np.s) np.e np.p ;
     OpAdv o a = a ** {s = o.s ++ a.s} ;
-    Mon = prep "mon" False False False ; Tun = prep "tun" False False False ;
-    Se = prep "se" False True False ; Gan = prep "nan" False False False ;
+    Mon = prep "no" False False False ; Tun = prep "len" False False False ;
+    Se = prep "don" False True False ; Gan = prep "nan" False False False ;
     Li = prep "fan" False False False ; Ya = prep "ya" True False True ;
     Wo = prep "kon" True False True ; Fu = (prep "fun" False False False) ** {mn = True} ;
-    Nin = prep "lin" False False True ; Anko = prep "anko" False False False ;
+    Nin = prep "pu" False False True ; Anko = prep "anko" False False False ;
     Nuwen = prep "nuwen" False False False ;
-    Don = ss "don" ; Gi = ss "bo" ;
+    Don = ss "sin" ; Gi = ss "bo" ;
 
     UseA a = {s = a.s ; e = gend a.gd ; p = False ; act = a.act ; ek = False ; gd = a.gd} ;
     OpAP o a = {s = o.s ++ a.s ; e = a.e ; p = a.p ; act = False ; ek = o.ke ; gd = False} ;
-    CompAP a np = {s = "ke" ++ a.s ++ "se" ++ np.s ; e = np.e ; p = np.p ; act = False ; ek = False ; gd = False} ;
+    CompAP a np = {s = "ke" ++ a.s ++ "don" ++ np.s ; e = np.e ; p = np.p ; act = False ; ek = False ; gd = False} ;
     EquAP a np = {s = a.s ++ "fun" ++ np.s ; e = np.e ; p = np.p ; act = a.act ; ek = False ; gd = False} ;
     RedupA a = {s = a.s ++ a.s ; e = EV ; p = False ; act = a.act ; ek = False ; gd = False} ;
     ModMod a b = {s = a.s ++ "tan" ++ b.s ; e = EV ; p = False ; act = False ; ek = False ; gd = False} ;
 
-    EndearN n = {s = n.s ++ "fi" ; e = EN ; p = False ; tm = n.tm ; ba = n.act ; w1 = False} ;
+    EndearN n = {s = n.s ++ "wan" ; e = EN ; p = False ; tm = n.tm ; ba = n.act ; w1 = False} ;
     UseN n = {s = n.s ; e = case n.gd of {True => EG ; False => EN} ; p = False ; tm = n.tm ; ba = n.act ; w1 = True} ;
     -- 5.4.4: a gender word after a phrasal derived word is outside it, with no pause
     ModCN cn a =
@@ -249,7 +249,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     DerivPi d np = {s = d.s ++ "pi" ++ np.s ; e = np.e ; p = np.p ; tm = False ; ba = False ; w1 = False} ;
     LannoCN cn = cn ** {s = "lanno" ++ cn.s ; ba = False ; w1 = False} ;
     Lanno = {s = "lanno" ; e = EN ; p = False ; tm = False ; ba = False ; w1 = False} ;
-    No = ss "no" ; Ge = ss "gen" ; Du = ss "du" ; Pu = ss "pu" ;
+    No = ss "win" ; Ge = ss "gen" ; Du = ss "wa" ; Pu = ss "ban" ;
 
     QuantCN cn n l d = case <n.e, l.e, d.e> of {
       <True, True, True> => {s = cn.s ++ n.s ++ l.s ++ d.s ; e = cn.e ; p = cn.p ; tm = cn.tm ; ba = cn.ba ; dt = False ; ns = False ; hn = True ; cnt = True ; rs = False} ;
@@ -257,7 +257,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
             rs = andB cn.w1 (andB l.e (orB (andB n.e d.al) (andB (notB n.e) d.e)))}} ;
     PronQ pr l d = npr (pr.s ++ l.s ++ d.s) EN False False ;
     NameQ n = npr ("fo" ++ n.s) EM False False ;
-    NameFi n = npr ("fo" ++ n.s ++ "fi") EN False False ;
+    NameFi n = npr ("fo" ++ n.s ++ "wan") EN False False ;
     NameKiyo n = npr ("fo" ++ n.s ++ "kiyo") EM False False ;
     TitleName cn n = case cn.e of {
       ER | EC => npr Predef.nonExist EV False False ;
@@ -282,9 +282,9 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     HowMany = {s = "wifu" ++ "yu" ; e = False} ;
     NoLa = {s = [] ; e = True} ; La = {s = "la" ; e = False} ;
     NoDet = {s = [] ; e = True ; al = False} ; SomeDet d = {s = d.s ; e = False ; al = d.alone} ;
-    Tan = {s = "win" ; alone = True} ; Ben = {s = "ben" ; alone = True} ; We = {s = "we" ; alone = True} ;
-    In = {s = "go" ; alone = True} ; Kin = {s = "kin" ; alone = True} ; Fa = {s = "fen" ; alone = True} ;
-    Bo = {s = "pa" ; alone = False} ; Yu = {s = "yu" ; alone = True} ; Mesun = {s = "mesun" ; alone = False} ;
+    Tan = {s = "yin" ; alone = True} ; Ben = {s = "fin" ; alone = True} ; We = {s = "we" ; alone = True} ;
+    In = {s = "fe" ; alone = True} ; Kin = {s = "ye" ; alone = True} ; Fa = {s = "pa" ; alone = True} ;
+    Bo = {s = "kin" ; alone = False} ; Yu = {s = "yu" ; alone = True} ; Mesun = {s = "mesun" ; alone = False} ;
     NenD = {s = "nen" ; alone = False} ;
 
     PlainNP q = q ;
@@ -305,9 +305,9 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     UseNPi n = n ;
     ConjNP a c b = b ** {s = seq a (c.s ++ b.s) ; p = pz a b.p ; tm = False ; ba = a.ba ; dt = a.dt ; ns = a.ns ; hn = a.hn} ;
     EitherNP a b = b ** {s = "lu" ++ seq a ("lu" ++ b.s) ; p = pz a b.p ; tm = False ; ba = False ; dt = False ; ns = False} ;
-    To = ss "to" ; Me = ss "nun" ; Pen = ss "kan" ; Din = ss "din" ; Wan = ss "wan" ; Yi = ss "yi" ;
+    To = ss "to" ; Me = ss "sen" ; Pen = ss "kan" ; Din = ss "din" ; Wan = ss "mon" ; Yi = ss "tun" ;
     Bu = ss "bun" ; Sun = ss "son" ; Go = ss "dan" ; Nen = ss "nen" ; NenNen = ss ("nen" ++ "nen") ;
-    Yen = ss "yen" ; Lu = ss "lu" ; Un = ss "ka" ;
+    Yen = ss "nun" ; Lu = ss "lu" ; Un = ss "won" ;
 
     -- 5.3: nothing inside a relative clause may be closed by a pause or kiyo (it would close the clause)
     RelSubj vp = case vp.p of {
@@ -320,7 +320,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
       <False, False> => {s = "gi" ++ np.s ++ v.s ++ pr.s ; e = ER ; p = False} ;
       _ => {s = Predef.nonExist ; e = ER ; p = False}} ;
     RelWhose q v = case pz q v.p of {
-      False => {s = "gi" ++ q.s ++ "pi" ++ ("wan" | "bun" | "wan" ++ "la") ++ v.s ; e = ER ; p = False} ;
+      False => {s = "gi" ++ q.s ++ "pi" ++ ("mon" | "bun" | "mon" ++ "la") ++ v.s ; e = ER ; p = False} ;
       True => {s = Predef.nonExist ; e = ER ; p = False}} ;
     SlashV v = {s = v.s ; e = EV ; p = False} ;
     SlashV3 v r = {s = v.s ++ r.s ; e = r.e ; p = r.p} ;

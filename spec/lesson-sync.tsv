@@ -2,33 +2,33 @@ rule	fingerprint	lessons
 1.2	bec81b71dc94	Lesson 2: First sentences; Lesson 3: Describing words come after
 1.4	e7f7bfc11bd6	Lesson 12: Longer sentences
 10.1.1	53689336fa0a	Lesson 8: Being polite, and everyday phrases
-10.1.2	01b7574f94f5	Lesson 8: Being polite, and everyday phrases
-10.1.3	47fe6035b228	Lesson 8: Being polite, and everyday phrases
+10.1.2	745461a7c987	Lesson 8: Being polite, and everyday phrases
+10.1.3	0cb4d9659994	Lesson 8: Being polite, and everyday phrases
 10.1.4	74114010a701	Lesson 8: Being polite, and everyday phrases
-10.2.1	2d2e94dd2a36	Lesson 4: Not, questions, answers and commands; Lesson 6: Little words that look like English; Lesson 8: Being polite, and everyday phrases
-10.2.2	ac26c8e41f2c	Lesson 5: Pronouns; Lesson 6: Little words that look like English; Lesson 8: Being polite, and everyday phrases
-10.2.3	ab40a9c1d492	Lesson 8: Being polite, and everyday phrases
-10.2.4	daf6ad3e76ba	Lesson 8: Being polite, and everyday phrases
-10.2.5	628565b66712	Lesson 8: Being polite, and everyday phrases
-10.3.1	00578a5d1030	Lesson 5: Pronouns
-10.3.2	4976ff814ec0	Lesson 5: Pronouns; Lesson 6: Little words that look like English
-10.3.3	86f94b2c3948	Lesson 5: Pronouns
+10.2.1	5c29652196dc	Lesson 4: Not, questions, answers and commands; Lesson 8: Being polite, and everyday phrases
+10.2.2	49fafaf9028f	Lesson 5: Pronouns; Lesson 8: Being polite, and everyday phrases
+10.2.3	c93d0c425f4f	Lesson 8: Being polite, and everyday phrases
+10.2.4	6d4853e6f8a1	Lesson 8: Being polite, and everyday phrases
+10.2.5	df32cea68329	Lesson 8: Being polite, and everyday phrases
+10.3.1	9e3606389b0d	Lesson 5: Pronouns
+10.3.2	c7051ab85a96	Lesson 5: Pronouns; Lesson 6: Little words that look like English
+10.3.3	c6e6c23ea05e	Lesson 5: Pronouns
 10.3.4	0327e670ec2d	Lesson 5: Pronouns; Lesson 6: Little words that look like English
-10.3.5	945002fa3848	Lesson 5: Pronouns; Lesson 6: Little words that look like English
-10.3.6	7cafeea1a970	Lesson 5: Pronouns
-10.3.7	f4e52c2c12b0	Lesson 5: Pronouns
+10.3.5	a31c71edda16	Lesson 5: Pronouns
+10.3.6	d4dff5b544a9	Lesson 5: Pronouns
+10.3.7	fb83fbffb0c7	Lesson 5: Pronouns
 10.3.8	d6b13bde9dca	Lesson 5: Pronouns
-11.1	551e779f7bd0	Lesson 7: Of, at, to, from, with
+11.1	e0bc2f6660ff	Lesson 7: Of, at, to, from, with
 11.2	cebd3ef928ca	Lesson 7: Of, at, to, from, with
-11.3	0f1574488d0a	Lesson 11: Making words you don't have
-11.4	e61bea66363a	Lesson 11: Making words you don't have
-11.5	411835e2fbb5	Lesson 7: Of, at, to, from, with
-12.1	58f6e7863d66	Lesson 13: Can, must, maybe; Lesson 6: Little words that look like English
-12.2	a50a6ad65e22	Lesson 13: Can, must, maybe
+11.3	216e365734dd	Lesson 11: Making words you don't have
+11.4	b0302a0108fb	Lesson 11: Making words you don't have
+11.5	03edc7a2aa2c	Lesson 7: Of, at, to, from, with
+12.1	bb9573f642a7	Lesson 13: Can, must, maybe; Lesson 6: Little words that look like English
+12.2	686fe0585cda	Lesson 13: Can, must, maybe
 12.3	95d00d31e5fe	Lesson 13: Can, must, maybe
-12.4	2fe094dd909a	Lesson 4: Not, questions, answers and commands
-13.1	74a154a5e901	Lesson 5: Pronouns; Lesson 6: Little words that look like English; Lesson 7: Of, at, to, from, with
-13.2	ed6c1d53389f	Lesson 7: Of, at, to, from, with
+12.4	4a7a12eb325c	Lesson 4: Not, questions, answers and commands
+13.1	30bc86f9c9d6	Lesson 5: Pronouns; Lesson 6: Little words that look like English; Lesson 7: Of, at, to, from, with
+13.2	cc66f729c48c	Lesson 7: Of, at, to, from, with
 2.1	bfc2c02d2ac6	Lesson 1: Sounds
 2.10	73d366a29c8e	Lesson 8: Being polite, and everyday phrases
 2.2	75bdc1f50c0b	Lesson 1: Sounds
@@ -45,113 +45,113 @@ rule	fingerprint	lessons
 3.4	56033c6fdbb3	Lesson 10: Time; Lesson 1: Sounds
 3.5	dd205e243560	Lesson 1: Sounds
 4.1.1	4cd23ab72621	Lesson 14: Putting it together
-4.1.2	4ff8ab8149c9	Lesson 14: Putting it together
-4.2.1	98f2d89d5c83	Lesson 3: Describing words come after
+4.1.2	38afca5d2c9b	Lesson 14: Putting it together
+4.2.1	6c0a7989b996	Lesson 3: Describing words come after
 4.2.2	cde3337aadb6	Lesson 3: Describing words come after
 4.2.3	bd734b75672a	Lesson 3: Describing words come after
 4.2.4	fc44bf987d41	Lesson 3: Describing words come after; Lesson 6: Little words that look like English
-4.2.5	25e591fd3f1c	Lesson 7: Of, at, to, from, with
-4.2.6	bc1fcdcc43c2	Lesson 2: First sentences
-4.2.7	07bf211f9862	Lesson 2: First sentences
-4.2.8	2fe4d6a6f255	Lesson 4: Not, questions, answers and commands
-4.3.1	ad231a369b43	Lesson 12: Longer sentences
-4.3.2	a0fc8d662ce8	Lesson 12: Longer sentences
-4.3.3	e2ef5e23dc37	Lesson 12: Longer sentences
+4.2.5	a889fdcc0827	Lesson 7: Of, at, to, from, with
+4.2.6	cb7aa352c63a	Lesson 2: First sentences
+4.2.7	71c829c27e8a	Lesson 2: First sentences
+4.2.8	4cc9279f6393	Lesson 4: Not, questions, answers and commands
+4.3.1	1a2f1d0d1187	Lesson 12: Longer sentences
+4.3.2	7d5ab18ff856	Lesson 12: Longer sentences
+4.3.3	14e2b85cf74d	Lesson 12: Longer sentences
 4.3.4	3f59c3445571	Lesson 12: Longer sentences; Lesson 4: Not, questions, answers and commands
 4.3.5	b5ea5612de79	Lesson 12: Longer sentences
-4.4.1	7df949bfa97b	Lesson 7: Of, at, to, from, with
+4.4.1	a4974baa2375	Lesson 7: Of, at, to, from, with
 4.4.2	c33694f301b7	Lesson 7: Of, at, to, from, with
-4.4.4	2c25179a1060	Lesson 12: Longer sentences
-4.4.5	3f9e4f739bed	Lesson 12: Longer sentences; Lesson 6: Little words that look like English
+4.4.4	01c7a61e4246	Lesson 12: Longer sentences
+4.4.5	e2375f33e1c1	Lesson 12: Longer sentences; Lesson 6: Little words that look like English
 4.4.6	6f86802956c8	Lesson 12: Longer sentences
-4.5.1	83f2b24800a1	Lesson 5: Pronouns
+4.5.1	91daeaf479a7	Lesson 5: Pronouns
 4.5.2	33308205b636	Lesson 3: Describing words come after; Lesson 5: Pronouns
 4.5.3	138fa7a176dc	Lesson 5: Pronouns
-4.5.4	c1f16fc297ad	Lesson 5: Pronouns
+4.5.4	2506a17644f6	Lesson 5: Pronouns
 4.6.1	1c258e01ac39	Lesson 12: Longer sentences
 4.6.10	abdad923f258	Lesson 12: Longer sentences
 4.6.2	1e7929f45ddc	Lesson 12: Longer sentences; Lesson 2: First sentences
 4.6.3	c568bdc960b3	Lesson 12: Longer sentences; Lesson 2: First sentences
-4.6.4	c3ec06d4be86	Lesson 12: Longer sentences
+4.6.4	d699bf339513	Lesson 12: Longer sentences
 4.6.5	43d6b2c242e4	Lesson 12: Longer sentences
-4.6.6	e8ec172868da	Lesson 12: Longer sentences
+4.6.6	6f8b38c77cbc	Lesson 12: Longer sentences
 4.6.7	14531f8d5f2c	Lesson 12: Longer sentences
 4.6.8	5cefa92c1c68	Lesson 12: Longer sentences
 4.6.9	69d37693ad2f	Lesson 12: Longer sentences
 4.7.1	a6803afc130a	Lesson 3: Describing words come after; Lesson 6: Little words that look like English
-4.7.2	f531017c32d0	Lesson 3: Describing words come after
-4.7.3	7984b5d4c311	Lesson 3: Describing words come after
-4.7.4	5c4fc2d7451d	Lesson 3: Describing words come after
-4.7.6	91189d374b94	Lesson 3: Describing words come after
-4.7.7	0e2f4f7e1212	Lesson 3: Describing words come after; Lesson 5: Pronouns
+4.7.2	48fdc600bf4b	Lesson 3: Describing words come after
+4.7.3	175606f79521	Lesson 3: Describing words come after
+4.7.4	cc6a6da6a2ae	Lesson 3: Describing words come after
+4.7.6	c0796ed7432d	Lesson 3: Describing words come after
+4.7.7	f37e6743ff7f	Lesson 3: Describing words come after; Lesson 5: Pronouns
 4.8.1	e103a2bd2402	Lesson 4: Not, questions, answers and commands
-4.8.2	28fbc2de2278	Lesson 4: Not, questions, answers and commands
-4.8.3	b5875463af8d	Lesson 4: Not, questions, answers and commands
+4.8.2	fde27b8aaae9	Lesson 4: Not, questions, answers and commands
+4.8.3	319b9c535744	Lesson 4: Not, questions, answers and commands
 4.8.4	84bea34ce720	Lesson 4: Not, questions, answers and commands
-4.8.5	50fb705292c2	Lesson 4: Not, questions, answers and commands
-4.8.6	e1b802fecb24	Lesson 4: Not, questions, answers and commands
-4.8.7	b58b121ff9f7	Lesson 4: Not, questions, answers and commands
-5.1.1	a134ceac25eb	Lesson 3: Describing words come after
+4.8.5	9a1d37941664	Lesson 4: Not, questions, answers and commands
+4.8.6	1d7a1819e7dc	Lesson 4: Not, questions, answers and commands
+4.8.7	bce97ccabc3d	Lesson 4: Not, questions, answers and commands
+5.1.1	e1305fc448ef	Lesson 3: Describing words come after
 5.2.11	0f14cce0f31d	Lesson 3: Describing words come after; Lesson 6: Little words that look like English
-5.2.12	6a2d8556fd45	Lesson 3: Describing words come after
-5.2.2	7e6925c1964b	Lesson 3: Describing words come after
+5.2.12	d70623fc9e83	Lesson 3: Describing words come after; Lesson 6: Little words that look like English
+5.2.2	c6e3b9bacac7	Lesson 3: Describing words come after
 5.2.3	05c4cb7f5e9e	Lesson 12: Longer sentences; Lesson 7: Of, at, to, from, with
 5.2.5	173d451e440d	Lesson 6: Little words that look like English; Lesson 9: Numbers
 5.2.6	d7fe6a6368c9	Lesson 2: First sentences; Lesson 3: Describing words come after
-5.2.7	779b17766d7d	Before you start; Lesson 2: First sentences; Lesson 6: Little words that look like English
-5.2.8	d8db72cd6b8d	Lesson 6: Little words that look like English; Lesson 7: Of, at, to, from, with
-5.2.9	c36eea9e2ef1	Lesson 5: Pronouns; Lesson 7: Of, at, to, from, with
+5.2.7	b4dac921a4b2	Before you start; Lesson 2: First sentences; Lesson 6: Little words that look like English
+5.2.8	986951534307	Lesson 6: Little words that look like English; Lesson 7: Of, at, to, from, with
+5.2.9	70a739f65ff2	Lesson 5: Pronouns; Lesson 7: Of, at, to, from, with
 5.3.1	e78375ebc181	Lesson 12: Longer sentences
 5.3.2	8ea1fbc2ff35	Lesson 12: Longer sentences
-5.3.3	f3ea880afacd	Lesson 12: Longer sentences
-5.3.4	c088744d2ba9	Lesson 12: Longer sentences
-5.3.5	e59b24894c9b	Lesson 12: Longer sentences
+5.3.3	ce289c28e48e	Lesson 12: Longer sentences
+5.3.4	a56a50299b4f	Lesson 12: Longer sentences
+5.3.5	f6c0115c1a0c	Lesson 12: Longer sentences
 5.4.1	b1e214a4df37	Lesson 11: Making words you don't have
-5.4.2	13079a5a773e	Lesson 11: Making words you don't have; Lesson 6: Little words that look like English
-5.4.4	5b19fdc4738b	Lesson 11: Making words you don't have
+5.4.2	cb32db173d20	Lesson 11: Making words you don't have; Lesson 6: Little words that look like English
+5.4.4	8556bac700a6	Lesson 11: Making words you don't have
 5.4.5	315bf3efcb42	Lesson 11: Making words you don't have
-5.4.6	afc9df07a3a6	Lesson 11: Making words you don't have
+5.4.6	a7c1df825b59	Lesson 11: Making words you don't have
 5.4.7	9749c1c00731	Lesson 11: Making words you don't have
 6.1.1	b5fc66f36e1d	Lesson 13: Can, must, maybe
-6.1.2	08bd3e48a5e5	Lesson 13: Can, must, maybe
+6.1.2	8c832cfd3b70	Lesson 13: Can, must, maybe
 6.1.3	0bb5b02d35f5	Lesson 13: Can, must, maybe
-6.1.4	7820c93530db	Lesson 13: Can, must, maybe
-6.2.1	988dc0c9e481	Lesson 13: Can, must, maybe; Lesson 3: Describing words come after
-6.2.2	714759434357	Lesson 4: Not, questions, answers and commands; Lesson 6: Little words that look like English
-6.2.3	5418b343b9fd	Lesson 4: Not, questions, answers and commands
+6.1.4	e8ffeb8933b3	Lesson 13: Can, must, maybe
+6.2.1	2e86563abb8d	Lesson 13: Can, must, maybe; Lesson 3: Describing words come after
+6.2.2	03d1cb4f6dda	Lesson 4: Not, questions, answers and commands; Lesson 6: Little words that look like English
+6.2.3	064e4abc570c	Lesson 4: Not, questions, answers and commands
 6.2.6	a628a5bf530a	Lesson 3: Describing words come after; Lesson 6: Little words that look like English
-6.2.7	21fd3bd51bb7	Lesson 10: Time
-7.1.1	8a62f6197548	Lesson 4: Not, questions, answers and commands
+6.2.7	a52b6eb8eadb	Lesson 10: Time
+7.1.1	5eeb210dfb26	Lesson 4: Not, questions, answers and commands
 7.1.2	b91678cfce43	Lesson 4: Not, questions, answers and commands
-7.1.3	f6111758d4be	Lesson 4: Not, questions, answers and commands
-7.1.4	06e676096a30	Lesson 4: Not, questions, answers and commands; Lesson 6: Little words that look like English
+7.1.3	267a23d91bd4	Lesson 4: Not, questions, answers and commands
+7.1.4	fa5212f18182	Lesson 4: Not, questions, answers and commands
 7.2.1	532572346af9	Lesson 8: Being polite, and everyday phrases
 7.2.2	d99316680bd0	Lesson 8: Being polite, and everyday phrases
-7.2.3	d499ebe12df8	Lesson 8: Being polite, and everyday phrases
-7.2.4	6588056fc6f3	Lesson 8: Being polite, and everyday phrases
-7.2.5	25bc04198a82	Lesson 8: Being polite, and everyday phrases
-7.2.6	168b11d63e5e	Lesson 8: Being polite, and everyday phrases
-7.2.7	165eea77acab	Lesson 8: Being polite, and everyday phrases
-8.1.1	257a1d0ca231	Lesson 10: Time; Lesson 2: First sentences
-8.1.2	90ed96faa658	Lesson 10: Time; Lesson 6: Little words that look like English
-8.1.3	1177f1e02a03	Lesson 10: Time
+7.2.3	3b5958975d5e	Lesson 8: Being polite, and everyday phrases
+7.2.4	e3329832e6f0	Lesson 8: Being polite, and everyday phrases
+7.2.5	e3b784ccb9d1	Lesson 8: Being polite, and everyday phrases
+7.2.6	cc57aa91b154	Lesson 8: Being polite, and everyday phrases
+7.2.7	ed9c766474c6	Lesson 8: Being polite, and everyday phrases
+8.1.1	d3f28735ff86	Lesson 10: Time; Lesson 2: First sentences
+8.1.2	a5bc6352a281	Lesson 10: Time; Lesson 6: Little words that look like English
+8.1.3	2f9bea74ae27	Lesson 10: Time
 8.1.4	5e016d3d3673	Lesson 10: Time
 8.1.5	52c18f5886f3	Lesson 10: Time
 8.2.1	d6fca3372031	Lesson 10: Time
 8.2.2	f26a2e77a22c	Lesson 10: Time
-8.2.3	81a9a8d300b6	Lesson 10: Time
+8.2.3	0380ca18f253	Lesson 10: Time
 8.2.4	7ae43cd40a08	Lesson 10: Time
 8.2.5	025c2d6c6075	Lesson 10: Time
-8.3.1	6f703c5dbf8d	Lesson 10: Time
+8.3.1	43ca09ff2850	Lesson 10: Time
 8.3.2	3130dd177a9c	Lesson 10: Time
-8.3.3	a4e63c62f051	Lesson 10: Time
+8.3.3	2c344b2dc988	Lesson 10: Time
 9.1.1	04b56cf9956a	Lesson 6: Little words that look like English; Lesson 9: Numbers
 9.2.1	4fc41f11e16e	Lesson 9: Numbers
 9.2.2	fa8eb5b1ede8	Lesson 9: Numbers
 9.2.3	8c8072ef5d3f	Lesson 9: Numbers
 9.2.4	e5b2c210cce9	Lesson 9: Numbers
 9.3.1	dbcf2162692d	Lesson 9: Numbers
-9.3.2	038d53f6e02d	Lesson 9: Numbers
+9.3.2	c8d22b41d0ec	Lesson 9: Numbers
 9.3.3	a4b1bd632286	Lesson 9: Numbers
-9.3.4	5a8979759980	Lesson 9: Numbers
+9.3.4	3c072cab86e8	Lesson 9: Numbers
 9.3.5	0d0edfba8e70	Lesson 9: Numbers

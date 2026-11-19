@@ -43,7 +43,7 @@ Dropped sources, each with a trigger to bring it back:
 ## 2. What form each concept takes
 
 For each concept, in order:
-1. If the grammar or existing words already say it without loss, add **no** root.
+1. If the grammar or existing words already say it without loss, add **win** root.
 2. If it's a doer, thing done or made, tool or place of an existing verb, it's a **built word** (`no`, `gen`, `du`, `pu`).
 3. If it's frequent in modern everyday use, or in the deep layer (section 1), it's a **root** (author, 2026-10-13: how other languages happen to build it no longer counts against a root; they compounded modern things because those arrived after their words had formed).
 4. Otherwise it's a **compound with a stated relation** (`se`, `pi`, `fan`, …).
@@ -84,7 +84,7 @@ Already cheap by design: confidence, source of knowledge, reference, inclusive/e
 
 To add:
 - short roots for **both** spatial frames: left/right **and** the cardinal directions;
-- **no** extra colour roots for the lens's sake (colour effects are small);
+- **win** extra colour roots for the lens's sake (colour effects are small);
 - smell vocabulary only if tests show it's missed.
 
 **Evidence (verified 2026-10-08, `research/notes/lens.md`):** the lens acts on tracking, memory and communication, not perception. Exact number is well established; spatial frames covary with language but causation is contested; colour effects are modest and the perceptual claims fail replication; smell naming effects are large. The choices above stand.
@@ -93,7 +93,7 @@ To add:
 
 Moved here from the reference (2026-10-10), which now states only what words are.
 
-1. **Say it with words you have.** A verb idea takes a derivation marker (**no**, **gen**, **du**, **pu**) and can bring its own relation phrases (**no isi se guyi** traveller). A noun idea links with **pi**, a verb or a relative clause. Most new concepts end here.
+1. **Say it with words you have.** A verb idea takes a derivation marker (**win**, **gen**, **wa**, **ban**) and can bring its own relation phrases (**win isi don guyi** traveller). A noun idea links with **pi**, a verb or a relative clause. Most new concepts end here.
 2. **A new root only when it's earned:** a basic concept that independent lineages converge on, a modern concept frequent enough that the phrase is a real cost, or a phrase that fails a blind test. Lump or split by section 3.
 3. **The tools choose the sound:** `tools/words.py add-content GLOSS FIELD TIER [--antonym GLOSS] [--avoid FORMS]` picks the form least likely to be misheard as a related word, checks drift and juncture, skips offensive and hand-rejected forms, and pushes opposites apart. Forms are never hand-picked. Then run `tools/juncture.py`. A word that sits in a fixed frame (**dili mena de**) is kept from echoing its neighbours where they touch: it may not start with the first or last syllable of a word it follows, or end in the first syllable of a word that follows it (`--after`, `--before`). Fixed pairs that echo are misheard as one word repeated or swallowed (haplology).
 4. **Phrases aren't promoted or fused by design** (author, 2026-10-13). The base is seeded as fully as the coverage measurement says, then left to its speakers. Speakers will shorten frequent phrases the way people do: by dropping a word context carries, or by keeping first syllables, never by adopting an unrelated form (`drift.md` 9). Compounds stay separate words in speech and writing, as in Indonesian *rumah sakit* and Tok Pisin *haus sik*; the only one-word forms are the language's name in other languages and metric unit names, which the standard itself builds as one word (prefix + unit).

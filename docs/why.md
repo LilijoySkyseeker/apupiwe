@@ -16,11 +16,11 @@ Because the head of a phrase comes first, and word order alone shows who does wh
 
 ## Why is there no tense?
 
-Many languages, among them Mandarin, Indonesian, Thai and Yoruba, mark time with words like "yesterday" and leave the verb alone. You say when something happened once, and the rest of the story follows. When it matters whether something is finished or still going on, the small words **sin** and **le** say so.
+Many languages, among them Mandarin, Indonesian, Thai and Yoruba, mark time with words like "yesterday" and leave the verb alone. You say when something happened once, and the rest of the story follows. When it matters whether something is finished or still going on, the small words **ben** and **li** say so.
 
 ## Why one word for "he" and "she"?
 
-Most of the world's languages don't mark gender in their pronouns, and those that do, like English, often have to guess or work around it. **wan** means "he" or "she". When gender matters, it can be said with **futa** "female" or **lowu** "male".
+Most of the world's languages don't mark gender in their pronouns, and those that do, like English, often have to guess or work around it. **mon** means "he" or "she". When gender matters, it can be said with **futa** "female" or **lowu** "male".
 
 ## Why are there two words for "we"?
 
