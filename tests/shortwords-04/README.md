@@ -30,3 +30,15 @@ Findings:
 1. **The rule can be met at no cost to the model's score**, but only by letting about half the layer move. The minimal patch (9 words; the best set re-forms PART, ONGOING, OR, THAT.comp, WHO.rel, MORE, WHILE, RESULT and digit 4) costs 10%; forcing a few words into the remaining space is worse than reshuffling.
 2. **Seeds disagree on almost every form**, as in Decision 2's runs: the score landscape is flat, so the forms themselves carry little information; only the score and the rules do.
 3. The 100,000-step runs aren't converged (the stronger keep values do worse than the weaker ones, which shouldn't happen at the optimum). Longer runs (300,000 steps, keep 0.003 and 0.005, seeds 4–9) follow.
+
+
+### Knock-on, and the runs that count
+
+The runs above ignored two things, found before choosing: (1) changing a digit breaks the roots placed around **mu ni sa de wo ma** (no root starts with a digit's syllable), and (2) changing a grammar word that often precedes content words breaks the haplology rule for the roots that start with its new syllable. `knock.py` measures both: the 22-word layer above (seed 5, keep 0.005) would have made 89 roots illegal. So the final runs lock the digits and add hard rule H6: the 22 haplology words (`tests/placement-03/bigrams.tsv`, >= 10 bigrams before a content word) may take only today's haplology syllables or, at a cost of 0.005 per displaced root (`SW_ROOT_COST`), syllables that start at most 6 roots (`SW_HAPLO_EXTRA=6`). All 22 share positions with each other, and their syllables include **gen**/**yen** and **ke**/**se**, so without extra syllables the rule can't be met. The start is repaired by min-conflicts (`legal_start`), then annealed at T0 0.02, 300,000 steps.
+
+| run (digits locked, H6) | words changed | robust | roots displaced |
+|---|---|---|---|
+| keep 0.003, seeds 4–9 | 41 / 34 / 32 / 34 / 22 / 36 | 0.283 / 0.291 / 0.313 / 0.314 / 0.312 / 0.288 | |
+| keep 0.005, seeds 4–9 | 24 / 25 / 30 / 28 / **27** / 26 | 0.320 / 0.320 / 0.315 / 0.320 / **0.291** / 0.303 | 14 (seed 8) |
+
+**Chosen (author, 2026-11-19): keep 0.005 seed 8** (`runs/soft-h6-k0.005-8.tsv`): 27 words change, robust 0.304 → 0.291, offensive matches 34 → 35, one-feature same-position pairs 15 → 22 (counted in the robust score), 14 roots displaced. Applied with `apply/apply.py` and `apply/map.tsv` (27 grammar forms and the 18 re-placed roots of `tests/placement-04/`), one pass per file because the map has chains (**nun → sen** while **yen → nun**). Lesson 6 ("little words that look like English") was rebuilt by hand from the new forms; the lesson 1 sound table and lesson 5's warning about "you" were fixed by hand; spans with names after **fo** or loans were checked by hand. Checks: `spec.py check` and `lessons` (reviewed, `--ack`), `gf_check.py` 269 examples (228 with the intended reading), `tools/check.py` (names only), `parse.py` (the same 3 no-parses and 1 ambiguity as before), `juncture.py` (five grammar -n pairs, from six; roadmap), `tools/accent.py` passes, no form `offensive.blocked`.

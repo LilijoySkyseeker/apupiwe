@@ -179,7 +179,7 @@ type = "bullet"
 title = "Harmless variants"
 gap = 0
 text = '''
-- Some harmless variants are allowed. Before i and e, k and g may sound like "ch" and "j". A vowel plus n may become a nasal vowel. Consonants between vowels may soften. In the reference pronunciation these variants occur inside content words only, and grammar words keep their consonants.'''
+- These accent variants are harmless: they never turn one word into another. p t k with or without the puff of air; b d g softened between vowels in an unstressed syllable, as in Spanish *cada*; k and g sounding like "ch" and "j" before i and e; l dark, or as a tap as in Spanish *pero*; f made with both lips; w made with the lip and teeth, as in Dutch *wat*; s as "sh"; a vowel plus n as a nasal vowel; and a catch in the throat (a glottal stop) where a word ending in a vowel meets one starting with a vowel. The reference pronunciation uses the plain sounds, keeps every vowel full, and doesn't lengthen stressed syllables, but none of that is a rule.'''
 
 [[item]]
 id = "2.10"
@@ -196,6 +196,14 @@ title = "Native content words"
 gap = 0
 text = '''
 - Native content words never begin with an open syllable identical to a digit (**mu ni sa de wo ma**). Loans are exempt.'''
+
+[[item]]
+id = "2.12"
+type = "bullet"
+title = "No contrast rests on a variant"
+gap = 0
+text = '''
+- No two content words, and no two short words (grammar words and digits) that can stand in the same place, differ only by sounds a harmless variant (2.9) brings together: b and w, d and l, g and w before o and u, g and y or k and s before i and e. So a speaker with any of these accents is understood, and no contrast hangs on the sound changes these variants begin. A new grammar word also never differs only by its vowel from a grammar word that can stand in its place, since unstressed vowels weaken.'''
 
 [[item]]
 id = "3"

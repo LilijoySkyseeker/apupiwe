@@ -50,7 +50,7 @@ Every letter is said, every time. **ewo** "person" is *e-wo*, three sounds in tw
 
 A syllable ends either in a vowel, as in **to** "I", or in n, as in **lokagi** "evening". No other consonant can end one. [§2.3](language.md#r-2-3)
 
-Some softening is harmless. Speakers may say k and g like "ch" and "j" before i and e, say a vowel plus n through the nose, or soften a consonant between vowels. These variants are never written and never change meaning. Grammar words always keep their consonants. [§2.9](language.md#r-2-9) [§3.1](language.md#r-3-1)
+Your accent is welcome. These variants are harmless, because the words are built so that none of them turns one word into another: p t k with or without a puff of air; b d g softened between vowels when the syllable isn't stressed; k and g like "ch" and "j" before i and e; l as a tap, like the Spanish r in *pero*; f with both lips; w with lip and teeth, like a v; s as "sh"; a vowel plus n said through the nose; and a little catch in the throat between two vowels across words. They're never written. [§2.9](language.md#r-2-9) [§2.12](language.md#r-2-12) [§3.1](language.md#r-3-1)
 
 The big English habit to break is swallowing unstressed vowels. English turns most of them into "uh", so *banana* comes out as buh-NA-nuh. Here every vowel keeps its full sound, so **apu** is "AH-poo" and **dili** "day" is "DEE-lee". "AH-puh" and "DIL-ee" are the English habit at work. Aim for the even, clear syllables of Spanish or Japanese. [§2.1](language.md#r-2-1)
 

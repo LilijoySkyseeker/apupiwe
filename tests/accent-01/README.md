@@ -27,6 +27,6 @@ For scale: median grammar pair 0.0001, 90th percentile 0.012, 99th 0.141. **la/l
 
 Reading: every exposed pair except f/p comes from a variant reference 2.9 already calls harmless: softening between vowels, and k g before i e. The new candidates (l as [ɾ], w as [ʋ], s as [ʃ]) only create a risk when combined with one of those. f/p is different: [ɸ] and [p] stay distinct; that pair's high score comes from listeners whose first language has no f, which is already in the model and isn't a variant.
 
-## For the author
+## Decision (author, 2026-11-19)
 
-The decision on which variants to declare, and what to do about the twelve pairs, is in the design log once made.
+Option B-light (design log "Accent tolerance, and the short words re-formed so none rests on it"): every candidate variant is declared harmless (reference 2.9), and the words are built so no contrast rests on one (new rule 2.12): the short words were re-formed in `tests/shortwords-04/` and 18 roots re-placed in `tests/placement-04/`. `tools/accent.py` checks the rule. Pairs left by `pairs.py` after the change are between words that never share a position (**bo**/**wo**, **ban**/**wan**, **du**/**lu**, **kin**/**sin**), which the rule allows; f/p isn't a variant merger (see Reading).

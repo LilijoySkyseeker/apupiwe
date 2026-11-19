@@ -74,6 +74,9 @@ This is the language's most distinctive machinery. Root **sounds are arbitrary o
 ### 3.4 Juncture (`tools/juncture.py`)
 [Claude, idea from senary] Written tests can't hear word boundaries. Rules: no content word begins with a one-syllable digit's syllable (so "digit + grammar word" can't sound like a content word); no -n pairs; no grammar word ending in -n before a vowel-initial word that would be heard as another word. Run after any addition.
 
+### 3.4a Accent tolerance (`tools/accent.py`; language.md 2.9, 2.12)
+[Author, 2026-11-19; `tests/accent-01/`, `tests/shortwords-04/`] Speakers live among other languages and bring their accents, and children copy them (P4, B9). So the reference declares which realisations count as the same sound (2.9) and builds the words so that none of them turns one word into another (2.12). The cold review's replacement for "grammar words keep their consonants", a norm speakers can't obey: no contrast between words that can share a position may rest on a declared variant. The variants that mattered are the ones speech produces first: voiced stops softening between vowels, and k g palatalised before front vowels. Short, unstressed, frequent words wear fastest, so the grammar words were re-formed under the rule (27 changed), and digits, the name and the 22 grammar words that often precede roots constrain that (haplology). Vowel-only differences between same-position grammar words are kept out of new grammar words, since unstressed vowels weaken. Run `tools/accent.py` after any word change.
+
 ### 3.5 The optimiser (`tools/words.py add-content`)
 For a new root it tries every two-syllable form not taken (after drift keys) and minimises:
 - confusion with every existing two-syllable word, **weighted by meaning**: ×30 antonyms (`--antonym`, recorded in `data/antonyms.tsv`), ×30 between two number words (a number misheard as another number goes unnoticed; design log 2026-11-18), ×3 same semantic field, ×1 other;
