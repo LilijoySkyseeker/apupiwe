@@ -2,8 +2,8 @@
 -- that let the grammar, not a post-filter, enforce the reference's attachment and pause rules:
 --   e   how the phrase ends. An open ending (a relative clause or phrasal derived word, ER/ED; a clause
 --       or a relation word with its object dropped, EC) swallows whatever follows, so anything attached
---       after it from outside needs a pause (or kiyo, for ER/ED) first (1.4, 4.4.4, 4.6.9, 5.3.5, 5.4.4).
---   p   the phrase holds such a closing pause; a pause or kiyo closes every relative clause still open
+--       after it from outside needs a pause (or kiyu, for ER/ED) first (1.4, 4.4.4, 4.6.9, 5.3.5, 5.4.4).
+--   p   the phrase holds such a closing pause; a pause or kiyu closes every relative clause still open
 --       (5.3.5), so a phrase with p can't be a relative clause's or a derived word's body.
 --   other flags are explained where they are set.
 concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
@@ -56,14 +56,14 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     Ph : Type = {s : Str ; e : End ; p : Bool} ;
     opn : End -> Bool = \e -> case e of {ER | ED | EC => True ; _ => False} ;
     nounEnd : End -> Bool = \e -> case e of {EN | EG | EM => True ; _ => False} ;
-    -- the pause (or kiyo) that closes an open ending before more material (4.6.9, 5.3.5)
-    closer : End -> Str = \e -> case e of {ER | ED => "," | "kiyo" ; EC => "," ; _ => []} ;
+    -- the pause (or kiyu) that closes an open ending before more material (4.6.9, 5.3.5)
+    closer : End -> Str = \e -> case e of {ER | ED => "," | "kiyu" ; EC => "," ; _ => []} ;
     -- x, then material that attaches outside x
     seq : Ph -> Str -> Str = \x,r -> x.s ++ closer x.e ++ r ;
     -- the closing-pause flag of x followed by something with flag b
     pz : Ph -> Bool -> Bool = \x,b -> orB (orB x.p (opn x.e)) b ;
     -- the pause between joined clauses or verbs: required when the first ends in a noun (4.6.6)
-    joinPause : End -> Str = \e -> case e of {EN | EG | EM | EC => "," ; ER | ED => "," | "kiyo" ; EV => []} ;
+    joinPause : End -> Str = \e -> case e of {EN | EG | EM | EC => "," ; ER | ED => "," | "kiyu" ; EV => []} ;
     joinP : Ph -> Bool -> Bool = \x,b -> orB (orB x.p (orB (opn x.e) (nounEnd x.e))) b ;
     no : {s : Str} = {s = Predef.nonExist} ;
     vpa : Str -> End -> Bool -> Bool -> Bool -> {s : Str ; e : End ; p : Bool ; et, ek, w1, vv : Bool} =
@@ -106,7 +106,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     GiTan = ss ("bo" ++ "yin") ; UnL = ss "won" ; YenL = ss "nun" ;
     NoFrame = ss [] ;
     Scene a = case a.sc of {True => ss (a.s ++ ",") ; False => no} ;
-    Topic np = case np.p of {False => ss ("pi" ++ np.s ++ ("," | "kiyo")) ; True => no} ;
+    Topic np = case np.p of {False => ss ("pi" ++ np.s ++ ("," | "kiyu")) ; True => no} ;
     NoCond = ss [] ;
     Cond a = case a.cd of {True => ss (a.s ++ ",") ; False => no} ;
 
@@ -258,7 +258,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     PronQ pr l d = npr (pr.s ++ l.s ++ d.s) EN False False ;
     NameQ n = npr ("fo" ++ n.s) EM False False ;
     NameFi n = npr ("fo" ++ n.s ++ "wan") EN False False ;
-    NameKiyo n = npr ("fo" ++ n.s ++ "kiyo") EM False False ;
+    NameKiyo n = npr ("fo" ++ n.s ++ "kiyu") EM False False ;
     TitleName cn n = case cn.e of {
       ER | EC => npr Predef.nonExist EV False False ;
       _ => npr (cn.s ++ "fo" ++ n.s) EM cn.p False} ;
@@ -311,7 +311,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     Bu = ss "bun" ; Sun = ss "son" ; Go = ss "dan" ; Nen = ss "nen" ; NenNen = ss ("nen" ++ "nen") ;
     Yen = ss "nun" ; Lu = ss "lu" ; Un = ss "won" ;
 
-    -- 5.3: nothing inside a relative clause may be closed by a pause or kiyo (it would close the clause)
+    -- 5.3: nothing inside a relative clause may be closed by a pause or kiyu (it would close the clause)
     RelSubj vp = case vp.p of {
       False => {s = "gi" ++ vp.s ; e = ER ; p = False} ;
       True => {s = Predef.nonExist ; e = ER ; p = False}} ;

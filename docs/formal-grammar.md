@@ -39,7 +39,7 @@ Two rules depend on a word's kind of meaning: **gun** + a word gives the undergo
 
 ## Spike result (2026-10-12)
 
-`~/work/gf-spike/REPORT.md`: GF fits with caveats. 33/33 hard examples parse with the intended tree; 62% of the UDHR parses from the spike grammar; ≤0.12 s per sentence. Pauses, **kiyo**, slot order and the **pi**-list rule became grammar rather than post-filters. Costs: readings multiply with bare content words (any tool would), English good enough for structural checks only, tooling friction (compiled-only RGL, no Python bindings). Estimate: ~150–200 grammar functions; 3–5 sessions to parse the whole reference, 2–4 for English.
+`~/work/gf-spike/REPORT.md`: GF fits with caveats. 33/33 hard examples parse with the intended tree; 62% of the UDHR parses from the spike grammar; ≤0.12 s per sentence. Pauses, **kiyu**, slot order and the **pi**-list rule became grammar rather than post-filters. Costs: readings multiply with bare content words (any tool would), English good enough for structural checks only, tooling friction (compiled-only RGL, no Python bindings). Estimate: ~150–200 grammar functions; 3–5 sessions to parse the whole reference, 2–4 for English.
 
 ## Phases
 

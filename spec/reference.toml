@@ -413,7 +413,7 @@ type = "bullet"
 title = "Topic"
 gap = 0
 text = '''
-- A topic is **pi** + a noun phrase at the start, meaning "as for X": **pi tale la, win kuwi guyi, yidu bun la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading, and the topic runs to its pause, or to **kiyo** "end of phrase", so it can be a list: **pi upe nun yomo,** "as for good and bad,".'''
+- A topic is **pi** + a noun phrase at the start, meaning "as for X": **pi tale la, win kuwi guyi, yidu bun la.** "As for the cars, the caretaker takes them." At the start, **pi** has no other reading, and the topic runs to its pause, or to **kiyu** "end of phrase", so it can be a list: **pi upe nun yomo,** "as for good and bad,".'''
 
 [[item]]
 id = "4.3.3"
@@ -476,7 +476,7 @@ type = "bullet"
 title = "Clause attachment"
 gap = 0
 text = '''
-- A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first (**kiyo** doesn't, 5.3): **pu leso, to ben miya ewo gi sigo** "in the morning, I watched the person who came back"; **to ben miya ewo gi sigo pu leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **nun**, **lu** or **won** belongs to the last of them, and at the start it covers them all: **mon doku nun nawi no guyi** "he works, and eats at home"; **no guyi, mon doku nun nawi** "at home, he works and eats".'''
+- A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first (**kiyu** doesn't, 5.3): **pu leso, to ben miya ewo gi sigo** "in the morning, I watched the person who came back"; **to ben miya ewo gi sigo pu leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **nun**, **lu** or **won** belongs to the last of them, and at the start it covers them all: **mon doku nun nawi no guyi** "he works, and eats at home"; **no guyi, mon doku nun nawi** "at home, he works and eats".'''
 
 [[item]]
 id = "4.4.5"
@@ -607,7 +607,7 @@ id = "4.6.9"
 type = "bullet"
 gap = 0
 text = '''
-- after a relative clause, to close it before more material (or **kiyo**, 5.3).'''
+- after a relative clause, to close it before more material (or **kiyu**, 5.3).'''
 
 [[item]]
 id = "4.6.10"
@@ -925,7 +925,7 @@ If both the subject and the object are missing, the noun is the subject: **ewo g
 id = "5.3.5"
 type = "para"
 text = '''
-A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun. To describe the head instead, put a quality before the **pi** phrase or use a new sentence. A pause, or the word **kiyo** "end of phrase", closes it, along with every relative clause still open: **to ben miya ewo gi sigo kiyo pu leso** "I watched the person who came back, in the morning". **kiyo** is optional; use it where a missed pause could mislead. It closes only the phrases that run on: relative clauses, phrasal derived words (5.4) and topics (4.3). A trailing clause (4.4.4) is closed by a pause.'''
+A relative clause attaches to the nearest noun or pronoun before it, so after a **pi** phrase it describes the **pi** noun. To describe the head instead, put a quality before the **pi** phrase or use a new sentence. A pause, or the word **kiyu** "end of phrase", closes it, along with every relative clause still open: **to ben miya ewo gi sigo kiyu pu leso** "I watched the person who came back, in the morning". **kiyu** is optional; use it where a missed pause could mislead. It closes only the phrases that run on: relative clauses, phrasal derived words (5.4) and topics (4.3). A trailing clause (4.4.4) is closed by a pause.'''
 
 [[item]]
 id = "5.4"
@@ -963,7 +963,7 @@ id = "5.4.4"
 type = "bullet"
 gap = 0
 text = '''
-- The base may be a verb phrase: **win isi don guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyo** separates it from a following verb or describing word: **wa siten sokun** "a pan" (a thing for cooking flat), **wa siten sokun kiyo tikun** "a hot pan"; without **kiyo**, **tikun** would join the phrase inside. It also ends before a name (**fo** …) or a gender word (**futa**, **lowu**), so **win wiwa fo mara** is "Teacher Mara" and **win wungu futa** "the leader, a woman".'''
+- The base may be a verb phrase: **win isi don guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyu** separates it from a following verb or describing word: **wa siten sokun** "a pan" (a thing for cooking flat), **wa siten sokun kiyu tikun** "a hot pan"; without **kiyu**, **tikun** would join the phrase inside. It also ends before a name (**fo** …) or a gender word (**futa**, **lowu**), so **win wiwa fo mara** is "Teacher Mara" and **win wungu futa** "the leader, a woman".'''
 
 [[item]]
 id = "5.4.5"
@@ -1667,7 +1667,7 @@ id = "11.1"
 type = "bullet"
 title = "Names"
 text = '''
-- Names take **fo**: **fo mara**. That is the precise form; casual speech often leaves **fo** out when a name can't be taken for a word (**mara ben obu** "Mara came"). A personal or brand name keeps its owner's spelling in lowercase, even with letters the language lacks: **fo denise**, **fo xi jinping**, **fo nguyen**, **fo wi-wan**. Say it as close to its owner's pronunciation as you can. Place names are names too: **fo london**, though an established adapted form may be used instead: **fo landan**. Names aren't used as verbs. A name runs until the next grammar word or pause, so a name of several words is written with no grammar words inside it, and a content word right after a name needs a grammar word or a pause before it: **fo xi jinping ben oyi** "Xi Jinping said". A name that contains a grammar word is closed with **kiyo** instead, and then runs until it: **fo cuerpo de paz kiyo ben obu** "the Peace Corps came". **kiyo** closes an open relative clause, built word or topic first, and a name only when none of those is open, so in **guyi gi fo mara ben miya kiyo gun tugu** "the house that Mara saw is big" it closes the clause and the name is **mara**.'''
+- Names take **fo**: **fo mara**. That is the precise form; casual speech often leaves **fo** out when a name can't be taken for a word (**mara ben obu** "Mara came"). A personal or brand name keeps its owner's spelling in lowercase, even with letters the language lacks: **fo denise**, **fo xi jinping**, **fo nguyen**, **fo wi-wan**. Say it as close to its owner's pronunciation as you can. Place names are names too: **fo london**, though an established adapted form may be used instead: **fo landan**. Names aren't used as verbs. A name runs until the next grammar word or pause, so a name of several words is written with no grammar words inside it, and a content word right after a name needs a grammar word or a pause before it: **fo xi jinping ben oyi** "Xi Jinping said". A name that contains a grammar word is closed with **kiyu** instead, and then runs until it: **fo cuerpo de paz kiyu ben obu** "the Peace Corps came". **kiyu** closes an open relative clause, built word or topic first, and a name only when none of those is open, so in **guyi gi fo mara ben miya kiyu gun tugu** "the house that Mara saw is big" it closes the clause and the name is **mara**.'''
 
 [[item]]
 id = "11.2"
@@ -1789,7 +1789,7 @@ id = "13.2"
 type = "para"
 title = "Two-syllable operators"
 text = '''
-These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**, number label **mena**. **mena** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **nan**: **to doku anko lokagi** "I work until evening", **mon obu nuwen nasi** "he came without money". "Against" in the sense of protection is **don** "from" (**kuwi mon don fin** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".'''
+These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyu**, number label **mena**. **mena** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **nan**: **to doku anko lokagi** "I work until evening", **mon obu nuwen nasi** "he came without money". "Against" in the sense of protection is **don** "from" (**kuwi mon don fin** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".'''
 
 [[item]]
 id = "14"

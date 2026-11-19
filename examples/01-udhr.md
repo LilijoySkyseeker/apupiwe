@@ -321,7 +321,7 @@ dan ibe sogan fan wanan. mon pon ibe sogan fan ibe nufi enpa. yin pon gun me mon
 
 ## wabun mena 27 {.apu}
 
-1\. dan ibe sogan fan inwa lite pi nume pi loso gi mon nume no kiyo fun enpa. mon pon ibe sogan fan tana gen tula fan minen. mon pon ibe sogan fan inwa guge pi loya. mon pon ibe sogan fan dunu upe pi guge yin.
+1\. dan ibe sogan fan inwa lite pi nume pi loso gi mon nume no kiyu fun enpa. mon pon ibe sogan fan tana gen tula fan minen. mon pon ibe sogan fan inwa guge pi loya. mon pon ibe sogan fan dunu upe pi guge yin.
 {.apu}
 
 > 1\. Everyone has the right freely to participate in the cultural life of the community, to enjoy the arts and to share in scientific advancement and its benefits.

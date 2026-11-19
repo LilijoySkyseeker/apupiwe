@@ -65,7 +65,7 @@ abstract Apupiwe = Lex ** {
     GiTan, UnL, YenL : Linker ;            -- 4.3.6; 6.2.4 yen "also, ..."
     NoFrame : FrameOpt ;                   -- 4.1.1
     Scene : Adv -> FrameOpt ;              -- 4.3.1 a relation phrase sets the scene
-    Topic : NP -> FrameOpt ;               -- 4.3.2 pi + noun phrase, to its pause or kiyo
+    Topic : NP -> FrameOpt ;               -- 4.3.2 pi + noun phrase, to its pause or kiyu
     NoCond : CondOpt ;                     -- 4.1.1
     Cond : Adv -> CondOpt ;                -- 4.3.3 don/lin/kon/ya/bo + clause
 
@@ -174,7 +174,7 @@ abstract Apupiwe = Lex ** {
     PronQ : Pron -> LaOpt -> DetOpt -> NPq ;            -- 10.3.7 wan la; 10.3.6 wan nen; 5.2.8 wan ben
     NameQ : String -> NPq ;                -- 11.1 fo + name (gf_check joins a name's words: it runs to a grammar word or pause)
     NameFi : String -> NPq ;               -- 5.2.12, 11.1 fo + name + fi: fi, a grammar word, ends the name
-    NameKiyo : String -> NPq ;             -- 11.1 fo + name + kiyo: a name closed by kiyo may contain grammar words (author 2026-10-13)
+    NameKiyo : String -> NPq ;             -- 11.1 fo + name + kiyu: a name closed by kiyu may contain grammar words (author 2026-10-13)
     TitleName : CN -> String -> NPq ;      -- 10.1.2 title before the name; 5.4.4
     NumQ : Num -> NPq ;                    -- 5.2.4 a number alone
     FracQ : Num -> Num -> NPq ;            -- 9.2.7 a fraction: number pi number (ni pi de 1/3)
@@ -195,7 +195,7 @@ abstract Apupiwe = Lex ** {
 
     PlainNP : NPq -> NPi ;                 -- 5.1.1
     PiNP : NPq -> NPi -> NPi ;             -- 5.2.9 pi + the nearest single noun; 5.2.5 a part (ni pi de)
-    RelNP : NPq -> Rel -> NPi ;            -- 5.3.1, 5.3.5 nearest noun; closed by a pause or kiyo
+    RelNP : NPq -> Rel -> NPi ;            -- 5.3.1, 5.3.5 nearest noun; closed by a pause or kiyu
     TimeAnchor : NPq -> Prep -> NPq -> NPi ;  -- 8.2.2, 4.4.1 wuma kon dili ni
     DateNP : NPi -> NPi -> NPi ;           -- 8.3.3, 4.6.8 larger unit, pause, smaller unit
     AboutNP : NPi -> NPi ;                 -- 8.3.1 fun before a time: around noon

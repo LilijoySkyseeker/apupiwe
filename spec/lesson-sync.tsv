@@ -18,7 +18,7 @@ rule	fingerprint	lessons
 10.3.6	d4dff5b544a9	Lesson 5: Pronouns
 10.3.7	fb83fbffb0c7	Lesson 5: Pronouns
 10.3.8	d6b13bde9dca	Lesson 5: Pronouns
-11.1	e0bc2f6660ff	Lesson 7: Of, at, to, from, with
+11.1	a426e207d4fe	Lesson 7: Of, at, to, from, with
 11.2	cebd3ef928ca	Lesson 7: Of, at, to, from, with
 11.3	41a27d8b33d3	Lesson 11: Making words you don't have
 11.4	2b2850e51278	Lesson 11: Making words you don't have
@@ -28,7 +28,7 @@ rule	fingerprint	lessons
 12.3	95d00d31e5fe	Lesson 13: Can, must, maybe
 12.4	4a7a12eb325c	Lesson 4: Not, questions, answers and commands
 13.1	30bc86f9c9d6	Lesson 5: Pronouns; Lesson 6: Little words that look like English; Lesson 7: Of, at, to, from, with
-13.2	cc66f729c48c	Lesson 7: Of, at, to, from, with
+13.2	e4b2adb5cad4	Lesson 7: Of, at, to, from, with
 2.1	bfc2c02d2ac6	Lesson 1: Sounds
 2.10	73d366a29c8e	Lesson 8: Being polite, and everyday phrases
 2.12	370a1949e572	Lesson 1: Sounds
@@ -56,13 +56,13 @@ rule	fingerprint	lessons
 4.2.7	71c829c27e8a	Lesson 2: First sentences
 4.2.8	4cc9279f6393	Lesson 4: Not, questions, answers and commands
 4.3.1	1a2f1d0d1187	Lesson 12: Longer sentences
-4.3.2	7d5ab18ff856	Lesson 12: Longer sentences
+4.3.2	15ee58b15474	Lesson 12: Longer sentences
 4.3.3	14e2b85cf74d	Lesson 12: Longer sentences
 4.3.4	3f59c3445571	Lesson 12: Longer sentences; Lesson 4: Not, questions, answers and commands
 4.3.5	b5ea5612de79	Lesson 12: Longer sentences
 4.4.1	a4974baa2375	Lesson 7: Of, at, to, from, with
 4.4.2	c33694f301b7	Lesson 7: Of, at, to, from, with
-4.4.4	01c7a61e4246	Lesson 12: Longer sentences
+4.4.4	e5046b0b5573	Lesson 12: Longer sentences
 4.4.5	e2375f33e1c1	Lesson 12: Longer sentences; Lesson 6: Little words that look like English
 4.4.6	6f86802956c8	Lesson 12: Longer sentences
 4.5.1	91daeaf479a7	Lesson 5: Pronouns
@@ -78,7 +78,7 @@ rule	fingerprint	lessons
 4.6.6	6f8b38c77cbc	Lesson 12: Longer sentences
 4.6.7	14531f8d5f2c	Lesson 12: Longer sentences
 4.6.8	5cefa92c1c68	Lesson 12: Longer sentences
-4.6.9	69d37693ad2f	Lesson 12: Longer sentences
+4.6.9	29897399e044	Lesson 12: Longer sentences
 4.7.1	a6803afc130a	Lesson 3: Describing words come after; Lesson 6: Little words that look like English
 4.7.2	48fdc600bf4b	Lesson 3: Describing words come after
 4.7.3	175606f79521	Lesson 3: Describing words come after
@@ -106,10 +106,10 @@ rule	fingerprint	lessons
 5.3.2	8ea1fbc2ff35	Lesson 12: Longer sentences
 5.3.3	ce289c28e48e	Lesson 12: Longer sentences
 5.3.4	a56a50299b4f	Lesson 12: Longer sentences
-5.3.5	f6c0115c1a0c	Lesson 12: Longer sentences
+5.3.5	ef274652e7dc	Lesson 12: Longer sentences
 5.4.1	b1e214a4df37	Lesson 11: Making words you don't have
 5.4.2	cb32db173d20	Lesson 11: Making words you don't have; Lesson 6: Little words that look like English
-5.4.4	8556bac700a6	Lesson 11: Making words you don't have
+5.4.4	a9a843bf44e1	Lesson 11: Making words you don't have
 5.4.5	315bf3efcb42	Lesson 11: Making words you don't have
 5.4.6	a7c1df825b59	Lesson 11: Making words you don't have
 5.4.7	9749c1c00731	Lesson 11: Making words you don't have

@@ -209,7 +209,7 @@ dan ibe sogan fan wanan. mon pon ibe sogan fan ibe nufi enpa. yin pon gun me mon
 
 ## Article 27
 
-1. dan ibe sogan fan inwa lite pi nume pi loso gi mon nume no kiyo fun enpa. mon pon ibe sogan fan tana gen tula fan minen. mon pon ibe sogan fan inwa guge pi loya. mon pon ibe sogan fan dunu upe pi guge yin.
+1. dan ibe sogan fan inwa lite pi nume pi loso gi mon nume no kiyu fun enpa. mon pon ibe sogan fan tana gen tula fan minen. mon pon ibe sogan fan inwa guge pi loya. mon pon ibe sogan fan dunu upe pi guge yin.
 {.apu}
 
 2. sin dan ben tula yefi pi loya lu gen tusi lu gen tula fan minen, mon ibe sogan fan wabun la kuwi dapo pi mon no bun. mon pon ibe sogan fan wabun la kuwi nasi gi mon dunu don bun.

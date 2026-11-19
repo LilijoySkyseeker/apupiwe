@@ -313,7 +313,7 @@ To give something to someone, put the verb first, then who gets it, then what: *
 
 Names always take **fo** and keep their owner's spelling: **fo mara**, **fo lilith**. In casual speech people often leave **fo** out when it's clear a name is meant. Say a name as close to its owner's pronunciation as you can. If you can't, use the adapted form, made from the nearest native sounds (Lilith → *lilifu*). Section 11 of the [reference](language.md) shows how to make the adapted form of your own name. [§11.1](language.md#r-11-1) [§11.2](language.md#r-11-2)
 
-A name runs on until the next grammar word or comma, which is how a name can have several words, as in **fo xi jinping**. So when a content word follows a name, put a grammar word or a comma between them: **fo mara ben oyi** "Mara said". If the name itself contains a word like **de** or **ya**, end it with **kiyo**: **fo cuerpo de paz kiyo ben obu** "the Peace Corps came". [§11.1](language.md#r-11-1)
+A name runs on until the next grammar word or comma, which is how a name can have several words, as in **fo xi jinping**. So when a content word follows a name, put a grammar word or a comma between them: **fo mara ben oyi** "Mara said". If the name itself contains a word like **de** or **ya**, end it with **kiyu**: **fo cuerpo de paz kiyu ben obu** "the Peace Corps came". [§11.1](language.md#r-11-1)
 
 To spell a name or an email address for someone from another culture, use the international spelling alphabet in its adapted form: **alufa**, **bulabo**, **saluli** for a, b, c, and so on (the full list is in section 11 of the reference). Mara is **mayiku alufa lomeyo alufa**. [§11.5](language.md#r-11-5)
 
@@ -421,7 +421,7 @@ This is the skill that makes a small vocabulary enough. Four markers turn an act
 | **wa** + verb | the thing used for it | **wa nawi** something to eat with |
 | **ban** + verb | the place for it | **ban fimo** bedroom ("place for sleeping") |
 
-The base can be a whole verb phrase: **win isi don guyi** "traveller" ("one who goes from home"). It runs to the end of its phrase, so put a comma, or **kiyo**, before a verb or describing word that follows it: **wa siten sokun kiyo tikun** "a hot pan". [§5.4.4](language.md#r-5-4-4)
+The base can be a whole verb phrase: **win isi don guyi** "traveller" ("one who goes from home"). It runs to the end of its phrase, so put a comma, or **kiyu**, before a verb or describing word that follows it: **wa siten sokun kiyu tikun** "a hot pan". [§5.4.4](language.md#r-5-4-4)
 
 For the person an action is done to, there's **ewo gi gun wiwa** student ("person who is taught"). To link to a noun, use **pi** or a verb: **ban pi natun** an office ("place of paper"), **win obu don yaye** an alien ("one who comes from the sky"). [§5.4.5](language.md#r-5-4-5) [§5.4.6](language.md#r-5-4-6)
 
@@ -447,7 +447,7 @@ A **gi** clause after a noun describes it, the way "who", "which" and "where" do
 
 For a place or time, end the clause with the relation word: **fela gi to nume no** "the place where I live" (place that I live at). [§5.3.4](language.md#r-5-3-4)
 
-A **gi** clause runs on until something closes it: a comma in writing, a pause in speech, or the word **kiyo** "end of phrase". **to ben miya ewo gi sigo kiyo pu leso.** "I watched the person who came back, in the morning." Without **kiyo** or the comma, "in the morning" would belong to the coming back. Nothing else in the phrase can come after a closed **gi** clause. **kiyo** closes only the things that run on like this: a **gi** clause, a topic, and a derived word built on a phrase (lesson 11). A clause at the end is closed with a comma. [§5.3.5](language.md#r-5-3-5) [§1.4](language.md#r-1-4)
+A **gi** clause runs on until something closes it: a comma in writing, a pause in speech, or the word **kiyu** "end of phrase". **to ben miya ewo gi sigo kiyu pu leso.** "I watched the person who came back, in the morning." Without **kiyu** or the comma, "in the morning" would belong to the coming back. Nothing else in the phrase can come after a closed **gi** clause. **kiyu** closes only the things that run on like this: a **gi** clause, a topic, and a derived word built on a phrase (lesson 11). A clause at the end is closed with a comma. [§5.3.5](language.md#r-5-3-5) [§1.4](language.md#r-1-4)
 
 ### Opening a sentence
 

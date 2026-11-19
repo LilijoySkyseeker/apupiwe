@@ -12,7 +12,7 @@ A reading's structure is the set of units it builds, read from GF's bracketed Ap
 counting only units of two or more words: a one-word unit is a bare root in some role. Two readings
 with the same units differ only in the roles of bare roots. grammar/intended.tsv holds the
 intended structure of each sentence in this bracket notation, e.g.
-  to ben miya ewo gi sigo kiyo pu leso   [S to ben miya [NP ewo [REL gi sigo]] kiyo [ADV pu leso]]
+  to ben miya ewo gi sigo kiyu pu leso   [S to ben miya [NP ewo [REL gi sigo]] kiyu [ADV pu leso]]
 and whether the reference presents it as the precise form (then it must have one structural reading).
 
 Examples that aren't sentences: 2.10 (mm, huh?) is outside the grammar; an example made only of grammar
@@ -56,7 +56,7 @@ def read(path):
 LEX = {r["form"]: r for r in read(os.path.join(ROOT, "data", "lexicon.tsv"))}
 GRAMMAR_WORDS = ({r["form"] for r in read(os.path.join(ROOT, "data", "grammar.tsv"))}
                  | {r["form"] for r in read(os.path.join(ROOT, "data", "numbers.tsv"))}
-                 | set("genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyo mena".split())
+                 | set("genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyu mena".split())
                  | {w for w, r in LEX.items() if r["field"] == "number"})
 
 
@@ -81,14 +81,14 @@ def tokens(sentence):
     are joined into one token for the grammar's String: fo xi jinping ben oyi -> fo xi_jinping ben oyi."""
     words = sentence.replace(",", " , ").split()
     out, i = [], 0
-    while i < len(words):  # fo … kiyo: a name closed by kiyo may contain grammar words (11.1, 2026-10-13)
-        # kiyo closes an open relative clause, built word or topic first (4.4.4, 5.3.5, 5.4.4); it closes a
-        # name only when none is open since the last kiyo
-        opened = words[:i][len(words[:i]) - words[:i][::-1].index("kiyo"):] if "kiyo" in words[:i] else words[:i]
-        if words[i] == "fo" and "kiyo" in words[i + 1:] and not set(opened) & {"gi", "win", "gen", "wa", "ban"}:
-            j = words.index("kiyo", i + 1)
+    while i < len(words):  # fo … kiyu: a name closed by kiyu may contain grammar words (11.1, 2026-10-13)
+        # kiyu closes an open relative clause, built word or topic first (4.4.4, 5.3.5, 5.4.4); it closes a
+        # name only when none is open since the last kiyu
+        opened = words[:i][len(words[:i]) - words[:i][::-1].index("kiyu"):] if "kiyu" in words[:i] else words[:i]
+        if words[i] == "fo" and "kiyu" in words[i + 1:] and not set(opened) & {"gi", "win", "gen", "wa", "ban"}:
+            j = words.index("kiyu", i + 1)
             if "," not in words[i + 1:j] and j > i + 1:
-                out += ["fo", "_".join(words[i + 1:j]), "kiyo"]
+                out += ["fo", "_".join(words[i + 1:j]), "kiyu"]
                 i = j + 1
                 continue
         w = words[i]; i += 1

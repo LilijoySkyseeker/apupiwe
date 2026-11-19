@@ -92,7 +92,7 @@ fela gi to nume no	[NP fela [REL gi to nume no]]	yes
 wonnun gi to fonsu nan	[NP wonnun [REL gi to fonsu nan]]	yes	
 ewo gi guyi pi mon gun tugu	[NP ewo [REL gi guyi pi mon gun tugu]]	yes	
 ewo gi nagu	[NP ewo [REL gi nagu]]	yes	
-to ben miya ewo gi sigo kiyo pu leso	[S to ben miya [NP ewo [REL gi sigo]] kiyo [ADV pu leso]]	yes	
+to ben miya ewo gi sigo kiyu pu leso	[S to ben miya [NP ewo [REL gi sigo]] kiyu [ADV pu leso]]	yes	
 win febo	[NP win febo]	no	
 gen iko	[NP gen iko]	no	
 wa bubo	[NP wa bubo]	no	
@@ -192,10 +192,10 @@ to su ibe poka pa	[S to su ibe [NP poka pa]]	no
 to ben li nawi	[S to ben li nawi]	yes	
 to ben ditun bun no fo google	[S to ben ditun bun [ADV no [NP fo google]]]	yes	
 osa nan tanun tufun	[NP osa nan [NP tanun tufun]]	no	
-wa siten sokun kiyo tikun	[NP [NP wa siten sokun] kiyo tikun]	no	
+wa siten sokun kiyu tikun	[NP [NP wa siten sokun] kiyu tikun]	no	
 wa siten sokun	[NP wa siten sokun]	no	
-fo cuerpo_de_paz kiyo ben obu	[S [NP fo cuerpo_de_paz kiyo] ben obu]	yes	
-guyi gi fo mara ben miya kiyo gun tugu	[S [NP guyi [REL gi [NP fo mara] ben miya]] kiyo gun tugu]	yes	
+fo cuerpo_de_paz kiyu ben obu	[S [NP fo cuerpo_de_paz kiyu] ben obu]	yes	
+guyi gi fo mara ben miya kiyu gun tugu	[S [NP guyi [REL gi [NP fo mara] ben miya]] kiyu gun tugu]	yes	
 bi sen obu , bi	bi [S sen obu] , bi	yes	
 to obu	[S to obu]	yes	
 pe de mon ben oyi bun , bi	pe de [S mon ben oyi bun] , bi	yes	
