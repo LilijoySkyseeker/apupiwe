@@ -8,6 +8,8 @@ Where the project is and what comes next. Decisions and their reasons are in `de
 
 ## After v2 (new findings that don't block it)
 
+- How notation is read aloud (author, 2026-11-19): Greek letters (the letter name "pi" is the grammar word **pi** "of", and a loan needs two syllables, so π needs an adapted form through the loan panel), operators and equations. Writing already passes notation through (reference 3.4); arithmetic read aloud is treated as a reading of notation (9.2.5).
+
 - `tools/words.py` lags the current rules (found 2026-11-19): it scores with mishearing model v1, doesn't know the haplology rule or rule 2.12, and `move` drops antonym weighting (it passes no antonyms to `add_content`). Until fixed, place roots with `tests/placement-04/place.py` (AGENTS.md). Bring `add-content` onto `confusion2`, the haplology table and `tools/accent.py`'s neighbours, or retire it in favour of the placement tool.
 
 - From the Globasa review (author, 2026-10-15): a learning order from running-text coverage ("the first N roots cover X%", row 62); old → new tables per release when the freeze returns (row 5); dictionary glosses in several languages (row 61).
