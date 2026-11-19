@@ -8,6 +8,12 @@ abstract Lex = {
     aban_N : N ;  -- outside
     aban_V : V ;  -- outside
     aban_A : A ;  -- outside
+    abuki_N : N ;  -- retire
+    abuki_V : V ;  -- retire
+    abuki_A : A ;  -- retire
+    ado_N : N ;  -- opportunity
+    ado_V : V ;  -- opportunity
+    ado_A : A ;  -- opportunity
     afe_N : N ;  -- yesterday
     afe_V : V ;  -- yesterday
     afe_A : A ;  -- yesterday
@@ -17,66 +23,144 @@ abstract Lex = {
     akan_N : N ;  -- louse
     akan_V : V ;  -- louse
     akan_A : A ;  -- louse
+    aladi_N : N ;  -- spleen
+    aladi_V : V ;  -- spleen
+    aladi_A : A ;  -- spleen
+    alubumu_N : N ;  -- album
+    alubumu_V : V ;  -- album
+    alubumu_A : A ;  -- album
+    alumo_N : N ;  -- beard
+    alumo_V : V ;  -- beard
+    alumo_A : A ;  -- beard
     alun_N : N ;  -- break
     alun_V : V ;  -- break
     alun_A : A ;  -- break
-    anbo_N : N ;  -- horse
-    anbo_V : V ;  -- horse
-    anbo_A : A ;  -- horse
+    anfa_N : N ;  -- origin, source
+    anfa_V : V ;  -- origin, source
+    anfa_A : A ;  -- origin, source
     anle_N : N ;  -- lie, lie down
     anle_V : V ;  -- lie, lie down
     anle_A : A ;  -- lie, lie down
+    anmi_N : N ;  -- circle
+    anmi_V : V ;  -- circle
+    anmi_A : A ;  -- circle
+    anmon_N : N ;  -- horse
+    anmon_V : V ;  -- horse
+    anmon_A : A ;  -- horse
+    ansen_N : N ;  -- guest
+    ansen_V : V ;  -- guest
+    ansen_A : A ;  -- guest
+    antun_N : N ;  -- fund (money set aside)
+    antun_V : V ;  -- fund (money set aside)
+    antun_A : A ;  -- fund (money set aside)
     anyu_N : N ;  -- east
     anyu_V : V ;  -- east
     anyu_A : A ;  -- east
     apu_N : N ;  -- language
     apu_V : V ;  -- language
     apu_A : A ;  -- language
+    asame_N : N ;  -- ankle
+    asame_V : V ;  -- ankle
+    asame_A : A ;  -- ankle
+    asun_N : N ;  -- leader
+    asun_V : V ;  -- leader
+    asun_A : A ;  -- leader
     asutagu_N : N ;  -- hashtag
     asutagu_V : V ;  -- hashtag
     asutagu_A : A ;  -- hashtag
     awin_N : N ;  -- dust
     awin_V : V ;  -- dust
     awin_A : A ;  -- dust
-    awuwa_N : N ;  -- hour
-    awuwa_V : V ;  -- hour
-    awuwa_A : A ;  -- hour
     aya_N : N ;  -- watch, timepiece
     aya_V : V ;  -- watch, timepiece
     aya_A : A ;  -- watch, timepiece
+    ayaya_N : N ;  -- tense, strained, nervous
+    ayaya_V : V ;  -- tense, strained, nervous
+    ayaya_A : A ;  -- tense, strained, nervous
     badin_N : N ;  -- lung
     badin_V : V ;  -- lung
     badin_A : A ;  -- lung
+    bago_N : N ;  -- different
+    bago_V : V ;  -- different
+    bago_A : A ;  -- different
     baken_N : N ;  -- fog
     baken_V : V ;  -- fog
     baken_A : A ;  -- fog
+    bakusin_N : N ;  -- vaccine
+    bakusin_V : V ;  -- vaccine
+    bakusin_A : A ;  -- vaccine
+    balu_N : N ;  -- bar (place serving drinks)
+    balu_V : V ;  -- bar (place serving drinks)
+    balu_A : A ;  -- bar (place serving drinks)
+    balukon_N : N ;  -- balcony
+    balukon_V : V ;  -- balcony
+    balukon_A : A ;  -- balcony
     bamo_N : N ;  -- stop
     bamo_V : V ;  -- stop
     bamo_A : A ;  -- stop
+    banfe_N : N ;  -- servant
+    banfe_V : V ;  -- servant
+    banfe_A : A ;  -- servant
     banga_N : N ;  -- panic
     banga_V : V ;  -- panic
     banga_A : A ;  -- panic
-    banlu_N : N ;  -- narrow
-    banlu_V : V ;  -- narrow
-    banlu_A : A ;  -- narrow
+    bangun_N : N ;  -- invite
+    bangun_V : V ;  -- invite
+    bangun_A : A ;  -- invite
+    banki_N : N ;  -- bank (financial)
+    banki_V : V ;  -- bank (financial)
+    banki_A : A ;  -- bank (financial)
+    banlon_N : N ;  -- environment, surroundings
+    banlon_V : V ;  -- environment, surroundings
+    banlon_A : A ;  -- environment, surroundings
+    bannen_N : N ;  -- course (of study)
+    bannen_V : V ;  -- course (of study)
+    bannen_A : A ;  -- course (of study)
+    bansin_N : N ;  -- idea
+    bansin_V : V ;  -- idea
+    bansin_A : A ;  -- idea
+    bapuma_N : N ;  -- fold
+    bapuma_V : V ;  -- fold
+    bapuma_A : A ;  -- fold
+    basa_N : N ;  -- nose
+    basa_V : V ;  -- nose
+    basa_A : A ;  -- nose
+    basoya_N : N ;  -- blood vessel (vein, artery)
+    basoya_V : V ;  -- blood vessel (vein, artery)
+    basoya_A : A ;  -- blood vessel (vein, artery)
     batali_N : N ;  -- battery
     batali_V : V ;  -- battery
     batali_A : A ;  -- battery
     batu_N : N ;  -- problem
     batu_V : V ;  -- problem
     batu_A : A ;  -- problem
+    bawan_N : N ;  -- always
+    bawan_V : V ;  -- always
+    bawan_A : A ;  -- always
     bawe_N : N ;  -- important
     bawe_V : V ;  -- important
     bawe_A : A ;  -- important
+    bayate_N : N ;  -- obstacle
+    bayate_V : V ;  -- obstacle
+    bayate_A : A ;  -- obstacle
+    bayemu_N : N ;  -- sinew, tendon
+    bayemu_V : V ;  -- sinew, tendon
+    bayemu_A : A ;  -- sinew, tendon
     bayi_N : N ;  -- sad
     bayi_V : V ;  -- sad
     bayi_A : A ;  -- sad
+    bayiga_N : N ;  -- roll
+    bayiga_V : V ;  -- roll
+    bayiga_A : A ;  -- roll
     bebu_N : N ;  -- disgust
     bebu_V : V ;  -- disgust
     bebu_A : A ;  -- disgust
     bedan_N : N ;  -- marry, wedding
     bedan_V : V ;  -- marry, wedding
     bedan_A : A ;  -- marry, wedding
+    bekan_N : N ;  -- mute, unable to speak
+    bekan_V : V ;  -- mute, unable to speak
+    bekan_A : A ;  -- mute, unable to speak
     bekin_N : N ;  -- garbage, trash
     bekin_V : V ;  -- garbage, trash
     bekin_A : A ;  -- garbage, trash
@@ -86,48 +170,111 @@ abstract Lex = {
     bendo_N : N ;  -- leg
     bendo_V : V ;  -- leg
     bendo_A : A ;  -- leg
+    benge_N : N ;  -- list
+    benge_V : V ;  -- list
+    benge_A : A ;  -- list
+    benten_N : N ;  -- hell
+    benten_V : V ;  -- hell
+    benten_A : A ;  -- hell
     bese_N : N ;  -- inside
     bese_V : V ;  -- inside
     bese_A : A ;  -- inside
+    besube_N : N ;  -- tunnel
+    besube_V : V ;  -- tunnel
+    besube_A : A ;  -- tunnel
     bewon_N : N ;  -- raw
     bewon_V : V ;  -- raw
     bewon_A : A ;  -- raw
     beya_N : N ;  -- door
     beya_V : V ;  -- door
     beya_A : A ;  -- door
-    bige_N : N ;  -- above
-    bige_V : V ;  -- above
-    bige_A : A ;  -- above
+    beyasa_N : N ;  -- plough
+    beyasa_V : V ;  -- plough
+    beyasa_A : A ;  -- plough
+    bideyo_N : N ;  -- video
+    bideyo_V : V ;  -- video
+    bideyo_A : A ;  -- video
+    bidin_N : N ;  -- matter, affair, issue
+    bidin_V : V ;  -- matter, affair, issue
+    bidin_A : A ;  -- matter, affair, issue
+    bifo_N : N ;  -- occasion, a time (three times)
+    bifo_V : V ;  -- occasion, a time (three times)
+    bifo_A : A ;  -- occasion, a time (three times)
+    bifowu_N : N ;  -- frame
+    bifowu_V : V ;  -- frame
+    bifowu_A : A ;  -- frame
     bika_N : N ;  -- buy
     bika_V : V ;  -- buy
     bika_A : A ;  -- buy
     bilun_N : N ;  -- yellow
     bilun_V : V ;  -- yellow
     bilun_A : A ;  -- yellow
+    bilusu_N : N ;  -- virus
+    bilusu_V : V ;  -- virus
+    bilusu_A : A ;  -- virus
     bina_N : N ;  -- fly, move through the air
     bina_V : V ;  -- fly, move through the air
     bina_A : A ;  -- fly, move through the air
+    bingan_N : N ;  -- often
+    bingan_V : V ;  -- often
+    bingan_A : A ;  -- often
     binla_N : N ;  -- boil
     binla_V : V ;  -- boil
     binla_A : A ;  -- boil
+    binme_N : N ;  -- goose
+    binme_V : V ;  -- goose
+    binme_A : A ;  -- goose
     binnu_N : N ;  -- boat
     binnu_V : V ;  -- boat
     binnu_A : A ;  -- boat
+    binpun_N : N ;  -- suitable, fit, proper
+    binpun_V : V ;  -- suitable, fit, proper
+    binpun_A : A ;  -- suitable, fit, proper
     binso_N : N ;  -- snow
     binso_V : V ;  -- snow
     binso_A : A ;  -- snow
+    bipi_N : N ;  -- bring
+    bipi_V : V ;  -- bring
+    bipi_A : A ;  -- bring
+    bisukuwitu_N : N ;  -- cookie
+    bisukuwitu_V : V ;  -- cookie
+    bisukuwitu_A : A ;  -- cookie
     biton_N : N ;  -- enemy
     biton_V : V ;  -- enemy
     biton_A : A ;  -- enemy
+    biwen_N : N ;  -- spade, shovel
+    biwen_V : V ;  -- spade, shovel
+    biwen_A : A ;  -- spade, shovel
+    biyalu_N : N ;  -- beer
+    biyalu_V : V ;  -- beer
+    biyalu_A : A ;  -- beer
     bodu_N : N ;  -- dirty
     bodu_V : V ;  -- dirty
     bodu_A : A ;  -- dirty
-    bone_N : N ;  -- use
-    bone_V : V ;  -- use
-    bone_A : A ;  -- use
+    bogefu_N : N ;  -- fashion
+    bogefu_V : V ;  -- fashion
+    bogefu_A : A ;  -- fashion
+    boleyi_N : N ;  -- score, points
+    boleyi_V : V ;  -- score, points
+    boleyi_A : A ;  -- score, points
+    bomala_N : N ;  -- swamp, marsh, wet ground
+    bomala_V : V ;  -- swamp, marsh, wet ground
+    bomala_A : A ;  -- swamp, marsh, wet ground
+    bonba_N : N ;  -- bomb
+    bonba_V : V ;  -- bomb
+    bonba_A : A ;  -- bomb
+    bonbun_N : N ;  -- transfer
+    bonbun_V : V ;  -- transfer
+    bonbun_A : A ;  -- transfer
+    bondi_N : N ;  -- thread
+    bondi_V : V ;  -- thread
+    bondi_A : A ;  -- thread
     bonko_N : N ;  -- angry
     bonko_V : V ;  -- angry
     bonko_A : A ;  -- angry
+    bonpen_N : N ;  -- analyze
+    bonpen_V : V ;  -- analyze
+    bonpen_A : A ;  -- analyze
     bonwi_N : N ;  -- peace
     bonwi_V : V ;  -- peace
     bonwi_A : A ;  -- peace
@@ -149,99 +296,309 @@ abstract Lex = {
     bufe_N : N ;  -- game
     bufe_V : V ;  -- game
     bufe_A : A ;  -- game
+    bufefa_N : N ;  -- wrap
+    bufefa_V : V ;  -- wrap
+    bufefa_A : A ;  -- wrap
+    bufoti_N : N ;  -- acquaintance, person one knows
+    bufoti_V : V ;  -- acquaintance, person one knows
+    bufoti_A : A ;  -- acquaintance, person one knows
+    bugen_N : N ;  -- professor
+    bugen_V : V ;  -- professor
+    bugen_A : A ;  -- professor
+    bugun_N : N ;  -- airport
+    bugun_V : V ;  -- airport
+    bugun_A : A ;  -- airport
+    buguye_N : N ;  -- button (on clothes; also a push-button)
+    buguye_V : V ;  -- button (on clothes; also a push-button)
+    buguye_A : A ;  -- button (on clothes; also a push-button)
+    bukili_N : N ;  -- repeat
+    bukili_V : V ;  -- repeat
+    bukili_A : A ;  -- repeat
+    bumun_N : N ;  -- drive (a vehicle)
+    bumun_V : V ;  -- drive (a vehicle)
+    bumun_A : A ;  -- drive (a vehicle)
     bunle_N : N ;  -- easy
     bunle_V : V ;  -- easy
     bunle_A : A ;  -- easy
     bunsi_N : N ;  -- steal
     bunsi_V : V ;  -- steal
     bunsi_A : A ;  -- steal
+    bunwan_N : N ;  -- joke
+    bunwan_V : V ;  -- joke
+    bunwan_A : A ;  -- joke
     bunwu_N : N ;  -- salt
     bunwu_V : V ;  -- salt
     bunwu_A : A ;  -- salt
+    bunyo_N : N ;  -- interest, curiosity
+    bunyo_V : V ;  -- interest, curiosity
+    bunyo_A : A ;  -- interest, curiosity
     buyan_N : N ;  -- split
     buyan_V : V ;  -- split
     buyan_A : A ;  -- split
-    dandi_N : N ;  -- push
-    dandi_V : V ;  -- push
-    dandi_A : A ;  -- push
-    danki_N : N ;  -- nose
-    danki_V : V ;  -- nose
-    danki_A : A ;  -- nose
-    deba_N : N ;  -- below
-    deba_V : V ;  -- below
-    deba_A : A ;  -- below
-    degun_N : N ;  -- glass, the material
-    degun_V : V ;  -- glass, the material
-    degun_A : A ;  -- glass, the material
-    demi_N : N ;  -- cloth
-    demi_V : V ;  -- cloth
-    demi_A : A ;  -- cloth
+    dadon_N : N ;  -- hug
+    dadon_V : V ;  -- hug
+    dadon_A : A ;  -- hug
+    dafeka_N : N ;  -- receipt
+    dafeka_V : V ;  -- receipt
+    dafeka_A : A ;  -- receipt
+    dafen_N : N ;  -- heaven, paradise
+    dafen_V : V ;  -- heaven, paradise
+    dafen_A : A ;  -- heaven, paradise
+    daka_N : N ;  -- explain
+    daka_V : V ;  -- explain
+    daka_A : A ;  -- explain
+    dakun_N : N ;  -- official, civil servant
+    dakun_V : V ;  -- official, civil servant
+    dakun_A : A ;  -- official, civil servant
+    dakuwu_N : N ;  -- god
+    dakuwu_V : V ;  -- god
+    dakuwu_A : A ;  -- god
+    dali_N : N ;  -- music
+    dali_V : V ;  -- music
+    dali_A : A ;  -- music
+    daman_N : N ;  -- salary
+    daman_V : V ;  -- salary
+    daman_A : A ;  -- salary
+    dame_N : N ;  -- region
+    dame_V : V ;  -- region
+    dame_A : A ;  -- region
+    damoga_N : N ;  -- innocent
+    damoga_V : V ;  -- innocent
+    damoga_A : A ;  -- innocent
+    danima_N : N ;  -- brick
+    danima_V : V ;  -- brick
+    danima_A : A ;  -- brick
+    dapo_N : N ;  -- name
+    dapo_V : V ;  -- name
+    dapo_A : A ;  -- name
+    dasosi_N : N ;  -- roast (cook over a fire or in dry heat)
+    dasosi_V : V ;  -- roast (cook over a fire or in dry heat)
+    dasosi_A : A ;  -- roast (cook over a fire or in dry heat)
+    dati_N : N ;  -- second, of time
+    dati_V : V ;  -- second, of time
+    dati_A : A ;  -- second, of time
+    dayele_N : N ;  -- descend, go down; land
+    dayele_V : V ;  -- descend, go down; land
+    dayele_A : A ;  -- descend, go down; land
+    denben_N : N ;  -- crush
+    denben_V : V ;  -- crush
+    denben_A : A ;  -- crush
+    denka_N : N ;  -- spoon
+    denka_V : V ;  -- spoon
+    denka_A : A ;  -- spoon
     denku_N : N ;  -- correct
     denku_V : V ;  -- correct
     denku_A : A ;  -- correct
-    desin_N : N ;  -- defecate
-    desin_V : V ;  -- defecate
-    desin_A : A ;  -- defecate
-    deta_N : N ;  -- blue
-    deta_V : V ;  -- blue
-    deta_A : A ;  -- blue
+    denlan_N : N ;  -- product
+    denlan_V : V ;  -- product
+    denlan_A : A ;  -- product
+    dennin_N : N ;  -- literature
+    dennin_V : V ;  -- literature
+    dennin_A : A ;  -- literature
+    densun_N : N ;  -- millet, sorghum
+    densun_V : V ;  -- millet, sorghum
+    densun_A : A ;  -- millet, sorghum
+    denu_N : N ;  -- gene
+    denu_V : V ;  -- gene
+    denu_A : A ;  -- gene
+    denwo_N : N ;  -- tickle
+    denwo_V : V ;  -- tickle
+    denwo_A : A ;  -- tickle
+    denye_N : N ;  -- bottle
+    denye_V : V ;  -- bottle
+    denye_A : A ;  -- bottle
+    diba_N : N ;  -- baby
+    diba_V : V ;  -- baby
+    diba_A : A ;  -- baby
+    dibesi_N : N ;  -- pilot
+    dibesi_V : V ;  -- pilot
+    dibesi_A : A ;  -- pilot
     dibon_N : N ;  -- loud
     dibon_V : V ;  -- loud
     dibon_A : A ;  -- loud
+    dife_N : N ;  -- animal
+    dife_V : V ;  -- animal
+    dife_A : A ;  -- animal
+    difudo_N : N ;  -- strict
+    difudo_V : V ;  -- strict
+    difudo_A : A ;  -- strict
     digan_N : N ;  -- sand
     digan_V : V ;  -- sand
     digan_A : A ;  -- sand
-    diguli_N : N ;  -- degree (°)
-    diguli_V : V ;  -- degree (°)
-    diguli_A : A ;  -- degree (°)
+    dikeko_N : N ;  -- discrimination, unfair treatment of a group
+    dikeko_V : V ;  -- discrimination, unfair treatment of a group
+    dikeko_A : A ;  -- discrimination, unfair treatment of a group
+    diken_N : N ;  -- army
+    diken_V : V ;  -- army
+    diken_A : A ;  -- army
     dili_N : N ;  -- day (24 hours)
     dili_V : V ;  -- day (24 hours)
     dili_A : A ;  -- day (24 hours)
+    dilibe_N : N ;  -- pattern, repeated design
+    dilibe_V : V ;  -- pattern, repeated design
+    dilibe_A : A ;  -- pattern, repeated design
+    dilo_N : N ;  -- health
+    dilo_V : V ;  -- health
+    dilo_A : A ;  -- health
+    dimatu_N : N ;  -- place of worship (temple, widened)
+    dimatu_V : V ;  -- place of worship (temple, widened)
+    dimatu_A : A ;  -- place of worship (temple, widened)
+    dimen_N : N ;  -- offend
+    dimen_V : V ;  -- offend
+    dimen_A : A ;  -- offend
     dinbu_N : N ;  -- snake
     dinbu_V : V ;  -- snake
     dinbu_A : A ;  -- snake
+    dingin_N : N ;  -- delicious
+    dingin_V : V ;  -- delicious
+    dingin_A : A ;  -- delicious
+    dinino_N : N ;  -- jaw
+    dinino_V : V ;  -- jaw
+    dinino_A : A ;  -- jaw
+    dinmun_N : N ;  -- corpse, dead body
+    dinmun_V : V ;  -- corpse, dead body
+    dinmun_A : A ;  -- corpse, dead body
+    dinna_N : N ;  -- emergency
+    dinna_V : V ;  -- emergency
+    dinna_A : A ;  -- emergency
+    dinti_N : N ;  -- porridge
+    dinti_V : V ;  -- porridge
+    dinti_A : A ;  -- porridge
+    dinwi_N : N ;  -- countryside
+    dinwi_V : V ;  -- countryside
+    dinwi_A : A ;  -- countryside
     dinyo_N : N ;  -- carry
     dinyo_V : V ;  -- carry
     dinyo_A : A ;  -- carry
+    disayin_N : N ;  -- design
+    disayin_V : V ;  -- design
+    disayin_A : A ;  -- design
+    disewu_N : N ;  -- flood
+    disewu_V : V ;  -- flood
+    disewu_A : A ;  -- flood
+    disin_N : N ;  -- material, substance
+    disin_V : V ;  -- material, substance
+    disin_A : A ;  -- material, substance
     ditun_N : N ;  -- seek, search for
     ditun_V : V ;  -- seek, search for
     ditun_A : A ;  -- seek, search for
+    diwusa_N : N ;  -- imagine
+    diwusa_V : V ;  -- imagine
+    diwusa_A : A ;  -- imagine
+    diye_N : N ;  -- start
+    diye_V : V ;  -- start
+    diye_A : A ;  -- start
+    diyeda_N : N ;  -- certificate
+    diyeda_V : V ;  -- certificate
+    diyeda_A : A ;  -- certificate
+    diyu_N : N ;  -- building
+    diyu_V : V ;  -- building
+    diyu_A : A ;  -- building
+    dofemi_N : N ;  -- poem
+    dofemi_V : V ;  -- poem
+    dofemi_A : A ;  -- poem
+    dofon_N : N ;  -- scarf
+    dofon_V : V ;  -- scarf
+    dofon_A : A ;  -- scarf
+    doga_N : N ;  -- data
+    doga_V : V ;  -- data
+    doga_A : A ;  -- data
+    dogen_N : N ;  -- forgive
+    dogen_V : V ;  -- forgive
+    dogen_A : A ;  -- forgive
     doku_N : N ;  -- work, labour; of a machine, function
     doku_V : V ;  -- work, labour; of a machine, function
     doku_A : A ;  -- work, labour; of a machine, function
+    dokutolu_N : N ;  -- doctor
+    dokutolu_V : V ;  -- doctor
+    dokutolu_A : A ;  -- doctor
     dolalu_N : N ;  -- dollar
     dolalu_V : V ;  -- dollar
     dolalu_A : A ;  -- dollar
     doma_N : N ;  -- listen
     doma_V : V ;  -- listen
     doma_A : A ;  -- listen
-    donbo_N : N ;  -- squeeze
-    donbo_V : V ;  -- squeeze
-    donbo_A : A ;  -- squeeze
+    doni_N : N ;  -- phone
+    doni_V : V ;  -- phone
+    doni_A : A ;  -- phone
+    dope_N : N ;  -- police
+    dope_V : V ;  -- police
+    dope_A : A ;  -- police
+    doseso_N : N ;  -- drunk
+    doseso_V : V ;  -- drunk
+    doseso_A : A ;  -- drunk
     dosi_N : N ;  -- fall, drop down
     dosi_V : V ;  -- fall, drop down
     dosi_A : A ;  -- fall, drop down
+    dotubi_N : N ;  -- wasp
+    dotubi_V : V ;  -- wasp
+    dotubi_A : A ;  -- wasp
     dowin_N : N ;  -- cough
     dowin_V : V ;  -- cough
     dowin_A : A ;  -- cough
-    duko_N : N ;  -- turn, rotate or turn around
-    duko_V : V ;  -- turn, rotate or turn around
-    duko_A : A ;  -- turn, rotate or turn around
+    dowuna_N : N ;  -- jug, water jar
+    dowuna_V : V ;  -- jug, water jar
+    dowuna_A : A ;  -- jug, water jar
+    doyu_N : N ;  -- sit
+    doyu_V : V ;  -- sit
+    doyu_A : A ;  -- sit
+    dubi_N : N ;  -- speech
+    dubi_V : V ;  -- speech
+    dubi_A : A ;  -- speech
+    dulen_N : N ;  -- culture
+    dulen_V : V ;  -- culture
+    dulen_A : A ;  -- culture
+    dumofu_N : N ;  -- tribe
+    dumofu_V : V ;  -- tribe
+    dumofu_A : A ;  -- tribe
     dunan_N : N ;  -- month
     dunan_V : V ;  -- month
     dunan_A : A ;  -- month
     dundi_N : N ;  -- respect, honour
     dundi_V : V ;  -- respect, honour
     dundi_A : A ;  -- respect, honour
+    dundo_N : N ;  -- gas station
+    dundo_V : V ;  -- gas station
+    dundo_A : A ;  -- gas station
+    dunfin_N : N ;  -- cheek
+    dunfin_V : V ;  -- cheek
+    dunfin_A : A ;  -- cheek
+    dunke_N : N ;  -- bill, invoice
+    dunke_V : V ;  -- bill, invoice
+    dunke_A : A ;  -- bill, invoice
+    dunpun_N : N ;  -- race, ethnic group (social category)
+    dunpun_V : V ;  -- race, ethnic group (social category)
+    dunpun_A : A ;  -- race, ethnic group (social category)
     dunsa_N : N ;  -- cow
     dunsa_V : V ;  -- cow
     dunsa_A : A ;  -- cow
     dunu_N : N ;  -- get, obtain
     dunu_V : V ;  -- get, obtain
     dunu_A : A ;  -- get, obtain
+    dunyen_N : N ;  -- hole
+    dunyen_V : V ;  -- hole
+    dunyen_A : A ;  -- hole
+    dupan_N : N ;  -- value
+    dupan_V : V ;  -- value
+    dupan_A : A ;  -- value
+    dupo_N : N ;  -- investigate
+    dupo_V : V ;  -- investigate
+    dupo_A : A ;  -- investigate
+    dusate_N : N ;  -- proud
+    dusate_V : V ;  -- proud
+    dusate_A : A ;  -- proud
+    dusu_N : N ;  -- dance
+    dusu_V : V ;  -- dance
+    dusu_A : A ;  -- dance
+    dutitu_N : N ;  -- treasure
+    dutitu_V : V ;  -- treasure
+    dutitu_A : A ;  -- treasure
     duwa_N : N ;  -- new
     duwa_V : V ;  -- new
     duwa_A : A ;  -- new
+    duwawa_N : N ;  -- loan (money lent)
+    duwawa_V : V ;  -- loan (money lent)
+    duwawa_A : A ;  -- loan (money lent)
     duwun_N : N ;  -- afternoon
     duwun_V : V ;  -- afternoon
     duwun_A : A ;  -- afternoon
@@ -257,24 +614,63 @@ abstract Lex = {
     elen_N : N ;  -- goat
     elen_V : V ;  -- goat
     elen_A : A ;  -- goat
+    elikoputelu_N : N ;  -- helicopter
+    elikoputelu_V : V ;  -- helicopter
+    elikoputelu_A : A ;  -- helicopter
+    emaga_N : N ;  -- thigh
+    emaga_V : V ;  -- thigh
+    emaga_A : A ;  -- thigh
+    ende_N : N ;  -- union, alliance
+    ende_V : V ;  -- union, alliance
+    ende_A : A ;  -- union, alliance
+    engan_N : N ;  -- milk (an animal)
+    engan_V : V ;  -- milk (an animal)
+    engan_A : A ;  -- milk (an animal)
     eni_N : N ;  -- other
     eni_V : V ;  -- other
     eni_A : A ;  -- other
+    enlu_N : N ;  -- science
+    enlu_V : V ;  -- science
+    enlu_A : A ;  -- science
     enna_N : N ;  -- worm
     enna_V : V ;  -- worm
     enna_A : A ;  -- worm
+    enon_N : N ;  -- direction
+    enon_V : V ;  -- direction
+    enon_A : A ;  -- direction
     enpa_N : N ;  -- free, not held or controlled
     enpa_V : V ;  -- free, not held or controlled
     enpa_A : A ;  -- free, not held or controlled
+    enpin_N : N ;  -- create
+    enpin_V : V ;  -- create
+    enpin_A : A ;  -- create
     ensu_N : N ;  -- bus
     ensu_V : V ;  -- bus
     ensu_A : A ;  -- bus
+    enudo_N : N ;  -- nonsense
+    enudo_V : V ;  -- nonsense
+    enudo_A : A ;  -- nonsense
+    epise_N : N ;  -- whistle
+    epise_V : V ;  -- whistle
+    epise_A : A ;  -- whistle
+    esago_N : N ;  -- fuel (petrol, gasoline)
+    esago_V : V ;  -- fuel (petrol, gasoline)
+    esago_A : A ;  -- fuel (petrol, gasoline)
+    etasu_N : N ;  -- bless, blessing
+    etasu_V : V ;  -- bless, blessing
+    etasu_A : A ;  -- bless, blessing
     eten_N : N ;  -- short, not long
     eten_V : V ;  -- short, not long
     eten_A : A ;  -- short, not long
     ewo_N : N ;  -- person
     ewo_V : V ;  -- person
     ewo_A : A ;  -- person
+    eye_N : N ;  -- department
+    eye_V : V ;  -- department
+    eye_A : A ;  -- department
+    eyisu_N : N ;  -- moral, ethics
+    eyisu_V : V ;  -- moral, ethics
+    eyisu_A : A ;  -- moral, ethics
     faba_N : N ;  -- sibling
     faba_V : V ;  -- sibling
     faba_A : A ;  -- sibling
@@ -287,78 +683,366 @@ abstract Lex = {
     fafin_N : N ;  -- dead
     fafin_V : V ;  -- dead
     fafin_A : A ;  -- dead
+    fafo_N : N ;  -- history
+    fafo_V : V ;  -- history
+    fafo_A : A ;  -- history
+    fafuyi_N : N ;  -- bow, bend the body
+    fafuyi_V : V ;  -- bow, bend the body
+    fafuyi_A : A ;  -- bow, bend the body
+    fagamo_N : N ;  -- volunteer
+    fagamo_V : V ;  -- volunteer
+    fagamo_A : A ;  -- volunteer
+    fakeda_N : N ;  -- well-being, welfare
+    fakeda_V : V ;  -- well-being, welfare
+    fakeda_A : A ;  -- well-being, welfare
+    fakon_N : N ;  -- cake
+    fakon_V : V ;  -- cake
+    fakon_A : A ;  -- cake
     falan_N : N ;  -- climb
     falan_V : V ;  -- climb
     falan_A : A ;  -- climb
-    fanmu_N : N ;  -- gather, bring or come together
-    fanmu_V : V ;  -- gather, bring or come together
-    fanmu_A : A ;  -- gather, bring or come together
-    fanse_N : N ;  -- calm
-    fanse_V : V ;  -- calm
-    fanse_A : A ;  -- calm
+    famin_N : N ;  -- wardrobe
+    famin_V : V ;  -- wardrobe
+    famin_A : A ;  -- wardrobe
+    fano_N : N ;  -- salty
+    fano_V : V ;  -- salty
+    fano_A : A ;  -- salty
+    fanoyu_N : N ;  -- nerve
+    fanoyu_V : V ;  -- nerve
+    fanoyu_A : A ;  -- nerve
+    fape_N : N ;  -- talk
+    fape_V : V ;  -- talk
+    fape_A : A ;  -- talk
+    fasasa_N : N ;  -- holy person (saint, widened)
+    fasasa_V : V ;  -- holy person (saint, widened)
+    fasasa_A : A ;  -- holy person (saint, widened)
+    fasegu_N : N ;  -- cabinet (government)
+    fasegu_V : V ;  -- cabinet (government)
+    fasegu_A : A ;  -- cabinet (government)
+    fasi_N : N ;  -- breathe
+    fasi_V : V ;  -- breathe
+    fasi_A : A ;  -- breathe
+    fatike_N : N ;  -- reform
+    fatike_V : V ;  -- reform
+    fatike_A : A ;  -- reform
+    fatofu_N : N ;  -- publish
+    fatofu_V : V ;  -- publish
+    fatofu_A : A ;  -- publish
     fawu_N : N ;  -- year
     fawu_V : V ;  -- year
     fawu_A : A ;  -- year
     febo_N : N ;  -- answer
     febo_V : V ;  -- answer
     febo_A : A ;  -- answer
+    fedina_N : N ;  -- flour
+    fedina_V : V ;  -- flour
+    fedina_A : A ;  -- flour
+    fefa_N : N ;  -- many
+    fefa_V : V ;  -- many
+    fefa_A : A ;  -- many
+    fefiwo_N : N ;  -- wrist
+    fefiwo_V : V ;  -- wrist
+    fefiwo_A : A ;  -- wrist
+    fegaye_N : N ;  -- factor
+    fegaye_V : V ;  -- factor
+    fegaye_A : A ;  -- factor
+    fegen_N : N ;  -- pillow
+    fegen_V : V ;  -- pillow
+    fegen_A : A ;  -- pillow
+    fegunu_N : N ;  -- presence
+    fegunu_V : V ;  -- presence
+    fegunu_A : A ;  -- presence
     feko_N : N ;  -- true
     feko_V : V ;  -- true
     feko_A : A ;  -- true
-    feli_N : N ;  -- many
-    feli_V : V ;  -- many
-    feli_A : A ;  -- many
+    fela_N : N ;  -- place
+    fela_V : V ;  -- place
+    fela_A : A ;  -- place
+    felefo_N : N ;  -- edition
+    felefo_V : V ;  -- edition
+    felefo_A : A ;  -- edition
+    felin_N : N ;  -- competition
+    felin_V : V ;  -- competition
+    felin_A : A ;  -- competition
     feme_N : N ;  -- feel
     feme_V : V ;  -- feel
     feme_A : A ;  -- feel
+    femete_N : N ;  -- infection, infect
+    femete_V : V ;  -- infection, infect
+    femete_A : A ;  -- infection, infect
+    femigu_N : N ;  -- screen (display)
+    femigu_V : V ;  -- screen (display)
+    femigu_A : A ;  -- screen (display)
+    fendu_N : N ;  -- shame
+    fendu_V : V ;  -- shame
+    fendu_A : A ;  -- shame
+    fenfen_N : N ;  -- governor
+    fenfen_V : V ;  -- governor
+    fenfen_A : A ;  -- governor
+    fenga_N : N ;  -- grape
+    fenga_V : V ;  -- grape
+    fenga_A : A ;  -- grape
+    fenkun_N : N ;  -- flow
+    fenkun_V : V ;  -- flow
+    fenkun_A : A ;  -- flow
+    fenmon_N : N ;  -- banana
+    fenmon_V : V ;  -- banana
+    fenmon_A : A ;  -- banana
+    fenni_N : N ;  -- cell (biological)
+    fenni_V : V ;  -- cell (biological)
+    fenni_A : A ;  -- cell (biological)
+    fentan_N : N ;  -- famous
+    fentan_V : V ;  -- famous
+    fentan_A : A ;  -- famous
+    fenun_N : N ;  -- bicycle
+    fenun_V : V ;  -- bicycle
+    fenun_A : A ;  -- bicycle
+    fenwan_N : N ;  -- glue
+    fenwan_V : V ;  -- glue
+    fenwan_A : A ;  -- glue
+    fepoka_N : N ;  -- consciousness
+    fepoka_V : V ;  -- consciousness
+    fepoka_A : A ;  -- consciousness
+    fesan_N : N ;  -- bean
+    fesan_V : V ;  -- bean
+    fesan_A : A ;  -- bean
+    fesati_N : N ;  -- lame, limping
+    fesati_V : V ;  -- lame, limping
+    fesati_A : A ;  -- lame, limping
     fesun_N : N ;  -- hunt
     fesun_V : V ;  -- hunt
     fesun_A : A ;  -- hunt
+    feti_N : N ;  -- sun
+    feti_V : V ;  -- sun
+    feti_A : A ;  -- sun
+    fewi_N : N ;  -- fate, destiny
+    fewi_V : V ;  -- fate, destiny
+    fewi_A : A ;  -- fate, destiny
+    fide_N : N ;  -- above
+    fide_V : V ;  -- above
+    fide_A : A ;  -- above
+    fifetu_N : N ;  -- busy
+    fifetu_V : V ;  -- busy
+    fifetu_A : A ;  -- busy
+    fifige_N : N ;  -- bead
+    fifige_V : V ;  -- bead
+    fifige_A : A ;  -- bead
+    figu_N : N ;  -- world
+    figu_V : V ;  -- world
+    figu_A : A ;  -- world
+    fikin_N : N ;  -- naughty
+    fikin_V : V ;  -- naughty
+    fikin_A : A ;  -- naughty
+    fileni_N : N ;  -- cup
+    fileni_V : V ;  -- cup
+    fileni_A : A ;  -- cup
+    fimo_N : N ;  -- sleep
+    fimo_V : V ;  -- sleep
+    fimo_A : A ;  -- sleep
+    fimofa_N : N ;  -- invent
+    fimofa_V : V ;  -- invent
+    fimofa_A : A ;  -- invent
+    fimumo_N : N ;  -- spy
+    fimumo_V : V ;  -- spy
+    fimumo_A : A ;  -- spy
     finbi_N : N ;  -- suddenly
     finbi_V : V ;  -- suddenly
     finbi_A : A ;  -- suddenly
+    finfon_N : N ;  -- witness
+    finfon_V : V ;  -- witness
+    finfon_A : A ;  -- witness
+    finlen_N : N ;  -- aspect
+    finlen_V : V ;  -- aspect
+    finlen_A : A ;  -- aspect
     finlu_N : N ;  -- bitter
     finlu_V : V ;  -- bitter
     finlu_A : A ;  -- bitter
+    finma_N : N ;  -- kitchen
+    finma_V : V ;  -- kitchen
+    finma_A : A ;  -- kitchen
     finsa_N : N ;  -- adjust, set
     finsa_V : V ;  -- adjust, set
     finsa_A : A ;  -- adjust, set
+    finte_N : N ;  -- republic
+    finte_V : V ;  -- republic
+    finte_A : A ;  -- republic
+    finwo_N : N ;  -- situation
+    finwo_V : V ;  -- situation
+    finwo_A : A ;  -- situation
+    fipan_N : N ;  -- story
+    fipan_V : V ;  -- story
+    fipan_A : A ;  -- story
+    fisen_N : N ;  -- evil spirit, demon, devil
+    fisen_V : V ;  -- evil spirit, demon, devil
+    fisen_A : A ;  -- evil spirit, demon, devil
+    fisu_N : N ;  -- kind, type
+    fisu_V : V ;  -- kind, type
+    fisu_A : A ;  -- kind, type
+    fisusa_N : N ;  -- trick, deceive
+    fisusa_V : V ;  -- trick, deceive
+    fisusa_A : A ;  -- trick, deceive
+    fitune_N : N ;  -- greedy
+    fitune_V : V ;  -- greedy
+    fitune_A : A ;  -- greedy
+    fiwun_N : N ;  -- care
+    fiwun_V : V ;  -- care
+    fiwun_A : A ;  -- care
+    fiyi_N : N ;  -- thunder
+    fiyi_V : V ;  -- thunder
+    fiyi_A : A ;  -- thunder
+    fiyon_N : N ;  -- tiger
+    fiyon_V : V ;  -- tiger
+    fiyon_A : A ;  -- tiger
+    fiyuwi_N : N ;  -- fraud, cheating
+    fiyuwi_V : V ;  -- fraud, cheating
+    fiyuwi_A : A ;  -- fraud, cheating
+    fofun_N : N ;  -- ride
+    fofun_V : V ;  -- ride
+    fofun_A : A ;  -- ride
+    fogasi_N : N ;  -- decrease, become or make less
+    fogasi_V : V ;  -- decrease, become or make less
+    fogasi_A : A ;  -- decrease, become or make less
     foke_N : N ;  -- moment
     foke_V : V ;  -- moment
     foke_A : A ;  -- moment
+    folu_N : N ;  -- period, era, interval
+    folu_V : V ;  -- period, era, interval
+    folu_A : A ;  -- period, era, interval
+    folunu_N : N ;  -- broadcast
+    folunu_V : V ;  -- broadcast
+    folunu_A : A ;  -- broadcast
+    fomefi_N : N ;  -- hiccup
+    fomefi_V : V ;  -- hiccup
+    fomefi_A : A ;  -- hiccup
+    fondan_N : N ;  -- crisis
+    fondan_V : V ;  -- crisis
+    fondan_A : A ;  -- crisis
+    fone_N : N ;  -- use
+    fone_V : V ;  -- use
+    fone_A : A ;  -- use
+    fongin_N : N ;  -- positive
+    fongin_V : V ;  -- positive
+    fongin_A : A ;  -- positive
     fongo_N : N ;  -- straight
     fongo_V : V ;  -- straight
     fongo_A : A ;  -- straight
     fonma_N : N ;  -- tooth
     fonma_V : V ;  -- tooth
     fonma_A : A ;  -- tooth
+    fonmu_N : N ;  -- drawer
+    fonmu_V : V ;  -- drawer
+    fonmu_A : A ;  -- drawer
+    fonpi_N : N ;  -- wolf
+    fonpi_V : V ;  -- wolf
+    fonpi_A : A ;  -- wolf
+    fonsa_N : N ;  -- soda
+    fonsa_V : V ;  -- soda
+    fonsa_A : A ;  -- soda
+    fonsen_N : N ;  -- holy, sacred
+    fonsen_V : V ;  -- holy, sacred
+    fonsen_A : A ;  -- holy, sacred
     fonsu_N : N ;  -- cut
     fonsu_V : V ;  -- cut
     fonsu_A : A ;  -- cut
-    foto_N : N ;  -- photo
-    foto_V : V ;  -- photo
-    foto_A : A ;  -- photo
+    fonuse_N : N ;  -- dew
+    fonuse_V : V ;  -- dew
+    fonuse_A : A ;  -- dew
+    fonye_N : N ;  -- truck
+    fonye_V : V ;  -- truck
+    fonye_A : A ;  -- truck
+    fonyun_N : N ;  -- there
+    fonyun_V : V ;  -- there
+    fonyun_A : A ;  -- there
+    fopako_N : N ;  -- corruption
+    fopako_V : V ;  -- corruption
+    fopako_A : A ;  -- corruption
+    fopan_N : N ;  -- smell, sense or give off an odour
+    fopan_V : V ;  -- smell, sense or give off an odour
+    fopan_A : A ;  -- smell, sense or give off an odour
+    fotin_N : N ;  -- pour
+    fotin_V : V ;  -- pour
+    fotin_A : A ;  -- pour
+    fowi_N : N ;  -- medicine
+    fowi_V : V ;  -- medicine
+    fowi_A : A ;  -- medicine
+    fowile_N : N ;  -- characteristic, feature, trait
+    fowile_V : V ;  -- characteristic, feature, trait
+    fowile_A : A ;  -- characteristic, feature, trait
     fowo_N : N ;  -- ground, earth or soil
     fowo_V : V ;  -- ground, earth or soil
     fowo_A : A ;  -- ground, earth or soil
+    foya_N : N ;  -- order, command (someone to do something)
+    foya_V : V ;  -- order, command (someone to do something)
+    foya_A : A ;  -- order, command (someone to do something)
+    foyufo_N : N ;  -- monster
+    foyufo_V : V ;  -- monster
+    foyufo_A : A ;  -- monster
+    fuba_N : N ;  -- mind, intellect
+    fuba_V : V ;  -- mind, intellect
+    fuba_A : A ;  -- mind, intellect
     fudon_N : N ;  -- room, of a building
     fudon_V : V ;  -- room, of a building
     fudon_A : A ;  -- room, of a building
+    fufoma_N : N ;  -- steam
+    fufoma_V : V ;  -- steam
+    fufoma_A : A ;  -- steam
     fugi_N : N ;  -- end
     fugi_V : V ;  -- end
     fugi_A : A ;  -- end
-    funbe_N : N ;  -- left, the side
-    funbe_V : V ;  -- left, the side
-    funbe_A : A ;  -- left, the side
+    fugigo_N : N ;  -- kidney
+    fugigo_V : V ;  -- kidney
+    fugigo_A : A ;  -- kidney
+    fukon_N : N ;  -- support
+    fukon_V : V ;  -- support
+    fukon_A : A ;  -- support
+    fulan_N : N ;  -- student
+    fulan_V : V ;  -- student
+    fulan_A : A ;  -- student
+    fumin_N : N ;  -- lesson
+    fumin_V : V ;  -- lesson
+    fumin_A : A ;  -- lesson
+    fumuwe_N : N ;  -- experiment
+    fumuwe_V : V ;  -- experiment
+    fumuwe_A : A ;  -- experiment
+    funeta_N : N ;  -- fill, make full
+    funeta_V : V ;  -- fill, make full
+    funeta_A : A ;  -- fill, make full
     funo_N : N ;  -- eye
     funo_V : V ;  -- eye
     funo_A : A ;  -- eye
-    funti_N : N ;  -- group
-    funti_V : V ;  -- group
-    funti_A : A ;  -- group
+    fupen_N : N ;  -- camp
+    fupen_V : V ;  -- camp
+    fupen_A : A ;  -- camp
+    fupu_N : N ;  -- pain
+    fupu_V : V ;  -- pain
+    fupu_A : A ;  -- pain
+    fusami_N : N ;  -- coach
+    fusami_V : V ;  -- coach
+    fusami_A : A ;  -- coach
+    fuseno_N : N ;  -- protest
+    fuseno_V : V ;  -- protest
+    fuseno_A : A ;  -- protest
+    fusin_N : N ;  -- turtle
+    fusin_V : V ;  -- turtle
+    fusin_A : A ;  -- turtle
+    fuso_N : N ;  -- below
+    fuso_V : V ;  -- below
+    fuso_A : A ;  -- below
+    fusuyu_N : N ;  -- missile
+    fusuyu_V : V ;  -- missile
+    fusuyu_A : A ;  -- missile
     futa_N : N ;  -- woman, female
     futa_V : V ;  -- woman, female
     futa_A : A ;  -- woman, female
+    futaya_N : N ;  -- sensitive
+    futaya_V : V ;  -- sensitive
+    futaya_A : A ;  -- sensitive
+    fuwape_N : N ;  -- grain
+    fuwape_V : V ;  -- grain
+    fuwape_A : A ;  -- grain
+    fuyen_N : N ;  -- rule
+    fuyen_V : V ;  -- rule
+    fuyen_A : A ;  -- rule
     fuyu_N : N ;  -- meat
     fuyu_V : V ;  -- meat
     fuyu_A : A ;  -- meat
@@ -368,102 +1052,252 @@ abstract Lex = {
     gabu_N : N ;  -- vomit
     gabu_V : V ;  -- vomit
     gabu_A : A ;  -- vomit
+    gafon_N : N ;  -- never
+    gafon_V : V ;  -- never
+    gafon_A : A ;  -- never
     gagan_N : N ;  -- wrong
     gagan_V : V ;  -- wrong
     gagan_A : A ;  -- wrong
+    gakabe_N : N ;  -- swallow (food, drink)
+    gakabe_V : V ;  -- swallow (food, drink)
+    gakabe_A : A ;  -- swallow (food, drink)
     gake_N : N ;  -- slow
     gake_V : V ;  -- slow
     gake_A : A ;  -- slow
     gala_N : N ;  -- tree
     gala_V : V ;  -- tree
     gala_A : A ;  -- tree
+    galasu_N : N ;  -- garage
+    galasu_V : V ;  -- garage
+    galasu_A : A ;  -- garage
     gamun_N : N ;  -- light, not heavy
     gamun_V : V ;  -- light, not heavy
     gamun_A : A ;  -- light, not heavy
+    gamuni_N : N ;  -- improve
+    gamuni_V : V ;  -- improve
+    gamuni_A : A ;  -- improve
+    ganegu_N : N ;  -- mud
+    ganegu_V : V ;  -- mud
+    ganegu_A : A ;  -- mud
+    ganfi_N : N ;  -- potato
+    ganfi_V : V ;  -- potato
+    ganfi_A : A ;  -- potato
     ganin_N : N ;  -- hope
     ganin_V : V ;  -- hope
     ganin_A : A ;  -- hope
+    ganlu_N : N ;  -- constitution
+    ganlu_V : V ;  -- constitution
+    ganlu_A : A ;  -- constitution
     ganna_N : N ;  -- early, before the expected time
     ganna_V : V ;  -- early, before the expected time
     ganna_A : A ;  -- early, before the expected time
     ganpa_N : N ;  -- yawn
     ganpa_V : V ;  -- yawn
     ganpa_A : A ;  -- yawn
-    gason_N : N ;  -- idea
-    gason_V : V ;  -- idea
-    gason_A : A ;  -- idea
+    ganten_N : N ;  -- cancer
+    ganten_V : V ;  -- cancer
+    ganten_A : A ;  -- cancer
+    ganton_N : N ;  -- destroy
+    ganton_V : V ;  -- destroy
+    ganton_A : A ;  -- destroy
+    ganyi_N : N ;  -- suit (the garment)
+    ganyi_V : V ;  -- suit (the garment)
+    ganyi_A : A ;  -- suit (the garment)
+    ganyo_N : N ;  -- letter of the alphabet
+    ganyo_V : V ;  -- letter of the alphabet
+    ganyo_A : A ;  -- letter of the alphabet
+    gasipu_N : N ;  -- normal
+    gasipu_V : V ;  -- normal
+    gasipu_A : A ;  -- normal
+    gasu_N : N ;  -- gas (state of matter; fuel gas)
+    gasu_V : V ;  -- gas (state of matter; fuel gas)
+    gasu_A : A ;  -- gas (state of matter; fuel gas)
     gawo_N : N ;  -- body
     gawo_V : V ;  -- body
     gawo_A : A ;  -- body
     gayen_N : N ;  -- copy, make the same again
     gayen_V : V ;  -- copy, make the same again
     gayen_A : A ;  -- copy, make the same again
+    gefen_N : N ;  -- common, ordinary, usual
+    gefen_V : V ;  -- common, ordinary, usual
+    gefen_A : A ;  -- common, ordinary, usual
+    gefo_N : N ;  -- wait
+    gefo_V : V ;  -- wait
+    gefo_A : A ;  -- wait
+    gefuko_N : N ;  -- lunch
+    gefuko_V : V ;  -- lunch
+    gefuko_A : A ;  -- lunch
+    gega_N : N ;  -- case, instance
+    gega_V : V ;  -- case, instance
+    gega_A : A ;  -- case, instance
     gegi_N : N ;  -- rain
     gegi_V : V ;  -- rain
     gegi_A : A ;  -- rain
+    gegule_N : N ;  -- attitude, stance
+    gegule_V : V ;  -- attitude, stance
+    gegule_A : A ;  -- attitude, stance
+    gekidu_N : N ;  -- achieve
+    gekidu_V : V ;  -- achieve
+    gekidu_A : A ;  -- achieve
     gekon_N : N ;  -- fly, the insect
     gekon_V : V ;  -- fly, the insect
     gekon_A : A ;  -- fly, the insect
+    gele_N : N ;  -- business
+    gele_V : V ;  -- business
+    gele_A : A ;  -- business
     gelu_N : N ;  -- near
     gelu_V : V ;  -- near
     gelu_A : A ;  -- near
-    genne_N : N ;  -- mountain
-    genne_V : V ;  -- mountain
-    genne_A : A ;  -- mountain
+    gememi_N : N ;  -- itch
+    gememi_V : V ;  -- itch
+    gememi_A : A ;  -- itch
+    gemi_N : N ;  -- government
+    gemi_V : V ;  -- government
+    gemi_A : A ;  -- government
     geno_N : N ;  -- find
     geno_V : V ;  -- find
     geno_A : A ;  -- find
+    genogi_N : N ;  -- approach, come near
+    genogi_V : V ;  -- approach, come near
+    genogi_A : A ;  -- approach, come near
+    gepata_N : N ;  -- crown (worn by a monarch)
+    gepata_V : V ;  -- crown (worn by a monarch)
+    gepata_A : A ;  -- crown (worn by a monarch)
+    gesi_N : N ;  -- question
+    gesi_V : V ;  -- question
+    gesi_A : A ;  -- question
+    geson_N : N ;  -- citizen
+    geson_V : V ;  -- citizen
+    geson_A : A ;  -- citizen
+    getin_N : N ;  -- color
+    getin_V : V ;  -- color
+    getin_A : A ;  -- color
     gewan_N : N ;  -- trust, rely on
     gewan_V : V ;  -- trust, rely on
     gewan_A : A ;  -- trust, rely on
-    gigin_N : N ;  -- country, nation
-    gigin_V : V ;  -- country, nation
-    gigin_A : A ;  -- country, nation
-    gimen_N : N ;  -- fat, body fat
-    gimen_V : V ;  -- fat, body fat
-    gimen_A : A ;  -- fat, body fat
-    gimu_N : N ;  -- occasion, a time (three times)
-    gimu_V : V ;  -- occasion, a time (three times)
-    gimu_A : A ;  -- occasion, a time (three times)
+    geweso_N : N ;  -- wild, not tamed or farmed
+    geweso_V : V ;  -- wild, not tamed or farmed
+    geweso_A : A ;  -- wild, not tamed or farmed
+    gewobu_N : N ;  -- traffic
+    gewobu_V : V ;  -- traffic
+    gewobu_A : A ;  -- traffic
+    gewun_N : N ;  -- shoe
+    gewun_V : V ;  -- shoe
+    gewun_A : A ;  -- shoe
+    geyawe_N : N ;  -- ceiling
+    geyawe_V : V ;  -- ceiling
+    geyawe_A : A ;  -- ceiling
     ginda_N : N ;  -- crooked
     ginda_V : V ;  -- crooked
     ginda_A : A ;  -- crooked
+    ginden_N : N ;  -- expert
+    ginden_V : V ;  -- expert
+    ginden_A : A ;  -- expert
+    ginfin_N : N ;  -- content (what is inside)
+    ginfin_V : V ;  -- content (what is inside)
+    ginfin_A : A ;  -- content (what is inside)
+    gingun_N : N ;  -- stage, phase
+    gingun_V : V ;  -- stage, phase
+    gingun_A : A ;  -- stage, phase
+    ginman_N : N ;  -- revolution
+    ginman_V : V ;  -- revolution
+    ginman_A : A ;  -- revolution
     ginni_N : N ;  -- add, put in more
     ginni_V : V ;  -- add, put in more
     ginni_A : A ;  -- add, put in more
-    gipo_N : N ;  -- bone
-    gipo_V : V ;  -- bone
-    gipo_A : A ;  -- bone
-    gisu_N : N ;  -- green
-    gisu_V : V ;  -- green
-    gisu_A : A ;  -- green
-    gitin_N : N ;  -- throw
-    gitin_V : V ;  -- throw
-    gitin_A : A ;  -- throw
-    giwe_N : N ;  -- sun
-    giwe_V : V ;  -- sun
-    giwe_A : A ;  -- sun
+    ginnon_N : N ;  -- handle
+    ginnon_V : V ;  -- handle
+    ginnon_A : A ;  -- handle
+    ginpe_N : N ;  -- comb
+    ginpe_V : V ;  -- comb
+    ginpe_A : A ;  -- comb
+    ginsan_N : N ;  -- interview
+    ginsan_V : V ;  -- interview
+    ginsan_A : A ;  -- interview
+    ginto_N : N ;  -- message
+    ginto_V : V ;  -- message
+    ginto_A : A ;  -- message
+    gitalu_N : N ;  -- guitar
+    gitalu_V : V ;  -- guitar
+    gitalu_A : A ;  -- guitar
+    gobewo_N : N ;  -- shock
+    gobewo_V : V ;  -- shock
+    gobewo_A : A ;  -- shock
+    gobopa_N : N ;  -- scale (of fish or snake)
+    gobopa_V : V ;  -- scale (of fish or snake)
+    gobopa_A : A ;  -- scale (of fish or snake)
+    godin_N : N ;  -- hose
+    godin_V : V ;  -- hose
+    godin_A : A ;  -- hose
     gofa_N : N ;  -- difficult
     gofa_V : V ;  -- difficult
     gofa_A : A ;  -- difficult
+    gofafi_N : N ;  -- vegetable
+    gofafi_V : V ;  -- vegetable
+    gofafi_A : A ;  -- vegetable
+    gofen_N : N ;  -- watermelon
+    gofen_V : V ;  -- watermelon
+    gofen_A : A ;  -- watermelon
     gogo_N : N ;  -- heavy
     gogo_V : V ;  -- heavy
     gogo_A : A ;  -- heavy
+    gokin_N : N ;  -- doll
+    gokin_V : V ;  -- doll
+    gokin_A : A ;  -- doll
     gole_N : N ;  -- smart
     gole_V : V ;  -- smart
     gole_A : A ;  -- smart
+    golun_N : N ;  -- border
+    golun_V : V ;  -- border
+    golun_A : A ;  -- border
     gonge_N : N ;  -- lip
     gonge_V : V ;  -- lip
     gonge_A : A ;  -- lip
+    gonkan_N : N ;  -- serve
+    gonkan_V : V ;  -- serve
+    gonkan_A : A ;  -- serve
+    gonla_N : N ;  -- subject, topic
+    gonla_V : V ;  -- subject, topic
+    gonla_A : A ;  -- subject, topic
     gonmi_N : N ;  -- toe
     gonmi_V : V ;  -- toe
     gonmi_A : A ;  -- toe
+    gonmon_N : N ;  -- appointment
+    gonmon_V : V ;  -- appointment
+    gonmon_A : A ;  -- appointment
+    gonpu_N : N ;  -- brush
+    gonpu_V : V ;  -- brush
+    gonpu_A : A ;  -- brush
+    gonso_N : N ;  -- window
+    gonso_V : V ;  -- window
+    gonso_A : A ;  -- window
     gonte_N : N ;  -- mosquito
     gonte_V : V ;  -- mosquito
     gonte_A : A ;  -- mosquito
-    goyu_N : N ;  -- sit
-    goyu_V : V ;  -- sit
-    goyu_A : A ;  -- sit
+    gonwen_N : N ;  -- victim
+    gonwen_V : V ;  -- victim
+    gonwen_A : A ;  -- victim
+    gonwu_N : N ;  -- divide, division
+    gonwu_V : V ;  -- divide, division
+    gonwu_A : A ;  -- divide, division
+    gosan_N : N ;  -- relative, family member
+    gosan_V : V ;  -- relative, family member
+    gosan_A : A ;  -- relative, family member
+    gosuye_N : N ;  -- habit, routine
+    gosuye_V : V ;  -- habit, routine
+    gosuye_A : A ;  -- habit, routine
+    goto_N : N ;  -- danger
+    goto_V : V ;  -- danger
+    goto_A : A ;  -- danger
+    goyito_N : N ;  -- load, burden
+    goyito_V : V ;  -- load, burden
+    goyito_A : A ;  -- load, burden
+    goyon_N : N ;  -- guess
+    goyon_V : V ;  -- guess
+    goyon_A : A ;  -- guess
+    goyuyu_N : N ;  -- hoe
+    goyuyu_V : V ;  -- hoe
+    goyuyu_A : A ;  -- hoe
     gudu_N : N ;  -- liver
     gudu_V : V ;  -- liver
     gudu_A : A ;  -- liver
@@ -473,99 +1307,261 @@ abstract Lex = {
     guge_N : N ;  -- grow
     guge_V : V ;  -- grow
     guge_A : A ;  -- grow
+    gugife_N : N ;  -- hate
+    gugife_V : V ;  -- hate
+    gugife_A : A ;  -- hate
+    gugon_N : N ;  -- date (romantic meeting)
+    gugon_V : V ;  -- date (romantic meeting)
+    gugon_A : A ;  -- date (romantic meeting)
+    guka_N : N ;  -- nail (of a finger or toe), claw
+    guka_V : V ;  -- nail (of a finger or toe), claw
+    guka_A : A ;  -- nail (of a finger or toe), claw
+    gukema_N : N ;  -- continent
+    gukema_V : V ;  -- continent
+    gukema_A : A ;  -- continent
     gulamu_N : N ;  -- gram
     gulamu_V : V ;  -- gram
     gulamu_A : A ;  -- gram
-    gulo_N : N ;  -- wind
-    gulo_V : V ;  -- wind
-    gulo_A : A ;  -- wind
-    gunmo_N : N ;  -- thin
-    gunmo_V : V ;  -- thin
-    gunmo_A : A ;  -- thin
+    gumewe_N : N ;  -- sink (go under water)
+    gumewe_V : V ;  -- sink (go under water)
+    gumewe_A : A ;  -- sink (go under water)
+    gunago_N : N ;  -- scrape
+    gunago_V : V ;  -- scrape
+    gunago_A : A ;  -- scrape
+    gusala_N : N ;  -- snot, nasal mucus
+    gusala_V : V ;  -- snot, nasal mucus
+    gusala_A : A ;  -- snot, nasal mucus
     gusen_N : N ;  -- intestines
     gusen_V : V ;  -- intestines
     gusen_A : A ;  -- intestines
+    guwuki_N : N ;  -- negative
+    guwuki_V : V ;  -- negative
+    guwuki_A : A ;  -- negative
+    guya_N : N ;  -- condition
+    guya_V : V ;  -- condition
+    guya_A : A ;  -- condition
     guyi_N : N ;  -- house, home
     guyi_V : V ;  -- house, home
     guyi_A : A ;  -- house, home
     ibe_N : N ;  -- have, possess
     ibe_V : V ;  -- have, possess
     ibe_A : A ;  -- have, possess
+    idon_N : N ;  -- project
+    idon_V : V ;  -- project
+    idon_A : A ;  -- project
+    ifan_N : N ;  -- class (school group)
+    ifan_V : V ;  -- class (school group)
+    ifan_A : A ;  -- class (school group)
+    igin_N : N ;  -- test, exam
+    igin_V : V ;  -- test, exam
+    igin_A : A ;  -- test, exam
     iko_N : N ;  -- tell
     iko_V : V ;  -- tell
     iko_A : A ;  -- tell
+    ila_N : N ;  -- word
+    ila_V : V ;  -- word
+    ila_A : A ;  -- word
     imeyilu_N : N ;  -- email
     imeyilu_V : V ;  -- email
     imeyilu_A : A ;  -- email
+    imin_N : N ;  -- past
+    imin_V : V ;  -- past
+    imin_A : A ;  -- past
     imu_N : N ;  -- remember
     imu_V : V ;  -- remember
     imu_A : A ;  -- remember
     inan_N : N ;  -- clean
     inan_V : V ;  -- clean
     inan_A : A ;  -- clean
+    indiniyalu_N : N ;  -- engineer
+    indiniyalu_V : V ;  -- engineer
+    indiniyalu_A : A ;  -- engineer
     ingo_N : N ;  -- book
     ingo_V : V ;  -- book
     ingo_A : A ;  -- book
     inke_N : N ;  -- grind
     inke_V : V ;  -- grind
     inke_A : A ;  -- grind
+    intan_N : N ;  -- yard, courtyard
+    intan_V : V ;  -- yard, courtyard
+    intan_A : A ;  -- yard, courtyard
     intelunetu_N : N ;  -- internet
     intelunetu_V : V ;  -- internet
     intelunetu_A : A ;  -- internet
+    intu_N : N ;  -- match, contest
+    intu_V : V ;  -- match, contest
+    intu_A : A ;  -- match, contest
     inwa_N : N ;  -- enter
     inwa_V : V ;  -- enter
     inwa_A : A ;  -- enter
     inyi_N : N ;  -- arm
     inyi_V : V ;  -- arm
     inyi_A : A ;  -- arm
+    iseka_N : N ;  -- desert
+    iseka_V : V ;  -- desert
+    iseka_A : A ;  -- desert
     isi_N : N ;  -- go
     isi_V : V ;  -- go
     isi_A : A ;  -- go
+    ituke_N : N ;  -- organ (of the body)
+    ituke_V : V ;  -- organ (of the body)
+    ituke_A : A ;  -- organ (of the body)
+    iwola_N : N ;  -- parent
+    iwola_V : V ;  -- parent
+    iwola_A : A ;  -- parent
+    kadan_N : N ;  -- demand
+    kadan_V : V ;  -- demand
+    kadan_A : A ;  -- demand
+    kadeso_N : N ;  -- register, enrol
+    kadeso_V : V ;  -- register, enrol
+    kadeso_A : A ;  -- register, enrol
+    kafe_N : N ;  -- coffee
+    kafe_V : V ;  -- coffee
+    kafe_A : A ;  -- coffee
+    kafewe_N : N ;  -- tree trunk
+    kafewe_V : V ;  -- tree trunk
+    kafewe_A : A ;  -- tree trunk
+    kagun_N : N ;  -- zipper
+    kagun_V : V ;  -- zipper
+    kagun_A : A ;  -- zipper
+    kakin_N : N ;  -- honest
+    kakin_V : V ;  -- honest
+    kakin_A : A ;  -- honest
+    kalendalu_N : N ;  -- calendar (the object)
+    kalendalu_V : V ;  -- calendar (the object)
+    kalendalu_A : A ;  -- calendar (the object)
     kamela_N : N ;  -- camera
     kamela_V : V ;  -- camera
     kamela_A : A ;  -- camera
+    kamon_N : N ;  -- quality
+    kamon_V : V ;  -- quality
+    kamon_A : A ;  -- quality
+    kaname_N : N ;  -- divorce
+    kaname_V : V ;  -- divorce
+    kaname_A : A ;  -- divorce
+    kandi_N : N ;  -- hospital
+    kandi_V : V ;  -- hospital
+    kandi_A : A ;  -- hospital
+    kanen_N : N ;  -- province
+    kanen_V : V ;  -- province
+    kanen_A : A ;  -- province
+    kanfun_N : N ;  -- debt
+    kanfun_V : V ;  -- debt
+    kanfun_A : A ;  -- debt
     kanga_N : N ;  -- basket
     kanga_V : V ;  -- basket
     kanga_A : A ;  -- basket
-    kanko_N : N ;  -- smell, sense or give off an odour
-    kanko_V : V ;  -- smell, sense or give off an odour
-    kanko_A : A ;  -- smell, sense or give off an odour
-    kedon_N : N ;  -- vulva
-    kedon_V : V ;  -- vulva
-    kedon_A : A ;  -- vulva
-    kefa_N : N ;  -- spit
-    kefa_V : V ;  -- spit
-    kefa_A : A ;  -- spit
-    kegin_N : N ;  -- evening
-    kegin_V : V ;  -- evening
-    kegin_A : A ;  -- evening
-    kegu_N : N ;  -- talk
-    kegu_V : V ;  -- talk
-    kegu_A : A ;  -- talk
-    kemin_N : N ;  -- document, file
-    kemin_V : V ;  -- document, file
-    kemin_A : A ;  -- document, file
-    kemu_N : N ;  -- place
-    kemu_V : V ;  -- place
-    kemu_A : A ;  -- place
+    kangen_N : N ;  -- standard, norm
+    kangen_V : V ;  -- standard, norm
+    kangen_A : A ;  -- standard, norm
+    kanme_N : N ;  -- tissue
+    kanme_V : V ;  -- tissue
+    kanme_A : A ;  -- tissue
+    kannu_N : N ;  -- candy
+    kannu_V : V ;  -- candy
+    kannu_A : A ;  -- candy
+    kansa_N : N ;  -- elephant
+    kansa_V : V ;  -- elephant
+    kansa_A : A ;  -- elephant
+    kaputan_N : N ;  -- captain
+    kaputan_V : V ;  -- captain
+    kaputan_A : A ;  -- captain
+    kasalu_N : N ;  -- foam, froth
+    kasalu_V : V ;  -- foam, froth
+    kasalu_A : A ;  -- foam, froth
+    kasin_N : N ;  -- squirrel
+    kasin_V : V ;  -- squirrel
+    kasin_A : A ;  -- squirrel
+    kato_N : N ;  -- thin
+    kato_V : V ;  -- thin
+    kato_A : A ;  -- thin
+    katoge_N : N ;  -- throne
+    katoge_V : V ;  -- throne
+    katoge_A : A ;  -- throne
+    kawa_N : N ;  -- bite
+    kawa_V : V ;  -- bite
+    kawa_A : A ;  -- bite
+    kawafa_N : N ;  -- physics
+    kawafa_V : V ;  -- physics
+    kawafa_A : A ;  -- physics
+    kawi_N : N ;  -- minister
+    kawi_V : V ;  -- minister
+    kawi_A : A ;  -- minister
+    kawiwu_N : N ;  -- spend
+    kawiwu_V : V ;  -- spend
+    kawiwu_A : A ;  -- spend
+    kayiyi_N : N ;  -- womb
+    kayiyi_V : V ;  -- womb
+    kayiyi_A : A ;  -- womb
+    kayolo_N : N ;  -- available
+    kayolo_V : V ;  -- available
+    kayolo_A : A ;  -- available
+    kenfan_N : N ;  -- wave (of water; wave a hand)
+    kenfan_V : V ;  -- wave (of water; wave a hand)
+    kenfan_A : A ;  -- wave (of water; wave a hand)
+    kenfi_N : N ;  -- visit
+    kenfi_V : V ;  -- visit
+    kenfi_A : A ;  -- visit
+    kenken_N : N ;  -- arrest
+    kenken_V : V ;  -- arrest
+    kenken_A : A ;  -- arrest
     kenlo_N : N ;  -- tail
     kenlo_V : V ;  -- tail
     kenlo_A : A ;  -- tail
-    kete_N : N ;  -- full
-    kete_V : V ;  -- full
-    kete_A : A ;  -- full
-    keya_N : N ;  -- must, have to
-    keya_V : V ;  -- must, have to
-    keya_A : A ;  -- must, have to
+    kennun_N : N ;  -- democracy
+    kennun_V : V ;  -- democracy
+    kennun_A : A ;  -- democracy
+    kensen_N : N ;  -- honey
+    kensen_V : V ;  -- honey
+    kensen_A : A ;  -- honey
+    kenta_N : N ;  -- sink, basin
+    kenta_V : V ;  -- sink, basin
+    kenta_A : A ;  -- sink, basin
+    kentu_N : N ;  -- field, open land
+    kentu_V : V ;  -- field, open land
+    kentu_A : A ;  -- field, open land
+    kenwe_N : N ;  -- rabbit
+    kenwe_V : V ;  -- rabbit
+    kenwe_A : A ;  -- rabbit
+    kenwon_N : N ;  -- punish
+    kenwon_V : V ;  -- punish
+    kenwon_A : A ;  -- punish
+    kenyan_N : N ;  -- blood
+    kenyan_V : V ;  -- blood
+    kenyan_A : A ;  -- blood
     kidun_N : N ;  -- fair, just
     kidun_V : V ;  -- fair, just
     kidun_A : A ;  -- fair, just
+    kifa_N : N ;  -- must, have to
+    kifa_V : V ;  -- must, have to
+    kifa_A : A ;  -- must, have to
+    kifaso_N : N ;  -- regular
+    kifaso_V : V ;  -- regular
+    kifaso_A : A ;  -- regular
+    kifela_N : N ;  -- thick
+    kifela_V : V ;  -- thick
+    kifela_A : A ;  -- thick
+    kifon_N : N ;  -- living room
+    kifon_V : V ;  -- living room
+    kifon_A : A ;  -- living room
+    kigan_N : N ;  -- palace
+    kigan_V : V ;  -- palace
+    kigan_A : A ;  -- palace
     kige_N : N ;  -- same
     kige_V : V ;  -- same
     kige_A : A ;  -- same
+    kigoyo_N : N ;  -- gender
+    kigoyo_V : V ;  -- gender
+    kigoyo_A : A ;  -- gender
     kilan_N : N ;  -- dry
     kilan_V : V ;  -- dry
     kilan_A : A ;  -- dry
+    kilayi_N : N ;  -- throw
+    kilayi_V : V ;  -- throw
+    kilayi_A : A ;  -- throw
+    kilesa_N : N ;  -- hook
+    kilesa_V : V ;  -- hook
+    kilesa_A : A ;  -- hook
     kilo_N : N ;  -- kilogram, everyday short form
     kilo_V : V ;  -- kilogram, everyday short form
     kilo_A : A ;  -- kilogram, everyday short form
@@ -581,114 +1577,351 @@ abstract Lex = {
     kinbo_N : N ;  -- disappointed
     kinbo_V : V ;  -- disappointed
     kinbo_A : A ;  -- disappointed
+    kinin_N : N ;  -- soap
+    kinin_V : V ;  -- soap
+    kinin_A : A ;  -- soap
+    kinkon_N : N ;  -- storm
+    kinkon_V : V ;  -- storm
+    kinkon_A : A ;  -- storm
+    kinmen_N : N ;  -- wine
+    kinmen_V : V ;  -- wine
+    kinmen_A : A ;  -- wine
+    kinmu_N : N ;  -- request, ask for
+    kinmu_V : V ;  -- request, ask for
+    kinmu_A : A ;  -- request, ask for
+    kinsun_N : N ;  -- birthday
+    kinsun_V : V ;  -- birthday
+    kinsun_A : A ;  -- birthday
+    kinwin_N : N ;  -- port, harbour
+    kinwin_V : V ;  -- port, harbour
+    kinwin_A : A ;  -- port, harbour
+    kinye_N : N ;  -- attention
+    kinye_V : V ;  -- attention
+    kinye_A : A ;  -- attention
+    kipen_N : N ;  -- voice
+    kipen_V : V ;  -- voice
+    kipen_A : A ;  -- voice
+    kipu_N : N ;  -- play, for fun
+    kipu_V : V ;  -- play, for fun
+    kipu_A : A ;  -- play, for fun
+    kise_N : N ;  -- spit
+    kise_V : V ;  -- spit
+    kise_A : A ;  -- spit
+    kisodu_N : N ;  -- practice, training
+    kisodu_V : V ;  -- practice, training
+    kisodu_A : A ;  -- practice, training
     kiti_N : N ;  -- hand
     kiti_V : V ;  -- hand
     kiti_A : A ;  -- hand
+    kitimo_N : N ;  -- include, contain
+    kitimo_V : V ;  -- include, contain
+    kitimo_A : A ;  -- include, contain
+    kiyifi_N : N ;  -- biology
+    kiyifi_V : V ;  -- biology
+    kiyifi_A : A ;  -- biology
     kobi_N : N ;  -- move
     kobi_V : V ;  -- move
     kobi_A : A ;  -- move
     koda_N : N ;  -- sell
     koda_V : V ;  -- sell
     koda_A : A ;  -- sell
-    kolu_N : N ;  -- stand
-    kolu_V : V ;  -- stand
-    kolu_A : A ;  -- stand
+    kodipi_N : N ;  -- offering, sacrifice
+    kodipi_V : V ;  -- offering, sacrifice
+    kodipi_A : A ;  -- offering, sacrifice
+    kodu_N : N ;  -- code (computer code; a cipher)
+    kodu_V : V ;  -- code (computer code; a cipher)
+    kodu_A : A ;  -- code (computer code; a cipher)
+    kogeka_N : N ;  -- edit
+    kogeka_V : V ;  -- edit
+    kogeka_A : A ;  -- edit
+    koku_N : N ;  -- relationship
+    koku_V : V ;  -- relationship
+    koku_A : A ;  -- relationship
+    komin_N : N ;  -- majority
+    komin_V : V ;  -- majority
+    komin_A : A ;  -- majority
+    komisa_N : N ;  -- copper
+    komisa_V : V ;  -- copper
+    komisa_A : A ;  -- copper
+    komowu_N : N ;  -- essence, gist
+    komowu_V : V ;  -- essence, gist
+    komowu_A : A ;  -- essence, gist
     komu_N : N ;  -- .com (read aloud)
     komu_V : V ;  -- .com (read aloud)
     komu_A : A ;  -- .com (read aloud)
-    konke_N : N ;  -- strong
-    konke_V : V ;  -- strong
-    konke_A : A ;  -- strong
+    konki_N : N ;  -- strong
+    konki_V : V ;  -- strong
+    konki_A : A ;  -- strong
+    konle_N : N ;  -- sometimes
+    konle_V : V ;  -- sometimes
+    konle_A : A ;  -- sometimes
     kono_N : N ;  -- die
     kono_V : V ;  -- die
     kono_A : A ;  -- die
+    konpa_N : N ;  -- organization
+    konpa_V : V ;  -- organization
+    konpa_A : A ;  -- organization
+    konpuyutalu_N : N ;  -- computer
+    konpuyutalu_V : V ;  -- computer
+    konpuyutalu_A : A ;  -- computer
+    kontun_N : N ;  -- pregnant
+    kontun_V : V ;  -- pregnant
+    kontun_A : A ;  -- pregnant
+    konwo_N : N ;  -- flag
+    konwo_V : V ;  -- flag
+    konwo_A : A ;  -- flag
+    kopon_N : N ;  -- lion
+    kopon_V : V ;  -- lion
+    kopon_A : A ;  -- lion
+    koson_N : N ;  -- knock
+    koson_V : V ;  -- knock
+    koson_A : A ;  -- knock
+    kote_N : N ;  -- level, degree
+    kote_V : V ;  -- level, degree
+    kote_A : A ;  -- level, degree
+    kotomo_N : N ;  -- satellite
+    kotomo_V : V ;  -- satellite
+    kotomo_A : A ;  -- satellite
     kowan_N : N ;  -- round
     kowan_V : V ;  -- round
     kowan_A : A ;  -- round
+    kowumi_N : N ;  -- clay
+    kowumi_V : V ;  -- clay
+    kowumi_A : A ;  -- clay
     koye_N : N ;  -- drink
     koye_V : V ;  -- drink
     koye_A : A ;  -- drink
     kubo_N : N ;  -- change, make or become different
     kubo_V : V ;  -- change, make or become different
     kubo_A : A ;  -- change, make or become different
-    kudu_N : N ;  -- big
-    kudu_V : V ;  -- big
-    kudu_A : A ;  -- big
+    kude_N : N ;  -- lie, tell an untruth
+    kude_V : V ;  -- lie, tell an untruth
+    kude_A : A ;  -- lie, tell an untruth
+    kugawe_N : N ;  -- pus
+    kugawe_V : V ;  -- pus
+    kugawe_A : A ;  -- pus
+    kugin_N : N ;  -- cassava
+    kugin_V : V ;  -- cassava
+    kugin_A : A ;  -- cassava
+    kugula_N : N ;  -- invest
+    kugula_V : V ;  -- invest
+    kugula_A : A ;  -- invest
+    kuguso_N : N ;  -- coal (fuel)
+    kuguso_V : V ;  -- coal (fuel)
+    kuguso_A : A ;  -- coal (fuel)
+    kukedo_N : N ;  -- warm
+    kukedo_V : V ;  -- warm
+    kukedo_A : A ;  -- warm
+    kulabu_N : N ;  -- club, society
+    kulabu_V : V ;  -- club, society
+    kulabu_A : A ;  -- club, society
+    kuman_N : N ;  -- glasses, spectacles
+    kuman_V : V ;  -- glasses, spectacles
+    kuman_A : A ;  -- glasses, spectacles
+    kunben_N : N ;  -- original
+    kunben_V : V ;  -- original
+    kunben_A : A ;  -- original
+    kunfi_N : N ;  -- balloon
+    kunfi_V : V ;  -- balloon
+    kunfi_A : A ;  -- balloon
+    kungo_N : N ;  -- stove
+    kungo_V : V ;  -- stove
+    kungo_A : A ;  -- stove
+    kunlu_N : N ;  -- ghost
+    kunlu_V : V ;  -- ghost
+    kunlu_A : A ;  -- ghost
+    kunnin_N : N ;  -- prove
+    kunnin_V : V ;  -- prove
+    kunnin_A : A ;  -- prove
+    kunnon_N : N ;  -- judge (person; to judge)
+    kunnon_V : V ;  -- judge (person; to judge)
+    kunnon_A : A ;  -- judge (person; to judge)
     kunsu_N : N ;  -- private, not for others
     kunsu_V : V ;  -- private, not for others
     kunsu_A : A ;  -- private, not for others
     kunwa_N : N ;  -- stab
     kunwa_V : V ;  -- stab
     kunwa_A : A ;  -- stab
+    kunyan_N : N ;  -- direct, directly
+    kunyan_V : V ;  -- direct, directly
+    kunyan_A : A ;  -- direct, directly
+    kunyun_N : N ;  -- shave
+    kunyun_V : V ;  -- shave
+    kunyun_A : A ;  -- shave
     kusa_N : N ;  -- leave, go away from
     kusa_V : V ;  -- leave, go away from
     kusa_A : A ;  -- leave, go away from
+    kusisa_N : N ;  -- leaf
+    kusisa_V : V ;  -- leaf
+    kusisa_A : A ;  -- leaf
+    kusuni_N : N ;  -- vulture
+    kusuni_V : V ;  -- vulture
+    kusuni_A : A ;  -- vulture
+    kutan_N : N ;  -- pear
+    kutan_V : V ;  -- pear
+    kutan_A : A ;  -- pear
     kuwi_N : N ;  -- protect
     kuwi_V : V ;  -- protect
     kuwi_A : A ;  -- protect
     kuwun_N : N ;  -- roof
     kuwun_V : V ;  -- roof
     kuwun_A : A ;  -- roof
-    ladon_N : N ;  -- cup
-    ladon_V : V ;  -- cup
-    ladon_A : A ;  -- cup
-    lafi_N : N ;  -- understand
-    lafi_V : V ;  -- understand
-    lafi_A : A ;  -- understand
-    lage_N : N ;  -- salty
-    lage_V : V ;  -- salty
-    lage_A : A ;  -- salty
-    lanba_N : N ;  -- cloud
-    lanba_V : V ;  -- cloud
-    lanba_A : A ;  -- cloud
+    kuyata_N : N ;  -- civilization
+    kuyata_V : V ;  -- civilization
+    kuyata_A : A ;  -- civilization
+    ladiyo_N : N ;  -- radio
+    ladiyo_V : V ;  -- radio
+    ladiyo_A : A ;  -- radio
+    lanben_N : N ;  -- later
+    lanben_V : V ;  -- later
+    lanben_A : A ;  -- later
+    landan_N : N ;  -- map
+    landan_V : V ;  -- map
+    landan_A : A ;  -- map
+    lanfon_N : N ;  -- supply
+    lanfon_V : V ;  -- supply
+    lanfon_A : A ;  -- supply
+    langin_N : N ;  -- status, standing, rank in a group
+    langin_V : V ;  -- status, standing, rank in a group
+    langin_A : A ;  -- status, standing, rank in a group
+    lanku_N : N ;  -- goal, aim, purpose
+    lanku_V : V ;  -- goal, aim, purpose
+    lanku_A : A ;  -- goal, aim, purpose
     lanli_N : N ;  -- ugly
     lanli_V : V ;  -- ugly
     lanli_A : A ;  -- ugly
+    lanpa_N : N ;  -- lamp
+    lanpa_V : V ;  -- lamp
+    lanpa_A : A ;  -- lamp
+    lansu_N : N ;  -- nut
+    lansu_V : V ;  -- nut
+    lansu_A : A ;  -- nut
     lante_N : N ;  -- shallow
     lante_V : V ;  -- shallow
     lante_A : A ;  -- shallow
-    lapo_N : N ;  -- storm
-    lapo_V : V ;  -- storm
-    lapo_A : A ;  -- storm
-    lasu_N : N ;  -- bite
-    lasu_V : V ;  -- bite
-    lasu_A : A ;  -- bite
-    lawan_N : N ;  -- deep
-    lawan_V : V ;  -- deep
-    lawan_A : A ;  -- deep
+    lanwa_N : N ;  -- space, room to fit
+    lanwa_V : V ;  -- space, room to fit
+    lanwa_A : A ;  -- space, room to fit
+    lanyun_N : N ;  -- bubble
+    lanyun_V : V ;  -- bubble
+    lanyun_A : A ;  -- bubble
+    lebeto_N : N ;  -- credit
+    lebeto_V : V ;  -- credit
+    lebeto_A : A ;  -- credit
+    ledo_N : N ;  -- shape
+    ledo_V : V ;  -- shape
+    ledo_A : A ;  -- shape
     lefan_N : N ;  -- follow
     lefan_V : V ;  -- follow
     lefan_A : A ;  -- follow
+    lefu_N : N ;  -- hungry
+    lefu_V : V ;  -- hungry
+    lefu_A : A ;  -- hungry
+    lefuya_N : N ;  -- eagle, large bird of prey
+    lefuya_V : V ;  -- eagle, large bird of prey
+    lefuya_A : A ;  -- eagle, large bird of prey
+    legen_N : N ;  -- sign, signal, mark
+    legen_V : V ;  -- sign, signal, mark
+    legen_A : A ;  -- sign, signal, mark
+    lekun_N : N ;  -- religion
+    lekun_V : V ;  -- religion
+    lekun_A : A ;  -- religion
+    lela_N : N ;  -- gift
+    lela_V : V ;  -- gift
+    lela_A : A ;  -- gift
+    leluna_N : N ;  -- revenge
+    leluna_V : V ;  -- revenge
+    leluna_A : A ;  -- revenge
+    lemifi_N : N ;  -- groan
+    lemifi_V : V ;  -- groan
+    lemifi_A : A ;  -- groan
+    lemin_N : N ;  -- block (toy building block)
+    lemin_V : V ;  -- block (toy building block)
+    lemin_A : A ;  -- block (toy building block)
     lemon_N : N ;  -- brain
     lemon_V : V ;  -- brain
     lemon_A : A ;  -- brain
+    lenadu_N : N ;  -- pearl
+    lenadu_V : V ;  -- pearl
+    lenadu_A : A ;  -- pearl
+    lenbo_N : N ;  -- trade
+    lenbo_V : V ;  -- trade
+    lenbo_A : A ;  -- trade
+    lendi_N : N ;  -- patient, sick person (in care)
+    lendi_V : V ;  -- patient, sick person (in care)
+    lendi_A : A ;  -- patient, sick person (in care)
     lengu_N : N ;  -- onion
     lengu_V : V ;  -- onion
     lengu_A : A ;  -- onion
-    lenu_N : N ;  -- can, be able
-    lenu_V : V ;  -- can, be able
-    lenu_A : A ;  -- can, be able
+    lenlun_N : N ;  -- exchange
+    lenlun_V : V ;  -- exchange
+    lenlun_A : A ;  -- exchange
+    lennan_N : N ;  -- expect
+    lennan_V : V ;  -- expect
+    lennan_A : A ;  -- expect
+    lenpe_N : N ;  -- middle, centre
+    lenpe_V : V ;  -- middle, centre
+    lenpe_A : A ;  -- middle, centre
+    lenton_N : N ;  -- bullet
+    lenton_V : V ;  -- bullet
+    lenton_A : A ;  -- bullet
     lenya_N : N ;  -- strange, odd
     lenya_V : V ;  -- strange, odd
     lenya_A : A ;  -- strange, odd
+    lepofo_N : N ;  -- spindle
+    lepofo_V : V ;  -- spindle
+    lepofo_A : A ;  -- spindle
+    lesin_N : N ;  -- raise, lift
+    lesin_V : V ;  -- raise, lift
+    lesin_A : A ;  -- raise, lift
     leso_N : N ;  -- morning
     leso_V : V ;  -- morning
     leso_A : A ;  -- morning
+    lesutolan_N : N ;  -- restaurant
+    lesutolan_V : V ;  -- restaurant
+    lesutolan_A : A ;  -- restaurant
+    leta_N : N ;  -- committee
+    leta_V : V ;  -- committee
+    leta_A : A ;  -- committee
+    letime_N : N ;  -- extreme
+    letime_V : V ;  -- extreme
+    letime_A : A ;  -- extreme
     lewe_N : N ;  -- become
     lewe_V : V ;  -- become
     lewe_A : A ;  -- become
+    leyewa_N : N ;  -- tick
+    leyewa_V : V ;  -- tick
+    leyewa_A : A ;  -- tick
     leyi_N : N ;  -- knee
     leyi_V : V ;  -- knee
     leyi_A : A ;  -- knee
+    leyoyi_N : N ;  -- peel
+    leyoyi_V : V ;  -- peel
+    leyoyi_A : A ;  -- peel
     lifin_N : N ;  -- between
     lifin_V : V ;  -- between
     lifin_A : A ;  -- between
-    liga_N : N ;  -- phone
-    liga_V : V ;  -- phone
-    liga_A : A ;  -- phone
+    liga_N : N ;  -- league (sports)
+    liga_V : V ;  -- league (sports)
+    liga_A : A ;  -- league (sports)
+    ligemu_N : N ;  -- candle
+    ligemu_V : V ;  -- candle
+    ligemu_A : A ;  -- candle
+    likafe_N : N ;  -- stage (theatre platform)
+    likafe_V : V ;  -- stage (theatre platform)
+    likafe_A : A ;  -- stage (theatre platform)
+    likusi_N : N ;  -- substitute, replacement
+    likusi_V : V ;  -- substitute, replacement
+    likusi_A : A ;  -- substitute, replacement
+    lilen_N : N ;  -- increase
+    lilen_V : V ;  -- increase
+    lilen_A : A ;  -- increase
     lilu_N : N ;  -- read
     lilu_V : V ;  -- read
     lilu_A : A ;  -- read
+    limowi_N : N ;  -- cruel
+    limowi_V : V ;  -- cruel
+    limowi_A : A ;  -- cruel
     linfa_N : N ;  -- blunt
     linfa_V : V ;  -- blunt
     linfa_A : A ;  -- blunt
@@ -701,6 +1934,24 @@ abstract Lex = {
     linma_N : N ;  -- finger
     linma_V : V ;  -- finger
     linma_A : A ;  -- finger
+    linsi_N : N ;  -- tradition
+    linsi_V : V ;  -- tradition
+    linsi_A : A ;  -- tradition
+    linyen_N : N ;  -- hall, large room
+    linyen_V : V ;  -- hall, large room
+    linyen_A : A ;  -- hall, large room
+    linyon_N : N ;  -- identity
+    linyon_V : V ;  -- identity
+    linyon_A : A ;  -- identity
+    lipo_N : N ;  -- cloth
+    lipo_V : V ;  -- cloth
+    lipo_A : A ;  -- cloth
+    lisaku_N : N ;  -- fry (cook in hot oil or fat)
+    lisaku_V : V ;  -- fry (cook in hot oil or fat)
+    lisaku_A : A ;  -- fry (cook in hot oil or fat)
+    lisan_N : N ;  -- budget
+    lisan_V : V ;  -- budget
+    lisan_A : A ;  -- budget
     lisun_N : N ;  -- tongue
     lisun_V : V ;  -- tongue
     lisun_A : A ;  -- tongue
@@ -710,279 +1961,903 @@ abstract Lex = {
     litulu_N : N ;  -- litre
     litulu_V : V ;  -- litre
     litulu_A : A ;  -- litre
+    liwaka_N : N ;  -- celebrate, celebration
+    liwaka_V : V ;  -- celebrate, celebration
+    liwaka_A : A ;  -- celebrate, celebration
+    liweli_N : N ;  -- bore, drill
+    liweli_V : V ;  -- bore, drill
+    liweli_A : A ;  -- bore, drill
     liwon_N : N ;  -- arrive
     liwon_V : V ;  -- arrive
     liwon_A : A ;  -- arrive
     loban_N : N ;  -- check, verify
     loban_V : V ;  -- check, verify
     loban_A : A ;  -- check, verify
+    lobotu_N : N ;  -- robot
+    lobotu_V : V ;  -- robot
+    lobotu_A : A ;  -- robot
     lodi_N : N ;  -- bird
     lodi_V : V ;  -- bird
     lodi_A : A ;  -- bird
+    lokagi_N : N ;  -- evening
+    lokagi_V : V ;  -- evening
+    lokagi_A : A ;  -- evening
+    lokon_N : N ;  -- patient, enduring
+    lokon_V : V ;  -- patient, enduring
+    lokon_A : A ;  -- patient, enduring
+    lokusa_N : N ;  -- platform
+    lokusa_V : V ;  -- platform
+    lokusa_A : A ;  -- platform
+    lolefe_N : N ;  -- suspect
+    lolefe_V : V ;  -- suspect
+    lolefe_A : A ;  -- suspect
+    lolo_N : N ;  -- next
+    lolo_V : V ;  -- next
+    lolo_A : A ;  -- next
+    loludi_N : N ;  -- shelf
+    loludi_V : V ;  -- shelf
+    loludi_A : A ;  -- shelf
+    londu_N : N ;  -- avoid
+    londu_V : V ;  -- avoid
+    londu_A : A ;  -- avoid
     lonfe_N : N ;  -- swim
     lonfe_V : V ;  -- swim
     lonfe_A : A ;  -- swim
+    lonmin_N : N ;  -- race, contest of speed
+    lonmin_V : V ;  -- race, contest of speed
+    lonmin_A : A ;  -- race, contest of speed
     lonne_N : N ;  -- clothes
     lonne_V : V ;  -- clothes
     lonne_A : A ;  -- clothes
+    lonpo_N : N ;  -- effect, impact
+    lonpo_V : V ;  -- effect, impact
+    lonpo_A : A ;  -- effect, impact
+    lonun_N : N ;  -- alone
+    lonun_V : V ;  -- alone
+    lonun_A : A ;  -- alone
+    lopun_N : N ;  -- soup
+    lopun_V : V ;  -- soup
+    lopun_A : A ;  -- soup
+    lose_N : N ;  -- plan
+    lose_V : V ;  -- plan
+    lose_A : A ;  -- plan
+    losidu_N : N ;  -- bend
+    losidu_V : V ;  -- bend
+    losidu_A : A ;  -- bend
+    loso_N : N ;  -- group
+    loso_V : V ;  -- group
+    loso_A : A ;  -- group
+    losoma_N : N ;  -- weave
+    losoma_V : V ;  -- weave
+    losoma_A : A ;  -- weave
     lota_N : N ;  -- thank
     lota_V : V ;  -- thank
     lota_A : A ;  -- thank
+    lotata_N : N ;  -- diamond
+    lotata_V : V ;  -- diamond
+    lotata_A : A ;  -- diamond
+    lowe_N : N ;  -- song
+    lowe_V : V ;  -- song
+    lowe_A : A ;  -- song
+    lowiku_N : N ;  -- noble
+    lowiku_V : V ;  -- noble
+    lowiku_A : A ;  -- noble
     lowu_N : N ;  -- man, male
     lowu_V : V ;  -- man, male
     lowu_A : A ;  -- man, male
+    loya_N : N ;  -- know
+    loya_V : V ;  -- know
+    loya_A : A ;  -- know
+    loyamo_N : N ;  -- familiar, known
+    loyamo_V : V ;  -- familiar, known
+    loyamo_A : A ;  -- familiar, known
     loyen_N : N ;  -- young
     loyen_V : V ;  -- young
     loyen_A : A ;  -- young
-    lugo_N : N ;  -- know
-    lugo_V : V ;  -- know
-    lugo_A : A ;  -- know
-    lukan_N : N ;  -- head
-    lukan_V : V ;  -- head
-    lukan_A : A ;  -- head
-    lula_N : N ;  -- power, control
-    lula_V : V ;  -- power, control
-    lula_A : A ;  -- power, control
-    lumi_N : N ;  -- fire
-    lumi_V : V ;  -- fire
-    lumi_A : A ;  -- fire
+    lunbe_N : N ;  -- member
+    lunbe_V : V ;  -- member
+    lunbe_A : A ;  -- member
+    lunfan_N : N ;  -- corner
+    lunfan_V : V ;  -- corner
+    lunfan_A : A ;  -- corner
+    lungon_N : N ;  -- serious
+    lungon_V : V ;  -- serious
+    lungon_A : A ;  -- serious
+    lunla_N : N ;  -- slide (playground slide)
+    lunla_V : V ;  -- slide (playground slide)
+    lunla_A : A ;  -- slide (playground slide)
+    lunmun_N : N ;  -- principle
+    lunmun_V : V ;  -- principle
+    lunmun_A : A ;  -- principle
+    lunsun_N : N ;  -- ticket
+    lunsun_V : V ;  -- ticket
+    lunsun_A : A ;  -- ticket
+    lunti_N : N ;  -- outer space
+    lunti_V : V ;  -- outer space
+    lunti_A : A ;  -- outer space
+    lunwin_N : N ;  -- fish (catch fish)
+    lunwin_V : V ;  -- fish (catch fish)
+    lunwin_A : A ;  -- fish (catch fish)
     lunyu_N : N ;  -- page, sheet
     lunyu_V : V ;  -- page, sheet
     lunyu_A : A ;  -- page, sheet
     lupiya_N : N ;  -- rupee
     lupiya_V : V ;  -- rupee
     lupiya_A : A ;  -- rupee
-    luse_N : N ;  -- play, for fun
-    luse_V : V ;  -- play, for fun
-    luse_A : A ;  -- play, for fun
-    lutu_N : N ;  -- stone
-    lutu_V : V ;  -- stone
-    lutu_A : A ;  -- stone
-    mabo_N : N ;  -- paper
-    mabo_V : V ;  -- paper
-    mabo_A : A ;  -- paper
-    magan_N : N ;  -- flow
-    magan_V : V ;  -- flow
-    magan_A : A ;  -- flow
-    makon_N : N ;  -- blood
-    makon_V : V ;  -- blood
-    makon_A : A ;  -- blood
-    mala_N : N ;  -- heart
-    mala_V : V ;  -- heart
-    mala_A : A ;  -- heart
-    maman_N : N ;  -- suck
-    maman_V : V ;  -- suck
-    maman_A : A ;  -- suck
     manfu_N : N ;  -- tie, fasten with a knot
     manfu_V : V ;  -- tie, fasten with a knot
     manfu_A : A ;  -- tie, fasten with a knot
     mange_N : N ;  -- quiet
     mange_V : V ;  -- quiet
     mange_A : A ;  -- quiet
-    mawun_N : N ;  -- flat, level
-    mawun_V : V ;  -- flat, level
-    mawun_A : A ;  -- flat, level
+    mankan_N : N ;  -- regret
+    mankan_V : V ;  -- regret
+    mankan_A : A ;  -- regret
+    manla_N : N ;  -- squeeze
+    manla_V : V ;  -- squeeze
+    manla_A : A ;  -- squeeze
+    manmun_N : N ;  -- generation
+    manmun_V : V ;  -- generation
+    manmun_A : A ;  -- generation
+    manse_N : N ;  -- kiss
+    manse_V : V ;  -- kiss
+    manse_A : A ;  -- kiss
+    manson_N : N ;  -- newspaper
+    manson_V : V ;  -- newspaper
+    manson_A : A ;  -- newspaper
+    mantin_N : N ;  -- vehicle
+    mantin_V : V ;  -- vehicle
+    mantin_A : A ;  -- vehicle
+    manto_N : N ;  -- politics
+    manto_V : V ;  -- politics
+    manto_A : A ;  -- politics
+    manwen_N : N ;  -- structure
+    manwen_V : V ;  -- structure
+    manwen_A : A ;  -- structure
+    manwu_N : N ;  -- appear
+    manwu_V : V ;  -- appear
+    manwu_A : A ;  -- appear
+    manyin_N : N ;  -- explode, burst
+    manyin_V : V ;  -- explode, burst
+    manyin_A : A ;  -- explode, burst
+    manyo_N : N ;  -- ice cream
+    manyo_V : V ;  -- ice cream
+    manyo_A : A ;  -- ice cream
+    masina_N : N ;  -- machine
+    masina_V : V ;  -- machine
+    masina_A : A ;  -- machine
+    masuka_N : N ;  -- mask
+    masuka_V : V ;  -- mask
+    masuka_A : A ;  -- mask
+    medala_N : N ;  -- medal
+    medala_V : V ;  -- medal
+    medala_A : A ;  -- medal
+    mede_N : N ;  -- special
+    mede_V : V ;  -- special
+    mede_A : A ;  -- special
     mefa_N : N ;  -- today
     mefa_V : V ;  -- today
     mefa_A : A ;  -- today
+    mefin_N : N ;  -- society
+    mefin_V : V ;  -- society
+    mefin_A : A ;  -- society
+    mefuso_N : N ;  -- religious leader (priest, widened)
+    mefuso_V : V ;  -- religious leader (priest, widened)
+    mefuso_A : A ;  -- religious leader (priest, widened)
+    mekefu_N : N ;  -- shell (of egg, nut, snail, sea creature)
+    mekefu_V : V ;  -- shell (of egg, nut, snail, sea creature)
+    mekefu_A : A ;  -- shell (of egg, nut, snail, sea creature)
+    mekega_N : N ;  -- harvest
+    mekega_V : V ;  -- harvest
+    mekega_A : A ;  -- harvest
+    meko_N : N ;  -- keep, retain
+    meko_V : V ;  -- keep, retain
+    meko_A : A ;  -- keep, retain
     meli_N : N ;  -- small
     meli_V : V ;  -- small
     meli_A : A ;  -- small
+    memabi_N : N ;  -- behave
+    memabi_V : V ;  -- behave
+    memabi_A : A ;  -- behave
+    memo_N : N ;  -- train
+    memo_V : V ;  -- train
+    memo_A : A ;  -- train
+    mengin_N : N ;  -- square (the shape)
+    mengin_V : V ;  -- square (the shape)
+    mengin_A : A ;  -- square (the shape)
+    mengon_N : N ;  -- complex
+    mengon_V : V ;  -- complex
+    mengon_A : A ;  -- complex
+    menmen_N : N ;  -- pray, worship
+    menmen_V : V ;  -- pray, worship
+    menmen_A : A ;  -- pray, worship
+    menpu_N : N ;  -- turn, rotate or turn around
+    menpu_V : V ;  -- turn, rotate or turn around
+    menpu_A : A ;  -- turn, rotate or turn around
+    menti_N : N ;  -- mouse (the animal; also the computer mouse)
+    menti_V : V ;  -- mouse (the animal; also the computer mouse)
+    menti_A : A ;  -- mouse (the animal; also the computer mouse)
     metulu_N : N ;  -- metre
     metulu_V : V ;  -- metre
     metulu_A : A ;  -- metre
+    mewan_N : N ;  -- tax
+    mewan_V : V ;  -- tax
+    mewan_A : A ;  -- tax
+    mewone_N : N ;  -- anniversary
+    mewone_V : V ;  -- anniversary
+    mewone_A : A ;  -- anniversary
+    mewu_N : N ;  -- cry, weep
+    mewu_V : V ;  -- cry, weep
+    mewu_A : A ;  -- cry, weep
     meyen_N : N ;  -- flower
     meyen_V : V ;  -- flower
     meyen_A : A ;  -- flower
+    meyeti_N : N ;  -- rose
+    meyeti_V : V ;  -- rose
+    meyeti_A : A ;  -- rose
     mibun_N : N ;  -- hide
     mibun_V : V ;  -- hide
     mibun_A : A ;  -- hide
     mido_N : N ;  -- ask (a question)
     mido_V : V ;  -- ask (a question)
     mido_A : A ;  -- ask (a question)
+    mifigu_N : N ;  -- mushroom
+    mifigu_V : V ;  -- mushroom
+    mifigu_A : A ;  -- mushroom
     migi_N : N ;  -- fight
     migi_V : V ;  -- fight
     migi_A : A ;  -- fight
+    migisa_N : N ;  -- cliff, steep rock face
+    migisa_V : V ;  -- cliff, steep rock face
+    migisa_A : A ;  -- cliff, steep rock face
+    migiwi_N : N ;  -- instrument (musical)
+    migiwi_V : V ;  -- instrument (musical)
+    migiwi_A : A ;  -- instrument (musical)
+    migotu_N : N ;  -- wheat
+    migotu_V : V ;  -- wheat
+    migotu_A : A ;  -- wheat
     milimetulu_N : N ;  -- millimetre
     milimetulu_V : V ;  -- millimetre
     milimetulu_A : A ;  -- millimetre
+    miman_N : N ;  -- wipe
+    miman_V : V ;  -- wipe
+    miman_A : A ;  -- wipe
+    mimewu_N : N ;  -- palm (the tree)
+    mimewu_V : V ;  -- palm (the tree)
+    mimewu_A : A ;  -- palm (the tree)
+    mimima_N : N ;  -- belly
+    mimima_V : V ;  -- belly
+    mimima_A : A ;  -- belly
+    minen_N : N ;  -- beautiful
+    minen_V : V ;  -- beautiful
+    minen_A : A ;  -- beautiful
     minfi_N : N ;  -- noon, midday
     minfi_V : V ;  -- noon, midday
     minfi_A : A ;  -- noon, midday
-    minitu_N : N ;  -- minute, of time
-    minitu_V : V ;  -- minute, of time
-    minitu_A : A ;  -- minute, of time
+    minfo_N : N ;  -- university
+    minfo_V : V ;  -- university
+    minfo_A : A ;  -- university
+    minlan_N : N ;  -- slave
+    minlan_V : V ;  -- slave
+    minlan_A : A ;  -- slave
+    minmon_N : N ;  -- exercise (physical)
+    minmon_V : V ;  -- exercise (physical)
+    minmon_A : A ;  -- exercise (physical)
+    minsa_N : N ;  -- here
+    minsa_V : V ;  -- here
+    minsa_A : A ;  -- here
+    minu_N : N ;  -- limit
+    minu_V : V ;  -- limit
+    minu_A : A ;  -- limit
+    minufe_N : N ;  -- farm
+    minufe_V : V ;  -- farm
+    minufe_A : A ;  -- farm
     minwe_N : N ;  -- whole
     minwe_V : V ;  -- whole
     minwe_A : A ;  -- whole
+    minyu_N : N ;  -- art
+    minyu_V : V ;  -- art
+    minyu_A : A ;  -- art
+    mipabo_N : N ;  -- reflection
+    mipabo_V : V ;  -- reflection
+    mipabo_A : A ;  -- reflection
+    mipen_N : N ;  -- jump
+    mipen_V : V ;  -- jump
+    mipen_A : A ;  -- jump
     mise_N : N ;  -- card
     mise_V : V ;  -- card
     mise_A : A ;  -- card
+    misuno_N : N ;  -- native, indigenous
+    misuno_V : V ;  -- native, indigenous
+    misuno_A : A ;  -- native, indigenous
+    mitan_N : N ;  -- duck
+    mitan_V : V ;  -- duck
+    mitan_A : A ;  -- duck
+    miwin_N : N ;  -- claim
+    miwin_V : V ;  -- claim
+    miwin_A : A ;  -- claim
     miya_N : N ;  -- look, look at
     miya_V : V ;  -- look, look at
     miya_A : A ;  -- look, look at
+    miyoga_N : N ;  -- borrow
+    miyoga_V : V ;  -- borrow
+    miyoga_A : A ;  -- borrow
+    mobin_N : N ;  -- event
+    mobin_V : V ;  -- event
+    mobin_A : A ;  -- event
+    mobon_N : N ;  -- step, pace
+    mobon_V : V ;  -- step, pace
+    mobon_A : A ;  -- step, pace
+    modelu_N : N ;  -- model (simplified representation; fashion model)
+    modelu_V : V ;  -- model (simplified representation; fashion model)
+    modelu_A : A ;  -- model (simplified representation; fashion model)
+    mofa_N : N ;  -- suck
+    mofa_V : V ;  -- suck
+    mofa_A : A ;  -- suck
+    mofawu_N : N ;  -- virgin
+    mofawu_V : V ;  -- virgin
+    mofawu_A : A ;  -- virgin
+    mofete_N : N ;  -- giant
+    mofete_V : V ;  -- giant
+    mofete_A : A ;  -- giant
+    mogan_N : N ;  -- address (postal or email)
+    mogan_V : V ;  -- address (postal or email)
+    mogan_A : A ;  -- address (postal or email)
     mogo_N : N ;  -- neck
     mogo_V : V ;  -- neck
     mogo_A : A ;  -- neck
+    mogufi_N : N ;  -- sew
+    mogufi_V : V ;  -- sew
+    mogufi_A : A ;  -- sew
+    moken_N : N ;  -- bear (the animal)
+    moken_V : V ;  -- bear (the animal)
+    moken_A : A ;  -- bear (the animal)
+    mokimo_N : N ;  -- band (music group)
+    mokimo_V : V ;  -- band (music group)
+    mokimo_A : A ;  -- band (music group)
+    molawe_N : N ;  -- cockroach
+    molawe_V : V ;  -- cockroach
+    molawe_A : A ;  -- cockroach
     mole_N : N ;  -- mother
     mole_V : V ;  -- mother
     mole_A : A ;  -- mother
     momu_N : N ;  -- want
     momu_V : V ;  -- want
     momu_A : A ;  -- want
-    monna_N : N ;  -- south
-    monna_V : V ;  -- south
-    monna_A : A ;  -- south
-    monpa_N : N ;  -- crush
-    monpa_V : V ;  -- crush
-    monpa_A : A ;  -- crush
-    monyu_N : N ;  -- hungry
-    monyu_V : V ;  -- hungry
-    monyu_A : A ;  -- hungry
+    momuge_N : N ;  -- rare
+    momuge_V : V ;  -- rare
+    momuge_A : A ;  -- rare
+    mona_N : N ;  -- responsible
+    mona_V : V ;  -- responsible
+    mona_A : A ;  -- responsible
+    monato_N : N ;  -- priority
+    monato_V : V ;  -- priority
+    monato_A : A ;  -- priority
+    monin_N : N ;  -- shake, vibrate
+    monin_V : V ;  -- shake, vibrate
+    monin_A : A ;  -- shake, vibrate
+    mosen_N : N ;  -- manage
+    mosen_V : V ;  -- manage
+    mosen_A : A ;  -- manage
+    mosu_N : N ;  -- apologise
+    mosu_V : V ;  -- apologise
+    mosu_A : A ;  -- apologise
+    mosuli_N : N ;  -- summary
+    mosuli_V : V ;  -- summary
+    mosuli_A : A ;  -- summary
     moti_N : N ;  -- again
     moti_V : V ;  -- again
     moti_A : A ;  -- again
-    muban_N : N ;  -- throat
-    muban_V : V ;  -- throat
-    muban_A : A ;  -- throat
-    mufin_N : N ;  -- lightning
-    mufin_V : V ;  -- lightning
-    mufin_A : A ;  -- lightning
-    muge_N : N ;  -- do; make
-    muge_V : V ;  -- do; make
-    muge_A : A ;  -- do; make
+    moto_N : N ;  -- motorcycle
+    moto_V : V ;  -- motorcycle
+    moto_A : A ;  -- motorcycle
+    motone_N : N ;  -- green
+    motone_V : V ;  -- green
+    motone_A : A ;  -- green
+    mowa_N : N ;  -- fire
+    mowa_V : V ;  -- fire
+    mowa_A : A ;  -- fire
+    mowasu_N : N ;  -- axe
+    mowasu_V : V ;  -- axe
+    mowasu_A : A ;  -- axe
+    mowega_N : N ;  -- cream (of milk; cosmetic)
+    mowega_V : V ;  -- cream (of milk; cosmetic)
+    mowega_A : A ;  -- cream (of milk; cosmetic)
+    mowoyo_N : N ;  -- mission
+    mowoyo_V : V ;  -- mission
+    mowoyo_A : A ;  -- mission
+    moyun_N : N ;  -- scratch
+    moyun_V : V ;  -- scratch
+    moyun_A : A ;  -- scratch
+    munba_N : N ;  -- tear, teardrop
+    munba_V : V ;  -- tear, teardrop
+    munba_A : A ;  -- tear, teardrop
+    munbu_N : N ;  -- position, posture, post
+    munbu_V : V ;  -- position, posture, post
+    munbu_A : A ;  -- position, posture, post
+    munden_N : N ;  -- candidate
+    munden_V : V ;  -- candidate
+    munden_A : A ;  -- candidate
+    mundun_N : N ;  -- success
+    mundun_V : V ;  -- success
+    mundun_A : A ;  -- success
+    munkan_N : N ;  -- arrange
+    munkan_V : V ;  -- arrange
+    munkan_A : A ;  -- arrange
     munke_N : N ;  -- west
     munke_V : V ;  -- west
     munke_A : A ;  -- west
-    musu_N : N ;  -- thing
-    musu_V : V ;  -- thing
-    musu_A : A ;  -- thing
-    muwo_N : N ;  -- happen
-    muwo_V : V ;  -- happen
-    muwo_A : A ;  -- happen
-    muyi_N : N ;  -- time, a span or a point (not an occasion)
-    muyi_V : V ;  -- time, a span or a point (not an occasion)
-    muyi_A : A ;  -- time, a span or a point (not an occasion)
+    munkun_N : N ;  -- branch (of a tree)
+    munkun_V : V ;  -- branch (of a tree)
+    munkun_A : A ;  -- branch (of a tree)
+    munmi_N : N ;  -- bucket
+    munmi_V : V ;  -- bucket
+    munmi_A : A ;  -- bucket
+    munso_N : N ;  -- shorts
+    munso_V : V ;  -- shorts
+    munso_A : A ;  -- shorts
+    munyin_N : N ;  -- praise
+    munyin_V : V ;  -- praise
+    munyin_A : A ;  -- praise
+    naba_N : N ;  -- lawyer
+    naba_V : V ;  -- lawyer
+    naba_A : A ;  -- lawyer
+    nabaye_N : N ;  -- poison
+    nabaye_V : V ;  -- poison
+    nabaye_A : A ;  -- poison
+    nade_N : N ;  -- understand
+    nade_V : V ;  -- understand
+    nade_A : A ;  -- understand
+    nadowo_N : N ;  -- stranger, a person one does not know
+    nadowo_V : V ;  -- stranger, a person one does not know
+    nadowo_A : A ;  -- stranger, a person one does not know
+    nafo_N : N ;  -- record, recording
+    nafo_V : V ;  -- record, recording
+    nafo_A : A ;  -- record, recording
     nagu_N : N ;  -- see
     nagu_V : V ;  -- see
     nagu_A : A ;  -- see
-    nansa_N : N ;  -- box, container
-    nansa_V : V ;  -- box, container
-    nansa_A : A ;  -- box, container
-    nanyo_N : N ;  -- blow, of air
-    nanyo_V : V ;  -- blow, of air
-    nanyo_A : A ;  -- blow, of air
+    nakiyi_N : N ;  -- print
+    nakiyi_V : V ;  -- print
+    nakiyi_A : A ;  -- print
+    nakoku_N : N ;  -- heel
+    nakoku_V : V ;  -- heel
+    nakoku_A : A ;  -- heel
+    nalan_N : N ;  -- donkey
+    nalan_V : V ;  -- donkey
+    nalan_A : A ;  -- donkey
+    nalemi_N : N ;  -- shift (work shift)
+    nalemi_V : V ;  -- shift (work shift)
+    nalemi_A : A ;  -- shift (work shift)
+    namen_N : N ;  -- hat
+    namen_V : V ;  -- hat
+    namen_A : A ;  -- hat
+    namibu_N : N ;  -- toilet
+    namibu_V : V ;  -- toilet
+    namibu_A : A ;  -- toilet
+    nano_N : N ;  -- last, final
+    nano_V : V ;  -- last, final
+    nano_A : A ;  -- last, final
+    napin_N : N ;  -- pea
+    napin_V : V ;  -- pea
+    napin_A : A ;  -- pea
+    napuwe_N : N ;  -- cave
+    napuwe_V : V ;  -- cave
+    napuwe_A : A ;  -- cave
+    nasan_N : N ;  -- defecate
+    nasan_V : V ;  -- defecate
+    nasan_A : A ;  -- defecate
+    nasebi_N : N ;  -- bell
+    nasebi_V : V ;  -- bell
+    nasebi_A : A ;  -- bell
+    nasi_N : N ;  -- money
+    nasi_V : V ;  -- money
+    nasi_A : A ;  -- money
+    nasuyu_N : N ;  -- ash
+    nasuyu_V : V ;  -- ash
+    nasuyu_A : A ;  -- ash
     nata_N : N ;  -- right, the side
     nata_V : V ;  -- right, the side
     nata_A : A ;  -- right, the side
+    natefa_N : N ;  -- nurse
+    natefa_V : V ;  -- nurse
+    natefa_A : A ;  -- nurse
+    natun_N : N ;  -- paper
+    natun_V : V ;  -- paper
+    natun_A : A ;  -- paper
     nawi_N : N ;  -- eat
     nawi_V : V ;  -- eat
     nawi_A : A ;  -- eat
-    nebe_N : N ;  -- back, of the body; behind
-    nebe_V : V ;  -- back, of the body; behind
-    nebe_A : A ;  -- back, of the body; behind
+    nawun_N : N ;  -- conclusion
+    nawun_V : V ;  -- conclusion
+    nawun_A : A ;  -- conclusion
+    nayuso_N : N ;  -- depend (on), be conditional on
+    nayuso_V : V ;  -- depend (on), be conditional on
+    nayuso_A : A ;  -- depend (on), be conditional on
+    nebi_N : N ;  -- can, be able
+    nebi_V : V ;  -- can, be able
+    nebi_A : A ;  -- can, be able
+    nedose_N : N ;  -- pollution
+    nedose_V : V ;  -- pollution
+    nedose_A : A ;  -- pollution
+    nefanu_N : N ;  -- climate
+    nefanu_V : V ;  -- climate
+    nefanu_A : A ;  -- climate
+    negan_N : N ;  -- stairs
+    negan_V : V ;  -- stairs
+    negan_A : A ;  -- stairs
+    negawi_N : N ;  -- dare
+    negawi_V : V ;  -- dare
+    negawi_A : A ;  -- dare
     neke_N : N ;  -- give
     neke_V : V ;  -- give
     neke_A : A ;  -- give
+    neleyu_N : N ;  -- snail
+    neleyu_V : V ;  -- snail
+    neleyu_A : A ;  -- snail
     nelon_N : N ;  -- week
     nelon_V : V ;  -- week
     nelon_A : A ;  -- week
+    nemisa_N : N ;  -- fresh
+    nemisa_V : V ;  -- fresh
+    nemisa_A : A ;  -- fresh
+    nenda_N : N ;  -- accuse, blame, hold responsible
+    nenda_V : V ;  -- accuse, blame, hold responsible
+    nenda_A : A ;  -- accuse, blame, hold responsible
+    nenege_N : N ;  -- engineering
+    nenege_V : V ;  -- engineering
+    nenege_A : A ;  -- engineering
+    nenfon_N : N ;  -- park
+    nenfon_V : V ;  -- park
+    nenfon_A : A ;  -- park
     nenmu_N : N ;  -- snore
     nenmu_V : V ;  -- snore
     nenmu_A : A ;  -- snore
+    nenne_N : N ;  -- political party
+    nenne_V : V ;  -- political party
+    nenne_A : A ;  -- political party
+    nensan_N : N ;  -- wind
+    nensan_V : V ;  -- wind
+    nensan_A : A ;  -- wind
     nensi_N : N ;  -- weak
     nensi_V : V ;  -- weak
     nensi_A : A ;  -- weak
+    nenun_N : N ;  -- poor
+    nenun_V : V ;  -- poor
+    nenun_A : A ;  -- poor
     nenwa_N : N ;  -- lake
     nenwa_V : V ;  -- lake
     nenwa_A : A ;  -- lake
+    nenwin_N : N ;  -- carpet
+    nenwin_V : V ;  -- carpet
+    nenwin_A : A ;  -- carpet
+    nenyun_N : N ;  -- view, scenery, perspective
+    nenyun_V : V ;  -- view, scenery, perspective
+    nenyun_A : A ;  -- view, scenery, perspective
+    nesen_N : N ;  -- owl
+    nesen_V : V ;  -- owl
+    nesen_A : A ;  -- owl
+    nesifo_N : N ;  -- balance
+    nesifo_V : V ;  -- balance
+    nesifo_A : A ;  -- balance
+    nesoge_N : N ;  -- capacity
+    nesoge_V : V ;  -- capacity
+    nesoge_A : A ;  -- capacity
+    netiti_N : N ;  -- forehead
+    netiti_V : V ;  -- forehead
+    netiti_A : A ;  -- forehead
     netu_N : N ;  -- long
     netu_V : V ;  -- long
     netu_A : A ;  -- long
-    niba_N : N ;  -- walk
-    niba_V : V ;  -- walk
-    niba_A : A ;  -- walk
-    niki_N : N ;  -- kind, type
-    niki_V : V ;  -- kind, type
-    niki_A : A ;  -- kind, type
-    nilen_N : N ;  -- rough
-    nilen_V : V ;  -- rough
-    nilen_A : A ;  -- rough
-    nimo_N : N ;  -- money
-    nimo_V : V ;  -- money
-    nimo_A : A ;  -- money
+    newupi_N : N ;  -- cotton (plant and cloth)
+    newupi_V : V ;  -- cotton (plant and cloth)
+    newupi_A : A ;  -- cotton (plant and cloth)
+    neyafu_N : N ;  -- knead
+    neyafu_V : V ;  -- knead
+    neyafu_A : A ;  -- knead
+    neyilo_N : N ;  -- confess
+    neyilo_V : V ;  -- confess
+    neyilo_A : A ;  -- confess
+    neyo_N : N ;  -- mountain
+    neyo_V : V ;  -- mountain
+    neyo_A : A ;  -- mountain
+    ninban_N : N ;  -- floor (the surface walked on)
+    ninban_V : V ;  -- floor (the surface walked on)
+    ninban_A : A ;  -- floor (the surface walked on)
+    nindun_N : N ;  -- oven
+    nindun_V : V ;  -- oven
+    nindun_A : A ;  -- oven
+    ninfen_N : N ;  -- settle
+    ninfen_V : V ;  -- settle
+    ninfen_A : A ;  -- settle
     ninge_N : N ;  -- sound, noise
     ninge_V : V ;  -- sound, noise
     ninge_A : A ;  -- sound, noise
+    ninkon_N : N ;  -- industry
+    ninkon_V : V ;  -- industry
+    ninkon_A : A ;  -- industry
+    ninlin_N : N ;  -- influence
+    ninlin_V : V ;  -- influence
+    ninlin_A : A ;  -- influence
+    ninlo_N : N ;  -- bee
+    ninlo_V : V ;  -- bee
+    ninlo_A : A ;  -- bee
     ninsu_N : N ;  -- oppose, be against
     ninsu_V : V ;  -- oppose, be against
     ninsu_A : A ;  -- oppose, be against
-    nokun_N : N ;  -- ice
-    nokun_V : V ;  -- ice
-    nokun_A : A ;  -- ice
-    nosen_N : N ;  -- god
-    nosen_V : V ;  -- god
-    nosen_A : A ;  -- god
-    noso_N : N ;  -- animal
-    noso_V : V ;  -- animal
-    noso_A : A ;  -- animal
-    nowa_N : N ;  -- cry, weep
-    nowa_V : V ;  -- cry, weep
-    nowa_A : A ;  -- cry, weep
+    ninta_N : N ;  -- block, obstruct
+    ninta_V : V ;  -- block, obstruct
+    ninta_A : A ;  -- block, obstruct
+    nintin_N : N ;  -- scene (of a play or film)
+    nintin_V : V ;  -- scene (of a play or film)
+    nintin_A : A ;  -- scene (of a play or film)
+    ninwu_N : N ;  -- general, overall
+    ninwu_V : V ;  -- general, overall
+    ninwu_A : A ;  -- general, overall
+    nonbi_N : N ;  -- boot
+    nonbi_V : V ;  -- boot
+    nonbi_A : A ;  -- boot
+    nonfun_N : N ;  -- progress
+    nonfun_V : V ;  -- progress
+    nonfun_A : A ;  -- progress
+    nonka_N : N ;  -- box, container
+    nonka_V : V ;  -- box, container
+    nonka_A : A ;  -- box, container
+    nonlen_N : N ;  -- establish, found
+    nonlen_V : V ;  -- establish, found
+    nonlen_A : A ;  -- establish, found
+    nonlun_N : N ;  -- sex
+    nonlun_V : V ;  -- sex
+    nonlun_A : A ;  -- sex
+    nonmo_N : N ;  -- letter, mail
+    nonmo_V : V ;  -- letter, mail
+    nonmo_A : A ;  -- letter, mail
+    nonnan_N : N ;  -- sport
+    nonnan_V : V ;  -- sport
+    nonnan_A : A ;  -- sport
+    nonsa_N : N ;  -- series
+    nonsa_V : V ;  -- series
+    nonsa_A : A ;  -- series
+    nonsin_N : N ;  -- secretary
+    nonsin_V : V ;  -- secretary
+    nonsin_A : A ;  -- secretary
+    nonten_N : N ;  -- application, formal request
+    nonten_V : V ;  -- application, formal request
+    nonten_A : A ;  -- application, formal request
+    nontu_N : N ;  -- apple
+    nontu_V : V ;  -- apple
+    nontu_A : A ;  -- apple
+    nonye_N : N ;  -- lightning
+    nonye_V : V ;  -- lightning
+    nonye_A : A ;  -- lightning
+    nonyon_N : N ;  -- soul
+    nonyon_V : V ;  -- soul
+    nonyon_A : A ;  -- soul
+    nubibo_N : N ;  -- crow, raven
+    nubibo_V : V ;  -- crow, raven
+    nubibo_A : A ;  -- crow, raven
+    nufi_N : N ;  -- time, a span or a point (not an occasion)
+    nufi_V : V ;  -- time, a span or a point (not an occasion)
+    nufi_A : A ;  -- time, a span or a point (not an occasion)
+    nugaya_N : N ;  -- chase, pursue
+    nugaya_V : V ;  -- chase, pursue
+    nugaya_A : A ;  -- chase, pursue
+    nugin_N : N ;  -- trousers
+    nugin_V : V ;  -- trousers
+    nugin_A : A ;  -- trousers
+    nulan_N : N ;  -- price
+    nulan_V : V ;  -- price
+    nulan_A : A ;  -- price
     nulu_N : N ;  -- hear
     nulu_V : V ;  -- hear
     nulu_A : A ;  -- hear
+    numase_N : N ;  -- violence
+    numase_V : V ;  -- violence
+    numase_A : A ;  -- violence
     nume_N : N ;  -- live, be alive, dwell; life
     nume_V : V ;  -- live, be alive, dwell; life
     nume_A : A ;  -- live, be alive, dwell; life
+    numon_N : N ;  -- court (of law)
+    numon_V : V ;  -- court (of law)
+    numon_A : A ;  -- court (of law)
     nunfo_N : N ;  -- buttocks
     nunfo_V : V ;  -- buttocks
     nunfo_A : A ;  -- buttocks
+    nunini_N : N ;  -- define
+    nunini_V : V ;  -- define
+    nunini_A : A ;  -- define
+    nunli_N : N ;  -- activity
+    nunli_V : V ;  -- activity
+    nunli_A : A ;  -- activity
+    nunma_N : N ;  -- star
+    nunma_V : V ;  -- star
+    nunma_A : A ;  -- star
+    nunole_N : N ;  -- gnat, midge, sandfly
+    nunole_V : V ;  -- gnat, midge, sandfly
+    nunole_A : A ;  -- gnat, midge, sandfly
+    nunse_N : N ;  -- knife
+    nunse_V : V ;  -- knife
+    nunse_A : A ;  -- knife
     nunya_N : N ;  -- pull
     nunya_V : V ;  -- pull
     nunya_A : A ;  -- pull
+    nupen_N : N ;  -- metal
+    nupen_V : V ;  -- metal
+    nupen_A : A ;  -- metal
+    nusan_N : N ;  -- scissors
+    nusan_V : V ;  -- scissors
+    nusan_A : A ;  -- scissors
+    nusese_N : N ;  -- boil, abscess (on the skin)
+    nusese_V : V ;  -- boil, abscess (on the skin)
+    nusese_A : A ;  -- boil, abscess (on the skin)
+    nusufu_N : N ;  -- scar
+    nusufu_V : V ;  -- scar
+    nusufu_A : A ;  -- scar
+    nusun_N : N ;  -- experience
+    nusun_V : V ;  -- experience
+    nusun_A : A ;  -- experience
     nuta_N : N ;  -- fear
     nuta_V : V ;  -- fear
     nuta_A : A ;  -- fear
+    nutano_N : N ;  -- blue
+    nutano_V : V ;  -- blue
+    nutano_A : A ;  -- blue
     nuton_N : N ;  -- remove, erase
     nuton_V : V ;  -- remove, erase
     nuton_A : A ;  -- remove, erase
+    nutuba_N : N ;  -- bake (in an oven or on hot ashes)
+    nutuba_V : V ;  -- bake (in an oven or on hot ashes)
+    nutuba_A : A ;  -- bake (in an oven or on hot ashes)
+    nuwo_N : N ;  -- happen
+    nuwo_V : V ;  -- happen
+    nuwo_A : A ;  -- happen
+    nuyosi_N : N ;  -- bow (the weapon)
+    nuyosi_V : V ;  -- bow (the weapon)
+    nuyosi_A : A ;  -- bow (the weapon)
+    nuyuta_N : N ;  -- leather
+    nuyuta_V : V ;  -- leather
+    nuyuta_A : A ;  -- leather
+    obasa_N : N ;  -- breakfast
+    obasa_V : V ;  -- breakfast
+    obasa_A : A ;  -- breakfast
     obu_N : N ;  -- come
     obu_V : V ;  -- come
     obu_A : A ;  -- come
+    ode_N : N ;  -- school
+    ode_V : V ;  -- school
+    ode_A : A ;  -- school
     ofin_N : N ;  -- spouse
     ofin_V : V ;  -- spouse
     ofin_A : A ;  -- spouse
+    ofisu_N : N ;  -- office
+    ofisu_V : V ;  -- office
+    ofisu_A : A ;  -- office
+    ogene_N : N ;  -- angle
+    ogene_V : V ;  -- angle
+    ogene_A : A ;  -- angle
+    olipa_N : N ;  -- blind
+    olipa_V : V ;  -- blind
+    olipa_A : A ;  -- blind
     omen_N : N ;  -- kill
     omen_V : V ;  -- kill
     omen_A : A ;  -- kill
+    ongun_N : N ;  -- iron (the metal)
+    ongun_V : V ;  -- iron (the metal)
+    ongun_A : A ;  -- iron (the metal)
+    onken_N : N ;  -- electricity
+    onken_V : V ;  -- electricity
+    onken_A : A ;  -- electricity
+    onlin_N : N ;  -- contract
+    onlin_V : V ;  -- contract
+    onlin_A : A ;  -- contract
     onlo_N : N ;  -- shoot
     onlo_V : V ;  -- shoot
     onlo_A : A ;  -- shoot
+    onson_N : N ;  -- volume (loudness; a book volume)
+    onson_V : V ;  -- volume (loudness; a book volume)
+    onson_A : A ;  -- volume (loudness; a book volume)
     onti_N : N ;  -- burn
     onti_V : V ;  -- burn
     onti_A : A ;  -- burn
+    onyan_N : N ;  -- sea
+    onyan_V : V ;  -- sea
+    onyan_A : A ;  -- sea
     osa_N : N ;  -- water
     osa_V : V ;  -- water
     osa_A : A ;  -- water
+    osayi_N : N ;  -- murder (kill on purpose, unlawfully)
+    osayi_V : V ;  -- murder (kill on purpose, unlawfully)
+    osayi_A : A ;  -- murder (kill on purpose, unlawfully)
+    otelu_N : N ;  -- hotel
+    otelu_V : V ;  -- hotel
+    otelu_A : A ;  -- hotel
     oton_N : N ;  -- city
     oton_V : V ;  -- city
     oton_A : A ;  -- city
+    owobe_N : N ;  -- rib
+    owobe_V : V ;  -- rib
+    owobe_A : A ;  -- rib
+    owon_N : N ;  -- birth
+    owon_V : V ;  -- birth
+    owon_A : A ;  -- birth
     oyi_N : N ;  -- say
     oyi_V : V ;  -- say
     oyi_A : A ;  -- say
     paben_N : N ;  -- fart
     paben_V : V ;  -- fart
     paben_A : A ;  -- fart
+    pabito_N : N ;  -- heal, cure
+    pabito_V : V ;  -- heal, cure
+    pabito_A : A ;  -- heal, cure
+    padufe_N : N ;  -- nest
+    padufe_V : V ;  -- nest
+    padufe_A : A ;  -- nest
+    pagime_N : N ;  -- eyebrow
+    pagime_V : V ;  -- eyebrow
+    pagime_A : A ;  -- eyebrow
+    pando_N : N ;  -- measure
+    pando_V : V ;  -- measure
+    pando_A : A ;  -- measure
     pani_N : N ;  -- old, aged or worn
     pani_V : V ;  -- old, aged or worn
     pani_A : A ;  -- old, aged or worn
+    panman_N : N ;  -- communication
+    panman_V : V ;  -- communication
+    panman_A : A ;  -- communication
+    panpin_N : N ;  -- mayor
+    panpin_V : V ;  -- mayor
+    panpin_A : A ;  -- mayor
+    panpon_N : N ;  -- travel
+    panpon_V : V ;  -- travel
+    panpon_A : A ;  -- travel
+    panuya_N : N ;  -- lend
+    panuya_V : V ;  -- lend
+    panuya_A : A ;  -- lend
+    panwe_N : N ;  -- back, of the body; behind
+    panwe_V : V ;  -- back, of the body; behind
+    panwe_A : A ;  -- back, of the body; behind
+    panwo_N : N ;  -- customer
+    panwo_V : V ;  -- customer
+    panwo_A : A ;  -- customer
+    papayo_N : N ;  -- contribute
+    papayo_V : V ;  -- contribute
+    papayo_A : A ;  -- contribute
     pasu_N : N ;  -- food
     pasu_V : V ;  -- food
     pasu_A : A ;  -- food
+    pasupolutu_N : N ;  -- passport
+    pasupolutu_V : V ;  -- passport
+    pasupolutu_A : A ;  -- passport
+    pata_N : N ;  -- document, file
+    pata_V : V ;  -- document, file
+    pata_A : A ;  -- document, file
+    pawundu_N : N ;  -- pound (the currency)
+    pawundu_V : V ;  -- pound (the currency)
+    pawundu_A : A ;  -- pound (the currency)
     payon_N : N ;  -- hit
     payon_V : V ;  -- hit
     payon_A : A ;  -- hit
+    pegun_N : N ;  -- population
+    pegun_V : V ;  -- population
+    pegun_A : A ;  -- population
+    pekawu_N : N ;  -- worthy, deserving
+    pekawu_V : V ;  -- worthy, deserving
+    pekawu_A : A ;  -- worthy, deserving
+    peman_N : N ;  -- cheese
+    peman_V : V ;  -- cheese
+    peman_A : A ;  -- cheese
+    pemu_N : N ;  -- nature
+    pemu_V : V ;  -- nature
+    pemu_A : A ;  -- nature
+    penasi_N : N ;  -- kind, kindness
+    penasi_V : V ;  -- kind, kindness
+    penasi_A : A ;  -- kind, kindness
+    pendin_N : N ;  -- former, ex-
+    pendin_V : V ;  -- former, ex-
+    pendin_A : A ;  -- former, ex-
+    penguwin_N : N ;  -- penguin
+    penguwin_V : V ;  -- penguin
+    penguwin_A : A ;  -- penguin
     pensi_N : N ;  -- wash
     pensi_V : V ;  -- wash
     pensi_A : A ;  -- wash
@@ -992,129 +2867,435 @@ abstract Lex = {
     penyu_N : N ;  -- connect, join
     penyu_V : V ;  -- connect, join
     penyu_A : A ;  -- connect, join
+    pesese_N : N ;  -- heap, pile
+    pesese_V : V ;  -- heap, pile
+    pesese_A : A ;  -- heap, pile
     peton_N : N ;  -- share, let others have too
     peton_V : V ;  -- share, let others have too
     peton_A : A ;  -- share, let others have too
-    pifo_N : N ;  -- foot
-    pifo_V : V ;  -- foot
-    pifo_A : A ;  -- foot
+    pewike_N : N ;  -- ambassador
+    pewike_V : V ;  -- ambassador
+    pewike_A : A ;  -- ambassador
+    pidama_N : N ;  -- pajamas
+    pidama_V : V ;  -- pajamas
+    pidama_A : A ;  -- pajamas
     pinda_N : N ;  -- white
     pinda_V : V ;  -- white
     pinda_A : A ;  -- white
     pinfe_N : N ;  -- plant, vegetation
     pinfe_V : V ;  -- plant, vegetation
     pinfe_A : A ;  -- plant, vegetation
+    pinki_N : N ;  -- threaten
+    pinki_V : V ;  -- threaten
+    pinki_A : A ;  -- threaten
+    pinlon_N : N ;  -- skill
+    pinlon_V : V ;  -- skill
+    pinlon_A : A ;  -- skill
     pinpu_N : N ;  -- war
     pinpu_V : V ;  -- war
     pinpu_A : A ;  -- war
-    piyi_N : N ;  -- stay
-    piyi_V : V ;  -- stay
-    piyi_A : A ;  -- stay
-    polisu_N : N ;  -- police
-    polisu_V : V ;  -- police
-    polisu_A : A ;  -- police
+    pisa_N : N ;  -- pizza
+    pisa_V : V ;  -- pizza
+    pisa_A : A ;  -- pizza
+    piyano_N : N ;  -- piano
+    piyano_V : V ;  -- piano
+    piyano_A : A ;  -- piano
+    poden_N : N ;  -- size
+    poden_V : V ;  -- size
+    poden_A : A ;  -- size
+    pofi_N : N ;  -- send
+    pofi_V : V ;  -- send
+    pofi_A : A ;  -- send
+    pofo_N : N ;  -- island
+    pofo_V : V ;  -- island
+    pofo_A : A ;  -- island
+    pogun_N : N ;  -- pig
+    pogun_V : V ;  -- pig
+    pogun_A : A ;  -- pig
+    poka_N : N ;  -- dog
+    poka_V : V ;  -- dog
+    poka_A : A ;  -- dog
+    polin_N : N ;  -- herd, tend animals
+    polin_V : V ;  -- herd, tend animals
+    polin_A : A ;  -- herd, tend animals
+    polon_N : N ;  -- shirt
+    polon_V : V ;  -- shirt
+    polon_A : A ;  -- shirt
+    ponan_N : N ;  -- strawberry
+    ponan_V : V ;  -- strawberry
+    ponan_A : A ;  -- strawberry
+    posaga_N : N ;  -- treat
+    posaga_V : V ;  -- treat
+    posaga_A : A ;  -- treat
+    potiwa_N : N ;  -- surgery
+    potiwa_V : V ;  -- surgery
+    potiwa_A : A ;  -- surgery
+    powen_N : N ;  -- crocodile
+    powen_V : V ;  -- crocodile
+    powen_A : A ;  -- crocodile
+    poyodi_N : N ;  -- reward
+    poyodi_V : V ;  -- reward
+    poyodi_A : A ;  -- reward
+    pufan_N : N ;  -- sheep
+    pufan_V : V ;  -- sheep
+    pufan_A : A ;  -- sheep
+    pulasutiku_N : N ;  -- plastic
+    pulasutiku_V : V ;  -- plastic
+    pulasutiku_A : A ;  -- plastic
+    pulofilu_N : N ;  -- profile (online, personal)
+    pulofilu_V : V ;  -- profile (online, personal)
+    pulofilu_A : A ;  -- profile (online, personal)
+    pulogulamu_N : N ;  -- program (software; broadcast programme)
+    pulogulamu_V : V ;  -- program (software; broadcast programme)
+    pulogulamu_A : A ;  -- program (software; broadcast programme)
     pume_N : N ;  -- think
     pume_V : V ;  -- think
     pume_A : A ;  -- think
-    puya_N : N ;  -- sea
-    puya_V : V ;  -- sea
-    puya_A : A ;  -- sea
+    punkin_N : N ;  -- prison
+    punkin_V : V ;  -- prison
+    punkin_A : A ;  -- prison
+    punna_N : N ;  -- season
+    punna_V : V ;  -- season
+    punna_A : A ;  -- season
+    punpo_N : N ;  -- real
+    punpo_V : V ;  -- real
+    punpo_A : A ;  -- real
+    punte_N : N ;  -- swing (playground seat)
+    punte_V : V ;  -- swing (playground seat)
+    punte_A : A ;  -- swing (playground seat)
+    punyi_N : N ;  -- distance
+    punyi_V : V ;  -- distance
+    punyi_A : A ;  -- distance
+    pupisi_N : N ;  -- reference
+    pupisi_V : V ;  -- reference
+    pupisi_A : A ;  -- reference
+    puse_N : N ;  -- team
+    puse_V : V ;  -- team
+    puse_A : A ;  -- team
+    putaki_N : N ;  -- plant, sow (put seeds or plants in the ground)
+    putaki_V : V ;  -- plant, sow (put seeds or plants in the ground)
+    putaki_A : A ;  -- plant, sow (put seeds or plants in the ground)
+    putun_N : N ;  -- service
+    putun_V : V ;  -- service
+    putun_A : A ;  -- service
+    puwiyu_N : N ;  -- mattress
+    puwiyu_V : V ;  -- mattress
+    puwiyu_A : A ;  -- mattress
+    puwoko_N : N ;  -- rub
+    puwoko_V : V ;  -- rub
+    puwoko_A : A ;  -- rub
+    puwon_N : N ;  -- spirit (a being)
+    puwon_V : V ;  -- spirit (a being)
+    puwon_A : A ;  -- spirit (a being)
+    sandin_N : N ;  -- universe
+    sandin_V : V ;  -- universe
+    sandin_A : A ;  -- universe
+    sanduwitu_N : N ;  -- sandwich
+    sanduwitu_V : V ;  -- sandwich
+    sanduwitu_A : A ;  -- sandwich
     sanfi_N : N ;  -- side
     sanfi_V : V ;  -- side
     sanfi_A : A ;  -- side
+    sangan_N : N ;  -- mention
+    sangan_V : V ;  -- mention
+    sangan_A : A ;  -- mention
+    sankin_N : N ;  -- interest (on money)
+    sankin_V : V ;  -- interest (on money)
+    sankin_A : A ;  -- interest (on money)
     sanku_N : N ;  -- miss, feel the absence of
     sanku_V : V ;  -- miss, feel the absence of
     sanku_A : A ;  -- miss, feel the absence of
+    sanlo_N : N ;  -- orange (the fruit)
+    sanlo_V : V ;  -- orange (the fruit)
+    sanlo_A : A ;  -- orange (the fruit)
+    sanmun_N : N ;  -- vote
+    sanmun_V : V ;  -- vote
+    sanmun_A : A ;  -- vote
     sanne_N : N ;  -- touch
     sanne_V : V ;  -- touch
     sanne_A : A ;  -- touch
+    sansan_N : N ;  -- clap
+    sansan_V : V ;  -- clap
+    sansan_A : A ;  -- clap
+    sanso_N : N ;  -- process
+    sanso_V : V ;  -- process
+    sanso_A : A ;  -- process
+    santa_N : N ;  -- sweet
+    santa_V : V ;  -- sweet
+    santa_A : A ;  -- sweet
     sanwa_N : N ;  -- rent, pay to use
     sanwa_V : V ;  -- rent, pay to use
     sanwa_A : A ;  -- rent, pay to use
-    sefu_N : N ;  -- wait
-    sefu_V : V ;  -- wait
-    sefu_A : A ;  -- wait
-    sege_N : N ;  -- send
-    sege_V : V ;  -- send
-    sege_A : A ;  -- send
-    sekan_N : N ;  -- field, open land
-    sekan_V : V ;  -- field, open land
-    sekan_A : A ;  -- field, open land
-    sekandu_N : N ;  -- second, of time
-    sekandu_V : V ;  -- second, of time
-    sekandu_A : A ;  -- second, of time
-    selo_N : N ;  -- build
-    selo_V : V ;  -- build
-    selo_A : A ;  -- build
+    sanwen_N : N ;  -- well, dug water source
+    sanwen_V : V ;  -- well, dug water source
+    sanwen_A : A ;  -- well, dug water source
+    sanwu_N : N ;  -- profit
+    sanwu_V : V ;  -- profit
+    sanwu_A : A ;  -- profit
+    sanyi_N : N ;  -- kick
+    sanyi_V : V ;  -- kick
+    sanyi_A : A ;  -- kick
+    sanyon_N : N ;  -- magazine
+    sanyon_V : V ;  -- magazine
+    sanyon_A : A ;  -- magazine
+    sayitu_N : N ;  -- website
+    sayitu_V : V ;  -- website
+    sayitu_A : A ;  -- website
+    sendi_N : N ;  -- hammer
+    sendi_V : V ;  -- hammer
+    sendi_A : A ;  -- hammer
+    senfa_N : N ;  -- ladder
+    senfa_V : V ;  -- ladder
+    senfa_A : A ;  -- ladder
+    senfu_N : N ;  -- build
+    senfu_V : V ;  -- build
+    senfu_A : A ;  -- build
+    sengon_N : N ;  -- social class
+    sengon_V : V ;  -- social class
+    sengon_A : A ;  -- social class
     senke_N : N ;  -- armpit
     senke_V : V ;  -- armpit
     senke_A : A ;  -- armpit
+    senle_N : N ;  -- meeting
+    senle_V : V ;  -- meeting
+    senle_A : A ;  -- meeting
+    senmin_N : N ;  -- detective
+    senmin_V : V ;  -- detective
+    senmin_A : A ;  -- detective
     senmo_N : N ;  -- wall
     senmo_V : V ;  -- wall
     senmo_A : A ;  -- wall
+    sennan_N : N ;  -- bridge
+    sennan_V : V ;  -- bridge
+    sennan_A : A ;  -- bridge
+    sennu_N : N ;  -- clear
+    sennu_V : V ;  -- clear
+    sennu_A : A ;  -- clear
+    sense_N : N ;  -- butterfly
+    sense_V : V ;  -- butterfly
+    sense_A : A ;  -- butterfly
     sentimetulu_N : N ;  -- centimetre
     sentimetulu_V : V ;  -- centimetre
     sentimetulu_A : A ;  -- centimetre
-    sepi_N : N ;  -- apologise
-    sepi_V : V ;  -- apologise
-    sepi_A : A ;  -- apologise
-    sesa_N : N ;  -- beautiful
-    sesa_V : V ;  -- beautiful
-    sesa_A : A ;  -- beautiful
-    seyun_N : N ;  -- thunder
-    seyun_V : V ;  -- thunder
-    seyun_A : A ;  -- thunder
+    sento_N : N ;  -- sentence (grammar)
+    sento_V : V ;  -- sentence (grammar)
+    sento_A : A ;  -- sentence (grammar)
+    senwi_N : N ;  -- narrow
+    senwi_V : V ;  -- narrow
+    senwi_A : A ;  -- narrow
+    senya_N : N ;  -- power, control
+    senya_V : V ;  -- power, control
+    senya_A : A ;  -- power, control
+    senyen_N : N ;  -- pure
+    senyen_V : V ;  -- pure
+    senyen_A : A ;  -- pure
+    senyun_N : N ;  -- advertisement
+    senyun_V : V ;  -- advertisement
+    senyun_A : A ;  -- advertisement
+    siben_N : N ;  -- rich, wealthy
+    siben_V : V ;  -- rich, wealthy
+    siben_A : A ;  -- rich, wealthy
+    sidako_N : N ;  -- rape
+    sidako_V : V ;  -- rape
+    sidako_A : A ;  -- rape
+    siduyu_N : N ;  -- firewood
+    siduyu_V : V ;  -- firewood
+    siduyu_A : A ;  -- firewood
+    sifada_N : N ;  -- sieve, strain
+    sifada_V : V ;  -- sieve, strain
+    sifada_A : A ;  -- sieve, strain
+    sifi_N : N ;  -- foot
+    sifi_V : V ;  -- foot
+    sifi_A : A ;  -- foot
+    sifufi_N : N ;  -- detail
+    sifufi_V : V ;  -- detail
+    sifufi_A : A ;  -- detail
+    sifun_N : N ;  -- deer
+    sifun_V : V ;  -- deer
+    sifun_A : A ;  -- deer
+    sigaletu_N : N ;  -- cigarette
+    sigaletu_V : V ;  -- cigarette
+    sigaletu_A : A ;  -- cigarette
     sigo_N : N ;  -- return
     sigo_V : V ;  -- return
     sigo_A : A ;  -- return
+    sikomo_N : N ;  -- mystery
+    sikomo_V : V ;  -- mystery
+    sikomo_A : A ;  -- mystery
+    siloya_N : N ;  -- bury
+    siloya_V : V ;  -- bury
+    siloya_A : A ;  -- bury
+    silu_N : N ;  -- photo
+    silu_V : V ;  -- photo
+    silu_A : A ;  -- photo
+    silukasu_N : N ;  -- circus
+    silukasu_V : V ;  -- circus
+    silukasu_A : A ;  -- circus
+    siman_N : N ;  -- draw (make a picture)
+    siman_V : V ;  -- draw (make a picture)
+    siman_A : A ;  -- draw (make a picture)
     simi_N : N ;  -- sick
     simi_V : V ;  -- sick
     simi_A : A ;  -- sick
-    sinta_N : N ;  -- sweet
-    sinta_V : V ;  -- sweet
-    sinta_A : A ;  -- sweet
+    sine_N : N ;  -- father
+    sine_V : V ;  -- father
+    sine_A : A ;  -- father
+    sinema_N : N ;  -- cinema
+    sinema_V : V ;  -- cinema
+    sinema_A : A ;  -- cinema
+    sinidi_N : N ;  -- layer
+    sinidi_V : V ;  -- layer
+    sinidi_A : A ;  -- layer
+    sinoki_N : N ;  -- philosophy
+    sinoki_V : V ;  -- philosophy
+    sinoki_A : A ;  -- philosophy
     sinun_N : N ;  -- dream
     sinun_V : V ;  -- dream
     sinun_A : A ;  -- dream
-    sinye_N : N ;  -- front
-    sinye_V : V ;  -- front
-    sinye_A : A ;  -- front
+    sipisu_N : N ;  -- elbow
+    sipisu_V : V ;  -- elbow
+    sipisu_A : A ;  -- elbow
+    sisa_N : N ;  -- form (format; a form to fill in)
+    sisa_V : V ;  -- form (format; a form to fill in)
+    sisa_A : A ;  -- form (format; a form to fill in)
     sison_N : N ;  -- storey, floor level of a building
     sison_V : V ;  -- storey, floor level of a building
     sison_A : A ;  -- storey, floor level of a building
+    sisuma_N : N ;  -- scold
+    sisuma_V : V ;  -- scold
+    sisuma_A : A ;  -- scold
+    sita_N : N ;  -- perfect
+    sita_V : V ;  -- perfect
+    sita_A : A ;  -- perfect
     siten_N : N ;  -- cook
     siten_V : V ;  -- cook
     siten_A : A ;  -- cook
+    sitewe_N : N ;  -- comfortable, at ease
+    sitewe_V : V ;  -- comfortable, at ease
+    sitewe_A : A ;  -- comfortable, at ease
     situ_N : N ;  -- shade, shadow from light
     situ_V : V ;  -- shade, shadow from light
     situ_A : A ;  -- shade, shadow from light
     siwa_N : N ;  -- cart
     siwa_V : V ;  -- cart
     siwa_A : A ;  -- cart
+    siwase_N : N ;  -- compare
+    siwase_V : V ;  -- compare
+    siwase_A : A ;  -- compare
+    siwelu_N : N ;  -- mortar (for pounding)
+    siwelu_V : V ;  -- mortar (for pounding)
+    siwelu_A : A ;  -- mortar (for pounding)
+    siwita_N : N ;  -- joint (of the body)
+    siwita_V : V ;  -- joint (of the body)
+    siwita_A : A ;  -- joint (of the body)
+    siwon_N : N ;  -- melon
+    siwon_V : V ;  -- melon
+    siwon_A : A ;  -- melon
+    siyan_N : N ;  -- worker
+    siyan_V : V ;  -- worker
+    siyan_A : A ;  -- worker
+    sobame_N : N ;  -- urgent
+    sobame_V : V ;  -- urgent
+    sobame_A : A ;  -- urgent
+    sodida_N : N ;  -- evolution
+    sodida_V : V ;  -- evolution
+    sodida_A : A ;  -- evolution
+    soduwo_N : N ;  -- pole, post
+    soduwo_V : V ;  -- pole, post
+    soduwo_A : A ;  -- pole, post
     sofen_N : N ;  -- chew
     sofen_V : V ;  -- chew
     sofen_A : A ;  -- chew
+    sofiti_N : N ;  -- flea
+    sofiti_V : V ;  -- flea
+    sofiti_A : A ;  -- flea
+    sofodu_N : N ;  -- prostitute
+    sofodu_V : V ;  -- prostitute
+    sofodu_A : A ;  -- prostitute
     sogan_N : N ;  -- a right, entitlement
     sogan_V : V ;  -- a right, entitlement
     sogan_A : A ;  -- a right, entitlement
     sogi_N : N ;  -- happy
     sogi_V : V ;  -- happy
     sogi_A : A ;  -- happy
+    sokun_N : N ;  -- flat, level
+    sokun_V : V ;  -- flat, level
+    sokun_A : A ;  -- flat, level
     sola_N : N ;  -- road
     sola_V : V ;  -- road
     sola_A : A ;  -- road
+    solen_N : N ;  -- frog
+    solen_V : V ;  -- frog
+    solen_A : A ;  -- frog
+    soliwi_N : N ;  -- lizard
+    soliwi_V : V ;  -- lizard
+    soliwi_A : A ;  -- lizard
+    solofi_N : N ;  -- popular
+    solofi_V : V ;  -- popular
+    solofi_A : A ;  -- popular
+    somasu_N : N ;  -- argument, dispute
+    somasu_V : V ;  -- argument, dispute
+    somasu_A : A ;  -- argument, dispute
+    somi_N : N ;  -- escape
+    somi_V : V ;  -- escape
+    somi_A : A ;  -- escape
+    somon_N : N ;  -- ball (round toy)
+    somon_V : V ;  -- ball (round toy)
+    somon_A : A ;  -- ball (round toy)
+    sonbe_N : N ;  -- fact
+    sonbe_V : V ;  -- fact
+    sonbe_A : A ;  -- fact
+    soneko_N : N ;  -- push
+    soneko_V : V ;  -- push
+    soneko_A : A ;  -- push
     sonfa_N : N ;  -- hair
     sonfa_V : V ;  -- hair
     sonfa_A : A ;  -- hair
+    sonfon_N : N ;  -- mathematics
+    sonfon_V : V ;  -- mathematics
+    sonfon_A : A ;  -- mathematics
     sonli_N : N ;  -- safe, not in danger
     sonli_V : V ;  -- safe, not in danger
     sonli_A : A ;  -- safe, not in danger
+    sonno_N : N ;  -- novel (a long story)
+    sonno_V : V ;  -- novel (a long story)
+    sonno_A : A ;  -- novel (a long story)
+    sonsin_N : N ;  -- sense (good sense; a sense organ)
+    sonsin_V : V ;  -- sense (good sense; a sense organ)
+    sonsin_A : A ;  -- sense (good sense; a sense organ)
+    sonten_N : N ;  -- liquid
+    sonten_V : V ;  -- liquid
+    sonten_A : A ;  -- liquid
     sonu_N : N ;  -- friend
     sonu_V : V ;  -- friend
     sonu_A : A ;  -- friend
+    sonwan_N : N ;  -- adult
+    sonwan_V : V ;  -- adult
+    sonwan_A : A ;  -- adult
     sonyu_N : N ;  -- shoulder
     sonyu_V : V ;  -- shoulder
     sonyu_A : A ;  -- shoulder
+    sopuge_N : N ;  -- dawn
+    sopuge_V : V ;  -- dawn
+    sopuge_A : A ;  -- dawn
+    sosan_N : N ;  -- rough
+    sosan_V : V ;  -- rough
+    sosan_A : A ;  -- rough
+    sose_N : N ;  -- heart
+    sose_V : V ;  -- heart
+    sose_A : A ;  -- heart
+    sosiwu_N : N ;  -- recognize
+    sosiwu_V : V ;  -- recognize
+    sosiwu_A : A ;  -- recognize
+    sosope_N : N ;  -- pepper (the spice)
+    sosope_V : V ;  -- pepper (the spice)
+    sosope_A : A ;  -- pepper (the spice)
+    sosu_N : N ;  -- sauce
+    sosu_V : V ;  -- sauce
+    sosu_A : A ;  -- sauce
+    sotese_N : N ;  -- muscle
+    sotese_V : V ;  -- muscle
+    sotese_A : A ;  -- muscle
     soti_N : N ;  -- bed
     soti_V : V ;  -- bed
     soti_A : A ;  -- bed
@@ -1124,48 +3305,138 @@ abstract Lex = {
     sowe_N : N ;  -- bread
     sowe_V : V ;  -- bread
     sowe_A : A ;  -- bread
-    suba_N : N ;  -- feather
-    suba_V : V ;  -- feather
-    suba_A : A ;  -- feather
-    suku_N : N ;  -- face
-    suku_V : V ;  -- face
-    suku_A : A ;  -- face
-    sulen_N : N ;  -- ash
-    sulen_V : V ;  -- ash
-    sulen_A : A ;  -- ash
-    sumin_N : N ;  -- scratch
-    sumin_V : V ;  -- scratch
-    sumin_A : A ;  -- scratch
+    sowimo_N : N ;  -- refuse, say no to
+    sowimo_V : V ;  -- refuse, say no to
+    sowimo_A : A ;  -- refuse, say no to
+    sowiso_N : N ;  -- howl
+    sowiso_V : V ;  -- howl
+    sowiso_A : A ;  -- howl
+    sowun_N : N ;  -- operation, undertaking
+    sowun_V : V ;  -- operation, undertaking
+    sowun_A : A ;  -- operation, undertaking
+    soyabo_N : N ;  -- nail (metal fastener)
+    soyabo_V : V ;  -- nail (metal fastener)
+    soyabo_A : A ;  -- nail (metal fastener)
+    soyin_N : N ;  -- attack
+    soyin_V : V ;  -- attack
+    soyin_A : A ;  -- attack
+    soyo_N : N ;  -- blow, of air
+    soyo_V : V ;  -- blow, of air
+    soyo_A : A ;  -- blow, of air
+    sukalu_N : N ;  -- sugar
+    sukalu_V : V ;  -- sugar
+    sukalu_A : A ;  -- sugar
     sunbu_N : N ;  -- count
     sunbu_V : V ;  -- count
     sunbu_A : A ;  -- count
+    sunga_N : N ;  -- spread
+    sunga_V : V ;  -- spread
+    sunga_A : A ;  -- spread
+    sungun_N : N ;  -- lick
+    sungun_V : V ;  -- lick
+    sungun_A : A ;  -- lick
+    sunki_N : N ;  -- repair
+    sunki_V : V ;  -- repair
+    sunki_A : A ;  -- repair
+    sunlon_N : N ;  -- chapter
+    sunlon_V : V ;  -- chapter
+    sunlon_A : A ;  -- chapter
+    sunma_N : N ;  -- sweep
+    sunma_V : V ;  -- sweep
+    sunma_A : A ;  -- sweep
+    sunmen_N : N ;  -- dinner
+    sunmen_V : V ;  -- dinner
+    sunmen_A : A ;  -- dinner
     sunni_N : N ;  -- insect
     sunni_V : V ;  -- insect
     sunni_A : A ;  -- insect
-    susin_N : N ;  -- shake, vibrate
-    susin_V : V ;  -- shake, vibrate
-    susin_A : A ;  -- shake, vibrate
-    suso_N : N ;  -- name
-    suso_V : V ;  -- name
-    suso_A : A ;  -- name
-    suyon_N : N ;  -- belly
-    suyon_V : V ;  -- belly
-    suyon_A : A ;  -- belly
+    sunse_N : N ;  -- continue
+    sunse_V : V ;  -- continue
+    sunse_A : A ;  -- continue
+    sunsun_N : N ;  -- policy
+    sunsun_V : V ;  -- policy
+    sunsun_A : A ;  -- policy
+    suntan_N : N ;  -- unit (of measure)
+    suntan_V : V ;  -- unit (of measure)
+    suntan_A : A ;  -- unit (of measure)
+    sunto_N : N ;  -- case (legal), lawsuit
+    sunto_V : V ;  -- case (legal), lawsuit
+    sunto_A : A ;  -- case (legal), lawsuit
+    sunwin_N : N ;  -- silver
+    sunwin_V : V ;  -- silver
+    sunwin_A : A ;  -- silver
+    sunwo_N : N ;  -- dress (the garment)
+    sunwo_V : V ;  -- dress (the garment)
+    sunwo_A : A ;  -- dress (the garment)
+    sunye_N : N ;  -- slide, slip (move smoothly over a surface)
+    sunye_V : V ;  -- slide, slip (move smoothly over a surface)
+    sunye_A : A ;  -- slide, slip (move smoothly over a surface)
+    sutudiyo_N : N ;  -- studio
+    sutudiyo_V : V ;  -- studio
+    sutudiyo_A : A ;  -- studio
+    suwetalu_N : N ;  -- sweater
+    suwetalu_V : V ;  -- sweater
+    suwetalu_A : A ;  -- sweater
+    tabaku_N : N ;  -- tobacco
+    tabaku_V : V ;  -- tobacco
+    tabaku_A : A ;  -- tobacco
+    tadota_N : N ;  -- curse
+    tadota_V : V ;  -- curse
+    tadota_A : A ;  -- curse
+    tafa_N : N ;  -- cold, not hot
+    tafa_V : V ;  -- cold, not hot
+    tafa_A : A ;  -- cold, not hot
+    tagani_N : N ;  -- gourd, calabash, pumpkin, squash
+    tagani_V : V ;  -- gourd, calabash, pumpkin, squash
+    tagani_A : A ;  -- gourd, calabash, pumpkin, squash
     tago_N : N ;  -- black
     tago_V : V ;  -- black
     tago_A : A ;  -- black
+    takusi_N : N ;  -- taxi
+    takusi_V : V ;  -- taxi
+    takusi_A : A ;  -- taxi
     tale_N : N ;  -- car
     tale_V : V ;  -- car
     tale_A : A ;  -- car
+    talise_N : N ;  -- cloud
+    talise_V : V ;  -- cloud
+    talise_A : A ;  -- cloud
+    talowi_N : N ;  -- wheel
+    talowi_V : V ;  -- wheel
+    talowi_A : A ;  -- wheel
+    tamu_N : N ;  -- news
+    tamu_V : V ;  -- news
+    tamu_A : A ;  -- news
+    tamufo_N : N ;  -- board, plank
+    tamufo_V : V ;  -- board, plank
+    tamufo_A : A ;  -- board, plank
     tana_N : N ;  -- like, enjoy
     tana_V : V ;  -- like, enjoy
     tana_A : A ;  -- like, enjoy
     tanbu_N : N ;  -- cheap, low in price
     tanbu_V : V ;  -- cheap, low in price
     tanbu_A : A ;  -- cheap, low in price
+    tanke_N : N ;  -- forest
+    tanke_V : V ;  -- forest
+    tanke_A : A ;  -- forest
+    tanlin_N : N ;  -- release, let go
+    tanlin_V : V ;  -- release, let go
+    tanlin_A : A ;  -- release, let go
+    tanpan_N : N ;  -- sin
+    tanpan_V : V ;  -- sin
+    tanpan_A : A ;  -- sin
+    tansi_N : N ;  -- reputation
+    tansi_V : V ;  -- reputation
+    tansi_A : A ;  -- reputation
+    tantu_N : N ;  -- daytime
+    tantu_V : V ;  -- daytime
+    tantu_A : A ;  -- daytime
     tanun_N : N ;  -- fruit
     tanun_V : V ;  -- fruit
     tanun_A : A ;  -- fruit
+    tanye_N : N ;  -- fox
+    tanye_V : V ;  -- fox
+    tanye_A : A ;  -- fox
     tapi_N : N ;  -- close, shut
     tapi_V : V ;  -- close, shut
     tapi_A : A ;  -- close, shut
@@ -1175,21 +3446,123 @@ abstract Lex = {
     tase_N : N ;  -- bark, of a tree
     tase_V : V ;  -- bark, of a tree
     tase_A : A ;  -- bark, of a tree
+    tasumo_N : N ;  -- hollow out
+    tasumo_V : V ;  -- hollow out
+    tasumo_A : A ;  -- hollow out
+    taten_N : N ;  -- cat
+    taten_V : V ;  -- cat
+    taten_A : A ;  -- cat
+    tatinu_N : N ;  -- waist
+    tatinu_V : V ;  -- waist
+    tatinu_A : A ;  -- waist
+    tawepi_N : N ;  -- charge (a battery)
+    tawepi_V : V ;  -- charge (a battery)
+    tawepi_A : A ;  -- charge (a battery)
+    tawon_N : N ;  -- fork
+    tawon_V : V ;  -- fork
+    tawon_A : A ;  -- fork
+    tayan_N : N ;  -- the press, news media
+    tayan_V : V ;  -- the press, news media
+    tayan_A : A ;  -- the press, news media
     tayin_N : N ;  -- complain
     tayin_V : V ;  -- complain
     tayin_A : A ;  -- complain
     tayu_N : N ;  -- agree
     tayu_V : V ;  -- agree
     tayu_A : A ;  -- agree
+    teban_N : N ;  -- president
+    teban_V : V ;  -- president
+    teban_A : A ;  -- president
+    tebuwa_N : N ;  -- engine, motor
+    tebuwa_V : V ;  -- engine, motor
+    tebuwa_A : A ;  -- engine, motor
+    tede_N : N ;  -- character, personality
+    tede_V : V ;  -- character, personality
+    tede_A : A ;  -- character, personality
+    tedeku_N : N ;  -- spear
+    tedeku_V : V ;  -- spear
+    tedeku_A : A ;  -- spear
+    tedo_N : N ;  -- walk
+    tedo_V : V ;  -- walk
+    tedo_A : A ;  -- walk
+    tefole_N : N ;  -- menstruation
+    tefole_V : V ;  -- menstruation
+    tefole_A : A ;  -- menstruation
+    tefu_N : N ;  -- head
+    tefu_V : V ;  -- head
+    tefu_A : A ;  -- head
+    teki_N : N ;  -- picture
+    teki_V : V ;  -- picture
+    teki_A : A ;  -- picture
+    tekita_N : N ;  -- steel
+    tekita_V : V ;  -- steel
+    tekita_A : A ;  -- steel
+    tekunolodi_N : N ;  -- technology
+    tekunolodi_V : V ;  -- technology
+    tekunolodi_A : A ;  -- technology
+    telebisuyon_N : N ;  -- television
+    telebisuyon_V : V ;  -- television
+    telebisuyon_A : A ;  -- television
+    telun_N : N ;  -- catch, capture
+    telun_V : V ;  -- catch, capture
+    telun_A : A ;  -- catch, capture
+    tenayo_N : N ;  -- tip, gratuity
+    tenayo_V : V ;  -- tip, gratuity
+    tenayo_A : A ;  -- tip, gratuity
     tenbe_N : N ;  -- rope
     tenbe_V : V ;  -- rope
     tenbe_A : A ;  -- rope
+    tenbun_N : N ;  -- sword
+    tenbun_V : V ;  -- sword
+    tenbun_A : A ;  -- sword
+    tenen_N : N ;  -- line, stripe, row
+    tenen_V : V ;  -- line, stripe, row
+    tenen_A : A ;  -- line, stripe, row
     tengi_N : N ;  -- tuber
     tengi_V : V ;  -- tuber
     tengi_A : A ;  -- tuber
+    tenko_N : N ;  -- accident
+    tenko_V : V ;  -- accident
+    tenko_A : A ;  -- accident
+    tenma_N : N ;  -- future
+    tenma_V : V ;  -- future
+    tenma_A : A ;  -- future
     tenmi_N : N ;  -- taste
     tenmi_V : V ;  -- taste
     tenmi_A : A ;  -- taste
+    tensa_N : N ;  -- capital city
+    tensa_V : V ;  -- capital city
+    tensa_A : A ;  -- capital city
+    tenume_N : N ;  -- pinch
+    tenume_V : V ;  -- pinch
+    tenume_A : A ;  -- pinch
+    tesimi_N : N ;  -- context
+    tesimi_V : V ;  -- context
+    tesimi_A : A ;  -- context
+    tesin_N : N ;  -- calm
+    tesin_V : V ;  -- calm
+    tesin_A : A ;  -- calm
+    tetan_N : N ;  -- bowl
+    tetan_V : V ;  -- bowl
+    tetan_A : A ;  -- bowl
+    teteyi_N : N ;  -- tight
+    teteyi_V : V ;  -- tight
+    teteyi_A : A ;  -- tight
+    tewa_N : N ;  -- international
+    tewa_V : V ;  -- international
+    tewa_A : A ;  -- international
+    tewin_N : N ;  -- monkey
+    tewin_V : V ;  -- monkey
+    tewin_A : A ;  -- monkey
+    tewoso_N : N ;  -- parrot
+    tewoso_V : V ;  -- parrot
+    tewoso_A : A ;  -- parrot
+    teyi_N : N ;  -- prepare
+    teyi_V : V ;  -- prepare
+    teyi_A : A ;  -- prepare
+    teyon_N : N ;  -- foreign
+    teyon_V : V ;  -- foreign
+    teyon_A : A ;  -- foreign
     tibin_N : N ;  -- urinate
     tibin_V : V ;  -- urinate
     tibin_A : A ;  -- urinate
@@ -1199,54 +3572,174 @@ abstract Lex = {
     tikun_N : N ;  -- hot
     tikun_V : V ;  -- hot
     tikun_A : A ;  -- hot
+    tilote_N : N ;  -- deny, say it isn't true
+    tilote_V : V ;  -- deny, say it isn't true
+    tilote_A : A ;  -- deny, say it isn't true
     timon_N : N ;  -- half
     timon_V : V ;  -- half
     timon_A : A ;  -- half
+    timusi_N : N ;  -- chain
+    timusi_V : V ;  -- chain
+    timusi_A : A ;  -- chain
     tingu_N : N ;  -- swell
     tingu_V : V ;  -- swell
     tingu_A : A ;  -- swell
-    tinli_N : N ;  -- key, button
-    tinli_V : V ;  -- key, button
-    tinli_A : A ;  -- key, button
+    tinli_N : N ;  -- key (for a lock)
+    tinli_V : V ;  -- key (for a lock)
+    tinli_A : A ;  -- key (for a lock)
     tinne_N : N ;  -- sneeze
     tinne_V : V ;  -- sneeze
     tinne_A : A ;  -- sneeze
+    tinno_N : N ;  -- pleasant
+    tinno_V : V ;  -- pleasant
+    tinno_A : A ;  -- pleasant
+    tinonu_N : N ;  -- drum
+    tinonu_V : V ;  -- drum
+    tinonu_A : A ;  -- drum
+    tinpa_N : N ;  -- announce
+    tinpa_V : V ;  -- announce
+    tinpa_A : A ;  -- announce
+    tinsi_N : N ;  -- grave
+    tinsi_V : V ;  -- grave
+    tinsi_A : A ;  -- grave
+    tinten_N : N ;  -- role
+    tinten_V : V ;  -- role
+    tinten_A : A ;  -- role
+    tinwan_N : N ;  -- tear, rip
+    tinwan_V : V ;  -- tear, rip
+    tinwan_A : A ;  -- tear, rip
+    tinyun_N : N ;  -- maize
+    tinyun_V : V ;  -- maize
+    tinyun_A : A ;  -- maize
+    tipami_N : N ;  -- fan (cooling device)
+    tipami_V : V ;  -- fan (cooling device)
+    tipami_A : A ;  -- fan (cooling device)
+    tipoku_N : N ;  -- prevent
+    tipoku_V : V ;  -- prevent
+    tipoku_A : A ;  -- prevent
+    tisalutu_N : N ;  -- T-shirt
+    tisalutu_V : V ;  -- T-shirt
+    tisalutu_A : A ;  -- T-shirt
     tisan_N : N ;  -- high
     tisan_V : V ;  -- high
     tisan_A : A ;  -- high
+    tisiyo_N : N ;  -- tower
+    tisiyo_V : V ;  -- tower
+    tisiyo_A : A ;  -- tower
+    tiso_N : N ;  -- fish, the animal
+    tiso_V : V ;  -- fish, the animal
+    tiso_A : A ;  -- fish, the animal
+    tito_N : N ;  -- worry
+    tito_V : V ;  -- worry
+    tito_A : A ;  -- worry
+    tituya_N : N ;  -- beak
+    tituya_V : V ;  -- beak
+    tituya_A : A ;  -- beak
     tiwe_N : N ;  -- sweat
     tiwe_V : V ;  -- sweat
     tiwe_A : A ;  -- sweat
     tiwu_N : N ;  -- child
     tiwu_V : V ;  -- child
     tiwu_A : A ;  -- child
-    tofo_N : N ;  -- teach
-    tofo_V : V ;  -- teach
-    tofo_A : A ;  -- teach
-    togun_N : N ;  -- breathe
-    togun_V : V ;  -- breathe
-    togun_A : A ;  -- breathe
-    tolin_N : N ;  -- nail, of a finger or toe
-    tolin_V : V ;  -- nail, of a finger or toe
-    tolin_A : A ;  -- nail, of a finger or toe
+    tiwuye_N : N ;  -- spring (water source)
+    tiwuye_V : V ;  -- spring (water source)
+    tiwuye_A : A ;  -- spring (water source)
+    tiyen_N : N ;  -- tea
+    tiyen_V : V ;  -- tea
+    tiyen_A : A ;  -- tea
+    tokolatu_N : N ;  -- chocolate
+    tokolatu_V : V ;  -- chocolate
+    tokolatu_A : A ;  -- chocolate
+    tomate_N : N ;  -- tomato
+    tomate_V : V ;  -- tomato
+    tomate_A : A ;  -- tomato
     tonde_N : N ;  -- ant
     tonde_V : V ;  -- ant
     tonde_A : A ;  -- ant
+    tonfe_N : N ;  -- damage
+    tonfe_V : V ;  -- damage
+    tonfe_A : A ;  -- damage
+    tonfu_N : N ;  -- spider
+    tonfu_V : V ;  -- spider
+    tonfu_A : A ;  -- spider
+    tongon_N : N ;  -- title, heading
+    tongon_V : V ;  -- title, heading
+    tongon_A : A ;  -- title, heading
+    tonlan_N : N ;  -- channel (TV, radio)
+    tonlan_V : V ;  -- channel (TV, radio)
+    tonlan_A : A ;  -- channel (TV, radio)
+    tonmen_N : N ;  -- pressure
+    tonmen_V : V ;  -- pressure
+    tonmen_A : A ;  -- pressure
+    tonni_N : N ;  -- cucumber
+    tonni_V : V ;  -- cucumber
+    tonni_A : A ;  -- cucumber
+    tonsan_N : N ;  -- wound, injury
+    tonsan_V : V ;  -- wound, injury
+    tonsan_A : A ;  -- wound, injury
+    tonto_N : N ;  -- gather, bring or come together
+    tonto_V : V ;  -- gather, bring or come together
+    tonto_A : A ;  -- gather, bring or come together
+    tonwun_N : N ;  -- kingdom
+    tonwun_V : V ;  -- kingdom
+    tonwun_A : A ;  -- kingdom
     tonya_N : N ;  -- enough, as much as needed
     tonya_V : V ;  -- enough, as much as needed
     tonya_A : A ;  -- enough, as much as needed
-    totu_N : N ;  -- dog
-    totu_V : V ;  -- dog
-    totu_A : A ;  -- dog
+    tonyin_N : N ;  -- alcohol
+    tonyin_V : V ;  -- alcohol
+    tonyin_A : A ;  -- alcohol
+    tosutu_N : N ;  -- toast
+    tosutu_V : V ;  -- toast
+    tosutu_A : A ;  -- toast
+    tubenu_N : N ;  -- pipe
+    tubenu_V : V ;  -- pipe
+    tubenu_A : A ;  -- pipe
+    tufen_N : N ;  -- butter
+    tufen_V : V ;  -- butter
+    tufen_A : A ;  -- butter
     tufun_N : N ;  -- sour
     tufun_V : V ;  -- sour
     tufun_A : A ;  -- sour
     tugan_N : N ;  -- wide
     tugan_V : V ;  -- wide
     tugan_A : A ;  -- wide
-    tuko_N : N ;  -- start
-    tuko_V : V ;  -- start
-    tuko_A : A ;  -- start
+    tugu_N : N ;  -- big
+    tugu_V : V ;  -- big
+    tugu_A : A ;  -- big
+    tuke_N : N ;  -- left, the side
+    tuke_V : V ;  -- left, the side
+    tuke_A : A ;  -- left, the side
+    tukute_N : N ;  -- insurance
+    tukute_V : V ;  -- insurance
+    tukute_A : A ;  -- insurance
+    tukuwo_N : N ;  -- fan, supporter
+    tukuwo_V : V ;  -- fan, supporter
+    tukuwo_A : A ;  -- fan, supporter
+    tula_N : N ;  -- do; make
+    tula_V : V ;  -- do; make
+    tula_A : A ;  -- do; make
+    tulakutalu_N : N ;  -- tractor
+    tulakutalu_V : V ;  -- tractor
+    tulakutalu_A : A ;  -- tractor
+    tuleki_N : N ;  -- obey
+    tuleki_V : V ;  -- obey
+    tuleki_A : A ;  -- obey
+    tulun_N : N ;  -- plain, simple
+    tulun_V : V ;  -- plain, simple
+    tulun_A : A ;  -- plain, simple
+    tumeya_N : N ;  -- hawk (smaller bird of prey)
+    tumeya_V : V ;  -- hawk (smaller bird of prey)
+    tumeya_A : A ;  -- hawk (smaller bird of prey)
+    tumo_N : N ;  -- public
+    tumo_V : V ;  -- public
+    tumo_A : A ;  -- public
+    tunen_N : N ;  -- accept, take what is offered
+    tunen_V : V ;  -- accept, take what is offered
+    tunen_A : A ;  -- accept, take what is offered
+    tunfa_N : N ;  -- bathroom
+    tunfa_V : V ;  -- bathroom
+    tunfa_A : A ;  -- bathroom
     tungi_N : N ;  -- sharp
     tungi_V : V ;  -- sharp
     tungi_A : A ;  -- sharp
@@ -1256,222 +3749,819 @@ abstract Lex = {
     tunmu_N : N ;  -- grass
     tunmu_V : V ;  -- grass
     tunmu_A : A ;  -- grass
+    tunson_N : N ;  -- theory
+    tunson_V : V ;  -- theory
+    tunson_A : A ;  -- theory
+    tunwe_N : N ;  -- skirt
+    tunwe_V : V ;  -- skirt
+    tunwe_A : A ;  -- skirt
+    tuposa_N : N ;  -- essay
+    tuposa_V : V ;  -- essay
+    tuposa_A : A ;  -- essay
     tusi_N : N ;  -- write
     tusi_V : V ;  -- write
     tusi_A : A ;  -- write
+    tutime_N : N ;  -- lazy
+    tutime_V : V ;  -- lazy
+    tutime_A : A ;  -- lazy
     tutin_N : N ;  -- soft
     tutin_V : V ;  -- soft
     tutin_A : A ;  -- soft
+    tutoyi_N : N ;  -- strike (labour)
+    tutoyi_V : V ;  -- strike (labour)
+    tutoyi_A : A ;  -- strike (labour)
+    tuyali_N : N ;  -- exceed, go beyond
+    tuyali_V : V ;  -- exceed, go beyond
+    tuyali_A : A ;  -- exceed, go beyond
+    tuye_N : N ;  -- moon
+    tuye_V : V ;  -- moon
+    tuye_A : A ;  -- moon
+    tuyesu_N : N ;  -- mix
+    tuyesu_V : V ;  -- mix
+    tuyesu_A : A ;  -- mix
+    tuyon_N : N ;  -- slipper
+    tuyon_V : V ;  -- slipper
+    tuyon_A : A ;  -- slipper
     udin_N : N ;  -- lock
     udin_V : V ;  -- lock
     udin_A : A ;  -- lock
+    uga_N : N ;  -- king
+    uga_V : V ;  -- king
+    uga_A : A ;  -- king
     ukun_N : N ;  -- reason
     ukun_V : V ;  -- reason
     ukun_A : A ;  -- reason
+    umide_N : N ;  -- shiver, tremble
+    umide_V : V ;  -- shiver, tremble
+    umide_A : A ;  -- shiver, tremble
     unda_N : N ;  -- wake
     unda_V : V ;  -- wake
     unda_A : A ;  -- wake
     unfu_N : N ;  -- pay
     unfu_V : V ;  -- pay
     unfu_A : A ;  -- pay
+    unmo_N : N ;  -- example
+    unmo_V : V ;  -- example
+    unmo_A : A ;  -- example
     unne_N : N ;  -- skin
     unne_V : V ;  -- skin
     unne_A : A ;  -- skin
+    unpan_N : N ;  -- vulva
+    unpan_V : V ;  -- vulva
+    unpan_A : A ;  -- vulva
+    unsen_N : N ;  -- weather
+    unsen_V : V ;  -- weather
+    unsen_A : A ;  -- weather
     unwi_N : N ;  -- expensive
     unwi_V : V ;  -- expensive
     unwi_A : A ;  -- expensive
     upe_N : N ;  -- good
     upe_V : V ;  -- good
     upe_A : A ;  -- good
-    uwan_N : N ;  -- star
-    uwan_V : V ;  -- star
-    uwan_A : A ;  -- star
+    usigi_N : N ;  -- introduce
+    usigi_V : V ;  -- introduce
+    usigi_A : A ;  -- introduce
+    usupa_N : N ;  -- surface
+    usupa_V : V ;  -- surface
+    usupa_A : A ;  -- surface
     uyo_N : N ;  -- few
     uyo_V : V ;  -- few
     uyo_A : A ;  -- few
+    wabi_N : N ;  -- film
+    wabi_V : V ;  -- film
+    wabi_A : A ;  -- film
+    wabiwa_N : N ;  -- deaf
+    wabiwa_V : V ;  -- deaf
+    wabiwa_A : A ;  -- deaf
     wabun_N : N ;  -- law
     wabun_V : V ;  -- law
     wabun_A : A ;  -- law
+    wada_N : N ;  -- community
+    wada_V : V ;  -- community
+    wada_A : A ;  -- community
+    wafan_N : N ;  -- shower
+    wafan_V : V ;  -- shower
+    wafan_A : A ;  -- shower
+    wafedo_N : N ;  -- pillar
+    wafedo_V : V ;  -- pillar
+    wafedo_A : A ;  -- pillar
+    wafili_N : N ;  -- signature
+    wafili_V : V ;  -- signature
+    wafili_A : A ;  -- signature
+    wafope_N : N ;  -- trap
+    wafope_V : V ;  -- trap
+    wafope_A : A ;  -- trap
+    wagen_N : N ;  -- energy
+    wagen_V : V ;  -- energy
+    wagen_A : A ;  -- energy
     waka_N : N ;  -- choose
     waka_V : V ;  -- choose
     waka_A : A ;  -- choose
+    wakana_N : N ;  -- disaster
+    wakana_V : V ;  -- disaster
+    wakana_A : A ;  -- disaster
+    walin_N : N ;  -- crime
+    walin_V : V ;  -- crime
+    walin_A : A ;  -- crime
     walo_N : N ;  -- try
     walo_V : V ;  -- try
     walo_A : A ;  -- try
+    wamu_N : N ;  -- lose (a contest)
+    wamu_V : V ;  -- lose (a contest)
+    wamu_A : A ;  -- lose (a contest)
+    wamuse_N : N ;  -- stingy, mean with money
+    wamuse_V : V ;  -- stingy, mean with money
+    wamuse_A : A ;  -- stingy, mean with money
+    wanafo_N : N ;  -- ceremony
+    wanafo_V : V ;  -- ceremony
+    wanafo_A : A ;  -- ceremony
+    wanan_N : N ;  -- rest, take a break
+    wanan_V : V ;  -- rest, take a break
+    wanan_A : A ;  -- rest, take a break
+    wane_N : N ;  -- south
+    wane_V : V ;  -- south
+    wane_A : A ;  -- south
+    waniki_N : N ;  -- mat (woven, for sitting or sleeping)
+    waniki_V : V ;  -- mat (woven, for sitting or sleeping)
+    waniki_A : A ;  -- mat (woven, for sitting or sleeping)
+    wanole_N : N ;  -- satisfied
+    wanole_V : V ;  -- satisfied
+    wanole_A : A ;  -- satisfied
     wase_N : N ;  -- magic
     wase_V : V ;  -- magic
     wase_A : A ;  -- magic
-    wede_N : N ;  -- father
-    wede_V : V ;  -- father
-    wede_A : A ;  -- father
-    weki_N : N ;  -- cold, not hot
-    weki_V : V ;  -- cold, not hot
-    weki_A : A ;  -- cold, not hot
-    wekun_N : N ;  -- pain
-    wekun_V : V ;  -- pain
-    wekun_A : A ;  -- pain
+    wasisa_N : N ;  -- wonder, an astonishing unexplained event (miracle is built: wonder of god)
+    wasisa_V : V ;  -- wonder, an astonishing unexplained event (miracle is built: wonder of god)
+    wasisa_A : A ;  -- wonder, an astonishing unexplained event (miracle is built: wonder of god)
+    waso_N : N ;  -- front
+    waso_V : V ;  -- front
+    waso_A : A ;  -- front
+    watesi_N : N ;  -- perform
+    watesi_V : V ;  -- perform
+    watesi_A : A ;  -- perform
+    wati_N : N ;  -- base, basis
+    wati_V : V ;  -- base, basis
+    wati_A : A ;  -- base, basis
+    waton_N : N ;  -- cute
+    waton_V : V ;  -- cute
+    waton_A : A ;  -- cute
+    wawon_N : N ;  -- square, plaza
+    wawon_V : V ;  -- square, plaza
+    wawon_A : A ;  -- square, plaza
+    wayogu_N : N ;  -- pulse
+    wayogu_V : V ;  -- pulse
+    wayogu_A : A ;  -- pulse
+    wayu_N : N ;  -- teacher
+    wayu_V : V ;  -- teacher
+    wayu_A : A ;  -- teacher
     wenfe_N : N ;  -- dig
     wenfe_V : V ;  -- dig
     wenfe_A : A ;  -- dig
+    wenfun_N : N ;  -- notice, become aware of
+    wenfun_V : V ;  -- notice, become aware of
+    wenfun_A : A ;  -- notice, become aware of
+    wenki_N : N ;  -- decide
+    wenki_V : V ;  -- decide
+    wenki_A : A ;  -- decide
+    wenle_N : N ;  -- airplane
+    wenle_V : V ;  -- airplane
+    wenle_A : A ;  -- airplane
+    wenlon_N : N ;  -- app, software application
+    wenlon_V : V ;  -- app, software application
+    wenlon_A : A ;  -- app, software application
+    wenma_N : N ;  -- offer
+    wenma_V : V ;  -- offer
+    wenma_A : A ;  -- offer
+    wenmun_N : N ;  -- income
+    wenmun_V : V ;  -- income
+    wenmun_A : A ;  -- income
+    wenpan_N : N ;  -- economy
+    wenpan_V : V ;  -- economy
+    wenpan_A : A ;  -- economy
+    wensa_N : N ;  -- blanket
+    wensa_V : V ;  -- blanket
+    wensa_A : A ;  -- blanket
     wento_N : N ;  -- penis
     wento_V : V ;  -- penis
     wento_A : A ;  -- penis
-    weyu_N : N ;  -- story
-    weyu_V : V ;  -- story
-    weyu_A : A ;  -- story
+    wenwu_N : N ;  -- towel
+    wenwu_V : V ;  -- towel
+    wenwu_A : A ;  -- towel
+    wenyin_N : N ;  -- wise
+    wenyin_V : V ;  -- wise
+    wenyin_A : A ;  -- wise
+    wenyo_N : N ;  -- spill
+    wenyo_V : V ;  -- spill
+    wenyo_A : A ;  -- spill
+    widadi_N : N ;  -- holiday
+    widadi_V : V ;  -- holiday
+    widadi_A : A ;  -- holiday
+    wife_N : N ;  -- report
+    wife_V : V ;  -- report
+    wife_A : A ;  -- report
     wifu_N : N ;  -- number
     wifu_V : V ;  -- number
     wifu_A : A ;  -- number
+    wifuyi_N : N ;  -- scholar
+    wifuyi_V : V ;  -- scholar
+    wifuyi_A : A ;  -- scholar
     wigen_N : N ;  -- love
     wigen_V : V ;  -- love
     wigen_A : A ;  -- love
+    wigoso_N : N ;  -- inherit, inheritance
+    wigoso_V : V ;  -- inherit, inheritance
+    wigoso_A : A ;  -- inherit, inheritance
+    wikene_N : N ;  -- lover, partner in love
+    wikene_V : V ;  -- lover, partner in love
+    wikene_A : A ;  -- lover, partner in love
+    wikun_N : N ;  -- chin
+    wikun_V : V ;  -- chin
+    wikun_A : A ;  -- chin
+    wilopi_N : N ;  -- participate, take part
+    wilopi_V : V ;  -- participate, take part
+    wilopi_A : A ;  -- participate, take part
+    wimuta_N : N ;  -- script
+    wimuta_V : V ;  -- script
+    wimuta_A : A ;  -- script
+    winbin_N : N ;  -- hero
+    winbin_V : V ;  -- hero
+    winbin_A : A ;  -- hero
+    winbo_N : N ;  -- possible
+    winbo_V : V ;  -- possible
+    winbo_A : A ;  -- possible
     windi_N : N ;  -- smooth
     windi_V : V ;  -- smooth
     windi_A : A ;  -- smooth
+    wine_N : N ;  -- information
+    wine_V : V ;  -- information
+    wine_A : A ;  -- information
+    winka_N : N ;  -- mirror
+    winka_V : V ;  -- mirror
+    winka_A : A ;  -- mirror
     wino_N : N ;  -- light, brightness
     wino_V : V ;  -- light, brightness
     wino_A : A ;  -- light, brightness
+    winsen_N : N ;  -- brave
+    winsen_V : V ;  -- brave
+    winsen_A : A ;  -- brave
     wisa_N : N ;  -- ear
     wisa_V : V ;  -- ear
     wisa_A : A ;  -- ear
+    wisaya_N : N ;  -- access
+    wisaya_V : V ;  -- access
+    wisaya_A : A ;  -- access
+    wisiwe_N : N ;  -- describe
+    wisiwe_V : V ;  -- describe
+    wisiwe_A : A ;  -- describe
+    wison_N : N ;  -- pot, cooking pot
+    wison_V : V ;  -- pot, cooking pot
+    wison_A : A ;  -- pot, cooking pot
+    witin_N : N ;  -- plate, dish
+    witin_V : V ;  -- plate, dish
+    witin_A : A ;  -- plate, dish
+    witowa_N : N ;  -- hang, hang up
+    witowa_V : V ;  -- hang, hang up
+    witowa_A : A ;  -- hang, hang up
+    wiwa_N : N ;  -- teach
+    wiwa_V : V ;  -- teach
+    wiwa_A : A ;  -- teach
     wiwi_N : N ;  -- red
     wiwi_V : V ;  -- red
     wiwi_A : A ;  -- red
-    woga_N : N ;  -- fish, the animal
-    woga_V : V ;  -- fish, the animal
-    woga_A : A ;  -- fish, the animal
-    wonin_N : N ;  -- leaf
-    wonin_V : V ;  -- leaf
-    wonin_A : A ;  -- leaf
+    wiwigo_N : N ;  -- terrorism
+    wiwigo_V : V ;  -- terrorism
+    wiwigo_A : A ;  -- terrorism
+    wiyan_N : N ;  -- soldier
+    wiyan_V : V ;  -- soldier
+    wiyan_A : A ;  -- soldier
+    wondon_N : N ;  -- translate
+    wondon_V : V ;  -- translate
+    wondon_A : A ;  -- translate
+    wonfi_N : N ;  -- promise
+    wonfi_V : V ;  -- promise
+    wonfi_A : A ;  -- promise
+    wonfo_N : N ;  -- garden
+    wonfo_V : V ;  -- garden
+    wonfo_A : A ;  -- garden
+    wonga_N : N ;  -- shop
+    wonga_V : V ;  -- shop
+    wonga_A : A ;  -- shop
     wonku_N : N ;  -- reach
     wonku_V : V ;  -- reach
     wonku_A : A ;  -- reach
+    wonman_N : N ;  -- edge, rim
+    wonman_V : V ;  -- edge, rim
+    wonman_A : A ;  -- edge, rim
+    wonni_N : N ;  -- paint
+    wonni_V : V ;  -- paint
+    wonni_A : A ;  -- paint
+    wonnun_N : N ;  -- tool
+    wonnun_V : V ;  -- tool
+    wonnun_A : A ;  -- tool
+    wonse_N : N ;  -- table
+    wonse_V : V ;  -- table
+    wonse_A : A ;  -- table
     wonwe_N : N ;  -- ready
     wonwe_V : V ;  -- ready
     wonwe_A : A ;  -- ready
-    wopo_N : N ;  -- sleep
-    wopo_V : V ;  -- sleep
-    wopo_A : A ;  -- sleep
-    woten_N : N ;  -- thick
-    woten_V : V ;  -- thick
-    woten_A : A ;  -- thick
+    wonyen_N : N ;  -- ring (finger ring)
+    wonyen_V : V ;  -- ring (finger ring)
+    wonyen_A : A ;  -- ring (finger ring)
+    wonyu_N : N ;  -- deep
+    wonyu_V : V ;  -- deep
+    wonyu_A : A ;  -- deep
+    wudan_N : N ;  -- comment
+    wudan_V : V ;  -- comment
+    wudan_A : A ;  -- comment
+    wufon_N : N ;  -- election
+    wufon_V : V ;  -- election
+    wufon_A : A ;  -- election
+    wufuse_N : N ;  -- element, component
+    wufuse_V : V ;  -- element, component
+    wufuse_A : A ;  -- element, component
+    wugonu_N : N ;  -- plain (flat open land)
+    wugonu_V : V ;  -- plain (flat open land)
+    wugonu_A : A ;  -- plain (flat open land)
+    wukan_N : N ;  -- juice
+    wukan_V : V ;  -- juice
+    wukan_A : A ;  -- juice
+    wukuto_N : N ;  -- fail
+    wukuto_V : V ;  -- fail
+    wukuto_A : A ;  -- fail
+    wulin_N : N ;  -- pen
+    wulin_V : V ;  -- pen
+    wulin_A : A ;  -- pen
+    wuloda_N : N ;  -- pocket
+    wuloda_V : V ;  -- pocket
+    wuloda_A : A ;  -- pocket
     wulon_N : N ;  -- wet
     wulon_V : V ;  -- wet
     wulon_A : A ;  -- wet
     wuma_N : N ;  -- tomorrow
     wuma_V : V ;  -- tomorrow
     wuma_A : A ;  -- tomorrow
+    wumemo_N : N ;  -- schedule
+    wumemo_V : V ;  -- schedule
+    wumemo_A : A ;  -- schedule
+    wumiso_N : N ;  -- mad, crazy
+    wumiso_V : V ;  -- mad, crazy
+    wumiso_A : A ;  -- mad, crazy
+    wumulu_N : N ;  -- ancestor
+    wumulu_V : V ;  -- ancestor
+    wumulu_A : A ;  -- ancestor
+    wunde_N : N ;  -- cross, go across
+    wunde_V : V ;  -- cross, go across
+    wunde_A : A ;  -- cross, go across
+    wungin_N : N ;  -- challenge
+    wungin_V : V ;  -- challenge
+    wungin_A : A ;  -- challenge
     wungu_N : N ;  -- lead, guide
     wungu_V : V ;  -- lead, guide
     wungu_A : A ;  -- lead, guide
+    wunmen_N : N ;  -- style, manner
+    wunmen_V : V ;  -- style, manner
+    wunmen_A : A ;  -- style, manner
+    wunmu_N : N ;  -- education
+    wunmu_V : V ;  -- education
+    wunmu_A : A ;  -- education
+    wunsan_N : N ;  -- parliament
+    wunsan_V : V ;  -- parliament
+    wunsan_A : A ;  -- parliament
     wunta_N : N ;  -- air
     wunta_V : V ;  -- air
     wunta_A : A ;  -- air
+    wunwon_N : N ;  -- network
+    wunwon_V : V ;  -- network
+    wunwon_A : A ;  -- network
     wupi_N : N ;  -- need (to)
     wupi_V : V ;  -- need (to)
     wupi_A : A ;  -- need (to)
+    wusasu_N : N ;  -- atmosphere (air layer; mood)
+    wusasu_V : V ;  -- atmosphere (air layer; mood)
+    wusasu_A : A ;  -- atmosphere (air layer; mood)
+    wusin_N : N ;  -- secret
+    wusin_V : V ;  -- secret
+    wusin_A : A ;  -- secret
+    wusowo_N : N ;  -- needle
+    wusowo_V : V ;  -- needle
+    wusowo_A : A ;  -- needle
+    wusu_N : N ;  -- stone
+    wusu_V : V ;  -- stone
+    wusu_A : A ;  -- stone
+    wuten_N : N ;  -- full
+    wuten_V : V ;  -- full
+    wuten_A : A ;  -- full
+    wutewi_N : N ;  -- host (who receives guests)
+    wutewi_V : V ;  -- host (who receives guests)
+    wutewi_A : A ;  -- host (who receives guests)
+    wuto_N : N ;  -- stay
+    wuto_V : V ;  -- stay
+    wuto_A : A ;  -- stay
+    wuwayi_N : N ;  -- coin
+    wuwayi_V : V ;  -- coin
+    wuwayi_A : A ;  -- coin
     wuwu_N : N ;  -- navel
     wuwu_V : V ;  -- navel
     wuwu_A : A ;  -- navel
     wuye_N : N ;  -- show
     wuye_V : V ;  -- show
     wuye_A : A ;  -- show
+    wuyiwu_N : N ;  -- naked
+    wuyiwu_V : V ;  -- naked
+    wuyiwu_A : A ;  -- naked
+    wuyume_N : N ;  -- guarantee
+    wuyume_V : V ;  -- guarantee
+    wuyume_A : A ;  -- guarantee
+    yadaka_N : N ;  -- crawl
+    yadaka_V : V ;  -- crawl
+    yadaka_A : A ;  -- crawl
+    yadidi_N : N ;  -- put out, extinguish (a fire)
+    yadidi_V : V ;  -- put out, extinguish (a fire)
+    yadidi_A : A ;  -- put out, extinguish (a fire)
+    yafun_N : N ;  -- toy
+    yafun_V : V ;  -- toy
+    yafun_A : A ;  -- toy
     yaga_N : N ;  -- put
     yaga_V : V ;  -- put
     yaga_A : A ;  -- put
+    yakifo_N : N ;  -- glass, the material
+    yakifo_V : V ;  -- glass, the material
+    yakifo_A : A ;  -- glass, the material
     yakin_N : N ;  -- forget
     yakin_V : V ;  -- forget
     yakin_A : A ;  -- forget
+    yako_N : N ;  -- stand
+    yako_V : V ;  -- stand
+    yako_A : A ;  -- stand
+    yalen_N : N ;  -- thirst
+    yalen_V : V ;  -- thirst
+    yalen_A : A ;  -- thirst
+    yameye_N : N ;  -- flute
+    yameye_V : V ;  -- flute
+    yameye_A : A ;  -- flute
     yami_N : N ;  -- night
     yami_V : V ;  -- night
     yami_A : A ;  -- night
+    yandu_N : N ;  -- fridge
+    yandu_V : V ;  -- fridge
+    yandu_A : A ;  -- fridge
+    yanfo_N : N ;  -- gold
+    yanfo_V : V ;  -- gold
+    yanfo_A : A ;  -- gold
+    yanma_N : N ;  -- master, lord
+    yanma_V : V ;  -- master, lord
+    yanma_A : A ;  -- master, lord
+    yannin_N : N ;  -- opposite
+    yannin_V : V ;  -- opposite
+    yannin_A : A ;  -- opposite
+    yanon_N : N ;  -- coat
+    yanon_V : V ;  -- coat
+    yanon_A : A ;  -- coat
+    yanpe_N : N ;  -- underwear
+    yanpe_V : V ;  -- underwear
+    yanpe_A : A ;  -- underwear
+    yansa_N : N ;  -- necklace
+    yansa_V : V ;  -- necklace
+    yansa_A : A ;  -- necklace
     yansi_N : N ;  -- horn
     yansi_V : V ;  -- horn
     yansi_A : A ;  -- horn
+    yanwi_N : N ;  -- rise, go up
+    yanwi_V : V ;  -- rise, go up
+    yanwi_A : A ;  -- rise, go up
+    yanwon_N : N ;  -- benefit
+    yanwon_V : V ;  -- benefit
+    yanwon_A : A ;  -- benefit
+    yanyan_N : N ;  -- modern
+    yanyan_V : V ;  -- modern
+    yanyan_A : A ;  -- modern
+    yasen_N : N ;  -- sock
+    yasen_V : V ;  -- sock
+    yasen_A : A ;  -- sock
+    yatabu_N : N ;  -- permanent
+    yatabu_V : V ;  -- permanent
+    yatabu_A : A ;  -- permanent
+    yatan_N : N ;  -- market
+    yatan_V : V ;  -- market
+    yatan_A : A ;  -- market
+    yawalo_N : N ;  -- represent
+    yawalo_V : V ;  -- represent
+    yawalo_A : A ;  -- represent
     yaye_N : N ;  -- sky
     yaye_V : V ;  -- sky
     yaye_A : A ;  -- sky
+    yayuge_N : N ;  -- match, matchstick
+    yayuge_V : V ;  -- match, matchstick
+    yayuge_A : A ;  -- match, matchstick
+    yayun_N : N ;  -- bone
+    yayun_V : V ;  -- bone
+    yayun_A : A ;  -- bone
     yebin_N : N ;  -- call, phone or call to
     yebin_V : V ;  -- call, phone or call to
     yebin_A : A ;  -- call, phone or call to
+    yefede_N : N ;  -- major, main, chief
+    yefede_V : V ;  -- major, main, chief
+    yefede_A : A ;  -- major, main, chief
+    yefi_N : N ;  -- thing
+    yefi_V : V ;  -- thing
+    yefi_A : A ;  -- thing
     yegon_N : N ;  -- rice
     yegon_V : V ;  -- rice
     yegon_A : A ;  -- rice
+    yegufa_N : N ;  -- campaign
+    yegufa_V : V ;  -- campaign
+    yegufa_A : A ;  -- campaign
+    yekoni_N : N ;  -- chemistry
+    yekoni_V : V ;  -- chemistry
+    yekoni_A : A ;  -- chemistry
     yema_N : N ;  -- help
     yema_V : V ;  -- help
     yema_A : A ;  -- help
-    yenbo_N : N ;  -- rest, take a break
-    yenbo_V : V ;  -- rest, take a break
-    yenbo_A : A ;  -- rest, take a break
-    yenwu_N : N ;  -- offend
-    yenwu_V : V ;  -- offend
-    yenwu_A : A ;  -- offend
+    yemuku_N : N ;  -- orphan, a child whose parents have died
+    yemuku_V : V ;  -- orphan, a child whose parents have died
+    yemuku_A : A ;  -- orphan, a child whose parents have died
+    yepo_N : N ;  -- job, occupation
+    yepo_V : V ;  -- job, occupation
+    yepo_A : A ;  -- job, occupation
     yesa_N : N ;  -- learn
     yesa_V : V ;  -- learn
     yesa_A : A ;  -- learn
-    yetu_N : N ;  -- tool
-    yetu_V : V ;  -- tool
-    yetu_A : A ;  -- tool
+    yesinu_N : N ;  -- plot (of a story)
+    yesinu_V : V ;  -- plot (of a story)
+    yesinu_A : A ;  -- plot (of a story)
+    yesuti_N : N ;  -- gums
+    yesuti_V : V ;  -- gums
+    yesuti_A : A ;  -- gums
+    yete_N : N ;  -- feather
+    yete_V : V ;  -- feather
+    yete_A : A ;  -- feather
+    yetun_N : N ;  -- doubt
+    yetun_V : V ;  -- doubt
+    yetun_A : A ;  -- doubt
+    yewati_N : N ;  -- version
+    yewati_V : V ;  -- version
+    yewati_A : A ;  -- version
+    yewen_N : N ;  -- century
+    yewen_V : V ;  -- century
+    yewen_A : A ;  -- century
+    yewiya_N : N ;  -- shield
+    yewiya_V : V ;  -- shield
+    yewiya_A : A ;  -- shield
+    yeyan_N : N ;  -- smile
+    yeyan_V : V ;  -- smile
+    yeyan_A : A ;  -- smile
+    yeyoto_N : N ;  -- freeze, become ice
+    yeyoto_V : V ;  -- freeze, become ice
+    yeyoto_A : A ;  -- freeze, become ice
+    yeyu_N : N ;  -- company
+    yeyu_V : V ;  -- company
+    yeyu_A : A ;  -- company
     yiban_N : N ;  -- chicken
     yiban_V : V ;  -- chicken
     yiban_A : A ;  -- chicken
+    yiboge_N : N ;  -- logic
+    yiboge_V : V ;  -- logic
+    yiboge_A : A ;  -- logic
     yidu_N : N ;  -- take
     yidu_V : V ;  -- take
     yidu_A : A ;  -- take
+    yidumi_N : N ;  -- arrow
+    yidumi_V : V ;  -- arrow
+    yidumi_A : A ;  -- arrow
     yikan_N : N ;  -- seed
     yikan_V : V ;  -- seed
     yikan_A : A ;  -- seed
+    yilale_N : N ;  -- pound (in a mortar)
+    yilale_V : V ;  -- pound (in a mortar)
+    yilale_A : A ;  -- pound (in a mortar)
     yile_N : N ;  -- system
     yile_V : V ;  -- system
     yile_A : A ;  -- system
+    yilon_N : N ;  -- actor
+    yilon_V : V ;  -- actor
+    yilon_A : A ;  -- actor
+    yilowo_N : N ;  -- symptom
+    yilowo_V : V ;  -- symptom
+    yilowo_A : A ;  -- symptom
+    yimeki_N : N ;  -- ice
+    yimeki_V : V ;  -- ice
+    yimeki_A : A ;  -- ice
+    yimun_N : N ;  -- glove
+    yimun_V : V ;  -- glove
+    yimun_A : A ;  -- glove
+    yinasa_N : N ;  -- note (a short written message)
+    yinasa_V : V ;  -- note (a short written message)
+    yinasa_A : A ;  -- note (a short written message)
+    yinfu_N : N ;  -- belt
+    yinfu_V : V ;  -- belt
+    yinfu_A : A ;  -- belt
+    yinifu_N : N ;  -- stretch
+    yinifu_V : V ;  -- stretch
+    yinifu_A : A ;  -- stretch
     yinki_N : N ;  -- root, of a plant
     yinki_V : V ;  -- root, of a plant
     yinki_A : A ;  -- root, of a plant
+    yinmi_N : N ;  -- pass, go past or through
+    yinmi_V : V ;  -- pass, go past or through
+    yinmi_A : A ;  -- pass, go past or through
+    yinmo_N : N ;  -- beach
+    yinmo_V : V ;  -- beach
+    yinmo_A : A ;  -- beach
+    yinnen_N : N ;  -- waste (use up for nothing)
+    yinnen_V : V ;  -- waste (use up for nothing)
+    yinnen_A : A ;  -- waste (use up for nothing)
+    yinpon_N : N ;  -- react
+    yinpon_V : V ;  -- react
+    yinpon_A : A ;  -- react
+    yinse_N : N ;  -- degree (°)
+    yinse_V : V ;  -- degree (°)
+    yinse_A : A ;  -- degree (°)
+    yinwe_N : N ;  -- partner (neutral in sex and setting)
+    yinwe_V : V ;  -- partner (neutral in sex and setting)
+    yinwe_A : A ;  -- partner (neutral in sex and setting)
+    yinya_N : N ;  -- broom
+    yinya_V : V ;  -- broom
+    yinya_A : A ;  -- broom
+    yisen_N : N ;  -- fool
+    yisen_V : V ;  -- fool
+    yisen_A : A ;  -- fool
+    yiso_N : N ;  -- fat, body fat
+    yiso_V : V ;  -- fat, body fat
+    yiso_A : A ;  -- fat, body fat
+    yita_N : N ;  -- appearance, look
+    yita_V : V ;  -- appearance, look
+    yita_A : A ;  -- appearance, look
+    yitida_N : N ;  -- statue
+    yitida_V : V ;  -- statue
+    yitida_A : A ;  -- statue
+    yiwo_N : N ;  -- hour
+    yiwo_V : V ;  -- hour
+    yiwo_A : A ;  -- hour
     yiyin_N : N ;  -- win
     yiyin_V : V ;  -- win
     yiyin_A : A ;  -- win
     yobe_N : N ;  -- fast, quick
     yobe_V : V ;  -- fast, quick
     yobe_A : A ;  -- fast, quick
+    yodowi_N : N ;  -- fever
+    yodowi_V : V ;  -- fever
+    yodowi_A : A ;  -- fever
     yodun_N : N ;  -- late, after the expected time
     yodun_V : V ;  -- late, after the expected time
     yodun_A : A ;  -- late, after the expected time
     yofu_N : N ;  -- mean, signify
     yofu_V : V ;  -- mean, signify
     yofu_A : A ;  -- mean, signify
+    yokiki_N : N ;  -- valley
+    yokiki_V : V ;  -- valley
+    yokiki_A : A ;  -- valley
+    yokugo_N : N ;  -- childhood
+    yokugo_V : V ;  -- childhood
+    yokugo_A : A ;  -- childhood
     yolan_N : N ;  -- river
     yolan_V : V ;  -- river
     yolan_A : A ;  -- river
+    yoli_N : N ;  -- party (social gathering, celebration)
+    yoli_V : V ;  -- party (social gathering, celebration)
+    yoli_A : A ;  -- party (social gathering, celebration)
     yomo_N : N ;  -- bad
     yomo_V : V ;  -- bad
     yomo_A : A ;  -- bad
+    yonaki_N : N ;  -- withdraw
+    yonaki_V : V ;  -- withdraw
+    yonaki_A : A ;  -- withdraw
+    yonden_N : N ;  -- ministry
+    yonden_V : V ;  -- ministry
+    yonden_A : A ;  -- ministry
+    yonfan_N : N ;  -- professional
+    yonfan_V : V ;  -- professional
+    yonfan_A : A ;  -- professional
+    yongi_N : N ;  -- village
+    yongi_V : V ;  -- village
+    yongi_A : A ;  -- village
+    yonme_N : N ;  -- discuss
+    yonme_V : V ;  -- discuss
+    yonme_A : A ;  -- discuss
     yonnu_N : N ;  -- hold
     yonnu_V : V ;  -- hold
     yonnu_A : A ;  -- hold
+    yonoso_N : N ;  -- fence
+    yonoso_V : V ;  -- fence
+    yonoso_A : A ;  -- fence
+    yonpin_N : N ;  -- fault, flaw, defect
+    yonpin_V : V ;  -- fault, flaw, defect
+    yonpin_A : A ;  -- fault, flaw, defect
+    yonsu_N : N ;  -- disappear, vanish
+    yonsu_V : V ;  -- disappear, vanish
+    yonsu_A : A ;  -- disappear, vanish
+    yonta_N : N ;  -- hurry
+    yonta_V : V ;  -- hurry
+    yonta_A : A ;  -- hurry
+    yonwa_N : N ;  -- chair
+    yonwa_V : V ;  -- chair
+    yonwa_A : A ;  -- chair
     yonyo_N : N ;  -- family
     yonyo_V : V ;  -- family
     yonyo_A : A ;  -- family
+    yosapo_N : N ;  -- expression (phrase; facial)
+    yosapo_V : V ;  -- expression (phrase; facial)
+    yosapo_A : A ;  -- expression (phrase; facial)
+    yowise_N : N ;  -- carve
+    yowise_V : V ;  -- carve
+    yowise_A : A ;  -- carve
+    yowomu_N : N ;  -- messenger
+    yowomu_V : V ;  -- messenger
+    yowomu_A : A ;  -- messenger
+    yuduku_N : N ;  -- hip
+    yuduku_V : V ;  -- hip
+    yuduku_A : A ;  -- hip
     yufa_N : N ;  -- bag
     yufa_V : V ;  -- bag
     yufa_A : A ;  -- bag
+    yufeyu_N : N ;  -- twist, wring
+    yufeyu_V : V ;  -- twist, wring
+    yufeyu_A : A ;  -- twist, wring
+    yufule_N : N ;  -- float
+    yufule_V : V ;  -- float
+    yufule_A : A ;  -- float
+    yugafo_N : N ;  -- museum
+    yugafo_V : V ;  -- museum
+    yugafo_A : A ;  -- museum
+    yukesa_N : N ;  -- endure, bear, tolerate
+    yukesa_V : V ;  -- endure, bear, tolerate
+    yukesa_A : A ;  -- endure, bear, tolerate
+    yukin_N : N ;  -- cover, lid; to cover
+    yukin_V : V ;  -- cover, lid; to cover
+    yukin_A : A ;  -- cover, lid; to cover
+    yuku_N : N ;  -- minute, of time
+    yuku_V : V ;  -- minute, of time
+    yuku_A : A ;  -- minute, of time
     yulo_N : N ;  -- euro
     yulo_V : V ;  -- euro
     yulo_A : A ;  -- euro
+    yumi_N : N ;  -- believe; faith, belief
+    yumi_V : V ;  -- believe; faith, belief
+    yumi_A : A ;  -- believe; faith, belief
+    yumuya_N : N ;  -- rainbow
+    yumuya_V : V ;  -- rainbow
+    yumuya_A : A ;  -- rainbow
+    yuna_N : N ;  -- country, nation
+    yuna_V : V ;  -- country, nation
+    yuna_A : A ;  -- country, nation
     yunbi_N : N ;  -- wing
     yunbi_V : V ;  -- wing
     yunbi_A : A ;  -- wing
+    yunbon_N : N ;  -- carrot
+    yunbon_V : V ;  -- carrot
+    yunbon_A : A ;  -- carrot
     yunen_N : N ;  -- oil, the liquid
     yunen_V : V ;  -- oil, the liquid
     yunen_A : A ;  -- oil, the liquid
+    yunfen_N : N ;  -- article (a written piece)
+    yunfen_V : V ;  -- article (a written piece)
+    yunfen_A : A ;  -- article (a written piece)
+    yungan_N : N ;  -- luck
+    yungan_V : V ;  -- luck
+    yungan_A : A ;  -- luck
     yunko_N : N ;  -- wear
     yunko_V : V ;  -- wear
     yunko_A : A ;  -- wear
+    yunlun_N : N ;  -- station (train, bus)
+    yunlun_V : V ;  -- station (train, bus)
+    yunlun_A : A ;  -- station (train, bus)
+    yuntun_N : N ;  -- excuse
+    yuntun_V : V ;  -- excuse
+    yuntun_A : A ;  -- excuse
+    yunye_N : N ;  -- solve
+    yunye_V : V ;  -- solve
+    yunye_A : A ;  -- solve
+    yuseme_N : N ;  -- spin (thread)
+    yuseme_V : V ;  -- spin (thread)
+    yuseme_A : A ;  -- spin (thread)
+    yusi_N : N ;  -- face
+    yusi_V : V ;  -- face
+    yusi_A : A ;  -- face
     yuson_N : N ;  -- rotten
     yuson_V : V ;  -- rotten
     yuson_A : A ;  -- rotten
+    yute_N : N ;  -- state, polity
+    yute_V : V ;  -- state, polity
+    yute_A : A ;  -- state, polity
+    yutote_N : N ;  -- mould
+    yutote_V : V ;  -- mould
+    yutote_A : A ;  -- mould
     yuwan_N : N ;  -- yuan
     yuwan_V : V ;  -- yuan
     yuwan_A : A ;  -- yuan
+    yuwe_N : N ;  -- throat
+    yuwe_V : V ;  -- throat
+    yuwe_A : A ;  -- throat
+    yuyege_N : N ;  -- prisoner
+    yuyege_V : V ;  -- prisoner
+    yuyege_A : A ;  -- prisoner
+    yuyina_N : N ;  -- unique
+    yuyina_V : V ;  -- unique
+    yuyina_A : A ;  -- unique
     yuyun_N : N ;  -- sing
     yuyun_V : V ;  -- sing
     yuyun_A : A ;  -- sing
