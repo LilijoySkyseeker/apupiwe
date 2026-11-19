@@ -3800,9 +3800,9 @@ concrete LexApu of Lex = open Prelude in {
     uga_N = {s = "uga" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     uga_V = {s = "uga" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     uga_A = {s = "uga" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    ukun_N = {s = "ukun" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    ukun_V = {s = "ukun" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    ukun_A = {s = "ukun" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    ukun_N = {s = "ukun" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
+    ukun_V = {s = "ukun" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
+    ukun_A = {s = "ukun" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     umide_N = {s = "umide" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
     umide_V = {s = "umide" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
     umide_A = {s = "umide" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;

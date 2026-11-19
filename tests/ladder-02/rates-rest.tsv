@@ -1,0 +1,7 @@
+pair	forms	varieties_lumping	families_lumping	family_balanced_pct	bootstrap_95	share_of_resamples_ge_50
+OTHER/REMAINS	all forms	0/34	0/23	0.0	0-0	0.00
+OTHER/REMAINS	no copies	0/34	0/23	0.0	0-0	0.00
+OTHER/REMAIN	all forms	0/359	0/38	0.0	0-0	0.00
+OTHER/REMAIN	no copies	0/359	0/38	0.0	0-0	0.00
+REMAIN/REMAINS	all forms	6/262	4/56	2.5	0-7	0.00
+REMAIN/REMAINS	no copies	6/262	4/56	2.5	0-6	0.00
