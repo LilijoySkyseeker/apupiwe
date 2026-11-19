@@ -113,8 +113,8 @@ def add_content(gloss, field, tier, antonyms=(), no_approximants=False, avoid=()
         taken |= {INV.content_key(split(w["form"])) for w in read("senary.tsv")}
     ex = np.array([split(w["form"]) for w in lexicon if len(split(w["form"])) == 2])
     ex_words = [w for w in lexicon if len(split(w["form"])) == 2]
-    weight = np.array([30.0 if w["gloss"] in antonyms else
-                       10.0 if w["field"] == "number" else
+    # number words: x30 against each other only (author, 2026-11-18: mixing up two numbers goes unnoticed)
+    weight = np.array([30.0 if w["gloss"] in antonyms or (field == "number" and w["field"] == "number") else
                        3.0 if w["field"] == field else 1.0 for w in ex_words])
     efreq = np.array([TIER_FREQ[int(w["tier"])] for w in ex_words])
     f = TIER_FREQ[tier]

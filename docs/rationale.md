@@ -76,7 +76,7 @@ This is the language's most distinctive machinery. Root **sounds are arbitrary o
 
 ### 3.5 The optimiser (`tools/words.py add-content`)
 For a new root it tries every two-syllable form not taken (after drift keys) and minimises:
-- confusion with every existing two-syllable word, **weighted by meaning**: ×30 antonyms (`--antonym`, recorded in `data/antonyms.tsv`), ×10 number words, ×3 same semantic field, ×1 other;
+- confusion with every existing two-syllable word, **weighted by meaning**: ×30 antonyms (`--antonym`, recorded in `data/antonyms.tsv`), ×30 between two number words (a number misheard as another number goes unnoticed; design log 2026-11-18), ×3 same semantic field, ×1 other;
 - weighted by frequency (`TIER_FREQ` tiers 1–5) in both directions;
 - plus a length penalty (`EFFORT = 0.02`) so frequent words stay short.
 

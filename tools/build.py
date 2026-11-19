@@ -292,8 +292,7 @@ def build():
     same = np.equal.outer(fields, fields)
     W[same] = 3.0
     num = np.array([f == "number" for f in fields])
-    W[num, :] = 10.0; W[:, num] = 10.0
-    W[np.ix_(num, num)] = 30.0
+    W[np.ix_(num, num)] = 30.0   # number words: x30 against each other only (author, 2026-11-18)
     pos = {g: i for i, g in enumerate(gl)}
     for a, b in ants:
         if a in pos and b in pos:
