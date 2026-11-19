@@ -246,7 +246,7 @@ Source: design log 2026-10-16, "The three meals get roots, and sets are handled 
   - **Active pairs:** look **miya**, listen **doma**.
   - **Sense nouns:** sound **ninge**; voice and "sense" are roots (LAD).
   - **Lacking a sense:** blind, deaf, mute (all roots, a set by the 2026-10-16 decision).
-  - **Tastes:** sweet **sinta**, sour **tufun**, salty **lage**, bitter **finlu**; spicy is **tikun** "hot".
+  - **Tastes:** sweet **sinta**, sour **tufun**, salty **lage**, bitter **finlu**; spicy is **tikun** "hot". (Superseded 2026-11-19: spicy is its own root, **bikode**; design log.)
 - **Complete:** yes.
 - **Proposal:** no change.
   - Spicy stays **tikun**, as the decided chili phrase **[pepper] tikun** already uses it.

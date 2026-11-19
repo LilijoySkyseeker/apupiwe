@@ -197,6 +197,9 @@ abstract Lex = {
     bika_N : N ;  -- buy
     bika_V : V ;  -- buy
     bika_A : A ;  -- buy
+    bikode_N : N ;  -- spicy, pungent (the burn of chili, not temperature)
+    bikode_V : V ;  -- spicy, pungent (the burn of chili, not temperature)
+    bikode_A : A ;  -- spicy, pungent (the burn of chili, not temperature)
     bilusu_N : N ;  -- virus
     bilusu_V : V ;  -- virus
     bilusu_A : A ;  -- virus

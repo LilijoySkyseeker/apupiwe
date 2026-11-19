@@ -194,6 +194,9 @@ concrete LexApu of Lex = open Prelude in {
     bika_N = {s = "bika" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     bika_V = {s = "bika" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     bika_A = {s = "bika" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
+    bikode_N = {s = "bikode" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    bikode_V = {s = "bikode" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    bikode_A = {s = "bikode" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     bilusu_N = {s = "bilusu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     bilusu_V = {s = "bilusu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     bilusu_A = {s = "bilusu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;

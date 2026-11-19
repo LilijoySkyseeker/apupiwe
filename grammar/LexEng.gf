@@ -195,6 +195,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     bika_N = D.buy_N ;
     bika_V = I.buy_V ;
     bika_A = P.mkA "buying" ;
+    bikode_N = P.mkN "spicyness" ;
+    bikode_V = P.mkV "spicy" ;
+    bikode_A = D.spicy_A ;
     bilusu_N = D.virus_N ;
     bilusu_V = P.mkV "virus" ;
     bilusu_A = P.mkA "virus" ;
