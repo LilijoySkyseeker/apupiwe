@@ -1,0 +1,136 @@
+=== planet
+--- [rocky or gaseous spherical bodies orbiting the Sun] (15/20 panel languages present)
+  Mandarin: 行星 (xíngxīng)
+  Japanese: 惑星 (わくせい, wakusei)
+  Korean: 행성(行星), 유성(遊星)
+  Thai: ดาวนพเคราะห์
+  Indonesian: planet
+  Tagalog: planeta, buntala
+  Hindi: ग्रह
+  Bengali: গ্রহ
+  Tamil: கோள்
+  Arabic: كَوْكَب
+  Turkish: gezegen, planet
+  Russian: плане́та
+  Spanish: planeta
+  French: planète
+  Swahili: sayari
+=== planet
+--- [similar body in orbit around a star] (14/20 panel languages present)
+  Mandarin: 行星 (xíngxīng)
+  Japanese: 惑星 (わくせい, wakusei)
+  Korean: 행성(行星), 위성(衛星)
+  Thai: ดาวนพเคราะห์
+  Tagalog: planeta, buntala
+  Hindi: ग्रह
+  Bengali: গ্রহ
+  Tamil: கோள்
+  Arabic: كَوْكَب
+  Turkish: gezegen, planet
+  Russian: плане́та
+  Spanish: planeta
+  French: planète
+  Swahili: sayari
+=== planet
+--- [each of the seven major bodies which move relative to the fixed stars in the night sky] (19/20 panel languages present)
+  Mandarin: 行星 (xíngxīng)
+  Japanese: 惑星 (わくせい, wakusei), プラネット (puranetto), 迷い星 (まよいぼし, mayoiboshi), 星 (ほし, hoshi)
+  Korean: 행성(行星), 유성(遊星)
+  Vietnamese: hành tinh, 行星
+  Thai: ดาวนพเคราะห์, ดาวเคราะห์, เคราะห์, ดาว
+  Indonesian: planet, bintang siarah
+  Tagalog: planeta, buntala
+  Hindi: ग्रह
+  Bengali: গ্রহ
+  Tamil: கிரகம், கோள்
+  Persian: سَیَّارِه, اَخْتَر, اَباخْتَر, هَرْباسْپ
+  Arabic: كَوْكَب سَيَّار, كَوْكَب
+  Turkish: gezegen, planet, seyyare
+  Russian: плане́та
+  Spanish: planeta
+  French: planète
+  Swahili: sayari
+  Yoruba: plánẹ̀tì
+  Quechua: puriq quyllur
+=== temperature
+--- [a measure of cold or heat] (17/20 panel languages present)
+  Mandarin: 溫度 (wēndù)
+  Japanese: 温度 (おんど, ondo)
+  Korean: 온도(溫度)
+  Vietnamese: nhiệt độ
+  Thai: อุณหภูมิ
+  Indonesian: suhu, temperatur
+  Tagalog: temperatura, kaintan
+  Hindi: तापमान
+  Bengali: তাপমাত্রা
+  Tamil: வெப்பநிலை
+  Persian: دَرِجِهٔ حَرارَت, دَما
+  Arabic: دَرَجَةْ الْحَرَارَة
+  Turkish: sıcaklık
+  Russian: температу́ра
+  Spanish: temperatura, temple
+  French: température
+  Swahili: halijoto
+=== temperature
+--- [elevated body temperature|fever] (14/20 panel languages present)
+  Mandarin: 發燒 (fāshāo), 熱 (rè)
+  Japanese: 熱 (ねつ, netsu), 発熱 (はつねつ, hatsunetsu)
+  Korean: 열(熱), 발열(發熱)
+  Vietnamese: sốt
+  Thai: ไข้
+  Indonesian: demam
+  Hindi: ताप, बुख़ार, ज्वर
+  Tamil: காய்ச்சல்
+  Persian: تَب
+  Arabic: حُمَّى
+  Turkish: ateş
+  Russian: температу́ра, жар, горя́чка
+  Spanish: fiebre
+  French: fièvre
+=== oxygen
+--- [chemical element] (19/20 panel languages present)
+  Mandarin: 氧 (yǎng)
+  Japanese: 酸素 (さんそ, sanso)
+  Korean: 산소(酸素)
+  Vietnamese: ôxy, dưỡng khí, 氧氣
+  Thai: ออกซิเจน
+  Indonesian: oksigen, zat asam, zat pembakar
+  Tagalog: oksiheno
+  Hindi: जारक, ऑक्सीजन, प्राणवायु, आक्सीजन
+  Bengali: অম্লজান, অক্সিজেন
+  Tamil: உயிர்வளி, உயிரியம், ஆக்சிசன், ஆக்சிஜன்
+  Persian: اکسیژن (oksižen)
+  Arabic: أُكْسِجِين
+  Turkish: oksijen, müvellidülhumuza
+  Russian: кислоро́д
+  Spanish: oxígeno
+  French: oxygène
+  Swahili: oksijeni
+  Yoruba: ọ́síjìn
+  Quechua: muksichaq
+=== mass
+--- [physics: quantity of matter which a body contains] (14/20 panel languages present)
+  Mandarin: 質量 (zhìliàng, zhíliàng)
+  Japanese: 質量 (しつりょう, shitsuryō), 重さ (おもさ, omosa), 重量 (じゅうりょう, jūryō), 荷重 (かじゅう, kajū)
+  Korean: 질량(質量)
+  Vietnamese: khối lượng
+  Thai: มวล
+  Tagalog: bugat
+  Hindi: द्रव्यमान
+  Bengali: ভর
+  Persian: جرم (jerm), توده (tude)
+  Arabic: كُتْلَة, وَزْن
+  Turkish: kütle, ağırlık
+  Russian: ма́сса
+  Spanish: masa
+  French: masse
+=== mass
+--- [quantity of matter cohering together to make one body] (8/20 panel languages present)
+  Mandarin: 質量 (zhìliàng, zhíliàng)
+  Japanese: 質量 (しつりょう, shitsuryō)
+  Korean: 질량(質量)
+  Vietnamese: khối lượng
+  Arabic: كُتْلَة
+  Turkish: kütle, kitle, yığın
+  Russian: ма́сса
+  Spanish: masa, pella

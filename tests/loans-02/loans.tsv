@@ -1,0 +1,5 @@
+concept	count	regions	ceiling_count/regions	verdict	median_ipa	adapted	collision	offensive_blocked	offensive_matches	decision	note
+planet	6/20	3 (SEA EU SSA)	7/3	fail	[planeta]					phrase: segin kobi 'moving star', the world's usual compound (zh xingxing, ja wakusei, ko, vi hanh tinh, ar kawkab sayyar, fa sayyare, tr gezegen, sw sayari, qu puriq quyllur); else a root	6/3 (SEA EU SSA); ceiling 7 with ha; fail
+temperature	4/20	2 (SEA EU)	7/4	fail	[temperatura]					phrase: kote pi tikun 'level of heat', the world's usual compound (zh wendu, ja/ko ondo, vi nhiet do, th, hi tapman, bn, ta, fa, ar darajat al-harara, sw halijoto); tikun is also 'spicy'; else a root	4/2 (SEA EU); ceiling 7; fail
+oxygen	14/20	5 (SEA SA WA EU SSA)	15/5	pass	[oksidʒen]	okusiden	none; accent 2.12: none (checked okukiden okusilen)	false	false	loan okusiden	14/5 (SEA SA WA EU SSA); no single column decides (13/5 without any one); pass
+mass	4/20	2 (SEA EU)	5/3	fail	[masa]					root 'mass' (tier 1, no world compound across regions); or widen gogo 'heavy' to the noun 'mass, weight' (the everyday lump in tl bn ta sw ha qu); author's call	4/2 (SEA EU); ceiling 5; fail

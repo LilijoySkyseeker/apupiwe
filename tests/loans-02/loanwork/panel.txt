@@ -1,0 +1,110 @@
+# loans-02: the 4 standard-word loan candidates (planet, temperature, oxygen, mass) against the 20-language panel.
+# Format as tests/deeplayer-02/loanwork/panel.txt (parsed by ../loans.py).
+# Marks: y counts; b everyday loan beside a native or formal word (counts once sourced); n doesn't; u unknown.
+# Sources: Wt the English Wiktionary translation table (wikt-raw.txt, fetched 2026-11-19 with
+# tests/lexicon-ladder-01/panel.py); We the foreign word's own entry (kaikki dumps in ~/work/cache/coverage);
+# subs N = OpenSubtitles 50k list count (~/work/cache/coverage/subs); Leipzig N = Leipzig 2017 community
+# corpus word count; M memory (counts only when a source is added). Rival rule: n when a word for the same
+# concept is >=5x as frequent in the column's text; broad rivals noted, not applied.
+# Shape rule: source shapes (author 2026-10-13); a borrowing language's own sound changes don't make a new shape.
+# Japanese katakana loans are missing from its subtitle list, so the Japanese column rests on Wiktionary.
+
+@ planet | planet | rocky or gaseous spherical bodies orbiting the Sun (also: similar body in orbit around a star; seven major bodies)
+zh 行星 xíngxīng "moving star" (subs 1470) | n | Wt, subs
+ja 惑星 wakusei "wandering star" (subs 758); プラネット listed only in the older-sense block, not everyday | n | Wt, subs
+ko 행성 haengseong (subs 110 + inflected 93) | n | Wt, subs
+vi hành tinh "moving star" | n | Wt, We
+th ดาวเคราะห์ daao khrɔ́ʔ (subs 15; < Sanskrit graha) | n | Wt, subs
+id planet (subs 6846) | y | Wt, We, subs
+tl planeta (subs 15; buntala listed 2nd, subs 0) | y | Wt, We, subs
+hi ग्रह grah (subs 98; प्लैनेट 0) | n | Wt, subs
+bn গ্রহ graha (subs 108 vs প্ল্যানেট 13: 8.3x, rival rule) | n | Wt, subs
+ta கிரகம் kiragam (subs 19 + 21), கோள் kōḷ | n | Wt, subs
+fa سیاره sayyâre "traveller" (subs 760) | n | Wt, subs
+ar كوكب kawkab (subs 4676 + 6348) | n | Wt, subs
+tr gezegen (subs 5398 vs planet 868: 6.2x, rival rule) | n | Wt, subs
+ru планета planeta (subs 2339 + 3872 + 850) | y | Wt, subs
+es planeta (subs 30672) | y | Wt, subs
+fr planète (subs 18365) | y | Wt, subs
+sw sayari (< Arabic sayyāra; Leipzig 265 vs Planet 4, an English name) | n | Wt, We, Leipzig
+ha (no entry; Leipzig has only duniya "world") | u | Leipzig
+yo plánẹ̀tì, planeti (Leipzig 27 + 4 + 2) | y | Wt, Leipzig
+qu puriq quyllur "walking star" (Leipzig Planeta 3, stray) | n | Wt, Leipzig
+median: planeta
+note: 6/3 (SEA EU SSA); ceiling 7 with ha; fail
+text: Six columns share planeta/planet; the world's usual build is "moving/wandering star" (zh ja ko vi, ar kawkab sayyār, fa sayyâre, sw sayari, tr gezegen, qu puriq quyllur, id bintang siarah): 9+ languages in EA SEA WA SSA AM. Indic and Thai use graha.
+
+@ temperature | temperature | a measure of cold or heat
+zh 溫度 wēndù "warm degree" (subs 1200) | n | Wt, subs
+ja 温度 ondo (subs 173) | n | Wt, subs
+ko 온도 ondo (subs 23 + 55) | n | Wt, subs
+vi nhiệt độ "heat degree" | n | Wt, We
+th อุณหภูมิ unhaphuum "heat level" (subs 29) | n | Wt, We, subs
+id suhu (subs 1397 vs temperatur 178: 7.8x, rival rule) | n | Wt, We, subs
+tl temperatura (subs 4; init "heat" 3 is a broad rival, not applied) | y | Wt, We, subs
+hi तापमान tāpmān "heat measure" (subs 14; टेम्परेचर/टेंपरेचर 0) | n | Wt, subs
+bn তাপমাত্রা tāpmātrā "heat measure" (subs 42; টেম্পারেচার 0) | n | Wt, subs
+ta வெப்பநிலை veppanilai "heat state" (subs 2; டெம்பரேச்சர் 0) | n | Wt, subs
+fa دما damâ (subs 238), درجه حرارت "degree of heat" | n | Wt, subs
+ar درجة الحرارة darajat al-ḥarāra "degree of heat" (الحرارة 6024) | n | Wt, subs
+tr sıcaklık "hotness" (subs 3082; temperatür 0) | n | Wt, subs
+ru температура temperatura (subs 2653) | y | Wt, subs
+es temperatura (subs 8516) | y | Wt, subs
+fr température (subs 5552) | y | Wt, subs
+sw halijoto "state of heat" (Leipzig 188; no temperatura) | n | Wt, We, Leipzig
+ha (no entry; Leipzig has zafi "heat", yanayi "state", no loan) | u | Leipzig
+yo (no entry; Leipzig has ooru "heat", ìwọ̀n "measure", no loan) | u | Leipzig
+qu (no entry; Leipzig temperaturarayku 1, a stray token) | u | Leipzig
+median: temperatura
+note: 4/2 (SEA EU); ceiling 7; fail
+text: The world's usual build is heat/warmth + degree/measure/level/state: zh ja ko vi th hi bn ta fa ar sw (11 languages, EA SEA SA WA SSA), tr "hotness".
+
+@ oxygen | oxygen | chemical element
+zh 氧 yǎng, 氧气 (subs 1124) | n | Wt, subs
+ja 酸素 sanso (subs 313) | n | Wt, subs
+ko 산소 sanso (subs 159 + 104) | n | Wt, subs
+vi ôxy, oxy (subs 402 + 42; dưỡng khí listed, dưỡng 878 is broad, "nourish") | y | Wt, We, subs
+th ออกซิเจน ɔ̀ksiceen (subs 28) | y | Wt, We, subs
+id oksigen (subs 1161) | y | Wt, We, subs
+tl oksiheno (< Spanish; subs 0, list thin) | y | Wt, We
+hi ऑक्सीजन ɔksījan (subs 13; प्राणवायु, जारक 0) | y | Wt, subs
+bn অক্সিজেন ɔksijen (subs 51; অম্লজান 0) | y | Wt, We, subs
+ta ஆக்ஸிஜன் āksijan (subs 5 + 1; உயிர்வளி 0) | y | Wt, subs
+fa اکسیژن oksižen (subs 296) | y | Wt, subs
+ar أكسجين uksijīn (subs 1345 + 221 + 237) | y | Wt, subs
+tr oksijen (subs 4886) | y | Wt, subs
+ru кислород kislorod "acid-born" (subs 1332) | n | Wt, subs
+es oxígeno (subs 7532) | y | Wt, subs
+fr oxygène (subs 5353) | y | Wt, subs
+sw oksijeni (Leipzig 172 + 7) | y | Wt, We, Leipzig
+ha (no entry; nothing in Leipzig) | u | -
+yo ọ́síjìn, oksijin (Leipzig 5 + 4 + 1) | y | Wt, We, Leipzig
+qu muksichaq (native; Leipzig 12 + 8 + 6 + 4 + more vs oxígeno 4 + 1: >5x) | n | Wt, Leipzig
+median: oksidʒen
+note: 14/5 (SEA SA WA EU SSA); no single column decides (13/5 without any one); pass
+text: Median by position over the 14 cognates: o (12 of 14; ta a, ar u), ks (13; yo s), i, dʒ (th hi bn ta ar sw yo 7; ʒ fa tr fr 3; g id; x/h es tl), e (th tl bn fa tr es fr sw 8; ə id hi; a ta; i ar yo), final n (11; es tl -o, sw -i, vi none). So [oksidʒen]. IUPAC's English name [ɒksɪdʒən] differs only in the last vowel.
+
+@ mass | mass | physics: quantity of matter which a body contains
+zh 質量 zhìliàng "substance amount" (subs 761) | n | Wt, subs
+ja 質量 shitsuryō (subs 27); 重さ omosa "heaviness" also listed | n | Wt, subs
+ko 질량 jillyang | n | Wt
+vi khối lượng "block amount" | n | Wt
+th มวล muan | n | Wt
+id massa (subs 707; We "mass, matter, tumor") | y | We, subs
+tl bugat "weight" (masa is "dough, the masses") | n | Wt, We
+hi द्रव्यमान dravyamān "substance measure" (subs 1) | n | Wt, subs
+bn ভর bhar "weight" (subs 89) | n | Wt, subs
+ta நிறை niṟai "weight" | n | We
+fa جرم jerm "body" (Arabic), توده tude | n | Wt
+ar كتلة kutla "lump", وزن wazn "weight" (subs 1764) | n | Wt, subs
+tr kütle (subs 997), ağırlık "weight" | n | Wt, subs
+ru масса massa (subs 1077 + 592) | y | Wt, subs
+es masa (subs 7737) | y | Wt, subs
+fr masse (subs 4687) | y | Wt, subs
+sw uzito "weight" (Leipzig 645; masi there is "equal, comrade"; no loan) | n | We, Leipzig
+ha nauyi "weight" (Leipzig 121 + 42; no loan) | n | Leipzig
+yo (no entry; Leipzig iwuwo "weight" 2, no loan) | u | Leipzig
+qu llasay "weight, gravity" (We; Leipzig llasaq 6; no loan) | n | We, Leipzig
+median: masa
+note: 4/2 (SEA EU); ceiling 5; fail
+text: Two calque families: "substance/block amount" (zh ja ko vi hi) and "lump" (ar kutla, tr kütle). Everyday speech in tl bn ta sw ha qu (and ja omosa, ar wazn listed) uses the "weight" word.
