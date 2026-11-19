@@ -25,11 +25,11 @@ Underneath it all is one aim: getting meaning across correctly, at a cost speake
 ## What it looks like
 
 ```
-guyi   gun  kudu.
+guyi   gun  tugu.
 house  is   big
 "The house is big."
 
-kon te      wan  gun  mon  guyi.
+pe ma       wan  gun  mon  guyi.
 sure 5/6    she  is   at   house
 "She must be home."
 ```
