@@ -1,0 +1,16 @@
+82 loans with IPA for at least one y/b language; the current rules reproduce 82 of their forms from the recorded median (the rest were chosen by hand or from another source; 'current' scores the real forms)
+
+variant                            changed    mean  regions worst reg  regions, variants   (distance: 0 identical, ~1 unrelated)
+current                                  0   0.232    0.229     0.323              0.228
+aff-front                                4   0.231    0.228     0.322              0.225
+aff-front+zh                             4   0.231    0.228     0.322              0.225
+j-as-y                                   5   0.229    0.226     0.321              0.226
+aff-front+j-as-y                         5   0.230    0.227     0.321              0.224
+drop-final-r                            16   0.232    0.230     0.325              0.229
+echo-vowel                              54   0.233    0.231     0.329              0.231
+aff-front+drop-r                        19   0.232    0.229     0.325              0.226
+aff-front+drop-r+echo                   55   0.235    0.232     0.330              0.230
+medoid source (current rules)           30   0.233    0.230     0.331              0.230
+medoid source + aff-front               31   0.233    0.230     0.331              0.230
+
+adaptation failures (fell back to the current form): {"unmapped symbol '˩' in juan˩˩˦": 2, "unmapped symbol '˨' in kaː˨˩fe˧˧": 2, "unmapped symbol '˦' in bis˦˥kit˨˩": 2, "unmapped symbol '˨' in kap˨˩tan˧": 2, "unmapped symbol '˧' in tak˧˦si˧˧": 2, "unmapped symbol '˦' in pʰlaːs˦˥tik˨˩": 2, "unmapped symbol '˧' in vak˧˦sin˧˧": 2}

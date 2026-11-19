@@ -762,7 +762,7 @@ letter of the alphabet	sense	2	ganyo
 past	time	3	imin
 minister	people	3	kawi
 gold	nature	3	yanfo
-technology	loan	3	tekunolodi
+technology	loan	3	tekunologi
 attack	action	3	soyin
 computer	loan	3	konpuyutalu
 position, posture, post	space	3	munbu
@@ -1143,7 +1143,7 @@ religious leader (priest, widened)	people	1	mefuso
 servant	people	2	banfe
 lover, partner in love	people	1	wikene
 surgery	body	1	potiwa
-gene	loan	1	denu
+gene	loan	1	geni
 forehead	body	1	netiti
 behave	action	1	memabi
 evil spirit, demon, devil	abstract	2	fisen
@@ -1270,7 +1270,7 @@ reputation	people	2	tansi
 certificate	people	1	diyeda
 trap	thing	1	wafope
 confess	sense	1	neyilo
-engineer	loan	1	indiniyalu
+engineer	loan	1	inginiyalu
 instrument (musical)	thing	1	migiwi
 shift (work shift)	abstract	1	nalemi
 atmosphere (air layer; mood)	nature	1	wusasu
@@ -1556,7 +1556,7 @@ refuse, say no to	sense	1	sowimo
 stranger, a person one does not know	people	1	nadowo
 planet	nature	2	wensin
 temperature	nature	2	munya
-oxygen	loan	1	okusiden
+oxygen	loan	1	okusigen
 mass (physical quantity)	nature	1	kinebe
 useless	quality	1	sewubo
 export	action	1	ayomi

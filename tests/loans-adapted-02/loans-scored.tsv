@@ -1,0 +1,903 @@
+variant	concept	form	mean	regions	worst	worst_region
+current	dollar	dolalu	0.245	0.239	0.335	EA
+current	internet	intelunetu	0.22	0.215	0.264	EA
+current	kilometre	kilometulu	0.189	0.186	0.287	EA
+current	email	imeyilu	0.277	0.274	0.321	SEA
+current	battery	batali	0.251	0.25	0.29	WA
+current	euro	yulo	0.186	0.185	0.461	EU
+current	yuan	yuwan	0.208	0.216	0.372	EA
+current	rupee	lupiya	0.256	0.253	0.306	EA
+current	camera	kamela	0.123	0.119	0.187	SA
+current	metre	metulu	0.279	0.281	0.361	SSA
+current	centimetre	sentimetulu	0.188	0.191	0.208	SA
+current	millimetre	milimetulu	0.191	0.191	0.217	EA
+current	gram	gulamu	0.239	0.23	0.269	SEA
+current	kilogram	kilogulamu	0.18	0.189	0.27	SSA
+current	litre	litulu	0.279	0.287	0.355	EA
+current	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+current	.com (read aloud)	komu	0.147	0.145	0.21	SA
+current	hashtag	asutagu	0.364	0.36	0.406	SA
+current	chocolate	tokolatu	0.298	0.29	0.445	EA
+current	doctor	dokutolu	0.248	0.25	0.329	SSA
+current	motorcycle	moto	0.316	0.27	0.552	SA
+current	television	telebisuyon	0.266	0.244	0.364	SEA
+current	coffee	kafe	0.18	0.166	0.301	WA
+current	sweater	suwetalu	0.286	0.29	0.403	WA
+current	pajamas	pidama	0.201	0.201	0.277	SA
+current	radio	ladiyo	0.218	0.216	0.3	EA
+current	helicopter	elikoputelu	0.264	0.252	0.366	EA
+current	tractor	tulakutalu	0.318	0.317	0.342	EA
+current	lamp	lanpa	0.25	0.26	0.322	EA
+current	penguin	penguwin	0.202	0.197	0.215	SEA
+current	tomato	tomate	0.122	0.111	0.226	SA
+current	garage	galasu	0.332	0.323	0.448	SA
+current	cookie	bisukuwitu	0.266	0.264	0.281	SEA
+current	sandwich	sanduwitu	0.296	0.301	0.341	AM
+current	pizza	pisa	0.159	0.156	0.287	WA
+current	sauce	sosu	0.26	0.269	0.47	AM
+current	sugar	sukalu	0.339	0.331	0.501	SA
+current	toast	tosutu	0.172	0.172	0.209	EU
+current	balcony	balukon	0.19	0.175	0.297	SEA
+current	circus	silukasu	0.334	0.328	0.388	EU
+current	T-shirt	tisalutu	0.314	0.324	0.38	EA
+current	video	bideyo	0.206	0.199	0.267	SEA
+current	bank (financial)	banki	0.192	0.191	0.297	SEA
+current	office	ofisu	0.222	0.214	0.468	SEA
+current	program (software; broadcast programme)	pulogulamu	0.244	0.233	0.294	EU
+current	technology	tekunolodi	0.176	0.172	0.212	EU
+current	computer	konpuyutalu	0.293	0.299	0.361	AM
+current	hotel	otelu	0.253	0.243	0.337	SA
+current	machine	masina	0.167	0.16	0.218	SA
+current	beer	biyalu	0.356	0.363	0.463	SEA
+current	code (computer code; a cipher)	kodu	0.137	0.13	0.206	EU
+current	website	sayitu	0.42	0.407	0.584	SA
+current	bomb	bonba	0.281	0.251	0.381	SSA
+current	design	disayin	0.211	0.223	0.302	SEA
+current	captain	kaputan	0.146	0.145	0.245	SSA
+current	model (simplified representation; fashion model)	modelu	0.113	0.113	0.194	SA
+current	virus	bilusu	0.293	0.27	0.419	SA
+current	restaurant	lesutolan	0.257	0.264	0.391	AM
+current	league (sports)	liga	0.122	0.123	0.263	EA
+current	album	alubumu	0.255	0.234	0.328	SEA
+current	robot	lobotu	0.205	0.193	0.261	EU
+current	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+current	cigarette	sigaletu	0.24	0.243	0.313	WA
+current	club, society	kulabu	0.259	0.255	0.309	SEA
+current	taxi	takusi	0.121	0.12	0.166	SSA
+current	gas (state of matter; fuel gas)	gasu	0.198	0.184	0.25	SEA
+current	guitar	gitalu	0.23	0.228	0.317	EA
+current	gene	denu	0.349	0.369	0.542	EA
+current	plastic	pulasutiku	0.164	0.161	0.229	EA
+current	bar (place serving drinks)	balu	0.319	0.315	0.5	EA
+current	cinema	sinema	0.125	0.139	0.254	EU
+current	passport	pasupolutu	0.257	0.253	0.34	SSA
+current	engineer	indiniyalu	0.315	0.317	0.372	EA
+current	vaccine	bakusin	0.227	0.238	0.302	EU
+current	studio	sutudiyo	0.198	0.198	0.325	EA
+current	profile (online, personal)	pulofilu	0.248	0.241	0.315	WA
+current	piano	piyano	0.124	0.124	0.173	EU
+current	medal	medala	0.161	0.154	0.202	SEA
+current	mask	masuka	0.209	0.222	0.289	SEA
+current	tobacco	tabaku	0.19	0.195	0.301	WA
+current	calendar (the object)	kalendalu	0.189	0.185	0.244	EU
+current	oxygen	okusiden	0.264	0.259	0.32	SEA
+aff-front	dollar	dolalu	0.245	0.239	0.335	EA
+aff-front	internet	intelunetu	0.22	0.215	0.264	EA
+aff-front	kilometre	kilometulu	0.189	0.186	0.287	EA
+aff-front	email	imeyilu	0.277	0.274	0.321	SEA
+aff-front	battery	batali	0.251	0.25	0.29	WA
+aff-front	euro	yulo	0.186	0.185	0.461	EU
+aff-front	yuan	yuwan	0.208	0.216	0.372	EA
+aff-front	rupee	lupiya	0.256	0.253	0.306	EA
+aff-front	camera	kamela	0.123	0.119	0.187	SA
+aff-front	metre	metulu	0.279	0.281	0.361	SSA
+aff-front	centimetre	sentimetulu	0.188	0.191	0.208	SA
+aff-front	millimetre	milimetulu	0.191	0.191	0.217	EA
+aff-front	gram	gulamu	0.239	0.23	0.269	SEA
+aff-front	kilogram	kilogulamu	0.18	0.189	0.27	SSA
+aff-front	litre	litulu	0.279	0.287	0.355	EA
+aff-front	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+aff-front	.com (read aloud)	komu	0.147	0.145	0.21	SA
+aff-front	hashtag	asutagu	0.364	0.36	0.406	SA
+aff-front	chocolate	tokolatu	0.298	0.29	0.445	EA
+aff-front	doctor	dokutolu	0.248	0.25	0.329	SSA
+aff-front	motorcycle	moto	0.316	0.27	0.552	SA
+aff-front	television	telebisuyon	0.266	0.244	0.364	SEA
+aff-front	coffee	kafe	0.18	0.166	0.301	WA
+aff-front	sweater	suwetalu	0.286	0.29	0.403	WA
+aff-front	pajamas	pidama	0.201	0.201	0.277	SA
+aff-front	radio	ladiyo	0.218	0.216	0.3	EA
+aff-front	helicopter	elikoputelu	0.264	0.252	0.366	EA
+aff-front	tractor	tulakutalu	0.318	0.317	0.342	EA
+aff-front	lamp	lanpa	0.25	0.26	0.322	EA
+aff-front	penguin	penguwin	0.202	0.197	0.215	SEA
+aff-front	tomato	tomate	0.122	0.111	0.226	SA
+aff-front	garage	galasu	0.332	0.323	0.448	SA
+aff-front	cookie	bisukuwitu	0.266	0.264	0.281	SEA
+aff-front	sandwich	sanduwitu	0.296	0.301	0.341	AM
+aff-front	pizza	pisa	0.159	0.156	0.287	WA
+aff-front	sauce	sosu	0.26	0.269	0.47	AM
+aff-front	sugar	sukalu	0.339	0.331	0.501	SA
+aff-front	toast	tosutu	0.172	0.172	0.209	EU
+aff-front	balcony	balukon	0.19	0.175	0.297	SEA
+aff-front	circus	silukasu	0.334	0.328	0.388	EU
+aff-front	T-shirt	tisalutu	0.314	0.324	0.38	EA
+aff-front	video	bideyo	0.206	0.199	0.267	SEA
+aff-front	bank (financial)	banki	0.192	0.191	0.297	SEA
+aff-front	office	ofisu	0.222	0.214	0.468	SEA
+aff-front	program (software; broadcast programme)	pulogulamu	0.244	0.233	0.294	EU
+aff-front	technology	tekunologi	0.165	0.16	0.191	WA
+aff-front	computer	konpuyutalu	0.293	0.299	0.361	AM
+aff-front	hotel	otelu	0.253	0.243	0.337	SA
+aff-front	machine	masina	0.167	0.16	0.218	SA
+aff-front	beer	biyalu	0.356	0.363	0.463	SEA
+aff-front	code (computer code; a cipher)	kodu	0.137	0.13	0.206	EU
+aff-front	website	sayitu	0.42	0.407	0.584	SA
+aff-front	bomb	bonba	0.281	0.251	0.381	SSA
+aff-front	design	disayin	0.211	0.223	0.302	SEA
+aff-front	captain	kaputan	0.146	0.145	0.245	SSA
+aff-front	model (simplified representation; fashion model)	modelu	0.113	0.113	0.194	SA
+aff-front	virus	bilusu	0.293	0.27	0.419	SA
+aff-front	restaurant	lesutolan	0.257	0.264	0.391	AM
+aff-front	league (sports)	liga	0.122	0.123	0.263	EA
+aff-front	album	alubumu	0.255	0.234	0.328	SEA
+aff-front	robot	lobotu	0.205	0.193	0.261	EU
+aff-front	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+aff-front	cigarette	sigaletu	0.24	0.243	0.313	WA
+aff-front	club, society	kulabu	0.259	0.255	0.309	SEA
+aff-front	taxi	takusi	0.121	0.12	0.166	SSA
+aff-front	gas (state of matter; fuel gas)	gasu	0.198	0.184	0.25	SEA
+aff-front	guitar	gitalu	0.23	0.228	0.317	EA
+aff-front	gene	genu	0.329	0.346	0.542	EA
+aff-front	plastic	pulasutiku	0.164	0.161	0.229	EA
+aff-front	bar (place serving drinks)	balu	0.319	0.315	0.5	EA
+aff-front	cinema	sinema	0.125	0.139	0.254	EU
+aff-front	passport	pasupolutu	0.257	0.253	0.34	SSA
+aff-front	engineer	inginiyalu	0.312	0.311	0.39	SEA
+aff-front	vaccine	bakusin	0.227	0.238	0.302	EU
+aff-front	studio	sutudiyo	0.198	0.198	0.325	EA
+aff-front	profile (online, personal)	pulofilu	0.248	0.241	0.315	WA
+aff-front	piano	piyano	0.124	0.124	0.173	EU
+aff-front	medal	medala	0.161	0.154	0.202	SEA
+aff-front	mask	masuka	0.209	0.222	0.289	SEA
+aff-front	tobacco	tabaku	0.19	0.195	0.301	WA
+aff-front	calendar (the object)	kalendalu	0.189	0.185	0.244	EU
+aff-front	oxygen	okusigen	0.257	0.251	0.307	SEA
+aff-front+zh	dollar	dolalu	0.245	0.239	0.335	EA
+aff-front+zh	internet	intelunetu	0.22	0.215	0.264	EA
+aff-front+zh	kilometre	kilometulu	0.189	0.186	0.287	EA
+aff-front+zh	email	imeyilu	0.277	0.274	0.321	SEA
+aff-front+zh	battery	batali	0.251	0.25	0.29	WA
+aff-front+zh	euro	yulo	0.186	0.185	0.461	EU
+aff-front+zh	yuan	yuwan	0.208	0.216	0.372	EA
+aff-front+zh	rupee	lupiya	0.256	0.253	0.306	EA
+aff-front+zh	camera	kamela	0.123	0.119	0.187	SA
+aff-front+zh	metre	metulu	0.279	0.281	0.361	SSA
+aff-front+zh	centimetre	sentimetulu	0.188	0.191	0.208	SA
+aff-front+zh	millimetre	milimetulu	0.191	0.191	0.217	EA
+aff-front+zh	gram	gulamu	0.239	0.23	0.269	SEA
+aff-front+zh	kilogram	kilogulamu	0.18	0.189	0.27	SSA
+aff-front+zh	litre	litulu	0.279	0.287	0.355	EA
+aff-front+zh	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+aff-front+zh	.com (read aloud)	komu	0.147	0.145	0.21	SA
+aff-front+zh	hashtag	asutagu	0.364	0.36	0.406	SA
+aff-front+zh	chocolate	tokolatu	0.298	0.29	0.445	EA
+aff-front+zh	doctor	dokutolu	0.248	0.25	0.329	SSA
+aff-front+zh	motorcycle	moto	0.316	0.27	0.552	SA
+aff-front+zh	television	telebisuyon	0.266	0.244	0.364	SEA
+aff-front+zh	coffee	kafe	0.18	0.166	0.301	WA
+aff-front+zh	sweater	suwetalu	0.286	0.29	0.403	WA
+aff-front+zh	pajamas	pidama	0.201	0.201	0.277	SA
+aff-front+zh	radio	ladiyo	0.218	0.216	0.3	EA
+aff-front+zh	helicopter	elikoputelu	0.264	0.252	0.366	EA
+aff-front+zh	tractor	tulakutalu	0.318	0.317	0.342	EA
+aff-front+zh	lamp	lanpa	0.25	0.26	0.322	EA
+aff-front+zh	penguin	penguwin	0.202	0.197	0.215	SEA
+aff-front+zh	tomato	tomate	0.122	0.111	0.226	SA
+aff-front+zh	garage	galasu	0.332	0.323	0.448	SA
+aff-front+zh	cookie	bisukuwitu	0.266	0.264	0.281	SEA
+aff-front+zh	sandwich	sanduwitu	0.296	0.301	0.341	AM
+aff-front+zh	pizza	pisa	0.159	0.156	0.287	WA
+aff-front+zh	sauce	sosu	0.26	0.269	0.47	AM
+aff-front+zh	sugar	sukalu	0.339	0.331	0.501	SA
+aff-front+zh	toast	tosutu	0.172	0.172	0.209	EU
+aff-front+zh	balcony	balukon	0.19	0.175	0.297	SEA
+aff-front+zh	circus	silukasu	0.334	0.328	0.388	EU
+aff-front+zh	T-shirt	tisalutu	0.314	0.324	0.38	EA
+aff-front+zh	video	bideyo	0.206	0.199	0.267	SEA
+aff-front+zh	bank (financial)	banki	0.192	0.191	0.297	SEA
+aff-front+zh	office	ofisu	0.222	0.214	0.468	SEA
+aff-front+zh	program (software; broadcast programme)	pulogulamu	0.244	0.233	0.294	EU
+aff-front+zh	technology	tekunologi	0.165	0.16	0.191	WA
+aff-front+zh	computer	konpuyutalu	0.293	0.299	0.361	AM
+aff-front+zh	hotel	otelu	0.253	0.243	0.337	SA
+aff-front+zh	machine	masina	0.167	0.16	0.218	SA
+aff-front+zh	beer	biyalu	0.356	0.363	0.463	SEA
+aff-front+zh	code (computer code; a cipher)	kodu	0.137	0.13	0.206	EU
+aff-front+zh	website	sayitu	0.42	0.407	0.584	SA
+aff-front+zh	bomb	bonba	0.281	0.251	0.381	SSA
+aff-front+zh	design	disayin	0.211	0.223	0.302	SEA
+aff-front+zh	captain	kaputan	0.146	0.145	0.245	SSA
+aff-front+zh	model (simplified representation; fashion model)	modelu	0.113	0.113	0.194	SA
+aff-front+zh	virus	bilusu	0.293	0.27	0.419	SA
+aff-front+zh	restaurant	lesutolan	0.257	0.264	0.391	AM
+aff-front+zh	league (sports)	liga	0.122	0.123	0.263	EA
+aff-front+zh	album	alubumu	0.255	0.234	0.328	SEA
+aff-front+zh	robot	lobotu	0.205	0.193	0.261	EU
+aff-front+zh	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+aff-front+zh	cigarette	sigaletu	0.24	0.243	0.313	WA
+aff-front+zh	club, society	kulabu	0.259	0.255	0.309	SEA
+aff-front+zh	taxi	takusi	0.121	0.12	0.166	SSA
+aff-front+zh	gas (state of matter; fuel gas)	gasu	0.198	0.184	0.25	SEA
+aff-front+zh	guitar	gitalu	0.23	0.228	0.317	EA
+aff-front+zh	gene	genu	0.329	0.346	0.542	EA
+aff-front+zh	plastic	pulasutiku	0.164	0.161	0.229	EA
+aff-front+zh	bar (place serving drinks)	balu	0.319	0.315	0.5	EA
+aff-front+zh	cinema	sinema	0.125	0.139	0.254	EU
+aff-front+zh	passport	pasupolutu	0.257	0.253	0.34	SSA
+aff-front+zh	engineer	inginiyalu	0.312	0.311	0.39	SEA
+aff-front+zh	vaccine	bakusin	0.227	0.238	0.302	EU
+aff-front+zh	studio	sutudiyo	0.198	0.198	0.325	EA
+aff-front+zh	profile (online, personal)	pulofilu	0.248	0.241	0.315	WA
+aff-front+zh	piano	piyano	0.124	0.124	0.173	EU
+aff-front+zh	medal	medala	0.161	0.154	0.202	SEA
+aff-front+zh	mask	masuka	0.209	0.222	0.289	SEA
+aff-front+zh	tobacco	tabaku	0.19	0.195	0.301	WA
+aff-front+zh	calendar (the object)	kalendalu	0.189	0.185	0.244	EU
+aff-front+zh	oxygen	okusigen	0.257	0.251	0.307	SEA
+j-as-y	dollar	dolalu	0.245	0.239	0.335	EA
+j-as-y	internet	intelunetu	0.22	0.215	0.264	EA
+j-as-y	kilometre	kilometulu	0.189	0.186	0.287	EA
+j-as-y	email	imeyilu	0.277	0.274	0.321	SEA
+j-as-y	battery	batali	0.251	0.25	0.29	WA
+j-as-y	euro	yulo	0.186	0.185	0.461	EU
+j-as-y	yuan	yuwan	0.208	0.216	0.372	EA
+j-as-y	rupee	lupiya	0.256	0.253	0.306	EA
+j-as-y	camera	kamela	0.123	0.119	0.187	SA
+j-as-y	metre	metulu	0.279	0.281	0.361	SSA
+j-as-y	centimetre	sentimetulu	0.188	0.191	0.208	SA
+j-as-y	millimetre	milimetulu	0.191	0.191	0.217	EA
+j-as-y	gram	gulamu	0.239	0.23	0.269	SEA
+j-as-y	kilogram	kilogulamu	0.18	0.189	0.27	SSA
+j-as-y	litre	litulu	0.279	0.287	0.355	EA
+j-as-y	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+j-as-y	.com (read aloud)	komu	0.147	0.145	0.21	SA
+j-as-y	hashtag	asutagu	0.364	0.36	0.406	SA
+j-as-y	chocolate	tokolatu	0.298	0.29	0.445	EA
+j-as-y	doctor	dokutolu	0.248	0.25	0.329	SSA
+j-as-y	motorcycle	moto	0.316	0.27	0.552	SA
+j-as-y	television	telebisuyon	0.266	0.244	0.364	SEA
+j-as-y	coffee	kafe	0.18	0.166	0.301	WA
+j-as-y	sweater	suwetalu	0.286	0.29	0.403	WA
+j-as-y	pajamas	piyama	0.128	0.123	0.205	SA
+j-as-y	radio	ladiyo	0.218	0.216	0.3	EA
+j-as-y	helicopter	elikoputelu	0.264	0.252	0.366	EA
+j-as-y	tractor	tulakutalu	0.318	0.317	0.342	EA
+j-as-y	lamp	lanpa	0.25	0.26	0.322	EA
+j-as-y	penguin	penguwin	0.202	0.197	0.215	SEA
+j-as-y	tomato	tomate	0.122	0.111	0.226	SA
+j-as-y	garage	galasu	0.332	0.323	0.448	SA
+j-as-y	cookie	bisukuwitu	0.266	0.264	0.281	SEA
+j-as-y	sandwich	sanduwitu	0.296	0.301	0.341	AM
+j-as-y	pizza	pisa	0.159	0.156	0.287	WA
+j-as-y	sauce	sosu	0.26	0.269	0.47	AM
+j-as-y	sugar	sukalu	0.339	0.331	0.501	SA
+j-as-y	toast	tosutu	0.172	0.172	0.209	EU
+j-as-y	balcony	balukon	0.19	0.175	0.297	SEA
+j-as-y	circus	silukasu	0.334	0.328	0.388	EU
+j-as-y	T-shirt	tisalutu	0.314	0.324	0.38	EA
+j-as-y	video	bideyo	0.206	0.199	0.267	SEA
+j-as-y	bank (financial)	banki	0.192	0.191	0.297	SEA
+j-as-y	office	ofisu	0.222	0.214	0.468	SEA
+j-as-y	program (software; broadcast programme)	pulogulamu	0.244	0.233	0.294	EU
+j-as-y	technology	tekunoloyi	0.152	0.151	0.21	EU
+j-as-y	computer	konpuyutalu	0.293	0.299	0.361	AM
+j-as-y	hotel	otelu	0.253	0.243	0.337	SA
+j-as-y	machine	masina	0.167	0.16	0.218	SA
+j-as-y	beer	biyalu	0.356	0.363	0.463	SEA
+j-as-y	code (computer code; a cipher)	kodu	0.137	0.13	0.206	EU
+j-as-y	website	sayitu	0.42	0.407	0.584	SA
+j-as-y	bomb	bonba	0.281	0.251	0.381	SSA
+j-as-y	design	disayin	0.211	0.223	0.302	SEA
+j-as-y	captain	kaputan	0.146	0.145	0.245	SSA
+j-as-y	model (simplified representation; fashion model)	modelu	0.113	0.113	0.194	SA
+j-as-y	virus	bilusu	0.293	0.27	0.419	SA
+j-as-y	restaurant	lesutolan	0.257	0.264	0.391	AM
+j-as-y	league (sports)	liga	0.122	0.123	0.263	EA
+j-as-y	album	alubumu	0.255	0.234	0.328	SEA
+j-as-y	robot	lobotu	0.205	0.193	0.261	EU
+j-as-y	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+j-as-y	cigarette	sigaletu	0.24	0.243	0.313	WA
+j-as-y	club, society	kulabu	0.259	0.255	0.309	SEA
+j-as-y	taxi	takusi	0.121	0.12	0.166	SSA
+j-as-y	gas (state of matter; fuel gas)	gasu	0.198	0.184	0.25	SEA
+j-as-y	guitar	gitalu	0.23	0.228	0.317	EA
+j-as-y	gene	yenu	0.309	0.317	0.442	EA
+j-as-y	plastic	pulasutiku	0.164	0.161	0.229	EA
+j-as-y	bar (place serving drinks)	balu	0.319	0.315	0.5	EA
+j-as-y	cinema	sinema	0.125	0.139	0.254	EU
+j-as-y	passport	pasupolutu	0.257	0.253	0.34	SSA
+j-as-y	engineer	inyiniyalu	0.289	0.295	0.39	SEA
+j-as-y	vaccine	bakusin	0.227	0.238	0.302	EU
+j-as-y	studio	sutudiyo	0.198	0.198	0.325	EA
+j-as-y	profile (online, personal)	pulofilu	0.248	0.241	0.315	WA
+j-as-y	piano	piyano	0.124	0.124	0.173	EU
+j-as-y	medal	medala	0.161	0.154	0.202	SEA
+j-as-y	mask	masuka	0.209	0.222	0.289	SEA
+j-as-y	tobacco	tabaku	0.19	0.195	0.301	WA
+j-as-y	calendar (the object)	kalendalu	0.189	0.185	0.244	EU
+j-as-y	oxygen	okusiyen	0.232	0.224	0.32	SEA
+aff-front+j-as-y	dollar	dolalu	0.245	0.239	0.335	EA
+aff-front+j-as-y	internet	intelunetu	0.22	0.215	0.264	EA
+aff-front+j-as-y	kilometre	kilometulu	0.189	0.186	0.287	EA
+aff-front+j-as-y	email	imeyilu	0.277	0.274	0.321	SEA
+aff-front+j-as-y	battery	batali	0.251	0.25	0.29	WA
+aff-front+j-as-y	euro	yulo	0.186	0.185	0.461	EU
+aff-front+j-as-y	yuan	yuwan	0.208	0.216	0.372	EA
+aff-front+j-as-y	rupee	lupiya	0.256	0.253	0.306	EA
+aff-front+j-as-y	camera	kamela	0.123	0.119	0.187	SA
+aff-front+j-as-y	metre	metulu	0.279	0.281	0.361	SSA
+aff-front+j-as-y	centimetre	sentimetulu	0.188	0.191	0.208	SA
+aff-front+j-as-y	millimetre	milimetulu	0.191	0.191	0.217	EA
+aff-front+j-as-y	gram	gulamu	0.239	0.23	0.269	SEA
+aff-front+j-as-y	kilogram	kilogulamu	0.18	0.189	0.27	SSA
+aff-front+j-as-y	litre	litulu	0.279	0.287	0.355	EA
+aff-front+j-as-y	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+aff-front+j-as-y	.com (read aloud)	komu	0.147	0.145	0.21	SA
+aff-front+j-as-y	hashtag	asutagu	0.364	0.36	0.406	SA
+aff-front+j-as-y	chocolate	tokolatu	0.298	0.29	0.445	EA
+aff-front+j-as-y	doctor	dokutolu	0.248	0.25	0.329	SSA
+aff-front+j-as-y	motorcycle	moto	0.316	0.27	0.552	SA
+aff-front+j-as-y	television	telebisuyon	0.266	0.244	0.364	SEA
+aff-front+j-as-y	coffee	kafe	0.18	0.166	0.301	WA
+aff-front+j-as-y	sweater	suwetalu	0.286	0.29	0.403	WA
+aff-front+j-as-y	pajamas	piyama	0.128	0.123	0.205	SA
+aff-front+j-as-y	radio	ladiyo	0.218	0.216	0.3	EA
+aff-front+j-as-y	helicopter	elikoputelu	0.264	0.252	0.366	EA
+aff-front+j-as-y	tractor	tulakutalu	0.318	0.317	0.342	EA
+aff-front+j-as-y	lamp	lanpa	0.25	0.26	0.322	EA
+aff-front+j-as-y	penguin	penguwin	0.202	0.197	0.215	SEA
+aff-front+j-as-y	tomato	tomate	0.122	0.111	0.226	SA
+aff-front+j-as-y	garage	galasu	0.332	0.323	0.448	SA
+aff-front+j-as-y	cookie	bisukuwitu	0.266	0.264	0.281	SEA
+aff-front+j-as-y	sandwich	sanduwitu	0.296	0.301	0.341	AM
+aff-front+j-as-y	pizza	pisa	0.159	0.156	0.287	WA
+aff-front+j-as-y	sauce	sosu	0.26	0.269	0.47	AM
+aff-front+j-as-y	sugar	sukalu	0.339	0.331	0.501	SA
+aff-front+j-as-y	toast	tosutu	0.172	0.172	0.209	EU
+aff-front+j-as-y	balcony	balukon	0.19	0.175	0.297	SEA
+aff-front+j-as-y	circus	silukasu	0.334	0.328	0.388	EU
+aff-front+j-as-y	T-shirt	tisalutu	0.314	0.324	0.38	EA
+aff-front+j-as-y	video	bideyo	0.206	0.199	0.267	SEA
+aff-front+j-as-y	bank (financial)	banki	0.192	0.191	0.297	SEA
+aff-front+j-as-y	office	ofisu	0.222	0.214	0.468	SEA
+aff-front+j-as-y	program (software; broadcast programme)	pulogulamu	0.244	0.233	0.294	EU
+aff-front+j-as-y	technology	tekunologi	0.165	0.16	0.191	WA
+aff-front+j-as-y	computer	konpuyutalu	0.293	0.299	0.361	AM
+aff-front+j-as-y	hotel	otelu	0.253	0.243	0.337	SA
+aff-front+j-as-y	machine	masina	0.167	0.16	0.218	SA
+aff-front+j-as-y	beer	biyalu	0.356	0.363	0.463	SEA
+aff-front+j-as-y	code (computer code; a cipher)	kodu	0.137	0.13	0.206	EU
+aff-front+j-as-y	website	sayitu	0.42	0.407	0.584	SA
+aff-front+j-as-y	bomb	bonba	0.281	0.251	0.381	SSA
+aff-front+j-as-y	design	disayin	0.211	0.223	0.302	SEA
+aff-front+j-as-y	captain	kaputan	0.146	0.145	0.245	SSA
+aff-front+j-as-y	model (simplified representation; fashion model)	modelu	0.113	0.113	0.194	SA
+aff-front+j-as-y	virus	bilusu	0.293	0.27	0.419	SA
+aff-front+j-as-y	restaurant	lesutolan	0.257	0.264	0.391	AM
+aff-front+j-as-y	league (sports)	liga	0.122	0.123	0.263	EA
+aff-front+j-as-y	album	alubumu	0.255	0.234	0.328	SEA
+aff-front+j-as-y	robot	lobotu	0.205	0.193	0.261	EU
+aff-front+j-as-y	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+aff-front+j-as-y	cigarette	sigaletu	0.24	0.243	0.313	WA
+aff-front+j-as-y	club, society	kulabu	0.259	0.255	0.309	SEA
+aff-front+j-as-y	taxi	takusi	0.121	0.12	0.166	SSA
+aff-front+j-as-y	gas (state of matter; fuel gas)	gasu	0.198	0.184	0.25	SEA
+aff-front+j-as-y	guitar	gitalu	0.23	0.228	0.317	EA
+aff-front+j-as-y	gene	genu	0.329	0.346	0.542	EA
+aff-front+j-as-y	plastic	pulasutiku	0.164	0.161	0.229	EA
+aff-front+j-as-y	bar (place serving drinks)	balu	0.319	0.315	0.5	EA
+aff-front+j-as-y	cinema	sinema	0.125	0.139	0.254	EU
+aff-front+j-as-y	passport	pasupolutu	0.257	0.253	0.34	SSA
+aff-front+j-as-y	engineer	inginiyalu	0.312	0.311	0.39	SEA
+aff-front+j-as-y	vaccine	bakusin	0.227	0.238	0.302	EU
+aff-front+j-as-y	studio	sutudiyo	0.198	0.198	0.325	EA
+aff-front+j-as-y	profile (online, personal)	pulofilu	0.248	0.241	0.315	WA
+aff-front+j-as-y	piano	piyano	0.124	0.124	0.173	EU
+aff-front+j-as-y	medal	medala	0.161	0.154	0.202	SEA
+aff-front+j-as-y	mask	masuka	0.209	0.222	0.289	SEA
+aff-front+j-as-y	tobacco	tabaku	0.19	0.195	0.301	WA
+aff-front+j-as-y	calendar (the object)	kalendalu	0.189	0.185	0.244	EU
+aff-front+j-as-y	oxygen	okusigen	0.257	0.251	0.307	SEA
+drop-final-r	dollar	dola	0.225	0.227	0.333	EA
+drop-final-r	internet	intenetu	0.223	0.212	0.294	WA
+drop-final-r	kilometre	kilometulu	0.189	0.186	0.287	EA
+drop-final-r	email	imeyilu	0.277	0.274	0.321	SEA
+drop-final-r	battery	batali	0.251	0.25	0.29	WA
+drop-final-r	euro	yulo	0.186	0.185	0.461	EU
+drop-final-r	yuan	yuwan	0.208	0.216	0.372	EA
+drop-final-r	rupee	lupiya	0.256	0.253	0.306	EA
+drop-final-r	camera	kamela	0.123	0.119	0.187	SA
+drop-final-r	metre	metulu	0.279	0.281	0.361	SSA
+drop-final-r	centimetre	sentimetulu	0.188	0.191	0.208	SA
+drop-final-r	millimetre	milimetulu	0.191	0.191	0.217	EA
+drop-final-r	gram	gulamu	0.239	0.23	0.269	SEA
+drop-final-r	kilogram	kilogulamu	0.18	0.189	0.27	SSA
+drop-final-r	litre	litulu	0.279	0.287	0.355	EA
+drop-final-r	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+drop-final-r	.com (read aloud)	komu	0.147	0.145	0.21	SA
+drop-final-r	hashtag	asutagu	0.364	0.36	0.406	SA
+drop-final-r	chocolate	tokolatu	0.298	0.29	0.445	EA
+drop-final-r	doctor	dokuto	0.32	0.318	0.406	SA
+drop-final-r	motorcycle	moto	0.316	0.27	0.552	SA
+drop-final-r	television	telebisuyon	0.266	0.244	0.364	SEA
+drop-final-r	coffee	kafe	0.18	0.166	0.301	WA
+drop-final-r	sweater	suweta	0.283	0.294	0.458	WA
+drop-final-r	pajamas	pidama	0.201	0.201	0.277	SA
+drop-final-r	radio	ladiyo	0.218	0.216	0.3	EA
+drop-final-r	helicopter	elikopute	0.264	0.254	0.327	SA
+drop-final-r	tractor	tulakuta	0.327	0.326	0.386	WA
+drop-final-r	lamp	lanpa	0.25	0.26	0.322	EA
+drop-final-r	penguin	penguwin	0.202	0.197	0.215	SEA
+drop-final-r	tomato	tomate	0.122	0.111	0.226	SA
+drop-final-r	garage	galasu	0.332	0.323	0.448	SA
+drop-final-r	cookie	bisukuwitu	0.266	0.264	0.281	SEA
+drop-final-r	sandwich	sanduwitu	0.296	0.301	0.341	AM
+drop-final-r	pizza	pisa	0.159	0.156	0.287	WA
+drop-final-r	sauce	sosu	0.26	0.269	0.47	AM
+drop-final-r	sugar	suka	0.37	0.365	0.542	SA
+drop-final-r	toast	tosutu	0.172	0.172	0.209	EU
+drop-final-r	balcony	balukon	0.19	0.175	0.297	SEA
+drop-final-r	circus	sikasu	0.381	0.368	0.467	WA
+drop-final-r	T-shirt	tisatu	0.324	0.322	0.4	EU
+drop-final-r	video	bideyo	0.206	0.199	0.267	SEA
+drop-final-r	bank (financial)	banki	0.192	0.191	0.297	SEA
+drop-final-r	office	ofisu	0.222	0.214	0.468	SEA
+drop-final-r	program (software; broadcast programme)	pulogulamu	0.244	0.233	0.294	EU
+drop-final-r	technology	tekunolodi	0.176	0.172	0.212	EU
+drop-final-r	computer	konpuyuta	0.284	0.286	0.32	EU
+drop-final-r	hotel	otelu	0.253	0.243	0.337	SA
+drop-final-r	machine	masina	0.167	0.16	0.218	SA
+drop-final-r	beer	biya	0.297	0.312	0.454	EU
+drop-final-r	code (computer code; a cipher)	kodu	0.137	0.13	0.206	EU
+drop-final-r	website	sayitu	0.42	0.407	0.584	SA
+drop-final-r	bomb	bonba	0.281	0.251	0.381	SSA
+drop-final-r	design	disayin	0.211	0.223	0.302	SEA
+drop-final-r	captain	kaputan	0.146	0.145	0.245	SSA
+drop-final-r	model (simplified representation; fashion model)	modelu	0.113	0.113	0.194	SA
+drop-final-r	virus	bilusu	0.293	0.27	0.419	SA
+drop-final-r	restaurant	lesutolan	0.257	0.264	0.391	AM
+drop-final-r	league (sports)	liga	0.122	0.123	0.263	EA
+drop-final-r	album	alubumu	0.255	0.234	0.328	SEA
+drop-final-r	robot	lobotu	0.205	0.193	0.261	EU
+drop-final-r	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+drop-final-r	cigarette	sigaletu	0.24	0.243	0.313	WA
+drop-final-r	club, society	kulabu	0.259	0.255	0.309	SEA
+drop-final-r	taxi	takusi	0.121	0.12	0.166	SSA
+drop-final-r	gas (state of matter; fuel gas)	gasu	0.198	0.184	0.25	SEA
+drop-final-r	guitar	gita	0.172	0.181	0.25	WA
+drop-final-r	gene	denu	0.349	0.369	0.542	EA
+drop-final-r	plastic	pulasutiku	0.164	0.161	0.229	EA
+drop-final-r	bar (place serving drinks)	bawu	0.384	0.377	0.494	EA
+drop-final-r	cinema	sinema	0.125	0.139	0.254	EU
+drop-final-r	passport	pasupotu	0.25	0.237	0.294	WA
+drop-final-r	engineer	indiniya	0.31	0.324	0.419	EU
+drop-final-r	vaccine	bakusin	0.227	0.238	0.302	EU
+drop-final-r	studio	sutudiyo	0.198	0.198	0.325	EA
+drop-final-r	profile (online, personal)	pulofilu	0.248	0.241	0.315	WA
+drop-final-r	piano	piyano	0.124	0.124	0.173	EU
+drop-final-r	medal	medala	0.161	0.154	0.202	SEA
+drop-final-r	mask	masuka	0.209	0.222	0.289	SEA
+drop-final-r	tobacco	tabaku	0.19	0.195	0.301	WA
+drop-final-r	calendar (the object)	kalenda	0.183	0.178	0.28	EU
+drop-final-r	oxygen	okusiden	0.264	0.259	0.32	SEA
+echo-vowel	dollar	dolala	0.233	0.229	0.342	EA
+echo-vowel	internet	intelenete	0.217	0.211	0.247	EA
+echo-vowel	kilometre	kilometele	0.183	0.186	0.315	EA
+echo-vowel	email	imeyili	0.278	0.275	0.321	SEA
+echo-vowel	battery	batali	0.251	0.25	0.29	WA
+echo-vowel	euro	yulo	0.186	0.185	0.461	EU
+echo-vowel	yuan	yuwan	0.208	0.216	0.372	EA
+echo-vowel	rupee	lupiya	0.256	0.253	0.306	EA
+echo-vowel	camera	kamela	0.123	0.119	0.187	SA
+echo-vowel	metre	metele	0.27	0.275	0.36	SSA
+echo-vowel	centimetre	sentimetele	0.183	0.186	0.214	EA
+echo-vowel	millimetre	milimetele	0.19	0.188	0.245	EA
+echo-vowel	gram	galama	0.278	0.281	0.314	EA
+echo-vowel	kilogram	kilogalama	0.199	0.213	0.32	SSA
+echo-vowel	litre	litili	0.278	0.287	0.386	EA
+echo-vowel	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+echo-vowel	.com (read aloud)	komo	0.149	0.147	0.21	SA
+echo-vowel	hashtag	asataga	0.372	0.371	0.406	SA
+echo-vowel	chocolate	tokolata	0.286	0.276	0.445	EA
+echo-vowel	doctor	dokotolo	0.251	0.254	0.35	SSA
+echo-vowel	motorcycle	moto	0.316	0.27	0.552	SA
+echo-vowel	television	telebisoyon	0.266	0.244	0.364	SEA
+echo-vowel	coffee	kafe	0.18	0.166	0.301	WA
+echo-vowel	sweater	sewetala	0.302	0.304	0.398	WA
+echo-vowel	pajamas	pidama	0.201	0.201	0.277	SA
+echo-vowel	radio	ladiyo	0.218	0.216	0.3	EA
+echo-vowel	helicopter	elikopetele	0.267	0.257	0.378	EA
+echo-vowel	tractor	talakatala	0.318	0.315	0.413	EA
+echo-vowel	lamp	lanpa	0.25	0.26	0.322	EA
+echo-vowel	penguin	pengiwin	0.232	0.224	0.265	WA
+echo-vowel	tomato	tomate	0.122	0.111	0.226	SA
+echo-vowel	garage	galasa	0.334	0.324	0.449	SSA
+echo-vowel	cookie	bisikiwiti	0.269	0.266	0.305	SA
+echo-vowel	sandwich	sandiwiti	0.286	0.292	0.374	AM
+echo-vowel	pizza	pisa	0.159	0.156	0.287	WA
+echo-vowel	sauce	soso	0.257	0.266	0.437	AM
+echo-vowel	sugar	sukala	0.339	0.329	0.475	SA
+echo-vowel	toast	tosoto	0.177	0.179	0.201	EU
+echo-vowel	balcony	balokon	0.192	0.177	0.297	SEA
+echo-vowel	circus	silakasa	0.333	0.323	0.402	EU
+echo-vowel	T-shirt	tisalata	0.329	0.337	0.438	EA
+echo-vowel	video	bideyo	0.206	0.199	0.267	SEA
+echo-vowel	bank (financial)	banki	0.192	0.191	0.297	SEA
+echo-vowel	office	ofisi	0.195	0.19	0.437	SEA
+echo-vowel	program (software; broadcast programme)	pologalama	0.247	0.25	0.265	SSA
+echo-vowel	technology	tekonolodi	0.178	0.174	0.212	EU
+echo-vowel	computer	konpuyutala	0.289	0.291	0.341	SSA
+echo-vowel	hotel	otele	0.249	0.241	0.337	SA
+echo-vowel	machine	masina	0.167	0.16	0.218	SA
+echo-vowel	beer	biyala	0.36	0.367	0.481	EA
+echo-vowel	code (computer code; a cipher)	kodo	0.132	0.126	0.197	EU
+echo-vowel	website	sayiti	0.434	0.424	0.584	SA
+echo-vowel	bomb	bonba	0.281	0.251	0.381	SSA
+echo-vowel	design	disayin	0.211	0.223	0.302	SEA
+echo-vowel	captain	kapatan	0.156	0.157	0.245	SSA
+echo-vowel	model (simplified representation; fashion model)	modele	0.12	0.113	0.194	SA
+echo-vowel	virus	bilusu	0.293	0.27	0.419	SA
+echo-vowel	restaurant	lesotolan	0.26	0.267	0.391	AM
+echo-vowel	league (sports)	liga	0.122	0.123	0.263	EA
+echo-vowel	album	alubumu	0.255	0.234	0.328	SEA
+echo-vowel	robot	loboto	0.205	0.196	0.261	EU
+echo-vowel	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+echo-vowel	cigarette	sigalete	0.243	0.25	0.313	WA
+echo-vowel	club, society	kalaba	0.312	0.319	0.439	EA
+echo-vowel	taxi	takisi	0.117	0.117	0.16	EA
+echo-vowel	gas (state of matter; fuel gas)	gasa	0.21	0.198	0.26	SSA
+echo-vowel	guitar	gitala	0.202	0.189	0.317	EA
+echo-vowel	gene	denu	0.349	0.369	0.542	EA
+echo-vowel	plastic	palasitiki	0.172	0.169	0.265	EA
+echo-vowel	bar (place serving drinks)	bala	0.307	0.293	0.469	EA
+echo-vowel	cinema	sinema	0.125	0.139	0.254	EU
+echo-vowel	passport	pasopoloto	0.249	0.244	0.348	SSA
+echo-vowel	engineer	indiniyala	0.326	0.332	0.398	SEA
+echo-vowel	vaccine	bakisin	0.243	0.258	0.357	AM
+echo-vowel	studio	sutudiyo	0.198	0.198	0.325	EA
+echo-vowel	profile (online, personal)	polofili	0.246	0.242	0.315	WA
+echo-vowel	piano	piyano	0.124	0.124	0.173	EU
+echo-vowel	medal	medala	0.161	0.154	0.202	SEA
+echo-vowel	mask	masaka	0.216	0.229	0.289	SEA
+echo-vowel	tobacco	tabaku	0.19	0.195	0.301	WA
+echo-vowel	calendar (the object)	kalendala	0.195	0.195	0.249	EU
+echo-vowel	oxygen	okisiden	0.264	0.259	0.32	SEA
+aff-front+drop-r	dollar	dola	0.225	0.227	0.333	EA
+aff-front+drop-r	internet	intenetu	0.223	0.212	0.294	WA
+aff-front+drop-r	kilometre	kilometulu	0.189	0.186	0.287	EA
+aff-front+drop-r	email	imeyilu	0.277	0.274	0.321	SEA
+aff-front+drop-r	battery	batali	0.251	0.25	0.29	WA
+aff-front+drop-r	euro	yulo	0.186	0.185	0.461	EU
+aff-front+drop-r	yuan	yuwan	0.208	0.216	0.372	EA
+aff-front+drop-r	rupee	lupiya	0.256	0.253	0.306	EA
+aff-front+drop-r	camera	kamela	0.123	0.119	0.187	SA
+aff-front+drop-r	metre	metulu	0.279	0.281	0.361	SSA
+aff-front+drop-r	centimetre	sentimetulu	0.188	0.191	0.208	SA
+aff-front+drop-r	millimetre	milimetulu	0.191	0.191	0.217	EA
+aff-front+drop-r	gram	gulamu	0.239	0.23	0.269	SEA
+aff-front+drop-r	kilogram	kilogulamu	0.18	0.189	0.27	SSA
+aff-front+drop-r	litre	litulu	0.279	0.287	0.355	EA
+aff-front+drop-r	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+aff-front+drop-r	.com (read aloud)	komu	0.147	0.145	0.21	SA
+aff-front+drop-r	hashtag	asutagu	0.364	0.36	0.406	SA
+aff-front+drop-r	chocolate	tokolatu	0.298	0.29	0.445	EA
+aff-front+drop-r	doctor	dokuto	0.32	0.318	0.406	SA
+aff-front+drop-r	motorcycle	moto	0.316	0.27	0.552	SA
+aff-front+drop-r	television	telebisuyon	0.266	0.244	0.364	SEA
+aff-front+drop-r	coffee	kafe	0.18	0.166	0.301	WA
+aff-front+drop-r	sweater	suweta	0.283	0.294	0.458	WA
+aff-front+drop-r	pajamas	pidama	0.201	0.201	0.277	SA
+aff-front+drop-r	radio	ladiyo	0.218	0.216	0.3	EA
+aff-front+drop-r	helicopter	elikopute	0.264	0.254	0.327	SA
+aff-front+drop-r	tractor	tulakuta	0.327	0.326	0.386	WA
+aff-front+drop-r	lamp	lanpa	0.25	0.26	0.322	EA
+aff-front+drop-r	penguin	penguwin	0.202	0.197	0.215	SEA
+aff-front+drop-r	tomato	tomate	0.122	0.111	0.226	SA
+aff-front+drop-r	garage	galasu	0.332	0.323	0.448	SA
+aff-front+drop-r	cookie	bisukuwitu	0.266	0.264	0.281	SEA
+aff-front+drop-r	sandwich	sanduwitu	0.296	0.301	0.341	AM
+aff-front+drop-r	pizza	pisa	0.159	0.156	0.287	WA
+aff-front+drop-r	sauce	sosu	0.26	0.269	0.47	AM
+aff-front+drop-r	sugar	suka	0.37	0.365	0.542	SA
+aff-front+drop-r	toast	tosutu	0.172	0.172	0.209	EU
+aff-front+drop-r	balcony	balukon	0.19	0.175	0.297	SEA
+aff-front+drop-r	circus	sikasu	0.381	0.368	0.467	WA
+aff-front+drop-r	T-shirt	tisatu	0.324	0.322	0.4	EU
+aff-front+drop-r	video	bideyo	0.206	0.199	0.267	SEA
+aff-front+drop-r	bank (financial)	banki	0.192	0.191	0.297	SEA
+aff-front+drop-r	office	ofisu	0.222	0.214	0.468	SEA
+aff-front+drop-r	program (software; broadcast programme)	pulogulamu	0.244	0.233	0.294	EU
+aff-front+drop-r	technology	tekunologi	0.165	0.16	0.191	WA
+aff-front+drop-r	computer	konpuyuta	0.284	0.286	0.32	EU
+aff-front+drop-r	hotel	otelu	0.253	0.243	0.337	SA
+aff-front+drop-r	machine	masina	0.167	0.16	0.218	SA
+aff-front+drop-r	beer	biya	0.297	0.312	0.454	EU
+aff-front+drop-r	code (computer code; a cipher)	kodu	0.137	0.13	0.206	EU
+aff-front+drop-r	website	sayitu	0.42	0.407	0.584	SA
+aff-front+drop-r	bomb	bonba	0.281	0.251	0.381	SSA
+aff-front+drop-r	design	disayin	0.211	0.223	0.302	SEA
+aff-front+drop-r	captain	kaputan	0.146	0.145	0.245	SSA
+aff-front+drop-r	model (simplified representation; fashion model)	modelu	0.113	0.113	0.194	SA
+aff-front+drop-r	virus	bilusu	0.293	0.27	0.419	SA
+aff-front+drop-r	restaurant	lesutolan	0.257	0.264	0.391	AM
+aff-front+drop-r	league (sports)	liga	0.122	0.123	0.263	EA
+aff-front+drop-r	album	alubumu	0.255	0.234	0.328	SEA
+aff-front+drop-r	robot	lobotu	0.205	0.193	0.261	EU
+aff-front+drop-r	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+aff-front+drop-r	cigarette	sigaletu	0.24	0.243	0.313	WA
+aff-front+drop-r	club, society	kulabu	0.259	0.255	0.309	SEA
+aff-front+drop-r	taxi	takusi	0.121	0.12	0.166	SSA
+aff-front+drop-r	gas (state of matter; fuel gas)	gasu	0.198	0.184	0.25	SEA
+aff-front+drop-r	guitar	gita	0.172	0.181	0.25	WA
+aff-front+drop-r	gene	genu	0.329	0.346	0.542	EA
+aff-front+drop-r	plastic	pulasutiku	0.164	0.161	0.229	EA
+aff-front+drop-r	bar (place serving drinks)	bawu	0.384	0.377	0.494	EA
+aff-front+drop-r	cinema	sinema	0.125	0.139	0.254	EU
+aff-front+drop-r	passport	pasupotu	0.25	0.237	0.294	WA
+aff-front+drop-r	engineer	inginiya	0.307	0.318	0.424	SEA
+aff-front+drop-r	vaccine	bakusin	0.227	0.238	0.302	EU
+aff-front+drop-r	studio	sutudiyo	0.198	0.198	0.325	EA
+aff-front+drop-r	profile (online, personal)	pulofilu	0.248	0.241	0.315	WA
+aff-front+drop-r	piano	piyano	0.124	0.124	0.173	EU
+aff-front+drop-r	medal	medala	0.161	0.154	0.202	SEA
+aff-front+drop-r	mask	masuka	0.209	0.222	0.289	SEA
+aff-front+drop-r	tobacco	tabaku	0.19	0.195	0.301	WA
+aff-front+drop-r	calendar (the object)	kalenda	0.183	0.178	0.28	EU
+aff-front+drop-r	oxygen	okusigen	0.257	0.251	0.307	SEA
+aff-front+drop-r+echo	dollar	dola	0.225	0.227	0.333	EA
+aff-front+drop-r+echo	internet	intenete	0.222	0.212	0.294	WA
+aff-front+drop-r+echo	kilometre	kilometele	0.183	0.186	0.315	EA
+aff-front+drop-r+echo	email	imeyili	0.278	0.275	0.321	SEA
+aff-front+drop-r+echo	battery	batali	0.251	0.25	0.29	WA
+aff-front+drop-r+echo	euro	yulo	0.186	0.185	0.461	EU
+aff-front+drop-r+echo	yuan	yuwan	0.208	0.216	0.372	EA
+aff-front+drop-r+echo	rupee	lupiya	0.256	0.253	0.306	EA
+aff-front+drop-r+echo	camera	kamela	0.123	0.119	0.187	SA
+aff-front+drop-r+echo	metre	metele	0.27	0.275	0.36	SSA
+aff-front+drop-r+echo	centimetre	sentimetele	0.183	0.186	0.214	EA
+aff-front+drop-r+echo	millimetre	milimetele	0.19	0.188	0.245	EA
+aff-front+drop-r+echo	gram	galama	0.278	0.281	0.314	EA
+aff-front+drop-r+echo	kilogram	kilogalama	0.199	0.213	0.32	SSA
+aff-front+drop-r+echo	litre	litili	0.278	0.287	0.386	EA
+aff-front+drop-r+echo	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+aff-front+drop-r+echo	.com (read aloud)	komo	0.149	0.147	0.21	SA
+aff-front+drop-r+echo	hashtag	asataga	0.372	0.371	0.406	SA
+aff-front+drop-r+echo	chocolate	tokolata	0.286	0.276	0.445	EA
+aff-front+drop-r+echo	doctor	dokoto	0.322	0.321	0.406	SA
+aff-front+drop-r+echo	motorcycle	moto	0.316	0.27	0.552	SA
+aff-front+drop-r+echo	television	telebisoyon	0.266	0.244	0.364	SEA
+aff-front+drop-r+echo	coffee	kafe	0.18	0.166	0.301	WA
+aff-front+drop-r+echo	sweater	seweta	0.3	0.307	0.428	WA
+aff-front+drop-r+echo	pajamas	pidama	0.201	0.201	0.277	SA
+aff-front+drop-r+echo	radio	ladiyo	0.218	0.216	0.3	EA
+aff-front+drop-r+echo	helicopter	elikopete	0.264	0.254	0.327	SA
+aff-front+drop-r+echo	tractor	talakata	0.334	0.329	0.377	EU
+aff-front+drop-r+echo	lamp	lanpa	0.25	0.26	0.322	EA
+aff-front+drop-r+echo	penguin	pengiwin	0.232	0.224	0.265	WA
+aff-front+drop-r+echo	tomato	tomate	0.122	0.111	0.226	SA
+aff-front+drop-r+echo	garage	galasa	0.334	0.324	0.449	SSA
+aff-front+drop-r+echo	cookie	bisikiwiti	0.269	0.266	0.305	SA
+aff-front+drop-r+echo	sandwich	sandiwiti	0.286	0.292	0.374	AM
+aff-front+drop-r+echo	pizza	pisa	0.159	0.156	0.287	WA
+aff-front+drop-r+echo	sauce	soso	0.257	0.266	0.437	AM
+aff-front+drop-r+echo	sugar	suka	0.37	0.365	0.542	SA
+aff-front+drop-r+echo	toast	tosoto	0.177	0.179	0.201	EU
+aff-front+drop-r+echo	balcony	balokon	0.192	0.177	0.297	SEA
+aff-front+drop-r+echo	circus	sikasa	0.405	0.398	0.497	AM
+aff-front+drop-r+echo	T-shirt	tisata	0.343	0.339	0.4	EU
+aff-front+drop-r+echo	video	bideyo	0.206	0.199	0.267	SEA
+aff-front+drop-r+echo	bank (financial)	banki	0.192	0.191	0.297	SEA
+aff-front+drop-r+echo	office	ofisi	0.195	0.19	0.437	SEA
+aff-front+drop-r+echo	program (software; broadcast programme)	pologalama	0.247	0.25	0.265	SSA
+aff-front+drop-r+echo	technology	tekonologi	0.167	0.163	0.191	WA
+aff-front+drop-r+echo	computer	konpuyuta	0.284	0.286	0.32	EU
+aff-front+drop-r+echo	hotel	otele	0.249	0.241	0.337	SA
+aff-front+drop-r+echo	machine	masina	0.167	0.16	0.218	SA
+aff-front+drop-r+echo	beer	biya	0.297	0.312	0.454	EU
+aff-front+drop-r+echo	code (computer code; a cipher)	kodo	0.132	0.126	0.197	EU
+aff-front+drop-r+echo	website	sayiti	0.434	0.424	0.584	SA
+aff-front+drop-r+echo	bomb	bonba	0.281	0.251	0.381	SSA
+aff-front+drop-r+echo	design	disayin	0.211	0.223	0.302	SEA
+aff-front+drop-r+echo	captain	kapatan	0.156	0.157	0.245	SSA
+aff-front+drop-r+echo	model (simplified representation; fashion model)	modele	0.12	0.113	0.194	SA
+aff-front+drop-r+echo	virus	bilusu	0.293	0.27	0.419	SA
+aff-front+drop-r+echo	restaurant	lesotolan	0.26	0.267	0.391	AM
+aff-front+drop-r+echo	league (sports)	liga	0.122	0.123	0.263	EA
+aff-front+drop-r+echo	album	alubumu	0.255	0.234	0.328	SEA
+aff-front+drop-r+echo	robot	loboto	0.205	0.196	0.261	EU
+aff-front+drop-r+echo	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+aff-front+drop-r+echo	cigarette	sigalete	0.243	0.25	0.313	WA
+aff-front+drop-r+echo	club, society	kalaba	0.312	0.319	0.439	EA
+aff-front+drop-r+echo	taxi	takisi	0.117	0.117	0.16	EA
+aff-front+drop-r+echo	gas (state of matter; fuel gas)	gasa	0.21	0.198	0.26	SSA
+aff-front+drop-r+echo	guitar	gita	0.172	0.181	0.25	WA
+aff-front+drop-r+echo	gene	genu	0.329	0.346	0.542	EA
+aff-front+drop-r+echo	plastic	palasitiki	0.172	0.169	0.265	EA
+aff-front+drop-r+echo	bar (place serving drinks)	bawu	0.384	0.377	0.494	EA
+aff-front+drop-r+echo	cinema	sinema	0.125	0.139	0.254	EU
+aff-front+drop-r+echo	passport	pasopoto	0.241	0.227	0.283	WA
+aff-front+drop-r+echo	engineer	inginiya	0.307	0.318	0.424	SEA
+aff-front+drop-r+echo	vaccine	bakisin	0.243	0.258	0.357	AM
+aff-front+drop-r+echo	studio	sutudiyo	0.198	0.198	0.325	EA
+aff-front+drop-r+echo	profile (online, personal)	polofili	0.246	0.242	0.315	WA
+aff-front+drop-r+echo	piano	piyano	0.124	0.124	0.173	EU
+aff-front+drop-r+echo	medal	medala	0.161	0.154	0.202	SEA
+aff-front+drop-r+echo	mask	masaka	0.216	0.229	0.289	SEA
+aff-front+drop-r+echo	tobacco	tabaku	0.19	0.195	0.301	WA
+aff-front+drop-r+echo	calendar (the object)	kalenda	0.183	0.178	0.28	EU
+aff-front+drop-r+echo	oxygen	okisigen	0.257	0.251	0.307	SEA
+medoid source (current rules)	dollar	dolalu	0.245	0.239	0.335	EA
+medoid source (current rules)	internet	intelunetu	0.22	0.215	0.264	EA
+medoid source (current rules)	kilometre	kilometulu	0.189	0.186	0.287	EA
+medoid source (current rules)	email	imelu	0.195	0.19	0.304	WA
+medoid source (current rules)	battery	batili	0.255	0.254	0.338	WA
+medoid source (current rules)	euro	yulo	0.186	0.185	0.461	EU
+medoid source (current rules)	yuan	yuwan	0.208	0.216	0.372	EA
+medoid source (current rules)	rupee	lupi	0.231	0.239	0.408	SA
+medoid source (current rules)	camera	kamela	0.123	0.119	0.187	SA
+medoid source (current rules)	metre	metulu	0.279	0.281	0.361	SSA
+medoid source (current rules)	centimetre	sentimitalu	0.177	0.175	0.203	EA
+medoid source (current rules)	millimetre	milimitulu	0.194	0.191	0.219	SEA
+medoid source (current rules)	gram	gulamu	0.239	0.23	0.269	SEA
+medoid source (current rules)	kilogram	kilogulamu	0.18	0.189	0.27	SSA
+medoid source (current rules)	litre	litulu	0.279	0.287	0.355	EA
+medoid source (current rules)	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+medoid source (current rules)	.com (read aloud)	komu	0.147	0.145	0.21	SA
+medoid source (current rules)	hashtag	asutagu	0.364	0.36	0.406	SA
+medoid source (current rules)	chocolate	tokolate	0.275	0.26	0.431	EA
+medoid source (current rules)	doctor	dokutalu	0.255	0.253	0.267	EU
+medoid source (current rules)	motorcycle	motolu	0.336	0.329	0.5	SA
+medoid source (current rules)	television	telebisuyon	0.266	0.244	0.364	SEA
+medoid source (current rules)	coffee	kafe	0.18	0.166	0.301	WA
+medoid source (current rules)	sweater	suwitalu	0.293	0.297	0.394	WA
+medoid source (current rules)	pajamas	pidama	0.201	0.201	0.277	SA
+medoid source (current rules)	radio	laduyo	0.273	0.267	0.383	EA
+medoid source (current rules)	helicopter	elikoputalu	0.263	0.254	0.337	EA
+medoid source (current rules)	tractor	tulakutalu	0.318	0.317	0.342	EA
+medoid source (current rules)	lamp	lanpa	0.25	0.26	0.322	EA
+medoid source (current rules)	penguin	penguwin	0.202	0.197	0.215	SEA
+medoid source (current rules)	tomato	tomate	0.122	0.111	0.226	SA
+medoid source (current rules)	garage	galasu	0.332	0.323	0.448	SA
+medoid source (current rules)	cookie	bisukuwitu	0.266	0.264	0.281	SEA
+medoid source (current rules)	sandwich	sanduwitu	0.296	0.301	0.341	AM
+medoid source (current rules)	pizza	pisa	0.159	0.156	0.287	WA
+medoid source (current rules)	sauce	sosu	0.26	0.269	0.47	AM
+medoid source (current rules)	sugar	asukalu	0.332	0.306	0.498	SA
+medoid source (current rules)	toast	tosutu	0.172	0.172	0.209	EU
+medoid source (current rules)	balcony	balukon	0.19	0.175	0.297	SEA
+medoid source (current rules)	circus	siluku	0.355	0.361	0.568	EA
+medoid source (current rules)	T-shirt	tiselutu	0.312	0.312	0.406	EA
+medoid source (current rules)	video	bidiyo	0.207	0.202	0.281	SEA
+medoid source (current rules)	bank (financial)	banku	0.201	0.185	0.313	SA
+medoid source (current rules)	office	ofisu	0.222	0.214	0.468	SEA
+medoid source (current rules)	program (software; broadcast programme)	pulogulamu	0.244	0.233	0.294	EU
+medoid source (current rules)	technology	tekunolosi	0.187	0.188	0.244	EU
+medoid source (current rules)	computer	kanpuyutalu	0.309	0.317	0.423	AM
+medoid source (current rules)	hotel	otelu	0.253	0.243	0.337	SA
+medoid source (current rules)	machine	masin	0.163	0.165	0.217	AM
+medoid source (current rules)	beer	bila	0.324	0.347	0.654	EU
+medoid source (current rules)	code (computer code; a cipher)	kodu	0.137	0.13	0.206	EU
+medoid source (current rules)	website	sayito	0.418	0.403	0.584	SA
+medoid source (current rules)	bomb	bonba	0.281	0.251	0.381	SSA
+medoid source (current rules)	design	disayin	0.211	0.223	0.302	SEA
+medoid source (current rules)	captain	kaputan	0.146	0.145	0.245	SSA
+medoid source (current rules)	model (simplified representation; fashion model)	modelu	0.113	0.113	0.194	SA
+medoid source (current rules)	virus	bilusu	0.293	0.27	0.419	SA
+medoid source (current rules)	restaurant	lesutolan	0.257	0.264	0.391	AM
+medoid source (current rules)	league (sports)	ligu	0.167	0.167	0.213	AM
+medoid source (current rules)	album	alubomu	0.248	0.228	0.328	SEA
+medoid source (current rules)	robot	lobotu	0.205	0.193	0.261	EU
+medoid source (current rules)	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+medoid source (current rules)	cigarette	sigaletu	0.24	0.243	0.313	WA
+medoid source (current rules)	club, society	kulabu	0.259	0.255	0.309	SEA
+medoid source (current rules)	taxi	takusi	0.121	0.12	0.166	SSA
+medoid source (current rules)	gas (state of matter; fuel gas)	gasu	0.198	0.184	0.25	SEA
+medoid source (current rules)	guitar	gitalu	0.23	0.228	0.317	EA
+medoid source (current rules)	gene	senu	0.353	0.36	0.492	EA
+medoid source (current rules)	plastic	pulasutiku	0.164	0.161	0.229	EA
+medoid source (current rules)	bar (place serving drinks)	balu	0.319	0.315	0.5	EA
+medoid source (current rules)	cinema	sinema	0.125	0.139	0.254	EU
+medoid source (current rules)	passport	pasupolutu	0.257	0.253	0.34	SSA
+medoid source (current rules)	engineer	indiniyalu	0.315	0.317	0.372	EA
+medoid source (current rules)	vaccine	bakusin	0.227	0.238	0.302	EU
+medoid source (current rules)	studio	sutudiyo	0.198	0.198	0.325	EA
+medoid source (current rules)	profile (online, personal)	pulofayilu	0.279	0.277	0.334	EU
+medoid source (current rules)	piano	piyano	0.124	0.124	0.173	EU
+medoid source (current rules)	medal	medalu	0.189	0.189	0.275	AM
+medoid source (current rules)	mask	masuku	0.226	0.242	0.357	AM
+medoid source (current rules)	tobacco	tabako	0.188	0.194	0.312	WA
+medoid source (current rules)	calendar (the object)	kalandalu	0.211	0.214	0.265	EA
+medoid source (current rules)	oxygen	okusisen	0.263	0.256	0.316	SEA
+medoid source + aff-front	dollar	dolalu	0.245	0.239	0.335	EA
+medoid source + aff-front	internet	intelunetu	0.22	0.215	0.264	EA
+medoid source + aff-front	kilometre	kilometulu	0.189	0.186	0.287	EA
+medoid source + aff-front	email	imelu	0.195	0.19	0.304	WA
+medoid source + aff-front	battery	batili	0.255	0.254	0.338	WA
+medoid source + aff-front	euro	yulo	0.186	0.185	0.461	EU
+medoid source + aff-front	yuan	yuwan	0.208	0.216	0.372	EA
+medoid source + aff-front	rupee	lupi	0.231	0.239	0.408	SA
+medoid source + aff-front	camera	kamela	0.123	0.119	0.187	SA
+medoid source + aff-front	metre	metulu	0.279	0.281	0.361	SSA
+medoid source + aff-front	centimetre	sentimitalu	0.177	0.175	0.203	EA
+medoid source + aff-front	millimetre	milimitulu	0.194	0.191	0.219	SEA
+medoid source + aff-front	gram	gulamu	0.239	0.23	0.269	SEA
+medoid source + aff-front	kilogram	kilogulamu	0.18	0.189	0.27	SSA
+medoid source + aff-front	litre	litulu	0.279	0.287	0.355	EA
+medoid source + aff-front	kilogram, everyday short form	kilo	0.047	0.046	0.25	EA
+medoid source + aff-front	.com (read aloud)	komu	0.147	0.145	0.21	SA
+medoid source + aff-front	hashtag	asutagu	0.364	0.36	0.406	SA
+medoid source + aff-front	chocolate	tokolate	0.275	0.26	0.431	EA
+medoid source + aff-front	doctor	dokutalu	0.255	0.253	0.267	EU
+medoid source + aff-front	motorcycle	motolu	0.336	0.329	0.5	SA
+medoid source + aff-front	television	telebisuyon	0.266	0.244	0.364	SEA
+medoid source + aff-front	coffee	kafe	0.18	0.166	0.301	WA
+medoid source + aff-front	sweater	suwitalu	0.293	0.297	0.394	WA
+medoid source + aff-front	pajamas	pidama	0.201	0.201	0.277	SA
+medoid source + aff-front	radio	laduyo	0.273	0.267	0.383	EA
+medoid source + aff-front	helicopter	elikoputalu	0.263	0.254	0.337	EA
+medoid source + aff-front	tractor	tulakutalu	0.318	0.317	0.342	EA
+medoid source + aff-front	lamp	lanpa	0.25	0.26	0.322	EA
+medoid source + aff-front	penguin	penguwin	0.202	0.197	0.215	SEA
+medoid source + aff-front	tomato	tomate	0.122	0.111	0.226	SA
+medoid source + aff-front	garage	galasu	0.332	0.323	0.448	SA
+medoid source + aff-front	cookie	bisukuwitu	0.266	0.264	0.281	SEA
+medoid source + aff-front	sandwich	sanduwitu	0.296	0.301	0.341	AM
+medoid source + aff-front	pizza	pisa	0.159	0.156	0.287	WA
+medoid source + aff-front	sauce	sosu	0.26	0.269	0.47	AM
+medoid source + aff-front	sugar	asukalu	0.332	0.306	0.498	SA
+medoid source + aff-front	toast	tosutu	0.172	0.172	0.209	EU
+medoid source + aff-front	balcony	balukon	0.19	0.175	0.297	SEA
+medoid source + aff-front	circus	siluku	0.355	0.361	0.568	EA
+medoid source + aff-front	T-shirt	tiselutu	0.312	0.312	0.406	EA
+medoid source + aff-front	video	bidiyo	0.207	0.202	0.281	SEA
+medoid source + aff-front	bank (financial)	banku	0.201	0.185	0.313	SA
+medoid source + aff-front	office	ofisu	0.222	0.214	0.468	SEA
+medoid source + aff-front	program (software; broadcast programme)	pulogulamu	0.244	0.233	0.294	EU
+medoid source + aff-front	technology	tekunolosi	0.187	0.188	0.244	EU
+medoid source + aff-front	computer	kanpuyutalu	0.309	0.317	0.423	AM
+medoid source + aff-front	hotel	otelu	0.253	0.243	0.337	SA
+medoid source + aff-front	machine	masin	0.163	0.165	0.217	AM
+medoid source + aff-front	beer	bila	0.324	0.347	0.654	EU
+medoid source + aff-front	code (computer code; a cipher)	kodu	0.137	0.13	0.206	EU
+medoid source + aff-front	website	sayito	0.418	0.403	0.584	SA
+medoid source + aff-front	bomb	bonba	0.281	0.251	0.381	SSA
+medoid source + aff-front	design	disayin	0.211	0.223	0.302	SEA
+medoid source + aff-front	captain	kaputan	0.146	0.145	0.245	SSA
+medoid source + aff-front	model (simplified representation; fashion model)	modelu	0.113	0.113	0.194	SA
+medoid source + aff-front	virus	bilusu	0.293	0.27	0.419	SA
+medoid source + aff-front	restaurant	lesutolan	0.257	0.264	0.391	AM
+medoid source + aff-front	league (sports)	ligu	0.167	0.167	0.213	AM
+medoid source + aff-front	album	alubomu	0.248	0.228	0.328	SEA
+medoid source + aff-front	robot	lobotu	0.205	0.193	0.261	EU
+medoid source + aff-front	pound (the currency)	pawundu	0.355	0.352	0.483	SSA
+medoid source + aff-front	cigarette	sigaletu	0.24	0.243	0.313	WA
+medoid source + aff-front	club, society	kulabu	0.259	0.255	0.309	SEA
+medoid source + aff-front	taxi	takusi	0.121	0.12	0.166	SSA
+medoid source + aff-front	gas (state of matter; fuel gas)	gasu	0.198	0.184	0.25	SEA
+medoid source + aff-front	guitar	gitalu	0.23	0.228	0.317	EA
+medoid source + aff-front	gene	senu	0.353	0.36	0.492	EA
+medoid source + aff-front	plastic	pulasutiku	0.164	0.161	0.229	EA
+medoid source + aff-front	bar (place serving drinks)	balu	0.319	0.315	0.5	EA
+medoid source + aff-front	cinema	sinema	0.125	0.139	0.254	EU
+medoid source + aff-front	passport	pasupolutu	0.257	0.253	0.34	SSA
+medoid source + aff-front	engineer	inginiyalu	0.312	0.311	0.39	SEA
+medoid source + aff-front	vaccine	bakusin	0.227	0.238	0.302	EU
+medoid source + aff-front	studio	sutudiyo	0.198	0.198	0.325	EA
+medoid source + aff-front	profile (online, personal)	pulofayilu	0.279	0.277	0.334	EU
+medoid source + aff-front	piano	piyano	0.124	0.124	0.173	EU
+medoid source + aff-front	medal	medalu	0.189	0.189	0.275	AM
+medoid source + aff-front	mask	masuku	0.226	0.242	0.357	AM
+medoid source + aff-front	tobacco	tabako	0.188	0.194	0.312	WA
+medoid source + aff-front	calendar (the object)	kalandalu	0.211	0.214	0.265	EA
+medoid source + aff-front	oxygen	okusisen	0.263	0.256	0.316	SEA

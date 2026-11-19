@@ -28,10 +28,8 @@ for d in digits:  # 1
         if inv.syl[W.IDX[f]][0] != "" and k in ckey:
             problems.append(f"digit+word: {d.upper()} {f} ~ {ckey[k]['gloss']} {ckey[k]['form']}")
 
-# known exceptions (author, 2026-11-19): the loan denu "gene" after the digit de, with no "at" or nun "and" between:
-# the misheard sequence is nonsense ("house gene city"), so context repairs it, and gene is rare
-# Provisional: remove if tests/loans-adapted-02 re-adapts gene (author, 2026-11-19)
-KNOWN = {"digit+word: DE no ~ gene denu", "digit+word: DE nun ~ gene denu"}
+# known exceptions: none (denu "gene" was one until gene became geni, 2026-11-19)
+KNOWN = set()
 
 for f, gl in gforms.items():  # 3
     o, v, c = inv.syl[W.IDX[f]]

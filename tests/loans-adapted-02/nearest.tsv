@@ -1,0 +1,83 @@
+concept	current	current_regions	current_worst	best	best_regions	gain	how
+email	imeyilu	0.274	0.321	imelu	0.19	0.084	current from vi
+pajamas	pidama	0.201	0.277	piyama	0.123	0.078	current from id
+litre	litulu	0.287	0.355	lita	0.216	0.07	current from ko
+metre	metulu	0.281	0.361	mita	0.222	0.059	current from ko
+hashtag	asutagu	0.36	0.406	kasutagu	0.301	0.059	current from es
+garage	galasu	0.323	0.448	galaye	0.272	0.051	current from tl
+beer	biyalu	0.363	0.463	biya	0.312	0.05	current from th
+millimetre	milimetulu	0.191	0.217	milimita	0.142	0.049	current from sw
+pound (the currency)	pawundu	0.352	0.483	pondu	0.302	0.049	current from fa
+passport	pasupolutu	0.253	0.34	pasapotu	0.204	0.048	current from th
+guitar	gitalu	0.228	0.317	gita	0.181	0.047	current from ja
+gene	denu	0.369	0.542	geni	0.323	0.046	aff-front from sw
+hotel	otelu	0.243	0.337	fotelu	0.199	0.044	current from ko
+centimetre	sentimetulu	0.191	0.208	sentimita	0.15	0.041	current from ko
+cookie	bisukuwitu	0.264	0.281	bisikiti	0.225	0.039	current from yo
+bomb	bonba	0.251	0.381	boma	0.212	0.039	current from bn
+kilometre	kilometulu	0.186	0.287	kilometa	0.151	0.035	current from sw
+chocolate	tokolatu	0.29	0.445	tokolate	0.26	0.029	current from tl
+captain	kaputan	0.145	0.245	kapitan	0.119	0.026	current from tl
+tractor	tulakutalu	0.317	0.342	tulakutola	0.292	0.025	current from tl
+sugar	sukalu	0.331	0.501	asukalu	0.306	0.025	current from tl
+office	ofisu	0.214	0.468	ofisi	0.19	0.024	current from ja
+oxygen	okusiden	0.259	0.32	okusiyeno	0.236	0.023	current from tl
+T-shirt	tisalutu	0.324	0.38	tiseti	0.303	0.021	current from sw
+technology	tekunolodi	0.172	0.212	tekunoloyi	0.151	0.02	current from th
+sandwich	sanduwitu	0.301	0.341	sanduwiti	0.285	0.016	current from sw
+sauce	sosu	0.269	0.47	sosi	0.255	0.015	current from ja
+rupee	lupiya	0.253	0.306	lupi	0.239	0.014	current from zh
+gas (state of matter; fuel gas)	gasu	0.184	0.25	gasi	0.17	0.014	current from ja
+gram	gulamu	0.23	0.269	gilamu	0.216	0.013	current from yo
+computer	konpuyutalu	0.299	0.361	konpuyuta	0.286	0.013	current from sw
+virus	bilusu	0.27	0.419	bilusi	0.257	0.013	current from sw
+club, society	kulabu	0.255	0.309	kulobu	0.243	0.013	current from ha
+dollar	dolalu	0.239	0.335	dola	0.227	0.011	current from sw
+bank (financial)	banki	0.191	0.297	banko	0.18	0.011	current from tl
+robot	lobotu	0.193	0.261	loboti	0.185	0.009	current from sw
+machine	masina	0.16	0.218	makina	0.153	0.007	current from tl
+album	alubumu	0.234	0.328	alubomu	0.228	0.007	current from ru
+calendar (the object)	kalendalu	0.185	0.244	kalenda	0.178	0.007	current from sw
+engineer	indiniyalu	0.317	0.372	inginiyalu	0.311	0.006	aff-front from median
+kilogram	kilogulamu	0.189	0.27	kilogilamu	0.183	0.005	current from ta
+helicopter	elikoputelu	0.252	0.366	elikoputelo	0.246	0.005	current from qu
+toast	tosutu	0.172	0.209	tosuti	0.166	0.005	current from sw
+code (computer code; a cipher)	kodu	0.13	0.206	kodo	0.126	0.005	current from ja
+internet	intelunetu	0.215	0.264	intaneti	0.211	0.004	current from sw
+website	sayitu	0.407	0.584	sayito	0.403	0.004	current from ja
+balcony	balukon	0.175	0.297	balukoni	0.172	0.003	current from ja
+model (simplified representation; fashion model)	modelu	0.113	0.194	modeli	0.109	0.003	current from sw
+cigarette	sigaletu	0.243	0.313	sigaleta	0.239	0.003	current from ru
+taxi	takusi	0.12	0.166	takisi	0.117	0.003	current from yo
+plastic	pulasutiku	0.161	0.229	pilasutiku	0.158	0.003	current from ta
+vaccine	bakusin	0.238	0.302	bakusina	0.235	0.003	current from ru
+tobacco	tabaku	0.195	0.301	tabako	0.194	0.001	current from ja
+television	telebisuyon	0.244	0.364	telifison	0.245	-0.001	current from yo
+circus	silukasu	0.328	0.388	salakasi	0.329	-0.001	current from sw
+studio	sutudiyo	0.198	0.325	satudiyo	0.2	-0.002	current from th
+doctor	dokutolu	0.25	0.329	dokutalu	0.253	-0.003	current from id
+sweater	suwetalu	0.29	0.403	sowetalu	0.293	-0.003	current from bn
+video	bideyo	0.199	0.267	bidiyo	0.202	-0.003	current from fa
+battery	batali	0.25	0.29	batili	0.254	-0.005	current from yo
+program (software; broadcast programme)	pulogulamu	0.233	0.294	pulogulama	0.239	-0.007	current from tl
+tomato	tomate	0.111	0.226	tomati	0.121	-0.01	current from yo
+penguin	penguwin	0.197	0.215	penguwini	0.208	-0.011	current from sw
+lamp	lanpa	0.26	0.322	lanpu	0.272	-0.012	current from id
+league (sports)	liga	0.123	0.263	ligi	0.136	-0.012	current from sw
+design	disayin	0.223	0.302	desayin	0.236	-0.013	current from id
+mask	masuka	0.222	0.289	masuke	0.235	-0.013	current from tr
+profile (online, personal)	pulofilu	0.241	0.315	pelufilu	0.259	-0.018	current from es
+cinema	sinema	0.139	0.254	sinima	0.159	-0.019	current from ha
+camera	kamela	0.119	0.187	kamila	0.139	-0.02	current from ar
+radio	ladiyo	0.216	0.3	lediyo	0.25	-0.035	current from hi
+restaurant	lesutolan	0.264	0.391	lisutalan	0.299	-0.035	current from ru
+bar (place serving drinks)	balu	0.315	0.5	palu	0.35	-0.035	current from ta
+medal	medala	0.154	0.202	medalu	0.189	-0.035	current from ja
+pizza	pisa	0.156	0.287	pida	0.195	-0.038	current from ko
+coffee	kafe	0.166	0.301	kofe	0.21	-0.044	current from ru
+euro	yulo	0.185	0.461	eyulo	0.239	-0.054	current from es
+piano	piyano	0.124	0.173	biyanu	0.179	-0.055	current from ar
+motorcycle	moto	0.27	0.552	motolu	0.329	-0.059	current from id
+yuan	yuwan	0.216	0.372	yuwon	0.314	-0.098	current from fa
+.com (read aloud)	komu	0.145	0.21	kamu	0.268	-0.123	current from ko
+kilogram, everyday short form	kilo	0.046	0.25	kukilulo	0.369	-0.323	current from ko

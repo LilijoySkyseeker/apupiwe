@@ -392,9 +392,6 @@ abstract Lex = {
     densun_N : N ;  -- millet, sorghum
     densun_V : V ;  -- millet, sorghum
     densun_A : A ;  -- millet, sorghum
-    denu_N : N ;  -- gene
-    denu_V : V ;  -- gene
-    denu_A : A ;  -- gene
     denwo_N : N ;  -- tickle
     denwo_V : V ;  -- tickle
     denwo_A : A ;  -- tickle
@@ -1151,6 +1148,9 @@ abstract Lex = {
     gemi_N : N ;  -- government
     gemi_V : V ;  -- government
     gemi_A : A ;  -- government
+    geni_N : N ;  -- gene
+    geni_V : V ;  -- gene
+    geni_A : A ;  -- gene
     geno_N : N ;  -- find
     geno_V : V ;  -- find
     geno_A : A ;  -- find
@@ -1370,9 +1370,9 @@ abstract Lex = {
     inan_N : N ;  -- clean
     inan_V : V ;  -- clean
     inan_A : A ;  -- clean
-    indiniyalu_N : N ;  -- engineer
-    indiniyalu_V : V ;  -- engineer
-    indiniyalu_A : A ;  -- engineer
+    inginiyalu_N : N ;  -- engineer
+    inginiyalu_V : V ;  -- engineer
+    inginiyalu_A : A ;  -- engineer
     ingo_N : N ;  -- book
     ingo_V : V ;  -- book
     ingo_A : A ;  -- book
@@ -2717,9 +2717,9 @@ abstract Lex = {
     ogene_N : N ;  -- angle
     ogene_V : V ;  -- angle
     ogene_A : A ;  -- angle
-    okusiden_N : N ;  -- oxygen
-    okusiden_V : V ;  -- oxygen
-    okusiden_A : A ;  -- oxygen
+    okusigen_N : N ;  -- oxygen
+    okusigen_V : V ;  -- oxygen
+    okusigen_A : A ;  -- oxygen
     olipa_N : N ;  -- blind
     olipa_V : V ;  -- blind
     olipa_A : A ;  -- blind
@@ -3515,9 +3515,9 @@ abstract Lex = {
     tekita_N : N ;  -- steel
     tekita_V : V ;  -- steel
     tekita_A : A ;  -- steel
-    tekunolodi_N : N ;  -- technology
-    tekunolodi_V : V ;  -- technology
-    tekunolodi_A : A ;  -- technology
+    tekunologi_N : N ;  -- technology
+    tekunologi_V : V ;  -- technology
+    tekunologi_A : A ;  -- technology
     telebisuyon_N : N ;  -- television
     telebisuyon_V : V ;  -- television
     telebisuyon_A : A ;  -- television

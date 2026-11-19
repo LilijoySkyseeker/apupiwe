@@ -32,8 +32,15 @@ DROP = "ˈˌːʰʲˑ.ˀ̥̩̯̪̚ʷ"
 NASAL = "̃"
 
 
+FRONT = "iɪyʏeɛøœæ"
+
+
 def segments(ipa):
     ipa = ipa.replace("ɡ", "g")
+    # "ch" and "j" before a front vowel become k and g, whose declared accent variant (reference 2.9) is the original
+    # sound (author, 2026-11-19; tests/loans-adapted-02): gene -> geni, technology -> tekunologi
+    ipa = re.sub(r"(tʃ|tɕ|ʈʂ)(?=[ʰʲːˈˌ]*[" + FRONT + "])", "k", ipa)
+    ipa = re.sub(r"(dʒ|dʑ)(?=[ʰʲːˈˌ]*[" + FRONT + "])", "g", ipa)
     out, i = [], 0
     while i < len(ipa):
         ch = ipa[i]

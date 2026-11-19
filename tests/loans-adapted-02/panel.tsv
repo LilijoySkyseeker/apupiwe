@@ -1,0 +1,1641 @@
+concept	adapted	median_ipa	lang	mark	word	src	note
+dollar	dolalu	[dolar]	zh	n	美元 měiyuán (US$); 元/块 generic	Wt	panel: coverage-01/part3/loanwork/older.txt
+dollar	dolalu	[dolar]	ja	y	ドル doru	Wt	
+dollar	dolalu	[dolar]	ko	y	달러 dalleo (불 slang)	Wt	
+dollar	dolalu	[dolar]	vi	y	đô la	Wt	
+dollar	dolalu	[dolar]	th	y	ดอลลาร์ dɔnlaa	Wt	
+dollar	dolalu	[dolar]	id	y	dolar	Wt	
+dollar	dolalu	[dolar]	tl	y	dolyar	Wt	
+dollar	dolalu	[dolar]	hi	y	डॉलर ḍālar	Wt	
+dollar	dolalu	[dolar]	bn	y	ডলার ḍɔlar	Wt	
+dollar	dolalu	[dolar]	ta	y	டாலர் ṭālar	Wt	
+dollar	dolalu	[dolar]	fa	y	دلار dolâr	Wt	
+dollar	dolalu	[dolar]	ar	y	دولار dūlār	Wt	
+dollar	dolalu	[dolar]	tr	y	dolar	Wt	
+dollar	dolalu	[dolar]	ru	y	доллар dollar	Wt	
+dollar	dolalu	[dolar]	es	y	dólar	Wt	
+dollar	dolalu	[dolar]	fr	y	dollar	Wt	
+dollar	dolalu	[dolar]	sw	y	dola	Wt	
+dollar	dolalu	[dolar]	ha	y	dala	Wt	
+dollar	dolalu	[dolar]	yo	y	dọ́là	Wt	
+dollar	dolalu	[dolar]	qu	y	dólar (Spanish loan)	M; verified	verified.tsv: yes (dólares)
+internet	intelunetu	[internet]	zh	n	互联网 hùliánwǎng, 网络	Wt	panel: coverage-01/part3/loanwork/older.txt
+internet	intelunetu	[internet]	ja	y	インターネット intānetto, ネット	Wt	
+internet	intelunetu	[internet]	ko	y	인터넷 inteonet	Wt	
+internet	intelunetu	[internet]	vi	y	in-tơ-nét / internet (mạng "network, life" is broader)	Wt	
+internet	intelunetu	[internet]	th	y	อินเทอร์เน็ต inthəənet	Wt	
+internet	intelunetu	[internet]	id	y	internet	Wt	
+internet	intelunetu	[internet]	tl	y	internet	Wt	
+internet	intelunetu	[internet]	hi	y	इंटरनेट iṇṭarneṭ (formal अंतर्जाल)	Wt	
+internet	intelunetu	[internet]	bn	y	ইন্টারনেট inṭarneṭ	Wt	
+internet	intelunetu	[internet]	ta	n	இணையம் iṇaiyam; spoken internet not found in any ta list	Wt	
+internet	intelunetu	[internet]	fa	y	اینترنت internet	Wt	
+internet	intelunetu	[internet]	ar	y	إنترنت internet	Wt	
+internet	intelunetu	[internet]	tr	y	internet	Wt	
+internet	intelunetu	[internet]	ru	y	интернет	Wt	
+internet	intelunetu	[internet]	es	y	internet	Wt	
+internet	intelunetu	[internet]	fr	y	internet	Wt	
+internet	intelunetu	[internet]	sw	y	intaneti (mtandao "network" also used)	Wt	
+internet	intelunetu	[internet]	ha	b	yanar gizo; intanet beside it	M; verified	verified.tsv: yes (intanet)
+internet	intelunetu	[internet]	yo	n	ayélujára	M	
+internet	intelunetu	[internet]	qu	b	T'inkinakusqa llikakuna (coinage); internet in running text	M; verified	verified.tsv: yes (internet)
+kilometre	kilometulu	[kilometr]	zh	n	公里 gōnglǐ	Wt	panel: lexicon-ladder-01/loans.md
+kilometre	kilometulu	[kilometr]	ja	y	キロメートル kiromētoru, キロ	Wt	
+kilometre	kilometulu	[kilometr]	ko	y	킬로미터 killomiteo	Wt	
+kilometre	kilometulu	[kilometr]	vi	y	ki-lô-mét; also cây số	Wt	
+kilometre	kilometulu	[kilometr]	th	y	กิโลเมตร kilomet	Wt	
+kilometre	kilometulu	[kilometr]	id	y	kilometer	Wt	
+kilometre	kilometulu	[kilometr]	tl	y	kilometro	Wt	
+kilometre	kilometulu	[kilometr]	hi	y	किलोमीटर	Wt	
+kilometre	kilometulu	[kilometr]	bn	y	কিলোমিটার	Wt	
+kilometre	kilometulu	[kilometr]	ta	y	கிலோமீட்டர்	Wt	
+kilometre	kilometulu	[kilometr]	fa	y	کیلومتر kilometr	Wt	
+kilometre	kilometulu	[kilometr]	ar	y	كيلومتر kīlomitr	Wt	
+kilometre	kilometulu	[kilometr]	tr	y	kilometre	Wt	
+kilometre	kilometulu	[kilometr]	ru	y	километр	Wt	
+kilometre	kilometulu	[kilometr]	es	y	kilómetro	Wt	
+kilometre	kilometulu	[kilometr]	fr	y	kilomètre	Wt	
+kilometre	kilometulu	[kilometr]	sw	y	kilomita / kilometa	Wt	
+kilometre	kilometulu	[kilometr]	ha	y	kilomita	M	
+kilometre	kilometulu	[kilometr]	yo	y	kìlómítà	Wt	
+kilometre	kilometulu	[kilometr]	qu	y	kilometro (Spanish loan)	M	
+email	imeyilu	[imeil]	zh	n	邮件 yóujiàn, 电邮 diànyóu	Wt	panel: coverage-01/part3/loanwork/older.txt
+email	imeyilu	[imeil]	ja	y	メール mēru	Wt	
+email	imeyilu	[imeil]	ko	y	이메일 imeil, 메일	Wt	
+email	imeyilu	[imeil]	vi	y	email (thư điện tử formal; thư "letter" is broader)	Wt	
+email	imeyilu	[imeil]	th	y	อีเมล iimeel	Wt	
+email	imeyilu	[imeil]	id	b	email (official surel)	Wt	
+email	imeyilu	[imeil]	tl	y	email	M; verified	verified.tsv: yes (email)
+email	imeyilu	[imeil]	hi	y	ईमेल īmel	Wt	
+email	imeyilu	[imeil]	bn	y	ইমেইল imeil	Wt	
+email	imeyilu	[imeil]	ta	n	மின்னஞ்சல் miṉṉañcal	Wt	
+email	imeyilu	[imeil]	fa	y	ایمیل imeyl	Wt	
+email	imeyilu	[imeil]	ar	y	إيميل īmayl (formal بريد إلكتروني)	Wt	
+email	imeyilu	[imeil]	tr	b	e-posta; e-mail, mail as often	Wt	
+email	imeyilu	[imeil]	ru	y	имейл imejl, мейл (also почта)	Wt	
+email	imeyilu	[imeil]	es	b	correo (electrónico); email, e-mail, mail beside it	M; verified	verified.tsv: yes (email, e-mail, mail)
+email	imeyilu	[imeil]	fr	y	mail, e-mail (courriel Quebec)	Wt	
+email	imeyilu	[imeil]	sw	b	barua pepe; email beside it	M; verified	verified.tsv: yes (email)
+email	imeyilu	[imeil]	ha	y	imel	M; verified	verified.tsv: yes (imel)
+email	imeyilu	[imeil]	yo	u	(no form found)	M; verified	verified.tsv: unknown; recorded n -> u
+email	imeyilu	[imeil]	qu	u	(no form found)	M; verified	verified.tsv: unknown; recorded n -> u
+battery	batali	[batari]	zh	n	电池 diànchí	Wt	panel: coverage-01/part3/loanwork/older.txt
+battery	batali	[batari]	ja	y	バッテリー batterī (電池 as often)	Wt	
+battery	batali	[batari]	ko	y	배터리 baeteori	Wt	
+battery	batali	[batari]	vi	n	pin (< French pile)	Wt	
+battery	batali	[batari]	th	y	แบตเตอรี่ bɛ̀ttəərîi	Wt	
+battery	batali	[batari]	id	y	baterai	Wt	
+battery	batali	[batari]	tl	y	baterya	Wt	
+battery	batali	[batari]	hi	y	बैटरी bɛṭrī	Wt	
+battery	batali	[batari]	bn	y	ব্যাটারি bæṭari	Wt	
+battery	batali	[batari]	ta	y	பேட்டரி pēṭṭari	Wt	
+battery	batali	[batari]	fa	y	باتری bâtri	Wt	
+battery	batali	[batari]	ar	y	بطارية baṭṭāriyya	Wt	
+battery	batali	[batari]	tr	b	pil; batarya beside it (phones)	Wt	
+battery	batali	[batari]	ru	y	батарейка batarejka, батарея	Wt	
+battery	batali	[batari]	es	y	batería (dry cell pila)	Wt	
+battery	batali	[batari]	fr	y	batterie (dry cell pile)	Wt	
+battery	batali	[batari]	sw	y	betri	Wt, We	
+battery	batali	[batari]	ha	y	batir	We	
+battery	batali	[batari]	yo	y	bátìrì	M; verified	verified.tsv: yes (bátìrì)
+battery	batali	[batari]	qu	u	batería (Spanish loan; unattested)	M; verified	verified.tsv: unknown; recorded n -> u
+euro	yulo	[juro]	zh	n	欧元 ōuyuán	Wt	panel: coverage-01/part3/loanwork/older.txt
+euro	yulo	[juro]	ja	y	ユーロ yūro	Wt	
+euro	yulo	[juro]	ko	y	유로 yuro	Wt	
+euro	yulo	[juro]	vi	y	euro	Wt	
+euro	yulo	[juro]	th	y	ยูโร yuuroo	Wt	
+euro	yulo	[juro]	id	y	euro	Wt	
+euro	yulo	[juro]	tl	y	euro	Wt	
+euro	yulo	[juro]	hi	y	यूरो yūro	Wt	
+euro	yulo	[juro]	bn	y	ইউরো iuro	Wt	
+euro	yulo	[juro]	ta	u	யூரோ yūrō	M; verified	verified.tsv: unknown; recorded y -> u
+euro	yulo	[juro]	fa	y	یورو yuro	Wt	
+euro	yulo	[juro]	ar	y	يورو yūrū	Wt	
+euro	yulo	[juro]	tr	y	euro (official avro)	Wt	
+euro	yulo	[juro]	ru	y	евро jevro	Wt	
+euro	yulo	[juro]	es	y	euro	Wt	
+euro	yulo	[juro]	fr	y	euro	Wt	
+euro	yulo	[juro]	sw	y	euro, yuro	M; verified	verified.tsv: yes (euro, yuro)
+euro	yulo	[juro]	ha	u	yuro	M; verified	verified.tsv: unknown; recorded y -> u
+euro	yulo	[juro]	yo	y	yúrò	Wt	
+euro	yulo	[juro]	qu	u	euro	M; verified	verified.tsv: unknown; recorded y -> u
+yuan	yuwan	[juan]	zh	y	元 yuán (spoken 块 kuài, not 5x)	Wt	panel: coverage-01/part3/loanwork/older.txt
+yuan	yuwan	[juan]	ja	n	元 gen, 人民元 (ユアン rare)	Wt	
+yuan	yuwan	[juan]	ko	y	위안 wian	Wt	
+yuan	yuwan	[juan]	vi	n	nhân dân tệ (Wt nguyên)	Wt	
+yuan	yuwan	[juan]	th	y	หยวน yǔan	Wt	
+yuan	yuwan	[juan]	id	y	yuan	M; verified	verified.tsv: yes (yuan)
+yuan	yuwan	[juan]	tl	y	yuan	M; verified	verified.tsv: yes (yuan)
+yuan	yuwan	[juan]	hi	y	युआन yuān	Wt	
+yuan	yuwan	[juan]	bn	u	ইউয়ান	M; verified	verified.tsv: unknown; recorded y -> u
+yuan	yuwan	[juan]	ta	u	யுவான்	M; verified	verified.tsv: unknown; recorded y -> u
+yuan	yuwan	[juan]	fa	y	یوان yuân	Wt	
+yuan	yuwan	[juan]	ar	y	يوان yuwān	Wt	
+yuan	yuwan	[juan]	tr	y	yuan	M; verified	verified.tsv: yes (yuan)
+yuan	yuwan	[juan]	ru	y	юань juan'	Wt	
+yuan	yuwan	[juan]	es	y	yuan	Wt	
+yuan	yuwan	[juan]	fr	y	yuan	Wt	
+yuan	yuwan	[juan]	sw	y	yuan	M; verified	verified.tsv: yes (yuan)
+yuan	yuwan	[juan]	ha	y	yuan	M; verified	verified.tsv: yes (yuan)
+yuan	yuwan	[juan]	yo	u	yuan	M; verified	verified.tsv: unknown; recorded y -> u
+yuan	yuwan	[juan]	qu	u	yuan	M; verified	verified.tsv: unknown; recorded y -> u
+rupee	lupiya	[rupija]	zh	y	卢比 lúbǐ	Wt	panel: coverage-01/part3/loanwork/older.txt
+rupee	lupiya	[rupija]	ja	y	ルピー rupī	Wt	
+rupee	lupiya	[rupija]	ko	y	루피 rupi	Wt	
+rupee	lupiya	[rupija]	vi	y	rupi, rupee	M; verified	verified.tsv: yes (rupi, rupee)
+rupee	lupiya	[rupija]	th	y	รูปี ruupii	Wt	
+rupee	lupiya	[rupija]	id	y	rupee	Wt	
+rupee	lupiya	[rupija]	tl	y	rupya	Wt	
+rupee	lupiya	[rupija]	hi	y	रुपया rupayā	Wt	
+rupee	lupiya	[rupija]	bn	n	টাকা ṭākā (the everyday word for the rupee in West Bengal)	Wt	
+rupee	lupiya	[rupija]	ta	y	ரூபாய் rūpāy	Wt	
+rupee	lupiya	[rupija]	fa	y	روپیه rupiye	Wt	
+rupee	lupiya	[rupija]	ar	y	روبية rūbiyya	Wt	
+rupee	lupiya	[rupija]	tr	y	rupi	Wt	
+rupee	lupiya	[rupija]	ru	y	рупия rupija	Wt	
+rupee	lupiya	[rupija]	es	y	rupia	Wt	
+rupee	lupiya	[rupija]	fr	y	roupie	Wt	
+rupee	lupiya	[rupija]	sw	y	rupia	Wt	
+rupee	lupiya	[rupija]	ha	u	rupi	M; verified	verified.tsv: unknown; recorded y -> u
+rupee	lupiya	[rupija]	yo	u	rúpì	M; verified	verified.tsv: unknown; recorded y -> u
+rupee	lupiya	[rupija]	qu	u	rupia	M; verified	verified.tsv: unknown; recorded y -> u
+camera	kamela	[kamera]	zh	n	相机 xiàngjī	Wt	panel: coverage-01/part3/loanwork/older.txt
+camera	kamela	[kamera]	ja	y	カメラ kamera	Wt	
+camera	kamela	[kamera]	ko	y	카메라 kamera	Wt	
+camera	kamela	[kamera]	vi	b	máy ảnh; camera beside it	M; verified	verified.tsv: yes (camera)
+camera	kamela	[kamera]	th	n	กล้อง klɔ̂ng	Wt	
+camera	kamela	[kamera]	id	y	kamera	Wt	
+camera	kamela	[kamera]	tl	y	kamera	Wt	
+camera	kamela	[kamera]	hi	y	कैमरा kæmrā	Wt	
+camera	kamela	[kamera]	bn	y	ক্যামেরা kyāmerā	Wt	
+camera	kamela	[kamera]	ta	y	கேமரா kēmarā	Wt	
+camera	kamela	[kamera]	fa	n	دوربین durbin (Dari کمره kamra)	Wt	
+camera	kamela	[kamera]	ar	y	كاميرا kāmērā	Wt	
+camera	kamela	[kamera]	tr	b	fotoğraf makinesi; kamera beside it	M; verified	verified.tsv: yes (kamera)
+camera	kamela	[kamera]	ru	y	камера, фотоаппарат	Wt	
+camera	kamela	[kamera]	es	y	cámara	Wt	
+camera	kamela	[kamera]	fr	b	appareil photo; caméra for video and phone cameras	M; verified	verified.tsv: yes (caméra)
+camera	kamela	[kamera]	sw	y	kamera	Wt	
+camera	kamela	[kamera]	ha	y	kyamara	Wt	
+camera	kamela	[kamera]	yo	y	kámẹ́rà	We	
+camera	kamela	[kamera]	qu	u	cámara (Spanish loan; unattested)	M; verified	verified.tsv: unknown; recorded n -> u
+metre	metulu	[metr]	zh	n	米 (mǐ), 公尺 (gōngchǐ), 米突 (mǐtū, mǐtú)	Wt	panel: coverage-01/part3/metric-panel.txt (marks derived; median not recorded, implied by the design log's parts, 2026-10-13)
+metre	metulu	[metr]	ja	y	メートル (mētoru), ㍍ (mētoru)	Wt	
+metre	metulu	[metr]	ko	y	미터, 메터	Wt	
+metre	metulu	[metr]	vi	y	mét, thước, thước tây	Wt	
+metre	metulu	[metr]	th	y	เมตร	Wt	
+metre	metulu	[metr]	id	y	meter	Wt	
+metre	metulu	[metr]	tl	y	metro, panukat	Wt	
+metre	metulu	[metr]	hi	y	मीटर	Wt	
+metre	metulu	[metr]	bn	y	মিটার	Wt	
+metre	metulu	[metr]	ta	y	மீட்டர்	Wt	
+metre	metulu	[metr]	fa	y	مِتْر	Wt	
+metre	metulu	[metr]	ar	y	مِتْر	Wt	
+metre	metulu	[metr]	tr	y	metre	Wt	
+metre	metulu	[metr]	ru	y	метр	Wt	
+metre	metulu	[metr]	es	y	metro	Wt	
+metre	metulu	[metr]	fr	y	mètre	Wt	
+metre	metulu	[metr]	sw	y	mita	Wt	
+metre	metulu	[metr]	ha	u	(not listed)	-	
+metre	metulu	[metr]	yo	y	mítà	Wt	
+metre	metulu	[metr]	qu	u	(not listed)	-	
+centimetre	sentimetulu	[sentimetr]	zh	n	釐米//厘米 (límǐ), 公分 (gōngfēn)	Wt	panel: coverage-01/part3/metric-panel.txt (marks derived; median not recorded, implied by the design log's parts, 2026-10-13)
+centimetre	sentimetulu	[sentimetr]	ja	y	センチメートル (senchimētoru), センチ (senchi)	Wt	
+centimetre	sentimetulu	[sentimetr]	ko	y	센티미터, 센티, 센치	Wt	
+centimetre	sentimetulu	[sentimetr]	vi	y	xen-ti-mét, xăng-ti-mét, phân	Wt	
+centimetre	sentimetulu	[sentimetr]	th	y	เซนติเมตร	Wt	
+centimetre	sentimetulu	[sentimetr]	id	y	sentimeter	Wt	
+centimetre	sentimetulu	[sentimetr]	tl	y	sentimetro	Wt	
+centimetre	sentimetulu	[sentimetr]	hi	y	सेंटीमीटर	Wt	
+centimetre	sentimetulu	[sentimetr]	bn	y	সেন্টিমিটার	Wt	
+centimetre	sentimetulu	[sentimetr]	ta	u	(not listed)	-	
+centimetre	sentimetulu	[sentimetr]	fa	y	سانْتی‌مِتْر, سانْتیمِتْر	Wt	
+centimetre	sentimetulu	[sentimetr]	ar	y	سِنْتِيمِتْر	Wt	
+centimetre	sentimetulu	[sentimetr]	tr	y	santimetre, santim	Wt	
+centimetre	sentimetulu	[sentimetr]	ru	y	сантиме́тр	Wt	
+centimetre	sentimetulu	[sentimetr]	es	y	centímetro	Wt	
+centimetre	sentimetulu	[sentimetr]	fr	y	centimètre	Wt	
+centimetre	sentimetulu	[sentimetr]	sw	y	sentimita	Wt	
+centimetre	sentimetulu	[sentimetr]	ha	u	(not listed)	-	
+centimetre	sentimetulu	[sentimetr]	yo	y	sẹ̀ǹtímítà	Wt	
+centimetre	sentimetulu	[sentimetr]	qu	u	(not listed)	-	
+millimetre	milimetulu	[milimetr]	zh	n	毫米 (háomǐ), 公釐//公厘 (gōnglí)	Wt	panel: coverage-01/part3/metric-panel.txt (marks derived; median not recorded, implied by the design log's parts, 2026-10-13)
+millimetre	milimetulu	[milimetr]	ja	y	ミリメートル (mirimētoru), ミリ (miri)	Wt	
+millimetre	milimetulu	[milimetr]	ko	y	밀리미터, 밀리	Wt	
+millimetre	milimetulu	[milimetr]	vi	y	milimet	Wt	
+millimetre	milimetulu	[milimetr]	th	y	มิลลิเมตร	Wt	
+millimetre	milimetulu	[milimetr]	id	u	(not listed)	-	
+millimetre	milimetulu	[milimetr]	tl	y	milimetro	Wt	
+millimetre	milimetulu	[milimetr]	hi	y	मिलीमीटर, सहस्रिमान	Wt	
+millimetre	milimetulu	[milimetr]	bn	u	(not listed)	-	
+millimetre	milimetulu	[milimetr]	ta	u	(not listed)	-	
+millimetre	milimetulu	[milimetr]	fa	y	میلی‌مِتْر, میلیمِتْر	Wt	
+millimetre	milimetulu	[milimetr]	ar	y	مِلِّيمِتْر	Wt	
+millimetre	milimetulu	[milimetr]	tr	y	milimetre	Wt	
+millimetre	milimetulu	[milimetr]	ru	y	миллиме́тр	Wt	
+millimetre	milimetulu	[milimetr]	es	y	milímetro	Wt	
+millimetre	milimetulu	[milimetr]	fr	y	millimètre	Wt	
+millimetre	milimetulu	[milimetr]	sw	y	milimita	Wt	
+millimetre	milimetulu	[milimetr]	ha	u	(not listed)	-	
+millimetre	milimetulu	[milimetr]	yo	y	mìlímítà	Wt	
+millimetre	milimetulu	[milimetr]	qu	u	(not listed)	-	
+gram	gulamu	[gram]	zh	n	克 (kè), 公克 (gōngkè)	Wt	panel: coverage-01/part3/metric-panel.txt (marks derived; median not recorded, implied by the design log's parts, 2026-10-13)
+gram	gulamu	[gram]	ja	y	グラム (guramu)	Wt	
+gram	gulamu	[gram]	ko	y	그램	Wt	
+gram	gulamu	[gram]	vi	y	gam	Wt	
+gram	gulamu	[gram]	th	y	กรัม	Wt	
+gram	gulamu	[gram]	id	y	gram	Wt	
+gram	gulamu	[gram]	tl	y	gramo	Wt	
+gram	gulamu	[gram]	hi	y	ग्राम	Wt	
+gram	gulamu	[gram]	bn	y	গ্রাম	Wt	
+gram	gulamu	[gram]	ta	y	கிராம்	Wt	
+gram	gulamu	[gram]	fa	y	گرم (geram)	Wt	
+gram	gulamu	[gram]	ar	y	جْرَام (gram), غْرَام, غْرَام (gram)	Wt	
+gram	gulamu	[gram]	tr	y	gram	Wt	
+gram	gulamu	[gram]	ru	y	грамм	Wt	
+gram	gulamu	[gram]	es	y	gramo	Wt	
+gram	gulamu	[gram]	fr	y	gramme	Wt	
+gram	gulamu	[gram]	sw	y	gramu	Wt	
+gram	gulamu	[gram]	ha	u	(not listed)	-	
+gram	gulamu	[gram]	yo	y	gíráàmù	Wt	
+gram	gulamu	[gram]	qu	n	k'isura	Wt	native word listed
+kilogram	kilogulamu	[kilogram]	zh	n	千克 (qiānkè), 公斤 (gōngjīn)	Wt	panel: coverage-01/part3/metric-panel.txt (marks derived; median not recorded, implied by the design log's parts, 2026-10-13)
+kilogram	kilogulamu	[kilogram]	ja	y	キログラム (kiroguramu), キロ (kiro)	Wt	
+kilogram	kilogulamu	[kilogram]	ko	y	킬로그램, 키로, 킬로	Wt	
+kilogram	kilogulamu	[kilogram]	vi	y	kilôgam, ki-lô-gam, ki-lô, kí lô	Wt	
+kilogram	kilogulamu	[kilogram]	th	y	กิโลกรัม, กิโล, โล	Wt	
+kilogram	kilogulamu	[kilogram]	id	y	kilogram	Wt	
+kilogram	kilogulamu	[kilogram]	tl	y	libogramo, kilogramo	Wt	
+kilogram	kilogulamu	[kilogram]	hi	y	किलो, किलोग्राम	Wt	
+kilogram	kilogulamu	[kilogram]	bn	y	কিলো, কিলোগ্রাম	Wt	
+kilogram	kilogulamu	[kilogram]	ta	y	கிலோகிராம், கிலோ	Wt	
+kilogram	kilogulamu	[kilogram]	fa	y	کیلوگرم (kilogram)	Wt	
+kilogram	kilogulamu	[kilogram]	ar	y	كِيلوغْرَام, كِيلوجْرَام (kīlōgrām)	Wt	
+kilogram	kilogulamu	[kilogram]	tr	y	kilogram, kilo, okka	Wt	
+kilogram	kilogulamu	[kilogram]	ru	y	килогра́мм, кило́	Wt	
+kilogram	kilogulamu	[kilogram]	es	y	kilogramo, quilogramo	Wt	
+kilogram	kilogulamu	[kilogram]	fr	y	kilogramme, kilo	Wt	
+kilogram	kilogulamu	[kilogram]	sw	y	kilo	Wt	
+kilogram	kilogulamu	[kilogram]	ha	u	(not listed)	-	
+kilogram	kilogulamu	[kilogram]	yo	y	kìlógíráàmù, kílò	Wt	
+kilogram	kilogulamu	[kilogram]	qu	u	(not listed)	-	
+litre	litulu	[litr]	zh	n	升 (shēng), 公升 (gōngshēng)	Wt	panel: coverage-01/part3/metric-panel.txt (marks derived; median not recorded, implied by the design log's parts, 2026-10-13)
+litre	litulu	[litr]	ja	y	リットル (rittoru), ㍑ (rittoru)	Wt	
+litre	litulu	[litr]	ko	y	리터	Wt	
+litre	litulu	[litr]	vi	y	lít	Wt	
+litre	litulu	[litr]	th	y	ลิตร	Wt	
+litre	litulu	[litr]	id	y	liter	Wt	
+litre	litulu	[litr]	tl	y	litro	Wt	
+litre	litulu	[litr]	hi	y	लीटर	Wt	
+litre	litulu	[litr]	bn	y	লিটার	Wt	
+litre	litulu	[litr]	ta	y	லிட்டர்	Wt	
+litre	litulu	[litr]	fa	y	لیتر (litr)	Wt	
+litre	litulu	[litr]	ar	y	لِتْر	Wt	
+litre	litulu	[litr]	tr	y	litre	Wt	
+litre	litulu	[litr]	ru	y	литр	Wt	
+litre	litulu	[litr]	es	y	litro	Wt	
+litre	litulu	[litr]	fr	y	litre	Wt	
+litre	litulu	[litr]	sw	y	lita	Wt	
+litre	litulu	[litr]	ha	u	(not listed)	-	
+litre	litulu	[litr]	yo	y	lítà	Wt	
+litre	litulu	[litr]	qu	u	(not listed)	-	
+kilogram, everyday short form	kilo	[kilo]	zh	n	千克 (qiānkè), 公斤 (gōngjīn)	Wt	panel: coverage-01/part3/metric-panel.txt kilogram block; design log 2026-10-13 (median not recorded; implied)
+kilogram, everyday short form	kilo	[kilo]	ja	y	キログラム (kiroguramu), キロ (kiro)	Wt	
+kilogram, everyday short form	kilo	[kilo]	ko	y	킬로그램, 키로, 킬로	Wt	
+kilogram, everyday short form	kilo	[kilo]	vi	y	kilôgam, ki-lô-gam, ki-lô, kí lô	Wt	
+kilogram, everyday short form	kilo	[kilo]	th	y	กิโลกรัม, กิโล, โล	Wt	
+kilogram, everyday short form	kilo	[kilo]	id	u	kilogram	Wt	short form kilo not listed for this language
+kilogram, everyday short form	kilo	[kilo]	tl	u	libogramo, kilogramo	Wt	short form kilo not listed for this language
+kilogram, everyday short form	kilo	[kilo]	hi	y	किलो, किलोग्राम	Wt	
+kilogram, everyday short form	kilo	[kilo]	bn	y	কিলো, কিলোগ্রাম	Wt	
+kilogram, everyday short form	kilo	[kilo]	ta	y	கிலோகிராம், கிலோ	Wt	
+kilogram, everyday short form	kilo	[kilo]	fa	u	کیلوگرم (kilogram)	Wt	short form kilo not listed for this language
+kilogram, everyday short form	kilo	[kilo]	ar	u	كِيلوغْرَام, كِيلوجْرَام (kīlōgrām)	Wt	short form kilo not listed for this language
+kilogram, everyday short form	kilo	[kilo]	tr	y	kilogram, kilo, okka	Wt	
+kilogram, everyday short form	kilo	[kilo]	ru	y	килогра́мм, кило́	Wt	
+kilogram, everyday short form	kilo	[kilo]	es	u	kilogramo, quilogramo	Wt	short form kilo not listed for this language
+kilogram, everyday short form	kilo	[kilo]	fr	y	kilogramme, kilo	Wt	
+kilogram, everyday short form	kilo	[kilo]	sw	y	kilo	Wt	
+kilogram, everyday short form	kilo	[kilo]	ha	u	(not listed)	-	short form kilo not listed for this language
+kilogram, everyday short form	kilo	[kilo]	yo	y	kìlógíráàmù, kílò	Wt	
+kilogram, everyday short form	kilo	[kilo]	qu	u	(not listed)	-	short form kilo not listed for this language
+.com (read aloud)	komu	[kom]	zh	y	com (read in English)	M	panel: symbols-01/panel.tsv (median from symbols-01/README.md)
+.com (read aloud)	komu	[kom]	ja	y	コム (ドットコム)	M	
+.com (read aloud)	komu	[kom]	ko	y	컴 (닷컴)	Web:hankook, Wp	
+.com (read aloud)	komu	[kom]	vi	y	com (chấm com)	Wp	vi title Công ty dot-com
+.com (read aloud)	komu	[kom]	th	y	คอม	Lz, Wp	
+.com (read aloud)	komu	[kom]	id	y	com	Web:banjirembun, Sub, Wp	
+.com (read aloud)	komu	[kom]	tl	y	com	M	
+.com (read aloud)	komu	[kom]	hi	y	कॉम	Sub, Web:morningside	
+.com (read aloud)	komu	[kom]	bn	y	কম	Wp	bn.wikipedia title .কম
+.com (read aloud)	komu	[kom]	ta	y	காம்	Sub	Sub 1 token (thin)
+.com (read aloud)	komu	[kom]	fa	y	کام	Sub, Wp	
+.com (read aloud)	komu	[kom]	ar	y	كوم	Sub	Sub 648 (beside دوت 691)
+.com (read aloud)	komu	[kom]	tr	y	com [kom]	Web:haberler, Sub, Wp	nokta kom
+.com (read aloud)	komu	[kom]	ru	y	ком (точка ком)	Wp	ru title Дотком; Пузырь доткомов
+.com (read aloud)	komu	[kom]	es	y	com (punto com)	We, Sub	We puntocom /puntoˈkom/
+.com (read aloud)	komu	[kom]	fr	y	com (point com)	Wp, Sub	fr title Entreprise point com
+.com (read aloud)	komu	[kom]	sw	y	com (dotcom)	Lz	
+.com (read aloud)	komu	[kom]	ha	y	com	M	
+.com (read aloud)	komu	[kom]	yo	y	com	M	
+.com (read aloud)	komu	[kom]	qu	y	com (punto com)	M	
+hashtag	asutagu	[haʃtag]	zh	n	话题标签, 井号标签	Wt, Wp	panel: symbols-01/panel.tsv (median from symbols-01/README.md)
+hashtag	asutagu	[haʃtag]	ja	y	ハッシュタグ	Wt, Wp	
+hashtag	asutagu	[haʃtag]	ko	y	해시태그	Wt, Wp	
+hashtag	asutagu	[haʃtag]	vi	y	hashtag	Wp, Sub	vi title Hashtag; Sub 12
+hashtag	asutagu	[haʃtag]	th	y	แฮชแท็ก	Wt, Wp, Sub	
+hashtag	asutagu	[haʃtag]	id	y	hashtag (tagar official)	Sub, Wt	Sub hashtag 34, tagar 0
+hashtag	asutagu	[haʃtag]	tl	y	hashtag	Wp	tl title Hashtag
+hashtag	asutagu	[haʃtag]	hi	y	हैशटैग	M	
+hashtag	asutagu	[haʃtag]	bn	y	হ্যাশট্যাগ	Wp	bn title
+hashtag	asutagu	[haʃtag]	ta	y	hashtag	M	
+hashtag	asutagu	[haʃtag]	fa	y	هشتگ haštag	Wt, Wp, Sub	Sub 57
+hashtag	asutagu	[haʃtag]	ar	y	هاشتاق, هاشتاغ (وسم first)	Wt, M*	
+hashtag	asutagu	[haʃtag]	tr	y	hashtag (etiket)	Wp, Wt	tr title Hashtag; Wt lists only etiket "label" (broad)
+hashtag	asutagu	[haʃtag]	ru	y	хештег, хэштег	Wt, Wp, Sub	Sub 198; метка "mark" is broad
+hashtag	asutagu	[haʃtag]	es	y	hashtag	Wt, Wp, Sub	Sub 380; etiqueta "label" is broad
+hashtag	asutagu	[haʃtag]	fr	y	hashtag (mot-dièse official)	Wt, Wp, Sub	Sub 290
+hashtag	asutagu	[haʃtag]	sw	y	hashtag	M	
+hashtag	asutagu	[haʃtag]	ha	y	hashtag	M	
+hashtag	asutagu	[haʃtag]	yo	y	hashtag	M	
+hashtag	asutagu	[haʃtag]	qu	y	hashtag (Spanish)	M	
+chocolate	tokolatu	[tʃokolat]	zh	y	巧克力 qiǎokèlì	Wt	panel: coverage-01/part3/loanwork/c01.txt
+chocolate	tokolatu	[tʃokolat]	ja	y	チョコレート chokorēto, チョコ	Wt	
+chocolate	tokolatu	[tʃokolat]	ko	y	초콜릿 chokollit	Wt	
+chocolate	tokolatu	[tʃokolat]	vi	y	sô-cô-la	Wt	
+chocolate	tokolatu	[tʃokolat]	th	y	ช็อกโกแลต chɔ́kkoolɛ́ɛt	Wt	
+chocolate	tokolatu	[tʃokolat]	id	y	cokelat, coklat	Wt	
+chocolate	tokolatu	[tʃokolat]	tl	y	tsokolate	Wt	
+chocolate	tokolatu	[tʃokolat]	hi	y	चॉकलेट cŏkleṭ	Wt	
+chocolate	tokolatu	[tʃokolat]	bn	y	চকলেট cɔkleṭ	Wt	
+chocolate	tokolatu	[tʃokolat]	ta	y	சாக்கலேட் cākkalēṭ	Wt	
+chocolate	tokolatu	[tʃokolat]	fa	y	شکلات šokolāt	Wt	
+chocolate	tokolatu	[tʃokolat]	ar	y	شوكولاتة šūkūlāta	Wt	
+chocolate	tokolatu	[tʃokolat]	tr	y	çikolata	Wt	
+chocolate	tokolatu	[tʃokolat]	ru	y	шоколад šokolad	Wt	
+chocolate	tokolatu	[tʃokolat]	es	y	chocolate	Wt	
+chocolate	tokolatu	[tʃokolat]	fr	y	chocolat	Wt	
+chocolate	tokolatu	[tʃokolat]	sw	y	chokoleti	Wt	
+chocolate	tokolatu	[tʃokolat]	ha	y	cakulan	M	
+chocolate	tokolatu	[tʃokolat]	yo	y	ṣokoléètì	M	
+chocolate	tokolatu	[tʃokolat]	qu	y	chocolate (Spanish loan)	M	
+doctor	dokutolu	[doktor]	zh	n	医生 yīshēng	Wt	panel: coverage-01/part3/loanwork/c01.txt
+doctor	dokutolu	[doktor]	ja	n	医者 isha	Wt	
+doctor	dokutolu	[doktor]	ko	n	의사 uisa	Wt	
+doctor	dokutolu	[doktor]	vi	n	bác sĩ (đốc-tờ dated)	Wt	
+doctor	dokutolu	[doktor]	th	n	หมอ mɔ̌ɔ, แพทย์ phɛ̂ɛt	Wt	
+doctor	dokutolu	[doktor]	id	y	dokter	Wt	
+doctor	dokutolu	[doktor]	tl	y	doktor	Wt	
+doctor	dokutolu	[doktor]	hi	y	डॉक्टर ḍŏkṭar	Wt	
+doctor	dokutolu	[doktor]	bn	y	ডাক্তার ḍāktār	Wt	
+doctor	dokutolu	[doktor]	ta	y	டாக்டர் ṭākṭar in speech (formal மருத்துவர் maruttuvar)	Wt, M*	
+doctor	dokutolu	[doktor]	fa	y	دکتر doktor in speech (formal پزشک pezešk)	Wt, M*	
+doctor	dokutolu	[doktor]	ar	y	دكتور duktōr in all dialects (formal طبيب ṭabīb)	Wt, M*	
+doctor	dokutolu	[doktor]	tr	y	doktor	Wt	
+doctor	dokutolu	[doktor]	ru	b	врач vrač; доктор doktor in address and colloquially	Wt	
+doctor	dokutolu	[doktor]	es	b	médico; doctor in address and much of Latin America	Wt, M	
+doctor	dokutolu	[doktor]	fr	b	médecin; docteur in address	Wt	
+doctor	dokutolu	[doktor]	sw	y	daktari	Wt	
+doctor	dokutolu	[doktor]	ha	n	likita	M	
+doctor	dokutolu	[doktor]	yo	y	dókítà	M	
+doctor	dokutolu	[doktor]	qu	n	jampiq	Wt	
+motorcycle	moto	[moto]	zh	y	摩托车 mótuōchē, 摩托 mótuō	Wt	panel: coverage-01/part3/loanwork/c01.txt
+motorcycle	moto	[moto]	ja	n	バイク baiku, オートバイ ōtobai	Wt	
+motorcycle	moto	[moto]	ko	n	오토바이 otobai	Wt	
+motorcycle	moto	[moto]	vi	n	xe máy (mô tô formal)	Wt	
+motorcycle	moto	[moto]	th	y	มอเตอร์ไซค์ mɔɔtəəsai, มอไซค์	Wt, M*	
+motorcycle	moto	[moto]	id	y	sepeda motor, motor	Wt	
+motorcycle	moto	[moto]	tl	y	motorsiklo, motor	Wt	
+motorcycle	moto	[moto]	hi	y	मोटरसाइकिल moṭarsāikil	Wt	
+motorcycle	moto	[moto]	bn	y	মোটরসাইকেল moṭarsāikel	Wt	
+motorcycle	moto	[moto]	ta	b	விசையுந்து visaiyundu (formal); spoken moṭṭār saikkiḷ, bike	Wt, M*	
+motorcycle	moto	[moto]	fa	y	موتور motor, موتورسیکلت motorsiklet	Wt	
+motorcycle	moto	[moto]	ar	b	دراجة نارية darrāja nāriyya; spoken mōtōsīkl	Wt, M*	
+motorcycle	moto	[moto]	tr	y	motosiklet	Wt	
+motorcycle	moto	[moto]	ru	y	мотоцикл mototsikl	Wt	
+motorcycle	moto	[moto]	es	y	moto, motocicleta	Wt	
+motorcycle	moto	[moto]	fr	y	moto	Wt	
+motorcycle	moto	[moto]	sw	n	pikipiki	Wt	
+motorcycle	moto	[moto]	ha	n	babur	Wt	
+motorcycle	moto	[moto]	yo	n	ọ̀kadà, alùpùpù	Wt	
+motorcycle	moto	[moto]	qu	y	moto (Spanish loan)	M	
+television	telebisuyon	[televizjon]	zh	n	电视(机) diànshì(jī)	Wt	panel: coverage-01/part3/loanwork/c01.txt
+television	telebisuyon	[televizjon]	ja	y	テレビ terebi	Wt	
+television	telebisuyon	[televizjon]	ko	y	텔레비전 tellebijeon, 티비 tibi	Wt	
+television	telebisuyon	[televizjon]	vi	y	ti-vi, TV (máy thu hình formal)	Wt, M*	
+television	telebisuyon	[televizjon]	th	b	โทรทัศน์ thoorathát; spoken ทีวี thiiwii very common	Wt, M*	
+television	telebisuyon	[televizjon]	id	y	televisi, TV	Wt	
+television	telebisuyon	[televizjon]	tl	y	telebisyon, TV	Wt	
+television	telebisuyon	[televizjon]	hi	y	टीवी ṭīvī, टेलीविज़न (formal दूरदर्शन dūrdarśan)	Wt, M*	
+television	telebisuyon	[televizjon]	bn	y	টেলিভিশন ṭelibhiśan	Wt	
+television	telebisuyon	[televizjon]	ta	b	தொலைக்காட்சி tolaikkāṭci; spoken TV	Wt, M*	
+television	telebisuyon	[televizjon]	fa	y	تلویزیون televizyon	Wt	
+television	telebisuyon	[televizjon]	ar	y	تلفزيون tilifizyōn, تلفاز tilfāz	Wt	
+television	telebisuyon	[televizjon]	tr	y	televizyon	Wt	
+television	telebisuyon	[televizjon]	ru	y	телевизор televizor	Wt	
+television	telebisuyon	[televizjon]	es	y	televisión, tele	Wt	
+television	telebisuyon	[televizjon]	fr	y	télévision, télé	Wt	
+television	telebisuyon	[televizjon]	sw	y	televisheni (runinga coinage)	Wt, M*	
+television	telebisuyon	[televizjon]	ha	y	talabijin	M	
+television	telebisuyon	[televizjon]	yo	y	tẹlifíṣọ̀n	Wt	
+television	telebisuyon	[televizjon]	qu	y	televisión (Spanish loan)	M	
+coffee	kafe	[kafe]	zh	y	咖啡 kāfēi	Wt	panel: coverage-01/part3/loanwork/c01.txt
+coffee	kafe	[kafe]	ja	y	コーヒー kōhī	Wt	
+coffee	kafe	[kafe]	ko	y	커피 keopi	Wt	
+coffee	kafe	[kafe]	vi	y	cà phê	Wt	
+coffee	kafe	[kafe]	th	y	กาแฟ kaafɛɛ	Wt	
+coffee	kafe	[kafe]	id	y	kopi	Wt	
+coffee	kafe	[kafe]	tl	y	kape	Wt	
+coffee	kafe	[kafe]	hi	y	कॉफ़ी kŏfī	Wt	
+coffee	kafe	[kafe]	bn	y	কফি kɔphi	Wt	
+coffee	kafe	[kafe]	ta	y	காபி kāpi	Wt	
+coffee	kafe	[kafe]	fa	b	قهوه qahve	Wt	
+coffee	kafe	[kafe]	ar	b	قهوة qahwa	Wt	
+coffee	kafe	[kafe]	tr	b	kahve	Wt	
+coffee	kafe	[kafe]	ru	y	кофе kofe	Wt	
+coffee	kafe	[kafe]	es	y	café	Wt	
+coffee	kafe	[kafe]	fr	y	café	Wt	
+coffee	kafe	[kafe]	sw	b	kahawa	Wt	
+coffee	kafe	[kafe]	ha	y	kofi	Wt	
+coffee	kafe	[kafe]	yo	y	kọfí	Wt	
+coffee	kafe	[kafe]	qu	y	kaphiy, café	Wt	
+sweater	suwetalu	[swetar]	zh	n	毛衣 máoyī	Wt	panel: coverage-01/part3/loanwork/c01.txt
+sweater	suwetalu	[swetar]	ja	y	セーター sētā	Wt	
+sweater	suwetalu	[swetar]	ko	y	스웨터 seuweteo	Wt	
+sweater	suwetalu	[swetar]	vi	n	áo len	Wt	
+sweater	suwetalu	[swetar]	th	n	เสื้อกันหนาว sʉ̂a kan nǎaw	M	
+sweater	suwetalu	[swetar]	id	y	switer	Wt	
+sweater	suwetalu	[swetar]	tl	y	sweter	M; verified	verified.tsv: yes (suweter)
+sweater	suwetalu	[swetar]	hi	y	स्वेटर sveṭar	Wt	
+sweater	suwetalu	[swetar]	bn	y	সোয়েটার soeṭār	Wt	
+sweater	suwetalu	[swetar]	ta	y	ஸ்வெட்டர் sveṭṭar	M; verified	verified.tsv: yes (ஸ்வெட்டர் sveṭṭar)
+sweater	suwetalu	[swetar]	fa	n	ژاکت žāket, پلیور poliver	Wt	
+sweater	suwetalu	[swetar]	ar	y	سويتر swītar (Wt); also بلوفر	Wt	
+sweater	suwetalu	[swetar]	tr	b	kazak (süveter less common)	Wt, M*	
+sweater	suwetalu	[swetar]	ru	y	свитер sviter	Wt	
+sweater	suwetalu	[swetar]	es	b	suéter (Mexico, Central America); jersey, buzo, chompa elsewhere	Wt, M	
+sweater	suwetalu	[swetar]	fr	n	pull	Wt	
+sweater	suwetalu	[swetar]	sw	y	sweta	Wt	
+sweater	suwetalu	[swetar]	ha	y	suwaita	M; verified	verified.tsv: yes (suwaita)
+sweater	suwetalu	[swetar]	yo	y	súwẹ́tà	M; verified	verified.tsv: yes (súwẹ́tà)
+sweater	suwetalu	[swetar]	qu	n	chompa (Peru Spanish)	M	
+pajamas	pidama	[pidʒama]	zh	n	睡衣 shuìyī	Wt	panel: coverage-01/part3/loanwork/c02.txt
+pajamas	pidama	[pidʒama]	ja	y	パジャマ pajama	Wt	
+pajamas	pidama	[pidʒama]	ko	b	잠옷 jamot; 파자마 pajama also	Wt, M*	
+pajamas	pidama	[pidʒama]	vi	b	đồ ngủ; pijama also	Wt	
+pajamas	pidama	[pidʒama]	th	n	ชุดนอน chút nɔɔn	Wt	
+pajamas	pidama	[pidʒama]	id	y	piyama	Wt	
+pajamas	pidama	[pidʒama]	tl	y	padyama, pandiyama	Wt	
+pajamas	pidama	[pidʒama]	hi	y	पाजामा pājāmā	Wt	
+pajamas	pidama	[pidʒama]	bn	y	পায়জামা pāyjāmā	Wt	
+pajamas	pidama	[pidʒama]	ta	y	பைஜாமா paijāmā	M	
+pajamas	pidama	[pidʒama]	fa	y	پیژامه pižāme	Wt	
+pajamas	pidama	[pidʒama]	ar	y	بيجاما bījāma (formal منامة manāma)	Wt, M*	
+pajamas	pidama	[pidʒama]	tr	y	pijama	Wt	
+pajamas	pidama	[pidʒama]	ru	y	пижама pižama	Wt	
+pajamas	pidama	[pidʒama]	es	y	pijama	Wt	
+pajamas	pidama	[pidʒama]	fr	y	pyjama	Wt	
+pajamas	pidama	[pidʒama]	sw	b	(no data; pajama likely)	M	
+pajamas	pidama	[pidʒama]	ha	n	(no data)	M	
+pajamas	pidama	[pidʒama]	yo	n	(no data)	M	
+pajamas	pidama	[pidʒama]	qu	y	pijama (Spanish loan)	M	
+radio	ladiyo	[radio]	zh	n	收音机 shōuyīnjī	Wt	panel: coverage-01/part3/loanwork/c02.txt
+radio	ladiyo	[radio]	ja	y	ラジオ rajio	Wt	
+radio	ladiyo	[radio]	ko	y	라디오 radio	Wt	
+radio	ladiyo	[radio]	vi	y	ra-đi-ô	Wt	
+radio	ladiyo	[radio]	th	n	วิทยุ witthayú	M	
+radio	ladiyo	[radio]	id	y	radio	Wt	
+radio	ladiyo	[radio]	tl	y	radyo	Wt	
+radio	ladiyo	[radio]	hi	y	रेडियो reḍiyo	Wt	
+radio	ladiyo	[radio]	bn	y	রেডিও reḍio	M	
+radio	ladiyo	[radio]	ta	b	வானொலி vāṉoli; spoken "radio"	Wt, M	
+radio	ladiyo	[radio]	fa	y	رادیو rādiyo	Wt	
+radio	ladiyo	[radio]	ar	y	راديو rādyū (formal مذياع miḏyāʿ)	Wt	
+radio	ladiyo	[radio]	tr	y	radyo	Wt	
+radio	ladiyo	[radio]	ru	y	радио radio	Wt	
+radio	ladiyo	[radio]	es	y	radio	Wt	
+radio	ladiyo	[radio]	fr	y	radio	Wt	
+radio	ladiyo	[radio]	sw	y	redio	Wt	
+radio	ladiyo	[radio]	ha	y	rediyo	Wt	
+radio	ladiyo	[radio]	yo	y	rédíò	M	
+radio	ladiyo	[radio]	qu	y	radio (Spanish loan)	M	
+helicopter	elikoputelu	[helikopter]	zh	n	直升机 zhíshēngjī	Wt	panel: coverage-01/part3/loanwork/c02.txt
+helicopter	elikoputelu	[helikopter]	ja	y	ヘリコプター herikoputā, ヘリ	Wt	
+helicopter	elikoputelu	[helikopter]	ko	y	헬리콥터 hellikopteo, 헬기	Wt	
+helicopter	elikoputelu	[helikopter]	vi	n	trực thăng	Wt	
+helicopter	elikoputelu	[helikopter]	th	y	เฮลิคอปเตอร์ helikhɔ́ptəə	Wt	
+helicopter	elikoputelu	[helikopter]	id	y	helikopter	Wt	
+helicopter	elikoputelu	[helikopter]	tl	y	helikopter	Wt	
+helicopter	elikoputelu	[helikopter]	hi	y	हेलिकॉप्टर helikŏpṭar	Wt	
+helicopter	elikoputelu	[helikopter]	bn	y	হেলিকপ্টার helikɔpṭār	Wt	
+helicopter	elikoputelu	[helikopter]	ta	b	உலங்கு வானூர்தி ulangu vāṉūrti (coinage); spoken helicopter	Wt, M	
+helicopter	elikoputelu	[helikopter]	fa	y	هلی‌کوپتر helikopter (official بالگرد bālgard)	Wt	
+helicopter	elikoputelu	[helikopter]	ar	b	مروحية marwaḥiyya; هليكوبتر helikobtar also	Wt	
+helicopter	elikoputelu	[helikopter]	tr	y	helikopter	Wt	
+helicopter	elikoputelu	[helikopter]	ru	n	вертолёт vertolët	Wt	
+helicopter	elikoputelu	[helikopter]	es	y	helicóptero	Wt	
+helicopter	elikoputelu	[helikopter]	fr	y	hélicoptère	Wt	
+helicopter	elikoputelu	[helikopter]	sw	y	helikopta	Wt	
+helicopter	elikoputelu	[helikopter]	ha	n	jirgi mai saukar ungulu	M	
+helicopter	elikoputelu	[helikopter]	yo	b	(no data; hẹlikópítà likely)	M	
+helicopter	elikoputelu	[helikopter]	qu	b	pillwinkumpa (Wt); helicóptero in bilingual speech	Wt, M	
+tractor	tulakutalu	[traktar]	zh	b	拖拉机 tuōlājī (sound-and-meaning loan, "drag-pull machine")	Wt	panel: coverage-01/part3/loanwork/c02.txt
+tractor	tulakutalu	[traktar]	ja	y	トラクター torakutā	Wt	
+tractor	tulakutalu	[traktar]	ko	y	트랙터 teuraekteo	Wt	
+tractor	tulakutalu	[traktar]	vi	n	máy kéo "pulling machine"	Wt	
+tractor	tulakutalu	[traktar]	th	y	แทรกเตอร์ thrɛ́ktəə	Wt	
+tractor	tulakutalu	[traktar]	id	y	traktor	Wt	
+tractor	tulakutalu	[traktar]	tl	b	guyod (Wt); traktora	Wt, M	
+tractor	tulakutalu	[traktar]	hi	y	ट्रैक्टर ṭraikṭar	Wt	
+tractor	tulakutalu	[traktar]	bn	y	ট্র্যাক্টর ṭryākṭar	Wt	
+tractor	tulakutalu	[traktar]	ta	y	டிராக்டர் ṭirākṭar	M	
+tractor	tulakutalu	[traktar]	fa	y	تراکتور terāktor	Wt	
+tractor	tulakutalu	[traktar]	ar	b	جرار jarrār; تراكتور tarāktūr	Wt	
+tractor	tulakutalu	[traktar]	tr	y	traktör	Wt	
+tractor	tulakutalu	[traktar]	ru	y	трактор traktor	Wt	
+tractor	tulakutalu	[traktar]	es	y	tractor	Wt	
+tractor	tulakutalu	[traktar]	fr	y	tracteur	Wt	
+tractor	tulakutalu	[traktar]	sw	y	trekta	Wt	
+tractor	tulakutalu	[traktar]	ha	y	tarakta	M	
+tractor	tulakutalu	[traktar]	yo	n	katakata	Wt	
+tractor	tulakutalu	[traktar]	qu	y	tractor (Spanish loan)	M	
+lamp	lanpa	[lampa]	zh	n	灯 dēng	Wt	panel: coverage-01/part3/loanwork/c02.txt
+lamp	lanpa	[lampa]	ja	b	ランプ ranpu (oil or indicator lamp; desk lamp スタンド, ライト)	Wt, M*	
+lamp	lanpa	[lampa]	ko	b	램프 raempeu; 스탠드, 전등	Wt, M*	
+lamp	lanpa	[lampa]	vi	n	đèn	Wt	
+lamp	lanpa	[lampa]	th	n	โคมไฟ khoom fai	Wt	
+lamp	lanpa	[lampa]	id	y	lampu	Wt	
+lamp	lanpa	[lampa]	tl	y	lampara	Wt	
+lamp	lanpa	[lampa]	hi	y	लैंप laimp (also चिराग़ cirāġ, दीया)	Wt, M*	
+lamp	lanpa	[lampa]	bn	n	বাতি bāti; ল্যাম্প lyāmp	M; verified	verified.tsv: no (ল্যাম্প lyāmp); recorded b -> n
+lamp	lanpa	[lampa]	ta	n	விளக்கு viḷakku	M	
+lamp	lanpa	[lampa]	fa	y	لامپ lāmp, چراغ čerāġ	Wt	
+lamp	lanpa	[lampa]	ar	b	مصباح miṣbāḥ; لمبة lamba (bulb)	Wt	
+lamp	lanpa	[lampa]	tr	y	lamba	Wt	
+lamp	lanpa	[lampa]	ru	y	лампа lampa	Wt	
+lamp	lanpa	[lampa]	es	y	lámpara	Wt	
+lamp	lanpa	[lampa]	fr	y	lampe	Wt	
+lamp	lanpa	[lampa]	sw	n	taa	Wt	
+lamp	lanpa	[lampa]	ha	n	fitila	Wt	
+lamp	lanpa	[lampa]	yo	n	àtùpà	M	
+lamp	lanpa	[lampa]	qu	y	lámpara (Spanish loan)	M; verified	verified.tsv: yes (lampara)
+penguin	penguwin	[peŋgwin]	zh	n	企鹅 qǐ'é	Wt	panel: coverage-01/part3/loanwork/c02.txt
+penguin	penguwin	[peŋgwin]	ja	y	ペンギン pengin	Wt	
+penguin	penguwin	[peŋgwin]	ko	y	펭귄 penggwin	Wt	
+penguin	penguwin	[peŋgwin]	vi	n	chim cánh cụt "stub-winged bird"	Wt	
+penguin	penguwin	[peŋgwin]	th	y	เพนกวิน phenkwin	Wt	
+penguin	penguwin	[peŋgwin]	id	y	pinguin, penguin (purist angsa gempal)	Wt, M*	
+penguin	penguwin	[peŋgwin]	tl	y	pingguwino	Wt	
+penguin	penguwin	[peŋgwin]	hi	y	पेंगुइन penguin	Wt	
+penguin	penguwin	[peŋgwin]	bn	y	পেঙ্গুইন penguin	Wt	
+penguin	penguwin	[peŋgwin]	ta	y	பென்குயின் penkuyin	Wt	
+penguin	penguwin	[peŋgwin]	fa	y	پنگوئن panguan	Wt	
+penguin	penguwin	[peŋgwin]	ar	n	بطريق biṭrīq	Wt	
+penguin	penguwin	[peŋgwin]	tr	y	penguen	Wt	
+penguin	penguwin	[peŋgwin]	ru	y	пингвин pingvin	Wt	
+penguin	penguwin	[peŋgwin]	es	y	pingüino	Wt	
+penguin	penguwin	[peŋgwin]	fr	b	manchot (pingouin "auk", popularly also penguin)	Wt	
+penguin	penguwin	[peŋgwin]	sw	y	pengwini	Wt	
+penguin	penguwin	[peŋgwin]	ha	n	(no data)	M	
+penguin	penguwin	[peŋgwin]	yo	y	pẹ́ńgúìnì	Wt	
+penguin	penguwin	[peŋgwin]	qu	y	pingüino (Spanish loan)	M	
+tomato	tomate	[tomate]	zh	n	西红柿 xīhóngshì, 番茄 fānqié	Wt	panel: coverage-01/part3/loanwork/c03.txt
+tomato	tomate	[tomate]	ja	y	トマト tomato	Wt	
+tomato	tomate	[tomate]	ko	y	토마토 tomato	Wt	
+tomato	tomate	[tomate]	vi	n	cà chua	Wt	
+tomato	tomate	[tomate]	th	n	มะเขือเทศ mákhʉ̌a thêet	Wt	
+tomato	tomate	[tomate]	id	y	tomat	Wt	
+tomato	tomate	[tomate]	tl	n	kamatis	Wt	
+tomato	tomate	[tomate]	hi	y	टमाटर ṭamāṭar	Wt	
+tomato	tomate	[tomate]	bn	y	টমেটো ṭomeṭo (older বিলাতী বেগুন)	Wt, M*	
+tomato	tomate	[tomate]	ta	n	தக்காளி takkāḷi	Wt	
+tomato	tomate	[tomate]	fa	n	گوجه(فرنگی) gowje(farangi)	Wt	
+tomato	tomate	[tomate]	ar	y	طماطم ṭamāṭim (Egypt, Gulf); بندورة banadūra (Levant)	Wt	
+tomato	tomate	[tomate]	tr	y	domates	Wt	
+tomato	tomate	[tomate]	ru	n	помидор pomidor (томат formal)	Wt	
+tomato	tomate	[tomate]	es	y	tomate, jitomate	Wt	
+tomato	tomate	[tomate]	fr	y	tomate	Wt	
+tomato	tomate	[tomate]	sw	n	nyanya	Wt	
+tomato	tomate	[tomate]	ha	y	tumatir	M; verified	verified.tsv: yes (tumatur, tumatir)
+tomato	tomate	[tomate]	yo	y	tòmátì	Wt	
+tomato	tomate	[tomate]	qu	b	chilltu (Wt); tomate in bilingual speech	Wt, M	
+garage	galasu	[garaʒ]	zh	n	车库 chēkù	Wt	panel: coverage-01/part3/loanwork/c03.txt
+garage	galasu	[garaʒ]	ja	b	車庫 shako; ガレージ garēji for a house garage	Wt, M*	
+garage	galasu	[garaʒ]	ko	n	차고 chago	Wt	
+garage	galasu	[garaʒ]	vi	b	nhà để xe; ga-ra (repair garage)	Wt	
+garage	galasu	[garaʒ]	th	n	โรงรถ roong rót	Wt	
+garage	galasu	[garaʒ]	id	y	garasi	Wt	
+garage	galasu	[garaʒ]	tl	y	garahe	Wt	
+garage	galasu	[garaʒ]	hi	y	गेराज gerāj	Wt	
+garage	galasu	[garaʒ]	bn	y	গ্যারেজ gyārej	Wt	
+garage	galasu	[garaʒ]	ta	b	(no Wt; spoken கேரேஜ் kērēj)	M	
+garage	galasu	[garaʒ]	fa	y	گاراژ gārāž	Wt	
+garage	galasu	[garaʒ]	ar	b	مرآب mirʾāb; colloquial garāž	Wt, M	
+garage	galasu	[garaʒ]	tr	y	garaj	Wt	
+garage	galasu	[garaʒ]	ru	y	гараж garaž	Wt	
+garage	galasu	[garaʒ]	es	y	garaje, cochera	Wt	
+garage	galasu	[garaʒ]	fr	y	garage	Wt	
+garage	galasu	[garaʒ]	sw	y	gereji	M	
+garage	galasu	[garaʒ]	ha	b	(no data; gareji likely)	M	
+garage	galasu	[garaʒ]	yo	b	(no data; gáréèjì likely)	M	
+garage	galasu	[garaʒ]	qu	b	awtu jallch'ana wasi (Wt); garaje in bilingual speech	Wt, M	
+cookie	bisukuwitu	[biskwit]	zh	n	饼干 bǐnggān (曲奇 qūqí for cookies)	Wt	panel: coverage-01/part3/loanwork/c03.txt
+cookie	bisukuwitu	[biskwit]	ja	y	ビスケット bisuketto, クッキー kukkī	Wt	
+cookie	bisukuwitu	[biskwit]	ko	b	쿠키 kuki, 비스킷 biseukit	Wt	
+cookie	bisukuwitu	[biskwit]	vi	b	bánh quy (< bích quy < French biscuit)	Wt	
+cookie	bisukuwitu	[biskwit]	th	y	บิสกิต bìtsakìt, คุกกี้ khúkkîi	Wt	
+cookie	bisukuwitu	[biskwit]	id	y	biskuit	Wt	
+cookie	bisukuwitu	[biskwit]	tl	y	biskwit	Wt	
+cookie	bisukuwitu	[biskwit]	hi	y	बिस्कुट biskuṭ	Wt	
+cookie	bisukuwitu	[biskwit]	bn	y	বিস্কুট biskuṭ	Wt	
+cookie	bisukuwitu	[biskwit]	ta	y	பிஸ்கட் biskaṭ	Wt	
+cookie	bisukuwitu	[biskwit]	fa	y	بیسکوئیت biskuit	Wt	
+cookie	bisukuwitu	[biskwit]	ar	y	بسكويت baskawīt	Wt	
+cookie	bisukuwitu	[biskwit]	tr	y	bisküvi	Wt	
+cookie	bisukuwitu	[biskwit]	ru	n	печенье pečen'e	Wt	
+cookie	bisukuwitu	[biskwit]	es	n	galleta	Wt	
+cookie	bisukuwitu	[biskwit]	fr	y	biscuit	Wt	
+cookie	bisukuwitu	[biskwit]	sw	y	biskuti	Wt	
+cookie	bisukuwitu	[biskwit]	ha	y	biskit, fanke	Wt (cookie)	
+cookie	bisukuwitu	[biskwit]	yo	y	bisikíìtì	M	
+cookie	bisukuwitu	[biskwit]	qu	n	galleta (Spanish loan)	M	
+sandwich	sanduwitu	[sandwitʃ]	zh	y	三明治 sānmíngzhì	Wt	panel: coverage-01/part3/loanwork/c03.txt
+sandwich	sanduwitu	[sandwitʃ]	ja	y	サンドイッチ sandoitchi	Wt	
+sandwich	sanduwitu	[sandwitʃ]	ko	y	샌드위치 saendeuwichi	Wt	
+sandwich	sanduwitu	[sandwitʃ]	vi	b	bánh mì (kẹp); xăng-uých	Wt	
+sandwich	sanduwitu	[sandwitʃ]	th	y	แซนด์วิช sɛɛnwít	Wt	
+sandwich	sanduwitu	[sandwitʃ]	id	b	roti lapis, roti apit; sandwich also used	Wt, M	
+sandwich	sanduwitu	[sandwitʃ]	tl	y	sandwich	M	
+sandwich	sanduwitu	[sandwitʃ]	hi	y	सैंडविच saiṇḍvic	Wt	
+sandwich	sanduwitu	[sandwitʃ]	bn	y	স্যান্ডউইচ syānḍuic	Wt	
+sandwich	sanduwitu	[sandwitʃ]	ta	y	சாண்ட்விச் sāṇṭvic	M	
+sandwich	sanduwitu	[sandwitʃ]	fa	y	ساندویچ sāndevič	Wt	
+sandwich	sanduwitu	[sandwitʃ]	ar	y	ساندويتش sandawitš (formal شطيرة šaṭīra)	Wt	
+sandwich	sanduwitu	[sandwitʃ]	tr	y	sandviç	Wt	
+sandwich	sanduwitu	[sandwitʃ]	ru	b	бутерброд buterbrod (open); сэндвич sendvič	Wt	
+sandwich	sanduwitu	[sandwitʃ]	es	y	sándwich, sánguche	Wt	
+sandwich	sanduwitu	[sandwitʃ]	fr	y	sandwich	Wt	
+sandwich	sanduwitu	[sandwitʃ]	sw	y	sandwichi	M	
+sandwich	sanduwitu	[sandwitʃ]	ha	n	(no data)	M	
+sandwich	sanduwitu	[sandwitʃ]	yo	y	san-wiiṣi	Wt	
+sandwich	sanduwitu	[sandwitʃ]	qu	y	sánguche (Spanish loan)	M	
+pizza	pisa	[pitsa]	zh	y	比萨 bǐsà, 披萨 pīsà	Wt	panel: coverage-01/part3/loanwork/c03.txt
+pizza	pisa	[pitsa]	ja	y	ピザ piza	Wt	
+pizza	pisa	[pitsa]	ko	y	피자 pija	Wt	
+pizza	pisa	[pitsa]	vi	y	pizza	Wt	
+pizza	pisa	[pitsa]	th	y	พิซซ่า phítsâa	Wt	
+pizza	pisa	[pitsa]	id	y	piza, pizza	Wt	
+pizza	pisa	[pitsa]	tl	y	pitsa	Wt	
+pizza	pisa	[pitsa]	hi	y	पिज़्ज़ा pizzā	Wt	
+pizza	pisa	[pitsa]	bn	y	পিৎজা pitjā	Wt	
+pizza	pisa	[pitsa]	ta	y	பீட்ஸா pīṭsā	Wt	
+pizza	pisa	[pitsa]	fa	y	پیتزا pitzā	Wt	
+pizza	pisa	[pitsa]	ar	y	بيتزا bītzā	Wt	
+pizza	pisa	[pitsa]	tr	y	pizza	Wt	
+pizza	pisa	[pitsa]	ru	y	пицца pitstsa	Wt	
+pizza	pisa	[pitsa]	es	y	pizza	Wt	
+pizza	pisa	[pitsa]	fr	y	pizza	Wt	
+pizza	pisa	[pitsa]	sw	y	piza	M	
+pizza	pisa	[pitsa]	ha	y	fiza	M	
+pizza	pisa	[pitsa]	yo	y	písà	M	
+pizza	pisa	[pitsa]	qu	y	pizza (Spanish loan)	M	
+sauce	sosu	[sos]	zh	n	酱 jiàng, 酱汁 jiàngzhī (沙司 shāsī rare)	Wt	panel: coverage-01/part3/loanwork/c04.txt
+sauce	sosu	[sos]	ja	y	ソース sōsu	Wt	
+sauce	sosu	[sos]	ko	y	소스 soseu	Wt	
+sauce	sosu	[sos]	vi	y	xốt (nước chấm dipping sauce)	Wt	
+sauce	sosu	[sos]	th	y	ซอส sɔ́ɔt	Wt	
+sauce	sosu	[sos]	id	y	saus	Wt	
+sauce	sosu	[sos]	tl	b	sarsa (< Spanish salsa)	Wt	
+sauce	sosu	[sos]	hi	y	सॉस sŏs (चटनी chaṭnī is chutney)	Wt, M*	
+sauce	sosu	[sos]	bn	y	সস sɔs	Wt, M*	
+sauce	sosu	[sos]	ta	y	(no Wt; spoken சாஸ் sās)	M	
+sauce	sosu	[sos]	fa	y	سس sos	Wt	
+sauce	sosu	[sos]	ar	b	صلصة ṣalṣa (< Italian salsa)	Wt	
+sauce	sosu	[sos]	tr	y	sos (salça = paste)	Wt	
+sauce	sosu	[sos]	ru	y	соус sous	Wt	
+sauce	sosu	[sos]	es	b	salsa	Wt	
+sauce	sosu	[sos]	fr	y	sauce	Wt	
+sauce	sosu	[sos]	sw	n	mchuzi	M	
+sauce	sosu	[sos]	ha	n	miya	M	
+sauce	sosu	[sos]	yo	n	ọbẹ̀	M	
+sauce	sosu	[sos]	qu	b	salsa, uchu (Spanish loan or native chili sauce)	M	
+sugar	sukalu	[sukar]	zh	n	糖 táng	Wt	panel: coverage-01/part3/loanwork/c04.txt
+sugar	sukalu	[sukar]	ja	n	砂糖 satō	Wt	
+sugar	sukalu	[sukar]	ko	n	설탕 seoltang	Wt	
+sugar	sukalu	[sukar]	vi	n	đường	Wt	
+sugar	sukalu	[sukar]	th	n	น้ำตาล námtaan	Wt	
+sugar	sukalu	[sukar]	id	n	gula	Wt	
+sugar	sukalu	[sukar]	tl	y	asukal	Wt	
+sugar	sukalu	[sukar]	hi	b	चीनी cīnī; शक्कर šakkar also common	Wt	
+sugar	sukalu	[sukar]	bn	n	চিনি cini	Wt	
+sugar	sukalu	[sukar]	ta	y	சர்க்கரை sarkkarai, சக்கரை	Wt	
+sugar	sukalu	[sukar]	fa	y	شکر šekar	Wt	
+sugar	sukalu	[sukar]	ar	y	سكر sukkar	Wt	
+sugar	sukalu	[sukar]	tr	y	şeker	Wt	
+sugar	sukalu	[sukar]	ru	y	сахар saxar	Wt	
+sugar	sukalu	[sukar]	es	y	azúcar	Wt	
+sugar	sukalu	[sukar]	fr	y	sucre	Wt	
+sugar	sukalu	[sukar]	sw	y	sukari	Wt	
+sugar	sukalu	[sukar]	ha	y	sukari	Wt	
+sugar	sukalu	[sukar]	yo	y	ṣúgà (< English)	M	
+sugar	sukalu	[sukar]	qu	b	misk'i (Wt "sweet"); azúcar in bilingual speech	Wt, M	
+toast	tosutu	[tost]	zh	b	烤面包 kǎo miànbāo; 吐司 tǔsī	Wt	panel: coverage-01/part3/loanwork/c04.txt
+toast	tosutu	[tost]	ja	y	トースト tōsuto	Wt	
+toast	tosutu	[tost]	ko	y	토스트 toseuteu	Wt	
+toast	tosutu	[tost]	vi	n	bánh mì nướng	Wt	
+toast	tosutu	[tost]	th	n	ขนมปังปิ้ง khanǒm pang pîng	Wt	
+toast	tosutu	[tost]	id	n	roti bakar, roti panggang	Wt	
+toast	tosutu	[tost]	tl	n	tinapay (toasted bread, no loan)	M	
+toast	tosutu	[tost]	hi	y	टोस्ट ṭosṭ	M; verified	verified.tsv: yes (टोस्ट ṭosṭ)
+toast	tosutu	[tost]	bn	y	টোস্ট ṭosṭ	M; verified	verified.tsv: yes (টোস্ট ṭosṭ)
+toast	tosutu	[tost]	ta	b	(no data; ṭōsṭ likely)	M; verified	verified.tsv: yes (டோஸ்ட் ṭōsṭ)
+toast	tosutu	[tost]	fa	y	نان تست nān-e tost	Wt	
+toast	tosutu	[tost]	ar	b	خبز محمص xubz muḥammaṣ; tōst colloquial	M; verified	verified.tsv: yes (توست tōst)
+toast	tosutu	[tost]	tr	b	kızarmış ekmek (tost = toasted sandwich)	Wt	
+toast	tosutu	[tost]	ru	b	гренки grenki; тост	Wt	
+toast	tosutu	[tost]	es	b	pan tostado, tostada	Wt	
+toast	tosutu	[tost]	fr	b	pain grillé; toast	Wt	
+toast	tosutu	[tost]	sw	y	tosti	M; verified	verified.tsv: yes (tosti, tosi)
+toast	tosutu	[tost]	ha	n	(no data)	M	
+toast	tosutu	[tost]	yo	n	(no data)	M	
+toast	tosutu	[tost]	qu	n	(no data)	M	
+balcony	balukon	[balkon]	zh	n	阳台 yángtái	Wt	panel: coverage-01/part3/loanwork/c04.txt
+balcony	balukon	[balkon]	ja	y	バルコニー barukonī, ベランダ beranda	Wt	
+balcony	balukon	[balkon]	ko	y	발코니 balkoni	Wt	
+balcony	balukon	[balkon]	vi	y	ban công (< French balcon)	Wt	
+balcony	balukon	[balkon]	th	n	ระเบียง rabiang	Wt	
+balcony	balukon	[balkon]	id	y	balkon	Wt	
+balcony	balukon	[balkon]	tl	y	balkonahe	Wt	
+balcony	balukon	[balkon]	hi	b	छज्जा chajjā; spoken बालकनी bālkanī	Wt, M	
+balcony	balukon	[balkon]	bn	y	ব্যালকনি byālkani	Wt	
+balcony	balukon	[balkon]	ta	y	பால்கனி pālkaṉi	Wt	
+balcony	balukon	[balkon]	fa	y	بالکن bālkon	Wt	
+balcony	balukon	[balkon]	ar	b	شرفة šurfa; colloquial balkōna	Wt, M	
+balcony	balukon	[balkon]	tr	y	balkon	Wt	
+balcony	balukon	[balkon]	ru	y	балкон balkon	Wt	
+balcony	balukon	[balkon]	es	y	balcón	Wt	
+balcony	balukon	[balkon]	fr	y	balcon	Wt	
+balcony	balukon	[balkon]	sw	n	roshani	Wt	
+balcony	balukon	[balkon]	ha	n	(no data)	M	
+balcony	balukon	[balkon]	yo	n	(no data)	M	
+balcony	balukon	[balkon]	qu	y	balcón (Spanish loan)	M	
+circus	silukasu	[sirkas]	zh	n	马戏团 mǎxìtuán "horse-show troupe"	Wt	panel: coverage-01/part3/loanwork/c04.txt
+circus	silukasu	[sirkas]	ja	y	サーカス sākasu	Wt	
+circus	silukasu	[sirkas]	ko	y	서커스 seokeoseu	Wt	
+circus	silukasu	[sirkas]	vi	y	xiếc (< French cirque)	Wt	
+circus	silukasu	[sirkas]	th	n	ละครสัตว์ lakhɔɔn sàt "animal theatre"	Wt	
+circus	silukasu	[sirkas]	id	y	sirkus	Wt	
+circus	silukasu	[sirkas]	tl	y	sirko	Wt	
+circus	silukasu	[sirkas]	hi	y	सर्कस sarkas	Wt	
+circus	silukasu	[sirkas]	bn	y	সার্কাস sārkās	Wt	
+circus	silukasu	[sirkas]	ta	b	வட்டரங்கு vaṭṭaraṅku (coinage); spoken sarkas	Wt, M	
+circus	silukasu	[sirkas]	fa	y	سیرک sirk, سرکس serkes	Wt	
+circus	silukasu	[sirkas]	ar	y	سيرك sirk	Wt	
+circus	silukasu	[sirkas]	tr	y	sirk	Wt	
+circus	silukasu	[sirkas]	ru	y	цирк tsirk	Wt	
+circus	silukasu	[sirkas]	es	y	circo	Wt	
+circus	silukasu	[sirkas]	fr	y	cirque	Wt	
+circus	silukasu	[sirkas]	sw	y	sarakasi	M	
+circus	silukasu	[sirkas]	ha	n	(no data)	M	
+circus	silukasu	[sirkas]	yo	n	(no data)	M	
+circus	silukasu	[sirkas]	qu	y	circo (Spanish loan)	M	
+T-shirt	tisalutu	[tiʃart]	zh	y	T恤(衫) tī-xù(shān)	Wt	panel: coverage-01/part3/loanwork/c04.txt
+T-shirt	tisalutu	[tiʃart]	ja	y	Tシャツ tī-shatsu	Wt	
+T-shirt	tisalutu	[tiʃart]	ko	y	티셔츠 tisyeocheu	Wt	
+T-shirt	tisalutu	[tiʃart]	vi	n	áo thun	Wt	
+T-shirt	tisalutu	[tiʃart]	th	b	เสื้อยืด sʉ̂a yʉ̂ʉt; ทีเชิร์ต thii-chəət	Wt	
+T-shirt	tisalutu	[tiʃart]	id	n	kaus	Wt	
+T-shirt	tisalutu	[tiʃart]	tl	b	t-shirt, kamiseta	M	
+T-shirt	tisalutu	[tiʃart]	hi	y	टी-शर्ट ṭī-śarṭ	Wt	
+T-shirt	tisalutu	[tiʃart]	bn	y	টি-শার্ট ṭi-śārṭ	Wt	
+T-shirt	tisalutu	[tiʃart]	ta	b	(coinage கொசுவுசட்டை); spoken T-shirt	Wt, M	
+T-shirt	tisalutu	[tiʃart]	fa	y	تی‌شرت tišert	Wt	
+T-shirt	tisalutu	[tiʃart]	ar	y	تي شيرت tī šīrt	Wt	
+T-shirt	tisalutu	[tiʃart]	tr	y	tişört	Wt	
+T-shirt	tisalutu	[tiʃart]	ru	n	футболка futbolka	Wt	
+T-shirt	tisalutu	[tiʃart]	es	n	camiseta, playera	Wt	
+T-shirt	tisalutu	[tiʃart]	fr	y	T-shirt	Wt	
+T-shirt	tisalutu	[tiʃart]	sw	y	tisheti	Wt	
+T-shirt	tisalutu	[tiʃart]	ha	n	(no data)	M	
+T-shirt	tisalutu	[tiʃart]	yo	n	(no data)	M	
+T-shirt	tisalutu	[tiʃart]	qu	n	(Spanish polo, camiseta)	M	
+video	bideyo	[video]	zh	n	视频 shìpín	Wt	panel: coverage-01/part3/loanwork/c05.txt
+video	bideyo	[video]	ja	b	動画 dōga (online); ビデオ bideo	Wt	
+video	bideyo	[video]	ko	b	영상 yeongsang; 비디오 bidio	Wt	
+video	bideyo	[video]	vi	y	video, vi-đê-ô	Wt, M*	
+video	bideyo	[video]	th	y	วิดีโอ widiioo	Wt	
+video	bideyo	[video]	id	y	video	Wt	
+video	bideyo	[video]	tl	y	video	M	
+video	bideyo	[video]	hi	y	वीडियो vīḍiyo	Wt	
+video	bideyo	[video]	bn	y	ভিডিও bhiḍio	Wt	
+video	bideyo	[video]	ta	y	வீடியோ vīṭiyō	M	
+video	bideyo	[video]	fa	y	ویدیو vidiyo	Wt	
+video	bideyo	[video]	ar	y	فيديو fīdyū	Wt	
+video	bideyo	[video]	tr	y	video	Wt	
+video	bideyo	[video]	ru	y	видео video	Wt	
+video	bideyo	[video]	es	y	vídeo, video	Wt	
+video	bideyo	[video]	fr	y	vidéo	Wt	
+video	bideyo	[video]	sw	b	filamu (Wt); video in speech	Wt, M	
+video	bideyo	[video]	ha	y	bidiyo	M	
+video	bideyo	[video]	yo	y	fídíò	M	
+video	bideyo	[video]	qu	y	video (Spanish loan)	M	
+bank (financial)	banki	[banki]	zh	n	银行 yínháng	Wt	panel: coverage-01/part3/loanwork/c05.txt
+bank (financial)	banki	[banki]	ja	n	銀行 ginkō	Wt	
+bank (financial)	banki	[banki]	ko	n	은행 eunhaeng	Wt	
+bank (financial)	banki	[banki]	vi	n	ngân hàng (nhà băng dated)	Wt	
+bank (financial)	banki	[banki]	th	n	ธนาคาร thanaakhaan	Wt	
+bank (financial)	banki	[banki]	id	y	bank	Wt	
+bank (financial)	banki	[banki]	tl	y	bangko	Wt	
+bank (financial)	banki	[banki]	hi	y	बैंक baiṅk	Wt	
+bank (financial)	banki	[banki]	bn	y	ব্যাংক byāṅk	Wt	
+bank (financial)	banki	[banki]	ta	y	வங்கி vaṅki	Wt	
+bank (financial)	banki	[banki]	fa	y	بانک bānk	Wt	
+bank (financial)	banki	[banki]	ar	y	بنك bank, مصرف maṣrif	Wt	
+bank (financial)	banki	[banki]	tr	y	banka	Wt	
+bank (financial)	banki	[banki]	ru	y	банк bank	Wt	
+bank (financial)	banki	[banki]	es	y	banco	Wt	
+bank (financial)	banki	[banki]	fr	y	banque	Wt	
+bank (financial)	banki	[banki]	sw	y	benki	Wt	
+bank (financial)	banki	[banki]	ha	y	banki	Wt	
+bank (financial)	banki	[banki]	yo	y	báńkì	M	
+bank (financial)	banki	[banki]	qu	y	banco (Spanish loan)	M	
+office	ofisu	[ofis]	zh	n	办公室 bàngōngshì	Wt	panel: coverage-01/part3/loanwork/c05.txt
+office	ofisu	[ofis]	ja	b	事務所 jimusho; オフィス ofisu	Wt	
+office	ofisu	[ofis]	ko	b	사무실 samusil; 오피스 opiseu	Wt	
+office	ofisu	[ofis]	vi	n	văn phòng	Wt	
+office	ofisu	[ofis]	th	b	สำนักงาน samnákngaan; spoken ออฟฟิศ ɔ́ɔfít	Wt	
+office	ofisu	[ofis]	id	n	kantor	Wt	
+office	ofisu	[ofis]	tl	y	opisina	Wt	
+office	ofisu	[ofis]	hi	b	कार्यालय kāryālay (formal); spoken ऑफ़िस ŏfis	Wt, M	
+office	ofisu	[ofis]	bn	y	অফিস ophis, দপ্তর daptar	Wt	
+office	ofisu	[ofis]	ta	b	அலுவலகம் aluvalakam; spoken ஆபீஸ் āpīs	Wt, M	
+office	ofisu	[ofis]	fa	n	دفتر daftar (آفیس āfis in Afghanistan)	Wt	
+office	ofisu	[ofis]	ar	n	مكتب maktab	Wt	
+office	ofisu	[ofis]	tr	y	ofis, büro	Wt, M*	
+office	ofisu	[ofis]	ru	y	офис ofis, контора	Wt	
+office	ofisu	[ofis]	es	y	oficina	Wt	
+office	ofisu	[ofis]	fr	n	bureau	Wt	
+office	ofisu	[ofis]	sw	y	ofisi, afisi	Wt	
+office	ofisu	[ofis]	ha	y	ofis	M; verified	verified.tsv: yes (ofis, ofishi)
+office	ofisu	[ofis]	yo	y	ọ́fíìsì	M; verified	verified.tsv: yes (ọfiisi)
+office	ofisu	[ofis]	qu	u	oficina (Spanish loan)	M; verified	verified.tsv: unknown; recorded y -> u
+program (software; broadcast programme)	pulogulamu	[program]	zh	n	程序 chéngxù, 应用	Wt	panel: coverage-01/part3/loanwork/c05.txt
+program (software; broadcast programme)	pulogulamu	[program]	ja	y	プログラム puroguramu	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	ko	y	프로그램 peurogeuraem	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	vi	n	chương trình	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	th	y	โปรแกรม proograem	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	id	y	program	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	tl	y	programa	M; verified	verified.tsv: yes (programa, program)
+program (software; broadcast programme)	pulogulamu	[program]	hi	y	प्रोग्राम progrām	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	bn	y	প্রোগ্রাম progrām	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	ta	u	நிரல் niral; spoken program	M; verified	verified.tsv: unknown; recorded b -> u
+program (software; broadcast programme)	pulogulamu	[program]	fa	b	برنامه barnāme; پروگرام porogrām	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	ar	n	برنامج barnāmaj (< Persian barnāme)	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	tr	y	program	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	ru	y	программа programma	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	es	y	programa	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	fr	y	programme	Wt	
+program (software; broadcast programme)	pulogulamu	[program]	sw	y	programu	M; verified	verified.tsv: yes (programu)
+program (software; broadcast programme)	pulogulamu	[program]	ha	n	(no data)	M	
+program (software; broadcast programme)	pulogulamu	[program]	yo	n	(no data)	M	
+program (software; broadcast programme)	pulogulamu	[program]	qu	n	programa (Spanish loan)	M; verified	verified.tsv: no (programa); recorded y -> n
+technology	tekunolodi	[teknolodʒi]	zh	n	技术 jìshù, 科技	Wt	panel: coverage-01/part3/loanwork/c05.txt
+technology	tekunolodi	[teknolodʒi]	ja	b	技術 gijutsu; テクノロジー tekunorojī	Wt	
+technology	tekunolodi	[teknolodʒi]	ko	b	기술 gisul; 테크놀로지	Wt	
+technology	tekunolodi	[teknolodʒi]	vi	n	công nghệ, kỹ thuật	Wt	
+technology	tekunolodi	[teknolodʒi]	th	y	เทคโนโลยี theknooloyii	Wt	
+technology	tekunolodi	[teknolodʒi]	id	y	teknologi	Wt	
+technology	tekunolodi	[teknolodʒi]	tl	y	teknolohiya	Wt	
+technology	tekunolodi	[teknolodʒi]	hi	y	टैक्नोलॉजी ṭaiknolojī (formal प्रौद्योगिकी)	Wt	
+technology	tekunolodi	[teknolodʒi]	bn	b	প্রযুক্তি prajukti; spoken technology	Wt, M	
+technology	tekunolodi	[teknolodʒi]	ta	n	தொழில்நுட்பம் toḻilnuṭpam	Wt	
+technology	tekunolodi	[teknolodʒi]	fa	y	تکنولوژی teknoloži (official فناوری fanāvari)	Wt, M*	
+technology	tekunolodi	[teknolodʒi]	ar	y	تكنولوجيا teknolōjyā, تقنية taqniya	Wt	
+technology	tekunolodi	[teknolodʒi]	tr	y	teknoloji	Wt	
+technology	tekunolodi	[teknolodʒi]	ru	y	технология texnologija	Wt	
+technology	tekunolodi	[teknolodʒi]	es	y	tecnología	Wt	
+technology	tekunolodi	[teknolodʒi]	fr	y	technologie	Wt	
+technology	tekunolodi	[teknolodʒi]	sw	y	teknolojia	Wt	
+technology	tekunolodi	[teknolodʒi]	ha	n	fasaha	M	
+technology	tekunolodi	[teknolodʒi]	yo	n	ìmọ̀-ẹ̀rọ	M	
+technology	tekunolodi	[teknolodʒi]	qu	y	tecnología (Spanish loan)	M	
+computer	konpuyutalu	[kompjutar]	zh	n	电脑 diànnǎo	Wt	panel: coverage-01/part3/loanwork/c05.txt
+computer	konpuyutalu	[kompjutar]	ja	y	コンピューター konpyūtā, パソコン	Wt	
+computer	konpuyutalu	[kompjutar]	ko	y	컴퓨터 keompyuteo	Wt	
+computer	konpuyutalu	[kompjutar]	vi	n	máy tính	Wt	
+computer	konpuyutalu	[kompjutar]	th	y	คอมพิวเตอร์ khɔmphiwtəə, คอม	Wt	
+computer	konpuyutalu	[kompjutar]	id	y	komputer	Wt	
+computer	konpuyutalu	[kompjutar]	tl	y	kompyuter	Wt	
+computer	konpuyutalu	[kompjutar]	hi	y	कंप्यूटर kampyūṭar (formal संगणक)	Wt, M*	
+computer	konpuyutalu	[kompjutar]	bn	y	কম্পিউটার kampiuṭār	Wt	
+computer	konpuyutalu	[kompjutar]	ta	y	கணினி kaṇiṉi, கம்ப்யூட்டர் kampyūṭṭar	Wt, M*	
+computer	konpuyutalu	[kompjutar]	fa	y	کامپیوتر kāmpyuter (official رایانه rāyāne)	Wt	
+computer	konpuyutalu	[kompjutar]	ar	y	كمبيوتر kambyūtar (formal حاسوب ḥāsūb)	Wt, M*	
+computer	konpuyutalu	[kompjutar]	tr	n	bilgisayar	Wt	
+computer	konpuyutalu	[kompjutar]	ru	y	компьютер komp'juter	Wt	
+computer	konpuyutalu	[kompjutar]	es	y	computadora (Latin America), ordenador (Spain)	Wt, M*	
+computer	konpuyutalu	[kompjutar]	fr	n	ordinateur	Wt	
+computer	konpuyutalu	[kompjutar]	sw	y	kompyuta	Wt	
+computer	konpuyutalu	[kompjutar]	ha	y	kwamfuta (Wt na'ura "machine")	M*	
+computer	konpuyutalu	[kompjutar]	yo	y	kọ̀ǹpútà	Wt	
+computer	konpuyutalu	[kompjutar]	qu	b	antañiqiq (coinage); computadora in bilingual speech	Wt, M	
+hotel	otelu	[hotel]	zh	n	酒店 jiǔdiàn, 宾馆 bīnguǎn	Wt	panel: coverage-01/part3/loanwork/c05.txt
+hotel	otelu	[hotel]	ja	y	ホテル hoteru	Wt	
+hotel	otelu	[hotel]	ko	y	호텔 hotel	Wt	
+hotel	otelu	[hotel]	vi	n	khách sạn	Wt	
+hotel	otelu	[hotel]	th	n	โรงแรม roongrɛɛm	Wt	
+hotel	otelu	[hotel]	id	y	hotel	Wt	
+hotel	otelu	[hotel]	tl	y	hotel	Wt	
+hotel	otelu	[hotel]	hi	y	होटल hoṭal	Wt	
+hotel	otelu	[hotel]	bn	y	হোটেল hoṭel	Wt	
+hotel	otelu	[hotel]	ta	y	ஹோட்டல் hōṭṭal	Wt	
+hotel	otelu	[hotel]	fa	y	هتل hotel	Wt	
+hotel	otelu	[hotel]	ar	b	فندق funduq; colloquial أوتيل ōtēl	Wt	
+hotel	otelu	[hotel]	tr	y	otel	Wt	
+hotel	otelu	[hotel]	ru	b	гостиница gostinica; отель otel'	Wt	
+hotel	otelu	[hotel]	es	y	hotel	Wt	
+hotel	otelu	[hotel]	fr	y	hôtel	Wt	
+hotel	otelu	[hotel]	sw	y	hoteli (also "restaurant")	Wt	
+hotel	otelu	[hotel]	ha	y	hotel, otal	Wt	
+hotel	otelu	[hotel]	yo	y	hòtẹ́ẹ̀lì	M	
+hotel	otelu	[hotel]	qu	y	hotel (Spanish loan)	M	
+machine	masina	[maʃina]	zh	n	机器 jīqì	Wt	panel: coverage-01/part3/loanwork/c06.txt
+machine	masina	[maʃina]	ja	n	機械 kikai (マシン mashin specialised)	Wt	
+machine	masina	[maʃina]	ko	n	기계 gigye	Wt	
+machine	masina	[maʃina]	vi	n	máy	Wt	
+machine	masina	[maʃina]	th	n	เครื่อง khrʉ̂ang	Wt	
+machine	masina	[maʃina]	id	y	mesin	Wt	
+machine	masina	[maʃina]	tl	y	makina	Wt	
+machine	masina	[maʃina]	hi	b	यंत्र yantra (formal); spoken मशीन mašīn	Wt, M	
+machine	masina	[maʃina]	bn	y	মেশিন mešin	Wt	
+machine	masina	[maʃina]	ta	b	எந்திரம் enthiram; spoken மெஷின்	Wt, M	
+machine	masina	[maʃina]	fa	y	ماشین māšin (also "car")	Wt	
+machine	masina	[maʃina]	ar	y	آلة āla; ماكينة mākīna	Wt	
+machine	masina	[maʃina]	tr	y	makine	Wt	
+machine	masina	[maʃina]	ru	y	машина mašina (also "car")	Wt	
+machine	masina	[maʃina]	es	y	máquina	Wt	
+machine	masina	[maʃina]	fr	y	machine	Wt	
+machine	masina	[maʃina]	sw	y	mashine	Wt	
+machine	masina	[maʃina]	ha	y	mashin	M	
+machine	masina	[maʃina]	yo	n	ẹ̀rọ	M	
+machine	masina	[maʃina]	qu	y	máquina (Spanish loan)	M	
+beer	biyalu	[biar]	zh	b	啤酒 píjiǔ (sound loan pí + "liquor")	Wt	panel: coverage-01/part3/loanwork/c06.txt
+beer	biyalu	[biar]	ja	y	ビール bīru	Wt	
+beer	biyalu	[biar]	ko	n	맥주 maekju	Wt	
+beer	biyalu	[biar]	vi	y	bia	Wt	
+beer	biyalu	[biar]	th	y	เบียร์ bia	Wt	
+beer	biyalu	[biar]	id	y	bir	Wt	
+beer	biyalu	[biar]	tl	n	serbesa	Wt	
+beer	biyalu	[biar]	hi	y	बियर biyar	Wt	
+beer	biyalu	[biar]	bn	y	বিয়ার biyār	Wt	
+beer	biyalu	[biar]	ta	y	பியர் piyar	Wt	
+beer	biyalu	[biar]	fa	n	آبجو ābjow "barley water"	Wt	
+beer	biyalu	[biar]	ar	y	بيرة bīra	Wt	
+beer	biyalu	[biar]	tr	y	bira	Wt	
+beer	biyalu	[biar]	ru	n	пиво pivo	Wt	
+beer	biyalu	[biar]	es	n	cerveza	Wt	
+beer	biyalu	[biar]	fr	y	bière	Wt	
+beer	biyalu	[biar]	sw	y	bia (pombe = any brew)	Wt	
+beer	biyalu	[biar]	ha	n	giya	Wt	
+beer	biyalu	[biar]	yo	y	bíà	Wt	
+beer	biyalu	[biar]	qu	n	sirwisa (< cerveza)	Wt	
+code (computer code; a cipher)	kodu	[kod]	zh	n	代码 dàimǎ	Wt	panel: coverage-01/part3/loanwork/c06.txt
+code (computer code; a cipher)	kodu	[kod]	ja	y	コード kōdo	Wt	
+code (computer code; a cipher)	kodu	[kod]	ko	y	코드 kodeu	Wt	
+code (computer code; a cipher)	kodu	[kod]	vi	n	mã	Wt	
+code (computer code; a cipher)	kodu	[kod]	th	y	โค้ด khóot	Wt	
+code (computer code; a cipher)	kodu	[kod]	id	y	kode	M; verified	verified.tsv: yes (kode)
+code (computer code; a cipher)	kodu	[kod]	tl	y	code, koda	M; verified	verified.tsv: yes (code)
+code (computer code; a cipher)	kodu	[kod]	hi	y	कोड koḍ	Wt	
+code (computer code; a cipher)	kodu	[kod]	bn	y	কোড koḍ	M; verified	verified.tsv: yes (কোড koḍ)
+code (computer code; a cipher)	kodu	[kod]	ta	n	(no Wt; குறியீடு kuṟiyīṭu; spoken code)	M; verified	verified.tsv: no; recorded b -> n
+code (computer code; a cipher)	kodu	[kod]	fa	y	کد kod	M; verified	verified.tsv: yes (کد kod)
+code (computer code; a cipher)	kodu	[kod]	ar	y	كود kōd	Wt	
+code (computer code; a cipher)	kodu	[kod]	tr	y	kod	Wt	
+code (computer code; a cipher)	kodu	[kod]	ru	y	код kod	Wt	
+code (computer code; a cipher)	kodu	[kod]	es	y	código	Wt	
+code (computer code; a cipher)	kodu	[kod]	fr	y	code	Wt	
+code (computer code; a cipher)	kodu	[kod]	sw	n	kodi	M; verified	verified.tsv: no (kodi); recorded y -> n
+code (computer code; a cipher)	kodu	[kod]	ha	n	(no data)	M	
+code (computer code; a cipher)	kodu	[kod]	yo	n	(no data)	M	
+code (computer code; a cipher)	kodu	[kod]	qu	u	código (Spanish loan)	M; verified	verified.tsv: unknown; recorded y -> u
+website	sayitu	[sait]	zh	n	网站 wǎngzhàn	Wt	panel: coverage-01/part3/loanwork/c06.txt
+website	sayitu	[sait]	ja	y	(ウェブ)サイト (webu)saito	Wt	
+website	sayitu	[sait]	ko	y	웹사이트 wepsaiteu, 사이트	Wt	
+website	sayitu	[sait]	vi	b	trang web "web page"	Wt	
+website	sayitu	[sait]	th	y	เว็บไซต์ wépsái	Wt	
+website	sayitu	[sait]	id	y	situs (web)	Wt	
+website	sayitu	[sait]	tl	y	websayt	Wt	
+website	sayitu	[sait]	hi	y	वेबसाइट vebsāiṭ (formal जालस्थल)	Wt, M*	
+website	sayitu	[sait]	bn	y	ওয়েবসাইট oyebsāiṭ	Wt	
+website	sayitu	[sait]	ta	n	வலைத்தளம் valaittaḷam	Wt	
+website	sayitu	[sait]	fa	b	وبگاه vebgāh (official); colloquial سایت sāyt	Wt, M	
+website	sayitu	[sait]	ar	n	موقع mawqiʿ "site" (calque)	Wt	
+website	sayitu	[sait]	tr	y	web sitesi	Wt	
+website	sayitu	[sait]	ru	y	сайт sajt	Wt	
+website	sayitu	[sait]	es	y	sitio web	Wt	
+website	sayitu	[sait]	fr	y	site (web)	Wt	
+website	sayitu	[sait]	sw	n	tovuti	Wt	
+website	sayitu	[sait]	ha	n	(no data)	M	
+website	sayitu	[sait]	yo	n	(no data)	M	
+website	sayitu	[sait]	qu	b	sitio web (Spanish loan)	M	
+bomb	bonba	[bomba]	zh	n	炸弹 zhàdàn	Wt	panel: coverage-01/part3/loanwork/c06.txt
+bomb	bonba	[bomba]	ja	n	爆弾 bakudan	Wt	
+bomb	bonba	[bomba]	ko	n	폭탄 poktan	Wt	
+bomb	bonba	[bomba]	vi	y	bom	Wt	
+bomb	bonba	[bomba]	th	b	ระเบิด rabə̀ət; บอมบ์ bɔm	Wt	
+bomb	bonba	[bomba]	id	y	bom	Wt	
+bomb	bonba	[bomba]	tl	y	bomba	Wt	
+bomb	bonba	[bomba]	hi	y	बम bam	Wt	
+bomb	bonba	[bomba]	bn	y	বোমা bomā	Wt	
+bomb	bonba	[bomba]	ta	n	வெடிகுண்டு veṭikuṇṭu	Wt	
+bomb	bonba	[bomba]	fa	y	بمب bomb	Wt	
+bomb	bonba	[bomba]	ar	n	قنبلة qunbula	Wt	
+bomb	bonba	[bomba]	tr	y	bomba	Wt	
+bomb	bonba	[bomba]	ru	y	бомба bomba	Wt	
+bomb	bonba	[bomba]	es	y	bomba	Wt	
+bomb	bonba	[bomba]	fr	y	bombe	Wt	
+bomb	bonba	[bomba]	sw	y	bomu	Wt	
+bomb	bonba	[bomba]	ha	y	bam	M	
+bomb	bonba	[bomba]	yo	y	bọ́m̀bù	Wt	
+bomb	bonba	[bomba]	qu	y	bomba (Spanish loan)	M	
+design	disayin	[dizain]	zh	n	设计 shèjì	Wt	panel: coverage-01/part3/loanwork/c07.txt
+design	disayin	[dizain]	ja	y	デザイン dezain	Wt	
+design	disayin	[dizain]	ko	y	디자인 dijain	Wt	
+design	disayin	[dizain]	vi	n	thiết kế	Wt	
+design	disayin	[dizain]	th	n	การออกแบบ kaan ɔ̀ɔk bɛ̀ɛp	Wt	
+design	disayin	[dizain]	id	y	desain	Wt	
+design	disayin	[dizain]	tl	y	disenyo (Wt coinage antangan)	M; verified	verified.tsv: yes (disenyo)
+design	disayin	[dizain]	hi	y	डिज़ाइन dizāin	Wt	
+design	disayin	[dizain]	bn	y	ডিজাইন ḍijāin	M; verified	verified.tsv: yes (ডিজাইন ḍijāin)
+design	disayin	[dizain]	ta	u	வடிவமைப்பு vaṭivamaippu; spoken design	M; verified	verified.tsv: unknown; recorded b -> u
+design	disayin	[dizain]	fa	b	طراحی tarrāhi; دیزاین dizāyn	Wt	
+design	disayin	[dizain]	ar	b	تصميم taṣmīm; ديزاين dīzāyn	Wt	
+design	disayin	[dizain]	tr	b	tasarım; dizayn	Wt	
+design	disayin	[dizain]	ru	y	дизайн dizajn	Wt	
+design	disayin	[dizain]	es	y	diseño	Wt	
+design	disayin	[dizain]	fr	y	design (conception)	Wt	
+design	disayin	[dizain]	sw	n	usanifu	M	
+design	disayin	[dizain]	ha	n	(no data)	M	
+design	disayin	[dizain]	yo	n	(no data)	M	
+design	disayin	[dizain]	qu	n	diseño (Spanish loan)	M; verified	verified.tsv: no (diseño); recorded y -> n
+captain	kaputan	[kaptan]	zh	n	船长 chuánzhǎng; 队长 duìzhǎng (team)	Wt	panel: coverage-01/part3/loanwork/c07.txt
+captain	kaputan	[kaptan]	ja	b	船長 senchō; キャプテン kyaputen (team)	Wt	
+captain	kaputan	[kaptan]	ko	b	선장 seonjang; 캡틴 kaeptin (team)	Wt	
+captain	kaputan	[kaptan]	vi	n	thuyền trưởng	Wt	
+captain	kaputan	[kaptan]	th	y	กัปตัน kàptan	Wt	
+captain	kaputan	[kaptan]	id	y	kapten	Wt	
+captain	kaputan	[kaptan]	tl	y	kapitan	M	
+captain	kaputan	[kaptan]	hi	y	कप्तान kaptān	Wt	
+captain	kaputan	[kaptan]	bn	y	ক্যাপ্টেন kyāpṭen	Wt	
+captain	kaputan	[kaptan]	ta	y	கேப்டன் kēpṭaṉ	M	
+captain	kaputan	[kaptan]	fa	y	کاپیتان kāpitān, ناخدا nāxodā	Wt	
+captain	kaputan	[kaptan]	ar	y	قبطان qubṭān; كبتن kabtin (team)	Wt	
+captain	kaputan	[kaptan]	tr	y	kaptan	Wt	
+captain	kaputan	[kaptan]	ru	y	капитан kapitan	Wt	
+captain	kaputan	[kaptan]	es	y	capitán	Wt	
+captain	kaputan	[kaptan]	fr	y	capitaine	Wt	
+captain	kaputan	[kaptan]	sw	y	nahodha (ship); kapteni (team)	Wt	
+captain	kaputan	[kaptan]	ha	y	kyaftin	M	
+captain	kaputan	[kaptan]	yo	n	(no data)	M	
+captain	kaputan	[kaptan]	qu	y	capitán (Spanish loan)	M	
+model (simplified representation; fashion model)	modelu	[model]	zh	n	模型 móxíng; 模特 mótè (fashion)	Wt	panel: coverage-01/part3/loanwork/c07.txt
+model (simplified representation; fashion model)	modelu	[model]	ja	y	モデル moderu (模型 mokei for a physical model)	Wt, M*	
+model (simplified representation; fashion model)	modelu	[model]	ko	y	모델 model	Wt	
+model (simplified representation; fashion model)	modelu	[model]	vi	n	mô hình; người mẫu (fashion)	Wt	
+model (simplified representation; fashion model)	modelu	[model]	th	b	แบบจำลอง bɛ̀ɛp jamloong; โมเดล moodeen	Wt	
+model (simplified representation; fashion model)	modelu	[model]	id	y	model	Wt	
+model (simplified representation; fashion model)	modelu	[model]	tl	y	modelo (Wt coinage hulwaran)	M; verified	verified.tsv: yes (modelo)
+model (simplified representation; fashion model)	modelu	[model]	hi	y	मॉडल mŏḍal	Wt	
+model (simplified representation; fashion model)	modelu	[model]	bn	y	মডেল maḍel	M; verified	verified.tsv: yes (মডেল maḍel)
+model (simplified representation; fashion model)	modelu	[model]	ta	n	மாதிரி mātiri	M	
+model (simplified representation; fashion model)	modelu	[model]	fa	y	مدل model	Wt	
+model (simplified representation; fashion model)	modelu	[model]	ar	b	نموذج namūḏaj; موديل mūdīl (fashion, car)	Wt	
+model (simplified representation; fashion model)	modelu	[model]	tr	y	model	M; verified	verified.tsv: yes (model)
+model (simplified representation; fashion model)	modelu	[model]	ru	y	модель model'	Wt	
+model (simplified representation; fashion model)	modelu	[model]	es	y	modelo	Wt	
+model (simplified representation; fashion model)	modelu	[model]	fr	y	modèle	Wt	
+model (simplified representation; fashion model)	modelu	[model]	sw	y	modeli	Wt	
+model (simplified representation; fashion model)	modelu	[model]	ha	n	(no data)	M	
+model (simplified representation; fashion model)	modelu	[model]	yo	n	(no data)	M	
+model (simplified representation; fashion model)	modelu	[model]	qu	u	modelo (Spanish loan)	M; verified	verified.tsv: unknown; recorded y -> u
+virus	bilusu	[virus]	zh	n	病毒 bìngdú	Wt	panel: coverage-01/part3/loanwork/c07.txt
+virus	bilusu	[virus]	ja	y	ウイルス uirusu	Wt	
+virus	bilusu	[virus]	ko	y	바이러스 baireoseu	Wt	
+virus	bilusu	[virus]	vi	y	vi-rút	Wt	
+virus	bilusu	[virus]	th	y	ไวรัส wairát	Wt, M*	
+virus	bilusu	[virus]	id	y	virus	Wt	
+virus	bilusu	[virus]	tl	y	birus, virus	Wt	
+virus	bilusu	[virus]	hi	y	वाइरस vāiras (formal विषाणु)	Wt, M*	
+virus	bilusu	[virus]	bn	y	ভাইরাস bhāiras	Wt	
+virus	bilusu	[virus]	ta	b	தீ நுண்மம் (coinage); spoken vairas	Wt, M	
+virus	bilusu	[virus]	fa	y	ویروس virus	Wt	
+virus	bilusu	[virus]	ar	y	فيروس fīrūs	Wt	
+virus	bilusu	[virus]	tr	y	virüs	Wt	
+virus	bilusu	[virus]	ru	y	вирус virus	Wt	
+virus	bilusu	[virus]	es	y	virus	Wt	
+virus	bilusu	[virus]	fr	y	virus	Wt	
+virus	bilusu	[virus]	sw	y	virusi	Wt	
+virus	bilusu	[virus]	ha	n	ƙwayar cuta	M	
+virus	bilusu	[virus]	yo	n	kòkòrò àrùn	M	
+virus	bilusu	[virus]	qu	b	añaw (Wt); virus in bilingual speech	Wt, M	
+restaurant	lesutolan	[restoran]	zh	n	餐厅 cāntīng, 饭馆	Wt	panel: coverage-01/part3/loanwork/c07.txt
+restaurant	lesutolan	[restoran]	ja	y	レストラン resutoran	Wt	
+restaurant	lesutolan	[restoran]	ko	b	식당 sikdang; 레스토랑 (Western)	Wt	
+restaurant	lesutolan	[restoran]	vi	n	nhà hàng, quán ăn	Wt	
+restaurant	lesutolan	[restoran]	th	n	ร้านอาหาร ráan aahǎan	Wt	
+restaurant	lesutolan	[restoran]	id	y	restoran, rumah makan	Wt	
+restaurant	lesutolan	[restoran]	tl	y	restawran	Wt	
+restaurant	lesutolan	[restoran]	hi	y	रेस्तरां restarā̃ (formal भोजनालय)	Wt, M*	
+restaurant	lesutolan	[restoran]	bn	y	রেস্টুরেন্ট resṭurenṭ	Wt	
+restaurant	lesutolan	[restoran]	ta	n	உணவகம் uṇavakam, ஓட்டல் ōṭṭal	Wt	
+restaurant	lesutolan	[restoran]	fa	y	رستوران restorān	Wt	
+restaurant	lesutolan	[restoran]	ar	n	مطعم maṭʿam	Wt	
+restaurant	lesutolan	[restoran]	tr	y	restoran, lokanta	Wt	
+restaurant	lesutolan	[restoran]	ru	y	ресторан restoran	Wt	
+restaurant	lesutolan	[restoran]	es	y	restaurante	Wt	
+restaurant	lesutolan	[restoran]	fr	y	restaurant	Wt	
+restaurant	lesutolan	[restoran]	sw	n	mkahawa, hoteli	Wt	
+restaurant	lesutolan	[restoran]	ha	n	gidan abinci	M	
+restaurant	lesutolan	[restoran]	yo	n	ilé-oúnjẹ "food house"	Wt	
+restaurant	lesutolan	[restoran]	qu	b	mikhuna wasi "food house" (Wt); restaurante in bilingual speech	Wt, M	
+league (sports)	liga	[liga]	zh	n	联赛 liánsài, 联盟	Wt	panel: coverage-01/part3/loanwork/c07.txt
+league (sports)	liga	[liga]	ja	y	リーグ rīgu	Wt	
+league (sports)	liga	[liga]	ko	y	리그 rigeu	Wt	
+league (sports)	liga	[liga]	vi	n	giải, hạng	Wt	
+league (sports)	liga	[liga]	th	y	ลีก líik	Wt	
+league (sports)	liga	[liga]	id	y	liga	Wt	
+league (sports)	liga	[liga]	tl	y	liga	Wt	
+league (sports)	liga	[liga]	hi	y	लीग līg	Wt	
+league (sports)	liga	[liga]	bn	y	লিগ lig	Wt	
+league (sports)	liga	[liga]	ta	y	லீக் līk	M	
+league (sports)	liga	[liga]	fa	y	لیگ lig	Wt	
+league (sports)	liga	[liga]	ar	n	دوري dawrī	Wt	
+league (sports)	liga	[liga]	tr	y	lig	Wt	
+league (sports)	liga	[liga]	ru	y	лига liga	Wt	
+league (sports)	liga	[liga]	es	y	liga	Wt	
+league (sports)	liga	[liga]	fr	y	ligue	Wt	
+league (sports)	liga	[liga]	sw	y	ligi	Wt	
+league (sports)	liga	[liga]	ha	n	(no data)	M	
+league (sports)	liga	[liga]	yo	n	(no data)	M	
+league (sports)	liga	[liga]	qu	y	liga (Spanish loan)	M	
+album	alubumu	[album]	zh	n	相册 xiàngcè, 专辑 zhuānjí (music)	Wt	panel: coverage-01/part3/loanwork/c07.txt
+album	alubumu	[album]	ja	y	アルバム arubamu	Wt	
+album	alubumu	[album]	ko	y	앨범 aelbeom	Wt	
+album	alubumu	[album]	vi	y	an-bom, album	Wt	
+album	alubumu	[album]	th	y	อัลบั้ม anlabâm	Wt	
+album	alubumu	[album]	id	y	album	Wt	
+album	alubumu	[album]	tl	y	album	Wt	
+album	alubumu	[album]	hi	y	अलबम albam	Wt	
+album	alubumu	[album]	bn	y	অ্যালবাম ælbām	Wt	
+album	alubumu	[album]	ta	y	ஆல்பம் ālbam	M	
+album	alubumu	[album]	fa	y	آلبوم ālbom	Wt	
+album	alubumu	[album]	ar	y	ألبوم albūm	Wt	
+album	alubumu	[album]	tr	y	albüm	Wt	
+album	alubumu	[album]	ru	y	альбом al'bom	Wt	
+album	alubumu	[album]	es	y	álbum	Wt	
+album	alubumu	[album]	fr	y	album	Wt	
+album	alubumu	[album]	sw	y	albamu	M	
+album	alubumu	[album]	ha	n	(no data)	M	
+album	alubumu	[album]	yo	n	(no data)	M	
+album	alubumu	[album]	qu	y	álbum (Spanish loan)	M	
+robot	lobotu	[robot]	zh	n	机器人 jīqìrén "machine person"	Wt	panel: coverage-01/part3/loanwork/c08.txt
+robot	lobotu	[robot]	ja	y	ロボット robotto	Wt	
+robot	lobotu	[robot]	ko	y	로봇 robot	Wt	
+robot	lobotu	[robot]	vi	y	rô-bốt, người máy	Wt, M*	
+robot	lobotu	[robot]	th	b	หุ่นยนต์ hùn yon; โรบอต roobɔ̀t	Wt	
+robot	lobotu	[robot]	id	y	robot	Wt	
+robot	lobotu	[robot]	tl	y	robot	Wt	
+robot	lobotu	[robot]	hi	y	रोबोट robot	Wt	
+robot	lobotu	[robot]	bn	y	রোবট robaṭ	Wt	
+robot	lobotu	[robot]	ta	y	ரோபோ robo	Wt	
+robot	lobotu	[robot]	fa	y	روبات robāt	Wt	
+robot	lobotu	[robot]	ar	y	روبوت rūbūt	Wt	
+robot	lobotu	[robot]	tr	y	robot	Wt	
+robot	lobotu	[robot]	ru	y	робот robot	Wt	
+robot	lobotu	[robot]	es	y	robot	Wt	
+robot	lobotu	[robot]	fr	y	robot	Wt	
+robot	lobotu	[robot]	sw	y	roboti	Wt	
+robot	lobotu	[robot]	ha	n	saƙago	Wt	
+robot	lobotu	[robot]	yo	b	(no data)	M	
+robot	lobotu	[robot]	qu	b	antapunqu (coinage); robot in bilingual speech	Wt, M	
+pound (the currency)	pawundu	[paund]	zh	y	镑 bàng	Wt	panel: coverage-01/part3/loanwork/c08.txt
+pound (the currency)	pawundu	[paund]	ja	y	ポンド pondo	Wt	
+pound (the currency)	pawundu	[paund]	ko	y	파운드 paundeu	Wt	
+pound (the currency)	pawundu	[paund]	vi	y	bảng	Wt	
+pound (the currency)	pawundu	[paund]	th	y	ปอนด์ pɔn	Wt	
+pound (the currency)	pawundu	[paund]	id	y	paun	Wt	
+pound (the currency)	pawundu	[paund]	tl	n	libra	M	
+pound (the currency)	pawundu	[paund]	hi	y	पाउंड pāuṇḍ	Wt	
+pound (the currency)	pawundu	[paund]	bn	y	পাউন্ড pāunḍ	Wt	
+pound (the currency)	pawundu	[paund]	ta	y	பவுண்டு pavuṇṭu	M	
+pound (the currency)	pawundu	[paund]	fa	y	پوند pond	Wt	
+pound (the currency)	pawundu	[paund]	ar	n	جنيه junayh (< guinea)	Wt	
+pound (the currency)	pawundu	[paund]	tr	n	sterlin, pound	M	
+pound (the currency)	pawundu	[paund]	ru	b	фунт funt	Wt	
+pound (the currency)	pawundu	[paund]	es	n	libra	Wt	
+pound (the currency)	pawundu	[paund]	fr	n	livre	Wt	
+pound (the currency)	pawundu	[paund]	sw	y	pauni	Wt	
+pound (the currency)	pawundu	[paund]	ha	b	fam	Wt	
+pound (the currency)	pawundu	[paund]	yo	b	pọ́n-ùn	M	
+pound (the currency)	pawundu	[paund]	qu	n	libra (Spanish loan)	M	
+cigarette	sigaletu	[sigaret]	zh	n	香烟 xiāngyān	Wt	panel: coverage-01/part3/loanwork/c08.txt
+cigarette	sigaletu	[sigaret]	ja	n	タバコ tabako	Wt	
+cigarette	sigaletu	[sigaret]	ko	n	담배 dambae	Wt	
+cigarette	sigaletu	[sigaret]	vi	n	thuốc lá	Wt	
+cigarette	sigaletu	[sigaret]	th	n	บุหรี่ burìi	Wt	
+cigarette	sigaletu	[sigaret]	id	n	rokok	Wt	
+cigarette	sigaletu	[sigaret]	tl	y	sigarilyo, yosi	Wt	
+cigarette	sigaletu	[sigaret]	hi	y	सिगरेट sigreṭ	Wt	
+cigarette	sigaletu	[sigaret]	bn	y	সিগারেট sigāreṭ	Wt	
+cigarette	sigaletu	[sigaret]	ta	y	சிகரெட் sikareṭ	Wt	
+cigarette	sigaletu	[sigaret]	fa	y	سیگار sigār, سیگارت	Wt	
+cigarette	sigaletu	[sigaret]	ar	y	سيجارة sījāra	Wt	
+cigarette	sigaletu	[sigaret]	tr	y	sigara	Wt	
+cigarette	sigaletu	[sigaret]	ru	y	сигарета sigareta	Wt	
+cigarette	sigaletu	[sigaret]	es	y	cigarrillo	Wt	
+cigarette	sigaletu	[sigaret]	fr	y	cigarette	Wt	
+cigarette	sigaletu	[sigaret]	sw	y	sigara	Wt	
+cigarette	sigaletu	[sigaret]	ha	b	taba; sigari	M; verified	verified.tsv: yes ((taba) sigari)
+cigarette	sigaletu	[sigaret]	yo	y	sìgá	M; verified	verified.tsv: yes (siga)
+cigarette	sigaletu	[sigaret]	qu	n	cigarro (Spanish loan)	M; verified	verified.tsv: no (cigarro); recorded y -> n
+club, society	kulabu	[klab]	zh	y	俱乐部 jùlèbù (sound loan)	Wt	panel: coverage-01/part3/loanwork/c08.txt
+club, society	kulabu	[klab]	ja	y	クラブ kurabu	Wt	
+club, society	kulabu	[klab]	ko	b	동아리 dongari, 동호회; 클럽 (nightclub, football club)	Wt	
+club, society	kulabu	[klab]	vi	y	câu lạc bộ (< 俱樂部)	Wt	
+club, society	kulabu	[klab]	th	b	สโมสร samooson; คลับ khláp	Wt	
+club, society	kulabu	[klab]	id	y	klub	Wt	
+club, society	kulabu	[klab]	tl	y	klab	M	
+club, society	kulabu	[klab]	hi	y	क्लब klab	Wt	
+club, society	kulabu	[klab]	bn	y	ক্লাব klāb	Wt	
+club, society	kulabu	[klab]	ta	b	கழகம் kaḻakam; spoken klap	M	
+club, society	kulabu	[klab]	fa	n	باشگاه bāšgāh	Wt	
+club, society	kulabu	[klab]	ar	n	نادي nādī	Wt	
+club, society	kulabu	[klab]	tr	y	kulüp	Wt	
+club, society	kulabu	[klab]	ru	y	клуб klub	Wt	
+club, society	kulabu	[klab]	es	y	club	Wt	
+club, society	kulabu	[klab]	fr	y	club	Wt	
+club, society	kulabu	[klab]	sw	y	klabu	Wt	
+club, society	kulabu	[klab]	ha	y	kulob	M	
+club, society	kulabu	[klab]	yo	n	(no data)	M	
+club, society	kulabu	[klab]	qu	y	club (Spanish loan)	M	
+taxi	takusi	[taksi]	zh	n	出租车 chūzūchē (的士 dīshì in Hong Kong)	Wt	panel: coverage-01/part3/loanwork/c08.txt
+taxi	takusi	[taksi]	ja	y	タクシー takushī	Wt	
+taxi	takusi	[taksi]	ko	y	택시 taeksi	Wt	
+taxi	takusi	[taksi]	vi	y	tắc-xi	Wt	
+taxi	takusi	[taksi]	th	y	แท็กซี่ thɛ́ksîi	Wt	
+taxi	takusi	[taksi]	id	y	taksi	Wt	
+taxi	takusi	[taksi]	tl	y	taxi	Wt	
+taxi	takusi	[taksi]	hi	y	टैक्सी ṭaiksī	Wt	
+taxi	takusi	[taksi]	bn	y	ট্যাক্সি ṭyāksi	Wt	
+taxi	takusi	[taksi]	ta	y	டாக்ஸி ṭāksi	Wt	
+taxi	takusi	[taksi]	fa	y	تاکسی tāksi	Wt	
+taxi	takusi	[taksi]	ar	y	تاكسي tāksī	Wt	
+taxi	takusi	[taksi]	tr	y	taksi	Wt	
+taxi	takusi	[taksi]	ru	y	такси taksi	Wt	
+taxi	takusi	[taksi]	es	y	taxi	Wt	
+taxi	takusi	[taksi]	fr	y	taxi	Wt	
+taxi	takusi	[taksi]	sw	y	teksi	Wt	
+taxi	takusi	[taksi]	ha	y	tasi	Wt	
+taxi	takusi	[taksi]	yo	y	takisí	Wt	
+taxi	takusi	[taksi]	qu	y	taxi (Spanish loan)	M	
+gas (state of matter; fuel gas)	gasu	[gas]	zh	n	气体 qìtǐ, 气	Wt	panel: coverage-01/part3/loanwork/c08.txt
+gas (state of matter; fuel gas)	gasu	[gas]	ja	b	気体 kitai; ガス gasu (fuel gas)	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	ko	y	가스 gaseu, 기체	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	vi	b	khí; ga (fuel gas)	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	th	y	ก๊าซ kɛ́ɛt	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	id	y	gas	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	tl	y	gas (Wt coinage buhag)	M	
+gas (state of matter; fuel gas)	gasu	[gas]	hi	y	गैस gais	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	bn	y	গ্যাস gyās	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	ta	b	வாயு vāyu; spoken gas	Wt, M	
+gas (state of matter; fuel gas)	gasu	[gas]	fa	y	گاز gāz	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	ar	y	غاز ġāz	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	tr	y	gaz	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	ru	y	газ gaz	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	es	y	gas	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	fr	y	gaz	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	sw	y	gesi	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	ha	y	gas	M	
+gas (state of matter; fuel gas)	gasu	[gas]	yo	y	gáàsì	Wt	
+gas (state of matter; fuel gas)	gasu	[gas]	qu	y	gas (Spanish loan)	M	
+guitar	gitalu	[gitar]	zh	y	吉他 jítā	Wt	panel: coverage-01/part3/loanwork/c09.txt
+guitar	gitalu	[gitar]	ja	y	ギター gitā	Wt	
+guitar	gitalu	[gitar]	ko	y	기타 gita	Wt	
+guitar	gitalu	[gitar]	vi	y	ghi-ta	Wt	
+guitar	gitalu	[gitar]	th	y	กีตาร์ kiitaa	Wt	
+guitar	gitalu	[gitar]	id	y	gitar	Wt	
+guitar	gitalu	[gitar]	tl	y	gitara	Wt	
+guitar	gitalu	[gitar]	hi	y	गिटार giṭār	Wt	
+guitar	gitalu	[gitar]	bn	y	গিটার giṭār	Wt	
+guitar	gitalu	[gitar]	ta	y	கித்தார் kittār	Wt	
+guitar	gitalu	[gitar]	fa	y	گیتار gitār	Wt	
+guitar	gitalu	[gitar]	ar	y	جيتار gītār (classical قيثارة qīṯāra)	Wt	
+guitar	gitalu	[gitar]	tr	y	gitar	Wt	
+guitar	gitalu	[gitar]	ru	y	гитара gitara	Wt	
+guitar	gitalu	[gitar]	es	y	guitarra	Wt	
+guitar	gitalu	[gitar]	fr	y	guitare	Wt	
+guitar	gitalu	[gitar]	sw	y	gitaa	Wt	
+guitar	gitalu	[gitar]	ha	y	gita	M	
+guitar	gitalu	[gitar]	yo	y	gìtá	M	
+guitar	gitalu	[gitar]	qu	y	guitarra (Spanish loan)	M	
+gene	denu	[dʒen]	zh	y	基因 jīyīn (sound loan)	Wt	panel: coverage-01/part3/loanwork/c09.txt
+gene	denu	[dʒen]	ja	n	遺伝子 idenshi	Wt	
+gene	denu	[dʒen]	ko	n	유전자 yujeonja	Wt	
+gene	denu	[dʒen]	vi	y	gen	Wt	
+gene	denu	[dʒen]	th	y	ยีน yiin (Wt gives a coinage)	M	
+gene	denu	[dʒen]	id	y	gen	Wt	
+gene	denu	[dʒen]	tl	y	hene	Wt	
+gene	denu	[dʒen]	hi	y	जीन jīn	Wt	
+gene	denu	[dʒen]	bn	y	জিন jin	Wt	
+gene	denu	[dʒen]	ta	n	மரபணு marapaṇu	Wt	
+gene	denu	[dʒen]	fa	y	ژن žen	Wt	
+gene	denu	[dʒen]	ar	y	جين jīn, مورثة	Wt, M*	
+gene	denu	[dʒen]	tr	y	gen	Wt	
+gene	denu	[dʒen]	ru	y	ген gen	Wt	
+gene	denu	[dʒen]	es	y	gen	Wt	
+gene	denu	[dʒen]	fr	y	gène	Wt	
+gene	denu	[dʒen]	sw	y	jeni	M	
+gene	denu	[dʒen]	ha	n	(no data)	M	
+gene	denu	[dʒen]	yo	n	(no data)	M	
+gene	denu	[dʒen]	qu	y	gen (Spanish loan)	M	
+plastic	pulasutiku	[plastik]	zh	n	塑料 sùliào	Wt	panel: coverage-01/part3/loanwork/c10.txt
+plastic	pulasutiku	[plastik]	ja	y	プラスチック purasuchikku	Wt	
+plastic	pulasutiku	[plastik]	ko	y	플라스틱 peullaseutik	Wt	
+plastic	pulasutiku	[plastik]	vi	n	nhựa, chất dẻo	Wt	
+plastic	pulasutiku	[plastik]	th	y	พลาสติก phláatsatìk	Wt	
+plastic	pulasutiku	[plastik]	id	y	plastik	M	
+plastic	pulasutiku	[plastik]	tl	y	plastik	Wt	
+plastic	pulasutiku	[plastik]	hi	y	प्लास्टिक plāsṭik	Wt	
+plastic	pulasutiku	[plastik]	bn	y	প্লাস্টিক plāsṭik	Wt	
+plastic	pulasutiku	[plastik]	ta	y	பிளாஸ்டிக் pilāsṭik (coinage நெகிழி)	Wt, M*	
+plastic	pulasutiku	[plastik]	fa	y	پلاستیک pelāstik	Wt	
+plastic	pulasutiku	[plastik]	ar	y	بلاستيك blāstīk	Wt	
+plastic	pulasutiku	[plastik]	tr	y	plastik	Wt	
+plastic	pulasutiku	[plastik]	ru	y	пластик plastik, пластмасса	Wt	
+plastic	pulasutiku	[plastik]	es	y	plástico	Wt	
+plastic	pulasutiku	[plastik]	fr	y	plastique	Wt	
+plastic	pulasutiku	[plastik]	sw	y	plastiki	Wt	
+plastic	pulasutiku	[plastik]	ha	n	roba "rubber"	M	
+plastic	pulasutiku	[plastik]	yo	n	(no data)	M	
+plastic	pulasutiku	[plastik]	qu	y	plástico (Spanish loan)	M	
+bar (place serving drinks)	balu	[bar]	zh	b	酒吧 jiǔbā (bā sound loan + "liquor")	Wt	panel: coverage-01/part3/loanwork/c10.txt
+bar (place serving drinks)	balu	[bar]	ja	y	バー bā (居酒屋 izakaya for a pub)	Wt	
+bar (place serving drinks)	balu	[bar]	ko	b	술집 suljip; 바 ba	Wt	
+bar (place serving drinks)	balu	[bar]	vi	b	quán rượu; quán bar in cities	Wt	
+bar (place serving drinks)	balu	[bar]	th	y	บาร์ baa	Wt	
+bar (place serving drinks)	balu	[bar]	id	y	bar	Wt	
+bar (place serving drinks)	balu	[bar]	tl	y	bar	M	
+bar (place serving drinks)	balu	[bar]	hi	y	बार bār	Wt	
+bar (place serving drinks)	balu	[bar]	bn	y	বার bār	Wt	
+bar (place serving drinks)	balu	[bar]	ta	y	பார் pār	M	
+bar (place serving drinks)	balu	[bar]	fa	y	بار bār, میخانه meykhāne	Wt	
+bar (place serving drinks)	balu	[bar]	ar	y	بار bār, حانة ḥāna	Wt, M*	
+bar (place serving drinks)	balu	[bar]	tr	y	bar, meyhane	Wt	
+bar (place serving drinks)	balu	[bar]	ru	y	бар bar	Wt	
+bar (place serving drinks)	balu	[bar]	es	y	bar	Wt	
+bar (place serving drinks)	balu	[bar]	fr	y	bar	Wt	
+bar (place serving drinks)	balu	[bar]	sw	y	baa	M	
+bar (place serving drinks)	balu	[bar]	ha	n	mashaya	M	
+bar (place serving drinks)	balu	[bar]	yo	n	ilé ọtí	M	
+bar (place serving drinks)	balu	[bar]	qu	y	bar (Spanish loan)	M	
+cinema	sinema	[sinema]	zh	n	电影院 diànyǐngyuàn	Wt	panel: coverage-01/part3/loanwork/c10.txt
+cinema	sinema	[sinema]	ja	n	映画館 eigakan	Wt	
+cinema	sinema	[sinema]	ko	n	영화관 yeonghwagwan	Wt	
+cinema	sinema	[sinema]	vi	b	rạp chiếu phim; rạp xi-nê	Wt	
+cinema	sinema	[sinema]	th	n	โรงหนัง roong nǎng	Wt	
+cinema	sinema	[sinema]	id	b	bioskop; sinema	Wt	
+cinema	sinema	[sinema]	tl	y	sinehan	Wt	
+cinema	sinema	[sinema]	hi	y	सिनेमा sinemā	Wt	
+cinema	sinema	[sinema]	bn	y	সিনেমা sinemā	Wt	
+cinema	sinema	[sinema]	ta	y	சினிமா sinimā	Wt	
+cinema	sinema	[sinema]	fa	y	سینما sinemā	Wt	
+cinema	sinema	[sinema]	ar	y	سينما sīnimā	Wt	
+cinema	sinema	[sinema]	tr	y	sinema	Wt	
+cinema	sinema	[sinema]	ru	b	кинотеатр kinoteatr, кино kino	Wt	
+cinema	sinema	[sinema]	es	y	cine	Wt	
+cinema	sinema	[sinema]	fr	y	cinéma	Wt	
+cinema	sinema	[sinema]	sw	y	sinema	Wt	
+cinema	sinema	[sinema]	ha	y	sinima	M	
+cinema	sinema	[sinema]	yo	y	sinimá	M	
+cinema	sinema	[sinema]	qu	y	cine (Spanish loan)	M	
+passport	pasupolutu	[pasport]	zh	n	护照 hùzhào	Wt	panel: coverage-01/part3/loanwork/c10.txt
+passport	pasupolutu	[pasport]	ja	y	パスポート pasupōto (旅券 ryoken formal)	Wt	
+passport	pasupolutu	[pasport]	ko	n	여권 yeogwon	Wt	
+passport	pasupolutu	[pasport]	vi	n	hộ chiếu	Wt	
+passport	pasupolutu	[pasport]	th	b	หนังสือเดินทาง nǎngsʉ̌ʉ dəən thaang; พาสปอร์ต colloquial	Wt	
+passport	pasupolutu	[pasport]	id	y	paspor	Wt	
+passport	pasupolutu	[pasport]	tl	y	pasaporte	Wt	
+passport	pasupolutu	[pasport]	hi	y	पासपोर्ट pāsporṭ	Wt	
+passport	pasupolutu	[pasport]	bn	y	পাসপোর্ট pāsporṭ (formal পারপত্র)	Wt, M*	
+passport	pasupolutu	[pasport]	ta	y	பாஸ்போர்ட் pāsporṭ (formal கடவுச்சீட்டு)	Wt, M*	
+passport	pasupolutu	[pasport]	fa	b	گذرنامه gozarnāme; پاسپورت pāsport	Wt	
+passport	pasupolutu	[pasport]	ar	n	جواز سفر jawāz safar	Wt	
+passport	pasupolutu	[pasport]	tr	y	pasaport	Wt	
+passport	pasupolutu	[pasport]	ru	y	паспорт pasport	Wt	
+passport	pasupolutu	[pasport]	es	y	pasaporte	Wt	
+passport	pasupolutu	[pasport]	fr	y	passeport	Wt	
+passport	pasupolutu	[pasport]	sw	y	pasipoti, paspoti	Wt	
+passport	pasupolutu	[pasport]	ha	y	fasfo	Wt	
+passport	pasupolutu	[pasport]	yo	n	ìwé ìrìnnà	Wt	
+passport	pasupolutu	[pasport]	qu	y	pasaporte (Spanish loan)	M	
+engineer	indiniyalu	[indʒiniar]	zh	n	工程师 gōngchéngshī	Wt	panel: coverage-01/part3/loanwork/c10.txt
+engineer	indiniyalu	[indʒiniar]	ja	y	エンジニア enjinia, 技師	Wt	
+engineer	indiniyalu	[indʒiniar]	ko	y	엔지니어 enjinieo, 기사	Wt	
+engineer	indiniyalu	[indʒiniar]	vi	n	kỹ sư	Wt	
+engineer	indiniyalu	[indʒiniar]	th	n	วิศวกร wítsawakɔɔn	Wt	
+engineer	indiniyalu	[indʒiniar]	id	y	insinyur (< Dutch ingenieur)	Wt	
+engineer	indiniyalu	[indʒiniar]	tl	y	inhinyero	Wt	
+engineer	indiniyalu	[indʒiniar]	hi	y	इंजीनियर iñjīniyar (formal अभियंता)	Wt, M*	
+engineer	indiniyalu	[indʒiniar]	bn	b	প্রকৌশলী prakauśalī; spoken iñjiniyār	Wt, M	
+engineer	indiniyalu	[indʒiniar]	ta	b	பொறியாளர் poṟiyāḷar; spoken iñjiniyar	Wt, M	
+engineer	indiniyalu	[indʒiniar]	fa	n	مهندس mohandes (انجنیر Afghan)	Wt	
+engineer	indiniyalu	[indʒiniar]	ar	n	مهندس muhandis	Wt	
+engineer	indiniyalu	[indʒiniar]	tr	n	mühendis	Wt	
+engineer	indiniyalu	[indʒiniar]	ru	y	инженер inžener	Wt	
+engineer	indiniyalu	[indʒiniar]	es	y	ingeniero	Wt	
+engineer	indiniyalu	[indʒiniar]	fr	y	ingénieur	Wt	
+engineer	indiniyalu	[indʒiniar]	sw	y	injinia, mhandisi	Wt	
+engineer	indiniyalu	[indʒiniar]	ha	y	injiniya	M	
+engineer	indiniyalu	[indʒiniar]	yo	y	ẹn̄jiníà	Wt	
+engineer	indiniyalu	[indʒiniar]	qu	y	ingeniero (Spanish loan)	M	
+vaccine	bakusin	[vaksin]	zh	n	疫苗 yìmiáo	Wt	panel: coverage-01/part3/loanwork/c10.txt
+vaccine	bakusin	[vaksin]	ja	y	ワクチン wakuchin	Wt	
+vaccine	bakusin	[vaksin]	ko	y	백신 baeksin	Wt	
+vaccine	bakusin	[vaksin]	vi	y	vắc-xin	Wt	
+vaccine	bakusin	[vaksin]	th	y	วัคซีน wákkhsiin	Wt	
+vaccine	bakusin	[vaksin]	id	y	vaksin	Wt	
+vaccine	bakusin	[vaksin]	tl	y	bakuna	Wt	
+vaccine	bakusin	[vaksin]	hi	b	टीका ṭīkā; वैक्सीन vaiksīn	Wt	
+vaccine	bakusin	[vaksin]	bn	y	ভ্যাক্সিন bhyāksin, টীকা	Wt	
+vaccine	bakusin	[vaksin]	ta	b	தடுப்பூசி taṭuppūci; spoken vaccine	M	
+vaccine	bakusin	[vaksin]	fa	y	واکسن vāksan	Wt	
+vaccine	bakusin	[vaksin]	ar	n	لقاح laqāḥ	Wt	
+vaccine	bakusin	[vaksin]	tr	n	aşı	Wt	
+vaccine	bakusin	[vaksin]	ru	y	вакцина vaktsina	Wt	
+vaccine	bakusin	[vaksin]	es	y	vacuna	Wt	
+vaccine	bakusin	[vaksin]	fr	y	vaccin	Wt	
+vaccine	bakusin	[vaksin]	sw	n	chanjo	Wt	
+vaccine	bakusin	[vaksin]	ha	n	allurar rigakafi	M	
+vaccine	bakusin	[vaksin]	yo	n	abẹ́rẹ́ àjẹsára	M	
+vaccine	bakusin	[vaksin]	qu	y	vacuna (Spanish loan)	M	
+studio	sutudiyo	[studio]	zh	n	演播室 yǎnbōshì	Wt	panel: coverage-01/part3/loanwork/c11.txt
+studio	sutudiyo	[studio]	ja	y	スタジオ sutajio	Wt	
+studio	sutudiyo	[studio]	ko	y	스튜디오 seutyudio	Wt	
+studio	sutudiyo	[studio]	vi	b	phòng thu; studio (photo studio)	M; verified	verified.tsv: yes (studio)
+studio	sutudiyo	[studio]	th	y	สตูดิโอ satuudio	M; verified	verified.tsv: yes (สตูดิโอ satuudio)
+studio	sutudiyo	[studio]	id	y	studio	M; verified	verified.tsv: yes (studio)
+studio	sutudiyo	[studio]	tl	y	istudyo	M; verified	verified.tsv: yes (studio)
+studio	sutudiyo	[studio]	hi	y	स्टूडियो sṭūḍiyo	M; verified	verified.tsv: yes (स्टूडियो sṭūḍiyo)
+studio	sutudiyo	[studio]	bn	y	স্টুডিও sṭuḍio	M; verified	verified.tsv: yes (স্টুডিও sṭuḍio)
+studio	sutudiyo	[studio]	ta	u	ஸ்டுடியோ sṭuṭiyō (Wt gives a coinage)	M; verified	verified.tsv: unknown; recorded y -> u
+studio	sutudiyo	[studio]	fa	y	استودیو estudiyo	Wt	
+studio	sutudiyo	[studio]	ar	y	استوديو istūdiyū	Wt	
+studio	sutudiyo	[studio]	tr	y	stüdyo	Wt	
+studio	sutudiyo	[studio]	ru	y	студия studija	Wt	
+studio	sutudiyo	[studio]	es	y	estudio	Wt	
+studio	sutudiyo	[studio]	fr	y	studio	Wt	
+studio	sutudiyo	[studio]	sw	y	studio	Wt	
+studio	sutudiyo	[studio]	ha	n	(no data)	M	
+studio	sutudiyo	[studio]	yo	n	(no data)	M	
+studio	sutudiyo	[studio]	qu	u	estudio (Spanish loan)	M; verified	verified.tsv: unknown; recorded y -> u
+profile (online, personal)	pulofilu	[profil]	zh	n	个人资料 gèrén zīliào	M	panel: coverage-01/part3/loanwork/c11.txt
+profile (online, personal)	pulofilu	[profil]	ja	y	プロフィール purofīru	Wt	
+profile (online, personal)	pulofilu	[profil]	ko	y	프로필 peuropil	M; verified	verified.tsv: yes (프로필 peuropil)
+profile (online, personal)	pulofilu	[profil]	vi	b	hồ sơ; profile also used	M; verified	verified.tsv: yes (profile)
+profile (online, personal)	pulofilu	[profil]	th	y	โปรไฟล์ proofaai	M; verified	verified.tsv: yes (โปรไฟล์ proofaai)
+profile (online, personal)	pulofilu	[profil]	id	y	profil	M; verified	verified.tsv: yes (profil)
+profile (online, personal)	pulofilu	[profil]	tl	y	profile	M; verified	verified.tsv: yes (profile)
+profile (online, personal)	pulofilu	[profil]	hi	y	प्रोफ़ाइल profāil	M; verified	verified.tsv: yes (प्रोफ़ाइल profāil)
+profile (online, personal)	pulofilu	[profil]	bn	y	প্রোফাইল profāil	M; verified	verified.tsv: yes (প্রোফাইল profāil)
+profile (online, personal)	pulofilu	[profil]	ta	u	சுயவிவரம் suyavivaram; spoken profile	M; verified	verified.tsv: unknown; recorded b -> u
+profile (online, personal)	pulofilu	[profil]	fa	y	پروفایل profāyl	M; verified	verified.tsv: yes (پروفایل profāyl)
+profile (online, personal)	pulofilu	[profil]	ar	b	ملف شخصي malaff šaxṣī; بروفايل colloquial	M; verified	verified.tsv: yes (بروفايل brōfāyl)
+profile (online, personal)	pulofilu	[profil]	tr	y	profil	M; verified	verified.tsv: yes (profil)
+profile (online, personal)	pulofilu	[profil]	ru	y	профиль profil'	Wt	
+profile (online, personal)	pulofilu	[profil]	es	y	perfil	Wt	
+profile (online, personal)	pulofilu	[profil]	fr	y	profil	Wt	
+profile (online, personal)	pulofilu	[profil]	sw	n	wasifu	M	
+profile (online, personal)	pulofilu	[profil]	ha	n	(no data)	M	
+profile (online, personal)	pulofilu	[profil]	yo	n	(no data)	M	
+profile (online, personal)	pulofilu	[profil]	qu	u	perfil (Spanish loan)	M; verified	verified.tsv: unknown; recorded y -> u
+piano	piyano	[piano]	zh	n	钢琴 gāngqín "steel zither"	Wt	panel: coverage-01/part3/loanwork/c11.txt
+piano	piyano	[piano]	ja	y	ピアノ piano	Wt	
+piano	piyano	[piano]	ko	y	피아노 piano	Wt	
+piano	piyano	[piano]	vi	b	dương cầm "Western zither"; đàn piano	Wt	
+piano	piyano	[piano]	th	y	เปียโน piano	Wt	
+piano	piyano	[piano]	id	y	piano	Wt	
+piano	piyano	[piano]	tl	y	piyano	Wt	
+piano	piyano	[piano]	hi	y	पियानो piyāno	Wt	
+piano	piyano	[piano]	bn	y	পিয়ানো piyāno	Wt	
+piano	piyano	[piano]	ta	y	பியானோ piyāṉō	Wt	
+piano	piyano	[piano]	fa	y	پیانو piyāno	Wt	
+piano	piyano	[piano]	ar	y	بيانو biyānū	Wt	
+piano	piyano	[piano]	tr	y	piyano	Wt	
+piano	piyano	[piano]	ru	y	пианино pianino, фортепиано	Wt	
+piano	piyano	[piano]	es	y	piano	Wt	
+piano	piyano	[piano]	fr	y	piano	Wt	
+piano	piyano	[piano]	sw	y	kinanda, piano	Wt	
+piano	piyano	[piano]	ha	n	(no data)	M	
+piano	piyano	[piano]	yo	n	dùrù	M	
+piano	piyano	[piano]	qu	b	yatana qallwa (coinage); piano in bilingual speech	Wt, M	
+medal	medala	[medaʎa]	zh	n	奖牌 jiǎngpái	Wt	panel: coverage-01/part3/loanwork/c11.txt
+medal	medala	[medaʎa]	ja	y	メダル medaru	Wt	
+medal	medala	[medaʎa]	ko	y	메달 medal	Wt	
+medal	medala	[medaʎa]	vi	b	huy chương; mề đay (< French médaille)	Wt	
+medal	medala	[medaʎa]	th	n	เหรียญ rǐan	Wt	
+medal	medala	[medaʎa]	id	y	medali	Wt	
+medal	medala	[medaʎa]	tl	y	medalya	Wt	
+medal	medala	[medaʎa]	hi	b	पदक padak; मेडल meḍal	Wt	
+medal	medala	[medaʎa]	bn	b	পদক padak; মেডেল meḍel	Wt	
+medal	medala	[medaʎa]	ta	n	பதக்கம் patakkam	Wt	
+medal	medala	[medaʎa]	fa	y	مدال medāl	Wt	
+medal	medala	[medaʎa]	ar	y	ميدالية mīdāliya	Wt	
+medal	medala	[medaʎa]	tr	y	madalya	Wt	
+medal	medala	[medaʎa]	ru	y	медаль medal'	Wt	
+medal	medala	[medaʎa]	es	y	medalla	Wt	
+medal	medala	[medaʎa]	fr	y	médaille	Wt	
+medal	medala	[medaʎa]	sw	n	nishani	Wt	
+medal	medala	[medaʎa]	ha	n	(no data)	M	
+medal	medala	[medaʎa]	yo	n	(no data)	M	
+medal	medala	[medaʎa]	qu	y	medalla (Spanish loan)	M	
+mask	masuka	[maska]	zh	n	面具 miànjù; 口罩 kǒuzhào (medical)	Wt	panel: coverage-01/part3/loanwork/c11.txt
+mask	masuka	[maska]	ja	y	マスク masuku (仮面 kamen for costume)	Wt	
+mask	masuka	[maska]	ko	y	마스크 maseukeu (가면 for costume)	Wt	
+mask	masuka	[maska]	vi	n	mặt nạ; khẩu trang (medical)	Wt	
+mask	masuka	[maska]	th	n	หน้ากาก nâakàak	Wt	
+mask	masuka	[maska]	id	y	masker (topeng costume)	Wt	
+mask	masuka	[maska]	tl	y	maskara	M	
+mask	masuka	[maska]	hi	y	मास्क māsk, मुखौटा	Wt	
+mask	masuka	[maska]	bn	y	মাস্ক māsk	Wt	
+mask	masuka	[maska]	ta	b	முகமூடி mukamūṭi; spoken māsk	Wt, M	
+mask	masuka	[maska]	fa	y	ماسک māsk	Wt	
+mask	masuka	[maska]	ar	b	قناع qināʿ, كمامة kimāma (medical); colloquial māsk	Wt	
+mask	masuka	[maska]	tr	y	maske	Wt	
+mask	masuka	[maska]	ru	y	маска maska	Wt	
+mask	masuka	[maska]	es	y	máscara; mascarilla (medical)	Wt	
+mask	masuka	[maska]	fr	y	masque	Wt	
+mask	masuka	[maska]	sw	n	barakoa	Wt	
+mask	masuka	[maska]	ha	n	(no data)	M	
+mask	masuka	[maska]	yo	n	ìbòjú	M	
+mask	masuka	[maska]	qu	y	máscara (Spanish loan)	M	
+tobacco	tabaku	[tabaku]	zh	n	煙草 yāncǎo	Wt	panel: deeplayer-02/loanwork/panel.txt
+tobacco	tabaku	[tabaku]	ja	y	タバコ tabako	Wt	
+tobacco	tabaku	[tabaku]	ko	y	담배 dambae (< Japanese tabako; a borrower's sound change, counted with its source as Japanese doru with dollar)	Wt, subs 520	
+tobacco	tabaku	[tabaku]	vi	n	thuốc lá	Wt	
+tobacco	tabaku	[tabaku]	th	n	ยาสูบ yaa sùup	Wt	
+tobacco	tabaku	[tabaku]	id	y	tembakau (< Portuguese tabaco; subs 264)	Wt, subs	
+tobacco	tabaku	[tabaku]	tl	y	tabako (subs 1)	Wt, subs	
+tobacco	tabaku	[tabaku]	hi	y	तंबाकू tambākū (< Portuguese tabaco; subs 2)	Wt, subs	
+tobacco	tabaku	[tabaku]	bn	y	তামাক tāmāk (subs 8)	Wt, subs	
+tobacco	tabaku	[tabaku]	ta	n	புகையிலை pukaiyilai	Wt	
+tobacco	tabaku	[tabaku]	fa	y	تنباکو tanbâku (subs 167 vs توتون tutun 18)	Wt, subs	
+tobacco	tabaku	[tabaku]	ar	y	تبغ tabgh (subs 262; دخان "smoke" 1315 is a broad rival, not applied)	Wt, subs	
+tobacco	tabaku	[tabaku]	tr	n	tütün (subs 1542)	Wt, subs	
+tobacco	tabaku	[tabaku]	ru	y	табак tabak (subs 505)	Wt, subs	
+tobacco	tabaku	[tabaku]	es	y	tabaco (subs 4600)	Wt, subs	
+tobacco	tabaku	[tabaku]	fr	y	tabac (subs 3159)	Wt, subs	
+tobacco	tabaku	[tabaku]	sw	y	tumbaku (Leipzig 190)	Wt, Leipzig	
+tobacco	tabaku	[tabaku]	ha	u	taba (Leipzig 678, but taba is also the verb "touch, ever"; not separable)	Leipzig	
+tobacco	tabaku	[tabaku]	yo	y	tábà, taba "tobacco, tobacco plant" (Leipzig 4)	We, Leipzig	
+tobacco	tabaku	[tabaku]	qu	n	sayri (native; no tabaco in Leipzig)	Leipzig	
+calendar (the object)	kalendalu	[kalendar]	zh	n	日曆 rìlì (subs 215)	Wt, subs	panel: deeplayer-02/loanwork/panel.txt
+calendar (the object)	kalendalu	[kalendar]	ja	y	カレンダー karendā (first in this block; 暦 is the system)	Wt	
+calendar (the object)	kalendalu	[kalendar]	ko	n	달력 dallyeok (subs 22); 캘린더 listed 2nd, absent in subs	Wt, subs	
+calendar (the object)	kalendalu	[kalendar]	vi	n	lịch	Wt	
+calendar (the object)	kalendalu	[kalendar]	th	n	ปฏิทิน	Wt, subs	
+calendar (the object)	kalendalu	[kalendar]	id	y	kalender (subs 333)	Wt, subs	
+calendar (the object)	kalendalu	[kalendar]	tl	y	kalendaryo (subs 3)	Wt, subs	
+calendar (the object)	kalendalu	[kalendar]	hi	b	कैलेंडर kailenḍar subs 4 vs पंचांग 1 (Wt lists kāldarśak, pañcāṅg, jantrī)	subs	
+calendar (the object)	kalendalu	[kalendar]	bn	b	ক্যালেন্ডার kyālenḍār subs 9, পঞ্জিকা absent	subs	
+calendar (the object)	kalendalu	[kalendar]	ta	b	காலண்டர் kālaṇṭar subs 2, நாட்காட்டி absent	subs	
+calendar (the object)	kalendalu	[kalendar]	fa	n	تقویم taqvim	Wt, subs	
+calendar (the object)	kalendalu	[kalendar]	ar	n	تقويم taqwīm (subs 733)	Wt, subs	
+calendar (the object)	kalendalu	[kalendar]	tr	n	takvim (subs 588)	Wt, subs	
+calendar (the object)	kalendalu	[kalendar]	ru	y	календарь kalendarʹ (subs 703)	Wt, subs	
+calendar (the object)	kalendalu	[kalendar]	es	y	calendario (subs 3606)	Wt, subs	
+calendar (the object)	kalendalu	[kalendar]	fr	y	calendrier (subs 2232)	Wt, subs	
+calendar (the object)	kalendalu	[kalendar]	sw	y	kalenda (Leipzig 297; kaikki "calendar")	Wt, We, Leipzig	
+calendar (the object)	kalendalu	[kalendar]	ha	y	kalandar 46, kalanda 7 (Leipzig)	Leipzig	
+calendar (the object)	kalendalu	[kalendar]	yo	y	kàlẹ́ńdà (Leipzig kalenda 3)	Wt, Leipzig	
+calendar (the object)	kalendalu	[kalendar]	qu	y	calendario (Leipzig 3)	Leipzig	
+oxygen	okusiden	[oksidʒen]	zh	n	氧 yǎng, 氧气 (subs 1124)	Wt, subs	panel: loans-02/loanwork/panel.txt
+oxygen	okusiden	[oksidʒen]	ja	n	酸素 sanso (subs 313)	Wt, subs	
+oxygen	okusiden	[oksidʒen]	ko	n	산소 sanso (subs 159 + 104)	Wt, subs	
+oxygen	okusiden	[oksidʒen]	vi	y	ôxy, oxy (subs 402 + 42; dưỡng khí listed, dưỡng 878 is broad, "nourish")	Wt, We, subs	
+oxygen	okusiden	[oksidʒen]	th	y	ออกซิเจน ɔ̀ksiceen (subs 28)	Wt, We, subs	
+oxygen	okusiden	[oksidʒen]	id	y	oksigen (subs 1161)	Wt, We, subs	
+oxygen	okusiden	[oksidʒen]	tl	y	oksiheno (< Spanish; subs 0, list thin)	Wt, We	
+oxygen	okusiden	[oksidʒen]	hi	y	ऑक्सीजन ɔksījan (subs 13; प्राणवायु, जारक 0)	Wt, subs	
+oxygen	okusiden	[oksidʒen]	bn	y	অক্সিজেন ɔksijen (subs 51; অম্লজান 0)	Wt, We, subs	
+oxygen	okusiden	[oksidʒen]	ta	y	ஆக்ஸிஜன் āksijan (subs 5 + 1; உயிர்வளி 0)	Wt, subs	
+oxygen	okusiden	[oksidʒen]	fa	y	اکسیژن oksižen (subs 296)	Wt, subs	
+oxygen	okusiden	[oksidʒen]	ar	y	أكسجين uksijīn (subs 1345 + 221 + 237)	Wt, subs	
+oxygen	okusiden	[oksidʒen]	tr	y	oksijen (subs 4886)	Wt, subs	
+oxygen	okusiden	[oksidʒen]	ru	n	кислород kislorod "acid-born" (subs 1332)	Wt, subs	
+oxygen	okusiden	[oksidʒen]	es	y	oxígeno (subs 7532)	Wt, subs	
+oxygen	okusiden	[oksidʒen]	fr	y	oxygène (subs 5353)	Wt, subs	
+oxygen	okusiden	[oksidʒen]	sw	y	oksijeni (Leipzig 172 + 7)	Wt, We, Leipzig	
+oxygen	okusiden	[oksidʒen]	ha	u	(no entry; nothing in Leipzig)	-	
+oxygen	okusiden	[oksidʒen]	yo	y	ọ́síjìn, oksijin (Leipzig 5 + 4 + 1)	Wt, We, Leipzig	
+oxygen	okusiden	[oksidʒen]	qu	n	muksichaq (native; Leipzig 12 + 8 + 6 + 4 + more vs oxígeno 4 + 1: >5x)	Wt, Leipzig	

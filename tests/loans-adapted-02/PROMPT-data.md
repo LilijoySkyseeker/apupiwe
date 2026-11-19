@@ -1,0 +1,16 @@
+Task: build the pronunciation table for a measurement of how close Apupiwe's adapted loans stay to their source forms (author, 2026-11-19: real listener tests are unlikely ever to happen, so this is measured). Repo /home/agent/work/repos/universal-language (branch v2-work; other agents edit other files, so write ONLY inside tests/loans-adapted-02/; don't edit data/ or docs/; no git state changes). Keep a Progress section in tests/loans-adapted-02/DATA.md so the work can resume. Do it yourself. Web, if needed: generic User-Agent only, never any personal name or email. Dev shell: `direnv exec /home/agent/work/repos/universal-language python3 ...`. Downloads go in /home/agent/work/scratch/, not the repo; read untrusted files with `python3 -I`.
+
+Output: tests/loans-adapted-02/forms.tsv with columns
+  concept, adapted (the current form), median_ipa (the panel's median as recorded), lang, mark (y/b/n/u as the panel recorded), word (the language's word, native script or romanisation as recorded), ipa (broad IPA of that word as that language says it), ipa_source, note
+One row per loan × panel language (20 languages: zh ja ko vi th id tl hi bn ta fa ar tr ru es fr sw ha yo qu).
+
+Which loans: every row of data/lexicon.tsv with field "loan" (82), plus oxygen (okusiden, also in the lexicon now). Their panel data (per-language word and y/b/n/u mark, median) is in the loan panel files: tests/coverage-01/part3/loanwork/*.txt (format and author's rules at the top of tests/coverage-01/part3/loans.md and in the files' headers), tests/deeplayer-02/loanwork/panel.txt, tests/loans-02/loanwork/panel.txt, tests/imitative-01/ if any loans came from there, and tests/coverage-01/part3/loans-final.tsv / loans-rerun.tsv for which panel row and median were final. Use the final, adopted row for each loan; say in `note` where you had to choose. Units (kilometulu etc.) and short forms (kilo) are loans too.
+
+IPA, in this order of preference (record which in ipa_source):
+  1. kaikki: the Wiktextract dumps in /home/agent/work/cache/coverage/kaikki-<Language>.jsonl.gz (gzip JSONL; each entry has "word", "pos", "senses", and often "sounds": [{"ipa": "/.../"} or {"ipa": "[...]"}]). Match the panel word (strip tones/marks as needed; for zh match the hanzi; for ja the katakana/kanji). Prefer the entry whose sense matches the concept. Take the first IPA for the standard variety.
+  2. A stated rule: for languages with near-phonemic spelling (es, id, tl, sw, tr, yo, ha, qu, and romanised vi), convert by the language's standard spelling-to-sound rules; write the rule set you used once in DATA.md.
+  3. Transliteration-based for others only if 1 and 2 fail; mark it "translit".
+  Keep IPA broad: drop tone marks, length marks and stress marks into a separate form only if trivial; the analysis will strip suprasegmentals itself, so you may leave them.
+Only columns marked y or b need an IPA (those are the languages that use the shared form); give n/u rows with empty ipa.
+
+DATA.md: method, coverage per source (how many y/b cells got IPA from kaikki, rule, translit, none), the spelling rules used, and any loans whose panel row you couldn't find. Reply with the coverage numbers and any problems.
