@@ -1374,7 +1374,7 @@ environment, surroundings	nature	2	banlon
 disappear, vanish	motion	2	yonsu
 destroy	action	2	ganton
 explode, burst	action	2	manyin
-accuse, blame, hold responsible	sense	2	nenda
+accuse	sense	2	nenda
 thread	thing	2	bondi
 waste (use up for nothing)	action	2	yinnen
 forgive	mind	2	dogen
@@ -1562,3 +1562,4 @@ useless	quality	1	patetu
 export	action	1	ayomi
 import	action	1	yafumu
 earthquake	nature	1	gakodo
+blame, hold responsible	sense	1	yudani

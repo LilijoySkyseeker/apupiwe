@@ -1361,7 +1361,7 @@ environment, surroundings	root		nature	2	794		BAL	separate from nature
 disappear, vanish	root		motion	2	797	appear (added)	BAL	
 destroy	root		action	2	815		BAL	separate from alun 'break'
 explode, burst	root		action	2	835		BAL	
-accuse, blame, hold responsible	root		sense	2	860		BAL	accuse and blame one root
+accuse	root		sense	2	860		BAL	split from blame (tests/ladder-audit-01: ACCUSE/BLAME lumped in 14 of 43 families, 22.2%)
 thread	root		thing	2	869		BAL	
 waste (use up for nothing)	root		action	2	882		BAL	
 forgive	root		mind	2	897		BAL	
@@ -1545,3 +1545,4 @@ useless	root		quality	1	1422		PHRASE-LINE	root (author 2026-11-19: the world-com
 export	root		action	1	1448	import	PHRASE-LINE	root (author 2026-11-19: the world-compound clause of the phrase line deleted)
 import	root		action	1	1452	export	PHRASE-LINE	root (author 2026-11-19: the world-compound clause of the phrase line deleted)
 earthquake	root		nature	1	1130		PHRASE-LINE	root (author 2026-11-19: the world-compound clause of the phrase line deleted)
+blame, hold responsible	root		sense	1	1039		AUDIT01	split from accuse by rung 4 (22.2%)

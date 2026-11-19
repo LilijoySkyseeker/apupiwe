@@ -2483,9 +2483,9 @@ abstract Lex = {
     nemisa_N : N ;  -- fresh
     nemisa_V : V ;  -- fresh
     nemisa_A : A ;  -- fresh
-    nenda_N : N ;  -- accuse, blame, hold responsible
-    nenda_V : V ;  -- accuse, blame, hold responsible
-    nenda_A : A ;  -- accuse, blame, hold responsible
+    nenda_N : N ;  -- accuse
+    nenda_V : V ;  -- accuse
+    nenda_A : A ;  -- accuse
     nenege_N : N ;  -- engineering
     nenege_V : V ;  -- engineering
     nenege_A : A ;  -- engineering
@@ -4499,6 +4499,9 @@ abstract Lex = {
     yowomu_N : N ;  -- messenger
     yowomu_V : V ;  -- messenger
     yowomu_A : A ;  -- messenger
+    yudani_N : N ;  -- blame, hold responsible
+    yudani_V : V ;  -- blame, hold responsible
+    yudani_A : A ;  -- blame, hold responsible
     yuduku_N : N ;  -- hip
     yuduku_V : V ;  -- hip
     yuduku_A : A ;  -- hip

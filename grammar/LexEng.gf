@@ -4497,6 +4497,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     yowomu_N = D.messenger_N ;
     yowomu_V = P.mkV "messenger" ;
     yowomu_A = P.mkA "messenger" ;
+    yudani_N = D.blame_N ;
+    yudani_V = D.blame_V ;
+    yudani_A = P.mkA "blaming" ;
     yuduku_N = D.hip_N ;
     yuduku_V = P.mkV "hip" ;
     yuduku_A = D.hip_A ;

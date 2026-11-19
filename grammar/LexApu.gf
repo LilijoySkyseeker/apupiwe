@@ -4496,6 +4496,9 @@ concrete LexApu of Lex = open Prelude in {
     yowomu_N = {s = "yowomu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     yowomu_V = {s = "yowomu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     yowomu_A = {s = "yowomu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    yudani_N = {s = "yudani" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
+    yudani_V = {s = "yudani" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
+    yudani_A = {s = "yudani" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     yuduku_N = {s = "yuduku" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     yuduku_V = {s = "yuduku" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     yuduku_A = {s = "yuduku" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
