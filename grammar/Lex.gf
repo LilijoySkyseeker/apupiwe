@@ -269,6 +269,9 @@ abstract Lex = {
     bonwi_N : N ;  -- peace
     bonwi_V : V ;  -- peace
     bonwi_A : A ;  -- peace
+    bosen_N : N ;  -- sell
+    bosen_V : V ;  -- sell
+    bosen_A : A ;  -- sell
     bosun_N : N ;  -- testicles
     bosun_V : V ;  -- testicles
     bosun_A : A ;  -- testicles
@@ -1148,12 +1151,12 @@ abstract Lex = {
     gemi_N : N ;  -- government
     gemi_V : V ;  -- government
     gemi_A : A ;  -- government
+    gemo_N : N ;  -- level, degree
+    gemo_V : V ;  -- level, degree
+    gemo_A : A ;  -- level, degree
     geni_N : N ;  -- gene
     geni_V : V ;  -- gene
     geni_A : A ;  -- gene
-    geno_N : N ;  -- find
-    geno_V : V ;  -- find
-    geno_A : A ;  -- find
     genogi_N : N ;  -- approach, come near
     genogi_V : V ;  -- approach, come near
     genogi_A : A ;  -- approach, come near
@@ -1616,9 +1619,6 @@ abstract Lex = {
     kobi_N : N ;  -- move
     kobi_V : V ;  -- move
     kobi_A : A ;  -- move
-    koda_N : N ;  -- sell
-    koda_V : V ;  -- sell
-    koda_A : A ;  -- sell
     kodipi_N : N ;  -- offering, sacrifice
     kodipi_V : V ;  -- offering, sacrifice
     kodipi_A : A ;  -- offering, sacrifice
@@ -1628,12 +1628,12 @@ abstract Lex = {
     kogeka_N : N ;  -- edit
     kogeka_V : V ;  -- edit
     kogeka_A : A ;  -- edit
+    koken_N : N ;  -- find
+    koken_V : V ;  -- find
+    koken_A : A ;  -- find
     koku_N : N ;  -- relationship
     koku_V : V ;  -- relationship
     koku_A : A ;  -- relationship
-    komin_N : N ;  -- majority
-    komin_V : V ;  -- majority
-    komin_A : A ;  -- majority
     komisa_N : N ;  -- copper
     komisa_V : V ;  -- copper
     komisa_A : A ;  -- copper
@@ -1670,9 +1670,6 @@ abstract Lex = {
     koson_N : N ;  -- knock
     koson_V : V ;  -- knock
     koson_A : A ;  -- knock
-    kote_N : N ;  -- level, degree
-    kote_V : V ;  -- level, degree
-    kote_A : A ;  -- level, degree
     kotomo_N : N ;  -- satellite
     kotomo_V : V ;  -- satellite
     kotomo_A : A ;  -- satellite
@@ -2843,6 +2840,9 @@ abstract Lex = {
     penguwin_N : N ;  -- penguin
     penguwin_V : V ;  -- penguin
     penguwin_A : A ;  -- penguin
+    peno_N : N ;  -- heart
+    peno_V : V ;  -- heart
+    peno_A : A ;  -- heart
     pensi_N : N ;  -- wash
     pensi_V : V ;  -- wash
     pensi_A : A ;  -- wash
@@ -3029,6 +3029,9 @@ abstract Lex = {
     sayitu_N : N ;  -- website
     sayitu_V : V ;  -- website
     sayitu_A : A ;  -- website
+    sedan_N : N ;  -- majority
+    sedan_V : V ;  -- majority
+    sedan_A : A ;  -- majority
     segin_N : N ;  -- star
     segin_V : V ;  -- star
     segin_A : A ;  -- star
@@ -3296,12 +3299,6 @@ abstract Lex = {
     sopuge_N : N ;  -- dawn
     sopuge_V : V ;  -- dawn
     sopuge_A : A ;  -- dawn
-    sosan_N : N ;  -- rough
-    sosan_V : V ;  -- rough
-    sosan_A : A ;  -- rough
-    sose_N : N ;  -- heart
-    sose_V : V ;  -- heart
-    sose_A : A ;  -- heart
     sosiwu_N : N ;  -- recognize
     sosiwu_V : V ;  -- recognize
     sosiwu_A : A ;  -- recognize
@@ -3965,6 +3962,9 @@ abstract Lex = {
     wensin_N : N ;  -- planet
     wensin_V : V ;  -- planet
     wensin_A : A ;  -- planet
+    wenten_N : N ;  -- rough
+    wenten_V : V ;  -- rough
+    wenten_A : A ;  -- rough
     wento_N : N ;  -- penis
     wento_V : V ;  -- penis
     wento_A : A ;  -- penis

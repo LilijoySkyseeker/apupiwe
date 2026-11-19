@@ -21,7 +21,7 @@ hair	body	2	sonfa
 hand	body	4	kiti
 foot	body	3	sifi
 leg	body	2	sesen
-heart	body	3	sose
+heart	body	3	peno
 blood	body	2	kenyan
 bone	body	2	yayun
 skin	body	2	unne
@@ -209,7 +209,7 @@ get, obtain	action	3	dunu
 put	action	3	yaga
 hold	action	2	yonnu
 use	action	3	fone
-find	action	3	geno
+find	action	3	koken
 lose, misplace	action	2	agi
 protect	action	2	kuwi
 open	action	2	selon
@@ -229,7 +229,7 @@ live, be alive, dwell; life	action	4	nume
 grow	action	2	guge
 burn	action	2	onti
 buy	action	2	bika
-sell	action	2	koda
+sell	action	2	bosen
 pay	action	2	unfu
 wash	action	1	pensi
 cook	action	2	siten
@@ -374,7 +374,7 @@ taste	sense	2	tenmi
 toe	body	2	gonmi
 vulva	body	2	unpan
 side	space	2	sanfi
-rough	quality	2	sosan
+rough	quality	2	wenten
 loud	quality	2	dibon
 ugly	quality	2	lanli
 shallow	size	2	lante
@@ -773,7 +773,7 @@ visit	motion	3	kenfi
 class (school group)	people	3	ifan
 social class	people	2	sengon
 soldier	people	3	wiyan
-level, degree	abstract	3	kote
+level, degree	abstract	3	gemo
 foreign	quality	3	teyon
 culture	people	3	dulen
 village	space	3	yongi
@@ -1147,7 +1147,7 @@ gene	loan	1	geni
 forehead	body	1	netiti
 behave	action	1	memabi
 evil spirit, demon, devil	abstract	2	fisen
-majority	abstract	2	komin
+majority	abstract	2	sedan
 average	number	2	fonton
 treasure	abstract	1	dutitu
 flood	nature	1	disewu

@@ -46,7 +46,7 @@ nume nun enpa nun sonli gun sogan pi dan.
 
 ## Article 4
 
-dan su gun efon yonnu ewo fan doku su enpa. dan pon su gun efon ibe ewo, lu bika ewo, lu koda ewo. yin gun feko fan fisu mesun.
+dan su gun efon yonnu ewo fan doku su enpa. dan pon su gun efon ibe ewo, lu bika ewo, lu bosen ewo. yin gun feko fan fisu mesun.
 {.apu}
 
 ## Article 5

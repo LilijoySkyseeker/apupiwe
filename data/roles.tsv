@@ -87,6 +87,7 @@ bondi	no	no
 bonko	no	no	
 bonpen	yes	yes	
 bonwi	no	no	
+bosen	yes	yes	
 bosun	no	no	
 botan	no	no	
 bubin	no	no	
@@ -380,8 +381,8 @@ gele	no	no
 gelu	no	no	
 gememi	no	no	itch: like fupu; event or thing?
 gemi	no	no	
+gemo	no	no	
 geni	no	no	
-geno	yes	yes	
 genogi	yes	yes	
 gepata	no	no	
 gesi	no	no	question: thing; asking is mido
@@ -536,12 +537,11 @@ kiti	no	no
 kitimo	yes	yes	
 kiyifi	no	no	
 kobi	yes	yes	move: also intransitive
-koda	yes	yes	
 kodipi	yes	yes	offering: the thing given, or the act (offer up X)?
 kodu	no	no	
 kogeka	yes	yes	
+koken	yes	yes	
 koku	no	no	
-komin	no	no	
 komisa	no	no	
 komowu	no	no	
 komu	no	no	
@@ -554,7 +554,6 @@ kontun	no	no
 konwo	no	no	
 kopon	no	no	
 koson	yes	yes	
-kote	no	no	
 kotomo	no	no	
 kowan	no	no	
 kowumi	no	no	
@@ -945,6 +944,7 @@ pemu	no	no
 penasi	no	no	
 pendin	no	no	
 penguwin	no	no	
+peno	no	no	
 pensi	yes	yes	
 penso	no	no	
 penyu	yes	yes	
@@ -1007,6 +1007,7 @@ sanwu	no	no
 sanyi	yes	yes	
 sanyon	no	no	
 sayitu	no	no	
+sedan	no	no	
 segin	no	no	
 sekan	yes	yes	
 selon	yes	yes	
@@ -1096,8 +1097,6 @@ sonu	no	no
 sonwan	no	no	
 sonyu	no	no	
 sopuge	no	no	
-sosan	no	no	
-sose	no	no	
 sosiwu	yes	yes	
 sosope	no	no	
 sosu	no	no	
@@ -1319,6 +1318,7 @@ wenmun	no	no
 wenpan	no	no	
 wensa	no	no	
 wensin	no	no	
+wenten	no	no	
 wento	no	no	
 wenwu	no	no	
 wenyin	no	no	

@@ -80,7 +80,7 @@ nume nun enpa nun sonli gun sogan pi dan.
 
 ## wabun mena 4 {.apu}
 
-dan su gun efon yonnu ewo fan doku su enpa. dan pon su gun efon ibe ewo, lu bika ewo, lu koda ewo. yin gun feko fan fisu mesun.
+dan su gun efon yonnu ewo fan doku su enpa. dan pon su gun efon ibe ewo, lu bika ewo, lu bosen ewo. yin gun feko fan fisu mesun.
 {.apu}
 
 > No one shall be held in slavery or servitude; slavery and the slave trade shall be prohibited in all their forms.
