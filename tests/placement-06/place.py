@@ -57,7 +57,7 @@ STATE = os.path.join(HERE, "state")
 os.makedirs(STATE, exist_ok=True)
 assert [o.replace("j", "y") + v + c for o, v, c in M2.SYLLABLES] == SYL  # same syllable indexing
 
-FIXED_OPS = set("genso wanme inwun wemen konsin buntu tason nedin mesun manni buni donon lanno anko nuwen kiyo mena".split())
+FIXED_OPS = set("genso wanme inwun wemen konsin buntu tason nedin mesun manni buni donon lanno anko nuwen kiyu mena".split())
 HAPLO_MIN = 10  # added: a grammar word bans its syllable as a root's first syllable if it stands right before a content word >= 10 times in the corpus (bigrams.tsv; ~1% of the 930 such bigrams)
 ALLOW3 = "--no3" not in sys.argv  # sensitivity run: two syllables only (added)
 SUFFIX = "-no3" if not ALLOW3 else ""
