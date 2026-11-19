@@ -9,6 +9,7 @@ aladi	no	no
 alubumu	no	no	
 alumo	no	no	
 alun	yes	yes	
+ameto	no	no	
 anfa	no	no	
 anle	yes	no	
 anmi	no	no	
@@ -20,17 +21,17 @@ apu	no	no
 asame	no	no	
 asun	no	no	
 asutagu	no	no	
+ateke	no	no	
 awin	no	no	
 aya	no	no	
-ayaya	no	no	
 ayomi	yes	yes	
 badin	no	no	
-bago	no	no	
 baken	no	no	
 bakusin	no	no	
 balu	no	no	
-balukon	no	no	
+balukoni	no	no	
 bamo	yes	yes	stop: also intransitive (it stops)
+banafo	no	no	
 banfe	no	no	
 banga	yes	no	panic: event or state?
 bangun	yes	yes	
@@ -45,10 +46,10 @@ batali	no	no
 batu	no	no	
 bawan	no	no	
 bawe	no	no	
+bawisi	no	no	
 bayate	no	no	
 bayemu	no	no	
 bayi	no	no	
-bayiga	yes	yes	roll: also intransitive (it rolls)
 bebu	yes	yes	disgust: action (disgust someone) or the feeling noun?
 bedan	yes	yes	
 bekan	no	no	
@@ -58,14 +59,13 @@ besube	no	no
 bewon	no	no	
 beya	no	no	
 beyasa	yes	yes	
+bibinu	yes	yes	
 bideyo	no	no	
-bidin	no	no	
 bifo	no	no	
-bifowu	no	no	
 bika	yes	yes	
-bilun	no	no	
 bilusu	no	no	
 bina	yes	no	
+bindi	no	no	
 bingan	no	no	
 binla	yes	yes	
 binme	no	no	
@@ -90,6 +90,8 @@ bonwi	no	no
 bosen	yes	yes	
 bosun	no	no	
 botan	no	no	
+bote	no	no	
+boyipe	no	no	
 bubin	no	no	
 bubo	yes	no	
 buda	no	no	
@@ -98,26 +100,27 @@ bufefa	yes	yes
 bufoti	no	no	
 bugen	no	no	
 bugun	no	no	
-buguye	no	no	
-bukili	yes	yes	
 bumun	yes	yes	
 bunle	no	no	
 bunsi	yes	yes	
 bunwan	yes	no	joke: event (to joke) or the thing?
 bunwu	no	no	
 bunyo	no	no	
+busilo	yes	yes	
 buyan	yes	yes	
 dadon	yes	yes	
-dafeka	no	no	
 dafen	no	no	
+dagepo	yes	yes	
+dagufu	no	no	
 daka	yes	yes	
 dakun	no	no	
-dakuwu	no	no	
+dala	no	no	
 dali	no	no	
 daman	no	no	
 dame	no	no	
 damoga	no	no	
 danima	no	no	
+danute	yes	yes	heal: also intransitive (the wound heals)
 dapo	no	no	
 dasosi	yes	yes	
 dati	no	no	
@@ -139,6 +142,7 @@ difudo	no	no
 digan	no	no	
 dikeko	no	no	
 diken	no	no	
+dikoba	no	no	
 dili	no	no	
 dilibe	no	no	
 dilo	no	no	
@@ -152,10 +156,11 @@ dinna	no	no
 dinti	no	no	
 dinwi	no	no	
 dinyo	yes	yes	
+disafa	no	no	
 disayin	no	no	
-disewu	no	no	
 disin	no	no	
 ditun	yes	yes	
+diwiwu	no	no	
 diwusa	yes	yes	
 diye	yes	yes	start: also intransitive (it starts)
 diyeda	no	no	
@@ -177,6 +182,8 @@ dowin	yes	no
 dowuna	no	no	
 doyu	yes	no	
 dubi	no	no	
+dugebi	no	no	
+dukife	no	no	
 dulen	no	no	
 dumofu	no	no	
 dunan	no	no	
@@ -192,6 +199,7 @@ dupan	no	no
 dupo	yes	yes	
 dusate	no	no	
 dusu	yes	no	
+duteka	no	no	
 dutitu	no	no	
 duwa	no	no	
 duwawa	no	no	
@@ -214,13 +222,13 @@ ensu	no	no
 enudo	no	no	
 epise	yes	no	
 esago	no	no	
-etasu	yes	yes	
 eten	no	no	
+ewemu	yes	yes	
 ewo	no	no	
 eye	no	no	
-eyisu	no	no	
 faba	no	no	
 fade	no	no	
+fadepa	no	no	
 fadun	no	no	
 fafin	no	no	
 fafo	no	no	
@@ -231,15 +239,15 @@ fakon	no	no
 falan	yes	yes	
 famin	no	no	
 fano	no	no	
-fanoyu	no	no	
 fape	yes	no	
 fasasa	no	no	
 fasegu	no	no	
 fasi	yes	yes	breathe: object (air) rare
-fatike	yes	yes	
 fatofu	yes	yes	
 fawu	no	no	
+febabo	yes	yes	
 febo	yes	yes	
+febosi	yes	no	
 fedina	no	no	
 fefa	no	no	
 fefiwo	no	no	
@@ -248,7 +256,6 @@ fegen	no	no
 fegunu	no	no	
 feko	no	no	
 fela	no	no	
-felefo	no	no	
 felin	no	no	
 feme	yes	yes	feel: object = what is felt
 femete	yes	yes	infect: object = who is infected; also the infection
@@ -262,10 +269,9 @@ fenni	no	no
 fentan	no	no	
 fenun	no	no	
 fenwan	no	no	
-fepoka	no	no	
 fesan	no	no	
-fesati	no	no	
 fesun	yes	yes	
+fetaki	no	no	
 feti	no	no	
 fewi	no	no	
 fide	no	no	
@@ -293,7 +299,6 @@ fitune	no	no
 fiwun	yes	yes	care: object or tun (care for X)?
 fiyi	no	no	
 fiyon	no	no	
-fiyuwi	yes	yes	fraud: the act (cheat someone) or the thing?
 fofun	yes	yes	
 fogasi	yes	yes	decrease: also intransitive (become less)
 foke	no	no	
@@ -322,6 +327,7 @@ fowo	no	no
 foya	yes	yes	
 foyufo	no	no	
 fuba	no	no	
+fudogu	no	no	
 fudon	no	no	
 fufoma	no	no	
 fugi	no	no	
@@ -335,23 +341,20 @@ funo	no	no
 fupen	no	no	
 fupu	no	no	pain: thing or event (hurt)?
 fusami	no	no	
-fuseno	yes	no	protest: 'protest X' may take an object
 fusin	no	no	
 fuso	no	no	
-fusuyu	no	no	
 futa	no	no	
-futaya	no	no	
 fuwape	no	no	
 fuyen	no	no	
 fuyu	no	no	
 gabe	yes	no	
 gabu	yes	no	
+gafife	no	no	
 gafon	no	no	
 gagan	no	no	
 gakabe	yes	yes	
 gake	no	no	
 gakodo	no	no	
-gala	no	no	
 galasu	no	no	
 gamun	no	no	
 gamuni	yes	yes	improve: also intransitive (it improves)
@@ -375,7 +378,6 @@ gefuko	no	no
 gega	no	no	
 gegi	no	no	
 gegule	no	no	
-gekidu	yes	yes	
 gekon	no	no	
 gele	no	no	
 gelu	no	no	
@@ -390,6 +392,7 @@ geson	no	no
 getin	no	no	
 gewan	yes	yes	
 geweso	no	no	
+gewipa	yes	yes	
 gewobu	no	no	
 gewun	no	no	
 geyawe	no	no	
@@ -424,16 +427,17 @@ gonso	no	no
 gonte	no	no	
 gonwen	no	no	
 gonwu	yes	yes	
+gopoyu	no	no	
 gosan	no	no	
 gosuye	no	no	
 goto	no	no	
 goyito	no	no	
 goyon	yes	yes	
-goyuyu	no	no	
+gubudu	yes	yes	
 gudu	no	no	
 gufu	no	no	
+gufuwa	no	no	
 guge	yes	yes	grow: also intransitive (a plant grows)
-gugife	yes	yes	
 gugon	no	no	
 guka	no	no	
 gukema	no	no	
@@ -446,11 +450,13 @@ guwuki	no	no
 guya	no	no	
 guyi	no	no	
 ibe	yes	yes	
+idiki	no	no	
 idon	no	no	
 ifan	no	no	
 igin	no	no	
 iko	yes	yes	
 ila	no	no	
+iledu	no	no	
 imeyilu	no	no	
 imin	no	no	
 imu	yes	yes	
@@ -463,15 +469,13 @@ intelunetu	no	no
 intu	no	no	
 inwa	yes	yes	enter: object = the place?
 inyi	no	no	
-iseka	no	no	
 isi	yes	no	
-ituke	no	no	
 iwola	no	no	
 kadan	yes	yes	
 kadeso	yes	yes	register: also intransitive (enrol)
 kafe	no	no	
-kafewe	no	no	
 kagun	no	no	
+kagupo	no	no	
 kalendalu	no	no	
 kamela	no	no	
 kamon	no	no	
@@ -484,6 +488,7 @@ kangen	no	no
 kanme	no	no	
 kannu	no	no	
 kansa	no	no	
+kapebi	no	no	
 kaputan	no	no	
 kasalu	no	no	
 kasin	no	no	
@@ -492,7 +497,6 @@ katoge	no	no
 kawa	yes	yes	
 kawafa	no	no	
 kawi	no	no	
-kawiwu	yes	yes	
 kayiyi	no	no	
 kayolo	no	no	
 kenfan	no	no	wave: thing; 'wave a hand' possible
@@ -539,11 +543,9 @@ kiyifi	no	no
 kobi	yes	yes	move: also intransitive
 kodipi	yes	yes	offering: the thing given, or the act (offer up X)?
 kodu	no	no	
-kogeka	yes	yes	
 koken	yes	yes	
 koku	no	no	
 komisa	no	no	
-komowu	no	no	
 komu	no	no	
 konki	no	no	
 konle	no	no	
@@ -558,6 +560,8 @@ kotomo	no	no
 kowan	no	no	
 kowumi	no	no	
 koye	yes	yes	
+koyema	no	no	
+koyuga	no	no	
 kubo	yes	yes	change: also intransitive (become different)
 kude	yes	no	
 kugawe	no	no	
@@ -597,10 +601,10 @@ lante	no	no
 lanwa	no	no	
 lanyun	no	no	
 lebeto	no	no	
+lebute	no	no	
 ledo	no	no	
 lefan	yes	yes	
 lefu	no	no	
-lefuya	no	no	
 legen	no	no	
 lekun	no	no	
 lela	no	no	
@@ -627,10 +631,10 @@ lewe	yes	yes	become: takes a complement, not an undergoer
 leyewa	no	no	
 leyi	no	no	
 leyoyi	yes	yes	
+libafe	no	no	
 lifin	no	no	
 liga	no	no	
 ligemu	no	no	
-likafe	no	no	
 likusi	yes	yes	substitute: also the replacement (thing)
 lilen	yes	yes	increase: also intransitive (it increases)
 lilu	yes	yes	
@@ -653,6 +657,7 @@ liweli	yes	yes
 liwon	yes	no	
 loban	yes	yes	
 lobotu	no	no	
+lodale	no	no	
 lodi	no	no	
 lokagi	no	no	
 lokon	no	no	
@@ -668,11 +673,9 @@ lonpo	no	no
 lonun	no	no	
 lopun	no	no	
 lose	yes	yes	plan: event (plan to X) or the thing?
-losidu	yes	yes	bend: also intransitive (it bends)
 loso	no	no	
 losoma	yes	yes	
 lota	yes	yes	
-lotata	no	no	
 lowe	no	no	
 lowiku	no	no	
 lowu	no	no	
@@ -715,28 +718,29 @@ mekega	yes	yes
 meko	yes	yes	
 meli	no	no	
 memabi	yes	no	
+memewo	no	no	
 memo	no	no	
 mengin	no	no	
 mengon	no	no	
+menitu	yes	yes	fraud: the act (cheat someone) or the thing?
 menmen	yes	yes	pray, worship: object = who is worshipped?
 menpu	yes	yes	turn: also intransitive (turn around)
 menti	no	no	
+mepoka	no	no	
 metulu	no	no	
 mewan	no	no	
 mewone	no	no	
 mewu	yes	no	
 meyen	no	no	
-meyeti	no	no	
 mibun	yes	yes	
 mido	yes	yes	
 mifigu	no	no	
 migi	yes	yes	fight: object or gan/se?
 migisa	no	no	
-migiwi	no	no	
 migotu	no	no	
+miligi	yes	yes	roll: also intransitive (it rolls)
 milimetulu	no	no	
 miman	yes	yes	
-mimewu	no	no	
 mimima	no	no	
 minen	no	no	
 minfi	no	no	
@@ -745,7 +749,6 @@ minlan	no	no
 minmon	no	no	exercise: thing; 'to exercise' possible
 minsa	no	no	
 minu	no	no	
-minufe	no	no	
 minwe	no	no	
 minyu	no	no	
 mipabo	no	no	
@@ -760,7 +763,6 @@ mobin	no	no
 mobon	yes	no	
 modelu	no	no	
 mofa	yes	yes	
-mofawu	no	no	
 mofete	no	no	
 mogan	no	no	
 mogo	no	no	
@@ -772,15 +774,12 @@ mole	no	no
 momu	yes	yes	
 momuge	no	no	
 mona	no	no	
-monato	no	no	
 monin	yes	yes	shake: also intransitive (vibrate)
+mosetu	yes	yes	
 mosu	yes	no	
-mosuli	no	no	
-moti	no	no	
 moto	no	no	
 motone	no	no	
 mowa	no	no	
-mowasu	no	no	
 mowega	no	no	
 mowoyo	no	no	
 moyun	yes	yes	
@@ -796,7 +795,6 @@ munso	no	no
 munya	no	no	
 munyin	yes	yes	
 naba	no	no	
-nabaye	no	no	
 nade	yes	yes	
 nadowo	no	no	
 nafo	yes	yes	record: event (record X) or the recording?
@@ -811,7 +809,6 @@ nano	no	no
 napin	no	no	
 napuwe	no	no	
 nasan	yes	no	
-nasebi	no	no	
 nasi	no	no	
 nasuyu	no	no	
 nata	no	no	
@@ -824,7 +821,6 @@ nebi	yes	yes	can: modal; is it an action word?
 nedose	no	no	
 nefanu	no	no	
 negan	no	no	
-negawi	yes	yes	
 neke	yes	yes	
 neleyu	no	no	
 nelon	no	no	
@@ -841,9 +837,7 @@ nenwa	no	no
 nenwin	no	no	
 nenyun	no	no	
 nesen	no	no	
-nesifo	no	no	
 nesoge	no	no	
-netiti	no	no	
 netu	no	no	
 newupi	no	no	
 neyafu	yes	yes	
@@ -873,10 +867,12 @@ nonten	no	no
 nontu	no	no	
 nonye	no	no	
 nonyon	no	no	
-nubibo	no	no	
+nubige	no	no	
+nufena	no	no	
 nufi	no	no	
 nugaya	yes	yes	
 nugin	no	no	
+nukono	yes	yes	bend: also intransitive (it bends)
 nulan	no	no	
 nulu	yes	yes	
 numase	no	no	
@@ -886,22 +882,20 @@ nunini	yes	yes
 nunole	no	no	
 nupen	no	no	
 nusan	no	no	
+nuse	no	no	
 nusese	no	no	
 nusufu	no	no	
 nusun	yes	yes	experience: event (experience X) or the thing?
 nuta	yes	yes	
-nutano	no	no	
 nuton	yes	yes	
-nutuba	yes	yes	
 nuwo	yes	no	
 nuyosi	no	no	
 nuyuta	no	no	
 obasa	no	no	
 obu	yes	no	
-ode	no	no	
-ofin	no	no	
 ofisu	no	no	
 ogene	no	no	
+okola	no	no	
 okusigen	no	no	
 olipa	no	no	
 omen	yes	yes	
@@ -914,13 +908,13 @@ onti	yes	yes	burn: also intransitive
 onyan	no	no	
 osa	no	no	
 osayi	yes	yes	
+osin	no	no	
 otelu	no	no	
 oton	no	no	
 owobe	no	no	
 owon	yes	yes	birth: event (give birth to X) or the thing?
 oyi	yes	yes	
 paben	yes	no	
-pabito	yes	yes	heal: also intransitive (the wound heals)
 padufe	no	no	
 pagime	no	no	
 pando	yes	yes	
@@ -932,9 +926,12 @@ panuya	yes	yes
 panwe	no	no	
 panwo	no	no	
 papayo	yes	yes	
+pasige	yes	yes	
 pasu	no	no	
 pasupolutu	no	no	
 pata	no	no	
+patetu	no	no	
+pawoma	no	no	
 pawundu	no	no	
 payon	yes	yes	
 pegun	no	no	
@@ -951,6 +948,7 @@ penyu	yes	yes
 pesese	no	no	
 peton	yes	yes	
 pewike	no	no	
+peyuka	no	no	
 pidama	no	no	
 pinda	no	no	
 pinfe	no	no	
@@ -962,10 +960,12 @@ piyano	no	no
 poden	no	no	
 pofi	yes	yes	
 pofo	no	no	
+pofoso	yes	yes	
 pogun	no	no	
 poka	no	no	
 polin	yes	yes	
 polon	no	no	
+pomubu	yes	yes	
 ponan	no	no	
 posaga	yes	yes	
 potiwa	no	no	
@@ -1010,9 +1010,13 @@ sayitu	no	no
 sedan	no	no	
 segin	no	no	
 sekan	yes	yes	
+sekawa	no	no	
+seliyo	no	no	
 selon	yes	yes	
+selotu	yes	no	protest: 'protest X' may take an object
 sema	no	no	
 sendi	no	no	
+senesu	no	no	
 senfa	no	no	
 senfu	yes	yes	
 sengon	no	no	
@@ -1029,15 +1033,18 @@ senya	no	no
 senyen	no	no	
 senyun	no	no	
 sepe	no	no	
+sepepa	no	no	
 sepun	no	no	
 sesen	no	no	
+seseni	no	no	
+sesifu	no	no	
 sesu	no	no	
+setuwi	no	no	
 sewu	no	no	
-sewubo	no	no	
 seyo	no	no	
 siben	no	no	
+sibuya	no	no	
 sidako	yes	yes	rape: event or the thing?
-siduyu	no	no	
 sifada	yes	yes	
 sifi	no	no	
 sifufi	no	no	
@@ -1045,7 +1052,6 @@ sifun	no	no
 sigaletu	no	no	
 sigo	yes	no	return: transitive use (return a thing) possible
 sikomo	no	no	
-siloya	yes	yes	
 silu	no	no	
 silukasu	no	no	
 siman	yes	yes	
@@ -1055,32 +1061,29 @@ sinema	no	no
 sinidi	no	no	
 sinoki	no	no	
 sinun	yes	yes	dream: object = what is dreamt?
-sipisu	no	no	
 sisa	no	no	
 sison	no	no	
 sisuma	yes	yes	
 sita	no	no	
 siten	yes	yes	
-sitewe	no	no	
 situ	no	no	
 siwa	no	no	
 siwase	yes	yes	
-siwelu	no	no	
-siwita	no	no	
 siwon	no	no	
 siyan	no	no	
+siyute	no	no	
 sobame	no	no	
 sodida	no	no	
 soduwo	no	no	
 sofen	yes	yes	
-sofiti	no	no	
+sofiki	no	no	
 sofodu	no	no	
 sogan	no	no	
 sogi	no	no	
+sokewo	no	no	
 sokun	no	no	
 sola	no	no	
 solen	no	no	
-soliwi	no	no	
 solofi	no	no	
 somasu	no	no	argument: thing; event or thing?
 somi	yes	yes	escape: object = what is escaped? also intransitive
@@ -1098,7 +1101,6 @@ sonwan	no	no
 sonyu	no	no	
 sopuge	no	no	
 sosiwu	yes	yes	
-sosope	no	no	
 sosu	no	no	
 sotese	no	no	
 soti	no	no	
@@ -1108,6 +1110,7 @@ sowimo	yes	yes
 sowiso	yes	no	
 sowun	no	no	
 soyabo	no	no	
+soyemi	no	no	
 soyin	yes	yes	
 soyo	yes	no	
 sukalu	no	no	
@@ -1132,13 +1135,13 @@ tabaku	no	no
 tadota	yes	yes	
 tafa	no	no	
 tagani	no	no	
+tagido	no	no	
 tago	no	no	
 takusi	no	no	
 tale	no	no	
 talise	no	no	
 talowi	no	no	
 tamu	no	no	
-tamufo	no	no	
 tana	yes	yes	
 tanbu	no	no	
 tanke	no	no	
@@ -1167,7 +1170,6 @@ tedo	yes	no
 tefole	no	no	
 tefu	no	no	
 teki	no	no	
-tekita	no	no	
 tekunologi	no	no	
 telebisuyon	no	no	
 telun	yes	yes	
@@ -1194,6 +1196,7 @@ tibin	yes	no
 tika	no	no	
 tikun	no	no	
 tilote	yes	yes	
+timika	no	no	
 timon	no	no	
 timusi	no	no	
 tingu	yes	no	
@@ -1212,12 +1215,13 @@ tisalutu	no	no
 tisan	no	no	
 tisiyo	no	no	
 tiso	no	no	
+tisuki	no	no	
 tito	yes	yes	worry: object = what is worried about?
-tituya	no	no	
 tiwe	no	no	
 tiwu	no	no	
-tiwuye	no	no	
 tiyen	no	no	
+tobiwi	no	no	
+toda	no	no	
 tokolatu	no	no	
 tomate	no	no	
 tonde	no	no	
@@ -1233,6 +1237,7 @@ tonwun	no	no
 tonya	no	no	
 tonyin	no	no	
 tosutu	no	no	
+toti	no	no	
 tubenu	no	no	
 tufen	no	no	
 tufun	no	no	
@@ -1256,12 +1261,12 @@ tunson	no	no
 tunwe	no	no	
 tuposa	no	no	
 tusi	yes	yes	
-tutime	no	no	
+tusolo	no	no	
 tutin	no	no	
 tutoyi	no	no	strike: thing; 'to strike' possible
+tuwufa	no	no	
 tuyali	yes	yes	
 tuye	no	no	
-tuyesu	yes	yes	
 tuyon	no	no	
 udin	yes	yes	
 uga	no	no	
@@ -1293,9 +1298,7 @@ walin	no	no
 walo	yes	yes	
 wamu	yes	yes	
 wamuse	no	no	
-wanafo	no	no	
 wanan	yes	no	
-wanbo	no	no	
 wane	no	no	
 waniki	no	no	
 wanole	no	no	
@@ -1336,7 +1339,6 @@ wimuta	no	no
 wine	no	no	
 wino	no	no	
 wisa	no	no	
-wisaya	no	no	
 wisiwe	yes	yes	
 wison	no	no	
 witin	no	no	
@@ -1358,6 +1360,7 @@ wonwe	no	no
 wonyen	no	no	
 wonyu	no	no	
 wudan	yes	no	comment: 'comment on X' may take an object
+wufali	no	no	
 wufon	no	no	
 wufuse	no	no	
 wugonu	no	no	
@@ -1384,23 +1387,19 @@ wusin	no	no
 wusowo	no	no	
 wusu	no	no	
 wuten	no	no	
-wutewi	no	no	
 wuto	yes	no	
 wuwayi	no	no	
 wuwu	no	no	
 wuye	yes	yes	
-wuyiwu	no	no	
 wuyume	yes	yes	
-yadaka	yes	no	
 yadidi	yes	yes	
+yafaka	no	no	
 yafumu	yes	yes	
 yafun	no	no	
 yaga	yes	yes	
-yakifo	no	no	
 yakin	yes	yes	
 yako	yes	no	
 yalen	no	no	
-yameye	no	no	
 yami	no	no	
 yandu	no	no	
 yanfo	no	no	
@@ -1418,6 +1417,7 @@ yatabu	no	no
 yatan	no	no	
 yawalo	yes	yes	
 yaye	no	no	
+yayesi	no	no	
 yayuge	no	no	
 yayun	no	no	
 yebin	yes	yes	
@@ -1437,17 +1437,17 @@ yesa	yes	yes
 yesinu	no	no	
 yesuti	no	no	
 yete	no	no	
+yetewo	yes	yes	
 yetun	yes	yes	
 yewati	no	no	
 yewen	no	no	
-yewiya	no	no	
 yeyan	yes	no	
-yeyoto	yes	no	freeze: transitive use (freeze food) possible
 yeyu	no	no	
 yiban	no	no	
 yiboge	no	no	
 yidu	yes	yes	
 yidumi	no	no	
+yifofu	no	no	
 yikan	no	no	
 yilale	yes	yes	
 yile	no	no	
@@ -1466,14 +1466,15 @@ yinpon	yes	no
 yinse	no	no	
 yinwe	no	no	
 yinya	no	no	
+yipiwi	yes	no	freeze: transitive use (freeze food) possible
 yisen	no	no	
 yiso	no	no	
 yita	no	no	
 yitida	no	no	
 yiwo	no	no	
 yiyin	yes	yes	
+yiyuse	no	no	
 yobe	no	no	
-yodowi	no	no	
 yodun	no	no	
 yofu	yes	yes	
 yokiki	no	no	
@@ -1517,7 +1518,6 @@ yunko	yes	yes
 yunlun	no	no	
 yuntun	yes	yes	excuse: action (excuse someone) or the thing (a pretext)?
 yunye	yes	yes	
-yuseme	yes	yes	
 yusi	no	no	
 yuson	no	no	
 yute	no	no	

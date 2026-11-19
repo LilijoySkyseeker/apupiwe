@@ -48,7 +48,7 @@ The sounds themselves are easy for an English speaker. The hard part is what Eng
 
 Every letter is said, every time. **ewo** "person" is *e-wo*, three sounds in two syllables, and **apu** is *a-pu*. Each letter has one sound, so if you can read a word, you can say it. [§3.1](language.md#r-3-1)
 
-A syllable ends either in a vowel, as in **to** "I", or in n, as in **lokagi** "evening". No other consonant can end one. [§2.3](language.md#r-2-3)
+A syllable ends either in a vowel, as in **wan** "I", or in n, as in **lokagi** "evening". No other consonant can end one. [§2.3](language.md#r-2-3)
 
 Your accent is welcome. These variants are harmless, because the words are built so that none of them turns one word into another: p t k with or without a puff of air; b d g softened between vowels when the syllable isn't stressed; k and g like "ch" and "j" before i and e; l as a tap, like the Spanish r in *pero*; f with both lips; w with lip and teeth, like a v; s as "sh"; a vowel plus n said through the nose; and a little catch in the throat between two vowels across words. They're never written. [§2.9](language.md#r-2-9) [§2.12](language.md#r-2-12) [§3.1](language.md#r-3-1)
 
@@ -74,7 +74,7 @@ For stress, listen to Japanese *ame* 雨 "rain": the first syllable is high and 
 
 Words of two or more syllables are always stressed on the first syllable: **poka** "dog" is *PO-ka* and **guyi** "house" is *GU-yi*. Stress here means a higher pitch and a little more force, so you can still hear it in a whisper. The syllable doesn't get longer. [§2.4](language.md#r-2-4) [§2.6](language.md#r-2-6)
 
-One-syllable words are grammar words, and they're said low and quick (**to**, **sen**, **pi**, **su**…). The digits 0–5 are the exception, since they're stressed. [§2.4](language.md#r-2-4)
+One-syllable words are grammar words, and they're said low and quick (**wan**, **ba**, **pi**, **su**…). The digits 0–5 are the exception, since they're stressed. [§2.4](language.md#r-2-4)
 
 Across a phrase, the stressed syllables step down like a staircase and reset after a comma or full stop. English already does this, so let it happen. [§2.7](language.md#r-2-7)
 
@@ -92,17 +92,17 @@ For practice, read these aloud, first slowly and then at normal speed: **ewo, os
 
 A sentence goes in the same order as in English: who, then the verb, then what. [§1.2](language.md#r-1-2)
 
-- **to nagu poka.** "I see a dog." / "I see the dog."
-- **sen momu osa.** "You want water."
+- **wan nagu poka.** "I see a dog." / "I see the dog."
+- **ba momu osa.** "You want water."
 - **mon nawi pasu.** "She eats food." (**mon** is both "she" and "he")
 
-There is no "a" or "the", and the verb never changes: **to nagu**, **mon nagu**, **kan nagu** ("we see"). Plural usually goes unmarked. You add **la** only when it matters, as in **poka la** "dogs", or you give the number: **poka sa** "two dogs" (numbers come in lesson 9). [§5.2.7](language.md#r-5-2-7) [§2.5](language.md#r-2-5) [§5.2.6](language.md#r-5-2-6)
+There is no "a" or "the", and the verb never changes: **wan nagu**, **mon nagu**, **kan nagu** ("we see"). Plural usually goes unmarked. You add **la** only when it matters, as in **poka la** "dogs", or you give the number: **poka sa** "two dogs" (numbers come in lesson 9). [§5.2.7](language.md#r-5-2-7) [§2.5](language.md#r-2-5) [§5.2.6](language.md#r-5-2-6)
 
-When two verbs come in a row, it depends on the first one. If it takes an object (want, try, need, can, start, stop, like, help…), the second verb is that object, as in **to momu isi.** "I want to go." and **walo alun** "try to break". With any other verb, the second one describes the first: **doyu pume** "sit thinking". What comes after a second verb that is an object goes with it: **to momu isi len guyi.** "I want to go home." [§4.2.6](language.md#r-4-2-6)
+When two verbs come in a row, it depends on the first one. If it takes an object (want, try, need, can, start, stop, like, help…), the second verb is that object, as in **wan momu isi.** "I want to go." and **walo alun** "try to break". With any other verb, the second one describes the first: **doyu pume** "sit thinking". What comes after a second verb that is an object goes with it: **wan momu isi len guyi.** "I want to go home." [§4.2.6](language.md#r-4-2-6)
 
 **tula** "do, make" has two patterns. With a result and then a thing, it means to make the thing that way: **tula upe yin** "fix this" (make good this). With a thing and then a **fun** phrase saying how, it means to do the thing that way: **tula yin fun upe** "do this well". [§4.2.7](language.md#r-4-2-7)
 
-A comma marks a pause. It goes after anything that opens the sentence, as in **afe, to nawi pasu.** "Yesterday, I ate food." The time word **afe** "yesterday" sets the time, so **nawi** "eat" stays as it is. Tense is optional (lesson 10). [§4.6.3](language.md#r-4-6-3) [§8.1.1](language.md#r-8-1-1)
+A comma marks a pause. It goes after anything that opens the sentence, as in **afe, wan nawi pasu.** "Yesterday, I ate food." The time word **afe** "yesterday" sets the time, so **nawi** "eat" stays as it is. Tense is optional (lesson 10). [§4.6.3](language.md#r-4-6-3) [§8.1.1](language.md#r-8-1-1)
 
 A comma also goes around a name you're calling. The full list is in lesson 12. [§4.6.2](language.md#r-4-6-2)
 
@@ -114,7 +114,7 @@ In English the describing word comes first: *big house*. Here a content word tha
 - **poka yin** "this dog"
 - **ewo meli** "a small person"
 
-A content word is one with a meaning of its own, the name of a thing, an action or a quality. The small grammar words, like **to** and **la**, each have their own place.
+A content word is one with a meaning of its own, the name of a thing, an action or a quality. The small grammar words, like **wan** and **la**, each have their own place.
 
 To say that the house *is* big, put **gun** "is" in between: **guyi gun tugu.** "The house is big." Without **gun**, **guyi tugu** is usually heard as "the big house". [§4.7.1](language.md#r-4-7-1)
 
@@ -136,38 +136,38 @@ Position can also make any word a noun. As an object, **mosu** "apologise" becom
 
 - with a noun: **mon gun tiwu.** "She is a child." [§4.7.2](language.md#r-4-7-2)
 - with a place: **mon gun no guyi.** "He's at home." (**no** "at", lesson 7) [§4.7.3](language.md#r-4-7-3)
-- with an action word, it gives the state of whoever the action is done to: **gun tapi** "is closed", **mon gun kuwi** "she is protected". So **to gun nuta** is "I am feared"; to say "I'm afraid", use the plain verb, **to nuta** (I fear) [§4.7.4](language.md#r-4-7-4)
+- with an action word, it gives the state of whoever the action is done to: **gun tapi** "is closed", **mon gun kuwi** "she is protected". So **wan gun nuta** is "I am feared"; to say "I'm afraid", use the plain verb, **wan nuta** (I fear) [§4.7.4](language.md#r-4-7-4)
 - after another verb, it means "to be": **momu gun tiwu** "want to be a child" [§4.7.6](language.md#r-4-7-6)
-- with no subject, it means "(it) is": **gun nasi** "(it's) money". "There is" uses **ibe** "have" with no subject: **ibe yefi fefa.** "There are many things." Without a subject **ibe** always means this, so to say who has something, name them: **to ibe pasu** "I have food". [§4.5.2](language.md#r-4-5-2) [§4.7.7](language.md#r-4-7-7)
+- with no subject, it means "(it) is": **gun nasi** "(it's) money". "There is" uses **ibe** "have" with no subject: **ibe yefi fefa.** "There are many things." Without a subject **ibe** always means this, so to say who has something, name them: **wan ibe pasu** "I have food". [§4.5.2](language.md#r-4-5-2) [§4.7.7](language.md#r-4-7-7)
 
-When several things follow a noun, they go in this order: **wan** (below), then describing words, then a number, then **la**, then this or that, then a **pi** phrase, then a **gi** clause. For example, **guyi tugu sa la yin** "these two big houses". A number and **la** can go together, but once there's a number **la** is optional, so **guyi tugu sa yin** means the same. You'll meet **pi** phrases in lesson 7 and **gi** clauses in lesson 12. [§5.1.1](language.md#r-5-1-1) [§5.2.6](language.md#r-5-2-6)
+When several things follow a noun, they go in this order: **wi** (below), then describing words, then a number, then **la**, then this or that, then a **pi** phrase, then a **gi** clause. For example, **guyi tugu sa la yin** "these two big houses". A number and **la** can go together, but once there's a number **la** is optional, so **guyi tugu sa yin** means the same. You'll meet **pi** phrases in lesson 7 and **gi** clauses in lesson 12. [§5.1.1](language.md#r-5-1-1) [§5.2.6](language.md#r-5-2-6)
 
 Gender is an ordinary describing word, and you only use it when it matters: **tiwu futa** "daughter", **tiwu lowu** "son". [§5.2.2](language.md#r-5-2-2)
 
 Each describing word after a noun describes the noun, so **lipo wiwi buda** is "a red, dark cloth". To make a word describe the describing word before it, put **tan** between them: **lipo wiwi tan buda** "a dark-red cloth" (red, dark-ish). **tan** joins only the word before it and the word after it, and it works after **gun** too: **lipo gun wiwi tan buda.** "The cloth is dark red." [§5.2.11](language.md#r-5-2-11)
 
-For affection, put **wan** "dear little" right after a noun or a name, before any describing words: **poka wan** "doggy", **poka wan tugu** "the dear big dog", **fo mara wan** "dear Mara". It's a grammar word, so it also ends a name: in **fo mara wan obu** "dear Mara is coming", **obu** can't be read as part of the name (lesson 7). [§5.2.12](language.md#r-5-2-12)
+For affection, put **wi** "dear little" right after a noun or a name, before any describing words: **poka wi** "doggy", **poka wi tugu** "the dear big dog", **fo mara wi** "dear Mara". It's a grammar word, so it also ends a name: in **fo mara wi obu** "dear Mara is coming", **obu** can't be read as part of the name (lesson 7). [§5.2.12](language.md#r-5-2-12)
 
 Small operator words go in front of what they cover. The degree words work this way: **ten tugu** "very big", **ke tugu** "bigger", **tason tugu** "rather big". So do **su** "not" and a few others, which come in lesson 4. "Bigger than" comes later, in lesson 9. [§6.2.1](language.md#r-6-2-1) [§6.2.6](language.md#r-6-2-6)
 
 ## Lesson 4: Not, questions, answers and commands
 
-The word for "not" is **su**, and it goes before what it denies: **to su loya.** "I don't know." Doubled, **su su** is "definitely not". [§6.2.2](language.md#r-6-2-2)
+The word for "not" is **su**, and it goes before what it denies: **wan su loya.** "I don't know." Doubled, **su su** is "definitely not". [§6.2.2](language.md#r-6-2-2)
 
 **pon** "also", **ga** "only" and **yon** "even" work the same way, each going before what it covers: [§6.2.3](language.md#r-6-2-3)
 
-- **to pon obu.** "I'm coming too."
-- **ga to** "only me"
+- **wan pon obu.** "I'm coming too."
+- **ga wan** "only me"
 - **yon tiwu la obu.** "Even the children came."
 - **yon sin** "even if"
 
-Where English stresses a word for contrast, you put **min** before it: **min fo tomas ben yidu bun.** "*Tomas* took it." Here **fo** marks a name (lesson 7), **ben** means it's done (lesson 10) and **bun** is "it". Before the verb, **min** insists: **to min unfu.** "I *did* pay." [§6.2.3](language.md#r-6-2-3)
+Where English stresses a word for contrast, you put **min** before it: **min fo tomas ben yidu bun.** "*Tomas* took it." Here **fo** marks a name (lesson 7), **ben** means it's done (lesson 10) and **bun** is "it". Before the verb, **min** insists: **wan min unfu.** "I *did* pay." [§6.2.3](language.md#r-6-2-3)
 
 ### Questions and answers
 
-A yes/no question starts with **bi**: **bi sen momu osa.** "Do you want water?" [§4.8.1](language.md#r-4-8-1)
+A yes/no question starts with **bi**: **bi ba momu osa.** "Do you want water?" [§4.8.1](language.md#r-4-8-1)
 
-There are no words for yes and no. You answer by repeating the verb: **momu** "(I) want (it)", or **su momu** "(I) don't want (it)". This feels strange for a week and then very natural. The short answer is **feko** "true" or **su feko** "not true". It says whether the question, exactly as asked, is true: to **bi sen su obu?** "aren't you coming?", **feko** means "right, I'm not coming". So think of **feko** as "that's right", never as "yes". **ok** agrees to a suggestion ("let's go" → **ok**), not to a question. A question with **gun** is answered with whatever follows **gun**. To **bi guyi gun tugu.** "Is the house big?" the answer is **tugu** or **su tugu**. [§4.8.6](language.md#r-4-8-6)
+There are no words for yes and no. You answer by repeating the verb: **momu** "(I) want (it)", or **su momu** "(I) don't want (it)". This feels strange for a week and then very natural. The short answer is **feko** "true" or **su feko** "not true". It says whether the question, exactly as asked, is true: to **bi ba su obu?** "aren't you coming?", **feko** means "right, I'm not coming". So think of **feko** as "that's right", never as "yes". **ok** agrees to a suggestion ("let's go" → **ok**), not to a question. A question with **gun** is answered with whatever follows **gun**. To **bi guyi gun tugu.** "Is the house big?" the answer is **tugu** or **su tugu**. [§4.8.6](language.md#r-4-8-6)
 
 To show you got it, you can say **mm** "heard you". Echoing the answer back means "understood", and **du** with a verb means "will do": **du obu** "I'll come". [§4.8.6](language.md#r-4-8-6)
 
@@ -175,10 +175,10 @@ Short words like **su** and **bi** are easy to lose in noise, and the sentence l
 
 Question words stay where the answer would go. English moves *what* to the front of the sentence, but here it stays put: [§4.8.2](language.md#r-4-8-2)
 
-- **sen momu yu.** "What do you want?" (you want what)
+- **ba momu yu.** "What do you want?" (you want what)
 - **ewo yu obu.** "Who is coming?" (person-what comes)
-- **sen kusa bo yu.** "Why are you leaving?" (you leave because-what, with **bo** "because")
-- **sen tula bun fun yu.** "How did you do it?" (you do it like-what, with **fun** "like")
+- **ba kusa bo yu.** "Why are you leaving?" (you leave because-what, with **bo** "because")
+- **ba tula bun fun yu.** "How did you do it?" (you do it like-what, with **fun** "like")
 
 A few more question words: [§4.8.3](language.md#r-4-8-3)
 
@@ -190,11 +190,11 @@ A few more question words: [§4.8.3](language.md#r-4-8-3)
 | **wifu yu** | how many, how much |
 | **pi ewo yu** | whose (of what person) |
 
-So **sen nume no fela yu.** "Where do you live?"
+So **ba nume no fela yu.** "Where do you live?"
 
-A choice can be offered two ways: **bi sen momu osa lu pasu.** "Do you want water or food (either one)?" and **sen momu osa lu pasu, yu.** "Which do you want, water or food?" Answer by echoing your choice: **osa**. [§4.8.4](language.md#r-4-8-4)
+A choice can be offered two ways: **bi ba momu osa lu pasu.** "Do you want water or food (either one)?" and **ba momu osa lu pasu, yu.** "Which do you want, water or food?" Answer by echoing your choice: **osa**. [§4.8.4](language.md#r-4-8-4)
 
-Questions can also sit inside a sentence, after **me** "that", which introduces a clause: **to su loya me bi mon obu.** "I don't know whether she's coming." **to su loya me bi ewo yu obu.** "I don't know who is coming." The **bi** is what makes it a question inside the sentence. Without it, **sen momu me to oyi yu** is a real question: "You want me to say what?" [§4.8.5](language.md#r-4-8-5)
+Questions can also sit inside a sentence, after **me** "that", which introduces a clause: **wan su loya me bi mon obu.** "I don't know whether she's coming." **wan su loya me bi ewo yu obu.** "I don't know who is coming." The **bi** is what makes it a question inside the sentence. Without it, **ba momu me wan oyi yu** is a real question: "You want me to say what?" [§4.8.5](language.md#r-4-8-5)
 
 ### What kind of sentence it is
 
@@ -206,16 +206,16 @@ A particle near the start says what kind of sentence it is. It comes after any o
 | **lo** | request ("would you…?"). With "we" it means "let's", as in **lo kan isi** "let's go", and with someone else it's a wish |
 | **ti** | instruction ("do this") |
 | **fon** | advice ("I'd suggest…; your call") |
-| **du** | "I'll…" (I intend), or "we will" for your group: **du din**, with **din** "we, not you" from lesson 5 |
+| **du** | "I'll…" (I intend), or "we will" for your group: **du ta**, with **ta** "we, not you" from lesson 5 |
 | **yo** | warning, and **yo yo** is an emergency |
 | **ka** | exclamation |
 | **genso** | not literal (joking, irony) |
 
 A command uses **ti**: **ti obu.** "Come." Among friends a bare verb works too, **obu!**, the way English says "Come!". "Don't" is **ti su**: **ti su kusa.** "Don't leave." [§4.2.8](language.md#r-4-2-8) [§12.4](language.md#r-12-4)
 
-For a request, use **lo**: **lo neke to osa.** "Give me water?" "Please" is **lo wu**, which you'll meet in lesson 8. [§4.2.8](language.md#r-4-2-8) [§10.2.1](language.md#r-10-2-1)
+For a request, use **lo**: **lo neke wan osa.** "Give me water?" "Please" is **lo wu**, which you'll meet in lesson 8. [§4.2.8](language.md#r-4-2-8) [§10.2.1](language.md#r-10-2-1)
 
-**genso** and **ka** can go in front of another particle, and **genso** can also go in front of a plain statement. **ka bi** is a surprised or indignant question. With **genso** you get things like **genso bi sen loya.** "As if you'd know." and **genso to gun ten sogi.** "I'm *so* happy." (sarcastic) [§7.1.3](language.md#r-7-1-3)
+**genso** and **ka** can go in front of another particle, and **genso** can also go in front of a plain statement. **ka bi** is a surprised or indignant question. With **genso** you get things like **genso bi ba loya.** "As if you'd know." and **genso wan gun ten sogi.** "I'm *so* happy." (sarcastic) [§7.1.3](language.md#r-7-1-3)
 
 **du** is only for your own plans, or your group's. To talk about someone else's plan, use a time word or **pe** "how sure" (lesson 13). [§7.1.4](language.md#r-7-1-4)
 
@@ -223,35 +223,35 @@ For a request, use **lo**: **lo neke to osa.** "Give me water?" "Please" is **lo
 
 | | |
 |---|---|
-| **to** | I, me [§13.1](language.md#r-13-1) |
-| **sen** | you (anyone, any number) [§10.2.2](language.md#r-10-2-2) |
+| **wan** | I, me [§13.1](language.md#r-13-1) |
+| **ba** | you (anyone, any number) [§10.2.2](language.md#r-10-2-2) |
 | **kan** | we, including you [§10.3.7](language.md#r-10-3-7) |
-| **din** | we, not including you [§10.3.7](language.md#r-10-3-7) |
+| **ta** | we, not including you [§10.3.7](language.md#r-10-3-7) |
 | **mon** | he or she (the person being talked about) [§10.3.1](language.md#r-10-3-1) |
 | **tun** | the other one (someone who isn't the person being talked about) [§10.3.1](language.md#r-10-3-1) |
 | **bun** | it (the thing being talked about) [§10.3.2](language.md#r-10-3-2) |
 | **fin** | that one (a different thing), and also "that" for something said or done: **fin gun upe** "that's good" [§10.3.2](language.md#r-10-3-2) [§10.3.3](language.md#r-10-3-3) |
 | **yin** | this, for something just said or here now: **bo yin** "so" [§10.3.3](language.md#r-10-3-3) |
 | **mon la** | they [§10.3.7](language.md#r-10-3-7) |
-| **nen** | self: **to miya nen** "I look at myself" [§10.3.6](language.md#r-10-3-6) |
+| **nen** | self: **wan miya nen** "I look at myself" [§10.3.6](language.md#r-10-3-6) |
 | **son** | he or she in reported speech: the person whose words are reported [§10.3.4](language.md#r-10-3-4) |
 | **dan** | anyone, people in general [§10.3.5](language.md#r-10-3-5) |
 
-Watch out for **sen**. It means "you" and only ever means the person you're talking to. When English uses "you" for people in general, as in "you never know", the word is **dan**. [§10.2.2](language.md#r-10-2-2) [§10.3.5](language.md#r-10-3-5)
+Watch out for **ba**. It means "you" and only ever means the person you're talking to. When English uses "you" for people in general, as in "you never know", the word is **dan**. [§10.2.2](language.md#r-10-2-2) [§10.3.5](language.md#r-10-3-5)
 
-For "my" and "your", use **pi** "of" after the noun: "my house" is **guyi pi to** (house of me), and "your house" is **guyi pi sen**. There's more on **pi** in lesson 7. [§5.2.9](language.md#r-5-2-9)
+For "my" and "your", use **pi** "of" after the noun: "my house" is **guyi pi wan** (house of me), and "your house" is **guyi pi ba**. There's more on **pi** in lesson 7. [§5.2.9](language.md#r-5-2-9)
 
-English "we" hides whether the listener is included. Here you have to choose between **kan** and **din**: **lo kan isi** "let's go (you and I)" or **din isi** "we're going (without you)". [§10.3.7](language.md#r-10-3-7)
+English "we" hides whether the listener is included. Here you have to choose between **kan** and **ta**: **lo kan isi** "let's go (you and I)" or **ta isi** "we're going (without you)". [§10.3.7](language.md#r-10-3-7)
 
 **mon** and **tun** do the work of English "he" and "she", but they sort people by focus. **mon** is the person the conversation is about and **tun** is someone else, whatever their gender. In a story with two people, they keep the two apart without names: **mon nagu tun** "she saw him". Someone new stays **tun**, or gets named, until you make them the topic. Name someone again whenever it could be unclear. [§10.3.1](language.md#r-10-3-1) [§10.3.8](language.md#r-10-3-8)
 
-A pronoun never refers to the subject of its own clause. For that you use **nen**: **to miya nen** "I look at myself". Saying **to miya to** would be wrong. After a noun or pronoun, **nen** means "in person": **mon nen obu.** "He came himself." [§10.3.8](language.md#r-10-3-8) [§10.3.6](language.md#r-10-3-6)
+A pronoun never refers to the subject of its own clause. For that you use **nen**: **wan miya nen** "I look at myself". Saying **wan miya wan** would be wrong. After a noun or pronoun, **nen** means "in person": **mon nen obu.** "He came himself." [§10.3.8](language.md#r-10-3-8) [§10.3.6](language.md#r-10-3-6)
 
 **son** is for reporting what someone said or thought: **mon oyi me son kusa.** "She said that she (herself) was leaving." [§10.3.4](language.md#r-10-3-4)
 
 An unknown person is **ewo kin** "someone": **ewo kin yidu bun.** "Someone took it." [§10.3.5](language.md#r-10-3-5)
 
-When the listener already knows who or what you mean, you can leave it out. Casual English does this too, but this language does it more: **wuma, nagu sen.** "See you tomorrow." (**wuma** "tomorrow"). Asked **sen momu yu.**, you can answer with just **osa.** "Water." Say it in full when leaving it out could confuse. [§4.5.1](language.md#r-4-5-1) [§4.5.3](language.md#r-4-5-3)
+When the listener already knows who or what you mean, you can leave it out. Casual English does this too, but this language does it more: **wuma, nagu ba.** "See you tomorrow." (**wuma** "tomorrow"). Asked **ba momu yu.**, you can answer with just **osa.** "Water." Say it in full when leaving it out could confuse. [§4.5.1](language.md#r-4-5-1) [§4.5.3](language.md#r-4-5-3)
 
 A verb with no object is read by its subject. If the subject can't act, the action happens to it: **beya ben tapi** "the door closed", **fileni ben alun** "the cup broke". If it can act, it acts on something you already know about: **fo mara ben ibe fileni. mon ben alun.** "Mara had a cup. She broke it." [§4.5.4](language.md#r-4-5-4)
 
@@ -263,45 +263,42 @@ Many grammar words are spelled like English words and mean something else. Learn
 
 | Looks like | Means | Example |
 |---|---|---|
-| **to** | I (English "to" is **len**) | **to obu** "I come" [§13.1](language.md#r-13-1) |
+| **wan** | I | **wan obu** "I come" [§13.1](language.md#r-13-1) |
+| **to** | the tool for… (English "to" is **len**) | **to lisaku** "a frying pan", a tool for frying [§5.4.2](language.md#r-5-4-2) |
 | **no** | at (English "no" is **su**) | **mon doku nun nawi no guyi** "he works, and eats at home" [§13.1](language.md#r-13-1) |
-| **me** | that, before a clause (English "me" is **to**) | **sen momu me to oyi yu?** "you want me to say what?" [§13.1](language.md#r-13-1) |
+| **me** | that, before a clause (English "me" is **wan**) | **ba momu me wan oyi yu?** "you want me to say what?" [§13.1](language.md#r-13-1) |
 | **don** | from | **win obu don yaye** "one who comes from the sky", an alien [§13.1](language.md#r-13-1) |
-| **won** | but | [§4.4.5](language.md#r-4-4-5) |
 | **sin** | if | [§12.1](language.md#r-12-1) |
 | **win** | the one who… | **win wiwa** "one who teaches", a teacher [§5.4.2](language.md#r-5-4-2) |
-| **ban** | the place for… | **ban nume** "a home" [§5.4.2](language.md#r-5-4-2) |
 | **we** | all | **ewo we** "all people", everyone [§5.2.8](language.md#r-5-2-8) |
 | **kin** | some (unspecified) | **ewo kin** "someone" [§5.2.8](language.md#r-5-2-8) |
 | **fin** | that | **guyi fin** "that house" [§5.2.8](language.md#r-5-2-8) |
-| **pa** | none | **to su ibe poka pa** "I don't have any dogs" [§5.2.7](language.md#r-5-2-7) |
 | **son** | he/she, in reported speech | lesson 5 [§10.3.4](language.md#r-10-3-4) |
-| **bun** | it | **to nagu bun.** "I see it." [§10.3.2](language.md#r-10-3-2) |
+| **bun** | it | **wan nagu bun.** "I see it." [§10.3.2](language.md#r-10-3-2) |
 | **ten** | very (not the number; 10 is **yawu**) | **ten tugu** "very big" [§6.2.6](language.md#r-6-2-6) |
 | **ma** | five, a digit (lesson 9) | **ma yawu** "50" [§9.1.1](language.md#r-9-1-1) |
 | **fun** | like, about; how | **nawi pasu fun yobe** "eat food quickly" [§4.2.4](language.md#r-4-2-4) |
 | **tan** | joins two describing words (lesson 3), not a colour | **lipo wiwi tan buda** "dark-red cloth" [§5.2.11](language.md#r-5-2-11) |
-| **wan** | dear little, after a noun | **poka wan** "doggy" [§5.2.12](language.md#r-5-2-12) |
 | **gun** | is | **guyi gun tugu.** "The house is big." [§4.7.1](language.md#r-4-7-1) |
 | **nun** | and | **mole nun sine** "mother and father" [§4.4.5](language.md#r-4-4-5) |
-| **ben** | done (finished) | **to ben nawi.** "I've eaten." [§8.1.2](language.md#r-8-1-2) |
+| **ben** | done (finished) | **wan ben nawi.** "I've eaten." [§8.1.2](language.md#r-8-1-2) |
 
-There are no words for "a" and "the". Usually context is enough. When it matters, use **yin** "this", **fin** "that", **kin** "some (unspecified)" or a number, as in **ewo kin** "someone" and **yefi kin** "something". These words go after the noun. Some can stand alone as a noun: **we** "all, everyone", **fe** "some", **pa** "none". For part of a whole, put the word or a number before **pi** and the noun: **ye pi silu la** "some of the photos", **sa pi ewo de** "two of the three people". With **su**, **pa** doesn't cancel it out: **to su ibe poka pa** "I don't have any dogs". [§5.2.7](language.md#r-5-2-7) [§5.2.8](language.md#r-5-2-8) [§5.2.5](language.md#r-5-2-5) [§6.2.2](language.md#r-6-2-2)
+There are no words for "a" and "the". Usually context is enough. When it matters, use **yin** "this", **fin** "that", **kin** "some (unspecified)" or a number, as in **ewo kin** "someone" and **yefi kin** "something". These words go after the noun. Some can stand alone as a noun: **we** "all, everyone", **fe** "some", **din** "none". For part of a whole, put the word or a number before **pi** and the noun: **ye pi silu la** "some of the photos", **sa pi ewo de** "two of the three people". With **su**, **din** doesn't cancel it out: **wan su ibe poka din** "I don't have any dogs". [§5.2.7](language.md#r-5-2-7) [§5.2.8](language.md#r-5-2-8) [§5.2.5](language.md#r-5-2-5) [§6.2.2](language.md#r-6-2-2)
 
 ## Lesson 7: Of, at, to, from, with
 
 The relation words come before their noun, as in English: [§4.4.1](language.md#r-4-4-1)
 
-- **pi** of: **guyi pi to** "my house" (house of me), **guyi pi fo mara** "Mara's house" [§5.2.9](language.md#r-5-2-9)
+- **pi** of: **guyi pi wan** "my house" (house of me), **guyi pi fo mara** "Mara's house" [§5.2.9](language.md#r-5-2-9)
 - **no** at, in: **mon gun no guyi.** "She's at home." [§13.1](language.md#r-13-1)
-- **len** to: **to isi len guyi.** "I'm going home." [§13.1](language.md#r-13-1)
+- **len** to: **wan isi len guyi.** "I'm going home." [§13.1](language.md#r-13-1)
 - **don** from: **mon obu don guyi.** "He comes from home." [§13.1](language.md#r-13-1)
-- **nan** with: **to isi nan sen.** "I'm going with you." [§13.1](language.md#r-13-1)
-- **fan** for: **fan sen** "for you" [§13.1](language.md#r-13-1)
+- **nan** with: **wan isi nan ba.** "I'm going with you." [§13.1](language.md#r-13-1)
+- **fan** for: **fan ba** "for you" [§13.1](language.md#r-13-1)
 - **fun** like, about [§13.1](language.md#r-13-1)
 - **pu** during [§13.1](language.md#r-13-1)
 - **ya** before, **kon** after (on their own they mean "beforehand" and "after that") [§4.4.2](language.md#r-4-4-2)
-- **anko** until: **to doku anko lokagi.** "I work until evening." [§13.2](language.md#r-13-2)
+- **anko** until: **wan doku anko lokagi.** "I work until evening." [§13.2](language.md#r-13-2)
 - **nuwen** without: **mon obu nuwen nasi.** "He came without money." [§13.2](language.md#r-13-2)
 - **bo** because of: **bo yu** "why" (because of what), **bo yin** "so" (because of this) [§4.4.1](language.md#r-4-4-1)
 
@@ -309,7 +306,7 @@ The relation words come before their noun, as in English: [§4.4.1](language.md#
 
 Two nouns side by side are used only for gender (**tiwu futa**) and for the fixed compounds in the [compounds list](../data/compounds.tsv). [§5.2.3](language.md#r-5-2-3)
 
-To give something to someone, put the verb first, then who gets it, then what: **neke to osa** "give me water". But **yin** or **fin** right after a noun or pronoun belongs to it, so **to iko mon fin** is "I told that-him". To make "that" the thing given, use **len**: **to iko fin len mon.** "I told that to him." [§4.2.5](language.md#r-4-2-5) [§5.2.8](language.md#r-5-2-8)
+To give something to someone, put the verb first, then who gets it, then what: **neke wan osa** "give me water". But **yin** or **fin** right after a noun or pronoun belongs to it, so **wan iko mon fin** is "I told that-him". To make "that" the thing given, use **len**: **wan iko fin len mon.** "I told that to him." [§4.2.5](language.md#r-4-2-5) [§5.2.8](language.md#r-5-2-8)
 
 Names always take **fo** and keep their owner's spelling: **fo mara**, **fo lilith**. In casual speech people often leave **fo** out when it's clear a name is meant. Say a name as close to its owner's pronunciation as you can. If you can't, use the adapted form, made from the nearest native sounds (Lilith → *lilifu*). Section 11 of the [reference](language.md) shows how to make the adapted form of your own name. [§11.1](language.md#r-11-1) [§11.2](language.md#r-11-2)
 
@@ -323,9 +320,9 @@ To spell a name or an email address for someone from another culture, use the in
 - **lota** thanks, **mosu** sorry [§10.2.5](language.md#r-10-2-5)
 - **mm** "I heard you", **huh?** "say again" [§2.10](language.md#r-2-10)
 
-**wu** makes anything polite. It goes right after the particle, as in **lo wu**, **ti wu** and **yo wu**, or where the particle would be in a plain statement or greeting, as in **wu upe leso**. A full request looks like **lo wu neke to osa.** "Could you please give me water?" For more politeness, add more: **wu wu**. [§10.2.1](language.md#r-10-2-1) [§10.2.5](language.md#r-10-2-5)
+**wu** makes anything polite. It goes right after the particle, as in **lo wu**, **ti wu** and **yo wu**, or where the particle would be in a plain statement or greeting, as in **wu upe leso**. A full request looks like **lo wu neke wan osa.** "Could you please give me water?" For more politeness, add more: **wu wu**. [§10.2.1](language.md#r-10-2-1) [§10.2.5](language.md#r-10-2-5)
 
-There's no polite form of "you". **sen** is "you" to anyone, boss or child, and respect comes from **lanno**, titles and **wu**. In an emergency (**yo yo**) nobody expects **wu**. [§10.2.2](language.md#r-10-2-2) [§10.2.4](language.md#r-10-2-4)
+There's no polite form of "you". **ba** is "you" to anyone, boss or child, and respect comes from **lanno**, titles and **wu**. In an emergency (**yo yo**) nobody expects **wu**. [§10.2.2](language.md#r-10-2-2) [§10.2.4](language.md#r-10-2-4)
 
 To call someone, put their name or title first, with a comma, to get their attention, or put it last to soften what you say: **fo mara, ti obu.** / **ti obu, fo mara.** "Mara, come." [§10.1.1](language.md#r-10-1-1)
 
@@ -386,15 +383,15 @@ Units have their metric names, built like the metric system builds them: **kilo*
 
 ## Lesson 10: Time
 
-Tense is optional. Say when it happens the first time, and after that stop marking it: **afe, to nawi pasu.** "Yesterday, I ate food." The future works the same way: **wuma, to obu.** "Tomorrow, I'll come." The basic time words are **eda** now, **mefa** today, **wuma** tomorrow and **afe** yesterday. [§8.1.1](language.md#r-8-1-1) [§8.2.1](language.md#r-8-2-1)
+Tense is optional. Say when it happens the first time, and after that stop marking it: **afe, wan nawi pasu.** "Yesterday, I ate food." The future works the same way: **wuma, wan obu.** "Tomorrow, I'll come." The basic time words are **eda** now, **mefa** today, **wuma** tomorrow and **afe** yesterday. [§8.1.1](language.md#r-8-1-1) [§8.2.1](language.md#r-8-2-1)
 
-Three small words show where an action stands. **ben** means done: **to ben nawi** "I've eaten". **li** means in progress, and also "still": **to li nawi** "I'm eating". **buntu** means about to: **to buntu kusa** "I'm about to leave". **ben** is "done" relative to the time you're talking about, so inside a past story it means "had already": **no nufi fin, mon ben liwon** "by then, she had arrived". [§8.1.2](language.md#r-8-1-2)
+Three small words show where an action stands. **ben** means done: **wan ben nawi** "I've eaten". **li** means in progress, and also "still": **wan li nawi** "I'm eating". **buntu** means about to: **wan buntu kusa** "I'm about to leave". **ben** is "done" relative to the time you're talking about, so inside a past story it means "had already": **no nufi fin, mon ben liwon** "by then, she had arrived". [§8.1.2](language.md#r-8-1-2)
 
-"Not yet" is "still not", **li su**, the way Mandarin and German say it: **to li su nawi.** "I haven't eaten yet." **su ben** is "didn't": **to su ben nawi.** "I didn't eat." "I was eating" is **ben li**, done and ongoing together: **to ben li nawi.** [§8.1.3](language.md#r-8-1-3) [§8.1.2](language.md#r-8-1-2)
+"Not yet" is "still not", **li su**, the way Mandarin and German say it: **wan li su nawi.** "I haven't eaten yet." **su ben** is "didn't": **wan su ben nawi.** "I didn't eat." "I was eating" is **ben li**, done and ongoing together: **wan ben li nawi.** [§8.1.3](language.md#r-8-1-3) [§8.1.2](language.md#r-8-1-2)
 
-For habits, put **manni** before the verb. On its own it means "usually", as in **to manni isi** "I usually go", and with a past time word it means "used to". For intent, **nan momu** is "on purpose" and **su nan momu** "by accident". [§8.1.4](language.md#r-8-1-4) [§8.1.5](language.md#r-8-1-5)
+For habits, put **manni** before the verb. On its own it means "usually", as in **wan manni isi** "I usually go", and with a past time word it means "used to". For intent, **nan momu** is "on purpose" and **su nan momu** "by accident". [§8.1.4](language.md#r-8-1-4) [§8.1.5](language.md#r-8-1-5)
 
-Before the verb, things go in this order: small operator words, then **manni**, then **ben**, **li** or **buntu**, then the verb. For example, **to pon manni li doku** "I'm also usually working". The one exception is **li su** "still not", from above. [§6.2.7](language.md#r-6-2-7)
+Before the verb, things go in this order: small operator words, then **manni**, then **ben**, **li** or **buntu**, then the verb. For example, **wan pon manni li doku** "I'm also usually working". The one exception is **li su** "still not", from above. [§6.2.7](language.md#r-6-2-7)
 
 To count from now, use **kon** and **ya**. **kon nelon ni** "after one week" is next week, and **ya dunan ni** "before one month" is a month ago. Any time can be the starting point: **wuma kon dili ni** "the day after tomorrow". [§8.2.2](language.md#r-8-2-2)
 
@@ -408,7 +405,7 @@ On a 24-hour clock, read the four digits one at a time: **no sa ni de mu** "at 2
 
 Dates are labels with **mena** (lesson 9), and the bigger unit comes first, with a comma between: the month by number, then the day. So **dunan mena yawu, dili mena tuli** "October 9". A year is read digit by digit: **fawu mena sa mu sa ufo** "2026". On its own, **dili mena** with a number from 1 to 7 is a weekday, counting Monday as 1: **dili mena de** "Wednesday". For a date without its month, add what it's the day of: **dili mena de pi dunan** "the 3rd of the month". [§8.3.3](language.md#r-8-3-3) [§8.3.2](language.md#r-8-3-2)
 
-Age is time lived. **to nume fawu de yawu** "I have lived 30 years" is how you say you're 30. [§8.2.4](language.md#r-8-2-4)
+Age is time lived. **wan nume fawu de yawu** "I have lived 30 years" is how you say you're 30. [§8.2.4](language.md#r-8-2-4)
 
 ## Lesson 11: Making words you don't have
 
@@ -418,18 +415,18 @@ This is the skill that makes a small vocabulary enough. Four markers turn an act
 |---|---|---|
 | **win** + verb | the one who does it | **win wiwa** teacher, **win wungu** leader |
 | **gen** + verb | the thing done or made | **gen iko** news ("what's told") |
-| **wa** + verb | the thing used for it | **wa nawi** something to eat with |
-| **ban** + verb | the place for it | **ban fimo** bedroom ("place for sleeping") |
+| **to** + verb | the thing used for it | **to nawi** something to eat with |
+| **sen** + verb | the place for it | **sen fimo** bedroom ("place for sleeping") |
 
-The base can be a whole verb phrase: **win isi don guyi** "traveller" ("one who goes from home"). It runs to the end of its phrase, so put a comma, or **kiyu**, before a verb or describing word that follows it: **wa siten sokun kiyu tikun** "a hot pan". [§5.4.4](language.md#r-5-4-4)
+The base can be a whole verb phrase: **win isi don guyi** "traveller" ("one who goes from home"). It runs to the end of its phrase, so put a comma, or **kiyu**, before a verb or describing word that follows it: **to siten sokun kiyu tikun** "a hot pan". [§5.4.4](language.md#r-5-4-4)
 
-For the person an action is done to, there's **ewo gi gun wiwa** student ("person who is taught"). To link to a noun, use **pi** or a verb: **ban pi natun** an office ("place of paper"), **win obu don yaye** an alien ("one who comes from the sky"). [§5.4.5](language.md#r-5-4-5) [§5.4.6](language.md#r-5-4-6)
+For the person an action is done to, there's **ewo gi gun wiwa** student ("person who is taught"). To link to a noun, use **pi** or a verb: **sen pi natun** an office ("place of paper"), **win obu don yaye** an alien ("one who comes from the sky"). [§5.4.5](language.md#r-5-4-5) [§5.4.6](language.md#r-5-4-6)
 
 For opposites, **su** plus a word gives "not X" (**su upe** "not good"), and many words also have an opposite word of their own (**yomo** "bad"). [§5.4.7](language.md#r-5-4-7)
 
 Ready-made compounds, such as **win obu don yaye** "alien" ("one who comes from the sky"), are in the [compounds list](../data/compounds.tsv). [§11.4](language.md#r-11-4)
 
-Things the whole world names the same way are borrowed in their international form, without **fo**: **imeyilu** email, **intelunetu** internet, **dolalu** dollar, **kilometulu** kilometre. You can also borrow any word you need from your own language, the way English borrowed *sushi* and *pizza*. Write it the way it sounds, with the language's letters: **to nawi susi sa** "I ate two sushi". A borrowed word needs no **fo**, and it can even be a verb: **to ben gugalu bun** "I googled it". Add **fo** only if it could be mistaken for a word of the language. [§11.3](language.md#r-11-3)
+Things the whole world names the same way are borrowed in their international form, without **fo**: **imeyilu** email, **intelunetu** internet, **dolalu** dollar, **kilometulu** kilometre. You can also borrow any word you need from your own language, the way English borrowed *sushi* and *pizza*. Write it the way it sounds, with the language's letters: **wan nawi susi sa** "I ate two sushi". A borrowed word needs no **fo**, and it can even be a verb: **wan ben gugalu bun** "I googled it". Add **fo** only if it could be mistaken for a word of the language. [§11.3](language.md#r-11-3)
 
 Computer words are everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **selon**/**tapi**. [§11.4](language.md#r-11-4)
 
@@ -437,21 +434,21 @@ Or describe it. Don't know "spider"? Say **dife meli pi sesen fefa** "small anim
 
 ## Lesson 12: Longer sentences
 
-**nun** "and", **lu** "or" and **won** "but" join nouns, verbs, describing words or whole clauses. To list nouns, use **nun**: **mole nun sine** "mother and father". Two nouns side by side don't make a list. **lu** X **lu** Y means "either X or Y, not both": **lu osa lu pasu**. [§4.4.5](language.md#r-4-4-5) [§5.2.3](language.md#r-5-2-3)
+**nun** "and", **lu** "or" and **fen** "but" join nouns, verbs, describing words or whole clauses. To list nouns, use **nun**: **mole nun sine** "mother and father". Two nouns side by side don't make a list. **lu** X **lu** Y means "either X or Y, not both": **lu osa lu pasu**. [§4.4.5](language.md#r-4-4-5) [§5.2.3](language.md#r-5-2-3)
 
-**sin** "if", **bo** "because", **pu** "while", **kon** "after" and **ya** "before" can each start a clause. **me** is "that", as in **to pume me …** "I think that …". [§4.3.3](language.md#r-4-3-3)
+**sin** "if", **bo** "because", **pu** "while", **kon** "after" and **ya** "before" can each start a clause. **me** is "that", as in **wan pume me …** "I think that …". [§4.3.3](language.md#r-4-3-3)
 
 ### man clauses
 
-A **gi** clause after a noun describes it, the way "who", "which" and "where" do in English. The noun fills the missing part of the clause. It can be the one doing the action, **ewo gi obu** "the person who comes", or the one it's done to, **natun gi sen la yaga** "the papers you put". [§5.3.1](language.md#r-5-3-1) [§5.3.2](language.md#r-5-3-2) [§5.3.3](language.md#r-5-3-3)
+A **gi** clause after a noun describes it, the way "who", "which" and "where" do in English. The noun fills the missing part of the clause. It can be the one doing the action, **ewo gi obu** "the person who comes", or the one it's done to, **natun gi ba la yaga** "the papers you put". [§5.3.1](language.md#r-5-3-1) [§5.3.2](language.md#r-5-3-2) [§5.3.3](language.md#r-5-3-3)
 
-For a place or time, end the clause with the relation word: **fela gi to nume no** "the place where I live" (place that I live at). [§5.3.4](language.md#r-5-3-4)
+For a place or time, end the clause with the relation word: **fela gi wan nume no** "the place where I live" (place that I live at). [§5.3.4](language.md#r-5-3-4)
 
-A **gi** clause runs on until something closes it: a comma in writing, a pause in speech, or the word **kiyu** "end of phrase". **to ben miya ewo gi sigo kiyu pu leso.** "I watched the person who came back, in the morning." Without **kiyu** or the comma, "in the morning" would belong to the coming back. Nothing else in the phrase can come after a closed **gi** clause. **kiyu** closes only the things that run on like this: a **gi** clause, a topic, and a derived word built on a phrase (lesson 11). A clause at the end is closed with a comma. [§5.3.5](language.md#r-5-3-5) [§1.4](language.md#r-1-4)
+A **gi** clause runs on until something closes it: a comma in writing, a pause in speech, or the word **kiyu** "end of phrase". **wan ben miya ewo gi sigo kiyu pu leso.** "I watched the person who came back, in the morning." Without **kiyu** or the comma, "in the morning" would belong to the coming back. Nothing else in the phrase can come after a closed **gi** clause. **kiyu** closes only the things that run on like this: a **gi** clause, a topic, and a derived word built on a phrase (lesson 11). A clause at the end is closed with a comma. [§5.3.5](language.md#r-5-3-5) [§1.4](language.md#r-1-4)
 
 ### Opening a sentence
 
-A time or place phrase can open the sentence: **no minfi, …** "at noon, …". To set a topic, start with **pi**: **pi tale la, to su loya.** "As for the cars, I don't know." An if or when clause can open it too: **sin sen obu, to gun sogi.** "If you come, I'll be happy." [§4.3.1](language.md#r-4-3-1) [§4.3.2](language.md#r-4-3-2) [§4.3.3](language.md#r-4-3-3)
+A time or place phrase can open the sentence: **no minfi, …** "at noon, …". To set a topic, start with **pi**: **pi tale la, wan su loya.** "As for the cars, I don't know." An if or when clause can open it too: **sin ba obu, wan gun sogi.** "If you come, I'll be happy." [§4.3.1](language.md#r-4-3-1) [§4.3.2](language.md#r-4-3-2) [§4.3.3](language.md#r-4-3-3)
 
 When several of these open a sentence, the linker comes first (**bo yin,** "so"), then time, place or topic, then the if or when clause, each followed by a comma. The particle comes after all of them (lesson 4). [§4.3.4](language.md#r-4-3-4)
 
@@ -465,20 +462,20 @@ Put a comma where you'd pause: [§4.6.1](language.md#r-4-6-1)
 - after anything that opens the sentence [§4.6.3](language.md#r-4-6-3)
 - after a subject that contains a clause or a derived phrase, before its verb: **ewo gi obu, gun win wiwa.** "The person who's coming is a teacher." [§4.6.4](language.md#r-4-6-4)
 - between who gets something and the thing given, if it helps; it's optional, and worth it when the thing is long or has a **gi** clause [§4.6.5](language.md#r-4-6-5)
-- between clauses or verbs joined by **nun**, **lu** or **won** when the first ends in a noun: **to nawi pasu, nun fimo.** "I eat food, and sleep." [§4.6.6](language.md#r-4-6-6)
+- between clauses or verbs joined by **nun**, **lu** or **fen** when the first ends in a noun: **wan nawi pasu, nun fimo.** "I eat food, and sleep." [§4.6.6](language.md#r-4-6-6)
 - before a tone word at the end (lesson 8), and before **yu** when it asks "which?" (lesson 4) [§4.6.7](language.md#r-4-6-7)
 - between month and day (**dunan mena yawu, dili mena tuli**) [§4.6.8](language.md#r-4-6-8)
 - after a **gi** clause, to close it before more words [§4.6.9](language.md#r-4-6-9)
 
 In casual writing you can drop commas that are obvious. [§4.6.10](language.md#r-4-6-10)
 
-Where a clause goes changes what it attaches to. At the start, it belongs to the main sentence: **pu leso, to ben miya ewo gi sigo** "in the morning, I watched the person who came back". At the end, it belongs to the innermost clause before it: **to ben miya ewo gi sigo pu leso** "I watched the person who came back in the morning". The full rule is in [section 4.4 of the reference](language.md). [§4.4.4](language.md#r-4-4-4)
+Where a clause goes changes what it attaches to. At the start, it belongs to the main sentence: **pu leso, wan ben miya ewo gi sigo** "in the morning, I watched the person who came back". At the end, it belongs to the innermost clause before it: **wan ben miya ewo gi sigo pu leso** "I watched the person who came back in the morning". The full rule is in [section 4.4 of the reference](language.md). [§4.4.4](language.md#r-4-4-4)
 
 A quote follows a say-verb and is a full sentence with its own particle: **mon oyi "ti obu."** "She said, 'Come.'" [§4.4.6](language.md#r-4-4-6)
 
 ## Lesson 13: Can, must, maybe
 
-**nebi** is "can": **to nebi lonfe.** "I can swim." **kifa** is "must", and **wupi** is "need to": **kan wupi isi.** "We need to go." For "should", give advice with **fon**: **fon kan isi.** "We should go." Watch where **su** "not" goes, since it covers what comes right after it: **su kifa** is "don't have to", and **kifa su** is "must not". **efon** is "allow": **sen gun efon nawi** "you may eat" (you are allowed to eat). **fan** with a verb means "in order to": **fan bika** "to buy". [§12.2](language.md#r-12-2) [§6.2.1](language.md#r-6-2-1) [§12.3](language.md#r-12-3)
+**nebi** is "can": **wan nebi lonfe.** "I can swim." **kifa** is "must", and **wupi** is "need to": **kan wupi isi.** "We need to go." For "should", give advice with **fon**: **fon kan isi.** "We should go." Watch where **su** "not" goes, since it covers what comes right after it: **su kifa** is "don't have to", and **kifa su** is "must not". **efon** is "allow": **ba gun efon nawi** "you may eat" (you are allowed to eat). **fan** with a verb means "in order to": **fan bika** "to buy". [§12.2](language.md#r-12-2) [§6.2.1](language.md#r-6-2-1) [§12.3](language.md#r-12-3)
 
 ### How sure you are, in sixths
 
@@ -499,7 +496,7 @@ A quote follows a say-verb and is a full sentence with its own particle: **mon o
 
 English "might", "probably" and "must be" (when it means *probably*) are all **pe**. "She must be home" is **pe ma mon gun no guyi**. "Must" meaning *have to* is **kifa**. [§6.1.4](language.md#r-6-1-4) [§12.2](language.md#r-12-2)
 
-For "if" and "if only", **pe** after **sin** says how likely the condition is: **sin pe ni** "if (unlikely)". **sin pe mu** is "if (but it isn't so)": **sin pe mu to ben isi, to ben nagu mon.** "If I had gone, I would have seen her." There's no word for "would". The second clause is the result. [§12.1](language.md#r-12-1)
+For "if" and "if only", **pe** after **sin** says how likely the condition is: **sin pe ni** "if (unlikely)". **sin pe mu** is "if (but it isn't so)": **sin pe mu wan ben isi, wan ben nagu mon.** "If I had gone, I would have seen her." There's no word for "would". The second clause is the result. [§12.1](language.md#r-12-1)
 
 As an optional extra, you can say how you know: **wanme** "I saw it", **inwun** "I was told", **wemen** "I worked it out". These go where **pe** goes: **inwun mon kusa.** "She left, I'm told." You can skip them until the rest feels easy. [§6.1.3](language.md#r-6-1-3) [§6.1.1](language.md#r-6-1-1)
 
@@ -521,7 +518,7 @@ A full sentence has a fixed order. You'll rarely use every part, and only the ve
 12. a comma, then a tone word (**yan**, **buni**, **donon**, **bi**)
 13. a comma, then someone you're calling
 
-This sentence has many of these parts: **fo mara, afe, pe wo mon pon ben obu len ban pi natun, yan.** "Mara, yesterday she probably came to the office too, you know." In order, it has someone called, an opener, **pe**, the subject, **pon**, **ben**, the verb, a relation phrase and a tone word.
+This sentence has many of these parts: **fo mara, afe, pe wo mon pon ben obu len sen pi natun, yan.** "Mara, yesterday she probably came to the office too, you know." In order, it has someone called, an opener, **pe**, the subject, **pon**, **ben**, the verb, a relation phrase and a tone word.
 
 ## Where to go next
 

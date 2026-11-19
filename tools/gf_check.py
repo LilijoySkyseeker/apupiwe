@@ -22,7 +22,7 @@ into one token (tokens()), since a name runs to the next grammar word or pause (
 
   python tools/gf_check.py              # every example; exit 1 if one fails to parse or misses its reading
   python tools/gf_check.py -v           # also list every structural reading
-  python tools/gf_check.py "to min unfu"  # one sentence: its structural readings and English
+  python tools/gf_check.py "wan min unfu"  # one sentence: its structural readings and English
 Run inside the dev shell (direnv exec . python3 tools/gf_check.py); it builds grammar/Apupiwe.pgf if stale.
 """
 import csv, os, re, subprocess, sys, collections
@@ -39,8 +39,8 @@ OUTSIDE = {"2.10", "9.2.5"}  # interjections carry no grammar (2.10); arithmetic
                              # (9.2.5; author 2026-10-15: a notation reading, outside the sentence grammar like spelling aloud)
 # Single examples outside the reference grammar on purpose: words not in the lexicon (11.1, 11.3)
 OUTSIDE_SENT = {"mara ben obu": "casual speech: a name without fo (11.1)",
-                "to nawi susi sa": "a speaker's borrowing, not in the lexicon (11.3)",
-                "to ben gugalu bun": "a speaker's borrowing used as a verb (11.3)"}
+                "wan nawi susi sa": "a speaker's borrowing, not in the lexicon (11.3)",
+                "wan ben gugalu bun": "a speaker's borrowing used as a verb (11.3)"}
 UNIT = {"Cl0": "S", "Rel": "REL", "Adv": "ADV", "Manner": "ADV",
         "NP": "NP", "NPi": "NP", "NPq": "NP", "CN": "NP", "AP": "AP"}
 ORDER = ["S", "NP", "AP", "REL", "ADV"]
@@ -85,7 +85,7 @@ def tokens(sentence):
         # kiyu closes an open relative clause, built word or topic first (4.4.4, 5.3.5, 5.4.4); it closes a
         # name only when none is open since the last kiyu
         opened = words[:i][len(words[:i]) - words[:i][::-1].index("kiyu"):] if "kiyu" in words[:i] else words[:i]
-        if words[i] == "fo" and "kiyu" in words[i + 1:] and not set(opened) & {"gi", "win", "gen", "wa", "ban"}:
+        if words[i] == "fo" and "kiyu" in words[i + 1:] and not set(opened) & {"gi", "win", "gen", "to", "sen"}:
             j = words.index("kiyu", i + 1)
             if "," not in words[i + 1:j] and j > i + 1:
                 out += ["fo", "_".join(words[i + 1:j]), "kiyu"]

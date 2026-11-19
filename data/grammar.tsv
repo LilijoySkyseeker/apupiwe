@@ -9,10 +9,10 @@ WH	op	3	yu
 UNSPEC	op	1	kin
 NOT	op	7	su
 CONF	op	1.5	pe
-I	pron	10	to
-YOU	pron	8	sen
+I	pron	10	wan
+YOU	pron	8	ba
 WE.incl	pron	3	kan
-WE.excl	pron	3	din
+WE.excl	pron	3	ta
 HE/SHE	pron	8	mon
 OBVIATIVE	pron	2	tun
 LOGOPHOR	pron	1	son
@@ -22,7 +22,7 @@ THAT.dem	det	3	fin
 ALL	det	3	we
 SOME	det	2	fe
 PART	det	1	ye
-NONE	det	1	pa
+NONE	det	1	din
 DONE	asp	3	ben
 ONGOING	asp	2	li
 OF	rel	8	pi
@@ -35,7 +35,7 @@ BEFORE	rel	1.5	ya
 AFTER	rel	1.5	kon
 AND	link	9	nun
 OR	link	2	lu
-BUT	link	2	won
+BUT	link	2	fen
 IF	link	2	sin
 BECAUSE	link	1.5	bo
 THAT.comp	link	5	me
@@ -53,12 +53,12 @@ POLITE	act	3	wu
 IT	pron	5	bun
 AGENT	deriv	4	win
 RESULT	deriv	2	gen
-TOOL	deriv	3	wa
-PLACE	deriv	3	ban
+TOOL	deriv	3	to
+PLACE	deriv	3	sen
 NAME	name	4	fo
 ALSO	op	4.0	pon
 EVEN	op	3.0	yon
 FOCUS	op	3.0	min
 YOUKNOW	act	3.0	yan
 MODMOD	np	1	tan
-ENDEAR	np	1	wan
+ENDEAR	np	1	wi

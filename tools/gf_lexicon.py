@@ -34,7 +34,7 @@ OVERRIDE = {
     ("enpa", "N"): 'P.mkN "freedom"',
     ("nuta", "A"): 'P.mkA "afraid"',
     ("pume", "N"): 'P.mkN "thought"',
-    ("dakuwu", "N"): 'P.mkN "God"',
+    ("nubige", "N"): 'P.mkN "God"',
     ("kuwi", "V"): 'P.mkV "protect"',
     ("ewo", "N"): 'P.mkN "person" "people"',
     ("guyi", "N"): 'D.house_N',

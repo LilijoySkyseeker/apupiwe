@@ -89,7 +89,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     NoCall = {first, last = []} ;
     SomeCall c = {first = c.s ++ "," ; last = "," ++ c.s} ;
     CallName n = ss ("fo" ++ n.s) ;
-    CallNameFi n = ss ("fo" ++ n.s ++ "wan") ;
+    CallNameFi n = ss ("fo" ++ n.s ++ "wi") ;
     CallN n = ss n.s ;
     CallLanno = ss "lanno" ;
     LannoCall c = ss ("lanno" ++ c.s) ;
@@ -103,7 +103,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     MkSent l f c k = ss (l.s ++ f.s ++ c.s ++ k.s) ;
     NoLink = ss [] ;
     Link k = ss (k.s ++ ",") ;
-    GiTan = ss ("bo" ++ "yin") ; UnL = ss "won" ; YenL = ss "nun" ;
+    GiTan = ss ("bo" ++ "yin") ; UnL = ss "fen" ; YenL = ss "nun" ;
     NoFrame = ss [] ;
     Scene a = case a.sc of {True => ss (a.s ++ ",") ; False => no} ;
     Topic np = case np.p of {False => ss ("pi" ++ np.s ++ ("," | "kiyu")) ; True => no} ;
@@ -226,7 +226,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     RedupA a = {s = a.s ++ a.s ; e = EV ; p = False ; act = a.act ; ek = False ; gd = False} ;
     ModMod a b = {s = a.s ++ "tan" ++ b.s ; e = EV ; p = False ; act = False ; ek = False ; gd = False} ;
 
-    EndearN n = {s = n.s ++ "wan" ; e = EN ; p = False ; tm = n.tm ; ba = n.act ; w1 = False} ;
+    EndearN n = {s = n.s ++ "wi" ; e = EN ; p = False ; tm = n.tm ; ba = n.act ; w1 = False} ;
     UseN n = {s = n.s ; e = case n.gd of {True => EG ; False => EN} ; p = False ; tm = n.tm ; ba = n.act ; w1 = True} ;
     -- 5.4.4: a gender word after a phrasal derived word is outside it, with no pause
     ModCN cn a =
@@ -249,7 +249,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     DerivPi d np = {s = d.s ++ "pi" ++ np.s ; e = np.e ; p = np.p ; tm = False ; ba = False ; w1 = False} ;
     LannoCN cn = cn ** {s = "lanno" ++ cn.s ; ba = False ; w1 = False} ;
     Lanno = {s = "lanno" ; e = EN ; p = False ; tm = False ; ba = False ; w1 = False} ;
-    No = ss "win" ; Ge = ss "gen" ; Du = ss "wa" ; Pu = ss "ban" ;
+    No = ss "win" ; Ge = ss "gen" ; Du = ss "to" ; Pu = ss "sen" ;
 
     QuantCN cn n l d = case <n.e, l.e, d.e> of {
       <True, True, True> => {s = cn.s ++ n.s ++ l.s ++ d.s ; e = cn.e ; p = cn.p ; tm = cn.tm ; ba = cn.ba ; dt = False ; ns = False ; hn = True ; cnt = True ; rs = False} ;
@@ -257,7 +257,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
             rs = andB cn.w1 (andB l.e (orB (andB n.e d.al) (andB (notB n.e) d.e)))}} ;
     PronQ pr l d = npr (pr.s ++ l.s ++ d.s) EN False False ;
     NameQ n = npr ("fo" ++ n.s) EM False False ;
-    NameFi n = npr ("fo" ++ n.s ++ "wan") EN False False ;
+    NameFi n = npr ("fo" ++ n.s ++ "wi") EN False False ;
     NameKiyo n = npr ("fo" ++ n.s ++ "kiyu") EM False False ;
     TitleName cn n = case cn.e of {
       ER | EC => npr Predef.nonExist EV False False ;
@@ -284,7 +284,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     NoLa = {s = [] ; e = True} ; La = {s = "la" ; e = False} ;
     NoDet = {s = [] ; e = True ; al = False} ; SomeDet d = {s = d.s ; e = False ; al = d.alone} ;
     Tan = {s = "yin" ; alone = True} ; Ben = {s = "fin" ; alone = True} ; We = {s = "we" ; alone = True} ;
-    In = {s = "fe" ; alone = True} ; Kin = {s = "ye" ; alone = True} ; Fa = {s = "pa" ; alone = True} ;
+    In = {s = "fe" ; alone = True} ; Kin = {s = "ye" ; alone = True} ; Fa = {s = "din" ; alone = True} ;
     Bo = {s = "kin" ; alone = False} ; Yu = {s = "yu" ; alone = True} ; Mesun = {s = "mesun" ; alone = False} ;
     NenD = {s = "nen" ; alone = False} ;
 
@@ -307,9 +307,9 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     UseNPi n = n ;
     ConjNP a c b = b ** {s = seq a (c.s ++ b.s) ; p = pz a b.p ; tm = False ; ba = a.ba ; dt = a.dt ; ns = a.ns ; hn = a.hn} ;
     EitherNP a b = b ** {s = "lu" ++ seq a ("lu" ++ b.s) ; p = pz a b.p ; tm = False ; ba = False ; dt = False ; ns = False} ;
-    To = ss "to" ; Me = ss "sen" ; Pen = ss "kan" ; Din = ss "din" ; Wan = ss "mon" ; Yi = ss "tun" ;
+    To = ss "wan" ; Me = ss "ba" ; Pen = ss "kan" ; Din = ss "ta" ; Wan = ss "mon" ; Yi = ss "tun" ;
     Bu = ss "bun" ; Sun = ss "son" ; Go = ss "dan" ; Nen = ss "nen" ; NenNen = ss ("nen" ++ "nen") ;
-    Yen = ss "nun" ; Lu = ss "lu" ; Un = ss "won" ;
+    Yen = ss "nun" ; Lu = ss "lu" ; Un = ss "fen" ;
 
     -- 5.3: nothing inside a relative clause may be closed by a pause or kiyu (it would close the clause)
     RelSubj vp = case vp.p of {

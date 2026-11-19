@@ -4,7 +4,7 @@ The United Nations adopted the Universal Declaration of Human Rights in 1948. It
 
 Each paragraph is followed by the original English. Point at or tap an Apupiwe word to see what it means.
 
-Some ideas in the declaration don't have a single word in Apupiwe yet, so they are described. Religion is **lite pi dakuwu** "the way of God", a court is **ban pi wabun** "a place of law", and the United Nations is **loso pi yuna la** "the group of countries".
+Some ideas in the declaration don't have a single word in Apupiwe yet, so they are described. Religion is **lite pi nubige** "the way of God", a court is **sen pi wabun** "a place of law", and the United Nations is **loso pi yuna la** "the group of countries".
 
 The English text is from the United Nations, as published by the UDHR in Unicode project.
 
@@ -32,12 +32,12 @@ ewo we kifa yema fan yuna la lewe sonu pi nen nen.
 
 > Whereas it is essential to promote the development of friendly relations between nations,
 
-no pata pi loso pi yuna la, ewo la pi loso yin ben oyi moti me son gewan sogan bawe pi ewo, nun son gewan bawe pi ewo, nun son gewan me lowu nun futa ibe sogan kige. mon la pon ben waka yema fan ewo we guge. mon la pon ben waka yema fan ewo we nume ke upe. mon la pon ben waka yema fan ewo we ibe enpa ke fefa.
+no pata pi loso pi yuna la, ewo la pi loso yin ben oyi osin me son gewan sogan bawe pi ewo, nun son gewan bawe pi ewo, nun son gewan me lowu nun futa ibe sogan kige. mon la pon ben waka yema fan ewo we guge. mon la pon ben waka yema fan ewo we nume ke upe. mon la pon ben waka yema fan ewo we ibe enpa ke fefa.
 {.apu}
 
 > Whereas the peoples of the United Nations have in the Charter reaffirmed their faith in fundamental human rights, in the dignity and worth of the human person and in the equal rights of men and women and have determined to promote social progress and better standards of life in larger freedom,
 
-yuna la pi loso pi yuna la ben oyi "du din doku nan loso pi yuna la fan ewo we dundi sogan pi ewo nun enpa bawe. du din pon doku nan bun fan ewo we kuwi bun la."
+yuna la pi loso pi yuna la ben oyi "du ta doku nan loso pi yuna la fan ewo we dundi sogan pi ewo nun enpa bawe. du ta pon doku nan bun fan ewo we kuwi bun la."
 {.apu}
 
 > Whereas Member States have pledged themselves to achieve, in co‐operation with the United Nations, the promotion of universal respect for and observance of human rights and fundamental freedoms,
@@ -61,7 +61,7 @@ ewo we diye nume nan enpa, nun mon la ibe bawe kige nun sogan kige. mon la nebi 
 
 ## wabun mena 2 {.apu}
 
-dan ibe sogan we pi pata yin. yefi pa kubo yin. fisu pi ewo lu fisu pi unne lu lowu lu futa lu apu lu lite pi dakuwu lu yuna lu loso gi mon obu don, su kubo yin. yefi pi mon lu diye nume pi mon lu yefi eni lu gen pume pi wungu lu gen pume eni, pon su kubo yin.
+dan ibe sogan we pi pata yin. yefi din kubo yin. fisu pi ewo lu fisu pi unne lu lowu lu futa lu apu lu lite pi nubige lu yuna lu loso gi mon obu don, su kubo yin. yefi pi mon lu diye nume pi mon lu yefi eni lu gen pume pi wungu lu gen pume eni, pon su kubo yin.
 {.apu}
 
 > Everyone is entitled to all the rights and freedoms set forth in this Declaration, without distinction of any kind, such as race, colour, sex, language, religion, political or other opinion, national or social origin, property, birth or other status.
@@ -108,7 +108,7 @@ ewo we gun kige fan wabun, nun mon la ibe sogan fan wabun la kuwi mon la fun kig
 
 ## wabun mena 8 {.apu}
 
-sin ewo kin alun sogan bawe gi wabun eni lu wabun bawe pi yuna neke tun, tun ibe sogan fan ban pi wabun pi yuna min tula upe fin.
+sin ewo kin alun sogan bawe gi wabun eni lu wabun bawe pi yuna neke tun, tun ibe sogan fan sen pi wabun pi yuna min tula upe fin.
 {.apu}
 
 > Everyone has the right to an effective remedy by the competent national tribunals for acts violating the fundamental rights granted him by the constitution or by law.
@@ -122,19 +122,19 @@ sin wabun denku su efon, dan su gun efon yidu dan, lu yonnu dan, lu tula kusa da
 
 ## wabun mena 10 {.apu}
 
-sin ban pi wabun la waka fun sogan pi mon nun gen kifa pi mon, lu waka me bi mon ben alun wabun, mon ibe sogan fan ban pi wabun la doma mon fun kidun. ban pi wabun la kifa doma mon pu ewo we nebi nagu. ban pi wabun la yin kifa gun kige fan we, nun kifa gun enpa. yin gun kige fan ewo we.
+sin sen pi wabun la waka fun sogan pi mon nun gen kifa pi mon, lu waka me bi mon ben alun wabun, mon ibe sogan fan sen pi wabun la doma mon fun kidun. sen pi wabun la kifa doma mon pu ewo we nebi nagu. sen pi wabun la yin kifa gun kige fan we, nun kifa gun enpa. yin gun kige fan ewo we.
 {.apu}
 
 > Everyone is entitled in full equality to a fair and public hearing by an independent and impartial tribunal, in the determination of his rights and obligations and of any criminal charge against him.
 
 ## wabun mena 11 {.apu}
 
-1\. sin ewo kin oyi me tun ben alun wabun, wabun la kifa tula tun fun ewo gi su alun bun. yin gun feko anko ban pi wabun la wuye me tun ben alun bun. ban pi wabun la kifa wuye fin fun wabun no doma gi ewo we nebi nagu. no doma yin, bun la kifa neke tun yefi we gi tun wupi fan kuwi nen.
+1\. sin ewo kin oyi me tun ben alun wabun, wabun la kifa tula tun fun ewo gi su alun bun. yin gun feko anko sen pi wabun la wuye me tun ben alun bun. sen pi wabun la kifa wuye fin fun wabun no doma gi ewo we nebi nagu. no doma yin, bun la kifa neke tun yefi we gi tun wupi fan kuwi nen.
 {.apu}
 
 > 1\. Everyone charged with a penal offence has the right to be presumed innocent until proved guilty according to law in a public trial at which he has had all the guarantees necessary for his defence.
 
-2\. sin dan ben tula yefi kin lu su tula yefi kin, nun wabun pi yuna efon fin no nufi fin, nun wabun lifin pi yuna la pon efon fin no nufi fin, ban pi wabun la kifa su oyi me mon ben alun wabun. ban pi wabun la pon kifa su neke mon fupu ke gogo don fupu gi wabun efon no nufi fin.
+2\. sin dan ben tula yefi kin lu su tula yefi kin, nun wabun pi yuna efon fin no nufi fin, nun wabun lifin pi yuna la pon efon fin no nufi fin, sen pi wabun la kifa su oyi me mon ben alun wabun. sen pi wabun la pon kifa su neke mon fupu ke gogo don fupu gi wabun efon no nufi fin.
 {.apu}
 
 > 2\. No one shall be held guilty of any penal offence on account of any act or omission which did not constitute a penal offence, under national or international law, at the time when it was committed. Nor shall a heavier penalty be imposed than the one that was applicable at the time the penal offence was committed.
@@ -160,7 +160,7 @@ pi ewo mesun, sin wabun denku su efon, ewo eni su gun efon inwa nume kunsu pi mo
 
 ## wabun mena 14 {.apu}
 
-1\. dan ibe sogan fan ditun ban sonli no yuna eni, sin ewo la fesun mon fan tula fupu mon. mon pon ibe sogan fan nume no ban sonli yin.
+1\. dan ibe sogan fan ditun sen sonli no yuna eni, sin ewo la fesun mon fan tula fupu mon. mon pon ibe sogan fan nume no sen sonli yin.
 {.apu}
 
 > 1\. Everyone has the right to seek and to enjoy in other countries asylum from persecution.
@@ -184,7 +184,7 @@ pi ewo mesun, sin wabun denku su efon, ewo eni su gun efon inwa nume kunsu pi mo
 
 ## wabun mena 16 {.apu}
 
-1\. sin lowu lu futa ben guge, mon ibe sogan fan bedan. mon pon ibe sogan fan diye yonyo. mon la ibe sogan la yin nuwen bamo gi gun fun fisu pi ewo lu yuna lu lite pi dakuwu. lowu nun futa ibe sogan kige fan bedan. mon la pon ibe sogan kige pu bedan. mon la pon ibe sogan kige no fugi pi bedan.
+1\. sin lowu lu futa ben guge, mon ibe sogan fan bedan. mon pon ibe sogan fan diye yonyo. mon la ibe sogan la yin nuwen bamo gi gun fun fisu pi ewo lu yuna lu lite pi nubige. lowu nun futa ibe sogan kige fan bedan. mon la pon ibe sogan kige pu bedan. mon la pon ibe sogan kige no fugi pi bedan.
 {.apu}
 
 > 1\. Men and women of full age, without any limitation due to race, nationality or religion, have the right to marry and to found a family. They are entitled to equal rights as to marriage, during marriage and at its dissolution.
@@ -213,14 +213,14 @@ pi ewo mesun, sin wabun denku su efon, ewo eni su gun efon inwa nume kunsu pi mo
 
 ## wabun mena 18 {.apu}
 
-dan ibe sogan fan pume enpa. pi upe nun yomo, mon pon ibe sogan fan pume enpa. mon pon ibe sogan fan ibe lite pi dakuwu lu gen pume feko fun enpa. sogan yin pon gun sogan fan kubo lite pi dakuwu lu gen pume feko. mon pon ibe sogan fan wuye lite pi dakuwu lu gen pume feko fun enpa. mon nebi tula fin nuwen ewo eni. mon pon nebi tula fin nan ewo eni. mon nebi tula fin no fela kunsu, lu tula fin no fela su kunsu. wiwa nun tula nun dundi dakuwu nun kuwi gun lite gi dan wuye bun la nan.
+dan ibe sogan fan pume enpa. pi upe nun yomo, mon pon ibe sogan fan pume enpa. mon pon ibe sogan fan ibe lite pi nubige lu gen pume feko fun enpa. sogan yin pon gun sogan fan kubo lite pi nubige lu gen pume feko. mon pon ibe sogan fan wuye lite pi nubige lu gen pume feko fun enpa. mon nebi tula fin nuwen ewo eni. mon pon nebi tula fin nan ewo eni. mon nebi tula fin no fela kunsu, lu tula fin no fela su kunsu. wiwa nun tula nun dundi nubige nun kuwi gun lite gi dan wuye bun la nan.
 {.apu}
 
 > Everyone has the right to freedom of thought, conscience and religion; this right includes freedom to change his religion or belief, and freedom, either alone or in community with others and in public or private, to manifest his religion or belief in teaching, practice, worship and observance.
 
 ## wabun mena 19 {.apu}
 
-dan ibe sogan fan ibe gen pume fun enpa, nun dan ibe sogan fan oyi enpa. sogan yin pon gun sogan fan ewo eni su tula mon fun yomo bo mon pume yefi kin. pi bansin nun gen iko, sogan yin pon gun me mon nebi ditun bun la, nun nebi dunu bun la, nun nebi peton bun la. mon nebi tula yin nan wa iko we. lifin pi yuna la su bamo fin.
+dan ibe sogan fan ibe gen pume fun enpa, nun dan ibe sogan fan oyi enpa. sogan yin pon gun sogan fan ewo eni su tula mon fun yomo bo mon pume yefi kin. pi bansin nun gen iko, sogan yin pon gun me mon nebi ditun bun la, nun nebi dunu bun la, nun nebi peton bun la. mon nebi tula yin nan to iko we. lifin pi yuna la su bamo fin.
 {.apu}
 
 > Everyone has the right to freedom of opinion and expression; this right includes freedom to hold opinions without interference and to seek, receive and impart information and ideas through any media and regardless of frontiers.
@@ -249,7 +249,7 @@ dan ibe sogan fan ibe gen pume fun enpa, nun dan ibe sogan fan oyi enpa. sogan y
 
 > 2\. Everyone has the right of equal access to public service in his country.
 
-3\. senya pi win wungu la kifa obu don gen momu pi ewo la pi yuna. ewo la kifa nebi wuye gen momu yin nan waka feko pi win wungu la. waka yin kifa nuwo moti moti. pu waka yin, ewo we ibe sogan kige fan waka. dan kifa nebi waka kunsu, lu kifa nebi waka fun lite eni gi gun enpa fun fin.
+3\. senya pi win wungu la kifa obu don gen momu pi ewo la pi yuna. ewo la kifa nebi wuye gen momu yin nan waka feko pi win wungu la. waka yin kifa nuwo osin osin. pu waka yin, ewo we ibe sogan kige fan waka. dan kifa nebi waka kunsu, lu kifa nebi waka fun lite eni gi gun enpa fun fin.
 {.apu}
 
 > 3\. The will of the people shall be the basis of the authority of government; this will shall be expressed in periodic and genuine elections which shall be by universal and equal suffrage and shall be held by secret vote or by equivalent free voting procedures.
@@ -285,19 +285,19 @@ dan gun ni pi ewo we, nun dan ibe sogan fan dunu yema don ewo we. mon pon ibe so
 
 ## wabun mena 24 {.apu}
 
-dan ibe sogan fan wanan. mon pon ibe sogan fan ibe nufi enpa. yin pon gun me mon su kifa doku yiwo ten fefa. yin pon gun me mon ibe dili enpa nan nasi moti moti.
+dan ibe sogan fan wanan. mon pon ibe sogan fan ibe nufi enpa. yin pon gun me mon su kifa doku yiwo ten fefa. yin pon gun me mon ibe dili enpa nan nasi osin osin.
 {.apu}
 
 > Everyone has the right to rest and leisure, including reasonable limitation of working hours and periodic holidays with pay.
 
 ## wabun mena 25 {.apu}
 
-1\. dan nun yonyo pi mon ibe sogan fan ibe tonya fan nume upe. yin pon gun me mon la ibe tonya fan gawo upe. yin pon gun me mon la ibe pasu nun lonne nun guyi. yin pon gun me ewo we nun yuna yema mon la pu mon la simi. yin pon gun me ewo we nun yuna yema mon la pu mon la wupi bun. sin mon su ibe doku, lu gun simi lu su nebi doku, lu gun pani lu ofin pi mon ben kono lu mon su ibe tonya fun lite eni gi mon su nebi kubo, mon pon ibe sogan fan gun yema don ewo we nun yuna.
+1\. dan nun yonyo pi mon ibe sogan fan ibe tonya fan nume upe. yin pon gun me mon la ibe tonya fan gawo upe. yin pon gun me mon la ibe pasu nun lonne nun guyi. yin pon gun me ewo we nun yuna yema mon la pu mon la simi. yin pon gun me ewo we nun yuna yema mon la pu mon la wupi bun. sin mon su ibe doku, lu gun simi lu su nebi doku, lu gun pani lu toti pi mon ben kono lu mon su ibe tonya fun lite eni gi mon su nebi kubo, mon pon ibe sogan fan gun yema don ewo we nun yuna.
 {.apu}
 
 > 1\. Everyone has the right to a standard of living adequate for the health and well‐being of himself and of his family, including food, clothing, housing and medical care and necessary social services, and the right to security in the event of unemployment, sickness, disability, widowhood, old age or other lack of livelihood in circumstances beyond his control.
 
-2\. mole nun tiwu ibe sogan fan gun kuwi fun ke fefa, nun gun yema fun ke fefa. pi tiwu we, yon sin mole pi mon la nun sine pi mon la su gun ofin, mon la ibe sogan fan ewo we kuwi mon la fun kige.
+2\. mole nun tiwu ibe sogan fan gun kuwi fun ke fefa, nun gun yema fun ke fefa. pi tiwu we, yon sin mole pi mon la nun sine pi mon la su gun toti, mon la ibe sogan fan ewo we kuwi mon la fun kige.
 {.apu}
 
 > 2\. Motherhood and childhood are entitled to special care and assistance. All children, whether born in or out of wedlock, shall enjoy the same social protection.
@@ -309,7 +309,7 @@ dan ibe sogan fan wanan. mon pon ibe sogan fan ibe nufi enpa. yin pon gun me mon
 
 > 1\. Everyone has the right to education. Education shall be free, at least in the elementary and fundamental stages. Elementary education shall be compulsory. Technical and professional education shall be made generally available and higher education shall be equally accessible to all on the basis of merit.
 
-2\. wiwa kifa yema fan ewo guge minwe. bun pon kifa yema fan dan ke dundi sogan pi ewo nun enpa bawe. bun kifa yema fan yuna we nade nen nen, nun gun sonu, nun efon me eni pume eni. yin pon gun feko fan loso we pi fisu pi ewo. yin pon gun feko fan loso we pi lite pi dakuwu lu loso we pi gen pume feko. bun pon kifa yema doku pi loso pi yuna la fan kuwi bonwi.
+2\. wiwa kifa yema fan ewo guge minwe. bun pon kifa yema fan dan ke dundi sogan pi ewo nun enpa bawe. bun kifa yema fan yuna we nade nen nen, nun gun sonu, nun efon me eni pume eni. yin pon gun feko fan loso we pi fisu pi ewo. yin pon gun feko fan loso we pi lite pi nubige lu loso we pi gen pume feko. bun pon kifa yema doku pi loso pi yuna la fan kuwi bonwi.
 {.apu}
 
 > 2\. Education shall be directed to the full development of the human personality and to the strengthening of respect for human rights and fundamental freedoms. It shall promote understanding, tolerance and friendship among all nations, racial or religious groups, and shall further the activities of the United Nations for the maintenance of peace.
@@ -357,7 +357,7 @@ dan ibe sogan fan yile gi sogan we pi pata yin nebi lewe feko minwe no. yile yin
 
 ## wabun mena 30 {.apu}
 
-pa pi pata yin yofu me yuna kin lu loso kin lu ewo kin ibe sogan fan tula yefi kin fan alun ni pi sogan pi pata yin.
+din pi pata yin yofu me yuna kin lu loso kin lu ewo kin ibe sogan fan tula yefi kin fan alun ni pi sogan pi pata yin.
 {.apu}
 
 > Nothing in this Declaration may be interpreted as implying for any State, group or person any right to engage in any activity or to perform any act aimed at the destruction of any of the rights and freedoms set forth herein.

@@ -24,7 +24,7 @@ Most of the world's languages don't mark gender in their pronouns, and those tha
 
 ## Why are there two words for "we"?
 
-**kan** is "we, including you" and **din** is "we, not including you". Many languages around the world make this distinction, and it is among the most stable features languages have. English "we" leaves the listener guessing whether they are included.
+**kan** is "we, including you" and **ta** is "we, not including you". Many languages around the world make this distinction, and it is among the most stable features languages have. English "we" leaves the listener guessing whether they are included.
 
 ## Why do you say how sure you are in sixths?
 

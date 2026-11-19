@@ -9,6 +9,9 @@ project's juncture.py, 2026-10-08). Reports:
   3. grammar word ending in -n + vowel-initial content word, heard as the open grammar word
      + an n-initial content word ("den Ewo" ~ "de NEwo")
 
+  4. a word that sounds like a shorter content word followed by a grammar word: stress falls on the first syllable
+     and grammar words are unstressed, so **tiwuye** would sound like **tiwu ye** (author, 2026-11-19)
+
   python juncture.py      # prints problems; exit code 1 if any
 """
 import re, sys
@@ -27,6 +30,18 @@ for d in digits:  # 1
         k = inv.content_key((W.IDX[d], W.IDX[f]))
         if inv.syl[W.IDX[f]][0] != "" and k in ckey:
             problems.append(f"digit+word: {d.upper()} {f} ~ {ckey[k]['gloss']} {ckey[k]['form']}")
+
+by_len = {}  # 4
+for w in lex:
+    s_ = tuple(W.split(w["form"]))
+    by_len.setdefault(len(s_), {})[inv.content_key(s_)] = w
+for w in lex:
+    s_ = tuple(W.split(w["form"]))
+    if len(s_) >= 3 and W.SYL[s_[-1]] in gforms:
+        short = by_len.get(len(s_) - 1, {}).get(inv.content_key(s_[:-1]))
+        if short is not None:
+            problems.append(f"word + grammar word: {w['form']} ({w['gloss']}) ~ {short['form']} {W.SYL[s_[-1]]} "
+                            f"({short['gloss']} + {gforms[W.SYL[s_[-1]]]})")
 
 # known exceptions: none (denu "gene" was one until gene became geni, 2026-11-19)
 KNOWN = set()

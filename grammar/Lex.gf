@@ -35,6 +35,9 @@ abstract Lex = {
     alun_N : N ;  -- break
     alun_V : V ;  -- break
     alun_A : A ;  -- break
+    ameto_N : N ;  -- priority
+    ameto_V : V ;  -- priority
+    ameto_A : A ;  -- priority
     anfa_N : N ;  -- origin, source
     anfa_V : V ;  -- origin, source
     anfa_A : A ;  -- origin, source
@@ -68,24 +71,21 @@ abstract Lex = {
     asutagu_N : N ;  -- hashtag
     asutagu_V : V ;  -- hashtag
     asutagu_A : A ;  -- hashtag
+    ateke_N : N ;  -- virgin
+    ateke_V : V ;  -- virgin
+    ateke_A : A ;  -- virgin
     awin_N : N ;  -- dust
     awin_V : V ;  -- dust
     awin_A : A ;  -- dust
     aya_N : N ;  -- watch, timepiece
     aya_V : V ;  -- watch, timepiece
     aya_A : A ;  -- watch, timepiece
-    ayaya_N : N ;  -- tense, strained, nervous
-    ayaya_V : V ;  -- tense, strained, nervous
-    ayaya_A : A ;  -- tense, strained, nervous
     ayomi_N : N ;  -- export
     ayomi_V : V ;  -- export
     ayomi_A : A ;  -- export
     badin_N : N ;  -- lung
     badin_V : V ;  -- lung
     badin_A : A ;  -- lung
-    bago_N : N ;  -- different
-    bago_V : V ;  -- different
-    bago_A : A ;  -- different
     baken_N : N ;  -- fog
     baken_V : V ;  -- fog
     baken_A : A ;  -- fog
@@ -95,12 +95,15 @@ abstract Lex = {
     balu_N : N ;  -- bar (place serving drinks)
     balu_V : V ;  -- bar (place serving drinks)
     balu_A : A ;  -- bar (place serving drinks)
-    balukon_N : N ;  -- balcony
-    balukon_V : V ;  -- balcony
-    balukon_A : A ;  -- balcony
+    balukoni_N : N ;  -- balcony
+    balukoni_V : V ;  -- balcony
+    balukoni_A : A ;  -- balcony
     bamo_N : N ;  -- stop
     bamo_V : V ;  -- stop
     bamo_A : A ;  -- stop
+    banafo_N : N ;  -- edition
+    banafo_V : V ;  -- edition
+    banafo_A : A ;  -- edition
     banfe_N : N ;  -- servant
     banfe_V : V ;  -- servant
     banfe_A : A ;  -- servant
@@ -143,6 +146,9 @@ abstract Lex = {
     bawe_N : N ;  -- important
     bawe_V : V ;  -- important
     bawe_A : A ;  -- important
+    bawisi_N : N ;  -- mortar (for pounding)
+    bawisi_V : V ;  -- mortar (for pounding)
+    bawisi_A : A ;  -- mortar (for pounding)
     bayate_N : N ;  -- obstacle
     bayate_V : V ;  -- obstacle
     bayate_A : A ;  -- obstacle
@@ -152,9 +158,6 @@ abstract Lex = {
     bayi_N : N ;  -- sad
     bayi_V : V ;  -- sad
     bayi_A : A ;  -- sad
-    bayiga_N : N ;  -- roll
-    bayiga_V : V ;  -- roll
-    bayiga_A : A ;  -- roll
     bebu_N : N ;  -- disgust
     bebu_V : V ;  -- disgust
     bebu_A : A ;  -- disgust
@@ -182,30 +185,27 @@ abstract Lex = {
     beyasa_N : N ;  -- plough
     beyasa_V : V ;  -- plough
     beyasa_A : A ;  -- plough
+    bibinu_N : N ;  -- mix
+    bibinu_V : V ;  -- mix
+    bibinu_A : A ;  -- mix
     bideyo_N : N ;  -- video
     bideyo_V : V ;  -- video
     bideyo_A : A ;  -- video
-    bidin_N : N ;  -- matter, affair, issue
-    bidin_V : V ;  -- matter, affair, issue
-    bidin_A : A ;  -- matter, affair, issue
     bifo_N : N ;  -- occasion, a time (three times)
     bifo_V : V ;  -- occasion, a time (three times)
     bifo_A : A ;  -- occasion, a time (three times)
-    bifowu_N : N ;  -- frame
-    bifowu_V : V ;  -- frame
-    bifowu_A : A ;  -- frame
     bika_N : N ;  -- buy
     bika_V : V ;  -- buy
     bika_A : A ;  -- buy
-    bilun_N : N ;  -- yellow
-    bilun_V : V ;  -- yellow
-    bilun_A : A ;  -- yellow
     bilusu_N : N ;  -- virus
     bilusu_V : V ;  -- virus
     bilusu_A : A ;  -- virus
     bina_N : N ;  -- fly, move through the air
     bina_V : V ;  -- fly, move through the air
     bina_A : A ;  -- fly, move through the air
+    bindi_N : N ;  -- butterfly
+    bindi_V : V ;  -- butterfly
+    bindi_A : A ;  -- butterfly
     bingan_N : N ;  -- often
     bingan_V : V ;  -- often
     bingan_A : A ;  -- often
@@ -278,6 +278,12 @@ abstract Lex = {
     botan_N : N ;  -- weapon
     botan_V : V ;  -- weapon
     botan_A : A ;  -- weapon
+    bote_N : N ;  -- school
+    bote_V : V ;  -- school
+    bote_A : A ;  -- school
+    boyipe_N : N ;  -- beak
+    boyipe_V : V ;  -- beak
+    boyipe_A : A ;  -- beak
     bubin_N : N ;  -- ripe
     bubin_V : V ;  -- ripe
     bubin_A : A ;  -- ripe
@@ -302,12 +308,6 @@ abstract Lex = {
     bugun_N : N ;  -- airport
     bugun_V : V ;  -- airport
     bugun_A : A ;  -- airport
-    buguye_N : N ;  -- button (on clothes; also a push-button)
-    buguye_V : V ;  -- button (on clothes; also a push-button)
-    buguye_A : A ;  -- button (on clothes; also a push-button)
-    bukili_N : N ;  -- repeat
-    bukili_V : V ;  -- repeat
-    bukili_A : A ;  -- repeat
     bumun_N : N ;  -- drive (a vehicle)
     bumun_V : V ;  -- drive (a vehicle)
     bumun_A : A ;  -- drive (a vehicle)
@@ -326,27 +326,33 @@ abstract Lex = {
     bunyo_N : N ;  -- interest, curiosity
     bunyo_V : V ;  -- interest, curiosity
     bunyo_A : A ;  -- interest, curiosity
+    busilo_N : N ;  -- repeat
+    busilo_V : V ;  -- repeat
+    busilo_A : A ;  -- repeat
     buyan_N : N ;  -- split
     buyan_V : V ;  -- split
     buyan_A : A ;  -- split
     dadon_N : N ;  -- hug
     dadon_V : V ;  -- hug
     dadon_A : A ;  -- hug
-    dafeka_N : N ;  -- receipt
-    dafeka_V : V ;  -- receipt
-    dafeka_A : A ;  -- receipt
     dafen_N : N ;  -- heaven, paradise
     dafen_V : V ;  -- heaven, paradise
     dafen_A : A ;  -- heaven, paradise
+    dagepo_N : N ;  -- spin (thread)
+    dagepo_V : V ;  -- spin (thread)
+    dagepo_A : A ;  -- spin (thread)
+    dagufu_N : N ;  -- stage (theatre platform)
+    dagufu_V : V ;  -- stage (theatre platform)
+    dagufu_A : A ;  -- stage (theatre platform)
     daka_N : N ;  -- explain
     daka_V : V ;  -- explain
     daka_A : A ;  -- explain
     dakun_N : N ;  -- official, civil servant
     dakun_V : V ;  -- official, civil servant
     dakun_A : A ;  -- official, civil servant
-    dakuwu_N : N ;  -- god
-    dakuwu_V : V ;  -- god
-    dakuwu_A : A ;  -- god
+    dala_N : N ;  -- different
+    dala_V : V ;  -- different
+    dala_A : A ;  -- different
     dali_N : N ;  -- music
     dali_V : V ;  -- music
     dali_A : A ;  -- music
@@ -362,6 +368,9 @@ abstract Lex = {
     danima_N : N ;  -- brick
     danima_V : V ;  -- brick
     danima_A : A ;  -- brick
+    danute_N : N ;  -- heal, cure
+    danute_V : V ;  -- heal, cure
+    danute_A : A ;  -- heal, cure
     dapo_N : N ;  -- name
     dapo_V : V ;  -- name
     dapo_A : A ;  -- name
@@ -425,6 +434,9 @@ abstract Lex = {
     diken_N : N ;  -- army
     diken_V : V ;  -- army
     diken_A : A ;  -- army
+    dikoba_N : N ;  -- yellow
+    dikoba_V : V ;  -- yellow
+    dikoba_A : A ;  -- yellow
     dili_N : N ;  -- day (24 hours)
     dili_V : V ;  -- day (24 hours)
     dili_A : A ;  -- day (24 hours)
@@ -464,18 +476,21 @@ abstract Lex = {
     dinyo_N : N ;  -- carry
     dinyo_V : V ;  -- carry
     dinyo_A : A ;  -- carry
+    disafa_N : N ;  -- organ (of the body)
+    disafa_V : V ;  -- organ (of the body)
+    disafa_A : A ;  -- organ (of the body)
     disayin_N : N ;  -- design
     disayin_V : V ;  -- design
     disayin_A : A ;  -- design
-    disewu_N : N ;  -- flood
-    disewu_V : V ;  -- flood
-    disewu_A : A ;  -- flood
     disin_N : N ;  -- material, substance
     disin_V : V ;  -- material, substance
     disin_A : A ;  -- material, substance
     ditun_N : N ;  -- seek, search for
     ditun_V : V ;  -- seek, search for
     ditun_A : A ;  -- seek, search for
+    diwiwu_N : N ;  -- shield
+    diwiwu_V : V ;  -- shield
+    diwiwu_A : A ;  -- shield
     diwusa_N : N ;  -- imagine
     diwusa_V : V ;  -- imagine
     diwusa_A : A ;  -- imagine
@@ -539,6 +554,12 @@ abstract Lex = {
     dubi_N : N ;  -- speech
     dubi_V : V ;  -- speech
     dubi_A : A ;  -- speech
+    dugebi_N : N ;  -- rose
+    dugebi_V : V ;  -- rose
+    dugebi_A : A ;  -- rose
+    dukife_N : N ;  -- lame, limping
+    dukife_V : V ;  -- lame, limping
+    dukife_A : A ;  -- lame, limping
     dulen_N : N ;  -- culture
     dulen_V : V ;  -- culture
     dulen_A : A ;  -- culture
@@ -584,6 +605,9 @@ abstract Lex = {
     dusu_N : N ;  -- dance
     dusu_V : V ;  -- dance
     dusu_A : A ;  -- dance
+    duteka_N : N ;  -- pepper (the spice)
+    duteka_V : V ;  -- pepper (the spice)
+    duteka_A : A ;  -- pepper (the spice)
     dutitu_N : N ;  -- treasure
     dutitu_V : V ;  -- treasure
     dutitu_A : A ;  -- treasure
@@ -650,27 +674,27 @@ abstract Lex = {
     esago_N : N ;  -- fuel (petrol, gasoline)
     esago_V : V ;  -- fuel (petrol, gasoline)
     esago_A : A ;  -- fuel (petrol, gasoline)
-    etasu_N : N ;  -- bless, blessing
-    etasu_V : V ;  -- bless, blessing
-    etasu_A : A ;  -- bless, blessing
     eten_N : N ;  -- short, not long
     eten_V : V ;  -- short, not long
     eten_A : A ;  -- short, not long
+    ewemu_N : N ;  -- bless, blessing
+    ewemu_V : V ;  -- bless, blessing
+    ewemu_A : A ;  -- bless, blessing
     ewo_N : N ;  -- person
     ewo_V : V ;  -- person
     ewo_A : A ;  -- person
     eye_N : N ;  -- department
     eye_V : V ;  -- department
     eye_A : A ;  -- department
-    eyisu_N : N ;  -- moral, ethics
-    eyisu_V : V ;  -- moral, ethics
-    eyisu_A : A ;  -- moral, ethics
     faba_N : N ;  -- sibling
     faba_V : V ;  -- sibling
     faba_A : A ;  -- sibling
     fade_N : N ;  -- mouth
     fade_V : V ;  -- mouth
     fade_A : A ;  -- mouth
+    fadepa_N : N ;  -- flea
+    fadepa_V : V ;  -- flea
+    fadepa_A : A ;  -- flea
     fadun_N : N ;  -- tired
     fadun_V : V ;  -- tired
     fadun_A : A ;  -- tired
@@ -701,9 +725,6 @@ abstract Lex = {
     fano_N : N ;  -- salty
     fano_V : V ;  -- salty
     fano_A : A ;  -- salty
-    fanoyu_N : N ;  -- nerve
-    fanoyu_V : V ;  -- nerve
-    fanoyu_A : A ;  -- nerve
     fape_N : N ;  -- talk
     fape_V : V ;  -- talk
     fape_A : A ;  -- talk
@@ -716,18 +737,21 @@ abstract Lex = {
     fasi_N : N ;  -- breathe
     fasi_V : V ;  -- breathe
     fasi_A : A ;  -- breathe
-    fatike_N : N ;  -- reform
-    fatike_V : V ;  -- reform
-    fatike_A : A ;  -- reform
     fatofu_N : N ;  -- publish
     fatofu_V : V ;  -- publish
     fatofu_A : A ;  -- publish
     fawu_N : N ;  -- year
     fawu_V : V ;  -- year
     fawu_A : A ;  -- year
+    febabo_N : N ;  -- spend
+    febabo_V : V ;  -- spend
+    febabo_A : A ;  -- spend
     febo_N : N ;  -- answer
     febo_V : V ;  -- answer
     febo_A : A ;  -- answer
+    febosi_N : N ;  -- crawl
+    febosi_V : V ;  -- crawl
+    febosi_A : A ;  -- crawl
     fedina_N : N ;  -- flour
     fedina_V : V ;  -- flour
     fedina_A : A ;  -- flour
@@ -752,9 +776,6 @@ abstract Lex = {
     fela_N : N ;  -- place
     fela_V : V ;  -- place
     fela_A : A ;  -- place
-    felefo_N : N ;  -- edition
-    felefo_V : V ;  -- edition
-    felefo_A : A ;  -- edition
     felin_N : N ;  -- competition
     felin_V : V ;  -- competition
     felin_A : A ;  -- competition
@@ -794,18 +815,15 @@ abstract Lex = {
     fenwan_N : N ;  -- glue
     fenwan_V : V ;  -- glue
     fenwan_A : A ;  -- glue
-    fepoka_N : N ;  -- consciousness
-    fepoka_V : V ;  -- consciousness
-    fepoka_A : A ;  -- consciousness
     fesan_N : N ;  -- bean
     fesan_V : V ;  -- bean
     fesan_A : A ;  -- bean
-    fesati_N : N ;  -- lame, limping
-    fesati_V : V ;  -- lame, limping
-    fesati_A : A ;  -- lame, limping
     fesun_N : N ;  -- hunt
     fesun_V : V ;  -- hunt
     fesun_A : A ;  -- hunt
+    fetaki_N : N ;  -- flute
+    fetaki_V : V ;  -- flute
+    fetaki_A : A ;  -- flute
     feti_N : N ;  -- sun
     feti_V : V ;  -- sun
     feti_A : A ;  -- sun
@@ -887,9 +905,6 @@ abstract Lex = {
     fiyon_N : N ;  -- tiger
     fiyon_V : V ;  -- tiger
     fiyon_A : A ;  -- tiger
-    fiyuwi_N : N ;  -- fraud, cheating
-    fiyuwi_V : V ;  -- fraud, cheating
-    fiyuwi_A : A ;  -- fraud, cheating
     fofun_N : N ;  -- ride
     fofun_V : V ;  -- ride
     fofun_A : A ;  -- ride
@@ -974,6 +989,9 @@ abstract Lex = {
     fuba_N : N ;  -- mind, intellect
     fuba_V : V ;  -- mind, intellect
     fuba_A : A ;  -- mind, intellect
+    fudogu_N : N ;  -- essence, gist
+    fudogu_V : V ;  -- essence, gist
+    fudogu_A : A ;  -- essence, gist
     fudon_N : N ;  -- room, of a building
     fudon_V : V ;  -- room, of a building
     fudon_A : A ;  -- room, of a building
@@ -1013,24 +1031,15 @@ abstract Lex = {
     fusami_N : N ;  -- coach
     fusami_V : V ;  -- coach
     fusami_A : A ;  -- coach
-    fuseno_N : N ;  -- protest
-    fuseno_V : V ;  -- protest
-    fuseno_A : A ;  -- protest
     fusin_N : N ;  -- turtle
     fusin_V : V ;  -- turtle
     fusin_A : A ;  -- turtle
     fuso_N : N ;  -- below
     fuso_V : V ;  -- below
     fuso_A : A ;  -- below
-    fusuyu_N : N ;  -- missile
-    fusuyu_V : V ;  -- missile
-    fusuyu_A : A ;  -- missile
     futa_N : N ;  -- woman, female
     futa_V : V ;  -- woman, female
     futa_A : A ;  -- woman, female
-    futaya_N : N ;  -- sensitive
-    futaya_V : V ;  -- sensitive
-    futaya_A : A ;  -- sensitive
     fuwape_N : N ;  -- grain
     fuwape_V : V ;  -- grain
     fuwape_A : A ;  -- grain
@@ -1046,6 +1055,9 @@ abstract Lex = {
     gabu_N : N ;  -- vomit
     gabu_V : V ;  -- vomit
     gabu_A : A ;  -- vomit
+    gafife_N : N ;  -- crow, raven
+    gafife_V : V ;  -- crow, raven
+    gafife_A : A ;  -- crow, raven
     gafon_N : N ;  -- never
     gafon_V : V ;  -- never
     gafon_A : A ;  -- never
@@ -1061,9 +1073,6 @@ abstract Lex = {
     gakodo_N : N ;  -- earthquake
     gakodo_V : V ;  -- earthquake
     gakodo_A : A ;  -- earthquake
-    gala_N : N ;  -- tree
-    gala_V : V ;  -- tree
-    gala_A : A ;  -- tree
     galasu_N : N ;  -- garage
     galasu_V : V ;  -- garage
     galasu_A : A ;  -- garage
@@ -1133,9 +1142,6 @@ abstract Lex = {
     gegule_N : N ;  -- attitude, stance
     gegule_V : V ;  -- attitude, stance
     gegule_A : A ;  -- attitude, stance
-    gekidu_N : N ;  -- achieve
-    gekidu_V : V ;  -- achieve
-    gekidu_A : A ;  -- achieve
     gekon_N : N ;  -- fly, the insect
     gekon_V : V ;  -- fly, the insect
     gekon_A : A ;  -- fly, the insect
@@ -1178,6 +1184,9 @@ abstract Lex = {
     geweso_N : N ;  -- wild, not tamed or farmed
     geweso_V : V ;  -- wild, not tamed or farmed
     geweso_A : A ;  -- wild, not tamed or farmed
+    gewipa_N : N ;  -- bake (in an oven or on hot ashes)
+    gewipa_V : V ;  -- bake (in an oven or on hot ashes)
+    gewipa_A : A ;  -- bake (in an oven or on hot ashes)
     gewobu_N : N ;  -- traffic
     gewobu_V : V ;  -- traffic
     gewobu_A : A ;  -- traffic
@@ -1280,6 +1289,9 @@ abstract Lex = {
     gonwu_N : N ;  -- divide, division
     gonwu_V : V ;  -- divide, division
     gonwu_A : A ;  -- divide, division
+    gopoyu_N : N ;  -- board, plank
+    gopoyu_V : V ;  -- board, plank
+    gopoyu_A : A ;  -- board, plank
     gosan_N : N ;  -- relative, family member
     gosan_V : V ;  -- relative, family member
     gosan_A : A ;  -- relative, family member
@@ -1295,21 +1307,21 @@ abstract Lex = {
     goyon_N : N ;  -- guess
     goyon_V : V ;  -- guess
     goyon_A : A ;  -- guess
-    goyuyu_N : N ;  -- hoe
-    goyuyu_V : V ;  -- hoe
-    goyuyu_A : A ;  -- hoe
+    gubudu_N : N ;  -- bury
+    gubudu_V : V ;  -- bury
+    gubudu_A : A ;  -- bury
     gudu_N : N ;  -- liver
     gudu_V : V ;  -- liver
     gudu_A : A ;  -- liver
     gufu_N : N ;  -- hard, not soft
     gufu_V : V ;  -- hard, not soft
     gufu_A : A ;  -- hard, not soft
+    gufuwa_N : N ;  -- bell
+    gufuwa_V : V ;  -- bell
+    gufuwa_A : A ;  -- bell
     guge_N : N ;  -- grow
     guge_V : V ;  -- grow
     guge_A : A ;  -- grow
-    gugife_N : N ;  -- hate
-    gugife_V : V ;  -- hate
-    gugife_A : A ;  -- hate
     gugon_N : N ;  -- date (romantic meeting)
     gugon_V : V ;  -- date (romantic meeting)
     gugon_A : A ;  -- date (romantic meeting)
@@ -1346,6 +1358,9 @@ abstract Lex = {
     ibe_N : N ;  -- have, possess
     ibe_V : V ;  -- have, possess
     ibe_A : A ;  -- have, possess
+    idiki_N : N ;  -- nerve
+    idiki_V : V ;  -- nerve
+    idiki_A : A ;  -- nerve
     idon_N : N ;  -- project
     idon_V : V ;  -- project
     idon_A : A ;  -- project
@@ -1361,6 +1376,9 @@ abstract Lex = {
     ila_N : N ;  -- word
     ila_V : V ;  -- word
     ila_A : A ;  -- word
+    iledu_N : N ;  -- balance
+    iledu_V : V ;  -- balance
+    iledu_A : A ;  -- balance
     imeyilu_N : N ;  -- email
     imeyilu_V : V ;  -- email
     imeyilu_A : A ;  -- email
@@ -1397,15 +1415,9 @@ abstract Lex = {
     inyi_N : N ;  -- arm
     inyi_V : V ;  -- arm
     inyi_A : A ;  -- arm
-    iseka_N : N ;  -- desert
-    iseka_V : V ;  -- desert
-    iseka_A : A ;  -- desert
     isi_N : N ;  -- go
     isi_V : V ;  -- go
     isi_A : A ;  -- go
-    ituke_N : N ;  -- organ (of the body)
-    ituke_V : V ;  -- organ (of the body)
-    ituke_A : A ;  -- organ (of the body)
     iwola_N : N ;  -- parent
     iwola_V : V ;  -- parent
     iwola_A : A ;  -- parent
@@ -1418,12 +1430,12 @@ abstract Lex = {
     kafe_N : N ;  -- coffee
     kafe_V : V ;  -- coffee
     kafe_A : A ;  -- coffee
-    kafewe_N : N ;  -- tree trunk
-    kafewe_V : V ;  -- tree trunk
-    kafewe_A : A ;  -- tree trunk
     kagun_N : N ;  -- zipper
     kagun_V : V ;  -- zipper
     kagun_A : A ;  -- zipper
+    kagupo_N : N ;  -- forehead
+    kagupo_V : V ;  -- forehead
+    kagupo_A : A ;  -- forehead
     kalendalu_N : N ;  -- calendar (the object)
     kalendalu_V : V ;  -- calendar (the object)
     kalendalu_A : A ;  -- calendar (the object)
@@ -1460,6 +1472,9 @@ abstract Lex = {
     kansa_N : N ;  -- elephant
     kansa_V : V ;  -- elephant
     kansa_A : A ;  -- elephant
+    kapebi_N : N ;  -- tense, strained, nervous
+    kapebi_V : V ;  -- tense, strained, nervous
+    kapebi_A : A ;  -- tense, strained, nervous
     kaputan_N : N ;  -- captain
     kaputan_V : V ;  -- captain
     kaputan_A : A ;  -- captain
@@ -1484,9 +1499,6 @@ abstract Lex = {
     kawi_N : N ;  -- minister
     kawi_V : V ;  -- minister
     kawi_A : A ;  -- minister
-    kawiwu_N : N ;  -- spend
-    kawiwu_V : V ;  -- spend
-    kawiwu_A : A ;  -- spend
     kayiyi_N : N ;  -- womb
     kayiyi_V : V ;  -- womb
     kayiyi_A : A ;  -- womb
@@ -1625,9 +1637,6 @@ abstract Lex = {
     kodu_N : N ;  -- code (computer code; a cipher)
     kodu_V : V ;  -- code (computer code; a cipher)
     kodu_A : A ;  -- code (computer code; a cipher)
-    kogeka_N : N ;  -- edit
-    kogeka_V : V ;  -- edit
-    kogeka_A : A ;  -- edit
     koken_N : N ;  -- find
     koken_V : V ;  -- find
     koken_A : A ;  -- find
@@ -1637,9 +1646,6 @@ abstract Lex = {
     komisa_N : N ;  -- copper
     komisa_V : V ;  -- copper
     komisa_A : A ;  -- copper
-    komowu_N : N ;  -- essence, gist
-    komowu_V : V ;  -- essence, gist
-    komowu_A : A ;  -- essence, gist
     komu_N : N ;  -- .com (read aloud)
     komu_V : V ;  -- .com (read aloud)
     komu_A : A ;  -- .com (read aloud)
@@ -1682,6 +1688,12 @@ abstract Lex = {
     koye_N : N ;  -- drink
     koye_V : V ;  -- drink
     koye_A : A ;  -- drink
+    koyema_N : N ;  -- frame
+    koyema_V : V ;  -- frame
+    koyema_A : A ;  -- frame
+    koyuga_N : N ;  -- button (on clothes; also a push-button)
+    koyuga_V : V ;  -- button (on clothes; also a push-button)
+    koyuga_A : A ;  -- button (on clothes; also a push-button)
     kubo_N : N ;  -- change, make or become different
     kubo_V : V ;  -- change, make or become different
     kubo_A : A ;  -- change, make or become different
@@ -1799,6 +1811,9 @@ abstract Lex = {
     lebeto_N : N ;  -- credit
     lebeto_V : V ;  -- credit
     lebeto_A : A ;  -- credit
+    lebute_N : N ;  -- receipt
+    lebute_V : V ;  -- receipt
+    lebute_A : A ;  -- receipt
     ledo_N : N ;  -- shape
     ledo_V : V ;  -- shape
     ledo_A : A ;  -- shape
@@ -1808,9 +1823,6 @@ abstract Lex = {
     lefu_N : N ;  -- hungry
     lefu_V : V ;  -- hungry
     lefu_A : A ;  -- hungry
-    lefuya_N : N ;  -- eagle, large bird of prey
-    lefuya_V : V ;  -- eagle, large bird of prey
-    lefuya_A : A ;  -- eagle, large bird of prey
     legen_N : N ;  -- sign, signal, mark
     legen_V : V ;  -- sign, signal, mark
     legen_A : A ;  -- sign, signal, mark
@@ -1889,6 +1901,9 @@ abstract Lex = {
     leyoyi_N : N ;  -- peel
     leyoyi_V : V ;  -- peel
     leyoyi_A : A ;  -- peel
+    libafe_N : N ;  -- naked
+    libafe_V : V ;  -- naked
+    libafe_A : A ;  -- naked
     lifin_N : N ;  -- between
     lifin_V : V ;  -- between
     lifin_A : A ;  -- between
@@ -1898,9 +1913,6 @@ abstract Lex = {
     ligemu_N : N ;  -- candle
     ligemu_V : V ;  -- candle
     ligemu_A : A ;  -- candle
-    likafe_N : N ;  -- stage (theatre platform)
-    likafe_V : V ;  -- stage (theatre platform)
-    likafe_A : A ;  -- stage (theatre platform)
     likusi_N : N ;  -- substitute, replacement
     likusi_V : V ;  -- substitute, replacement
     likusi_A : A ;  -- substitute, replacement
@@ -1967,6 +1979,9 @@ abstract Lex = {
     lobotu_N : N ;  -- robot
     lobotu_V : V ;  -- robot
     lobotu_A : A ;  -- robot
+    lodale_N : N ;  -- glass, the material
+    lodale_V : V ;  -- glass, the material
+    lodale_A : A ;  -- glass, the material
     lodi_N : N ;  -- bird
     lodi_V : V ;  -- bird
     lodi_A : A ;  -- bird
@@ -2012,9 +2027,6 @@ abstract Lex = {
     lose_N : N ;  -- plan
     lose_V : V ;  -- plan
     lose_A : A ;  -- plan
-    losidu_N : N ;  -- bend
-    losidu_V : V ;  -- bend
-    losidu_A : A ;  -- bend
     loso_N : N ;  -- group
     loso_V : V ;  -- group
     loso_A : A ;  -- group
@@ -2024,9 +2036,6 @@ abstract Lex = {
     lota_N : N ;  -- thank
     lota_V : V ;  -- thank
     lota_A : A ;  -- thank
-    lotata_N : N ;  -- diamond
-    lotata_V : V ;  -- diamond
-    lotata_A : A ;  -- diamond
     lowe_N : N ;  -- song
     lowe_V : V ;  -- song
     lowe_A : A ;  -- song
@@ -2153,6 +2162,9 @@ abstract Lex = {
     memabi_N : N ;  -- behave
     memabi_V : V ;  -- behave
     memabi_A : A ;  -- behave
+    memewo_N : N ;  -- steel
+    memewo_V : V ;  -- steel
+    memewo_A : A ;  -- steel
     memo_N : N ;  -- train
     memo_V : V ;  -- train
     memo_A : A ;  -- train
@@ -2162,6 +2174,9 @@ abstract Lex = {
     mengon_N : N ;  -- complex
     mengon_V : V ;  -- complex
     mengon_A : A ;  -- complex
+    menitu_N : N ;  -- fraud, cheating
+    menitu_V : V ;  -- fraud, cheating
+    menitu_A : A ;  -- fraud, cheating
     menmen_N : N ;  -- pray, worship
     menmen_V : V ;  -- pray, worship
     menmen_A : A ;  -- pray, worship
@@ -2171,6 +2186,9 @@ abstract Lex = {
     menti_N : N ;  -- mouse (the animal; also the computer mouse)
     menti_V : V ;  -- mouse (the animal; also the computer mouse)
     menti_A : A ;  -- mouse (the animal; also the computer mouse)
+    mepoka_N : N ;  -- lizard
+    mepoka_V : V ;  -- lizard
+    mepoka_A : A ;  -- lizard
     metulu_N : N ;  -- metre
     metulu_V : V ;  -- metre
     metulu_A : A ;  -- metre
@@ -2186,9 +2204,6 @@ abstract Lex = {
     meyen_N : N ;  -- flower
     meyen_V : V ;  -- flower
     meyen_A : A ;  -- flower
-    meyeti_N : N ;  -- rose
-    meyeti_V : V ;  -- rose
-    meyeti_A : A ;  -- rose
     mibun_N : N ;  -- hide
     mibun_V : V ;  -- hide
     mibun_A : A ;  -- hide
@@ -2204,21 +2219,18 @@ abstract Lex = {
     migisa_N : N ;  -- cliff, steep rock face
     migisa_V : V ;  -- cliff, steep rock face
     migisa_A : A ;  -- cliff, steep rock face
-    migiwi_N : N ;  -- instrument (musical)
-    migiwi_V : V ;  -- instrument (musical)
-    migiwi_A : A ;  -- instrument (musical)
     migotu_N : N ;  -- wheat
     migotu_V : V ;  -- wheat
     migotu_A : A ;  -- wheat
+    miligi_N : N ;  -- roll
+    miligi_V : V ;  -- roll
+    miligi_A : A ;  -- roll
     milimetulu_N : N ;  -- millimetre
     milimetulu_V : V ;  -- millimetre
     milimetulu_A : A ;  -- millimetre
     miman_N : N ;  -- wipe
     miman_V : V ;  -- wipe
     miman_A : A ;  -- wipe
-    mimewu_N : N ;  -- palm (the tree)
-    mimewu_V : V ;  -- palm (the tree)
-    mimewu_A : A ;  -- palm (the tree)
     mimima_N : N ;  -- belly
     mimima_V : V ;  -- belly
     mimima_A : A ;  -- belly
@@ -2243,9 +2255,6 @@ abstract Lex = {
     minu_N : N ;  -- limit
     minu_V : V ;  -- limit
     minu_A : A ;  -- limit
-    minufe_N : N ;  -- farm
-    minufe_V : V ;  -- farm
-    minufe_A : A ;  -- farm
     minwe_N : N ;  -- whole
     minwe_V : V ;  -- whole
     minwe_A : A ;  -- whole
@@ -2288,9 +2297,6 @@ abstract Lex = {
     mofa_N : N ;  -- suck
     mofa_V : V ;  -- suck
     mofa_A : A ;  -- suck
-    mofawu_N : N ;  -- virgin
-    mofawu_V : V ;  -- virgin
-    mofawu_A : A ;  -- virgin
     mofete_N : N ;  -- giant
     mofete_V : V ;  -- giant
     mofete_A : A ;  -- giant
@@ -2324,21 +2330,15 @@ abstract Lex = {
     mona_N : N ;  -- responsible
     mona_V : V ;  -- responsible
     mona_A : A ;  -- responsible
-    monato_N : N ;  -- priority
-    monato_V : V ;  -- priority
-    monato_A : A ;  -- priority
     monin_N : N ;  -- shake, vibrate
     monin_V : V ;  -- shake, vibrate
     monin_A : A ;  -- shake, vibrate
+    mosetu_N : N ;  -- dare
+    mosetu_V : V ;  -- dare
+    mosetu_A : A ;  -- dare
     mosu_N : N ;  -- apologise
     mosu_V : V ;  -- apologise
     mosu_A : A ;  -- apologise
-    mosuli_N : N ;  -- summary
-    mosuli_V : V ;  -- summary
-    mosuli_A : A ;  -- summary
-    moti_N : N ;  -- again
-    moti_V : V ;  -- again
-    moti_A : A ;  -- again
     moto_N : N ;  -- motorcycle
     moto_V : V ;  -- motorcycle
     moto_A : A ;  -- motorcycle
@@ -2348,9 +2348,6 @@ abstract Lex = {
     mowa_N : N ;  -- fire
     mowa_V : V ;  -- fire
     mowa_A : A ;  -- fire
-    mowasu_N : N ;  -- axe
-    mowasu_V : V ;  -- axe
-    mowasu_A : A ;  -- axe
     mowega_N : N ;  -- cream (of milk; cosmetic)
     mowega_V : V ;  -- cream (of milk; cosmetic)
     mowega_A : A ;  -- cream (of milk; cosmetic)
@@ -2396,9 +2393,6 @@ abstract Lex = {
     naba_N : N ;  -- lawyer
     naba_V : V ;  -- lawyer
     naba_A : A ;  -- lawyer
-    nabaye_N : N ;  -- poison
-    nabaye_V : V ;  -- poison
-    nabaye_A : A ;  -- poison
     nade_N : N ;  -- understand
     nade_V : V ;  -- understand
     nade_A : A ;  -- understand
@@ -2441,9 +2435,6 @@ abstract Lex = {
     nasan_N : N ;  -- defecate
     nasan_V : V ;  -- defecate
     nasan_A : A ;  -- defecate
-    nasebi_N : N ;  -- bell
-    nasebi_V : V ;  -- bell
-    nasebi_A : A ;  -- bell
     nasi_N : N ;  -- money
     nasi_V : V ;  -- money
     nasi_A : A ;  -- money
@@ -2480,9 +2471,6 @@ abstract Lex = {
     negan_N : N ;  -- stairs
     negan_V : V ;  -- stairs
     negan_A : A ;  -- stairs
-    negawi_N : N ;  -- dare
-    negawi_V : V ;  -- dare
-    negawi_A : A ;  -- dare
     neke_N : N ;  -- give
     neke_V : V ;  -- give
     neke_A : A ;  -- give
@@ -2531,15 +2519,9 @@ abstract Lex = {
     nesen_N : N ;  -- owl
     nesen_V : V ;  -- owl
     nesen_A : A ;  -- owl
-    nesifo_N : N ;  -- balance
-    nesifo_V : V ;  -- balance
-    nesifo_A : A ;  -- balance
     nesoge_N : N ;  -- capacity
     nesoge_V : V ;  -- capacity
     nesoge_A : A ;  -- capacity
-    netiti_N : N ;  -- forehead
-    netiti_V : V ;  -- forehead
-    netiti_A : A ;  -- forehead
     netu_N : N ;  -- long
     netu_V : V ;  -- long
     netu_A : A ;  -- long
@@ -2627,9 +2609,12 @@ abstract Lex = {
     nonyon_N : N ;  -- soul
     nonyon_V : V ;  -- soul
     nonyon_A : A ;  -- soul
-    nubibo_N : N ;  -- crow, raven
-    nubibo_V : V ;  -- crow, raven
-    nubibo_A : A ;  -- crow, raven
+    nubige_N : N ;  -- god
+    nubige_V : V ;  -- god
+    nubige_A : A ;  -- god
+    nufena_N : N ;  -- comfortable, at ease
+    nufena_V : V ;  -- comfortable, at ease
+    nufena_A : A ;  -- comfortable, at ease
     nufi_N : N ;  -- time, a span or a point (not an occasion)
     nufi_V : V ;  -- time, a span or a point (not an occasion)
     nufi_A : A ;  -- time, a span or a point (not an occasion)
@@ -2639,6 +2624,9 @@ abstract Lex = {
     nugin_N : N ;  -- trousers
     nugin_V : V ;  -- trousers
     nugin_A : A ;  -- trousers
+    nukono_N : N ;  -- bend
+    nukono_V : V ;  -- bend
+    nukono_A : A ;  -- bend
     nulan_N : N ;  -- price
     nulan_V : V ;  -- price
     nulan_A : A ;  -- price
@@ -2666,6 +2654,9 @@ abstract Lex = {
     nusan_N : N ;  -- scissors
     nusan_V : V ;  -- scissors
     nusan_A : A ;  -- scissors
+    nuse_N : N ;  -- matter, affair, issue
+    nuse_V : V ;  -- matter, affair, issue
+    nuse_A : A ;  -- matter, affair, issue
     nusese_N : N ;  -- boil, abscess (on the skin)
     nusese_V : V ;  -- boil, abscess (on the skin)
     nusese_A : A ;  -- boil, abscess (on the skin)
@@ -2678,15 +2669,9 @@ abstract Lex = {
     nuta_N : N ;  -- fear
     nuta_V : V ;  -- fear
     nuta_A : A ;  -- fear
-    nutano_N : N ;  -- blue
-    nutano_V : V ;  -- blue
-    nutano_A : A ;  -- blue
     nuton_N : N ;  -- remove, erase
     nuton_V : V ;  -- remove, erase
     nuton_A : A ;  -- remove, erase
-    nutuba_N : N ;  -- bake (in an oven or on hot ashes)
-    nutuba_V : V ;  -- bake (in an oven or on hot ashes)
-    nutuba_A : A ;  -- bake (in an oven or on hot ashes)
     nuwo_N : N ;  -- happen
     nuwo_V : V ;  -- happen
     nuwo_A : A ;  -- happen
@@ -2702,18 +2687,15 @@ abstract Lex = {
     obu_N : N ;  -- come
     obu_V : V ;  -- come
     obu_A : A ;  -- come
-    ode_N : N ;  -- school
-    ode_V : V ;  -- school
-    ode_A : A ;  -- school
-    ofin_N : N ;  -- spouse
-    ofin_V : V ;  -- spouse
-    ofin_A : A ;  -- spouse
     ofisu_N : N ;  -- office
     ofisu_V : V ;  -- office
     ofisu_A : A ;  -- office
     ogene_N : N ;  -- angle
     ogene_V : V ;  -- angle
     ogene_A : A ;  -- angle
+    okola_N : N ;  -- host (who receives guests)
+    okola_V : V ;  -- host (who receives guests)
+    okola_A : A ;  -- host (who receives guests)
     okusigen_N : N ;  -- oxygen
     okusigen_V : V ;  -- oxygen
     okusigen_A : A ;  -- oxygen
@@ -2750,6 +2732,9 @@ abstract Lex = {
     osayi_N : N ;  -- murder (kill on purpose, unlawfully)
     osayi_V : V ;  -- murder (kill on purpose, unlawfully)
     osayi_A : A ;  -- murder (kill on purpose, unlawfully)
+    osin_N : N ;  -- again
+    osin_V : V ;  -- again
+    osin_A : A ;  -- again
     otelu_N : N ;  -- hotel
     otelu_V : V ;  -- hotel
     otelu_A : A ;  -- hotel
@@ -2768,9 +2753,6 @@ abstract Lex = {
     paben_N : N ;  -- fart
     paben_V : V ;  -- fart
     paben_A : A ;  -- fart
-    pabito_N : N ;  -- heal, cure
-    pabito_V : V ;  -- heal, cure
-    pabito_A : A ;  -- heal, cure
     padufe_N : N ;  -- nest
     padufe_V : V ;  -- nest
     padufe_A : A ;  -- nest
@@ -2804,6 +2786,9 @@ abstract Lex = {
     papayo_N : N ;  -- contribute
     papayo_V : V ;  -- contribute
     papayo_A : A ;  -- contribute
+    pasige_N : N ;  -- reform
+    pasige_V : V ;  -- reform
+    pasige_A : A ;  -- reform
     pasu_N : N ;  -- food
     pasu_V : V ;  -- food
     pasu_A : A ;  -- food
@@ -2813,6 +2798,12 @@ abstract Lex = {
     pata_N : N ;  -- document, file
     pata_V : V ;  -- document, file
     pata_A : A ;  -- document, file
+    patetu_N : N ;  -- useless
+    patetu_V : V ;  -- useless
+    patetu_A : A ;  -- useless
+    pawoma_N : N ;  -- summary
+    pawoma_V : V ;  -- summary
+    pawoma_A : A ;  -- summary
     pawundu_N : N ;  -- pound (the currency)
     pawundu_V : V ;  -- pound (the currency)
     pawundu_A : A ;  -- pound (the currency)
@@ -2861,6 +2852,9 @@ abstract Lex = {
     pewike_N : N ;  -- ambassador
     pewike_V : V ;  -- ambassador
     pewike_A : A ;  -- ambassador
+    peyuka_N : N ;  -- spring (water source)
+    peyuka_V : V ;  -- spring (water source)
+    peyuka_A : A ;  -- spring (water source)
     pidama_N : N ;  -- pajamas
     pidama_V : V ;  -- pajamas
     pidama_A : A ;  -- pajamas
@@ -2894,6 +2888,9 @@ abstract Lex = {
     pofo_N : N ;  -- island
     pofo_V : V ;  -- island
     pofo_A : A ;  -- island
+    pofoso_N : N ;  -- achieve
+    pofoso_V : V ;  -- achieve
+    pofoso_A : A ;  -- achieve
     pogun_N : N ;  -- pig
     pogun_V : V ;  -- pig
     pogun_A : A ;  -- pig
@@ -2906,6 +2903,9 @@ abstract Lex = {
     polon_N : N ;  -- shirt
     polon_V : V ;  -- shirt
     polon_A : A ;  -- shirt
+    pomubu_N : N ;  -- hate
+    pomubu_V : V ;  -- hate
+    pomubu_A : A ;  -- hate
     ponan_N : N ;  -- strawberry
     ponan_V : V ;  -- strawberry
     ponan_A : A ;  -- strawberry
@@ -3038,15 +3038,27 @@ abstract Lex = {
     sekan_N : N ;  -- pull
     sekan_V : V ;  -- pull
     sekan_A : A ;  -- pull
+    sekawa_N : N ;  -- fever
+    sekawa_V : V ;  -- fever
+    sekawa_A : A ;  -- fever
+    seliyo_N : N ;  -- joint (of the body)
+    seliyo_V : V ;  -- joint (of the body)
+    seliyo_A : A ;  -- joint (of the body)
     selon_N : N ;  -- open
     selon_V : V ;  -- open
     selon_A : A ;  -- open
+    selotu_N : N ;  -- protest
+    selotu_V : V ;  -- protest
+    selotu_A : A ;  -- protest
     sema_N : N ;  -- list
     sema_V : V ;  -- list
     sema_A : A ;  -- list
     sendi_N : N ;  -- hammer
     sendi_V : V ;  -- hammer
     sendi_A : A ;  -- hammer
+    senesu_N : N ;  -- blue
+    senesu_V : V ;  -- blue
+    senesu_A : A ;  -- blue
     senfa_N : N ;  -- ladder
     senfa_V : V ;  -- ladder
     senfa_A : A ;  -- ladder
@@ -3095,33 +3107,42 @@ abstract Lex = {
     sepe_N : N ;  -- possible
     sepe_V : V ;  -- possible
     sepe_A : A ;  -- possible
+    sepepa_N : N ;  -- access
+    sepepa_V : V ;  -- access
+    sepepa_A : A ;  -- access
     sepun_N : N ;  -- knife
     sepun_V : V ;  -- knife
     sepun_A : A ;  -- knife
     sesen_N : N ;  -- leg
     sesen_V : V ;  -- leg
     sesen_A : A ;  -- leg
+    seseni_N : N ;  -- flood
+    seseni_V : V ;  -- flood
+    seseni_A : A ;  -- flood
+    sesifu_N : N ;  -- poison
+    sesifu_V : V ;  -- poison
+    sesifu_A : A ;  -- poison
     sesu_N : N ;  -- smooth
     sesu_V : V ;  -- smooth
     sesu_A : A ;  -- smooth
+    setuwi_N : N ;  -- axe
+    setuwi_V : V ;  -- axe
+    setuwi_A : A ;  -- axe
     sewu_N : N ;  -- buttocks
     sewu_V : V ;  -- buttocks
     sewu_A : A ;  -- buttocks
-    sewubo_N : N ;  -- useless
-    sewubo_V : V ;  -- useless
-    sewubo_A : A ;  -- useless
     seyo_N : N ;  -- mirror
     seyo_V : V ;  -- mirror
     seyo_A : A ;  -- mirror
     siben_N : N ;  -- rich, wealthy
     siben_V : V ;  -- rich, wealthy
     siben_A : A ;  -- rich, wealthy
+    sibuya_N : N ;  -- sensitive
+    sibuya_V : V ;  -- sensitive
+    sibuya_A : A ;  -- sensitive
     sidako_N : N ;  -- rape
     sidako_V : V ;  -- rape
     sidako_A : A ;  -- rape
-    siduyu_N : N ;  -- firewood
-    siduyu_V : V ;  -- firewood
-    siduyu_A : A ;  -- firewood
     sifada_N : N ;  -- sieve, strain
     sifada_V : V ;  -- sieve, strain
     sifada_A : A ;  -- sieve, strain
@@ -3143,9 +3164,6 @@ abstract Lex = {
     sikomo_N : N ;  -- mystery
     sikomo_V : V ;  -- mystery
     sikomo_A : A ;  -- mystery
-    siloya_N : N ;  -- bury
-    siloya_V : V ;  -- bury
-    siloya_A : A ;  -- bury
     silu_N : N ;  -- photo
     silu_V : V ;  -- photo
     silu_A : A ;  -- photo
@@ -3173,9 +3191,6 @@ abstract Lex = {
     sinun_N : N ;  -- dream
     sinun_V : V ;  -- dream
     sinun_A : A ;  -- dream
-    sipisu_N : N ;  -- elbow
-    sipisu_V : V ;  -- elbow
-    sipisu_A : A ;  -- elbow
     sisa_N : N ;  -- form (format; a form to fill in)
     sisa_V : V ;  -- form (format; a form to fill in)
     sisa_A : A ;  -- form (format; a form to fill in)
@@ -3191,9 +3206,6 @@ abstract Lex = {
     siten_N : N ;  -- cook
     siten_V : V ;  -- cook
     siten_A : A ;  -- cook
-    sitewe_N : N ;  -- comfortable, at ease
-    sitewe_V : V ;  -- comfortable, at ease
-    sitewe_A : A ;  -- comfortable, at ease
     situ_N : N ;  -- shade, shadow from light
     situ_V : V ;  -- shade, shadow from light
     situ_A : A ;  -- shade, shadow from light
@@ -3203,18 +3215,15 @@ abstract Lex = {
     siwase_N : N ;  -- compare
     siwase_V : V ;  -- compare
     siwase_A : A ;  -- compare
-    siwelu_N : N ;  -- mortar (for pounding)
-    siwelu_V : V ;  -- mortar (for pounding)
-    siwelu_A : A ;  -- mortar (for pounding)
-    siwita_N : N ;  -- joint (of the body)
-    siwita_V : V ;  -- joint (of the body)
-    siwita_A : A ;  -- joint (of the body)
     siwon_N : N ;  -- melon
     siwon_V : V ;  -- melon
     siwon_A : A ;  -- melon
     siyan_N : N ;  -- worker
     siyan_V : V ;  -- worker
     siyan_A : A ;  -- worker
+    siyute_N : N ;  -- missile
+    siyute_V : V ;  -- missile
+    siyute_A : A ;  -- missile
     sobame_N : N ;  -- urgent
     sobame_V : V ;  -- urgent
     sobame_A : A ;  -- urgent
@@ -3227,9 +3236,9 @@ abstract Lex = {
     sofen_N : N ;  -- chew
     sofen_V : V ;  -- chew
     sofen_A : A ;  -- chew
-    sofiti_N : N ;  -- flea
-    sofiti_V : V ;  -- flea
-    sofiti_A : A ;  -- flea
+    sofiki_N : N ;  -- diamond
+    sofiki_V : V ;  -- diamond
+    sofiki_A : A ;  -- diamond
     sofodu_N : N ;  -- prostitute
     sofodu_V : V ;  -- prostitute
     sofodu_A : A ;  -- prostitute
@@ -3239,6 +3248,9 @@ abstract Lex = {
     sogi_N : N ;  -- happy
     sogi_V : V ;  -- happy
     sogi_A : A ;  -- happy
+    sokewo_N : N ;  -- palm (the tree)
+    sokewo_V : V ;  -- palm (the tree)
+    sokewo_A : A ;  -- palm (the tree)
     sokun_N : N ;  -- flat, level
     sokun_V : V ;  -- flat, level
     sokun_A : A ;  -- flat, level
@@ -3248,9 +3260,6 @@ abstract Lex = {
     solen_N : N ;  -- frog
     solen_V : V ;  -- frog
     solen_A : A ;  -- frog
-    soliwi_N : N ;  -- lizard
-    soliwi_V : V ;  -- lizard
-    soliwi_A : A ;  -- lizard
     solofi_N : N ;  -- popular
     solofi_V : V ;  -- popular
     solofi_A : A ;  -- popular
@@ -3302,9 +3311,6 @@ abstract Lex = {
     sosiwu_N : N ;  -- recognize
     sosiwu_V : V ;  -- recognize
     sosiwu_A : A ;  -- recognize
-    sosope_N : N ;  -- pepper (the spice)
-    sosope_V : V ;  -- pepper (the spice)
-    sosope_A : A ;  -- pepper (the spice)
     sosu_N : N ;  -- sauce
     sosu_V : V ;  -- sauce
     sosu_A : A ;  -- sauce
@@ -3332,6 +3338,9 @@ abstract Lex = {
     soyabo_N : N ;  -- nail (metal fastener)
     soyabo_V : V ;  -- nail (metal fastener)
     soyabo_A : A ;  -- nail (metal fastener)
+    soyemi_N : N ;  -- eagle, large bird of prey
+    soyemi_V : V ;  -- eagle, large bird of prey
+    soyemi_A : A ;  -- eagle, large bird of prey
     soyin_N : N ;  -- attack
     soyin_V : V ;  -- attack
     soyin_A : A ;  -- attack
@@ -3404,6 +3413,9 @@ abstract Lex = {
     tagani_N : N ;  -- gourd, calabash, pumpkin, squash
     tagani_V : V ;  -- gourd, calabash, pumpkin, squash
     tagani_A : A ;  -- gourd, calabash, pumpkin, squash
+    tagido_N : N ;  -- desert
+    tagido_V : V ;  -- desert
+    tagido_A : A ;  -- desert
     tago_N : N ;  -- black
     tago_V : V ;  -- black
     tago_A : A ;  -- black
@@ -3422,9 +3434,6 @@ abstract Lex = {
     tamu_N : N ;  -- news
     tamu_V : V ;  -- news
     tamu_A : A ;  -- news
-    tamufo_N : N ;  -- board, plank
-    tamufo_V : V ;  -- board, plank
-    tamufo_A : A ;  -- board, plank
     tana_N : N ;  -- like, enjoy
     tana_V : V ;  -- like, enjoy
     tana_A : A ;  -- like, enjoy
@@ -3509,9 +3518,6 @@ abstract Lex = {
     teki_N : N ;  -- picture
     teki_V : V ;  -- picture
     teki_A : A ;  -- picture
-    tekita_N : N ;  -- steel
-    tekita_V : V ;  -- steel
-    tekita_A : A ;  -- steel
     tekunologi_N : N ;  -- technology
     tekunologi_V : V ;  -- technology
     tekunologi_A : A ;  -- technology
@@ -3590,6 +3596,9 @@ abstract Lex = {
     tilote_N : N ;  -- deny, say it isn't true
     tilote_V : V ;  -- deny, say it isn't true
     tilote_A : A ;  -- deny, say it isn't true
+    timika_N : N ;  -- consciousness
+    timika_V : V ;  -- consciousness
+    timika_A : A ;  -- consciousness
     timon_N : N ;  -- half
     timon_V : V ;  -- half
     timon_A : A ;  -- half
@@ -3644,24 +3653,27 @@ abstract Lex = {
     tiso_N : N ;  -- fish, the animal
     tiso_V : V ;  -- fish, the animal
     tiso_A : A ;  -- fish, the animal
+    tisuki_N : N ;  -- instrument (musical)
+    tisuki_V : V ;  -- instrument (musical)
+    tisuki_A : A ;  -- instrument (musical)
     tito_N : N ;  -- worry
     tito_V : V ;  -- worry
     tito_A : A ;  -- worry
-    tituya_N : N ;  -- beak
-    tituya_V : V ;  -- beak
-    tituya_A : A ;  -- beak
     tiwe_N : N ;  -- sweat
     tiwe_V : V ;  -- sweat
     tiwe_A : A ;  -- sweat
     tiwu_N : N ;  -- child
     tiwu_V : V ;  -- child
     tiwu_A : A ;  -- child
-    tiwuye_N : N ;  -- spring (water source)
-    tiwuye_V : V ;  -- spring (water source)
-    tiwuye_A : A ;  -- spring (water source)
     tiyen_N : N ;  -- tea
     tiyen_V : V ;  -- tea
     tiyen_A : A ;  -- tea
+    tobiwi_N : N ;  -- moral, ethics
+    tobiwi_V : V ;  -- moral, ethics
+    tobiwi_A : A ;  -- moral, ethics
+    toda_N : N ;  -- tree
+    toda_V : V ;  -- tree
+    toda_A : A ;  -- tree
     tokolatu_N : N ;  -- chocolate
     tokolatu_V : V ;  -- chocolate
     tokolatu_A : A ;  -- chocolate
@@ -3707,6 +3719,9 @@ abstract Lex = {
     tosutu_N : N ;  -- toast
     tosutu_V : V ;  -- toast
     tosutu_A : A ;  -- toast
+    toti_N : N ;  -- spouse
+    toti_V : V ;  -- spouse
+    toti_A : A ;  -- spouse
     tubenu_N : N ;  -- pipe
     tubenu_V : V ;  -- pipe
     tubenu_A : A ;  -- pipe
@@ -3776,24 +3791,24 @@ abstract Lex = {
     tusi_N : N ;  -- write
     tusi_V : V ;  -- write
     tusi_A : A ;  -- write
-    tutime_N : N ;  -- lazy
-    tutime_V : V ;  -- lazy
-    tutime_A : A ;  -- lazy
+    tusolo_N : N ;  -- ceremony
+    tusolo_V : V ;  -- ceremony
+    tusolo_A : A ;  -- ceremony
     tutin_N : N ;  -- soft
     tutin_V : V ;  -- soft
     tutin_A : A ;  -- soft
     tutoyi_N : N ;  -- strike (labour)
     tutoyi_V : V ;  -- strike (labour)
     tutoyi_A : A ;  -- strike (labour)
+    tuwufa_N : N ;  -- elbow
+    tuwufa_V : V ;  -- elbow
+    tuwufa_A : A ;  -- elbow
     tuyali_N : N ;  -- exceed, go beyond
     tuyali_V : V ;  -- exceed, go beyond
     tuyali_A : A ;  -- exceed, go beyond
     tuye_N : N ;  -- moon
     tuye_V : V ;  -- moon
     tuye_A : A ;  -- moon
-    tuyesu_N : N ;  -- mix
-    tuyesu_V : V ;  -- mix
-    tuyesu_A : A ;  -- mix
     tuyon_N : N ;  -- slipper
     tuyon_V : V ;  -- slipper
     tuyon_A : A ;  -- slipper
@@ -3887,15 +3902,9 @@ abstract Lex = {
     wamuse_N : N ;  -- stingy, mean with money
     wamuse_V : V ;  -- stingy, mean with money
     wamuse_A : A ;  -- stingy, mean with money
-    wanafo_N : N ;  -- ceremony
-    wanafo_V : V ;  -- ceremony
-    wanafo_A : A ;  -- ceremony
     wanan_N : N ;  -- rest, take a break
     wanan_V : V ;  -- rest, take a break
     wanan_A : A ;  -- rest, take a break
-    wanbo_N : N ;  -- butterfly
-    wanbo_V : V ;  -- butterfly
-    wanbo_A : A ;  -- butterfly
     wane_N : N ;  -- south
     wane_V : V ;  -- south
     wane_A : A ;  -- south
@@ -4016,9 +4025,6 @@ abstract Lex = {
     wisa_N : N ;  -- ear
     wisa_V : V ;  -- ear
     wisa_A : A ;  -- ear
-    wisaya_N : N ;  -- access
-    wisaya_V : V ;  -- access
-    wisaya_A : A ;  -- access
     wisiwe_N : N ;  -- describe
     wisiwe_V : V ;  -- describe
     wisiwe_A : A ;  -- describe
@@ -4082,6 +4088,9 @@ abstract Lex = {
     wudan_N : N ;  -- comment
     wudan_V : V ;  -- comment
     wudan_A : A ;  -- comment
+    wufali_N : N ;  -- tree trunk
+    wufali_V : V ;  -- tree trunk
+    wufali_A : A ;  -- tree trunk
     wufon_N : N ;  -- election
     wufon_V : V ;  -- election
     wufon_A : A ;  -- election
@@ -4160,9 +4169,6 @@ abstract Lex = {
     wuten_N : N ;  -- full
     wuten_V : V ;  -- full
     wuten_A : A ;  -- full
-    wutewi_N : N ;  -- host (who receives guests)
-    wutewi_V : V ;  -- host (who receives guests)
-    wutewi_A : A ;  -- host (who receives guests)
     wuto_N : N ;  -- stay
     wuto_V : V ;  -- stay
     wuto_A : A ;  -- stay
@@ -4175,18 +4181,15 @@ abstract Lex = {
     wuye_N : N ;  -- show
     wuye_V : V ;  -- show
     wuye_A : A ;  -- show
-    wuyiwu_N : N ;  -- naked
-    wuyiwu_V : V ;  -- naked
-    wuyiwu_A : A ;  -- naked
     wuyume_N : N ;  -- guarantee
     wuyume_V : V ;  -- guarantee
     wuyume_A : A ;  -- guarantee
-    yadaka_N : N ;  -- crawl
-    yadaka_V : V ;  -- crawl
-    yadaka_A : A ;  -- crawl
     yadidi_N : N ;  -- put out, extinguish (a fire)
     yadidi_V : V ;  -- put out, extinguish (a fire)
     yadidi_A : A ;  -- put out, extinguish (a fire)
+    yafaka_N : N ;  -- farm
+    yafaka_V : V ;  -- farm
+    yafaka_A : A ;  -- farm
     yafumu_N : N ;  -- import
     yafumu_V : V ;  -- import
     yafumu_A : A ;  -- import
@@ -4196,9 +4199,6 @@ abstract Lex = {
     yaga_N : N ;  -- put
     yaga_V : V ;  -- put
     yaga_A : A ;  -- put
-    yakifo_N : N ;  -- glass, the material
-    yakifo_V : V ;  -- glass, the material
-    yakifo_A : A ;  -- glass, the material
     yakin_N : N ;  -- forget
     yakin_V : V ;  -- forget
     yakin_A : A ;  -- forget
@@ -4208,9 +4208,6 @@ abstract Lex = {
     yalen_N : N ;  -- thirst
     yalen_V : V ;  -- thirst
     yalen_A : A ;  -- thirst
-    yameye_N : N ;  -- flute
-    yameye_V : V ;  -- flute
-    yameye_A : A ;  -- flute
     yami_N : N ;  -- night
     yami_V : V ;  -- night
     yami_A : A ;  -- night
@@ -4262,6 +4259,9 @@ abstract Lex = {
     yaye_N : N ;  -- sky
     yaye_V : V ;  -- sky
     yaye_A : A ;  -- sky
+    yayesi_N : N ;  -- hoe
+    yayesi_V : V ;  -- hoe
+    yayesi_A : A ;  -- hoe
     yayuge_N : N ;  -- match, matchstick
     yayuge_V : V ;  -- match, matchstick
     yayuge_A : A ;  -- match, matchstick
@@ -4319,6 +4319,9 @@ abstract Lex = {
     yete_N : N ;  -- feather
     yete_V : V ;  -- feather
     yete_A : A ;  -- feather
+    yetewo_N : N ;  -- edit
+    yetewo_V : V ;  -- edit
+    yetewo_A : A ;  -- edit
     yetun_N : N ;  -- doubt
     yetun_V : V ;  -- doubt
     yetun_A : A ;  -- doubt
@@ -4328,15 +4331,9 @@ abstract Lex = {
     yewen_N : N ;  -- century
     yewen_V : V ;  -- century
     yewen_A : A ;  -- century
-    yewiya_N : N ;  -- shield
-    yewiya_V : V ;  -- shield
-    yewiya_A : A ;  -- shield
     yeyan_N : N ;  -- smile
     yeyan_V : V ;  -- smile
     yeyan_A : A ;  -- smile
-    yeyoto_N : N ;  -- freeze, become ice
-    yeyoto_V : V ;  -- freeze, become ice
-    yeyoto_A : A ;  -- freeze, become ice
     yeyu_N : N ;  -- company
     yeyu_V : V ;  -- company
     yeyu_A : A ;  -- company
@@ -4352,6 +4349,9 @@ abstract Lex = {
     yidumi_N : N ;  -- arrow
     yidumi_V : V ;  -- arrow
     yidumi_A : A ;  -- arrow
+    yifofu_N : N ;  -- firewood
+    yifofu_V : V ;  -- firewood
+    yifofu_A : A ;  -- firewood
     yikan_N : N ;  -- seed
     yikan_V : V ;  -- seed
     yikan_A : A ;  -- seed
@@ -4406,6 +4406,9 @@ abstract Lex = {
     yinya_N : N ;  -- broom
     yinya_V : V ;  -- broom
     yinya_A : A ;  -- broom
+    yipiwi_N : N ;  -- freeze, become ice
+    yipiwi_V : V ;  -- freeze, become ice
+    yipiwi_A : A ;  -- freeze, become ice
     yisen_N : N ;  -- fool
     yisen_V : V ;  -- fool
     yisen_A : A ;  -- fool
@@ -4424,12 +4427,12 @@ abstract Lex = {
     yiyin_N : N ;  -- win
     yiyin_V : V ;  -- win
     yiyin_A : A ;  -- win
+    yiyuse_N : N ;  -- lazy
+    yiyuse_V : V ;  -- lazy
+    yiyuse_A : A ;  -- lazy
     yobe_N : N ;  -- fast, quick
     yobe_V : V ;  -- fast, quick
     yobe_A : A ;  -- fast, quick
-    yodowi_N : N ;  -- fever
-    yodowi_V : V ;  -- fever
-    yodowi_A : A ;  -- fever
     yodun_N : N ;  -- late, after the expected time
     yodun_V : V ;  -- late, after the expected time
     yodun_A : A ;  -- late, after the expected time
@@ -4559,9 +4562,6 @@ abstract Lex = {
     yunye_N : N ;  -- solve
     yunye_V : V ;  -- solve
     yunye_A : A ;  -- solve
-    yuseme_N : N ;  -- spin (thread)
-    yuseme_V : V ;  -- spin (thread)
-    yuseme_A : A ;  -- spin (thread)
     yusi_N : N ;  -- face
     yusi_V : V ;  -- face
     yusi_A : A ;  -- face

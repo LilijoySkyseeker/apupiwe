@@ -35,7 +35,7 @@ Triaged 2026-11-19: every item of the October queue is done (design log) or move
 1. ~~Outside review~~ done 2026-11-19 (`research/reviews/codex-2026-11/`); its design questions are being decided (RESPONSE.md). Was: **Outside review** of the design and the final forms by a non-Claude model (Codex), cold (process risk 1 of the unknown-unknowns review; the October plan for "a non-Claude model for one month").
 2. **Regression test on today's forms.** Words changed heavily since the last translation tests (October): blind translation and back-translation by fresh agents, one Claude and one Codex, on the test texts; include short answers after negative questions (**feko**, 4.8.6) and the standard UI button set (Yes / No / OK / Cancel / Back / Next / Undo). Also a fresh agent writing Apupiwe from the docs alone, to find where the docs fail (process risk 3).
 3. ~~Record the phrases already decided~~ done 2026-11-19 (design log).
-4. ~~Senses the concept walk flagged as uncovered~~ and 5. ~~symbol names~~ done 2026-11-19 by the ladders (`tests/ladder-02/`). Next: apply the pronoun rule (a) and the word-plus-grammar-word rule (design log 2026-11-19), then the regression test (2).
+4. ~~Senses the concept walk flagged as uncovered~~ and 5. ~~symbol names~~ done 2026-11-19 by the ladders (`tests/ladder-02/`). The pronoun rule and rule J applied 2026-11-19 (`tests/placement-08/`). Next: the regression test (2).
 
 ### Website: frozen at v1 (author, 2026-10-13)
 

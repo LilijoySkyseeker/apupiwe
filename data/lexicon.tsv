@@ -37,7 +37,7 @@ month	time	2	dunan
 star	nature	2	segin
 rain	nature	3	gegi
 wind	nature	2	nensan
-tree	nature	3	gala
+tree	nature	3	toda
 leaf	nature	1	kusisa
 wood, the material	nature	2	kima
 sea	nature	2	onyan
@@ -140,8 +140,8 @@ black	color	2	tago
 white	color	2	pinda
 red	color	2	wiwi
 green	color	1	motone
-yellow	color	1	bilun
-blue	color	1	nutano
+yellow	color	1	dikoba
+blue	color	1	senesu
 think	mind	5	pume
 know	mind	5	loya
 want	mind	5	momu
@@ -250,7 +250,7 @@ peace	abstract	1	bonwi
 game	abstract	2	bufe
 power, control	abstract	2	senya
 magic	abstract	2	wase
-god	abstract	1	dakuwu
+god	abstract	1	nubige
 today	time	4	mefa
 tomorrow	time	4	wuma
 yesterday	time	3	afe
@@ -258,7 +258,7 @@ now	time	5	eda
 become	action	4	lewe
 face	body	3	yusi
 apologise	sense	3	mosu
-again	time	3	moti
+again	time	3	osin
 teach	mind	3	wiwa
 lead, guide	action	2	wungu
 dream	mind	2	sinun
@@ -266,7 +266,7 @@ dark	quality	2	buda
 wall	thing	2	senmo
 calm	mind	2	tesin
 free, not held or controlled	quality	2	enpa
-glass, the material	thing	1	yakifo
+glass, the material	thing	1	lodale
 answer	sense	3	febo
 system	thing	3	yile
 offend	mind	2	dimen
@@ -301,7 +301,7 @@ send	action	3	pofi
 end	time	3	fugi
 allow	action	3	efon
 sibling	people	3	faba
-spouse	people	3	ofin
+spouse	people	3	toti
 arm	body	3	inyi
 north	space	3	soto
 south	space	3	wane
@@ -543,7 +543,7 @@ pillow	thing	2	fegen
 doctor	loan	4	dokutolu
 monkey	animal	2	tewin
 elephant	animal	2	kansa
-butterfly	animal	2	wanbo
+butterfly	animal	2	bindi
 lion	animal	2	kopon
 frog	animal	2	solen
 train	thing	3	memo
@@ -588,7 +588,7 @@ glasses, spectacles	thing	2	kuman
 fork	thing	2	tawon
 hammer	thing	2	sendi
 shop	space	2	wonga
-school	space	4	ode
+school	space	4	bote
 swing (playground seat)	thing	2	punte
 helicopter	loan	2	elikoputelu
 tractor	loan	2	tulakutalu
@@ -700,7 +700,7 @@ maize	nature	2	tinyun
 film	thing	3	wabi
 fox	animal	2	tanye
 toast	loan	2	tosutu
-balcony	loan	2	balukon
+balcony	loan	2	balukoni
 carpet	thing	2	nenwin
 gas station	space	2	dundo
 yard, courtyard	thing	2	intan
@@ -719,7 +719,7 @@ music	abstract	3	dali
 history	abstract	3	fafo
 team	people	3	puse
 company	abstract	4	yeyu
-different	quality	4	bago
+different	quality	4	dala
 king	people	4	uga
 hospital	body	3	kandi
 state, polity	people	4	yute
@@ -877,7 +877,7 @@ slave	people	2	minlan
 notice, become aware of	sense	2	wenfun
 alone	quality	3	lonun
 announce	sense	2	tinpa
-spring (water source)	nature	1	tiwuye
+spring (water source)	nature	1	peyuka
 project	abstract	3	idon
 vehicle	thing	2	mantin
 article (a written piece)	sense	2	yunfen
@@ -921,7 +921,7 @@ magazine	thing	2	sanyon
 captain	loan	2	kaputan
 luck	abstract	2	yungan
 stage, phase	abstract	2	gingun
-stage (theatre platform)	abstract	1	likafe
+stage (theatre platform)	abstract	1	dagufu
 honey	thing	2	sanse
 react	action	2	yinpon
 size	size	2	poden
@@ -972,7 +972,7 @@ tax	abstract	2	mewan
 philosophy	abstract	1	sinoki
 course (of study)	people	2	bannen
 original	quality	2	kunben
-matter, affair, issue	abstract	3	bidin
+matter, affair, issue	abstract	3	nuse
 master, lord	people	3	yanma
 content (what is inside)	abstract	2	ginfin
 profit	abstract	2	sanwu
@@ -994,7 +994,7 @@ spirit (a being)	abstract	3	puwon
 joke	sense	2	bunwan
 fund (money set aside)	abstract	2	antun
 view, scenery, perspective	sense	2	nenyun
-desert	nature	1	iseka
+desert	nature	1	tagido
 skill	mind	2	pinlon
 pound (the currency)	loan	1	pawundu
 cigarette	loan	1	sigaletu
@@ -1033,7 +1033,7 @@ wound, injury	body	2	tonsan
 muscle	body	1	sotese
 pure	quality	2	senyen
 gas (state of matter; fuel gas)	loan	2	gasu
-tense, strained, nervous	mind	1	ayaya
+tense, strained, nervous	mind	1	kapebi
 supply	action	2	lanfon
 bow, bend the body	action	1	fafuyi
 bow (the weapon)	thing	1	nuyosi
@@ -1055,7 +1055,7 @@ novel (a long story)	abstract	2	sonno
 poem	abstract	1	dofemi
 nurse	people	1	natefa
 engine, motor	thing	1	tebuwa
-rose	nature	1	meyeti
+rose	nature	1	dugebi
 wise	mind	2	wenyin
 coin	abstract	1	wuwayi
 guest	people	2	ansen
@@ -1066,8 +1066,8 @@ patient, enduring	mind	2	lokon
 worry	mind	3	tito
 material, substance	thing	2	disin
 traffic	thing	1	gewobu
-consciousness	mind	1	fepoka
-protest	action	1	fuseno
+consciousness	mind	1	timika
+protest	action	1	selotu
 contribute	action	1	papayo
 publish	sense	1	fatofu
 poor	quality	2	nenun
@@ -1083,11 +1083,11 @@ guarantee	sense	1	wuyume
 terrorism	people	1	wiwigo
 airport	thing	2	bugun
 exchange	action	2	lenlun
-nerve	body	1	fanoyu
-virgin	body	1	mofawu
+nerve	body	1	idiki
+virgin	body	1	ateke
 busy	quality	1	fifetu
 hole	space	2	dunyen
-board, plank	thing	1	tamufo
+board, plank	thing	1	gopoyu
 punish	action	2	kenwon
 cross, go across	motion	2	wunde
 civilization	people	1	kuyata
@@ -1108,14 +1108,14 @@ essay	sense	1	tuposa
 introduce	sense	1	usigi
 spy	people	1	fimumo
 positive	quality	2	fongin
-fever	body	1	yodowi
+fever	body	1	sekawa
 rape	people	1	sidako
 wave (of water; wave a hand)	nature	2	kenfan
 damage	action	2	tonfe
 wheel	thing	1	talowi
 reward	abstract	1	poyodi
 border	space	2	golun
-poison	body	1	nabaye
+poison	body	1	sesifu
 symptom	body	1	yilowo
 loan (money lent)	abstract	1	duwawa
 reference	sense	1	pupisi
@@ -1133,9 +1133,9 @@ mission	abstract	1	mowoyo
 trick, deceive	action	1	fisusa
 lawyer	people	3	naba
 appear	motion	3	manwu
-steel	nature	1	tekita
-farm	abstract	1	minufe
-essence, gist	abstract	1	komowu
+steel	nature	1	memewo
+farm	abstract	1	yafaka
+essence, gist	abstract	1	fudogu
 tower	space	1	tisiyo
 strike (labour)	abstract	1	tutoyi
 tip, gratuity	abstract	1	tenayo
@@ -1144,24 +1144,24 @@ servant	people	2	banfe
 lover, partner in love	people	1	wikene
 surgery	body	1	potiwa
 gene	loan	1	geni
-forehead	body	1	netiti
+forehead	body	1	kagupo
 behave	action	1	memabi
 evil spirit, demon, devil	abstract	2	fisen
 majority	abstract	2	sedan
 average	number	2	fonton
 treasure	abstract	1	dutitu
-flood	nature	1	disewu
+flood	nature	1	seseni
 former, ex-	quality	2	pendin
 vegetable	nature	1	gofafi
 continent	space	1	gukema
 extreme	quality	1	letime
-diamond	nature	1	lotata
+diamond	nature	1	sofiki
 presence	abstract	1	fegunu
 heaven, paradise	abstract	2	dafen
-shield	thing	1	yewiya
-edition	sense	1	felefo
+shield	thing	1	diwiwu
+edition	sense	1	banafo
 menstruation	body	1	tefole
-balance	abstract	1	nesifo
+balance	abstract	1	iledu
 pilot	people	1	dibesi
 corpse, dead body	body	2	dinmun
 sword	thing	2	tenbun
@@ -1177,8 +1177,8 @@ sum, total	number	2	nayon
 layer	space	1	sinidi
 app, software application	thing	2	wenlon
 application, formal request	sense	2	nonten
-bless, blessing	action	1	etasu
-missile	thing	1	fusuyu
+bless, blessing	action	1	ewemu
+missile	thing	1	siyute
 broadcast	thing	1	folunu
 factor	abstract	1	fegaye
 pole, post	thing	1	soduwo
@@ -1187,11 +1187,11 @@ corruption	people	1	fopako
 edge, rim	space	2	wonman
 dawn	time	1	sopuge
 believe; faith, belief	mind	3	yumi
-host (who receives guests)	people	1	wutewi
+host (who receives guests)	people	1	okola
 fashion	people	1	bogefu
 relationship	people	3	koku
 regular	quality	1	kifaso
-ceremony	people	1	wanafo
+ceremony	people	1	tusolo
 amount	number	3	wiyun
 place of worship (temple, widened)	abstract	1	dimatu
 grave	abstract	2	tinsi
@@ -1208,7 +1208,7 @@ plain, simple	quality	2	tulun
 plain (flat open land)	nature	1	wugonu
 credit	abstract	1	lebeto
 bar (place serving drinks)	loan	1	balu
-repeat	action	1	bukili
+repeat	action	1	busilo
 responsible	quality	3	mona
 manage	action	2	dense
 release, let go	action	2	tanlin
@@ -1221,11 +1221,11 @@ countryside	space	2	dinwi
 version	abstract	1	yewati
 describe	sense	1	wisiwe
 emergency	abstract	2	dinna
-reform	action	1	fatike
+reform	action	1	pasige
 insurance	abstract	1	tukute
 perfect	quality	3	sita
-joint (of the body)	body	1	siwita
-rate (speed, ratio, rate of pay)	number	1	teyupu
+joint (of the body)	body	1	seliyo
+rate (speed, ratio, rate of pay)	number	1	utayo
 mention	sense	2	sangan
 cinema	loan	1	sinema
 fence	thing	1	yonoso
@@ -1247,7 +1247,7 @@ tribe	people	1	dumofu
 aspect	abstract	2	finlen
 anniversary	time	1	mewone
 holiday	time	1	widadi
-spend	action	1	kawiwu
+spend	action	1	febabo
 complex	quality	2	mengon
 logic	mind	1	yiboge
 normal	quality	1	gasipu
@@ -1265,23 +1265,23 @@ platform	thing	1	lokusa
 lie, tell an untruth	sense	3	kude
 pulse	body	1	wayogu
 surface	space	1	usupa
-edit	action	1	kogeka
+edit	action	1	yetewo
 reputation	people	2	tansi
 certificate	people	1	diyeda
 trap	thing	1	wafope
 confess	sense	1	neyilo
 engineer	loan	1	inginiyalu
-instrument (musical)	thing	1	migiwi
+instrument (musical)	thing	1	tisuki
 shift (work shift)	abstract	1	nalemi
 atmosphere (air layer; mood)	nature	1	wusasu
 argument, dispute	sense	1	somasu
-access	abstract	1	wisaya
+access	abstract	1	sepepa
 victim	people	2	gonwen
 arrow	thing	1	yidumi
 offer	sense	3	wenma
 volunteer	people	1	fagamo
 coach	people	1	fusami
-frame	thing	1	bifowu
+frame	thing	1	koyema
 conclusion	abstract	2	nawun
 pollution	nature	1	nedose
 withdraw	motion	1	yonaki
@@ -1302,17 +1302,17 @@ success	abstract	2	mundun
 studio	loan	1	sutudiyo
 strict	quality	1	difudo
 shame	mind	2	fendu
-sensitive	quality	1	futaya
+sensitive	quality	1	sibuya
 schedule	time	1	wumemo
 satellite	thing	1	kotomo
 retire	action	1	abuki
 represent	action	1	yawalo
 reflection	sense	1	mipabo
 recognize	mind	1	sosiwu
-receipt	abstract	1	dafeka
+receipt	abstract	1	lebute
 prostitute	people	1	sofodu
 profile (online, personal)	loan	1	pulofilu
-priority	abstract	1	monato
+priority	abstract	1	ameto
 prevent	action	1	tipoku
 pipe	thing	1	tubenu
 pillar	thing	1	wafedo
@@ -1320,12 +1320,12 @@ piano	loan	1	piyano
 physics	abstract	1	kawafa
 permanent	quality	1	yatabu
 pearl	nature	1	lenadu
-organ (of the body)	body	1	ituke
+organ (of the body)	body	1	disafa
 native, indigenous	people	1	misuno
 mystery	abstract	1	sikomo
-moral, ethics	people	1	eyisu
+moral, ethics	people	1	tobiwi
 monster	abstract	1	foyufo
-mix	action	1	tuyesu
+mix	action	1	bibinu
 medal	loan	1	medala
 mask	loan	1	masuka
 moon	nature	4	tuye
@@ -1393,19 +1393,19 @@ participate, take part	action	1	wilopi
 characteristic, feature, trait	abstract	1	fowile
 obey	action	1	tuleki
 familiar, known	quality	1	loyamo
-heal, cure	action	1	pabito
-hate	mind	1	gugife
+heal, cure	action	1	danute
+hate	mind	1	pomubu
 cruel	quality	1	limowi
 descend, go down; land	motion	1	dayele
 chain	thing	1	timusi
 acquaintance, person one knows	people	1	bufoti
-bell	thing	1	nasebi
+bell	thing	1	gufuwa
 kind, kindness	quality	1	penasi
 nonsense	sense	1	enudo
 obstacle	thing	1	bayate
-fraud, cheating	action	1	fiyuwi
-achieve	action	1	gekidu
-summary	sense	1	mosuli
+fraud, cheating	action	1	menitu
+achieve	action	1	pofoso
+summary	sense	1	pawoma
 endure, bear, tolerate	mind	1	yukesa
 substitute, replacement	action	1	likusi
 ancestor	people	1	wumulu
@@ -1415,7 +1415,7 @@ cave	nature	1	napuwe
 inherit, inheritance	action	1	wigoso
 discrimination, unfair treatment of a group	people	1	dikeko
 attitude, stance	mind	1	gegule
-comfortable, at ease	quality	1	sitewe
+comfortable, at ease	quality	1	nufena
 depend (on), be conditional on	abstract	1	nayuso
 worthy, deserving	quality	1	pekawu
 well-being, welfare	abstract	1	fakeda
@@ -1427,55 +1427,55 @@ pattern, repeated design	abstract	1	dilibe
 revenge	action	1	leluna
 cliff, steep rock face	nature	1	migisa
 dew	nature	1	fonuse
-firewood	nature	1	siduyu
+firewood	nature	1	yifofu
 nest	animal	1	padufe
-eagle, large bird of prey	animal	1	lefuya
-crow, raven	animal	1	nubibo
+eagle, large bird of prey	animal	1	soyemi
+crow, raven	animal	1	gafife
 scale (of fish or snake)	animal	1	gobopa
-flea	animal	1	sofiti
+flea	animal	1	fadepa
 wasp	animal	1	dotubi
-lizard	animal	1	soliwi
+lizard	animal	1	mepoka
 beard	body	1	alumo
 jaw	body	1	dinino
 snot, nasal mucus	body	1	gusala
-beak	body	1	tituya
-elbow	body	1	sipisu
+beak	body	1	boyipe
+elbow	body	1	tuwufa
 thigh	body	1	emaga
 heel	body	1	nakoku
 kidney	body	1	fugigo
 waist	body	1	tatinu
 hip	body	1	yuduku
 hiccup	action	1	fomefi
-bury	action	1	siloya
+bury	action	1	gubudu
 itch	body	1	gememi
 pus	body	1	kugawe
-lazy	quality	1	tutime
-naked	quality	1	wuyiwu
+lazy	quality	1	yiyuse
+naked	quality	1	libafe
 roast (cook over a fire or in dry heat)	action	1	dasosi
 peel	action	1	leyoyi
 sieve, strain	action	1	sifada
 knead	action	1	neyafu
-mortar (for pounding)	thing	1	siwelu
+mortar (for pounding)	thing	1	bawisi
 leather	thing	1	nuyuta
 weave	action	1	losoma
 sew	action	1	mogufi
 bead	thing	1	fifige
 plant, sow (put seeds or plants in the ground)	action	1	putaki
 mushroom	nature	1	mifigu
-axe	thing	1	mowasu
+axe	thing	1	setuwi
 rub	action	1	puwoko
 clay	nature	1	kowumi
 wrap	action	1	bufefa
 sink (go under water)	motion	1	gumewe
 float	motion	1	yufule
-crawl	motion	1	yadaka
+crawl	motion	1	febosi
 stingy, mean with money	quality	1	wamuse
 hook	thing	1	kilesa
 whistle	sense	1	epise
 scold	sense	1	sisuma
 drum	thing	1	tinonu
 tick	animal	1	leyewa
-freeze, become ice	action	1	yeyoto
+freeze, become ice	action	1	yipiwi
 swamp, marsh, wet ground	nature	1	bomala
 rainbow	nature	1	yumuya
 orphan, a child whose parents have died	people	1	yemuku
@@ -1492,24 +1492,24 @@ jug, water jar	thing	1	dowuna
 shelf	thing	1	loludi
 brick	thing	1	danima
 plough	action	1	beyasa
-hoe	nature	1	goyuyu
+hoe	nature	1	yayesi
 gourd, calabash, pumpkin, squash	nature	1	tagani
 nail (metal fastener)	thing	1	soyabo
-roll	motion	1	bayiga
+roll	motion	1	miligi
 lend	action	1	panuya
 borrow	action	1	miyoga
 greedy	quality	1	fitune
-flute	thing	1	yameye
+flute	thing	1	fetaki
 foam, froth	nature	1	kasalu
 vulture	animal	1	kusuni
 gnat, midge, sandfly	animal	1	nunole
 spleen	body	1	aladi
 boil, abscess (on the skin)	body	1	nusese
-lame, limping	body	1	fesati
-spin (thread)	action	1	yuseme
+lame, limping	body	1	dukife
+spin (thread)	action	1	dagepo
 spindle	thing	1	lepofo
-tree trunk	nature	1	kafewe
-palm (the tree)	nature	1	mimewu
+tree trunk	nature	1	wufali
+palm (the tree)	nature	1	sokewo
 bore, drill	action	1	liweli
 hollow out	action	1	tasumo
 mould	action	1	yutote
@@ -1524,20 +1524,20 @@ well, dug water source	space	2	sanwen
 put out, extinguish (a fire)	action	1	yadidi
 hawk (smaller bird of prey)	animal	1	tumeya
 shiver, tremble	body	1	umide
-bake (in an oven or on hot ashes)	action	1	nutuba
+bake (in an oven or on hot ashes)	action	1	gewipa
 scrape	action	1	gunago
 milk (an animal)	action	2	engan
-button (on clothes; also a push-button)	thing	1	buguye
+button (on clothes; also a push-button)	thing	1	koyuga
 floor (the surface walked on)	thing	2	ninban
 pound (in a mortar)	action	1	yilale
 mat (woven, for sitting or sleeping)	thing	1	waniki
 twist, wring	action	1	yufeyu
 chase, pursue	motion	1	nugaya
-dare	mind	1	negawi
+dare	mind	1	mosetu
 murder (kill on purpose, unlawfully)	action	1	osayi
 parrot	animal	1	tewoso
 cockroach	animal	1	molawe
-pepper (the spice)	thing	1	sosope
+pepper (the spice)	thing	1	duteka
 cotton (plant and cloth)	nature	1	newupi
 candle	thing	1	ligemu
 tobacco	loan	1	tabaku
@@ -1547,7 +1547,7 @@ steam	nature	1	fufoma
 swallow (food, drink)	action	1	gakabe
 flour	thing	1	fedina
 harvest	action	1	mekega
-bend	action	1	losidu
+bend	action	1	nukono
 fold	action	1	bapuma
 stretch	action	1	yinifu
 hang, hang up	action	1	witowa
@@ -1558,7 +1558,7 @@ planet	nature	2	wensin
 temperature	nature	2	munya
 oxygen	loan	1	okusigen
 mass (physical quantity)	nature	1	kinebe
-useless	quality	1	sewubo
+useless	quality	1	patetu
 export	action	1	ayomi
 import	action	1	yafumu
 earthquake	nature	1	gakodo

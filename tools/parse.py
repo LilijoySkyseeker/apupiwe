@@ -7,7 +7,7 @@ units (relation phrases, relative clauses, clauses, calls, stance) begin and end
 one reading under the pause rules (4.6).
 
   python parse.py               # every example in spec/reference.toml: no parse / several readings
-  python parse.py "to min unfu"   # one sentence and its readings
+  python parse.py "wan min unfu"   # one sentence and its readings
   python parse.py --file F      # every sentence in a text (headings and {.attr} lines skipped)
 
 Needs lark: nix-shell -p 'python3.withPackages(ps: [ps.lark])'
@@ -59,13 +59,13 @@ det: DET | "mesun" | "yu" | "kin" | "nen"
 fragment: np | date | predicate | relp | subcl | "pi" np | stance | clop+ clause? | actp clause?
 ACT: "bi" | "lo" | "ti" | "fon" | "du" | "yo"
 SOURCE: "wanme" | "inwun" | "wemen"
-JOIN: "nun" | "lu" | "won"
+JOIN: "nun" | "lu" | "fen"
 SUBLINK: "sin" | "pu" | "kon" | "ya" | "bo"
 REL: "anko" | "nuwen" | "no" | "len" | "don" | "nan" | "fan" | "ya" | "kon" | "fun" | "pu"
 PHOP: "konsin" | "nedin" | "tason"
-DET: "la" | "yin" | "fin" | "we" | "fe" | "ye" | "pa"
-PRON: "to" | "sen" | "kan" | "din" | "mon" | "tun" | "son" | "dan" | "nen" | "bun"
-DERIV: "win" | "gen" | "wa" | "ban"
+DET: "la" | "yin" | "fin" | "we" | "fe" | "ye" | "din"
+PRON: "wan" | "ba" | "kan" | "ta" | "mon" | "tun" | "son" | "dan" | "nen" | "bun"
+DERIV: "win" | "gen" | "to" | "sen"
 C: "C"
 N: "N"
 NAME: "NAME"
@@ -154,7 +154,7 @@ def readings(tree):
     trees = lark.visitors.CollapseAmbiguities().transform(tree)
     sigs = {signature(t) for t in trees[:5000]}
     # 4.6: a pause before the verb only after a subject holding a clause or a phrasal derived word
-    sigs = {sg for sg in sigs if all("relcl[" in h or re.match(r"(win|gen|wa|ban) ", h)
+    sigs = {sg for sg in sigs if all("relcl[" in h or re.match(r"(win|gen|to|sen) ", h)
                                      for h in re.findall(r"heavy\[([^]]*)", sg))}
     # 4.6: a pause between a recipient and a long object (here: more than one word)
     sigs = {sg for sg in sigs if all(len(o.split()) > 1 for o in re.findall(r"longobj\[([^]]*)", sg))}
