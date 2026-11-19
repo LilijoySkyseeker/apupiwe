@@ -48,7 +48,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     CN = {s : Str ; e : End ; p : Bool ; tm, ba, w1 : Bool} ;   -- w1: a single bare root
       -- tm: a time phrase (4.4.1, 8.2); ba: headed by an action root, so gun + it is the undergoer's state (4.7.4)
     NP, NPi, NPq = {s : Str ; e : End ; p : Bool ; tm, ba, dt, ns, hn, cnt, rs : Bool} ;
-      -- rs: a bare root + a determiner or number that could stand alone: after muge, a result + object (4.2.7)
+      -- rs: a bare root + a determiner or number that could stand alone: after tula, a result + object (4.2.7)
       -- dt: a determiner standing alone (5.2.8); ns: starts with a number; hn: headed by a noun or pronoun (5.2.5);
       -- cnt: ends in a bare noun or a number, so a number right after it is its count (5.2.5, 9.2.1)
 
@@ -333,7 +333,7 @@ concrete ApupiweApu of Apupiwe = LexApu ** open Prelude in {
     Po = dg "mu" True False False ; Fi = dg "ni" False True True ; Sa = dg "sa" False False True ;
     Ka = dg "de" False False False ; Da = dg "wo" False False False ; Te = dg "ma" False False False ;
     Ufo = dg "ufo" False False False ; Oma = dg "oma" False False False ;
-    Kefi = dg "kefi" False False False ; Mape = dg "mape" False False False ;
+    Kefi = dg "pepe" False False False ; Mape = dg "tuli" False False False ;
     Units d = {s = d.s ; z = d.z ; one = d.one ; hr = notB d.z} ;
     Tens d = case d.z of {
       False => {s = tens d ; z = False ; one = False ; hr = d.one} ;

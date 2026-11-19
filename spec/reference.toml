@@ -316,9 +316,9 @@ type = "bullet"
 title = "What you mean picks the clear form"
 text = '''
 - For any content word, what you mean decides the clear form:
-  - for a state ("is big", "is closed"), use **gun** + word: **guyi gun kudu** "the house is big". A feeling named by an action word is said with the plain verb: **to nuta** "I'm afraid" (I fear);
-  - for an event ("walks", "is walking", "walked"), use the word as the verb, with an aspect word when precision matters: **ewo le niba** "the person is walking", **ewo manni niba** "the person (usually) walks", **ewo sin niba** "the person walked";
-  - for a description of a noun ("the person who walks", "the house that is big"), use **gi**: **ewo gi niba**, **guyi gi gun kudu**.'''
+  - for a state ("is big", "is closed"), use **gun** + word: **guyi gun tugu** "the house is big". A feeling named by an action word is said with the plain verb: **to nuta** "I'm afraid" (I fear);
+  - for an event ("walks", "is walking", "walked"), use the word as the verb, with an aspect word when precision matters: **ewo le tedo** "the person is walking", **ewo manni tedo** "the person (usually) walks", **ewo sin tedo** "the person walked";
+  - for a description of a noun ("the person who walks", "the house that is big"), use **gi**: **ewo gi tedo**, **guyi gi gun tugu**.'''
 
 [[item]]
 id = "4.2.2"
@@ -326,7 +326,7 @@ type = "bullet"
 title = "Bare noun + word"
 gap = 0
 text = '''
-- A bare noun followed by a word (**guyi kudu**, **ewo niba**) may be a description or a statement. Context decides, and the clear forms above remove any doubt.'''
+- A bare noun followed by a word (**guyi tugu**, **ewo tedo**) may be a description or a statement. Context decides, and the clear forms above remove any doubt.'''
 
 [[item]]
 id = "4.2.3"
@@ -334,7 +334,7 @@ type = "bullet"
 title = "Any content word can take any role by position"
 gap = 0
 text = '''
-- Any content word can take any role by its position. As an object, or with a derivation marker, it is a noun (**sepi** "apologise / an apology").'''
+- Any content word can take any role by its position. As an object, or with a derivation marker, it is a noun (**mosu** "apologise / an apology").'''
 
 [[item]]
 id = "4.2.4"
@@ -342,7 +342,7 @@ type = "bullet"
 title = "Manner"
 gap = 0
 text = '''
-- How something is done is said with **fun** "like", an ordinary relation phrase after the verb and its objects: **nawi pasu fun yobe** "eat food quickly". A bare word right after an object describes the object: **nawi pasu yobe** "eat fast food". With no object, a bare word right after the verb describes the action: **oyi fanse** "say calmly".'''
+- How something is done is said with **fun** "like", an ordinary relation phrase after the verb and its objects: **nawi pasu fun yobe** "eat food quickly". A bare word right after an object describes the object: **nawi pasu yobe** "eat fast food". With no object, a bare word right after the verb describes the action: **oyi tesin** "say calmly".'''
 
 [[item]]
 id = "4.2.5"
@@ -350,7 +350,7 @@ type = "bullet"
 title = "Two objects"
 gap = 0
 text = '''
-- With two objects, the recipient comes first and then the thing: **tofo nun nuta** "teach you fear".'''
+- With two objects, the recipient comes first and then the thing: **wiwa nun nuta** "teach you fear".'''
 
 [[item]]
 id = "4.2.6"
@@ -358,15 +358,15 @@ type = "bullet"
 title = "Verb + verb"
 gap = 0
 text = '''
-- When one verb follows another and the first takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second verb describes the first: **goyu pume** "sit thinking". Phrases and clauses after a second verb that is an object belong to it, the nearest verb: **momu isi tun guyi** "want to go home".'''
+- When one verb follows another and the first takes an object (want, try, need, must, can, start, stop, teach, see, like, help…), the second verb is that object: **walo alun** "try to break". Otherwise the second verb describes the first: **doyu pume** "sit thinking". Phrases and clauses after a second verb that is an object belong to it, the nearest verb: **momu isi tun guyi** "want to go home".'''
 
 [[item]]
 id = "4.2.7"
 type = "bullet"
-title = "muge"
+title = "tula"
 gap = 0
 text = '''
-- **muge** "do; make" followed by a result and then an object means "make (it) so": **muge upe win** "fix this". Followed by an object and then a **fun** phrase saying how, it means "do (it) so": **muge win fun upe** "do this well".'''
+- **tula** "do; make" followed by a result and then an object means "make (it) so": **tula upe win** "fix this". Followed by an object and then a **fun** phrase saying how, it means "do (it) so": **tula win fun upe** "do this well".'''
 
 [[item]]
 id = "4.2.8"
@@ -444,7 +444,7 @@ id = "4.4.1"
 type = "bullet"
 title = "A relation phrase"
 text = '''
-- A relation phrase (**mon**, **tun**, **se**, **nan**, **fan**, **ya**, **kon**, **fun**, **lin**, **bo** "because of", and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. A relation phrase right after a noun may instead describe that noun: **osa nan tanun tufun** "tea with lemon" (not after a pronoun, and not **fun**, which after an object says how). To be precise, use a relative clause for the noun (**osa gi ibe tanun tufun**, **sola gi gun mon bige pi yolan** "the road that is above the river") or put the phrase first for the verb (**nan tanun tufun, to koye osa**). In comparisons and quantities (9.3), **se**, **tun** and **fun** belong to their number or adjective. After a time, **kon** and **ya** belong to that time (8.2): **to isi mon wuma kon dili ni** "I go the day after tomorrow". **bo** with a noun phrase gives **bo yu** "why" and **bo win** "so" (because of this).'''
+- A relation phrase (**mon**, **tun**, **se**, **nan**, **fan**, **ya**, **kon**, **fun**, **lin**, **bo** "because of", and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. A relation phrase right after a noun may instead describe that noun: **osa nan tanun tufun** "tea with lemon" (not after a pronoun, and not **fun**, which after an object says how). To be precise, use a relative clause for the noun (**osa gi ibe tanun tufun**, **sola gi gun mon fide pi yolan** "the road that is above the river") or put the phrase first for the verb (**nan tanun tufun, to koye osa**). In comparisons and quantities (9.3), **se**, **tun** and **fun** belong to their number or adjective. After a time, **kon** and **ya** belong to that time (8.2): **to isi mon wuma kon dili ni** "I go the day after tomorrow". **bo** with a noun phrase gives **bo yu** "why" and **bo win** "so" (because of this).'''
 
 [[item]]
 id = "4.4.2"
@@ -476,7 +476,7 @@ type = "bullet"
 title = "Joining"
 gap = 0
 text = '''
-- **yen** "and", **lu** "or" and **ka** "but" join nouns, verbs, modifiers or clauses. Nouns in a list are joined with **yen**: **mole yen wede** "mother and father". **lu X lu Y** means "either X or Y, not both".'''
+- **yen** "and", **lu** "or" and **ka** "but" join nouns, verbs, modifiers or clauses. Nouns in a list are joined with **yen**: **mole yen sine** "mother and father". **lu X lu Y** means "either X or Y, not both".'''
 
 [[item]]
 id = "4.4.7"
@@ -484,7 +484,7 @@ type = "bullet"
 title = "Joined verbs"
 gap = 0
 text = '''
-- Verbs joined by **yen**, **lu** or **ka** are separate predicates. Operators and aspect words before one of them cover only that verb, and an object after the last verb belongs to it: **wan su nawi yen wopo** "she doesn't eat, and she sleeps"; **to nagu yen yidu bun** "I see (it) and take it".'''
+- Verbs joined by **yen**, **lu** or **ka** are separate predicates. Operators and aspect words before one of them cover only that verb, and an object after the last verb belongs to it: **wan su nawi yen fimo** "she doesn't eat, and she sleeps"; **to nagu yen yidu bun** "I see (it) and take it".'''
 
 [[item]]
 id = "4.4.6"
@@ -507,7 +507,7 @@ id = "4.5.1"
 type = "bullet"
 title = "Anything the listener can supply from context may be left out"
 text = '''
-- Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **muyi yu? moti?** "what time? again?"; **nagu nun la mon dili mena ufo.** "see you all Saturday".'''
+- Anything the listener can supply from context may be left out: the subject, the object, the object of a relation word or the verb. An answer or follow-up can be just the new part: **nufi yu? moti?** "what time? again?"; **nagu nun la mon dili mena ufo.** "see you all Saturday".'''
 
 [[item]]
 id = "4.5.2"
@@ -515,7 +515,7 @@ type = "bullet"
 title = "Exception"
 gap = 0
 text = '''
-- **gun** with no subject is "(it) is", like any verb with its subject left out: **gun nimo** "(it's) money". With **gun** left out too, a bare state is fine: **ten upe.** "very good." "There is" is **ibe** "have" with no subject (4.7).'''
+- **gun** with no subject is "(it) is", like any verb with its subject left out: **gun nasi** "(it's) money". With **gun** left out too, a bare state is fine: **ten upe.** "very good." "There is" is **ibe** "have" with no subject (4.7).'''
 
 [[item]]
 id = "4.5.3"
@@ -529,7 +529,7 @@ id = "4.5.4"
 type = "bullet"
 gap = 0
 text = '''
-- An action word with no object is read by its subject. A subject that can't act undergoes the action: **beya sin tapi** "the door closed", **ladon sin alun** "the cup broke". A subject that can act does it to something the context supplies: **fo mara sin ibe ladon. wan sin alun.** "Mara had a cup. She broke it." To be precise, say the object, or use **nen** "self".'''
+- An action word with no object is read by its subject. A subject that can't act undergoes the action: **beya sin tapi** "the door closed", **fileni sin alun** "the cup broke". A subject that can act does it to something the context supplies: **fo mara sin ibe fileni. wan sin alun.** "Mara had a cup. She broke it." To be precise, say the object, or use **nen** "self".'''
 
 [[item]]
 id = "4.6"
@@ -564,7 +564,7 @@ id = "4.6.4"
 type = "bullet"
 gap = 0
 text = '''
-- after a subject that contains a clause or a phrasal derived word, before its verb (**no sanwa gi … sin sege, keya unfu …**);'''
+- after a subject that contains a clause or a phrasal derived word, before its verb (**no sanwa gi … sin pofi, kifa unfu …**);'''
 
 [[item]]
 id = "4.6.5"
@@ -578,7 +578,7 @@ id = "4.6.6"
 type = "bullet"
 gap = 0
 text = '''
-- between clauses joined by **yen**, **lu** or **ka** when the first ends in a noun, and the same between joined verbs (4.4.7): **to nawi pasu, yen wopo** "I eat food, and sleep";'''
+- between clauses joined by **yen**, **lu** or **ka** when the first ends in a noun, and the same between joined verbs (4.4.7): **to nawi pasu, yen fimo** "I eat food, and sleep";'''
 
 [[item]]
 id = "4.6.7"
@@ -592,7 +592,7 @@ id = "4.6.8"
 type = "bullet"
 gap = 0
 text = '''
-- between a larger and a smaller calendar unit (**dunan mena yawu, dili mena mape**);'''
+- between a larger and a smaller calendar unit (**dunan mena yawu, dili mena tuli**);'''
 
 [[item]]
 id = "4.6.9"
@@ -620,7 +620,7 @@ id = "4.7.1"
 type = "bullet"
 title = "gun"
 text = '''
-- **gun** goes before a state: **guyi gun kudu** "the house is big". Without it, **guyi kudu** is normally read as "the big house".'''
+- **gun** goes before a state: **guyi gun tugu** "the house is big". Without it, **guyi tugu** is normally read as "the big house".'''
 
 [[item]]
 id = "4.7.2"
@@ -667,7 +667,7 @@ type = "bullet"
 title = "gun"
 gap = 0
 text = '''
-- "There is" is **ibe** "have" with no subject, and **ibe** with no subject always means "there is": **ibe pasu** "there's food", **su ibe pasu** "there's no food", **ka, ibe musu feli** "but there are many things", **don ibe pasu** "if there is food". To say someone has it, name them: **to ibe pasu** "I have food".'''
+- "There is" is **ibe** "have" with no subject, and **ibe** with no subject always means "there is": **ibe pasu** "there's food", **su ibe pasu** "there's no food", **ka, ibe yefi fefa** "but there are many things", **don ibe pasu** "if there is food". To say someone has it, name them: **to ibe pasu** "I have food".'''
 
 [[item]]
 id = "4.8"
@@ -698,7 +698,7 @@ type = "bullet"
 title = "Question words"
 gap = 0
 text = '''
-- Question words are built from **yu**: **yu** what; **ewo yu** who; **X yu** which X; **mon kemu yu** where; **mon muyi yu** when; **bo yu** why; **fun yu** how; **wifu yu** how many/much; **pi ewo yu** whose. **wifu yu** follows its noun the way a number does: **ewo wifu yu** "how many people".'''
+- Question words are built from **yu**: **yu** what; **ewo yu** who; **X yu** which X; **mon fela yu** where; **mon nufi yu** when; **bo yu** why; **fun yu** how; **wifu yu** how many/much; **pi ewo yu** whose. **wifu yu** follows its noun the way a number does: **ewo wifu yu** "how many people".'''
 
 [[item]]
 id = "4.8.4"
@@ -714,7 +714,7 @@ type = "bullet"
 title = "Indirect question"
 gap = 0
 text = '''
-- An indirect question starts its **wun** clause with **bi**, with or without a question word: **to su lugo wun bi wan obu** "I don't know whether she's coming", **to su lugo wun bi ewo yu obu** "I don't know who is coming". Without **bi**, a question word anywhere in the sentence makes the whole sentence a question: **nun momu wun to oyi yu** "you want me to say what?"'''
+- An indirect question starts its **wun** clause with **bi**, with or without a question word: **to su loya wun bi wan obu** "I don't know whether she's coming", **to su loya wun bi ewo yu obu** "I don't know who is coming". Without **bi**, a question word anywhere in the sentence makes the whole sentence a question: **nun momu wun to oyi yu** "you want me to say what?"'''
 
 [[item]]
 id = "4.8.6"
@@ -722,7 +722,7 @@ type = "bullet"
 title = "Answers echo the verb;"
 gap = 0
 text = '''
-- Answers echo the verb, since there are no words for yes and no: "Aren't you coming?" → **obu** / **su obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **kudu** / **su kudu**. The short answer is **feko** "true" or **su feko** "not true": it says whether the question's statement, exactly as asked, is true, so after a negative question **feko** agrees with the negative: **bi nun su obu** "aren't you coming?" → **feko** "right, I'm not". The echo is the precise answer. To acknowledge, **mm** says you heard, an echo says you understood, and **me** + verb says "will do". **ok** agrees to a proposal or instruction ("let's go" → **ok**) and doesn't answer a yes/no question.'''
+- Answers echo the verb, since there are no words for yes and no: "Aren't you coming?" → **obu** / **su obu**. A question with **gun** is answered by echoing what follows **gun**: "Is the house big?" → **tugu** / **su tugu**. The short answer is **feko** "true" or **su feko** "not true": it says whether the question's statement, exactly as asked, is true, so after a negative question **feko** agrees with the negative: **bi nun su obu** "aren't you coming?" → **feko** "right, I'm not". The echo is the precise answer. To acknowledge, **mm** says you heard, an echo says you understood, and **me** + verb says "will do". **ok** agrees to a proposal or instruction ("let's go" → **ok**) and doesn't answer a yes/no question.'''
 
 [[item]]
 id = "4.8.7"
@@ -752,7 +752,7 @@ text = '''
 id = "5.1.1"
 type = "para"
 text = '''
-A noun phrase runs in this order: noun, **fi** (5.2.12), content modifiers, number, **la**, determiner, **pi** phrase, relative clause, as in **guyi kudu sa la win pi fo mara gi …**. Titles and **lanno** come before the noun (10.1), and phrase operators come before the whole phrase (6.2).'''
+A noun phrase runs in this order: noun, **fi** (5.2.12), content modifiers, number, **la**, determiner, **pi** phrase, relative clause, as in **guyi tugu sa la win pi fo mara gi …**. Titles and **lanno** come before the noun (10.1), and phrase operators come before the whole phrase (6.2).'''
 
 [[item]]
 id = "5.2"
@@ -767,7 +767,7 @@ id = "5.2.1"
 type = "bullet"
 title = "Describing words"
 text = '''
-- Describing words follow the noun: **guyi kudu** "big house". For a clear description, use **gi** (5.3).'''
+- Describing words follow the noun: **guyi tugu** "big house". For a clear description, use **gi** (5.3).'''
 
 [[item]]
 id = "5.2.2"
@@ -783,7 +783,7 @@ type = "bullet"
 title = "A modifier of a modifier"
 gap = 0
 text = '''
-- Describing words after a noun each describe the noun: **to ibe demi wiwi buda** "I have a red, dark cloth". **tan** between two describing words makes the second describe the first: **to ibe demi wiwi tan buda** "I have a dark-red cloth". It joins only the word before it and the word after it, and works after **gun** too: **demi gun wiwi tan buda** "the cloth is dark red".'''
+- Describing words after a noun each describe the noun: **to ibe lipo wiwi buda** "I have a red, dark cloth". **tan** between two describing words makes the second describe the first: **to ibe lipo wiwi tan buda** "I have a dark-red cloth". It joins only the word before it and the word after it, and works after **gun** too: **lipo gun wiwi tan buda** "the cloth is dark red".'''
 
 [[item]]
 id = "5.2.12"
@@ -791,7 +791,7 @@ type = "bullet"
 title = "Endearment"
 gap = 0
 text = '''
-- **fi** right after a noun or a name adds affection, "dear little": **totu fi** "doggy", **fo mara fi** "dear Mara". It comes before the noun's describing words: **totu fi kudu** "the dear big dog". As a grammar word it also ends a name, so a content word can follow it with no pause: **fo mara fi obu** "dear Mara is coming".'''
+- **fi** right after a noun or a name adds affection, "dear little": **poka fi** "doggy", **fo mara fi** "dear Mara". It comes before the noun's describing words: **poka fi tugu** "the dear big dog". As a grammar word it also ends a name, so a content word can follow it with no pause: **fo mara fi obu** "dear Mara is coming".'''
 
 [[item]]
 id = "5.2.3"
@@ -815,7 +815,7 @@ type = "bullet"
 title = "Number"
 gap = 0
 text = '''
-- A noun followed by a number is a count (**dili oma** "seven days"). A noun + **mena** + number is a label (**kemin mena sa** "document 2"), and a label also gives a place in order: **gimu mena de** "the third time", **ewo mena ni** "the first person". "Last" is **pi fugi**, "of the end": **gimu pi fugi** "the last time". With a number before **pi** "of", the phrase is a part: **ni pi de** "one of three".'''
+- A noun followed by a number is a count (**dili oma** "seven days"). A noun + **mena** + number is a label (**pata mena sa** "document 2"), and a label also gives a place in order: **bifo mena de** "the third time", **ewo mena ni** "the first person". "Last" is **pi fugi**, "of the end": **bifo pi fugi** "the last time". With a number before **pi** "of", the phrase is a part: **ni pi de** "one of three".'''
 
 [[item]]
 id = "5.2.6"
@@ -839,7 +839,7 @@ type = "bullet"
 title = "Determiners"
 gap = 0
 text = '''
-- Determiners (table in section 13) and **mesun** "each" follow the noun: **guyi win** "this house", **ewo pa** "someone", **musu pa** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it. So when the thing given is a pronoun or a determiner standing alone, mark the recipient with **tun**, the normal form there: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **go** "some", **fen** "none". A part of a whole is a determiner or number + **pi** + noun: **kin pi foto la** "some of the photos".'''
+- Determiners (table in section 13) and **mesun** "each" follow the noun: **guyi win** "this house", **ewo pa** "someone", **yefi pa** "something", **pu nume mesun** "each home". A determiner right after a noun or pronoun belongs to it. So when the thing given is a pronoun or a determiner standing alone, mark the recipient with **tun**, the normal form there: **to iko ben tun wan** "I told that to him" (**to iko wan ben** is "I told that-him"). A determiner may stand alone as a noun phrase: **we** "all", **go** "some", **fen** "none". A part of a whole is a determiner or number + **pi** + noun: **kin pi silu la** "some of the photos".'''
 
 [[item]]
 id = "5.2.9"
@@ -847,7 +847,7 @@ type = "bullet"
 title = "pi"
 gap = 0
 text = '''
-- **pi** "of" links a noun to a noun: **guyi pi fo mara** "Mara's house". Each **pi** attaches to the nearest noun before it, and its phrase is the nearest single noun after it, so a list joined by **yen** or **lu** is outside it: **enpa pi pume yen lite pi nosen** is "freedom of thought, and religion". To cover every item, repeat the head: **enpa pi pume yen enpa pi lite pi nosen** "freedom of thought and freedom of religion".'''
+- **pi** "of" links a noun to a noun: **guyi pi fo mara** "Mara's house". Each **pi** attaches to the nearest noun before it, and its phrase is the nearest single noun after it, so a list joined by **yen** or **lu** is outside it: **enpa pi pume yen lite pi dakuwu** is "freedom of thought, and religion". To cover every item, repeat the head: **enpa pi pume yen enpa pi lite pi dakuwu** "freedom of thought and freedom of religion".'''
 
 [[item]]
 id = "5.2.10"
@@ -877,35 +877,35 @@ id = "5.3.2"
 type = "bullet"
 gap = 0
 text = '''
-- subject: **ewo gi niba** "the person who walks";'''
+- subject: **ewo gi tedo** "the person who walks";'''
 
 [[item]]
 id = "5.3.3"
 type = "bullet"
 gap = 0
 text = '''
-- object: **mabo gi nun la yaga** "the papers you put";'''
+- object: **natun gi nun la yaga** "the papers you put";'''
 
 [[item]]
 id = "5.3.4"
 type = "bullet"
 gap = 0
 text = '''
-- place or time, with the relation word at the end of the clause: **kemu gi to nume mon** "the place where I live". The precise form keeps a pronoun after the relation word: **kemu gi to nume mon bun** "the place I live in (it)";'''
+- place or time, with the relation word at the end of the clause: **fela gi to nume mon** "the place where I live". The precise form keeps a pronoun after the relation word: **fela gi to nume mon bun** "the place I live in (it)";'''
 
 [[item]]
 id = "5.3.6"
 type = "bullet"
 gap = 0
 text = '''
-- any other relation, the same way: **yetu gi to fonsu nan** "the tool I cut with";'''
+- any other relation, the same way: **wonnun gi to fonsu nan** "the tool I cut with";'''
 
 [[item]]
 id = "5.3.7"
 type = "bullet"
 gap = 0
 text = '''
-- "whose", with **pi** + the pronoun that fits the noun (**pi wan**, **pi bun**, **pi wan la**) inside the clause pointing back to it: **ewo gi guyi pi wan gun kudu** "the person whose house is big", **guyi gi beya pi bun gun tapi** "the house whose door is closed".'''
+- "whose", with **pi** + the pronoun that fits the noun (**pi wan**, **pi bun**, **pi wan la**) inside the clause pointing back to it: **ewo gi guyi pi wan gun tugu** "the person whose house is big", **guyi gi beya pi bun gun tapi** "the house whose door is closed".'''
 
 [[item]]
 id = "5.3.8"
@@ -942,7 +942,7 @@ text = '''
 | **no** | the one who does it | **no febo** "one who answers" |
 | **gen** | the thing done or made | **gen iko** "what is told" = news |
 | **du** | the thing used | **du bubo** "thing for laughing" = a joke |
-| **pu** | the place | **pu niba** "place for walking" = a path |'''
+| **pu** | the place | **pu tedo** "place for walking" = a path |'''
 
 [[item]]
 id = "5.4.3"
@@ -955,21 +955,21 @@ id = "5.4.4"
 type = "bullet"
 gap = 0
 text = '''
-- The base may be a verb phrase: **no isi se guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyo** separates it from a following verb or describing word: **du siten mawun** "a pan" (a thing for cooking flat), **du siten mawun kiyo tikun** "a hot pan"; without **kiyo**, **tikun** would join the phrase inside. It also ends before a name (**fo** …) or a gender word (**futa**, **lowu**), so **no tofo fo mara** is "Teacher Mara" and **no wungu futa** "the leader, a woman".'''
+- The base may be a verb phrase: **no isi se guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyo** separates it from a following verb or describing word: **du siten sokun** "a pan" (a thing for cooking flat), **du siten sokun kiyo tikun** "a hot pan"; without **kiyo**, **tikun** would join the phrase inside. It also ends before a name (**fo** …) or a gender word (**futa**, **lowu**), so **no wiwa fo mara** is "Teacher Mara" and **no wungu futa** "the leader, a woman".'''
 
 [[item]]
 id = "5.4.5"
 type = "bullet"
 gap = 0
 text = '''
-- A person something is done to is **ewo gi gun** + verb: **ewo gi gun tofo** "a student".'''
+- A person something is done to is **ewo gi gun** + verb: **ewo gi gun wiwa** "a student".'''
 
 [[item]]
 id = "5.4.6"
 type = "bullet"
 gap = 0
 text = '''
-- A noun base is linked with **pi** or a verb: **pu pi mabo** "an office", **no obu se yaye** "an alien".'''
+- A noun base is linked with **pi** or a verb: **pu pi natun** "an office", **no obu se yaye** "an alien".'''
 
 [[item]]
 id = "5.4.7"
@@ -1035,7 +1035,7 @@ text = '''
 id = "6.2.1"
 type = "para"
 text = '''
-Phrase operators cover the word or phrase right after them, including a phrase that opens the sentence (**ga mon funti, …** "only in the community, …"). Before the verb, they cover the predicate, which is the verb with everything after it in its clause. To negate a single phrase, put **su** before that phrase: **wan doku su mon guyi** "she works, but not at home".'''
+Phrase operators cover the word or phrase right after them, including a phrase that opens the sentence (**ga mon loso, …** "only in the community, …"). Before the verb, they cover the predicate, which is the verb with everything after it in its clause. To negate a single phrase, put **su** before that phrase: **wan doku su mon guyi** "she works, but not at home".'''
 
 [[item]]
 id = "6.2.2"
@@ -1043,7 +1043,7 @@ type = "bullet"
 title = "su"
 gap = 0
 text = '''
-- **su** not (**to su yidu bun** "I don't/didn't take it"; **su su** emphatic). With **fen** "none" it is still one negation, not two: **to su ibe totu fen** "I don't have any dogs";'''
+- **su** not (**to su yidu bun** "I don't/didn't take it"; **su su** emphatic). With **fen** "none" it is still one negation, not two: **to su ibe poka fen** "I don't have any dogs";'''
 
 [[item]]
 id = "6.2.3"
@@ -1073,7 +1073,7 @@ id = "6.2.6"
 type = "bullet"
 gap = 0
 text = '''
-- degree words **ke** more, **ten** very, **tason** rather (**ke kudu** "bigger"; **nimo ke uyo** "less money").'''
+- degree words **ke** more, **ten** very, **tason** rather (**ke tugu** "bigger"; **nasi ke uyo** "less money").'''
 
 [[item]]
 id = "6.2.7"
@@ -1106,7 +1106,7 @@ text = '''
 | Particle | Act |
 |---|---|
 | **bi** | yes/no question |
-| **ta** | request; with another subject, a wish (**ta to nagu** "let me see"; **ta nosen kuwi nun** "may God keep you") |
+| **ta** | request; with another subject, a wish (**ta to nagu** "let me see"; **ta dakuwu kuwi nun** "may God keep you") |
 | **ti** | instruction (**ti su** "don't") |
 | **fon** | advice; the decision stays with the listener |
 | **me** | the speaker (or the group the speaker speaks for) commits: **me din** "we will" |
@@ -1126,7 +1126,7 @@ type = "bullet"
 title = "genso"
 gap = 0
 text = '''
-- **genso** or **ba** may modify the act from in front of its particle: **genso bi nun lugo** "as if you'd know"; **ba bi** is a surprised or indignant question.'''
+- **genso** or **ba** may modify the act from in front of its particle: **genso bi nun loya** "as if you'd know"; **ba bi** is a surprised or indignant question.'''
 
 [[item]]
 id = "7.1.4"
@@ -1223,7 +1223,7 @@ id = "8.1.1"
 type = "bullet"
 title = "Tense is optional"
 text = '''
-- Tense is optional. A time word or the first **sin** of a narrative sets the frame, the time that what follows is about, and later verbs in that frame stay unmarked. The future is shown by a time word or by context: **mon wuma, gegi muwo** "it will rain tomorrow".'''
+- Tense is optional. A time word or the first **sin** of a narrative sets the frame, the time that what follows is about, and later verbs in that frame stay unmarked. The future is shown by a time word or by context: **mon wuma, gegi nuwo** "it will rain tomorrow".'''
 
 [[item]]
 id = "8.1.2"
@@ -1270,7 +1270,7 @@ id = "8.2.1"
 type = "bullet"
 title = "Roots"
 text = '''
-- The time roots are **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday; **dili** day, **nelon** week (7 days), **dunan** month, **fawu** year; **muyi** time (a span or a point); **gimu** occasion (**gimu sa** "twice").'''
+- The time roots are **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday; **dili** day, **nelon** week (7 days), **dunan** month, **fawu** year; **nufi** time (a span or a point); **bifo** occasion (**bifo sa** "twice").'''
 
 [[item]]
 id = "8.2.2"
@@ -1286,7 +1286,7 @@ type = "bullet"
 title = "Duration"
 gap = 0
 text = '''
-- A duration is a count: **awuwa de** "three hours". **lin** + duration means "during, for" a span that frames the clause: **lin dili oma** "for seven days".'''
+- A duration is a count: **yiwo de** "three hours". **lin** + duration means "during, for" a span that frames the clause: **lin dili oma** "for seven days".'''
 
 [[item]]
 id = "8.2.4"
@@ -1302,7 +1302,7 @@ type = "bullet"
 title = "Hours, minutes, seconds"
 gap = 0
 text = '''
-- Hours, minutes and seconds are borrowed: **awuwa**, **minitu**, **sekandu**.'''
+- Hours, minutes and seconds have roots: **yiwo**, **yuku**, **dati**.'''
 
 [[item]]
 id = "8.3"
@@ -1318,9 +1318,9 @@ type = "bullet"
 title = "The clock follows the speaker's culture;"
 text = '''
 - The clock follows the speaker's culture, and both styles are always understood.
-  - The 24-hour style reads four digits one at a time: **mon mu mape de mu** "at 09:30", **mon sa ni de mu** "at 21:30".
-  - The 12-hour style counts the hour (1–12), then gives the minutes as two digits, then optionally **pi** + a part of the day: **mon mape de mu pi yami** "at 9:30 at night"; **mon yawu mu sa** "at 10:02". On the hour, the hour is said alone: **mon yawu sa** "at 12".
-  - The parts of the day are **leso** morning, **minfi** noon, **duwun** afternoon, **kegin** evening and **yami** night. Midnight is **yawu sa pi yami**.
+  - The 24-hour style reads four digits one at a time: **mon mu tuli de mu** "at 09:30", **mon sa ni de mu** "at 21:30".
+  - The 12-hour style counts the hour (1–12), then gives the minutes as two digits, then optionally **pi** + a part of the day: **mon tuli de mu pi yami** "at 9:30 at night"; **mon yawu mu sa** "at 10:02". On the hour, the hour is said alone: **mon yawu sa** "at 12".
+  - The parts of the day are **leso** morning, **minfi** noon, **duwun** afternoon, **lokagi** evening and **yami** night. Midnight is **yawu sa pi yami**.
   - For *about* a time, put **fun** before it: **mon fun minfi** "around noon".'''
 
 [[item]]
@@ -1337,7 +1337,7 @@ type = "bullet"
 title = "Dates"
 gap = 0
 text = '''
-- Dates are labels (5.2) and put the larger unit first, with a pause between: **dunan mena yawu, dili mena mape** "October 9". A weekday with a time is said the same way: **dili mena ma, mon …**. Years are read digit by digit: **fawu mena sa mu sa ufo** "2026".'''
+- Dates are labels (5.2) and put the larger unit first, with a pause between: **dunan mena yawu, dili mena tuli** "October 9". A weekday with a time is said the same way: **dili mena ma, mon …**. Years are read digit by digit: **fawu mena sa mu sa ufo** "2026".'''
 
 [[item]]
 id = "9"
@@ -1361,7 +1361,7 @@ type = "table"
 text = '''
 | 0 | 1 | 2 | 3 | 4 | 5 | 6 | 7 | 8 | 9 |
 |---|---|---|---|---|---|---|---|---|---|
-| **mu** | **ni** | **sa** | **de** | **wo** | **ma** | **ufo** | **oma** | **kefi** | **mape** |'''
+| **mu** | **ni** | **sa** | **de** | **wo** | **ma** | **ufo** | **oma** | **pepe** | **tuli** |'''
 
 [[item]]
 id = "9.1.2"
@@ -1369,7 +1369,7 @@ type = "table"
 text = '''
 | 10 | 100 | 1000 | million | billion | point | minus | × 10 to the |
 |---|---|---|---|---|---|---|---|
-| **yawu** | **loki** | **munno** | **tonen** | **siwin** | **mimi** | **guti** | **unun** |'''
+| **yawu** | **loki** | **munno** | **tiya** | **siwin** | **mimi** | **guti** | **unun** |'''
 
 [[item]]
 id = "9.2"
@@ -1384,7 +1384,7 @@ id = "9.2.1"
 type = "bullet"
 title = "Quantity reading"
 text = '''
-- The place words are **yawu** 10, **loki** 100, **munno** 1000, **tonen** million and **siwin** billion. The last three are also group words. In the quantity reading, place words come in descending order, each preceded by its digit. A 1 before a place word is dropped, and zero places are skipped: 15 **yawu ma**, 50 **ma yawu**, 42 **wo yawu sa**, 105 **loki ma**. A group word takes a whole number before it: 250 000 = **sa loki ma yawu munno**.'''
+- The place words are **yawu** 10, **loki** 100, **munno** 1000, **tiya** million and **siwin** billion. The last three are also group words. In the quantity reading, place words come in descending order, each preceded by its digit. A 1 before a place word is dropped, and zero places are skipped: 15 **yawu ma**, 50 **ma yawu**, 42 **wo yawu sa**, 105 **loki ma**. A group word takes a whole number before it: 250 000 = **sa loki ma yawu munno**.'''
 
 [[item]]
 id = "9.2.2"
@@ -1416,7 +1416,7 @@ type = "bullet"
 title = "Arithmetic aloud"
 gap = 0
 text = '''
-- Arithmetic aloud is a reading of notation, like spelling aloud, not an ordinary sentence: read the signs in the order written, + **ginni**, − **guti**, × **gimu**, = **gun**: **sa ginni de gun ma** "2 + 3 = 5", **de gimu wo gun yawu sa** "3 × 4 = 12". **guti** before a number makes it negative and between two numbers means minus; a list keeps its pauses (**ma, guti de** "5, −3"). ÷ has no word yet.'''
+- Arithmetic aloud is a reading of notation, like spelling aloud, not an ordinary sentence: read the signs in the order written, + **ginni**, − **guti**, × **bifo**, = **gun**: **sa ginni de gun ma** "2 + 3 = 5", **de bifo wo gun yawu sa** "3 × 4 = 12". **guti** before a number makes it negative and between two numbers means minus; a list keeps its pauses (**ma, guti de** "5, −3"). ÷ has no word yet.'''
 
 [[item]]
 id = "9.2.6"
@@ -1424,7 +1424,7 @@ type = "bullet"
 title = "Rates"
 gap = 0
 text = '''
-- A rate is said with **mesun** "each" after the unit, joined by the relation word that fits: **to nawi sa gimu mon dili mesun** "I eat twice a day" (on each day), **to neke de musu tun ewo mesun** "I give three to each person". Unit symbols such as `60 km/h` pass through as written and are read with their borrowed names (9.3).'''
+- A rate is said with **mesun** "each" after the unit, joined by the relation word that fits: **to nawi sa bifo mon dili mesun** "I eat twice a day" (on each day), **to neke de yefi tun ewo mesun** "I give three to each person". Unit symbols such as `60 km/h` pass through as written and are read with their borrowed names (9.3).'''
 
 
 [[item]]
@@ -1464,7 +1464,7 @@ type = "bullet"
 title = "Comparison"
 gap = 0
 text = '''
-- A comparison is **ke** + quality + **se** + standard: **ke kudu se guyi ben** "bigger than that house". For "most", compare with everything: **ke kudu se we** "biggest" (bigger than all). For "less", use **ke** with the opposite (**ke meli** "smaller"). For "as … as", use **fun** (**kudu fun bun** "as big as it").'''
+- A comparison is **ke** + quality + **se** + standard: **ke tugu se guyi ben** "bigger than that house". For "most", compare with everything: **ke tugu se we** "biggest" (bigger than all). For "less", use **ke** with the opposite (**ke meli** "smaller"). For "as … as", use **fun** (**tugu fun bun** "as big as it").'''
 
 [[item]]
 id = "9.3.5"
@@ -1503,7 +1503,7 @@ type = "bullet"
 title = "Titles"
 gap = 0
 text = '''
-- Titles go before the name with no comma, and work both in address and in reference: **no tofo fo mara** "Teacher Mara"; **no tofo fo mara sin oyi** "Teacher Mara said".'''
+- Titles go before the name with no comma, and work both in address and in reference: **no wiwa fo mara** "Teacher Mara"; **no wiwa fo mara sin oyi** "Teacher Mara said".'''
 
 [[item]]
 id = "10.1.3"
@@ -1511,7 +1511,7 @@ type = "bullet"
 title = "lanno"
 gap = 0
 text = '''
-- **lanno** is the title of respect, and has no gender. It goes before a name, role or kin word (**lanno fo olusegun** "Mr/Ms Olusegun", **lanno faba pi wede** "Uncle / Aunt (father's sibling)"). It can stand alone in address (**lanno, ta fin …** "Sir/Madam, please …"), and alone in reference when context shows who (**lanno sin oyi** "the honoured one said"). It marks respect for the person named. In the reference variety it is a title, not a word for "you".'''
+- **lanno** is the title of respect, and has no gender. It goes before a name, role or kin word (**lanno fo olusegun** "Mr/Ms Olusegun", **lanno faba pi sine** "Uncle / Aunt (father's sibling)"). It can stand alone in address (**lanno, ta fin …** "Sir/Madam, please …"), and alone in reference when context shows who (**lanno sin oyi** "the honoured one said"). It marks respect for the person named. In the reference variety it is a title, not a word for "you".'''
 
 [[item]]
 id = "10.1.4"
@@ -1566,7 +1566,7 @@ type = "bullet"
 title = "Routines"
 gap = 0
 text = '''
-- Routines are fixed formulas. The greetings are **upe** and **upe leso** "good morning", the farewell is **upe isi** "go well", thanks is **lota** and sorry is **sepi**. With politeness, **fin** comes first: **fin upe leso**.'''
+- Routines are fixed formulas. The greetings are **upe** and **upe leso** "good morning", the farewell is **upe isi** "go well", thanks is **lota** and sorry is **mosu**. With politeness, **fin** comes first: **fin upe leso**.'''
 
 [[item]]
 id = "10.3"
@@ -1651,7 +1651,7 @@ id = "11.1"
 type = "bullet"
 title = "Names"
 text = '''
-- Names take **fo**: **fo mara**. That is the precise form; casual speech often leaves **fo** out when a name can't be taken for a word (**mara sin obu** "Mara came"). A personal or brand name keeps its owner's spelling in lowercase, even with letters the language lacks: **fo denise**, **fo xi jinping**, **fo nguyen**, **fo wi-fi**. Say it as close to its owner's pronunciation as you can. Place names are names too: **fo london**, though an established adapted form may be used instead: **fo landan**. Names aren't used as verbs. A name runs until the next grammar word or pause, so a name of several words is written with no grammar words inside it, and a content word right after a name needs a grammar word or a pause before it: **fo xi jinping sin oyi** "Xi Jinping said". A name that contains a grammar word is closed with **kiyo** instead, and then runs until it: **fo cuerpo de paz kiyo sin obu** "the Peace Corps came". **kiyo** closes an open relative clause, built word or topic first, and a name only when none of those is open, so in **guyi gi fo mara sin miya kiyo gun kudu** "the house that Mara saw is big" it closes the clause and the name is **mara**.'''
+- Names take **fo**: **fo mara**. That is the precise form; casual speech often leaves **fo** out when a name can't be taken for a word (**mara sin obu** "Mara came"). A personal or brand name keeps its owner's spelling in lowercase, even with letters the language lacks: **fo denise**, **fo xi jinping**, **fo nguyen**, **fo wi-fi**. Say it as close to its owner's pronunciation as you can. Place names are names too: **fo london**, though an established adapted form may be used instead: **fo landan**. Names aren't used as verbs. A name runs until the next grammar word or pause, so a name of several words is written with no grammar words inside it, and a content word right after a name needs a grammar word or a pause before it: **fo xi jinping sin oyi** "Xi Jinping said". A name that contains a grammar word is closed with **kiyo** instead, and then runs until it: **fo cuerpo de paz kiyo sin obu** "the Peace Corps came". **kiyo** closes an open relative clause, built word or topic first, and a name only when none of those is open, so in **guyi gi fo mara sin miya kiyo gun tugu** "the house that Mara saw is big" it closes the clause and the name is **mara**.'''
 
 [[item]]
 id = "11.2"
@@ -1689,7 +1689,7 @@ gap = 0
 text = '''
 - Letters used as labels (apartment 3B) pass through and are read as the speaker's culture reads them.
 - To spell aloud for someone of another culture (a name, an email address, a code), say each letter by its word from the international spelling alphabet (ICAO), adapted to this language's sounds: a **alufa**, b **bulabo**, c **saluli**, d **deluta**, e **eko**, f **fokusutulotu**, g **golufu**, h **otelu**, i **indiya**, j **duliyetu**, k **kilo**, l **lima**, m **mayiku**, n **nobenbalu**, o **osuka**, p **papa**, q **kebeku**, r **lomeyo**, s **siyela**, t **tango**, u **yunifolumu**, v **bikuta**, w **wisuki**, x **ekusuleyi**, y **yanki**, z **sulu**. Within one culture its own letter names are fine. **kilo** is also "kilogram" (9.3.5); in spelling it is always a letter, as in the original alphabet.
-- Read aloud, an address uses **mon** for @, **mimi** for the dot and **komu** for "com": *mara@gmail.com* is **mara mon gmail mimi komu**. A hashtag is **asutagu**. Other signs are said with ordinary words: * **uwan** "star", & **yen** "and".'''
+- Read aloud, an address uses **mon** for @, **mimi** for the dot and **komu** for "com": *mara@gmail.com* is **mara mon gmail mimi komu**. A hashtag is **asutagu**. Other signs are said with ordinary words: * **nunma** "star", & **yen** "and".'''
 
 [[item]]
 id = "11.6"
@@ -1720,7 +1720,7 @@ type = "bullet"
 title = "Modality, three kinds"
 gap = 0
 text = '''
-- There are three kinds of modality: ability, with **lenu** "can"; obligation, with **keya** "must" and **wupi** "need to" ("should" is advice, the act **fon**, 7.1); and permission, with **efon** "allow" (**nun gun efon nawi** "you may eat"). There, **gun** + an action word takes a verb as its object, as the plain verb would (4.2.6): "you are allowed to eat". Probability is confidence (6.1).'''
+- There are three kinds of modality: ability, with **nebi** "can"; obligation, with **kifa** "must" and **wupi** "need to" ("should" is advice, the act **fon**, 7.1); and permission, with **efon** "allow" (**nun gun efon nawi** "you may eat"). There, **gun** + an action word takes a verb as its object, as the plain verb would (4.2.6): "you are allowed to eat". Probability is confidence (6.1).'''
 
 [[item]]
 id = "12.3"
@@ -1773,7 +1773,7 @@ id = "13.2"
 type = "para"
 title = "Two-syllable operators"
 text = '''
-These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**, number label **mena**. **mena** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **nan**: **to doku anko kegin** "I work until evening", **wan obu nuwen nimo** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".'''
+These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyo**, number label **mena**. **mena** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **nan**: **to doku anko lokagi** "I work until evening", **wan obu nuwen nasi** "he came without money". "Against" in the sense of protection is **se** "from" (**kuwi wan se ben** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".'''
 
 [[item]]
 id = "14"
@@ -1801,4 +1801,4 @@ id = "14.3"
 type = "bullet"
 gap = 0
 text = '''
-- One root may cover senses that most language families lump together: **muge** "do; make". Context tells them apart.'''
+- One root may cover senses that most language families lump together: **tula** "do; make". Context tells them apart.'''

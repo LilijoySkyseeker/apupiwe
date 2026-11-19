@@ -11,7 +11,7 @@ GF writes a grammar in two layers:
 - **Abstract syntax:** the meanings the language can express, as typed trees (a clause, a noun phrase, a relative clause, a manner phrase…).
 - **Concrete syntax:** how one language says each meaning. One concrete syntax is Apupiwe. A second is English, written with GF's Resource Grammar Library, which already knows English morphology and syntax.
 
-So an Apupiwe sentence can be parsed into meaning trees, and each tree can be said in English mechanically. Tested on this machine: **guyi gun kudu** → "the house is big".
+So an Apupiwe sentence can be parsed into meaning trees, and each tree can be said in English mechanically. Tested on this machine: **guyi gun tugu** → "the house is big".
 
 ## What it checks
 

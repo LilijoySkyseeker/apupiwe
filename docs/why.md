@@ -8,11 +8,11 @@ Apupiwe is designed by its author together with Claude, an AI assistant, startin
 
 ## Why is 6 "ufo", with two syllables, when 0 to 5 have one?
 
-The language started out counting in sixes. A test of read-aloud ID numbers showed that six one-syllable digits can be made far harder to mishear than ten: 0.26% of digits came out wrong, against 2.3%. Then the author ruled that the world counts in tens and will keep doing so, so the language does too. The digits 0 to 5 kept their carefully chosen one-syllable forms. There was no room left for four more one-syllable words that stay just as distinct, so 6 to 9 have two (**ufo oma kefi mape**). [More on numbers](rationale.md#7-numbers-time-measurement).
+The language started out counting in sixes. A test of read-aloud ID numbers showed that six one-syllable digits can be made far harder to mishear than ten: 0.26% of digits came out wrong, against 2.3%. Then the author ruled that the world counts in tens and will keep doing so, so the language does too. The digits 0 to 5 kept their carefully chosen one-syllable forms. There was no room left for four more one-syllable words that stay just as distinct, so 6 to 9 have two (**ufo oma pepe tuli**). [More on numbers](rationale.md#7-numbers-time-measurement).
 
 ## Why does the describing word come after the noun?
 
-Because the head of a phrase comes first, and word order alone shows who does what to whom, so a listener who misses a word still has the structure. Noun-then-adjective is also the more common order among the world's languages, as in **guyi kudu** "big house" (house big). [More on the grammar](rationale.md#4-grammar).
+Because the head of a phrase comes first, and word order alone shows who does what to whom, so a listener who misses a word still has the structure. Noun-then-adjective is also the more common order among the world's languages, as in **guyi tugu** "big house" (house big). [More on the grammar](rationale.md#4-grammar).
 
 ## Why is there no tense?
 

@@ -40,8 +40,8 @@ clop: "pe" (N | "pa") | SOURCE
 clause: (np | heavy)? predicate (","? JOIN (np | heavy)? predicate)*
 heavy: np ","
 predicate: phop* "manni"? (asp* | "le" "su") C (phop+ C)? det* ("pi" np)* relcl? obj? (obj | "," longobj)? result? ("gun" gunarg)? trail* | phop* "gun" gunarg trail*
-// C (phop+ C): verb, operator, verb, as in keya mu neke "must not give"; le mu "still not" (8.1.3)
-result: phop* C  // after a pronoun object: muge go bi yomo, "make/do it so" (4.2)
+// C (phop+ C): verb, operator, verb, as in kifa mu neke "must not give"; le mu "still not" (8.1.3)
+result: phop* C  // after a pronoun object: tula go bi yomo, "make/do it so" (4.2)
 longobj: np
 obj: np
 gunarg: np obj? result? | relp | "wun" clause

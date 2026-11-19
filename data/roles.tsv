@@ -4,18 +4,19 @@ afe	no	no
 agi	yes	yes	
 akan	no	no	
 alun	yes	yes	
-anbo	no	no	
 anle	yes	no	
+anmon	no	no	
 anyu	no	no	
 apu	no	no	
+asutagu	no	no	
 awin	no	no	
-awuwa	no	no	
 aya	no	no	
 badin	no	no	
 baken	no	no	
 bamo	yes	yes	stop: also intransitive (it stops)
 banga	yes	no	panic: event or state?
-banlu	no	no	
+bansin	no	no	
+basa	no	no	
 batali	no	no	
 batu	no	no	
 bawe	no	no	
@@ -28,7 +29,7 @@ bendo	no	no
 bese	no	no	
 bewon	no	no	
 beya	no	no	
-bige	no	no	
+bifo	no	no	
 bika	yes	yes	
 bilun	no	no	
 bina	yes	no	
@@ -37,7 +38,6 @@ binnu	no	no
 binso	no	no	
 biton	no	no	
 bodu	no	no	
-bone	yes	yes	
 bonko	no	no	
 bonwi	no	no	
 bosun	no	no	
@@ -50,28 +50,28 @@ bunle	no	no
 bunsi	yes	yes	
 bunwu	no	no	
 buyan	yes	yes	
-dandi	yes	yes	
-danki	no	no	
-deba	no	no	
-degun	no	no	
-demi	no	no	
+dakuwu	no	no	
+dapo	no	no	
+dati	no	no	
+denben	yes	yes	
 denku	no	no	
-desin	yes	no	
-deta	no	no	
 dibon	no	no	
+dife	no	no	
 digan	no	no	
-diguli	no	no	
 dili	no	no	
+dimen	yes	yes	
 dinbu	no	no	
 dinyo	yes	yes	
 ditun	yes	yes	
+diye	yes	yes	start: also intransitive (it starts)
 doku	yes	no	work: intransitive; 'work X' unusual
 dolalu	no	no	
 doma	yes	yes	listen: object or tun?
-donbo	yes	yes	
+doni	no	no	
+dope	no	no	
 dosi	yes	no	
 dowin	yes	no	
-duko	yes	yes	turn: also intransitive (turn around)
+doyu	yes	no	
 dunan	no	no	
 dundi	yes	yes	respect: action (respect someone) or the quality?
 dunsa	no	no	
@@ -93,28 +93,39 @@ fade	no	no
 fadun	no	no	
 fafin	no	no	
 falan	yes	yes	
-fanmu	yes	yes	gather: also intransitive (come together)
-fanse	no	no	calm: state; 'calm someone' possible
+fano	no	no	
+fape	yes	no	
+fasi	yes	yes	breathe: object (air) rare
 fawu	no	no	
 febo	yes	yes	
+fefa	no	no	
 feko	no	no	
-feli	no	no	
+fela	no	no	
 feme	yes	yes	feel: object = what is felt
+fenkun	yes	no	
 fesun	yes	yes	
+feti	no	no	
+fide	no	no	
+fileni	no	no	
+fimo	yes	no	
 finbi	no	no	
 finlu	no	no	
 finsa	yes	yes	
+fipan	no	no	
+fisu	no	no	
+fiyi	no	no	
 foke	no	no	
+fone	yes	yes	
 fongo	no	no	
 fonma	no	no	
 fonsu	yes	yes	
-foto	no	no	
+fopan	yes	yes	smell: also 'give off an odour' (no object)
 fowo	no	no	
 fudon	no	no	
 fugi	no	no	
-funbe	no	no	
 funo	no	no	
-funti	no	no	
+fupu	no	no	pain: thing or event (hurt)?
+fuso	no	no	
 futa	no	no	
 fuyu	no	no	
 gabe	yes	no	
@@ -126,37 +137,27 @@ gamun	no	no
 ganin	yes	yes	
 ganna	no	no	
 ganpa	yes	no	
-gason	no	no	
 gawo	no	no	
 gayen	yes	yes	
+gefo	yes	no	wait: 'wait for X' may take an object
 gegi	no	no	
 gekon	no	no	
 gelu	no	no	
-genne	no	no	
 geno	yes	yes	
 gewan	yes	yes	
-gigin	no	no	
-gimen	no	no	
-gimu	no	no	
 ginda	no	no	
 ginni	yes	yes	
-gipo	no	no	
-gisu	no	no	
-gitin	yes	yes	
-giwe	no	no	
 gofa	no	no	
 gogo	no	no	
 gole	no	no	
 gonge	no	no	
 gonmi	no	no	
 gonte	no	no	
-goyu	yes	no	
 gudu	no	no	
 gufu	no	no	
 guge	yes	yes	grow: also intransitive (a plant grows)
+guka	no	no	
 gulamu	no	no	
-gulo	no	no	
-gunmo	no	no	
 gusen	no	no	
 guyi	no	no	
 ibe	yes	yes	
@@ -172,188 +173,176 @@ inyi	no	no
 isi	yes	no	
 kamela	no	no	
 kanga	no	no	
-kanko	yes	yes	smell: also 'give off an odour' (no object)
-kedon	no	no	
-kefa	yes	no	
-kegin	no	no	
-kegu	yes	no	
-kemin	no	no	
-kemu	no	no	
+kato	no	no	
+kawa	yes	yes	
 kenlo	no	no	
-kete	no	no	
-keya	yes	yes	must: modal; gun keya 'is required'?
+kentu	no	no	
+kenyan	no	no	
 kidun	no	no	
+kifa	yes	yes	must: modal; gun keya 'is required'?
+kifela	no	no	
 kige	no	no	
 kilan	no	no	
+kilayi	yes	yes	
+kilo	no	no	
 kilogulamu	no	no	
 kilometulu	no	no	
 kima	no	no	
 kinbo	no	no	disappointed: state, not an action?
+kinkon	no	no	
+kipu	yes	no	play: 'play a game' may take an object
+kise	yes	no	
 kiti	no	no	
 kobi	yes	yes	move: also intransitive
 koda	yes	yes	
-kolu	yes	no	
-konke	no	no	
+komu	no	no	
+konki	no	no	
 kono	yes	no	
 kowan	no	no	
 koye	yes	yes	
 kubo	yes	yes	change: also intransitive (become different)
-kudu	no	no	
 kunsu	no	no	
 kunwa	yes	yes	
 kusa	yes	yes	leave: object = the place?
+kusisa	no	no	
 kuwi	yes	yes	
 kuwun	no	no	
-ladon	no	no	
-lafi	yes	yes	
-lage	no	no	
-lanba	no	no	
 lanli	no	no	
 lante	no	no	
-lapo	no	no	
-lasu	yes	yes	
-lawan	no	no	
 lefan	yes	yes	
+lefu	no	no	
 lemon	no	no	
 lengu	no	no	
-lenu	yes	yes	can: modal; is it an action word?
 lenya	no	no	
 leso	no	no	
 lewe	yes	yes	become: takes a complement, not an undergoer
 leyi	no	no	
 lifin	no	no	
-liga	no	no	
 lilu	yes	yes	
 linfa	no	no	
 lini	no	no	
 linku	no	no	
 linma	no	no	
+lipo	no	no	
 lisun	no	no	
 lite	no	no	
 litulu	no	no	
 liwon	yes	no	
 loban	yes	yes	
 lodi	no	no	
+lokagi	no	no	
 lonfe	yes	no	
 lonne	no	no	
+loso	no	no	
 lota	yes	yes	
 lowu	no	no	
+loya	yes	yes	
 loyen	no	no	
-lugo	yes	yes	
-lukan	no	no	
-lula	no	no	
-lumi	no	no	
 lunyu	no	no	
 lupiya	no	no	
-luse	yes	no	play: 'play a game' may take an object
-lutu	no	no	
-mabo	no	no	
-magan	yes	no	
-makon	no	no	
-mala	no	no	
-maman	yes	yes	
 manfu	yes	yes	
 mange	no	no	
-mawun	no	no	
+manla	yes	yes	
 mefa	no	no	
 meli	no	no	
+menpu	yes	yes	turn: also intransitive (turn around)
 metulu	no	no	
+mewu	yes	no	
 meyen	no	no	
 mibun	yes	yes	
 mido	yes	yes	
 migi	yes	yes	fight: object or gan/se?
 milimetulu	no	no	
+mimima	no	no	
+minen	no	no	
 minfi	no	no	
-minitu	no	no	
 minwe	no	no	
 mise	no	no	
 miya	yes	yes	
+mofa	yes	yes	
 mogo	no	no	
 mole	no	no	
 momu	yes	yes	
-monna	no	no	
-monpa	yes	yes	
-monyu	no	no	
+monin	yes	yes	shake: also intransitive (vibrate)
+mosu	yes	no	
 moti	no	no	
-muban	no	no	
-mufin	no	no	
-muge	yes	yes	
+motone	no	no	
+mowa	no	no	
+moyun	yes	yes	
 munke	no	no	
-musu	no	no	
-muwo	yes	no	
-muyi	no	no	
+nade	yes	yes	
 nagu	yes	yes	
-nansa	no	no	
-nanyo	yes	no	
+nasan	yes	no	
+nasi	no	no	
+nasuyu	no	no	
 nata	no	no	
+natun	no	no	
 nawi	yes	yes	
-nebe	no	no	
+nebi	yes	yes	can: modal; is it an action word?
 neke	yes	yes	
 nelon	no	no	
 nenmu	yes	no	
+nensan	no	no	
 nensi	no	no	
 nenwa	no	no	
 netu	no	no	
-niba	yes	no	
-niki	no	no	
-nilen	no	no	
-nimo	no	no	
+neyo	no	no	
 ninge	no	no	
 ninsu	yes	yes	
-nokun	no	no	
-nosen	no	no	
-noso	no	no	
-nowa	yes	no	
+nonka	no	no	
+nonye	no	no	
+nufi	no	no	
 nulu	yes	yes	
 nume	yes	no	live: takes a duration (to nume fawu ka yawu); no verb object
 nunfo	no	no	
+nunma	no	no	
 nunya	yes	yes	
 nuta	yes	yes	
+nutano	no	no	
 nuton	yes	yes	
+nuwo	yes	no	
 obu	yes	no	
 ofin	no	no	
 omen	yes	yes	
 onlo	yes	yes	
 onti	yes	yes	burn: also intransitive
+onyan	no	no	
 osa	no	no	
 oton	no	no	
 oyi	yes	yes	
 paben	yes	no	
 pani	no	no	
+panwe	no	no	
 pasu	no	no	
+pata	no	no	
 payon	yes	yes	
 pensi	yes	yes	
 penso	no	no	
 penyu	yes	yes	
 peton	yes	yes	
-pifo	no	no	
 pinda	no	no	
 pinfe	no	no	
 pinpu	no	no	
-piyi	yes	no	
-polisu	no	no	
+pofi	yes	yes	
+poka	no	no	
 pume	yes	yes	think: object = what is thought?
-puya	no	no	
 sanfi	no	no	
 sanku	yes	yes	
 sanne	yes	yes	
+santa	no	no	
 sanwa	yes	yes	
-sefu	yes	no	wait: 'wait for X' may take an object
-sege	yes	yes	
-sekandu	no	no	
-sekan	no	no	
-selo	yes	yes	
+senfu	yes	yes	
 senke	no	no	
 senmo	no	no	
 sentimetulu	no	no	
-sepi	yes	no	
-sesa	no	no	
-seyun	no	no	
+senwi	no	no	
+senya	no	no	
+sifi	no	no	
 sigo	yes	no	return: transitive use (return a thing) possible
+silu	no	no	
 simi	no	no	
-sinta	no	no	
+sine	no	no	
 sinun	yes	yes	dream: object = what is dreamt?
-sinye	no	no	
 sison	no	no	
 siten	yes	yes	
 situ	no	no	
@@ -361,25 +350,25 @@ siwa	no	no
 sofen	yes	yes	
 sogan	no	no	
 sogi	no	no	
+sokun	no	no	
 sola	no	no	
+soneko	yes	yes	
 sonfa	no	no	
 sonli	no	no	
 sonu	no	no	
 sonyu	no	no	
+sosan	no	no	
+sose	no	no	
 soti	no	no	
 soto	no	no	
 sowe	no	no	
-suba	no	no	
-suku	no	no	
-sulen	no	no	
-sumin	yes	yes	
+soyo	yes	no	
 sunbu	yes	yes	
 sunni	no	no	
-susin	yes	yes	shake: also intransitive (vibrate)
-suso	no	no	
-suyon	no	no	
+tafa	no	no	
 tago	no	no	
 tale	no	no	
+talise	no	no	
 tana	yes	yes	
 tanbu	no	no	
 tanun	no	no	
@@ -388,9 +377,12 @@ tapun	no	no
 tase	no	no	
 tayin	yes	no	
 tayu	yes	no	agree: object or gan?
+tedo	yes	no	
+tefu	no	no	
 tenbe	no	no	
 tengi	no	no	
 tenmi	yes	yes	
+tesin	no	no	calm: state; 'calm someone' possible
 tibin	yes	no	
 tika	no	no	
 tikun	no	no	
@@ -399,17 +391,17 @@ tingu	yes	no
 tinli	no	no	
 tinne	yes	no	
 tisan	no	no	
+tiso	no	no	
 tiwe	no	no	
 tiwu	no	no	
-tofo	yes	yes	
-togun	yes	yes	breathe: object (air) rare
-tolin	no	no	
 tonde	no	no	
+tonto	yes	yes	gather: also intransitive (come together)
 tonya	no	no	
-totu	no	no	
 tufun	no	no	
 tugan	no	no	
-tuko	yes	yes	start: also intransitive (it starts)
+tugu	no	no	
+tuke	no	no	
+tula	yes	yes	
 tungi	no	no	
 tunlo	no	no	
 tunmu	no	no	
@@ -420,56 +412,63 @@ ukun	no	no
 unda	yes	no	wake: transitive use (wake someone) possible
 unfu	yes	yes	
 unne	no	no	
+unpan	no	no	
 unwi	no	no	
 upe	no	no	
-uwan	no	no	
 uyo	no	no	
 wabun	no	no	
 waka	yes	yes	
 walo	yes	yes	
+wanan	yes	no	
+wane	no	no	
 wase	no	no	
-wede	no	no	
-weki	no	no	
-wekun	no	no	pain: thing or event (hurt)?
+waso	no	no	
 wenfe	yes	yes	
 wento	no	no	
-weyu	no	no	
 wifu	no	no	
 wigen	yes	yes	
 windi	no	no	
 wino	no	no	
 wisa	no	no	
+wiwa	yes	yes	
 wiwi	no	no	
-woga	no	no	
-wonin	no	no	
 wonku	yes	yes	
+wonnun	no	no	
 wonwe	no	no	
-wopo	yes	no	
-woten	no	no	
+wonyu	no	no	
 wulon	no	no	
 wuma	no	no	
 wungu	yes	yes	
 wunta	no	no	
 wupi	yes	yes	need/should: modal
+wusu	no	no	
+wuten	no	no	
+wuto	yes	no	
 wuwu	no	no	
 wuye	yes	yes	
 yaga	yes	yes	
+yakifo	no	no	
 yakin	yes	yes	
+yako	yes	no	
 yami	no	no	
 yansi	no	no	
 yaye	no	no	
+yayun	no	no	
 yebin	yes	yes	
+yefi	no	no	
 yegon	no	no	
 yema	yes	yes	
-yenbo	yes	no	
-yenwu	yes	yes	
 yesa	yes	yes	
-yetu	no	no	
+yete	no	no	
 yiban	no	no	
 yidu	yes	yes	
 yikan	no	no	
 yile	no	no	
+yimeki	no	no	
 yinki	no	no	
+yinse	no	no	
+yiso	no	no	
+yiwo	no	no	
 yiyin	yes	yes	
 yobe	no	no	
 yodun	no	no	
@@ -479,13 +478,14 @@ yomo	no	no
 yonnu	yes	yes	
 yonyo	no	no	
 yufa	no	no	
+yuku	no	no	
 yulo	no	no	
+yuna	no	no	
 yunbi	no	no	
 yunen	no	no	
 yunko	yes	yes	
+yusi	no	no	
 yuson	no	no	
 yuwan	no	no	
+yuwe	no	no	
 yuyun	yes	yes	
-kilo	no	no	
-komu	no	no	
-asutagu	no	no	

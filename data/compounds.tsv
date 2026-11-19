@@ -6,25 +6,25 @@ wizard	no wase	one who does magic
 warrior	no migi	one who fights
 daughter	tiwu futa	child woman
 son	tiwu lowu	child man
-parents	mole yen wede	mother and father
-dragon	dinbu pi lumi	snake of fire
+parents	mole yen sine	mother and father
+dragon	dinbu pi mowa	snake of fire
 stick	kima netu	wood long
-bedroom	pu wopo	place for sleeping
-meditate	goyu pume	sit thinking
-backward	tun nebe	to back
-spider	noso meli pi bendo feli	small animal of many legs
-turtle	noso gake	slow animal
-frog	noso meli gi lonfe yen niba	small animal that swims and walks
+bedroom	pu fimo	place for sleeping
+meditate	doyu pume	sit thinking
+backward	tun panwe	to back
+spider	dife meli pi bendo fefa	small animal of many legs
+turtle	dife gake	slow animal
+frog	dife meli gi lonfe yen tedo	small animal that swims and walks
 bat.the.animal	no bina mon yami	one that flies at night
-scorpion	noso meli gi lasu nan kenlo	small animal that bites with its tail
-grasshopper	noso meli pi tunmu	small animal of the grass
+scorpion	dife meli gi kawa nan kenlo	small animal that bites with its tail
+grasshopper	dife meli pi tunmu	small animal of the grass
 leap.year	fawu netu	year long
-local.time	muyi pi kemu	time of place
-the.count	sunbu pi muyi	count of time
-body.time	muyi pi gawo	time of body
-summer	muyi tikun	time hot
-winter	muyi weki	time cold
-rainy.season	muyi pi gegi	time of rain
+local.time	nufi pi fela	time of place
+the.count	sunbu pi nufi	count of time
+body.time	nufi pi gawo	time of body
+summer	nufi tikun	time hot
+winter	nufi tafa	time cold
+rainy.season	nufi pi gegi	time of rain
 the.language	apu pi we	language of all
 landlord	no ibe guyi	one who has the house
 neighbour	no nume gelu	one who lives near
@@ -43,17 +43,17 @@ password	apu pi udin	word of locking
 account	gen sunbu	what is counted (as Spanish cuenta, Arabic حساب)
 settings	gen finsa la	things that are set
 link	du penyu	thing for connecting
-folder	nansa pi kemin	box of documents
+folder	nonka pi pata	box of documents
 keyboard	tinli la	the keys
-undo	muge sigo	make return
-update	muge duwa	make new
+undo	tula sigo	make return
+update	tula duwa	make new
 scroll	kobi lunyu	move the page
-upload	sege tun bige	send up
-screenshot	foto pi du wuye	photo of the screen
+upload	pofi tun fide	send up
+screenshot	silu pi du wuye	photo of the screen
 spam	imeyilu bekin	garbage email (as Mandarin 垃圾邮件, Spanish correo basura)
 train	siwa netu	long cart
 licence	du efon	thing for allowing
-electricity	lula pi mufin	lightning's power; lula alone in context
+electricity	senya pi nonye	lightning's power; lula alone in context
 hospital	pu yema simi	place for helping the sick
-bicycle	siwa pi pifo	foot cart
-contacts (phone list)	suso la	the names; one contact is suso
+bicycle	siwa pi sifi	foot cart
+contacts (phone list)	dapo la	the names; one contact is suso

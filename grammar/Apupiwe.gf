@@ -131,7 +131,7 @@ abstract Apupiwe = Lex ** {
     ComplVV : V -> VPa -> VPc ;            -- 4.2.6 the second verb is the object; later phrases go with it
     ComplWun : V -> Cl -> VPc ;            -- 4.8.2 verb + wun clause
     ComplWunMin : V -> Cl -> VPc ;         -- 4.8.5 indirect question: wun bi
-    MugeRes : V -> AP -> NP -> VPc ;       -- 4.2.7 muge + result + object: make it so
+    MugeRes : V -> AP -> NP -> VPc ;       -- 4.2.7 tula + result + object: make it so
     GunAP : AP -> VPc ;                    -- 4.7.1 gun + state
     GunNP : NP -> VPc ;                    -- 4.7.2 gun + noun
     GunAdv : Adv -> VPc ;                  -- 4.7.3 gun + place phrase
@@ -146,13 +146,13 @@ abstract Apupiwe = Lex ** {
     SubCl : Sub -> Cl -> Adv ;             -- 4.3.3, 12.1 don/bo + clause
     GiNP : NP -> Adv ;                     -- 4.4.1, 4.8.3 bo + noun phrase "because of": bo yu "why"
                                            -- (at the start, bo win is the linker GiTan only)
-    OpAdv : Op -> Adv -> Adv ;             -- 6.2.1 ga mon funti; wan doku su mon guyi
+    OpAdv : Op -> Adv -> Adv ;             -- 6.2.1 ga mon loso; wan doku su mon guyi
     Mon, Tun, Se, Gan, Li, Ya, Wo, Fu, Nin, Anko, Nuwen : Prep ;   -- 4.4.1, 13.2
     Don, Gi : Sub ;                        -- 4.3.3
 
     -- quality phrases
     UseA : A -> AP ;                       -- 4.2.3 any word as a quality
-    OpAP : Op -> AP -> AP ;                -- 6.2 su upe, ten upe, ke kudu
+    OpAP : Op -> AP -> AP ;                -- 6.2 su upe, ten upe, ke tugu
     CompAP : A -> NP -> AP ;               -- 9.3.4 ke + quality + se + standard
     EquAP : A -> NP -> AP ;                -- 9.3.4 quality + fun + standard: as big as
     RedupA : A -> AP ;                     -- 1.5 doubling strengthens: feko feko
@@ -165,7 +165,7 @@ abstract Apupiwe = Lex ** {
     AdvCN : CN -> Prep -> NP -> CN ;       -- 4.4.1 a relation phrase right after a noun may describe it, except fun (manner) (author 2026-10-13)
     DerivV : Deriv -> V -> CN ;            -- 5.4.1 marker + verb
     DerivVP : Deriv -> VPa -> CN ;         -- 5.4.4 marker + verb phrase, to the end of its phrase
-    DerivPi : Deriv -> NPi -> CN ;         -- 5.4.6 pu pi mabo
+    DerivPi : Deriv -> NPi -> CN ;         -- 5.4.6 pu pi natun
     LannoCN : CN -> CN ;                   -- 10.1.3 lanno before a role or kin word
     Lanno : CN ;                           -- 10.1.3 lanno alone
     No, Ge, Du, Pu : Deriv ;               -- 5.4.2

@@ -6,58 +6,58 @@ woman, female	people	3	futa
 friend	people	3	sonu
 family	people	2	yonyo
 mother	people	3	mole
-father	people	3	wede
-name	people	3	suso
-group	people	2	funti
+father	people	3	sine
+name	people	3	dapo
+group	people	2	loso
 enemy	people	2	biton
 body	body	3	gawo
-head	body	3	lukan
+head	body	3	tefu
 eye	body	3	funo
 ear	body	2	wisa
-nose	body	2	danki
+nose	body	2	basa
 tooth	body	2	fonma
 tongue	body	1	lisun
 hair	body	2	sonfa
 hand	body	4	kiti
-foot	body	3	pifo
+foot	body	3	sifi
 leg	body	2	bendo
-heart	body	3	mala
-blood	body	2	makon
-bone	body	2	gipo
+heart	body	3	sose
+blood	body	2	kenyan
+bone	body	2	yayun
 skin	body	2	unne
-back, of the body; behind	body	2	nebe
-belly	body	1	suyon
+back, of the body; behind	body	2	panwe
+belly	body	1	mimima
 water	nature	5	osa
-fire	nature	3	lumi
+fire	nature	3	mowa
 ground, earth or soil	nature	3	fowo
-stone	nature	3	lutu
+stone	nature	3	wusu
 sky	nature	2	yaye
-sun	nature	3	giwe
+sun	nature	3	feti
 month	time	2	dunan
-star	nature	2	uwan
+star	nature	2	nunma
 rain	nature	3	gegi
-wind	nature	2	gulo
+wind	nature	2	nensan
 tree	nature	3	gala
-leaf	nature	1	wonin
+leaf	nature	1	kusisa
 wood, the material	nature	2	kima
-sea	nature	2	puya
+sea	nature	2	onyan
 river	nature	2	yolan
-mountain	nature	2	genne
+mountain	nature	2	neyo
 sand	nature	1	digan
 smoke	nature	1	penso
-cloud	nature	1	lanba
+cloud	nature	1	talise
 light, brightness	nature	3	wino
-storm	nature	2	lapo
+storm	nature	2	kinkon
 snow	nature	1	binso
-ice	nature	1	nokun
+ice	nature	1	yimeki
 salt	nature	1	bunwu
-ash	nature	1	sulen
+ash	nature	1	nasuyu
 plant, vegetation	nature	2	pinfe
-animal	animal	3	noso
-dog	animal	3	totu
+animal	animal	3	dife
+dog	animal	3	poka
 bird	animal	3	lodi
-fish, the animal	animal	3	woga
-horse	animal	2	anbo
+fish, the animal	animal	3	tiso
+horse	animal	2	anmon
 cow	animal	1	dunsa
 snake	animal	1	dinbu
 insect	animal	1	sunni
@@ -68,44 +68,44 @@ meat	animal	2	fuyu
 house, home	thing	4	guyi
 door	thing	2	beya
 food	thing	4	pasu
-tool	thing	2	yetu
+tool	thing	2	wonnun
 rope	thing	1	tenbe
 boat	thing	2	binnu
 cart	thing	2	siwa
-cloth	thing	2	demi
-money	thing	3	nimo
+cloth	thing	2	lipo
+money	thing	3	nasi
 book	thing	2	ingo
 weapon	thing	2	botan
 bed	thing	2	soti
-cup	thing	1	ladon
-thing	thing	5	musu
+cup	thing	1	fileni
+thing	thing	5	yefi
 day (24 hours)	time	4	dili
 night	time	3	yami
-time, a span or a point (not an occasion)	time	4	muyi
+time, a span or a point (not an occasion)	time	4	nufi
 morning	time	2	leso
-evening	time	1	kegin
+evening	time	1	lokagi
 moment	time	2	foke
 inside	space	3	bese
 outside	space	2	aban
-above	space	3	bige
-below	space	3	deba
-front	space	2	sinye
+above	space	3	fide
+below	space	3	fuso
+front	space	2	waso
 near	space	3	gelu
 far	space	3	lini
-left, the side	space	2	funbe
+left, the side	space	2	tuke
 right, the side	space	2	nata
 road	space	3	sola
-many	size	4	feli
+many	size	4	fefa
 few	size	3	uyo
-big	size	4	kudu
+big	size	4	tugu
 small	size	4	meli
 long	size	3	netu
 short, not long	size	2	eten
 wide	size	1	tugan
 heavy	size	2	gogo
 light, not heavy	size	1	gamun
-thick	size	1	woten
-full	size	2	kete
+thick	size	1	kifela
+full	size	2	wuten
 empty	size	2	tapun
 half	size	2	timon
 whole	size	2	minwe
@@ -117,7 +117,7 @@ true	quality	3	feko
 same	quality	3	kige
 other	quality	4	eni
 hot	quality	2	tikun
-cold, not hot	quality	2	weki
+cold, not hot	quality	2	tafa
 wet	quality	1	wulon
 dry	quality	1	kilan
 hard, not soft	quality	2	gufu
@@ -125,11 +125,11 @@ soft	quality	1	tutin
 sharp	quality	1	tungi
 fast, quick	quality	2	yobe
 slow	quality	2	gake
-strong	quality	2	konke
+strong	quality	2	konki
 weak	quality	1	nensi
 clean	quality	1	inan
 dirty	quality	1	bodu
-beautiful	quality	2	sesa
+beautiful	quality	2	minen
 important	quality	2	bawe
 easy	quality	2	bunle
 difficult	quality	2	gofa
@@ -139,11 +139,11 @@ dead	quality	2	fafin
 black	color	2	tago
 white	color	2	pinda
 red	color	2	wiwi
-green	color	1	gisu
+green	color	1	motone
 yellow	color	1	bilun
-blue	color	1	deta
+blue	color	1	nutano
 think	mind	5	pume
-know	mind	5	lugo
+know	mind	5	loya
 want	mind	5	momu
 feel	mind	4	feme
 like, enjoy	mind	4	tana
@@ -152,21 +152,21 @@ hope	mind	2	ganin
 remember	mind	3	imu
 forget	mind	2	yakin
 learn	mind	3	yesa
-understand	mind	3	lafi
+understand	mind	3	nade
 mean, signify	mind	3	yofu
 choose	mind	2	waka
 need (to)	mind	4	wupi
-must, have to	mind	3	keya
+must, have to	mind	3	kifa
 try	mind	3	walo
 happy	mind	3	sogi
 angry	mind	2	bonko
-pain	mind	2	wekun
+pain	mind	2	fupu
 see	sense	5	nagu
 hear	sense	4	nulu
 say	sense	5	oyi
 tell	sense	4	iko
 ask (a question)	sense	3	mido
-talk	sense	3	kegu
+talk	sense	3	fape
 language	sense	4	apu
 call, phone or call to	sense	2	yebin
 show	sense	3	wuye
@@ -176,16 +176,16 @@ sing	sense	1	yuyun
 write	sense	2	tusi
 read	sense	2	lilu
 laugh	sense	2	bubo
-cry, weep	sense	2	nowa
+cry, weep	sense	2	mewu
 go	motion	5	isi
 come	motion	5	obu
 move	motion	3	kobi
-walk	motion	2	niba
+walk	motion	2	tedo
 run, on foot	motion	3	gabe
 fly, move through the air	motion	2	bina
 swim	motion	1	lonfe
 fall, drop down	motion	2	dosi
-stand	motion	3	kolu
+stand	motion	3	yako
 lie, lie down	motion	2	anle
 enter	motion	2	inwa
 leave, go away from	motion	3	kusa
@@ -193,22 +193,22 @@ return	motion	3	sigo
 arrive	motion	2	liwon
 follow	motion	2	lefan
 carry	motion	2	dinyo
-push	motion	1	dandi
+push	motion	1	soneko
 pull	motion	1	nunya
-throw	motion	1	gitin
-turn, rotate or turn around	motion	2	duko
+throw	motion	1	kilayi
+turn, rotate or turn around	motion	2	menpu
 stop	motion	3	bamo
-start	motion	3	tuko
-wait	motion	3	sefu
-stay	motion	3	piyi
-do; make	action	5	muge
+start	motion	3	diye
+wait	motion	3	gefo
+stay	motion	3	wuto
+do; make	action	5	tula
 have, possess	action	5	ibe
 give	action	4	neke
 take	action	4	yidu
 get, obtain	action	3	dunu
 put	action	3	yaga
 hold	action	2	yonnu
-use	action	3	bone
+use	action	3	fone
 find	action	3	geno
 lose, misplace	action	2	agi
 protect	action	2	kuwi
@@ -218,10 +218,10 @@ cut	action	2	fonsu
 hit	action	2	payon
 eat	action	4	nawi
 drink	action	3	koye
-sleep	action	3	wopo
+sleep	action	3	fimo
 wake	action	2	unda
 work, labour; of a machine, function	action	4	doku
-play, for fun	action	3	luse
+play, for fun	action	3	kipu
 help	action	4	yema
 fight	action	2	migi
 die	action	3	kono
@@ -236,48 +236,48 @@ cook	action	2	siten
 wear	action	2	yunko
 hide	action	2	mibun
 change, make or become different	action	3	kubo
-happen	action	4	muwo
+happen	action	4	nuwo
 win	action	2	yiyin
 way, method	abstract	3	lite
-kind, type	abstract	3	niki
+kind, type	abstract	3	fisu
 reason	abstract	2	ukun
 problem	abstract	3	batu
-idea	abstract	2	gason
-story	abstract	2	weyu
+idea	abstract	2	bansin
+story	abstract	2	fipan
 law	abstract	2	wabun
 war	abstract	1	pinpu
 peace	abstract	1	bonwi
 game	abstract	2	bufe
-power, control	abstract	2	lula
+power, control	abstract	2	senya
 magic	abstract	2	wase
-god	abstract	1	nosen
+god	abstract	1	dakuwu
 today	time	4	mefa
 tomorrow	time	4	wuma
 yesterday	time	3	afe
 now	time	5	eda
 become	action	4	lewe
-face	body	3	suku
-apologise	sense	3	sepi
+face	body	3	yusi
+apologise	sense	3	mosu
 again	time	3	moti
-teach	mind	3	tofo
+teach	mind	3	wiwa
 lead, guide	action	2	wungu
 dream	mind	2	sinun
 dark	quality	2	buda
 wall	thing	2	senmo
-calm	mind	2	fanse
+calm	mind	2	tesin
 free, not held or controlled	quality	2	enpa
-glass, the material	thing	1	degun
+glass, the material	thing	1	yakifo
 answer	sense	3	febo
 system	thing	3	yile
-offend	mind	2	yenwu
+offend	mind	2	dimen
 panic	mind	2	banga
 number	abstract	3	wifu
 bag	thing	2	yufa
-paper	thing	2	mabo
+paper	thing	2	natun
 lock	action	2	udin
 smart	mind	2	gole
 watch, timepiece	time	4	aya
-phone	thing	3	liga
+phone	thing	3	doni
 card	thing	2	mise
 bus	thing	2	ensu
 dollar	loan	3	dolalu
@@ -285,26 +285,26 @@ POINT	number	3	mimi
 MINUS	number	3	guti
 mouth	body	3	fade
 year	time	3	fawu
-place	space	4	kemu
+place	space	4	fela
 sad	mind	2	bayi
-sit	motion	3	goyu
+sit	motion	3	doyu
 break	action	2	alun
 kill	action	2	omen
-build	action	2	selo
+build	action	2	senfu
 disgust	mind	2	bebu
 car	thing	3	tale
 POWER	number	2	unun
 thank	sense	3	lota
 rent, pay to use	action	2	sanwa
 agree	mind	3	tayu
-send	action	3	sege
+send	action	3	pofi
 end	time	3	fugi
 allow	action	3	efon
 sibling	people	3	faba
 spouse	people	3	ofin
 arm	body	3	inyi
 north	space	3	soto
-south	space	3	monna
+south	space	3	wane
 east	space	3	anyu
 west	space	3	munke
 breast	body	4	egu
@@ -312,59 +312,59 @@ neck	body	4	mogo
 liver	body	4	gudu
 knee	body	4	leyi
 grass	nature	3	tunmu
-feather	animal	3	suba
+feather	animal	3	yete
 root, of a plant	nature	3	yinki
-spit	action	3	kefa
+spit	action	3	kise
 flower	nature	3	meyen
 louse	animal	3	akan
-nail, of a finger or toe	body	3	tolin
-smell, sense or give off an odour	sense	3	kanko
+nail (of a finger or toe), claw	body	3	guka
+smell, sense or give off an odour	sense	3	fopan
 tie, fasten with a knot	action	3	manfu
 vomit	action	3	gabu
 dust	nature	3	awin
-throat	body	3	muban
-fat, body fat	body	3	gimen
+throat	body	3	yuwe
+fat, body fat	body	3	yiso
 bark, of a tree	nature	3	tase
 sweat	body	3	tiwe
-thin	size	3	gunmo
-blow, of air	action	3	nanyo
+thin	size	3	kato
+blow, of air	action	3	soyo
 finger	body	3	linma
 navel	body	3	wuwu
-thunder	nature	3	seyun
+thunder	nature	3	fiyi
 cough	action	3	dowin
 rotten	quality	3	yuson
 urinate	action	3	tibin
 lung	body	3	badin
 shade, shadow from light	nature	3	situ
-breathe	action	3	togun
+breathe	action	3	fasi
 straight	quality	3	fongo
-suck	action	3	maman
-salty	taste	3	lage
+suck	action	3	mofa
+salty	taste	3	fano
 seed	nature	2	yikan
 milk	thing	2	tunlo
 bitter	taste	2	finlu
 ripe	quality	2	bubin
 penis	body	2	wento
 blunt	quality	2	linfa
-defecate	action	2	desin
+defecate	action	2	nasan
 round	quality	2	kowan
 brain	body	2	lemon
-sweet	taste	2	sinta
+sweet	taste	2	santa
 sneeze	action	2	tinne
 horn	animal	2	yansi
 smooth	quality	2	windi
 lip	body	2	gonge
 touch	sense	2	sanne
 yawn	action	2	ganpa
-crush	action	2	monpa
+crush	action	2	denben
 raw	quality	2	bewon
-deep	size	2	lawan
+deep	size	2	wonyu
 ant	animal	2	tonde
 testicles	body	2	bosun
-narrow	size	2	banlu
+narrow	size	2	senwi
 buttocks	body	2	nunfo
 sour	taste	2	tufun
-flat, level	quality	2	mawun
+flat, level	quality	2	sokun
 crooked	quality	2	ginda
 correct	quality	2	denku
 snore	action	2	nenmu
@@ -372,9 +372,9 @@ quiet	quality	2	mange
 young	quality	2	loyen
 taste	sense	2	tenmi
 toe	body	2	gonmi
-vulva	body	2	kedon
+vulva	body	2	unpan
 side	space	2	sanfi
-rough	quality	2	nilen
+rough	quality	2	sosan
 loud	quality	2	dibon
 ugly	quality	2	lanli
 shallow	size	2	lante
@@ -388,20 +388,20 @@ shoulder	body	2	sonyu
 fruit	nature	2	tanun
 air	nature	2	wunta
 fog	nature	2	baken
-lightning	nature	2	mufin
+lightning	nature	2	nonye
 lake	nature	2	nenwa
 roof	thing	2	kuwun
 climb	motion	2	falan
 split	action	2	buyan
 chew	action	2	sofen
-squeeze	action	2	donbo
-scratch	action	2	sumin
+squeeze	action	2	manla
+scratch	action	2	moyun
 swell	action	2	tingu
 stab	action	2	kunwa
 steal	action	2	bunsi
 hunt	action	2	fesun
 shoot	action	2	onlo
-flow	motion	2	magan
+flow	motion	2	fenkun
 count	mind	2	sunbu
 chicken	animal	2	yiban
 intestines	body	2	gusen
@@ -411,10 +411,10 @@ clothes	thing	2	lonne
 goat	animal	2	elen
 tuber	nature	2	tengi
 rice	nature	2	yegon
-field, open land	nature	2	sekan
+field, open land	nature	2	kentu
 boil	action	2	binla
 reach	motion	2	wonku
-gather, bring or come together	action	2	fanmu
+gather, bring or come together	action	2	tonto
 internet	loan	2	intelunetu
 city	space	3	oton
 bread	thing	3	sowe
@@ -424,22 +424,22 @@ grind	action	3	inke
 week	time	3	nelon
 6	number	4	ufo
 7	number	4	oma
-8	number	4	kefi
-9	number	4	mape
+8	number	4	pepe
+9	number	4	tuli
 100	number	4	loki
 1000	number	3	munno
-10^6	number	3	tonen
+10^6	number	3	tiya
 10^9	number	2	siwin
-hour	loan	4	awuwa
-minute, of time	loan	4	minitu
-second, of time	loan	3	sekandu
+hour	time	4	yiwo
+minute, of time	time	4	yuku
+second, of time	time	3	dati
 kilometre	loan	2	kilometulu
-can, be able	mind	5	lenu
-bite	action	4	lasu
+can, be able	mind	5	nebi
+bite	action	4	kawa
 high	space	2	tisan
 10	number	4	yawu
 fly, the insect	animal	2	gekon
-occasion, a time (three times)	time	3	gimu
+occasion, a time (three times)	time	3	bifo
 honoured one, title of respect (sir, madam, Mr, Ms)	people	3	lanno
 okay?, softens and invites agreement (stance, sentence end)	abstract	4	buni
 it turned out, surprisingly (stance, sentence end)	abstract	3	donon
@@ -454,27 +454,27 @@ trust, rely on	mind	3	gewan
 love	mind	3	wigen
 miss, feel the absence of	mind	2	sanku
 disappointed	mind	2	kinbo
-hungry	quality	3	monyu
+hungry	quality	3	lefu
 tired	quality	3	fadun
 strange, odd	quality	2	lenya
 safe, not in danger	quality	2	sonli
 expensive	quality	3	unwi
 cheap, low in price	quality	3	tanbu
 room, of a building	thing	3	fudon
-box, container	thing	2	nansa
+box, container	thing	2	nonka
 storey, floor level of a building	thing	2	sison
 oil, the liquid	thing	2	yunen
 marry, wedding	action	2	bedan
 a right, entitlement	abstract	2	sogan
 complain	sense	2	tayin
 email	loan	3	imeyilu
-photo	loan	3	foto
-degree (°)	loan	2	diguli
+photo	thing	3	silu
+degree (°)	abstract	2	yinse
 battery	loan	2	batali
 euro	loan	2	yulo
 yuan	loan	2	yuwan
 rupee	loan	2	lupiya
-police	loan	3	polisu
+police	people	3	dope
 usually, habitually	time	3	manni
 rather, somewhat	abstract	2	tason
 seek, search for	action	3	ditun
@@ -483,15 +483,15 @@ share, let others have too	action	3	peton
 connect, join	action	3	penyu
 add, put in more	action	3	ginni
 check, verify	action	3	loban
-shake, vibrate	motion	2	susin
+shake, vibrate	motion	2	monin
 sound, noise	nature	3	ninge
 page, sheet	thing	3	lunyu
-key, button	thing	3	tinli
+key (for a lock)	thing	3	tinli
 private, not for others	quality	2	kunsu
 garbage, trash	thing	2	bekin
 copy, make the same again	action	3	gayen
 adjust, set	action	2	finsa
-document, file	thing	3	kemin
+document, file	thing	3	pata
 camera	loan	2	kamela
 not literally, joking (speech act)	abstract	1	genso
 seen, evidence by sight	abstract	1	wanme
@@ -501,8 +501,8 @@ at least	abstract	1	konsin
 about to, soon	time	2	buntu
 enough, as much as needed	abstract	3	tonya
 respect, honour	people	3	dundi
-country, nation	people	3	gigin
-rest, take a break	action	3	yenbo
+country, nation	people	3	yuna
+rest, take a break	action	3	wanan
 fair, just	quality	3	kidun
 until, up to (a time or point)	time	3	anko
 without	abstract	3	nuwen
@@ -518,3 +518,1039 @@ litre	loan	2	litulu
 kilogram, everyday short form	loan	2	kilo
 .com (read aloud)	loan	1	komu
 hashtag	loan	1	asutagu
+duck	animal	2	mitan
+mouse (the animal; also the computer mouse)	animal	2	menti
+sheep	animal	2	pufan
+bicycle	thing	2	fenun
+doll	thing	2	gokin
+ball (round toy)	thing	3	somon
+ice cream	thing	2	manyo
+cake	thing	2	fakon
+soup	thing	2	lopun
+apple	nature	2	nontu
+chocolate	loan	2	tokolatu
+hat	thing	2	namen
+shoe	thing	2	gewun
+sock	thing	2	yasen
+kitchen	thing	2	finma
+window	thing	2	gonso
+chair	thing	2	yonwa
+spoon	thing	2	denka
+bottle	thing	2	denye
+knife	thing	2	nunse
+soap	thing	2	kinin
+pillow	thing	2	fegen
+doctor	loan	4	dokutolu
+monkey	animal	2	tewin
+elephant	animal	2	kansa
+butterfly	animal	2	sense
+lion	animal	2	kopon
+frog	animal	2	solen
+train	thing	3	memo
+truck	thing	2	fonye
+airplane	thing	2	wenle
+orange (the fruit)	nature	2	sanlo
+banana	nature	2	fenmon
+trousers	thing	2	nugin
+table	thing	2	wonse
+blanket	thing	2	wensa
+baby	people	3	diba
+jump	motion	2	mipen
+cat	animal	2	taten
+tiger	animal	2	fiyon
+motorcycle	loan	2	moto
+potato	nature	2	ganfi
+coat	thing	2	yanon
+cheek	body	2	dunfin
+bathroom	thing	2	tunfa
+television	loan	3	telebisuyon
+scissors	thing	2	nusan
+medicine	body	3	fowi
+towel	thing	2	wenwu
+dance	action	3	dusu
+bee	animal	2	ninlo
+pig	animal	2	pogun
+bear (the animal)	animal	2	moken
+rabbit	animal	2	kenwe
+balloon	thing	2	kunfi
+bucket	thing	2	munmi
+juice	thing	2	wukan
+cheese	thing	2	peman
+coffee	loan	3	kafe
+carrot	nature	2	yunbon
+sweater	loan	2	suwetalu
+pajamas	loan	2	pidama
+chin	body	2	wikun
+fridge	thing	2	yandu
+stairs	thing	2	negan
+radio	loan	2	ladiyo
+glasses, spectacles	thing	2	kuman
+fork	thing	2	tawon
+hammer	thing	2	sendi
+shop	space	2	wonga
+school	space	4	ode
+swing (playground seat)	thing	2	punte
+helicopter	loan	2	elikoputelu
+tractor	loan	2	tulakutalu
+candy	thing	2	kannu
+underwear	thing	2	yanpe
+scarf	thing	2	dofon
+dress (the garment)	thing	2	sunwo
+shirt	thing	2	polon
+plate, dish	thing	2	witin
+park	space	2	nenfon
+slide (playground slide)	thing	2	lunla
+slide, slip (move smoothly over a surface)	motion	2	sunye
+teacher	people	3	wayu
+turtle	animal	2	fusin
+toy	thing	2	yafun
+bean	nature	2	fesan
+slipper	thing	2	tuyon
+picture	thing	3	teki
+wolf	animal	2	fonpi
+butter	thing	2	tufen
+lamp	loan	2	lanpa
+brush	thing	2	gonpu
+draw (make a picture)	action	2	siman
+kick	action	2	sanyi
+kiss	action	2	manse
+penguin	loan	2	penguwin
+pea	nature	2	napin
+tomato	loan	2	tomate
+nut	nature	2	lansu
+comb	thing	2	ginpe
+donkey	animal	2	nalan
+grape	nature	2	fenga
+garden	space	2	wonfo
+strawberry	nature	2	ponan
+tea	thing	2	tiyen
+shower	thing	2	wafan
+tickle	action	2	denwo
+paint	action	2	wonni
+broom	thing	2	yinya
+owl	animal	2	nesen
+squirrel	animal	2	kasin
+block (toy building block)	thing	2	lemin
+block, obstruct	action	2	ninta
+gift	thing	3	lela
+garage	loan	2	galasu
+sink, basin	action	2	kenta
+forest	nature	2	tanke
+beach	nature	2	yinmo
+drive (a vehicle)	action	2	bumun
+hug	action	2	dadon
+catch, capture	action	2	telun
+spade, shovel	thing	2	biwen
+cookie	loan	2	bisukuwitu
+shorts	thing	2	munso
+belt	thing	2	yinfu
+living room	thing	2	kifon
+flag	thing	2	konwo
+cover, lid; to cover	action	2	yukin
+bring	motion	4	bipi
+goose	animal	2	binme
+glove	thing	2	yimun
+bowl	thing	2	tetan
+drawer	thing	2	fonmu
+thirst	quality	2	yalen
+skirt	thing	2	tunwe
+oven	thing	2	nindun
+party (social gathering, celebration)	people	3	yoli
+political party	people	2	nenne
+crocodile	animal	2	powen
+sandwich	loan	2	sanduwitu
+necklace	thing	2	yansa
+ladder	thing	2	senfa
+lick	action	2	sungun
+pear	nature	2	kutan
+pizza	loan	2	pisa
+zipper	thing	2	kagun
+hurry	motion	2	yonta
+deer	animal	2	sifun
+tissue	thing	2	kanme
+stove	thing	2	kungo
+wipe	action	2	miman
+pen	thing	2	wulin
+wardrobe	thing	2	famin
+glue	thing	2	fenwan
+pour	action	2	fotin
+sweep	action	2	sunma
+repair	action	2	sunki
+clap	action	2	sansan
+pleasant	quality	2	tinno
+boot	thing	2	nonbi
+cute	quality	2	waton
+porridge	thing	2	dinti
+sauce	loan	2	sosu
+cucumber	nature	2	tonni
+sugar	loan	2	sukalu
+pot, cooking pot	thing	2	wison
+tear, teardrop	body	2	munba
+tear, rip	action	2	tinwan
+naughty	quality	2	fikin
+melon	nature	2	siwon
+spill	action	2	wenyo
+watermelon	nature	2	gofen
+soda	thing	2	fonsa
+spider	animal	2	tonfu
+mirror	thing	2	winka
+smile	sense	2	yeyan
+last, final	abstract	4	nano
+maize	nature	2	tinyun
+film	thing	3	wabi
+fox	animal	2	tanye
+toast	loan	2	tosutu
+balcony	loan	2	balukon
+carpet	thing	2	nenwin
+gas station	space	2	dundo
+yard, courtyard	thing	2	intan
+knock	action	2	koson
+ride	motion	2	fofun
+bubble	thing	2	lanyun
+circus	loan	2	silukasu
+T-shirt	loan	2	tisalutu
+hose	thing	2	godin
+world	space	4	figu
+question	sense	4	gesi
+government	people	4	gemi
+news	people	4	tamu
+song	sense	4	lowe
+music	abstract	3	dali
+history	abstract	3	fafo
+team	people	3	puse
+company	abstract	4	yeyu
+different	quality	4	bago
+king	people	4	uga
+hospital	body	3	kandi
+state, polity	people	4	yute
+plan	mind	4	lose
+birth	action	3	owon
+date (romantic meeting)	people	2	gugon
+decide	mind	3	wenki
+university	people	3	minfo
+education	people	3	wunmu
+science	abstract	3	enlu
+situation	abstract	3	finwo
+video	loan	3	bideyo
+special	quality	3	mede
+voice	sense	3	kipen
+next	time	4	lolo
+member	people	3	lunbe
+leader	people	3	asun
+bank (financial)	loan	3	banki
+service	people	3	putun
+direction	space	3	enon
+office	loan	3	ofisu
+explain	sense	3	daka
+line, stripe, row	space	3	tenen
+mind, intellect	mind	4	fuba
+politics	people	3	manto
+price	abstract	3	nulan
+report	sense	4	wife
+general, overall	quality	3	ninwu
+future	time	3	tenma
+case, instance	abstract	3	gega
+case (legal), lawsuit	people	2	sunto
+election	people	3	wufon
+promise	sense	3	wonfi
+society	people	3	mefin
+program (software; broadcast programme)	loan	3	pulogulamu
+support	action	3	fukon
+experience	mind	3	nusun
+letter, mail	thing	3	nonmo
+letter of the alphabet	sense	2	ganyo
+past	time	3	imin
+minister	people	3	kawi
+gold	nature	3	yanfo
+technology	loan	3	tekunolodi
+attack	action	3	soyin
+computer	loan	3	konpuyutalu
+position, posture, post	space	3	munbu
+court (of law)	people	3	numon
+health	body	3	dilo
+season	time	3	punna
+visit	motion	3	kenfi
+class (school group)	people	3	ifan
+social class	people	2	sengon
+soldier	people	3	wiyan
+level, degree	abstract	3	kote
+foreign	quality	3	teyon
+culture	people	3	dulen
+village	space	3	yongi
+series	abstract	3	nonsa
+quality	abstract	3	kamon
+space, room to fit	space	3	lanwa
+outer space	nature	2	lunti
+committee	people	3	leta
+art	abstract	3	minyu
+army	people	3	diken
+distance	space	3	punyi
+island	nature	3	pofo
+clear	quality	3	sennu
+organization	people	3	konpa
+market	abstract	3	yatan
+prepare	action	3	teyi
+business	abstract	4	gele
+century	time	3	yewen
+economy	abstract	2	wenpan
+nature	nature	3	pemu
+interest, curiosity	mind	3	bunyo
+interest (on money)	abstract	2	sankin
+weather	nature	2	unsen
+middle, centre	space	3	lenpe
+message	sense	3	ginto
+accident	abstract	3	tenko
+community	people	3	wada
+process	abstract	2	sanso
+attention	mind	3	kinye
+value	abstract	3	dupan
+secret	abstract	3	wusin
+public	quality	3	tumo
+hotel	loan	3	otelu
+candidate	people	2	munden
+serious	quality	2	lungon
+meeting	people	3	senle
+international	quality	3	tewa
+kingdom	people	2	tonwun
+speech	sense	4	dubi
+condition	abstract	3	guya
+region	space	3	dame
+building	thing	3	diyu
+union, alliance	people	3	ende
+information	thing	4	wine
+religion	abstract	3	lekun
+lesson	people	2	fumin
+energy	thing	3	wagen
+form (format; a form to fill in)	abstract	3	sisa
+province	people	3	kanen
+real	quality	3	punpo
+danger	abstract	3	goto
+official, civil servant	people	3	dakun
+vote	action	2	sanmun
+hero	people	2	winbin
+communication	sense	2	panman
+limit	abstract	3	minu
+policy	people	2	sunsun
+increase	action	3	lilen
+operation, undertaking	abstract	3	sowun
+doubt	mind	3	yetun
+translate	sense	2	wondon
+create	action	3	enpin
+republic	people	2	finte
+sex	body	2	nonlun
+electricity	thing	2	onken
+actor	people	2	yilon
+example	abstract	3	unmo
+sport	people	2	nonnan
+newspaper	thing	2	manson
+event	abstract	3	mobin
+record, recording	sense	3	nafo
+rise, go up	motion	3	yanwi
+modern	quality	2	yanyan
+expert	people	2	ginden
+judge (person; to judge)	people	2	kunnon
+possible	quality	3	winbo
+machine	loan	3	masina
+industry	abstract	2	ninkon
+debt	abstract	2	kanfun
+president	people	3	teban
+activity	abstract	3	nunli
+test, exam	people	3	igin
+address (postal or email)	space	2	mogan
+map	thing	2	landan
+birthday	time	2	kinsun
+threaten	sense	2	pinki
+structure	abstract	2	manwen
+governor	people	2	fenfen
+product	abstract	2	denlan
+generation	people	2	manmun
+origin, source	abstract	3	anfa
+interview	sense	2	ginsan
+goal, aim, purpose	mind	3	lanku
+period, era, interval	time	3	folu
+race, contest of speed	people	2	lonmin
+race, ethnic group (social category)	people	2	dunpun
+data	thing	3	doga
+professor	people	2	bugen
+literature	abstract	2	dennin
+slave	people	2	minlan
+notice, become aware of	sense	2	wenfun
+alone	quality	3	lonun
+announce	sense	2	tinpa
+spring (water source)	nature	1	tiwuye
+project	abstract	3	idon
+vehicle	thing	2	mantin
+article (a written piece)	sense	2	yunfen
+beer	loan	2	biyalu
+parliament	people	2	wunsan
+code (computer code; a cipher)	loan	2	kodu
+pressure	abstract	2	tonmen
+website	loan	2	sayitu
+democracy	people	2	kennun
+unit (of measure)	abstract	2	suntan
+scene (of a play or film)	abstract	2	nintin
+style, manner	abstract	2	wunmen
+bomb	loan	2	bonba
+sin	abstract	2	tanpan
+sign, signal, mark	sense	3	legen
+design	loan	2	disayin
+bridge	space	2	sennan
+secretary	people	2	nonsin
+soul	abstract	2	nonyon
+pregnant	body	2	kontun
+constitution	people	2	ganlu
+revolution	people	2	ginman
+theory	abstract	2	tunson
+chapter	sense	2	sunlon
+subject, topic	abstract	3	gonla
+analyze	mind	2	bonpen
+network	thing	2	wunwon
+student	people	3	fulan
+appearance, look	sense	3	yita
+circle	space	2	anmi
+arrest	action	2	kenken
+wine	thing	2	kinmen
+match, contest	people	3	intu
+match, matchstick	thing	1	yayuge
+station (train, bus)	space	2	yunlun
+iron (the metal)	nature	2	ongun
+silver	nature	2	sunwin
+color	color	3	getin
+capital city	people	3	tensa
+magazine	thing	2	sanyon
+captain	loan	2	kaputan
+luck	abstract	2	yungan
+stage, phase	abstract	2	gingun
+stage (theatre platform)	abstract	1	likafe
+honey	thing	2	kensen
+react	action	2	yinpon
+size	size	2	poden
+model (simplified representation; fashion model)	loan	3	modelu
+prove	mind	2	kunnin
+measure	action	2	pando
+mathematics	abstract	2	sonfon
+crisis	people	2	fondan
+step, pace	motion	3	mobon
+virus	loan	2	bilusu
+worker	people	2	siyan
+pass, go past or through	motion	3	yinmi
+role	abstract	2	tinten
+branch (of a tree)	nature	2	munkun
+pray, worship	action	2	menmen
+crime	people	3	walin
+travel	motion	2	panpon
+ring (finger ring)	thing	2	wonyen
+pair, couple	number	2	lanye
+restaurant	loan	2	lesutolan
+transfer	action	2	bonbun
+palace	space	2	kigan
+direct, directly	quality	2	kunyan
+mayor	people	2	panpin
+population	people	2	pegun
+corner	space	2	lunfan
+detective	people	2	senmin
+bullet	thing	2	lenton
+ministry	people	2	yonden
+hall, large room	thing	2	linyen
+ticket	thing	2	lunsun
+principle	abstract	2	lunmun
+budget	abstract	2	lisan
+breakfast	thing	1	obasa
+witness	people	2	finfon
+customer	people	2	panwo
+league (sports)	loan	2	liga
+serve	action	2	gonkan
+brave	quality	2	winsen
+benefit	abstract	2	yanwon
+standard, norm	abstract	2	kangen
+escape	motion	3	somi
+album	loan	1	alubumu
+demand	sense	2	kadan
+challenge	abstract	2	wungin
+shape	space	3	ledo
+tax	abstract	2	mewan
+philosophy	abstract	1	sinoki
+course (of study)	people	2	bannen
+original	quality	2	kunben
+matter, affair, issue	abstract	3	bidin
+master, lord	people	3	yanma
+content (what is inside)	abstract	2	ginfin
+profit	abstract	2	sanwu
+divide, division	action	3	gonwu
+rich, wealthy	quality	3	siben
+channel (TV, radio)	thing	2	tonlan
+cell (biological)	body	2	fenni
+major, main, chief	quality	1	yefede
+sentence (grammar)	sense	2	sento
+identity	people	2	linyon
+advertisement	abstract	2	senyun
+suit (the garment)	thing	2	ganyi
+bill, invoice	abstract	2	dunke
+appointment	time	2	gonmon
+regret	mind	2	mankan
+base, basis	abstract	3	wati
+robot	loan	1	lobotu
+spirit (a being)	abstract	3	puwon
+joke	sense	2	bunwan
+fund (money set aside)	abstract	2	antun
+view, scenery, perspective	sense	2	nenyun
+desert	nature	1	iseka
+skill	mind	2	pinlon
+pound (the currency)	loan	1	pawundu
+cigarette	loan	1	sigaletu
+praise	sense	2	munyin
+continue	action	3	sunse
+the press, news media	people	2	tayan
+citizen	people	2	geson
+club, society	loan	2	kulabu
+habit, routine	mind	1	gosuye
+childhood	time	1	yokugo
+title, heading	sense	2	tongon
+divorce	people	1	kaname
+negative	quality	1	guwuki
+compare	mind	1	siwase
+pocket	thing	1	wuloda
+character, personality	mind	2	tede
+establish, found	action	2	nonlen
+expression (phrase; facial)	sense	1	yosapo
+job, occupation	abstract	4	yepo
+list	sense	3	benge
+fresh	quality	1	nemisa
+screen (display)	thing	1	femigu
+campaign	people	1	yegufa
+universe	nature	2	sandin
+define	sense	1	nunini
+cancer	body	2	ganten
+arrange	action	2	munkan
+sense (good sense; a sense organ)	mind	2	sonsin
+score, points	people	1	boleyi
+imagine	mind	1	diwusa
+holy person (saint, widened)	people	1	fasasa
+crown (worn by a monarch)	thing	1	gepata
+fault, flaw, defect	abstract	2	yonpin
+taxi	loan	1	takusi
+wound, injury	body	2	tonsan
+muscle	body	1	sotese
+pure	quality	2	senyen
+gas (state of matter; fuel gas)	loan	2	gasu
+tense, strained, nervous	mind	1	ayaya
+supply	action	2	lanfon
+bow, bend the body	action	1	fafuyi
+bow (the weapon)	thing	1	nuyosi
+effect, impact	abstract	3	lonpo
+adult	people	2	sonwan
+offering, sacrifice	action	1	kodipi
+expect	mind	2	lennan
+museum	space	1	yugafo
+approach, come near	motion	1	genogi
+comment	sense	2	wudan
+invite	sense	2	bangun
+alcohol	thing	2	tonyin
+discuss	sense	2	yonme
+professional	people	2	yonfan
+prison	people	2	punkin
+element, component	abstract	1	wufuse
+invest	action	1	kugula
+novel (a long story)	abstract	2	sonno
+poem	abstract	1	dofemi
+nurse	people	1	natefa
+engine, motor	thing	1	tebuwa
+rose	nature	1	meyeti
+wise	mind	2	wenyin
+coin	abstract	1	wuwayi
+guest	people	2	ansen
+care	action	3	fiwun
+chemistry	abstract	1	yekoni
+patient, sick person (in care)	people	2	lendi
+patient, enduring	mind	2	lokon
+worry	mind	3	tito
+material, substance	thing	2	disin
+traffic	thing	1	gewobu
+consciousness	mind	1	fepoka
+protest	action	1	fuseno
+contribute	action	1	papayo
+publish	sense	1	fatofu
+poor	quality	2	nenun
+raise, lift	action	2	lesin
+guitar	loan	1	gitalu
+prisoner	people	1	yuyege
+proud	mind	1	dusate
+perform	action	1	watesi
+gender	people	1	kigoyo
+claim	sense	2	miwin
+hell	abstract	2	benten
+guarantee	sense	1	wuyume
+terrorism	people	1	wiwigo
+airport	thing	2	bugun
+exchange	action	2	lenlun
+nerve	body	1	fanoyu
+virgin	body	1	mofawu
+busy	quality	1	fifetu
+hole	space	2	dunyen
+board, plank	thing	1	tamufo
+punish	action	2	kenwon
+cross, go across	motion	2	wunde
+civilization	people	1	kuyata
+grain	nature	1	fuwape
+metal	nature	2	nupen
+progress	abstract	2	nonfun
+popular	quality	1	solofi
+engineering	abstract	1	nenege
+fail	action	1	wukuto
+liquid	nature	2	sonten
+needle	thing	1	wusowo
+plot (of a story)	abstract	1	yesinu
+charge (a battery)	thing	1	tawepi
+throne	thing	1	katoge
+climate	nature	1	nefanu
+signature	sense	1	wafili
+essay	sense	1	tuposa
+introduce	sense	1	usigi
+spy	people	1	fimumo
+positive	quality	2	fongin
+fever	body	1	yodowi
+rape	people	1	sidako
+wave (of water; wave a hand)	nature	2	kenfan
+damage	action	2	tonfe
+wheel	thing	1	talowi
+reward	abstract	1	poyodi
+border	space	2	golun
+poison	body	1	nabaye
+symptom	body	1	yilowo
+loan (money lent)	abstract	1	duwawa
+reference	sense	1	pupisi
+opportunity	abstract	4	ado
+wonder, an astonishing unexplained event (miracle is built: wonder of god)	abstract	1	wasisa
+cabinet (government)	people	1	fasegu
+capacity	size	1	nesoge
+square (the shape)	space	2	mengin
+square, plaza	space	2	wawon
+shock	mind	1	gobewo
+angle	space	1	ogene
+scholar	people	1	wifuyi
+rare	quality	1	momuge
+mission	abstract	1	mowoyo
+trick, deceive	action	1	fisusa
+lawyer	people	3	naba
+appear	motion	3	manwu
+steel	nature	1	tekita
+farm	abstract	1	minufe
+essence, gist	abstract	1	komowu
+tower	space	1	tisiyo
+strike (labour)	abstract	1	tutoyi
+tip, gratuity	abstract	1	tenayo
+religious leader (priest, widened)	people	1	mefuso
+servant	people	2	banfe
+lover, partner in love	people	1	wikene
+surgery	body	1	potiwa
+gene	loan	1	denu
+forehead	body	1	netiti
+behave	action	1	memabi
+evil spirit, demon, devil	abstract	2	fisen
+majority	abstract	2	komin
+average	number	2	fonton
+treasure	abstract	1	dutitu
+flood	nature	1	disewu
+former, ex-	quality	2	pendin
+vegetable	nature	1	gofafi
+continent	space	1	gukema
+extreme	quality	1	letime
+diamond	nature	1	lotata
+presence	abstract	1	fegunu
+heaven, paradise	abstract	2	dafen
+shield	thing	1	yewiya
+edition	sense	1	felefo
+menstruation	body	1	tefole
+balance	abstract	1	nesifo
+pilot	people	1	dibesi
+corpse, dead body	body	2	dinmun
+sword	thing	2	tenbun
+investigate	mind	3	dupo
+invent	action	1	fimofa
+context	abstract	1	tesimi
+messenger	people	1	yowomu
+solve	mind	2	yunye
+camp	space	2	fupen
+womb	body	1	kayiyi
+print	action	1	nakiyi
+sum, total	number	2	nayon
+layer	space	1	sinidi
+app, software application	thing	2	wenlon
+application, formal request	sense	2	nonten
+bless, blessing	action	1	etasu
+missile	thing	1	fusuyu
+broadcast	thing	1	folunu
+factor	abstract	1	fegaye
+pole, post	thing	1	soduwo
+handle	thing	2	ginnon
+corruption	people	1	fopako
+edge, rim	space	2	wonman
+dawn	time	1	sopuge
+believe; faith, belief	mind	3	yumi
+host (who receives guests)	people	1	wutewi
+fashion	people	1	bogefu
+relationship	people	3	koku
+regular	quality	1	kifaso
+ceremony	people	1	wanafo
+amount	number	3	wiyun
+place of worship (temple, widened)	abstract	1	dimatu
+grave	abstract	2	tinsi
+spread	action	2	sunga
+script	sense	1	wimuta
+innocent	quality	1	damoga
+plastic	loan	1	pulasutiku
+volume (loudness; a book volume)	size	2	onson
+giant	people	1	mofete
+noble	people	1	lowiku
+fan, supporter	people	1	tukuwo
+fan (cooling device)	thing	1	tipami
+plain, simple	quality	2	tulun
+plain (flat open land)	nature	1	wugonu
+credit	abstract	1	lebeto
+bar (place serving drinks)	loan	1	balu
+repeat	action	1	bukili
+responsible	quality	3	mona
+manage	action	2	mosen
+release, let go	action	2	tanlin
+department	abstract	3	eye
+tradition	people	2	linsi
+experiment	abstract	1	fumuwe
+contract	abstract	2	onlin
+exercise (physical)	body	2	minmon
+countryside	space	2	dinwi
+version	abstract	1	yewati
+describe	sense	1	wisiwe
+emergency	abstract	2	dinna
+reform	action	1	fatike
+insurance	abstract	1	tukute
+perfect	quality	3	sita
+joint (of the body)	body	1	siwita
+rate (speed, ratio, rate of pay)	number	1	teyupu
+mention	sense	2	sangan
+cinema	loan	1	sinema
+fence	thing	1	yonoso
+blind	quality	1	olipa
+available	quality	1	kayolo
+fool	people	2	yisen
+drunk	quality	1	doseso
+fuel (petrol, gasoline)	thing	1	esago
+competition	people	3	felin
+excuse	sense	2	yuntun
+satisfied	mind	1	wanole
+detail	abstract	1	sifufi
+ambassador	people	1	pewike
+improve	action	1	gamuni
+settle	action	2	ninfen
+wheat	nature	1	migotu
+cream (of milk; cosmetic)	thing	1	mowega
+tribe	people	1	dumofu
+aspect	abstract	2	finlen
+anniversary	time	1	mewone
+holiday	time	1	widadi
+spend	action	1	kawiwu
+complex	quality	2	mengon
+logic	mind	1	yiboge
+normal	quality	1	gasipu
+passport	loan	1	pasupolutu
+practice, training	action	1	kisodu
+mud	nature	1	ganegu
+income	abstract	2	wenmun
+copper	nature	1	komisa
+band (music group)	abstract	1	mokimo
+honest	quality	2	kakin
+curse	action	1	tadota
+port, harbour	space	2	kinwin
+evolution	nature	1	sodida
+platform	thing	1	lokusa
+lie, tell an untruth	sense	3	kude
+pulse	body	1	wayogu
+surface	space	1	usupa
+edit	action	1	kogeka
+reputation	people	2	tansi
+certificate	people	1	diyeda
+trap	thing	1	wafope
+confess	sense	1	neyilo
+engineer	loan	1	indiniyalu
+instrument (musical)	thing	1	migiwi
+shift (work shift)	abstract	1	nalemi
+atmosphere (air layer; mood)	nature	1	wusasu
+argument, dispute	sense	1	somasu
+access	abstract	1	wisaya
+victim	people	2	gonwen
+arrow	thing	1	yidumi
+offer	sense	3	wenma
+volunteer	people	1	fagamo
+coach	people	1	fusami
+frame	thing	1	bifowu
+conclusion	abstract	2	nawun
+pollution	nature	1	nedose
+withdraw	motion	1	yonaki
+famous	quality	2	fentan
+opposite	abstract	2	yannin
+note (a short written message)	sense	1	yinasa
+register, enrol	sense	1	kadeso
+trade	abstract	2	lenbo
+valley	nature	1	yokiki
+violence	people	1	numase
+vaccine	loan	1	bakusin
+tunnel	thing	1	besube
+treat	action	1	posaga
+toilet	thing	1	namibu
+tight	quality	1	teteyi
+suspect	mind	1	lolefe
+success	abstract	2	mundun
+studio	loan	1	sutudiyo
+strict	quality	1	difudo
+shame	mind	2	fendu
+sensitive	quality	1	futaya
+schedule	time	1	wumemo
+satellite	thing	1	kotomo
+retire	action	1	abuki
+represent	action	1	yawalo
+reflection	sense	1	mipabo
+recognize	mind	1	sosiwu
+receipt	abstract	1	dafeka
+prostitute	people	1	sofodu
+profile (online, personal)	loan	1	pulofilu
+priority	abstract	1	monato
+prevent	action	1	tipoku
+pipe	thing	1	tubenu
+pillar	thing	1	wafedo
+piano	loan	1	piyano
+physics	abstract	1	kawafa
+permanent	quality	1	yatabu
+pearl	nature	1	lenadu
+organ (of the body)	body	1	ituke
+native, indigenous	people	1	misuno
+mystery	abstract	1	sikomo
+moral, ethics	people	1	eyisu
+monster	abstract	1	foyufo
+mix	action	1	tuyesu
+medal	loan	1	medala
+mask	loan	1	masuka
+moon	nature	4	tuye
+ghost	abstract	2	kunlu
+word	sense	4	ila
+keep, retain	action	3	meko
+request, ask for	sense	2	kinmu
+lose (a contest)	action	3	wamu
+daytime	time	2	tantu
+rule	abstract	3	fuyen
+percent	number	2	lonwon
+always	time	2	bawan
+often	time	2	bingan
+sometimes	time	2	konle
+never	time	2	gafon
+later	time	2	lanben
+here	space	2	minsa
+there	space	2	fonyun
+parent	people	1	iwola
+lunch	thing	1	gefuko
+dinner	thing	2	sunmen
+cassava	nature	2	kugin
+millet, sorghum	nature	2	densun
+deaf	body	1	wabiwa
+mute, unable to speak	body	2	bekan
+order, command (someone to do something)	sense	4	foya
+relative, family member	people	2	gosan
+shave	action	2	kunyun
+fish (catch fish)	action	2	lunwin
+herd, tend animals	action	2	polin
+biology	abstract	1	kiyifi
+fact	abstract	3	sonbe
+common, ordinary, usual	quality	3	gefen
+accept, take what is offered	action	3	tunen
+fate, destiny	abstract	3	fewi
+influence	action	2	ninlin
+holy, sacred	quality	2	fonsen
+status, standing, rank in a group	people	2	langin
+salary	abstract	2	daman
+avoid	action	2	londu
+suitable, fit, proper	quality	2	binpun
+guess	mind	2	goyon
+delicious	quality	2	dingin
+partner (neutral in sex and setting)	people	2	yinwe
+environment, surroundings	nature	2	banlon
+disappear, vanish	motion	2	yonsu
+destroy	action	2	ganton
+explode, burst	action	2	manyin
+accuse, blame, hold responsible	sense	2	nenda
+thread	thing	2	bondi
+waste (use up for nothing)	action	2	yinnen
+forgive	mind	2	dogen
+load, burden	thing	1	goyito
+heap, pile	thing	1	pesese
+warm	quality	1	kukedo
+disaster	abstract	1	wakana
+unique	quality	1	yuyina
+celebrate, celebration	action	1	liwaka
+include, contain	action	1	kitimo
+fill, make full	action	1	funeta
+exceed, go beyond	action	1	tuyali
+decrease, become or make less	action	1	fogasi
+statue	thing	1	yitida
+participate, take part	action	1	wilopi
+characteristic, feature, trait	abstract	1	fowile
+obey	action	1	tuleki
+familiar, known	quality	1	loyamo
+heal, cure	action	1	pabito
+hate	mind	1	gugife
+cruel	quality	1	limowi
+descend, go down; land	motion	1	dayele
+chain	thing	1	timusi
+acquaintance, person one knows	people	1	bufoti
+bell	thing	1	nasebi
+kind, kindness	quality	1	penasi
+nonsense	sense	1	enudo
+obstacle	thing	1	bayate
+fraud, cheating	action	1	fiyuwi
+achieve	action	1	gekidu
+summary	sense	1	mosuli
+endure, bear, tolerate	mind	1	yukesa
+substitute, replacement	action	1	likusi
+ancestor	people	1	wumulu
+coal (fuel)	nature	1	kuguso
+wild, not tamed or farmed	quality	1	geweso
+cave	nature	1	napuwe
+inherit, inheritance	action	1	wigoso
+discrimination, unfair treatment of a group	people	1	dikeko
+attitude, stance	mind	1	gegule
+comfortable, at ease	quality	1	sitewe
+depend (on), be conditional on	abstract	1	nayuso
+worthy, deserving	quality	1	pekawu
+well-being, welfare	abstract	1	fakeda
+infection, infect	body	1	femete
+urgent	quality	1	sobame
+ceiling	thing	1	geyawe
+deny, say it isn't true	sense	1	tilote
+pattern, repeated design	abstract	1	dilibe
+revenge	action	1	leluna
+cliff, steep rock face	nature	1	migisa
+dew	nature	1	fonuse
+firewood	nature	1	siduyu
+nest	animal	1	padufe
+eagle, large bird of prey	animal	1	lefuya
+crow, raven	animal	1	nubibo
+scale (of fish or snake)	animal	1	gobopa
+flea	animal	1	sofiti
+wasp	animal	1	dotubi
+lizard	animal	1	soliwi
+beard	body	1	alumo
+jaw	body	1	dinino
+snot, nasal mucus	body	1	gusala
+beak	body	1	tituya
+elbow	body	1	sipisu
+thigh	body	1	emaga
+heel	body	1	nakoku
+kidney	body	1	fugigo
+waist	body	1	tatinu
+hip	body	1	yuduku
+hiccup	action	1	fomefi
+bury	action	1	siloya
+itch	body	1	gememi
+pus	body	1	kugawe
+lazy	quality	1	tutime
+naked	quality	1	wuyiwu
+roast (cook over a fire or in dry heat)	action	1	dasosi
+peel	action	1	leyoyi
+sieve, strain	action	1	sifada
+knead	action	1	neyafu
+mortar (for pounding)	thing	1	siwelu
+leather	thing	1	nuyuta
+weave	action	1	losoma
+sew	action	1	mogufi
+bead	thing	1	fifige
+plant, sow (put seeds or plants in the ground)	action	1	putaki
+mushroom	nature	1	mifigu
+axe	thing	1	mowasu
+rub	action	1	puwoko
+clay	nature	1	kowumi
+wrap	action	1	bufefa
+sink (go under water)	motion	1	gumewe
+float	motion	1	yufule
+crawl	motion	1	yadaka
+stingy, mean with money	quality	1	wamuse
+hook	thing	1	kilesa
+whistle	sense	1	epise
+scold	sense	1	sisuma
+drum	thing	1	tinonu
+tick	animal	1	leyewa
+freeze, become ice	action	1	yeyoto
+swamp, marsh, wet ground	nature	1	bomala
+rainbow	nature	1	yumuya
+orphan, a child whose parents have died	people	1	yemuku
+shell (of egg, nut, snail, sea creature)	animal	1	mekefu
+snail	animal	1	neleyu
+blood vessel (vein, artery)	body	1	basoya
+rib	body	1	owobe
+eyebrow	body	1	pagime
+gums	body	1	yesuti
+wrist	body	1	fefiwo
+ankle	body	1	asame
+scar	body	1	nusufu
+jug, water jar	thing	1	dowuna
+shelf	thing	1	loludi
+brick	thing	1	danima
+plough	action	1	beyasa
+hoe	nature	1	goyuyu
+gourd, calabash, pumpkin, squash	nature	1	tagani
+nail (metal fastener)	thing	1	soyabo
+roll	motion	1	bayiga
+lend	action	1	panuya
+borrow	action	1	miyoga
+greedy	quality	1	fitune
+flute	thing	1	yameye
+foam, froth	nature	1	kasalu
+vulture	animal	1	kusuni
+gnat, midge, sandfly	animal	1	nunole
+spleen	body	1	aladi
+boil, abscess (on the skin)	body	1	nusese
+lame, limping	body	1	fesati
+spin (thread)	action	1	yuseme
+spindle	thing	1	lepofo
+tree trunk	nature	1	kafewe
+palm (the tree)	nature	1	mimewu
+bore, drill	action	1	liweli
+hollow out	action	1	tasumo
+mould	action	1	yutote
+carve	action	1	yowise
+pinch	action	1	tenume
+groan	sense	1	lemifi
+howl	sense	1	sowiso
+spear	thing	1	tedeku
+sinew, tendon	body	1	bayemu
+fry (cook in hot oil or fat)	action	1	lisaku
+well, dug water source	space	2	sanwen
+put out, extinguish (a fire)	action	1	yadidi
+hawk (smaller bird of prey)	animal	1	tumeya
+shiver, tremble	body	1	umide
+bake (in an oven or on hot ashes)	action	1	nutuba
+scrape	action	1	gunago
+milk (an animal)	action	2	engan
+button (on clothes; also a push-button)	thing	1	buguye
+floor (the surface walked on)	thing	2	ninban
+pound (in a mortar)	action	1	yilale
+mat (woven, for sitting or sleeping)	thing	1	waniki
+twist, wring	action	1	yufeyu
+chase, pursue	motion	1	nugaya
+dare	mind	1	negawi
+murder (kill on purpose, unlawfully)	action	1	osayi
+parrot	animal	1	tewoso
+cockroach	animal	1	molawe
+pepper (the spice)	thing	1	sosope
+cotton (plant and cloth)	nature	1	newupi
+candle	thing	1	ligemu
+tobacco	loan	1	tabaku
+mattress	thing	1	puwiyu
+calendar (the object)	loan	1	kalendalu
+steam	nature	1	fufoma
+swallow (food, drink)	action	1	gakabe
+flour	thing	1	fedina
+harvest	action	1	mekega
+bend	action	1	losidu
+fold	action	1	bapuma
+stretch	action	1	yinifu
+hang, hang up	action	1	witowa
+mad, crazy	mind	1	wumiso
+refuse, say no to	sense	1	sowimo
+stranger, a person one does not know	people	1	nadowo
