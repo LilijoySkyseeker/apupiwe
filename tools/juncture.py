@@ -30,6 +30,7 @@ for d in digits:  # 1
 
 # known exceptions (author, 2026-11-19): the loan denu "gene" after the digit de, with no "at" or nun "and" between:
 # the misheard sequence is nonsense ("house gene city"), so context repairs it, and gene is rare
+# Provisional: remove if tests/loans-adapted-02 re-adapts gene (author, 2026-11-19)
 KNOWN = {"digit+word: DE no ~ gene denu", "digit+word: DE nun ~ gene denu"}
 
 for f, gl in gforms.items():  # 3
