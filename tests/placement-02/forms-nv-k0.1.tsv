@@ -1,0 +1,1560 @@
+concept	old form	new form	field	tier	route
+person	ewo	ewo	people	5	root
+child	tiwu	tiwu	people	4	root
+man, male	lowu	lowu	people	3	root
+woman, female	futa	futa	people	3	root
+friend	sonu	sonu	people	3	root
+family	yonyo	yonyo	people	2	root
+mother	mole	mole	people	3	root
+father	wede	sise	people	3	root
+name	suso	dafo	people	3	root
+group	funti	loso	people	2	root
+enemy	biton	biton	people	2	root
+body	gawo	gawo	body	3	root
+head	lukan	tefu	body	3	root
+eye	funo	funo	body	3	root
+ear	wisa	wisa	body	2	root
+nose	danki	basa	body	2	root
+tooth	fonma	fonma	body	2	root
+tongue	lisun	lisun	body	1	root
+hair	sonfa	sonfa	body	2	root
+hand	kiti	kiti	body	4	root
+foot	pifo	mose	body	3	root
+leg	bendo	bendo	body	2	root
+heart	mala	neyo	body	3	root
+blood	makon	tansi	body	2	root
+bone	gipo	lipo	body	2	root
+skin	unne	unne	body	2	root
+back, of the body; behind	nebe	nebe	body	2	root
+belly	suyon	molata	body	1	root
+water	osa	osa	nature	5	root
+fire	lumi	wusu	nature	3	root
+ground, earth or soil	fowo	fowo	nature	3	root
+stone	lutu	pofu	nature	3	root
+sky	yaye	yaye	nature	2	root
+sun	giwe	teye	nature	3	root
+month	dunan	dunan	time	2	root
+star	uwan	uwan	nature	2	root
+rain	gegi	gegi	nature	3	root
+wind	gulo	gulo	nature	2	root
+tree	gala	gala	nature	3	root
+leaf	wonin	pobewo	nature	1	root
+wood, the material	kima	kima	nature	2	root
+sea	puya	puya	nature	2	root
+river	yolan	yolan	nature	2	root
+mountain	genne	wati	nature	2	root
+sand	digan	digan	nature	1	root
+smoke	penso	penso	nature	1	root
+cloud	lanba	pegisu	nature	1	root
+light, brightness	wino	wino	nature	3	root
+storm	lapo	tadan	nature	2	root
+snow	binso	binso	nature	1	root
+ice	nokun	kukufe	nature	1	root
+salt	bunwu	bunwu	nature	1	root
+ash	sulen	gukesu	nature	1	root
+plant, vegetation	pinfe	pinfe	nature	2	root
+animal	noso	nade	animal	3	root
+dog	totu	dipe	animal	3	root
+bird	lodi	lodi	animal	3	root
+fish, the animal	woga	sose	animal	3	root
+horse	anbo	anbo	animal	2	root
+cow	dunsa	dunsa	animal	1	root
+snake	dinbu	dinbu	animal	1	root
+insect	sunni	sunni	animal	1	root
+egg	tika	tika	animal	2	root
+wing	yunbi	yunbi	animal	1	root
+tail	kenlo	kenlo	animal	1	root
+meat	fuyu	fuyu	animal	2	root
+house, home	guyi	guyi	thing	4	root
+door	beya	beya	thing	2	root
+food	pasu	pasu	thing	4	root
+tool	yetu	yetu	thing	2	root
+rope	tenbe	tenbe	thing	1	root
+boat	binnu	binnu	thing	2	root
+cart	siwa	siwa	thing	2	root
+cloth	demi	manya	thing	2	root
+money	nimo	pete	thing	3	root
+book	ingo	ingo	thing	2	root
+weapon	botan	botan	thing	2	root
+bed	soti	soti	thing	2	root
+cup	ladon	owayo	thing	1	root
+thing	musu	nawa	thing	5	root
+day (24 hours)	dili	dili	time	4	root
+night	yami	yami	time	3	root
+time, a span or a point (not an occasion)	muyi	fipa	time	4	root
+morning	leso	leso	time	2	root
+evening	kegin	tetodo	time	1	root
+moment	foke	foke	time	2	root
+inside	bese	bese	space	3	root
+outside	aban	aban	space	2	root
+above	bige	bige	space	3	root
+below	deba	tafa	space	3	root
+front	sinye	tedo	space	2	root
+near	gelu	gelu	space	3	root
+far	lini	lini	space	3	root
+left, the side	funbe	sida	space	2	root
+right, the side	nata	nata	space	2	root
+road	sola	sola	space	3	root
+many	feli	feli	size	4	root
+few	uyo	uyo	size	3	root
+big	kudu	pulu	size	4	root
+small	meli	meli	size	4	root
+long	netu	netu	size	3	root
+short, not long	eten	eten	size	2	root
+wide	tugan	tugan	size	1	root
+heavy	gogo	gogo	size	2	root
+light, not heavy	gamun	gamun	size	1	root
+thick	woten	fikagi	size	1	root
+full	kete	gene	size	2	root
+empty	tapun	tapun	size	2	root
+half	timon	timon	size	2	root
+whole	minwe	minwe	size	2	root
+good	upe	upe	quality	5	root
+bad	yomo	yomo	quality	4	root
+new	duwa	duwa	quality	3	root
+old, aged or worn	pani	pani	quality	3	root
+true	feko	feko	quality	3	root
+same	kige	kige	quality	3	root
+other	eni	eni	quality	4	root
+hot	tikun	tikun	quality	2	root
+cold, not hot	weki	yayon	quality	2	root
+wet	wulon	wulon	quality	1	root
+dry	kilan	kilan	quality	1	root
+hard, not soft	gufu	gufu	quality	2	root
+soft	tutin	tutin	quality	1	root
+sharp	tungi	tungi	quality	1	root
+fast, quick	yobe	yobe	quality	2	root
+slow	gake	gake	quality	2	root
+strong	konke	konke	quality	2	root
+weak	nensi	nensi	quality	1	root
+clean	inan	inan	quality	1	root
+dirty	bodu	bodu	quality	1	root
+beautiful	sesa	wiwa	quality	2	root
+important	bawe	bawe	quality	2	root
+easy	bunle	bunle	quality	2	root
+difficult	gofa	gofa	quality	2	root
+ready	wonwe	wonwe	quality	2	root
+sick	simi	simi	quality	2	root
+dead	fafin	fafin	quality	2	root
+black	tago	tago	color	2	root
+white	pinda	pinda	color	2	root
+red	wiwi	wiwi	color	2	root
+green	gisu	tesaga	color	1	root
+yellow	bilun	bilun	color	1	root
+blue	deta	nabupi	color	1	root
+think	pume	pume	mind	5	root
+know	lugo	yefi	mind	5	root
+want	momu	momu	mind	5	root
+feel	feme	feme	mind	4	root
+like, enjoy	tana	tana	mind	4	root
+fear	nuta	nuta	mind	3	root
+hope	ganin	ganin	mind	2	root
+remember	imu	imu	mind	3	root
+forget	yakin	yakin	mind	2	root
+learn	yesa	yesa	mind	3	root
+understand	lafi	yuse	mind	3	root
+mean, signify	yofu	yofu	mind	3	root
+choose	waka	waka	mind	2	root
+need (to)	wupi	wupi	mind	4	root
+must, have to	keya	dakun	mind	3	root
+try	walo	walo	mind	3	root
+happy	sogi	sogi	mind	3	root
+angry	bonko	bonko	mind	2	root
+pain	wekun	wenten	mind	2	root
+see	nagu	nagu	sense	5	root
+hear	nulu	nulu	sense	4	root
+say	oyi	oyi	sense	5	root
+tell	iko	iko	sense	4	root
+ask (a question)	mido	mido	sense	3	root
+talk	kegu	yiso	sense	3	root
+language	apu	apu	sense	4	root
+call, phone or call to	yebin	yebin	sense	2	root
+show	wuye	wuye	sense	3	root
+look, look at	miya	miya	sense	3	root
+listen	doma	yinno	sense	2	root
+sing	yuyun	yuyun	sense	1	root
+write	tusi	tusi	sense	2	root
+read	lilu	lilu	sense	2	root
+laugh	bubo	bubo	sense	2	root
+cry, weep	nowa	tuke	sense	2	root
+go	isi	isi	motion	5	root
+come	obu	obu	motion	5	root
+move	kobi	kobi	motion	3	root
+walk	niba	fupu	motion	2	root
+run, on foot	gabe	gabe	motion	3	root
+fly, move through the air	bina	bina	motion	2	root
+swim	lonfe	lonfe	motion	1	root
+fall, drop down	dosi	dosi	motion	2	root
+stand	kolu	befo	motion	3	root
+lie, lie down	anle	anle	motion	2	root
+enter	inwa	inwa	motion	2	root
+leave, go away from	kusa	kusa	motion	3	root
+return	sigo	sigo	motion	3	root
+arrive	liwon	liwon	motion	2	root
+follow	lefan	lefan	motion	2	root
+carry	dinyo	dinyo	motion	2	root
+push	dandi	nuseyi	motion	1	root
+pull	nunya	nunya	motion	1	root
+throw	gitin	fugoli	motion	1	root
+turn, rotate or turn around	duko	duko	motion	2	root
+stop	bamo	bamo	motion	3	root
+start	tuko	fifen	motion	3	root
+wait	sefu	mewu	motion	3	root
+stay	piyi	nemi	motion	3	root
+do; make	muge	nufi	action	5	root
+have, possess	ibe	ibe	action	5	root
+give	neke	neke	action	4	root
+take	yidu	yidu	action	4	root
+get, obtain	dunu	dunu	action	3	root
+put	yaga	yaga	action	3	root
+hold	yonnu	yonnu	action	2	root
+use	bone	bone	action	3	root
+find	geno	geno	action	3	root
+lose, misplace	agi	agi	action	2	root
+protect	kuwi	kuwi	action	2	root
+open	benbi	benbi	action	2	root
+close, shut	tapi	tapi	action	2	root
+cut	fonsu	fonsu	action	2	root
+hit	payon	payon	action	2	root
+eat	nawi	nawi	action	4	root
+drink	koye	koye	action	3	root
+sleep	wopo	kipu	action	3	root
+wake	unda	unda	action	2	root
+work, labour; of a machine, function	doku	doku	action	4	root
+play, for fun	luse	tula	action	3	root
+help	yema	yema	action	4	root
+fight	migi	migi	action	2	root
+die	kono	kono	action	3	root
+live, be alive, dwell; life	nume	nume	action	4	root
+grow	guge	guge	action	2	root
+burn	onti	onti	action	2	root
+buy	bika	bika	action	2	root
+sell	koda	koda	action	2	root
+pay	unfu	unfu	action	2	root
+wash	pensi	pensi	action	1	root
+cook	siten	siten	action	2	root
+wear	yunko	yunko	action	2	root
+hide	mibun	mibun	action	2	root
+change, make or become different	kubo	kubo	action	3	root
+happen	muwo	moya	action	4	root
+win	yiyin	yiyin	action	2	root
+way, method	lite	lite	abstract	3	root
+kind, type	niki	foso	abstract	3	root
+reason	ukun	ukun	abstract	2	root
+problem	batu	batu	abstract	3	root
+idea	gason	finen	abstract	2	root
+story	weyu	punye	abstract	2	root
+law	wabun	wabun	abstract	2	root
+war	pinpu	pinpu	abstract	1	root
+peace	bonwi	bonwi	abstract	1	root
+game	bufe	bufe	abstract	2	root
+power, control	lula	pukin	abstract	2	root
+magic	wase	wase	abstract	2	root
+god	nosen	fodatu	abstract	1	root
+today	mefa	mefa	time	4	root
+tomorrow	wuma	wula	time	4	root
+yesterday	afe	afe	time	3	root
+now	eda	eda	time	5	root
+become	lewe	lewe	action	4	root
+face	suku	yanwu	body	3	root
+apologise	sepi	wane	sense	3	root
+again	moti	moti	time	3	root
+teach	tofo	pela	mind	3	root
+lead, guide	wungu	wungu	action	2	root
+dream	sinun	sinun	mind	2	root
+dark	buda	buda	quality	2	root
+wall	senmo	senmo	thing	2	root
+calm	fanse	naton	mind	2	root
+free, not held or controlled	enpa	enpa	quality	2	root
+glass, the material	degun	yisufu	thing	1	root
+answer	febo	febo	sense	3	root
+system	yile	yile	thing	3	root
+offend	yenwu	inson	mind	2	root
+panic	banga	banga	mind	2	root
+number	wifu	wifu	abstract	3	root
+bag	yufa	yufa	thing	2	root
+paper	mabo	moben	thing	2	root
+lock	udin	udin	action	2	root
+smart	gole	gole	mind	2	root
+watch, timepiece	aya	aya	time	4	root
+phone	liga	nuwo	thing	3	root
+card	mise	mise	thing	2	root
+bus	ensu	ensu	thing	2	root
+dollar	dolalu	dolalu	loan	3	kept loan
+POINT	mimi	minmin	number	3	root
+MINUS	guti	nonmon	number	3	root
+mouth	fade	fade	body	3	root
+year	fawu	fawu	time	3	root
+place	kemu	yuwi	space	4	root
+sad	bayi	bayi	mind	2	root
+sit	goyu	goyu	motion	3	root
+break	alun	alun	action	2	root
+kill	omen	omen	action	2	root
+build	selo	senfu	action	2	root
+disgust	bebu	bebu	mind	2	root
+car	tale	tale	thing	3	root
+POWER	unun	unun	number	2	root
+thank	lota	lota	sense	3	root
+rent, pay to use	sanwa	sanwa	action	2	root
+agree	tayu	tayu	mind	3	root
+send	sege	fasi	action	3	root
+end	fugi	fugi	time	3	root
+allow	efon	efon	action	3	root
+sibling	faba	faba	people	3	root
+spouse	ofin	ofin	people	3	root
+arm	inyi	inyi	body	3	root
+north	soto	soto	space	3	root
+south	monna	guka	space	3	root
+east	anyu	anyu	space	3	root
+west	munke	munke	space	3	root
+breast	egu	egu	body	4	root
+neck	mogo	mogo	body	4	root
+liver	gudu	gudu	body	4	root
+knee	leyi	leyi	body	4	root
+grass	tunmu	tunmu	nature	3	root
+feather	suba	pata	animal	3	root
+root, of a plant	yinki	yinki	nature	3	root
+spit	kefa	fimo	action	3	root
+flower	meyen	meyen	nature	3	root
+louse	akan	akan	animal	3	root
+nail (of a finger or toe), claw	tolin	fofi	body	3	root
+smell, sense or give off an odour	kanko	kanko	sense	3	root
+tie, fasten with a knot	manfu	manfu	action	3	root
+vomit	gabu	gabu	action	3	root
+dust	awin	awin	nature	3	root
+throat	muban	popo	body	3	root
+fat, body fat	gimen	dila	body	3	root
+bark, of a tree	tase	tase	nature	3	root
+sweat	tiwe	tiwe	body	3	root
+thin	gunmo	fano	size	3	root
+blow, of air	nanyo	yede	action	3	root
+finger	linma	linma	body	3	root
+navel	wuwu	wuwu	body	3	root
+thunder	seyun	dame	nature	3	root
+cough	dowin	dowin	action	3	root
+rotten	yuson	yuson	quality	3	root
+urinate	tibin	tibin	action	3	root
+lung	badin	badin	body	3	root
+shade, shadow from light	situ	situ	nature	3	root
+breathe	togun	soyo	action	3	root
+straight	fongo	fongo	quality	3	root
+suck	maman	kise	action	3	root
+salty	lage	lolo	taste	3	root
+seed	yikan	yikan	nature	2	root
+milk	tunlo	tunlo	thing	2	root
+bitter	finlu	finlu	taste	2	root
+ripe	bubin	bubin	quality	2	root
+penis	wento	wento	body	2	root
+blunt	linfa	linfa	quality	2	root
+defecate	desin	sunpe	action	2	root
+round	kowan	kowan	quality	2	root
+brain	lemon	lemon	body	2	root
+sweet	sinta	nusan	taste	2	root
+sneeze	tinne	tinne	action	2	root
+horn	yansi	yansi	animal	2	root
+smooth	windi	windi	quality	2	root
+lip	gonge	gonge	body	2	root
+touch	sanne	sanne	sense	2	root
+yawn	ganpa	ganpa	action	2	root
+crush	monpa	manma	action	2	root
+raw	bewon	bewon	quality	2	root
+deep	lawan	ginmu	size	2	root
+ant	tonde	tonde	animal	2	root
+testicles	bosun	bosun	body	2	root
+narrow	banlu	banlu	size	2	root
+buttocks	nunfo	nunfo	body	2	root
+sour	tufun	tufun	taste	2	root
+flat, level	mawun	nontu	quality	2	root
+crooked	ginda	ginda	quality	2	root
+correct	denku	denku	quality	2	root
+snore	nenmu	nenmu	action	2	root
+quiet	mange	mange	quality	2	root
+young	loyen	loyen	quality	2	root
+taste	tenmi	tenmi	sense	2	root
+toe	gonmi	gonmi	body	2	root
+vulva	kedon	mipan	body	2	root
+side	sanfi	sanfi	space	2	root
+rough	nilen	kentu	quality	2	root
+loud	dibon	dibon	quality	2	root
+ugly	lanli	lanli	quality	2	root
+shallow	lante	lante	size	2	root
+low	linku	linku	space	2	root
+fart	paben	paben	action	2	root
+mosquito	gonte	gonte	animal	2	root
+between	lifin	lifin	space	2	root
+wrong	gagan	gagan	quality	2	root
+dig	wenfe	wenfe	action	2	root
+shoulder	sonyu	sonyu	body	2	root
+fruit	tanun	tanun	nature	2	root
+air	wunta	wunta	nature	2	root
+fog	baken	baken	nature	2	root
+lightning	mufin	wondu	nature	2	root
+lake	nenwa	nenwa	nature	2	root
+roof	kuwun	kuwun	thing	2	root
+climb	falan	falan	motion	2	root
+split	buyan	buyan	action	2	root
+chew	sofen	sofen	action	2	root
+squeeze	donbo	senfen	action	2	root
+scratch	sumin	teken	action	2	root
+swell	tingu	tingu	action	2	root
+stab	kunwa	kunwa	action	2	root
+steal	bunsi	bunsi	action	2	root
+hunt	fesun	fesun	action	2	root
+shoot	onlo	onlo	action	2	root
+flow	magan	fuyen	motion	2	root
+count	sunbu	sunbu	mind	2	root
+chicken	yiban	yiban	animal	2	root
+intestines	gusen	gusen	body	2	root
+armpit	senke	senke	body	2	root
+basket	kanga	kanga	thing	2	root
+clothes	lonne	lonne	thing	2	root
+goat	elen	elen	animal	2	root
+tuber	tengi	tengi	nature	2	root
+rice	yegon	yegon	nature	2	root
+field, open land	sekan	fakon	nature	2	root
+boil	binla	binla	action	2	root
+reach	wonku	wonku	motion	2	root
+gather, bring or come together	fanmu	nonyi	action	2	root
+internet	intelunetu	intelunetu	loan	2	kept loan
+city	oton	oton	space	3	root
+bread	sowe	sowe	thing	3	root
+onion	lengu	lengu	nature	2	root
+worm	enna	enna	animal	3	root
+grind	inke	inke	action	3	root
+week	nelon	nelon	time	3	root
+6	ufo	yunmun	number	4	root
+7	oma	oma	number	4	root
+8	kefi	manwon	number	4	root
+9	mape	wonlin	number	4	root
+100	loki	loki	number	4	root
+1000	munno	munno	number	3	root
+10^6	tonen	wonfon	number	3	root
+10^9	siwin	siwin	number	2	root
+hour		pewi	time	4	root
+minute, of time		silu	time	4	root
+second, of time		doga	time	3	root
+kilometre	kilometulu	kilometulu	loan	2	kept loan
+can, be able	lenu	lenu	mind	5	root
+bite	lasu	fiyi	action	4	root
+high	tisan	tisan	space	2	root
+10	yawu	onwun	number	4	root
+fly, the insect	gekon	gekon	animal	2	root
+occasion, a time (three times)	gimu	tito	time	3	root
+noon, midday	minfi	minfi	time	3	root
+afternoon	duwun	duwun	time	3	root
+suddenly	finbi	finbi	time	2	root
+late, after the expected time	yodun	yodun	time	3	root
+early, before the expected time	ganna	ganna	time	3	root
+trust, rely on	gewan	gewan	mind	3	root
+love	wigen	wigen	mind	3	root
+miss, feel the absence of	sanku	sanku	mind	2	root
+disappointed	kinbo	kinbo	mind	2	root
+hungry	monyu	meti	quality	3	root
+tired	fadun	fadun	quality	3	root
+strange, odd	lenya	lenya	quality	2	root
+safe, not in danger	sonli	sonli	quality	2	root
+expensive	unwi	unwi	quality	3	root
+cheap, low in price	tanbu	tanbu	quality	3	root
+room, of a building	fudon	fudon	thing	3	root
+box, container	nansa	kinmen	thing	2	root
+storey, floor level of a building	sison	sison	thing	2	root
+oil, the liquid	yunen	yunen	thing	2	root
+marry, wedding	bedan	bedan	action	2	root
+a right, entitlement	sogan	sogan	abstract	2	root
+complain	tayin	tayin	sense	2	root
+email	imeyilu	imeyilu	loan	3	kept loan
+photo		kifa	thing	3	root
+degree (°)		sanlo	abstract	2	root
+battery	batali	batali	loan	2	kept loan
+euro	yulo	yulo	loan	2	kept loan
+yuan	yuwan	yuwan	loan	2	kept loan
+rupee	lupiya	lupiya	loan	2	kept loan
+police		yoni	people	3	root
+seek, search for	ditun	ditun	action	3	root
+remove, erase	nuton	nuton	action	3	root
+share, let others have too	peton	peton	action	3	root
+connect, join	penyu	penyu	action	3	root
+add, put in more	ginni	ginni	action	3	root
+check, verify	loban	loban	action	3	root
+shake, vibrate	susin	pangin	motion	2	root
+sound, noise	ninge	ninge	nature	3	root
+page, sheet	lunyu	lunyu	thing	3	root
+key (for a lock)	tinli	tinli	thing	3	root
+private, not for others	kunsu	kunsu	quality	2	root
+garbage, trash	bekin	bekin	thing	2	root
+copy, make the same again	gayen	gayen	action	3	root
+adjust, set	finsa	finsa	action	2	root
+document, file	kemin	wanan	thing	3	root
+camera	kamela	kamela	loan	2	kept loan
+enough, as much as needed	tonya	tonya	abstract	3	root
+respect, honour	dundi	dundi	people	3	root
+country, nation	gigin	yita	people	3	root
+rest, take a break	yenbo	naso	action	3	root
+fair, just	kidun	kidun	quality	3	root
+oppose, be against	ninsu	ninsu	action	3	root
+metre	metulu	metulu	loan	2	kept loan
+centimetre	sentimetulu	sentimetulu	loan	2	kept loan
+millimetre	milimetulu	milimetulu	loan	2	kept loan
+gram	gulamu	gulamu	loan	2	kept loan
+kilogram	kilogulamu	kilogulamu	loan	2	kept loan
+litre	litulu	litulu	loan	2	kept loan
+kilogram, everyday short form	kilo	kilo	loan	2	kept loan
+.com (read aloud)	komu	komu	loan	1	kept loan
+hashtag	asutagu	asutagu	loan	1	kept loan
+duck		wusin	animal	2	root
+mouse (the animal; also the computer mouse)		nensa	animal	2	root
+sheep		panye	animal	2	root
+bicycle		nunse	thing	2	root
+doll		tunta	thing	2	root
+ball (round toy)		lefu	thing	3	root
+ice cream		santa	thing	2	root
+cake		posen	thing	2	root
+soup		denga	thing	2	root
+apple		wenle	nature	2	root
+chocolate	tokolatu	tokolatu	loan	2	loan
+hat		yonwa	thing	2	root
+shoe		tanwi	thing	2	root
+sock		moyun	thing	2	root
+kitchen		wugan	thing	2	root
+window		fefan	thing	2	root
+chair		nenbo	thing	2	root
+spoon		fenwa	thing	2	root
+bottle		gopun	thing	2	root
+knife		wiyon	thing	2	root
+soap		ginye	thing	2	root
+pillow		yanpe	thing	2	root
+doctor	dokutolu	dokutolu	loan	4	loan
+monkey		sonen	animal	2	root
+elephant		kansa	animal	2	root
+butterfly		kupan	animal	2	root
+lion		dente	animal	2	root
+frog		fegen	animal	2	root
+train		gesi	thing	3	root
+truck		taten	thing	2	root
+airplane		lendi	thing	2	root
+orange (the fruit)		kipen	nature	2	root
+banana		tonfi	nature	2	root
+trousers		tenin	thing	2	root
+table		somon	thing	2	root
+blanket		dimun	thing	2	root
+baby		yuya	people	3	root
+jump		siman	motion	2	root
+cat		minsin	animal	2	root
+tiger		fiyan	animal	2	root
+motorcycle	moto	moto	loan	2	loan
+potato		tonto	nature	2	root
+coat		kannu	thing	2	root
+cheek		tindon	body	2	root
+bathroom		sosan	thing	2	root
+television	telebisuyon	telebisuyon	loan	3	loan
+scissors		kunin	thing	2	root
+medicine		kami	body	3	root
+towel		sunso	thing	2	root
+dance		nesen	action	3	root
+bee		doten	animal	2	root
+pig		kenwe	animal	2	root
+bear (the animal)		sunwo	animal	2	root
+rabbit		koyon	animal	2	root
+balloon		figun	thing	2	root
+bucket		nugin	thing	2	root
+juice		lunla	thing	2	root
+cheese		finto	thing	2	root
+coffee	kafe	kafe	loan	3	loan
+carrot		powen	nature	2	root
+sweater	suwetalu	suwetalu	loan	2	loan
+pajamas	pidama	pidama	loan	2	loan
+chin		enpin	body	2	root
+fridge		yitin	thing	2	root
+stairs		nalin	thing	2	root
+radio	ladiyo	ladiyo	loan	2	loan
+glasses, spectacles		konpu	thing	2	root
+fork		fonbe	thing	2	root
+hammer		lokon	thing	2	root
+shop		wenga	space	2	root
+school		yiwo	space	4	root
+swing (playground seat)		gonso	thing	2	root
+helicopter	elikoputelu	elikoputelu	loan	2	loan
+tractor	tulakutalu	tulakutalu	loan	2	loan
+candy		fisin	thing	2	root
+underwear		munfa	thing	2	root
+scarf		sensa	thing	2	root
+dress (the garment)		kafon	thing	2	root
+shirt		nenle	thing	2	root
+plate, dish		punpi	thing	2	root
+park		lansu	space	2	root
+slide (playground slide)		ganyo	thing	2	root
+slide, slip (move smoothly over a surface)		teyon	motion	2	root
+teacher		kaku	people	3	root
+turtle		kaman	animal	2	root
+toy		waton	thing	2	root
+bean		ninlo	nature	2	root
+slipper		tufen	thing	2	root
+picture		wabi	thing	3	root
+wolf		sanfan	animal	2	root
+butter		dayan	thing	2	root
+lamp	lanpa	lanpa	loan	2	loan
+brush		bannen	thing	2	root
+draw (make a picture)		lilen	action	2	root
+kick		lekun	action	2	root
+kiss		denwo	action	2	root
+penguin	penguwin	penguwin	loan	2	loan
+pea		sonye	nature	2	root
+tomato	tomate	tomate	loan	2	loan
+nut		godin	nature	2	root
+comb		wonsi	thing	2	root
+donkey		monan	animal	2	root
+grape		tanke	nature	2	root
+garden		yalen	space	2	root
+strawberry		lunmi	nature	2	root
+tea		wenki	thing	2	root
+shower		manse	thing	2	root
+tickle		menta	action	2	root
+paint		denfan	action	2	root
+broom		nafen	thing	2	root
+owl		dabin	animal	2	root
+squirrel		kunfe	animal	2	root
+block (toy building block)		yinfu	thing	2	root
+block, obstruct		yonta	action	2	root
+gift		yuku	thing	3	root
+garage	galasu	galasu	loan	2	loan
+sink, basin		fufan	action	2	root
+forest		senwi	nature	2	root
+beach		lonpo	nature	2	root
+drive (a vehicle)		tinya	action	2	root
+hug		tonni	action	2	root
+catch, capture		gemin	action	2	root
+spade, shovel		finnin	thing	2	root
+cookie	bisukuwitu	bisukuwitu	loan	2	loan
+shorts		ninti	thing	2	root
+belt		finde	thing	2	root
+living room		polon	thing	2	root
+flag		yasun	thing	2	root
+cover, lid; to cover		yunpan	action	2	root
+bring		nano	motion	4	root
+goose		megun	animal	2	root
+glove		kuson	thing	2	root
+bowl		nulan	thing	2	root
+drawer		winme	thing	2	root
+thirst		kande	quality	2	root
+skirt		fonmu	thing	2	root
+oven		lepen	thing	2	root
+party (social gathering, celebration)		dati	people	3	root
+political party		tinno	people	2	root
+crocodile		sifun	animal	2	root
+sandwich	sanduwitu	sanduwitu	loan	2	loan
+necklace		kiyin	thing	2	root
+ladder		sanyi	thing	2	root
+lick		sanso	action	2	root
+pear		monin	nature	2	root
+pizza	pisa	pisa	loan	2	loan
+zipper		mintun	thing	2	root
+hurry		wenmo	motion	2	root
+deer		wonya	animal	2	root
+tissue		yewen	thing	2	root
+stove		sunka	thing	2	root
+wipe		telun	action	2	root
+pen		tinwan	thing	2	root
+wardrobe		lonsa	thing	2	root
+glue		dalon	thing	2	root
+pour		witan	action	2	root
+sweep		fotin	action	2	root
+repair		kenka	action	2	root
+clap		yosin	action	2	root
+pleasant		ninwu	quality	2	root
+boot		dunwe	thing	2	root
+cute		yeyan	quality	2	root
+porridge		manto	thing	2	root
+sauce	sosu	sosu	loan	2	loan
+cucumber		mofan	nature	2	root
+sugar	sukalu	sukalu	loan	2	loan
+pot, cooking pot		senyun	thing	2	root
+tear, teardrop		yipun	body	2	root
+tear, rip		tanmo	action	2	root
+naughty		yinlin	quality	2	root
+melon		yuken	nature	2	root
+spill		fukon	action	2	root
+watermelon		ganwe	nature	2	root
+soda		kenpi	thing	2	root
+spider		minfo	animal	2	root
+mirror		sansen	thing	2	root
+smile		gudan	sense	2	root
+last, final		ode	abstract	4	root
+maize		duyon	nature	2	root
+film		dofe	thing	3	root
+fox		yinya	animal	2	root
+toast	tosutu	tosutu	loan	2	loan
+balcony	balukon	balukon	loan	2	loan
+carpet		puman	thing	2	root
+gas station		koten	space	2	root
+yard, courtyard		lisan	thing	2	root
+knock		senle	action	2	root
+ride		dinwi	motion	2	root
+bubble		konnan	thing	2	root
+circus	silukasu	silukasu	loan	2	loan
+T-shirt	tisalutu	tisalutu	loan	2	loan
+hose		sunkin	thing	2	root
+world		somi	space	4	root
+question		sifi	sense	4	root
+government		bisu	people	4	root
+news		fedu	people	4	root
+song		lowe	sense	4	root
+music		wuto	abstract	3	root
+history		wada	abstract	3	root
+team		memo	people	3	root
+company		leba	abstract	4	root
+different		fuse	quality	4	root
+king		mine	people	4	root
+hospital		poli	body	3	root
+state, polity		tubi	people	4	root
+plan		mosu	mind	4	root
+birth		kawa	action	3	root
+date (romantic meeting)		ginbin	people	2	root
+decide		enlu	mind	3	root
+university		intu	people	3	root
+education		yanu	people	3	root
+science		digu	abstract	3	root
+situation		tedi	abstract	3	root
+video	bideyo	bideyo	loan	3	loan
+special		sofon	quality	3	root
+voice		biwen	sense	3	root
+next		wayu	time	4	root
+member		nonda	people	3	root
+leader		wiwun	people	3	root
+bank (financial)	banki	banki	loan	3	loan
+service		kungo	people	3	root
+direction		dumin	space	3	root
+office	ofisu	ofisu	loan	3	loan
+explain		munde	sense	3	root
+line, stripe, row		pekan	space	3	root
+mind, intellect		yepo	mind	4	root
+politics		dikin	people	3	root
+price		bafan	abstract	3	root
+report		nuba	sense	4	root
+general, overall		temu	quality	3	root
+future		pinwo	time	3	root
+case, instance		tenma	abstract	3	root
+case (legal), lawsuit		senkun	people	2	root
+election		kifon	people	3	root
+promise		onse	sense	3	root
+society		famen	people	3	root
+program (software; broadcast programme)	pulogulamu	pulogulamu	loan	3	loan
+support		bago	action	3	root
+experience		gantu	mind	3	root
+letter, mail		kude	thing	3	root
+letter of the alphabet		sanmun	sense	2	root
+past		naman	time	3	root
+minister		tenpo	people	3	root
+gold		nonpe	nature	3	root
+technology	tekunolodi	tekunolodi	loan	3	loan
+attack		yowon	action	3	root
+computer	konpuyutalu	konpuyutalu	loan	3	loan
+position, posture, post		yunsu	space	3	root
+court (of law)		yangi	people	3	root
+health		sikan	body	3	root
+season		kakin	time	3	root
+visit		fondi	motion	3	root
+class (school group)		esan	people	3	root
+social class		nenwi	people	2	root
+soldier		pote	people	3	root
+level, degree		tuyin	abstract	3	root
+foreign		panla	quality	3	root
+culture		tefe	people	3	root
+village		winyu	space	3	root
+series		fega	abstract	3	root
+quality		ilon	abstract	3	root
+space, room to fit		kawun	space	3	root
+outer space		landan	nature	2	root
+committee		bogen	people	3	root
+art		konwo	abstract	3	root
+army		konme	people	3	root
+distance		sennu	space	3	root
+island		ginko	nature	3	root
+clear		nonka	quality	3	root
+organization		eyin	people	3	root
+market		dinsi	abstract	3	root
+prepare		fonan	action	3	root
+business		fuwe	abstract	4	root
+century		sokun	time	3	root
+economy		manpin	abstract	2	root
+nature		munyi	nature	3	root
+interest, curiosity		geta	mind	3	root
+interest (on money)		fentin	abstract	2	root
+weather		kanen	nature	2	root
+middle, centre		mendu	space	3	root
+message		wafo	sense	3	root
+accident		dali	abstract	3	root
+community		tesin	people	3	root
+process		sungon	abstract	2	root
+attention		dunma	mind	3	root
+value		tufa	abstract	3	root
+secret		menpe	abstract	3	root
+public		diyen	quality	3	root
+hotel	otelu	otelu	loan	3	loan
+candidate		guti	people	2	root
+serious		binfun	quality	2	root
+meeting		yanfa	people	3	root
+international		yemun	quality	3	root
+kingdom		winsen	people	2	root
+speech		yako	sense	4	root
+condition		yunte	abstract	3	root
+region		fenon	space	3	root
+building		yufin	thing	3	root
+union, alliance		kosi	people	3	root
+information		uli	thing	4	root
+religion		yaten	abstract	3	root
+lesson		kenden	people	2	root
+energy		mefin	thing	3	root
+form (format; a form to fill in)		tuwon	abstract	3	root
+province		wunbe	people	3	root
+real		punfo	quality	3	root
+danger		gewun	abstract	3	root
+official, civil servant		soyin	people	3	root
+vote		ninnan	action	2	root
+hero		sunmen	people	2	root
+communication		pingin	sense	2	root
+limit		panfo	abstract	3	root
+policy		denlan	people	2	root
+increase		mewan	action	3	root
+operation, undertaking		ninka	abstract	3	root
+doubt		miyu	mind	3	root
+translate		bunlan	sense	2	root
+create		falin	action	3	root
+republic		lungan	people	2	root
+sex		gonyan	body	2	root
+electricity		lenlun	thing	2	root
+actor		kinnun	people	2	root
+example		bowa	abstract	3	root
+sport		sunyan	people	2	root
+newspaper		angen	thing	2	root
+event		amon	abstract	3	root
+record, recording		fusun	sense	3	root
+rise, go up		disa	motion	3	root
+modern		suntun	quality	2	root
+expert		kenyan	people	2	root
+judge (person; to judge)		lansen	people	2	root
+planet			nature	2	loan candidate
+possible		beyun	quality	3	root
+machine	masina	masina	loan	3	loan
+industry		senban	abstract	2	root
+debt		sanwen	abstract	2	root
+president		dolun	people	3	root
+activity		daka	abstract	3	root
+test, exam		tiden	people	3	root
+address (postal or email)		kenlin	space	2	root
+map		punten	thing	2	root
+birthday		lindon	time	2	root
+threaten		lanmen	sense	2	root
+structure		kengun	abstract	2	root
+governor		sannan	people	2	root
+product		fonkan	abstract	2	root
+generation		senya	people	2	root
+origin, source		ense	abstract	3	root
+interview		winkun	sense	2	root
+goal, aim, purpose		dobo	mind	3	root
+period, era, interval		kuku	time	3	root
+race, contest of speed		tunyun	people	2	root
+race, ethnic group (social category)		sunsi	people	2	root
+data		damu	thing	3	root
+professor		nonden	people	2	root
+literature		dengen	abstract	2	root
+slave		kintan	people	2	root
+notice, become aware of		kenmon	sense	2	root
+alone		tewa	quality	3	root
+announce		denfin	sense	2	root
+spring (water source)		moluge	nature	1	root
+project		etun	abstract	3	root
+vehicle		sonlun	thing	2	root
+article (a written piece)		lontun	sense	2	root
+beer	biyalu	biyalu	loan	2	loan
+parliament		ginman	people	2	root
+code (computer code; a cipher)	kodu	kodu	loan	2	loan
+pressure		kinfin	abstract	2	root
+website	sayitu	sayitu	loan	2	loan
+democracy		santin	people	2	root
+unit (of measure)		dinnen	abstract	2	root
+scene (of a play or film)		nunnin	abstract	2	root
+style, manner		lanyin	abstract	2	root
+bomb	bonba	bonba	loan	2	loan
+sin		dundo	abstract	2	root
+sign, signal, mark		linbe	sense	3	root
+design	disayin	disayin	loan	2	loan
+bridge		munwan	space	2	root
+secretary		tonkin	people	2	root
+soul		wennun	abstract	2	root
+pregnant		ginten	body	2	root
+constitution		kanlon	people	2	root
+revolution		gongun	people	2	root
+theory		yanman	abstract	2	root
+chapter		enyon	sense	2	root
+subject, topic		tugu	abstract	3	root
+analyze		lunfun	mind	2	root
+network		ninkon	thing	2	root
+student		wawen	people	3	root
+appearance, look		nonbu	sense	3	root
+circle		kantan	space	2	root
+arrest		banson	action	2	root
+wine		anlan	thing	2	root
+match, contest		sunna	people	3	root
+match, matchstick		yanibe	thing	1	root
+station (train, bus)		yonfi	space	2	root
+iron (the metal)		yimen	nature	2	root
+silver		winyan	nature	2	root
+color		doye	color	3	root
+capital city		febin	people	3	root
+magazine		sanpon	thing	2	root
+captain	kaputan	kaputan	loan	2	loan
+luck		munson	abstract	2	root
+stage, phase		ginsan	abstract	2	root
+stage (theatre platform)		odomi	abstract	1	root
+honey		ninyin	thing	2	root
+react		yunyen	action	2	root
+size		tonlan	size	2	root
+model (simplified representation; fashion model)	modelu	modelu	loan	3	loan
+prove		pinyen	mind	2	root
+measure		siyon	action	2	root
+mathematics		finfon	abstract	2	root
+crisis		pandu	people	2	root
+step, pace		bidin	motion	3	root
+virus	bilusu	bilusu	loan	2	loan
+worker		lunsin	people	2	root
+pass, go past or through		lomin	motion	3	root
+role		wunman	abstract	2	root
+branch (of a tree)		fiwon	nature	2	root
+pray, worship		sonbin	action	2	root
+crime		guben	people	3	root
+travel		wunsan	motion	2	root
+ring (finger ring)		kinsun	thing	2	root
+pair, couple		wonken	number	2	root
+restaurant	lesutolan	lesutolan	loan	2	loan
+transfer		ganse	action	2	root
+palace		tongon	space	2	root
+direct, directly		getin	quality	2	root
+mayor		antun	people	2	root
+population		wenban	people	2	root
+corner		fontun	space	2	root
+detective		fenmun	people	2	root
+bullet		pankun	thing	2	root
+ministry		wenpu	people	2	root
+hall, large room		nonfin	thing	2	root
+ticket		tinsen	thing	2	root
+principle		yinton	abstract	2	root
+budget		kunton	abstract	2	root
+breakfast		fudofe	thing	1	root
+witness		lenan	people	2	root
+customer		banfe	people	2	root
+league (sports)	liga	liga	loan	2	loan
+serve		wupun	action	2	root
+temperature			nature	2	loan candidate
+brave		fasan	quality	2	root
+benefit		sonten	abstract	2	root
+standard, norm		dendun	abstract	2	root
+escape		siye	motion	3	root
+album	alubumu	alubumu	loan	1	loan
+demand		fentan	sense	2	root
+challenge		nugon	abstract	2	root
+shape		kuna	space	3	root
+tax		dunkun	abstract	2	root
+philosophy		datusa	abstract	1	root
+course (of study)		putun	people	2	root
+original		lodon	quality	2	root
+matter, affair, issue		sowu	abstract	3	root
+master, lord		anmi	people	3	root
+content (what is inside)		senmin	abstract	2	root
+profit		asin	abstract	2	root
+divide, division		bomun	action	3	root
+rich, wealthy		fonsa	quality	3	root
+channel (TV, radio)		penbon	thing	2	root
+cell (biological)		senyen	body	2	root
+major, main, chief		yefede	quality	1	root
+sentence (grammar)		penfa	sense	2	root
+identity		kunwen	people	2	root
+advertisement		binmon	abstract	2	root
+suit (the garment)		ginlon	thing	2	root
+bill, invoice		bunga	abstract	2	root
+appointment		duso	time	2	root
+regret		sunde	mind	2	root
+base, basis		nafun	abstract	3	root
+robot	lobotu	lobotu	loan	1	loan
+spirit (a being)		tesa	abstract	3	root
+joke		wiman	sense	2	root
+fund (money set aside)		gonfen	abstract	2	root
+view, scenery, perspective		tinte	sense	2	root
+desert		lenimu	nature	1	root
+skill		sensin	mind	2	root
+pound (the currency)	pawundu	pawundu	loan	1	loan
+cigarette	sigaletu	sigaletu	loan	1	loan
+praise		nenfun	sense	2	root
+continue		difo	action	3	root
+the press, news media		fonlen	people	2	root
+citizen		finnan	people	2	root
+club, society	kulabu	kulabu	loan	2	loan
+habit, routine		gosuye	mind	1	root
+childhood		tugegi	time	1	root
+title, heading		yawan	sense	2	root
+divorce		sogedo	people	1	root
+negative		tumese	quality	1	root
+compare		siwase	mind	1	root
+pocket		fifowo	thing	1	root
+character, personality		kokon	mind	2	root
+establish, found		yinwe	action	2	root
+expression (phrase; facial)		tifuli	sense	1	root
+job, occupation		bipi	abstract	4	root
+list		nuten	sense	3	root
+fresh		yiwuko	quality	1	root
+screen (display)		fowine	thing	1	root
+campaign		yegufa	people	1	root
+universe		tulen	nature	2	root
+define		begone	sense	1	root
+cancer		denlin	body	2	root
+arrange		sento	action	2	root
+sense (good sense; a sense organ)		bugun	mind	2	root
+score, points		wanopu	people	1	root
+imagine		fomita	mind	1	root
+holy person (saint, widened)		fasasa	people	1	root
+crown (worn by a monarch)		powiso	thing	1	root
+fault, flaw, defect		tonnun	abstract	2	root
+taxi	takusi	takusi	loan	1	loan
+wound, injury		dopan	body	2	root
+muscle		sotese	body	1	root
+pure		sanyon	quality	2	root
+gas (state of matter; fuel gas)	gasu	gasu	loan	2	loan
+tense, strained, nervous		mifona	mind	1	root
+supply		manlen	action	2	root
+bow, bend the body		melebi	action	1	root
+bow (the weapon)		nuyosi	thing	1	root
+effect, impact		peku	abstract	3	root
+adult		denme	people	2	root
+offering, sacrifice		temino	action	1	root
+expect		ninpen	mind	2	root
+museum		yenasa	space	1	root
+approach, come near		soyoba	motion	1	root
+comment		sonwan	sense	2	root
+invite		gefen	sense	2	root
+alcohol		gantin	thing	2	root
+discuss		ongan	sense	2	root
+professional		konpa	people	2	root
+prison		kansun	people	2	root
+element, component		yowufi	abstract	1	root
+invest		kugula	action	1	root
+novel (a long story)		wison	abstract	2	root
+poem		dofemi	abstract	1	root
+nurse		natefa	people	1	root
+engine, motor		mesatu	thing	1	root
+rose		menuti	nature	1	root
+wise		mengin	mind	2	root
+coin		fomono	abstract	1	root
+guest		sonfu	people	2	root
+care		wafin	action	3	root
+chemistry		yumeba	abstract	1	root
+patient, sick person (in care)		fobun	people	2	root
+patient, enduring		fenyo	mind	2	root
+worry		nenen	mind	3	root
+material, substance		tonyen	thing	2	root
+traffic		kufayi	thing	1	root
+consciousness		kisele	mind	1	root
+protest		mowame	action	1	root
+contribute		wusulu	action	1	root
+publish		yalote	sense	1	root
+poor		fenwen	quality	2	root
+raise, lift		benye	action	2	root
+guitar	gitalu	gitalu	loan	1	loan
+prisoner		ikimi	people	1	root
+proud		dusate	mind	1	root
+perform		mokoso	action	1	root
+gender		gatuku	people	1	root
+claim		dufon	sense	2	root
+hell		yanso	abstract	2	root
+guarantee		nekaso	sense	1	root
+terrorism		baweti	people	1	root
+airport		infan	thing	2	root
+exchange		mundun	action	2	root
+nerve		nekute	body	1	root
+virgin		siluta	body	1	root
+busy		fufino	quality	1	root
+hole		yanlo	space	2	root
+board, plank		fesuke	thing	1	root
+punish		wengon	action	2	root
+cross, go across		tanton	motion	2	root
+civilization		kinewi	people	1	root
+grain		yugani	nature	1	root
+metal		wumen	nature	2	root
+progress		yangon	abstract	2	root
+popular		motite	quality	1	root
+engineering		sisifi	abstract	1	root
+fail		katoya	action	1	root
+liquid		penne	nature	2	root
+needle		yetefu	thing	1	root
+plot (of a story)		sipego	abstract	1	root
+oxygen			nature	1	loan candidate
+charge (a battery)		losawi	thing	1	root
+throne		yegaki	thing	1	root
+climate		wufone	nature	1	root
+signature		yeyisi	sense	1	root
+essay		miwiwu	sense	1	root
+introduce		mimako	sense	1	root
+spy		siduyu	people	1	root
+positive		kogin	quality	2	root
+fever		tagime	body	1	root
+rape		difela	people	1	root
+wave (of water; wave a hand)		bansin	nature	2	root
+damage		tonwe	action	2	root
+wheel		fasolu	thing	1	root
+reward		botuwo	abstract	1	root
+border		inden	space	2	root
+poison		nabaye	body	1	root
+symptom		wiwafa	body	1	root
+loan (money lent)		uyugu	abstract	1	root
+reference		yusewu	sense	1	root
+opportunity		kimi	abstract	4	root
+wonder, an astonishing unexplained event (miracle is built: wonder of god)		yukiti	abstract	1	root
+cabinet (government)		fosema	people	1	root
+capacity		adita	size	1	root
+square (the shape)		dinpa	space	2	root
+square, plaza		finken	space	2	root
+shock		tafoni	mind	1	root
+angle		pofuga	space	1	root
+scholar		wulesi	people	1	root
+rare		liyike	quality	1	root
+mission		kosako	abstract	1	root
+trick, deceive		funiwa	action	1	root
+lawyer		goto	people	3	root
+appear		dune	motion	3	root
+steel		soseki	nature	1	root
+farm		dinowu	abstract	1	root
+essence, gist		sopume	abstract	1	root
+tower		neyeku	space	1	root
+strike (labour)		megido	abstract	1	root
+tip, gratuity		gelube	abstract	1	root
+religious leader (priest, widened)		pewuna	people	1	root
+servant		senwon	people	2	root
+lover, partner in love		yopofa	people	1	root
+surgery		pusuyo	body	1	root
+gene	denu	denu	loan	1	loan
+forehead		ganilu	body	1	root
+behave		liyaye	action	1	root
+evil spirit, demon, devil		kigan	abstract	2	root
+majority		bonyu	abstract	2	root
+average		unbon	number	2	root
+treasure		dagenu	abstract	1	root
+flood		loweku	nature	1	root
+former, ex-		bensan	quality	2	root
+vegetable		gepifi	nature	1	root
+continent		kibuto	space	1	root
+extreme		teyadi	quality	1	root
+diamond		kobili	nature	1	root
+presence		faweyu	abstract	1	root
+heaven, paradise		minyon	abstract	2	root
+shield		kilonu	thing	1	root
+edition		gakafi	sense	1	root
+menstruation		dimege	body	1	root
+balance		kafise	abstract	1	root
+pilot		tukunu	people	1	root
+corpse, dead body		yannin	body	2	root
+sword		nusun	thing	2	root
+investigate		wugo	mind	3	root
+invent		yisobe	action	1	root
+context		goketa	abstract	1	root
+messenger		babewe	people	1	root
+solve		liwin	mind	2	root
+camp		geson	space	2	root
+womb		migawi	body	1	root
+print		lebefo	action	1	root
+sum, total		mannun	number	2	root
+layer		buyati	space	1	root
+app, software application		kanbin	thing	2	root
+application, formal request		tonsun	sense	2	root
+bless, blessing		feluli	action	1	root
+missile		famame	thing	1	root
+broadcast		geyedo	thing	1	root
+factor		dayogi	abstract	1	root
+pole, post		lisuya	thing	1	root
+handle		negan	thing	2	root
+corruption		dogawe	people	1	root
+edge, rim		dayun	space	2	root
+dawn		gumaso	time	1	root
+believe; faith, belief		kabo	mind	3	root
+host (who receives guests)		wutewi	people	1	root
+fashion		nutaga	people	1	root
+relationship		tumo	people	3	root
+regular		yofomu	quality	1	root
+ceremony		asame	people	1	root
+amount		wungin	number	3	root
+place of worship (temple, widened)		yidiga	abstract	1	root
+grave		duntan	abstract	2	root
+spread		ginyun	action	2	root
+script		dofigo	sense	1	root
+innocent		tufapa	quality	1	root
+plastic	pulasutiku	pulasutiku	loan	1	loan
+volume (loudness; a book volume)		tawen	size	2	root
+giant		mikemo	people	1	root
+noble		yuwola	people	1	root
+fan, supporter		yapudo	people	1	root
+fan (cooling device)		melisa	thing	1	root
+plain, simple		dennon	quality	2	root
+plain (flat open land)		sowuko	nature	1	root
+credit		betile	abstract	1	root
+bar (place serving drinks)	balu	balu	loan	1	loan
+repeat		tanoke	action	1	root
+responsible		mowi	quality	3	root
+manage		tanfen	action	2	root
+release, let go		tenan	action	2	root
+department		mopa	abstract	3	root
+tradition		gadon	people	2	root
+experiment		solosi	abstract	1	root
+contract		yinfen	abstract	2	root
+exercise (physical)		punba	body	2	root
+countryside		yasan	space	2	root
+version		wafadu	abstract	1	root
+describe		kakidu	sense	1	root
+emergency		fonmin	abstract	2	root
+reform		mifiso	action	1	root
+insurance		yipugi	abstract	1	root
+perfect		mopun	quality	3	root
+joint (of the body)		numali	body	1	root
+rate (speed, ratio, rate of pay)		begeka	number	1	root
+mass (physical quantity)			nature	1	loan candidate
+mention		nasi	sense	2	root
+cinema	sinema	sinema	loan	1	loan
+fence		yamowi	thing	1	root
+blind		somesu	quality	1	root
+available		etoka	quality	1	root
+fool		yingun	people	2	root
+drunk		sikumo	quality	1	root
+fuel (petrol, gasoline)		fibesi	thing	1	root
+competition		yeyu	people	3	root
+excuse		teban	sense	2	root
+satisfied		moguno	mind	1	root
+detail		pemiki	abstract	1	root
+ambassador		dadana	people	1	root
+improve		kateti	action	1	root
+settle		winin	action	2	root
+wheat		nuyewa	nature	1	root
+cream (of milk; cosmetic)		mowega	thing	1	root
+tribe		yineti	people	1	root
+aspect		panti	abstract	2	root
+anniversary		miwasi	time	1	root
+holiday		ikoku	time	1	root
+spend		yafaka	action	1	root
+complex		ganyi	quality	2	root
+logic		genuya	mind	1	root
+normal		duyuwi	quality	1	root
+passport	pasupolutu	pasupolutu	loan	1	loan
+practice, training		wufawo	action	1	root
+mud		wunoka	nature	1	root
+income		yonle	abstract	2	root
+copper		lonuli	nature	1	root
+band (music group)		mimole	abstract	1	root
+honest		gonlu	quality	2	root
+curse		yutuna	action	1	root
+port, harbour		yunna	space	2	root
+evolution		mokele	nature	1	root
+platform		wasipi	thing	1	root
+lie, tell an untruth		tisu	sense	3	root
+pulse		yiyeme	body	1	root
+surface		temomi	space	1	root
+edit		diwana	action	1	root
+reputation		mankan	people	2	root
+certificate		gufuwa	people	1	root
+trap		nefame	thing	1	root
+confess		duwumo	sense	1	root
+engineer	indiniyalu	indiniyalu	loan	1	loan
+instrument (musical)		teleya	thing	1	root
+shift (work shift)		mewota	abstract	1	root
+atmosphere (air layer; mood)		nasuyu	nature	1	root
+argument, dispute		tubida	sense	1	root
+access		simoso	abstract	1	root
+victim		minba	people	2	root
+arrow		yidumi	thing	1	root
+offer		kenwu	sense	3	root
+volunteer		naligu	people	1	root
+coach		kiguki	people	1	root
+frame		kamuwo	thing	1	root
+conclusion		fulin	abstract	2	root
+pollution		lesayo	nature	1	root
+withdraw		sidawi	motion	1	root
+famous		yontin	quality	2	root
+opposite		linwan	abstract	2	root
+note (a short written message)		kamudi	sense	1	root
+register, enrol		mesiyi	sense	1	root
+trade		mepon	abstract	2	root
+valley		metese	nature	1	root
+violence		osasi	people	1	root
+vaccine	bakusin	bakusin	loan	1	loan
+tunnel		yifagu	thing	1	root
+treat		asefo	action	1	root
+toilet		sonuwu	thing	1	root
+tight		wabose	quality	1	root
+suspect		waneyi	mind	1	root
+success		tanwan	abstract	2	root
+studio	sutudiyo	sutudiyo	loan	1	loan
+strict		fanuma	quality	1	root
+shame		lunwo	mind	2	root
+sensitive		udepe	quality	1	root
+schedule		fatipo	time	1	root
+satellite		dusika	thing	1	root
+retire		iwelo	action	1	root
+represent		fufede	action	1	root
+reflection		yubuso	sense	1	root
+recognize		nayide	mind	1	root
+receipt		nuyuta	abstract	1	root
+prostitute		sofodu	people	1	root
+profile (online, personal)	pulofilu	pulofilu	loan	1	loan
+priority		feneso	abstract	1	root
+prevent		fewabo	action	1	root
+pipe		foyuti	thing	1	root
+pillar		wugifa	thing	1	root
+piano	piyano	piyano	loan	1	loan
+physics		wisogo	abstract	1	root
+permanent		fuleku	quality	1	root
+pearl		wakeya	nature	1	root
+organ (of the body)		yunawo	body	1	root
+native, indigenous		misomu	people	1	root
+mystery		dikiyu	abstract	1	root
+moral, ethics		gumuye	people	1	root
+monster		situse	abstract	1	root
+mix		miyufe	action	1	root
+medal	medala	medala	loan	1	loan
+mask	masuka	masuka	loan	1	loan
+moon		ado	nature	4	root
+ghost		lanfi	abstract	2	root
+word		eki	sense	4	root
+keep, retain		utan	action	3	root
+request, ask for		kunli	sense	2	root
+lose (a contest)		ledo	action	3	root
+daytime		benman	time	2	root
+rule		fape	abstract	3	root
+percent		wonnon	number	2	root
+always		liyun	time	2	root
+often		yonwen	time	2	root
+sometimes		wensun	time	2	root
+never		yisen	time	2	root
+later		yokan	time	2	root
+here		gonnen	space	2	root
+there		munpu	space	2	root
+parent		losidu	people	1	root
+lunch		tawoda	thing	1	root
+dinner		fonyon	thing	2	root
+cassava		sonno	nature	2	root
+millet, sorghum		ganpon	nature	2	root
+deaf		tenupu	body	1	root
+mute, unable to speak		gumon	body	2	root
+order, command (someone to do something)		wife	sense	4	root
+relative, family member		lanbun	people	2	root
+shave		wenwin	action	2	root
+fish (catch fish)		poka	action	2	root
+herd, tend animals		pogun	action	2	root
+biology		damayo	abstract	1	root
+fact		sendi	abstract	3	root
+common, ordinary, usual		winbo	quality	3	root
+accept, take what is offered		minon	action	3	root
+fate, destiny		neko	abstract	3	root
+influence		munfen	action	2	root
+holy, sacred		netan	quality	2	root
+status, standing, rank in a group		gefun	people	2	root
+salary		gosan	abstract	2	root
+avoid		miten	action	2	root
+suitable, fit, proper		fenfi	quality	2	root
+guess		lenkan	mind	2	root
+delicious		dasen	quality	2	root
+partner (neutral in sex and setting)		kenyi	people	2	root
+environment, surroundings		yanfun	nature	2	root
+disappear, vanish		mansan	motion	2	root
+destroy		lanku	action	2	root
+explode, burst		lonyon	action	2	root
+accuse, blame, hold responsible		gonla	sense	2	root
+thread		dunpin	thing	2	root
+waste (use up for nothing)		tunmin	action	2	root
+forgive		tonsan	mind	2	root
+load, burden		lowuyu	thing	1	root
+heap, pile		bakumi	thing	1	root
+warm		loliwe	quality	1	root
+disaster		neyumo	abstract	1	root
+unique		kogofu	quality	1	root
+celebrate, celebration		gewali	action	1	root
+include, contain		bamesa	action	1	root
+fill, make full		asudi	action	1	root
+exceed, go beyond		ewodu	action	1	root
+decrease, become or make less		wumilo	action	1	root
+statue		natate	thing	1	root
+participate, take part		tasiwo	action	1	root
+characteristic, feature, trait		koyima	abstract	1	root
+obey		yotagi	action	1	root
+familiar, known		loyamo	quality	1	root
+heal, cure		monasi	action	1	root
+hate		butena	mind	1	root
+cruel		gewese	quality	1	root
+descend, go down; land		funaye	motion	1	root
+chain		daseku	thing	1	root
+acquaintance, person one knows		widatu	people	1	root
+bell		fegugo	thing	1	root
+kind, kindness		moyifi	quality	1	root
+nonsense		kowogi	sense	1	root
+obstacle		mimima	thing	1	root
+fraud, cheating		umowe	action	1	root
+achieve		disese	action	1	root
+summary		biyoga	sense	1	root
+endure, bear, tolerate		diyofo	mind	1	root
+substitute, replacement		fifufa	action	1	root
+ancestor		geyawa	people	1	root
+coal (fuel)		gumuku	nature	1	root
+wild, not tamed or farmed		nusume	quality	1	root
+cave		lebeni	nature	1	root
+inherit, inheritance		gomike	action	1	root
+discrimination, unfair treatment of a group		dilapi	people	1	root
+attitude, stance		gukoyo	mind	1	root
+comfortable, at ease		tepuwa	quality	1	root
+depend (on), be conditional on		nenadu	abstract	1	root
+worthy, deserving		yabebu	quality	1	root
+well-being, welfare		damisi	abstract	1	root
+infection, infect		nanoso	body	1	root
+urgent		yosefe	quality	1	root
+ceiling		kusifu	thing	1	root
+deny, say it isn't true		sofale	sense	1	root
+pattern, repeated design		fadowe	abstract	1	root
+revenge		kilide	action	1	root
+cliff, steep rock face		sisoto	nature	1	root
+dew		nutafi	nature	1	root
+firewood		sifaya	nature	1	root
+nest		eyose	animal	1	root
+eagle, large bird of prey		nupibu	animal	1	root
+crow, raven		filimu	animal	1	root
+scale (of fish or snake)		femosi	animal	1	root
+flea		konuse	animal	1	root
+wasp		teteyi	animal	1	root
+lizard		mokoyi	animal	1	root
+beard		dasofe	body	1	root
+jaw		bunini	body	1	root
+snot, nasal mucus		kisasu	body	1	root
+beak		yoyune	body	1	root
+elbow		kogasa	body	1	root
+thigh		wuwobu	body	1	root
+heel		fusami	body	1	root
+kidney		namumu	body	1	root
+waist		soliya	body	1	root
+hip		fefoyi	body	1	root
+hiccup		wikusa	action	1	root
+bury		fagigi	action	1	root
+itch		siwefu	body	1	root
+pus		pasege	body	1	root
+lazy		teyiwu	quality	1	root
+naked		kayefe	quality	1	root
+roast (cook over a fire or in dry heat)		sinoki	action	1	root
+peel		tefasi	action	1	root
+sieve, strain		fudupo	action	1	root
+knead		lefosu	action	1	root
+mortar (for pounding)		itoye	thing	1	root
+leather		datomo	thing	1	root
+weave		kiyisa	action	1	root
+sew		walago	action	1	root
+bead		potibi	thing	1	root
+plant, sow (put seeds or plants in the ground)		dufuse	action	1	root
+mushroom		mifeki	nature	1	root
+axe		taleto	thing	1	root
+rub		bugago	action	1	root
+clay		ukama	nature	1	root
+wrap		nusanu	action	1	root
+sink (go under water)		newufu	motion	1	root
+float		ayato	motion	1	root
+crawl		wukuto	motion	1	root
+stingy, mean with money		gesoti	quality	1	root
+hook		esewi	thing	1	root
+whistle		soyeyi	sense	1	root
+scold		yenono	sense	1	root
+drum		pepamu	thing	1	root
+tick		guyale	animal	1	root
+freeze, become ice		kagano	action	1	root
+swamp, marsh, wet ground		wuyenu	nature	1	root
+rainbow		dawipa	nature	1	root
+orphan, a child whose parents have died		putisa	people	1	root
+shell (of egg, nut, snail, sea creature)		lemuka	animal	1	root
+snail		ufoki	animal	1	root
+blood vessel (vein, artery)		tiwuye	body	1	root
+rib		yapini	body	1	root
+eyebrow		nugise	body	1	root
+gums		sisemu	body	1	root
+wrist		wayabe	body	1	root
+ankle		wimebu	body	1	root
+scar		omedi	body	1	root
+jug, water jar		gesiwa	thing	1	root
+shelf		fukike	thing	1	root
+brick		momufo	thing	1	root
+plough		fusosu	action	1	root
+hoe		balofa	nature	1	root
+gourd, calabash, pumpkin, squash		befuku	nature	1	root
+nail (metal fastener)		bafemo	thing	1	root
+roll		tataso	motion	1	root
+lend		leyina	action	1	root
+borrow		nagopa	action	1	root
+greedy		nunigo	quality	1	root
+flute		dolema	thing	1	root
+foam, froth		sotata	nature	1	root
+vulture		fogoya	animal	1	root
+gnat, midge, sandfly		nuseso	animal	1	root
+spleen		yolefo	body	1	root
+boil, abscess (on the skin)		misusi	body	1	root
+lame, limping		tuyeyo	body	1	root
+spin (thread)		dimitu	action	1	root
+spindle		kifake	thing	1	root
+tree trunk		libuwe	nature	1	root
+palm (the tree)		yulafe	nature	1	root
+bore, drill		yusaya	action	1	root
+hollow out		tinofa	action	1	root
+mould		kuteko	action	1	root
+carve		lisiku	action	1	root
+pinch		yasisa	action	1	root
+groan		lenake	sense	1	root
+howl		siwiwe	sense	1	root
+spear		nayawu	thing	1	root
+sinew, tendon		gokode	body	1	root
+fry (cook in hot oil or fat)		dayula	action	1	root
+well, dug water source		lunben	space	2	root
+put out, extinguish (a fire)		wawimo	action	1	root
+hawk (smaller bird of prey)		wikuma	animal	1	root
+shiver, tremble		wapule	body	1	root
+bake (in an oven or on hot ashes)		sowemu	action	1	root
+scrape		feyiye	action	1	root
+milk (an animal)		linkin	action	2	root
+button (on clothes; also a push-button)		wuwigi	thing	1	root
+floor (the surface walked on)		mindan	thing	2	root
+pound (in a mortar)		kayoyu	action	1	root
+mat (woven, for sitting or sleeping)		sisoni	thing	1	root
+twist, wring		wawisu	action	1	root
+chase, pursue		limayu	motion	1	root
+dare		meloyo	mind	1	root
+murder (kill on purpose, unlawfully)		nugobe	action	1	root
+parrot		fakawo	animal	1	root
+cockroach		monola	animal	1	root
+pepper (the spice)		kasuso	thing	1	root
+cotton (plant and cloth)		tulone	nature	1	root
+candle		tedife	thing	1	root
+tobacco	tabaku	tabaku	loan	1	loan
+mattress		tawawi	thing	1	root
+calendar (the object)	kalendalu	kalendalu	loan	1	loan
+steam		yasowa	nature	1	root
+swallow (food, drink)		guyito	action	1	root
+flour		tiweni	thing	1	root
+harvest		lipata	action	1	root
+bend		duwosa	action	1	root
+fold		gefinu	action	1	root
+stretch		yaguwu	action	1	root
+hang, hang up		losoda	action	1	root
+mad, crazy		wikete	mind	1	root
+refuse, say no to		wuduti	sense	1	root
+stranger, a person one does not know		pesito	people	1	root
+honoured one, title of respect (sir, madam, Mr, Ms)	lanno	lanno	people	3	operator (fixed)
+okay?, softens and invites agreement (stance, sentence end)	buni	buni	abstract	4	operator (fixed)
+it turned out, surprisingly (stance, sentence end)	donon	donon	abstract	3	operator (fixed)
+almost, nearly	nedin	nedin	abstract	3	operator (fixed)
+each, every one separately	mesun	mesun	abstract	3	operator (fixed)
+usually, habitually	manni	manni	time	3	operator (fixed)
+rather, somewhat	tason	tason	abstract	2	operator (fixed)
+not literally, joking (speech act)	genso	genso	abstract	1	operator (fixed)
+seen, evidence by sight	wanme	wanme	abstract	1	operator (fixed)
+told, hearsay	inwun	inwun	abstract	1	operator (fixed)
+inferred, it seems	wemen	wemen	abstract	1	operator (fixed)
+at least	konsin	konsin	abstract	1	operator (fixed)
+about to, soon	buntu	buntu	time	2	operator (fixed)
+until, up to (a time or point)	anko	anko	time	3	operator (fixed)
+without	nuwen	nuwen	abstract	3	operator (fixed)
+end of phrase (closes a relative clause, phrasal derived word or topic)	kiyo	kiyo	abstract	3	operator (fixed)
+number label, ordinal (day 3, the third)	mena	mena	abstract	3	operator (fixed)

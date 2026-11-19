@@ -1,0 +1,10 @@
+direnv: loading ~/work/repos/universal-language/.envrc
+direnv: using flake
+direnv: nix-direnv: Using cached dev shell
+Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
+Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
+Loading model cost 0.025 seconds.
+Prefix dict has been built successfully.
+  seed 2 sweep 1 100/1456 moved 10 R 0.1460 J 36.8035 (8s)
+  seed 2 sweep 1 200/1456 moved 35 R 0.1407 J 36.2108 (16s)
+  seed 2 sweep 1 300/1456 moved 58 R 0.1377 J 35.7932 (24s)

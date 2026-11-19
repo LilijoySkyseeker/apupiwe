@@ -1,0 +1,31 @@
+direnv: loading ~/work/repos/universal-language/.envrc
+direnv: using flake
+direnv: nix-direnv: Using cached dev shell
+Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
+Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
+Loading model cost 0.025 seconds.
+Prefix dict has been built successfully.
+today's roots kept as they are: 373; to place: 1083
+  A: 1050 left, R 0.0580 J 12.4491 (9s)
+  A: 1000 left, R 0.0633 J 13.2227 (24s)
+  A: 950 left, R 0.0669 J 14.2271 (38s)
+  A: 900 left, R 0.0701 J 15.0570 (55s)
+  A: 850 left, R 0.0741 J 15.9783 (69s)
+  A: 800 left, R 0.0792 J 17.0690 (84s)
+  A: 750 left, R 0.0904 J 18.9517 (100s)
+  A: 700 left, R 0.0989 J 20.8448 (114s)
+  A: 650 left, R 0.1044 J 22.4242 (124s)
+  A: 600 left, R 0.1088 J 23.7978 (133s)
+  A: 550 left, R 0.1145 J 25.3128 (143s)
+  A: 500 left, R 0.1189 J 26.5151 (153s)
+  A: 450 left, R 0.1219 J 27.5386 (161s)
+  A: 400 left, R 0.1240 J 28.3898 (168s)
+  A: 350 left, R 0.1277 J 29.4835 (178s)
+  A: 300 left, R 0.1320 J 30.6708 (186s)
+  A: 250 left, R 0.1346 J 31.5345 (195s)
+  A: 200 left, R 0.1406 J 32.8686 (204s)
+  A: 150 left, R 0.1455 J 34.0768 (213s)
+  A: 100 left, R 0.1456 J 34.6341 (223s)
+  A: 50 left, R 0.1458 J 35.1980 (234s)
+  A: 0 left, R 0.1466 J 35.8411 (243s)
+A done: R 0.1466 J 35.8411
