@@ -4,7 +4,7 @@ This guide is for English speakers. The full rules are in the [language referenc
 
 ## Before you start
 
-The language is small and unfinished. It has 482 root words and 22 borrowed international words, plus the number words. On top of those come 63 one-syllable grammar words and the two-syllable ones listed in [section 13 of the reference](language.md#13-grammar-words). Your vocabulary will hit its ceiling quickly, and that's normal here. When there's no word for something, you describe it. Describing is the core skill and the normal way to talk, and lesson 11 teaches it.
+The language is small and unfinished. It has 1446 root words and 82 borrowed international words, plus the number words. On top of those come 63 one-syllable grammar words and the two-syllable ones listed in [section 13 of the reference](language.md#13-grammar-words). Your vocabulary will hit its ceiling quickly, and that's normal here. When there's no word for something, you describe it. Describing is the core skill and the normal way to talk, and lesson 11 teaches it.
 
 Nothing changes shape. There are no verb endings, no plurals you have to add, no "a" or "the", no gender and nothing irregular. Almost all the difficulty is in sounds, word order and numbers. [§2.5](language.md#r-2-5) [§5.2.7](language.md#r-5-2-7)
 
@@ -72,7 +72,7 @@ For stress, listen to Japanese *ame* 雨 "rain": the first syllable is high and 
 
 ### Stress
 
-Words of two or more syllables are always stressed on the first syllable: **poka** "dog" is *TO-tu* and **guyi** "house" is *GU-yi*. Stress here means a higher pitch and a little more force, so you can still hear it in a whisper. The syllable doesn't get longer. [§2.4](language.md#r-2-4) [§2.6](language.md#r-2-6)
+Words of two or more syllables are always stressed on the first syllable: **poka** "dog" is *PO-ka* and **guyi** "house" is *GU-yi*. Stress here means a higher pitch and a little more force, so you can still hear it in a whisper. The syllable doesn't get longer. [§2.4](language.md#r-2-4) [§2.6](language.md#r-2-6)
 
 One-syllable words are grammar words, and they're said low and quick (**to**, **sen**, **pi**, **su**…). The digits 0–5 are the exception, since they're stressed. [§2.4](language.md#r-2-4)
 

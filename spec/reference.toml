@@ -203,7 +203,7 @@ type = "bullet"
 title = "No contrast rests on a variant"
 gap = 0
 text = '''
-- No two content words, and no two short words (grammar words and digits) that can stand in the same place, differ only by sounds a harmless variant (2.9) brings together: b and w, d and l, g and w before o and u, g and y or k and s before i and e. So a speaker with any of these accents is understood, and no contrast hangs on the sound changes these variants begin. A new grammar word also never differs only by its vowel from a grammar word that can stand in its place, since unstressed vowels weaken.'''
+- No two content words, and no two short words (grammar words and digits) that can stand in the same place, differ only by sounds a harmless variant (2.9) brings together: b and w, d and l, and g and w before o and u, where softening applies (between vowels, in an unstressed syllable: a one-syllable grammar word, or a later syllable of a longer word); g and y, or k and s, before i and e, anywhere. So a speaker with any of these accents is understood, and no contrast hangs on the sound changes these variants begin. A new grammar word also never differs only by its vowel from a grammar word that can stand in its place, since unstressed vowels weaken.'''
 
 [[item]]
 id = "3"
@@ -956,7 +956,7 @@ text = '''
 id = "5.4.3"
 type = "bullet"
 text = '''
-- A **pi** phrase after a derived word belongs to the last noun inside its base, or to the derived word itself if its base has no noun: **wa kuwi pi to** "my thing for keeping".'''
+- A **pi** phrase after a derived word belongs to the last noun inside its base, or to the derived word itself if its base has no noun: **wa meko pi to** "my thing for keeping".'''
 
 [[item]]
 id = "5.4.4"
@@ -1432,7 +1432,7 @@ type = "bullet"
 title = "Rates"
 gap = 0
 text = '''
-- A rate is said with **mesun** "each" after the unit, joined by the relation word that fits: **to nawi sa bifo no dili mesun** "I eat twice a day" (on each day), **to neke de yefi len ewo mesun** "I give three to each person". Unit symbols such as `60 km/h` pass through as written and are read with their borrowed names (9.3).'''
+- A rate is said with **mesun** "each" after the unit, joined by the relation word that fits: **to nawi bifo sa no dili mesun** "I eat twice a day" (on each day), **to neke de yefi len ewo mesun** "I give three to each person". Unit symbols such as `60 km/h` pass through as written and are read with their borrowed names (9.3).'''
 
 [[item]]
 id = "9.2.7"
@@ -1676,7 +1676,7 @@ title = "Adapted form"
 gap = 0
 text = '''
 - The adapted form (`tools/names.py`) is the spoken fallback for a name and the form of every loan. It is made like this:
-  - each foreign sound becomes the nearest native sound: r → l, v → b, ʋ → w, z/sh/zh → s, th → f, dh → d, ch → t, j → d, kh → k; h and glottal sounds disappear; ng → n; length, aspiration and tone are dropped; ə, ʌ, æ → a;
+  - each foreign sound becomes the nearest native sound: r → l, v → b, ʋ → w, z/sh/zh → s, th → f, dh → d, ch → t and j → d (but k and g before i or e, whose harmless variant is the original sound: *gene* **geni**), kh → k; h and glottal sounds disappear; ng → n; length, aspiration and tone are dropped; ə, ʌ, æ → a;
   - two vowels in a row get a glide between them, y after i or e and w otherwise;
   - a consonant that can't stand where it is gets an added **u**;
   - the result has at least two syllables, counting a glide (**tuwu**).'''

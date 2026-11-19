@@ -6,7 +6,7 @@ wizard	win wase	one who does magic
 warrior	win migi	one who fights
 daughter	tiwu futa	child woman
 son	tiwu lowu	child man
-parents	mole nun sine	mother and father
+parents	iwola la	"the parents (mole nun sine is ""mother and father"")"
 dragon	dinbu pi mowa	snake of fire
 stick	kima netu	wood long
 bedroom	ban fimo	place for sleeping
@@ -25,7 +25,7 @@ rainy.season	nufi pi gegi	time of rain
 the.language	apu pi we	language of all
 landlord	win ibe guyi	one who has the house
 neighbour	win nume gelu	one who lives near
-warehouse	ban kuwi	place for keeping
+warehouse	ban meko	place for keeping
 move.house	kubo ban nume	change the place where one lives
 park.a.car	yaga tale	put the car
 yell	oyi dibon	say loudly
@@ -33,12 +33,12 @@ part.time.work	doku pi timon	work of half
 free.of.charge	dan su unfu	anyone not pay
 on.purpose	nan momu	with wanting
 by.accident	su nan momu	not with wanting
-password	apu pi udin	word of locking
+password	ila pi udin	word of locking
 account	gen sunbu	what is counted (as Spanish cuenta, Arabic حساب)
 settings	gen finsa la	things that are set
 link	wa penyu	thing for connecting
 folder	nonka pi pata	box of documents
-keyboard	tinli la	the keys
+keyboard	buguye la	the buttons
 undo	tula sigo	make return
 update	tula duwa	make new
 scroll	kobi lunyu	move the page
@@ -46,7 +46,7 @@ upload	pofi len fide	send up
 screenshot	silu pi wa wuye	photo of the screen
 spam	imeyilu bekin	garbage email (as Mandarin 垃圾邮件, Spanish correo basura)
 licence	wa efon	thing for allowing
-contacts (phone list)	dapo la	the names; one contact is suso
+contacts (phone list)	dapo la	the names; one contact is dapo
 dolphin	pogun pi onyan	pig of the sea
 frying.pan	wa lisaku	tool for frying
 silk	lipo pi enna	cloth of the worm
