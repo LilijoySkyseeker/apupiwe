@@ -5,3 +5,4 @@ Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.
 Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
 Loading model cost 0.046 seconds.
 Prefix dict has been built successfully.
+REOPT today.tsv variants=all override=none | moved 36 | objective 0.4317 -> 0.6101 | robust 0.3037 -> 0.2901 | REQUEST ta->pun; ADVISE fon->sa; INTEND me->lu; WARN yo->fan; WH yu->wu; UNSPEC pa->ni; NOT su->men; I to->sun; OBVIATIVE yi->du; LOGOPHOR son->ta; PLURAL la->bun; THAT.dem ben->sen; NONE fen->won; DONE sin->pan; ONGOING le->san; FROM se->don; FOR fan->yun; AND yen->fu; OR lu->lo; IF don->ne; THAT.comp wun->mi; LIKE fun->si; WHILE lin->to; SELF nen->li; POLITE fin->wo; IT bun->fe; TOOL du->yin; PLACE pu->ye; NAME fo->la; ALSO pon->fon; EVEN yon->so; FOCUS min->fin; ENDEAR fi->yi; D1 ni->fa; D2 sa->yo; D4 wo->po

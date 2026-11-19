@@ -211,6 +211,21 @@ VOI = {"b": "p", "d": "t", "g": "k"}
 SOFT = os.environ.get("SW_SOFT") == "1"
 
 
+def _haplo():
+    """04 H6 (knock.py): grammar words standing right before a content word >= 10 times (tests/placement-03/bigrams.tsv,
+    the placement's haplology rule) may only take a syllable that no root starts with, or one of today's haplology
+    syllables (already banned for roots), so the placed roots stay legal."""
+    big = read(os.path.join(ROOT, "tests", "placement-03", "bigrams.tsv"))
+    glosses = {r["gloss"] for r in big if int(r["before_content"]) >= 10}
+    lex = read(os.path.join(ROOT, "data", "lexicon.tsv"))
+    firsts = set()
+    for r in lex:
+        if r["field"] != "loan":
+            firsts.add(re.findall(r"[^aeiou]?[aeiou](?:n(?![aeiou]))?", r["form"])[0])
+    today = {r["form"] for r in big if r["gloss"] in glosses}
+    return glosses, firsts, today
+
+
 def merger(s, t):
     (o1, v1, c1), (o2, v2, c2) = SYL[s], SYL[t]
     if s == t:
@@ -243,6 +258,15 @@ def merger(s, t):
 
 
 MERGE = np.array([[merger(s, t) is not None for t in range(NS)] for s in range(NS)])
+_HG, _FIRSTS, _HTODAY = _haplo()
+_ROOTS_AT = collections.Counter(re.findall(r"[^aeiou]?[aeiou](?:n(?![aeiou]))?", r["form"])[0]
+                               for r in read(os.path.join(ROOT, "data", "lexicon.tsv")) if r["field"] != "loan")
+HAPLO_EXTRA = int(os.environ.get("SW_HAPLO_EXTRA", "0"))   # 04: also allow syllables that start <= this many roots
+ROOT_COST = float(os.environ.get("SW_ROOT_COST", "0.005"))  # 04: penalty per root a haplology word would displace
+HAPLO_OK = np.array([(NAME[s] not in _FIRSTS) or (NAME[s] in _HTODAY) or (_ROOTS_AT[NAME[s]] <= HAPLO_EXTRA)
+                     for s in range(NS)])
+DISPLACE = np.array([0 if (NAME[s] in _HTODAY or NAME[s] not in _FIRSTS) else _ROOTS_AT[NAME[s]] for s in range(NS)])
+HAPLO_W = np.array([w["gloss"] in _HG for w in WORDS])
 CF = {"p": ("-", "lab", "stop"), "b": ("+", "lab", "stop"), "t": ("-", "cor", "stop"), "d": ("+", "cor", "stop"),
       "k": ("-", "dor", "stop"), "g": ("+", "dor", "stop"), "f": ("-", "lab", "fric"), "s": ("-", "cor", "fric"),
       "m": ("+", "lab", "nas"), "n": ("+", "cor", "nas"), "l": ("+", "cor", "lat"), "w": ("+", "lab", "glide"),
@@ -392,6 +416,8 @@ def hard_ok(assign, i, s, fixed_other=None):
     """Can word i take syllable s, given the other words' syllables?"""
     if not HAS_ONSET[s] or BLOCKED[s] or (IS_DIGIT[i] and not OPEN[s]):
         return False
+    if SOFT and HAPLO_W[i] and not HAPLO_OK[s]:      # 04 H6: no root may start with a haplology word's syllable
+        return False
     others = (np.arange(N) != i) & (assign >= 0)
     if (assign[others] == s).any():
         return False
@@ -401,10 +427,11 @@ def hard_ok(assign, i, s, fixed_other=None):
 
 def penalties(assign, off_w, one_w, op_w):
     off = OFFENSIVE[assign].sum()
+    disp = int(DISPLACE[assign[HAPLO_W]].sum()) if SOFT else 0   # 04: roots a haplology word's new form displaces
     iu = np.triu_indices(N, 1)
     one = (SHARED[iu] & ONE_FEATURE[assign[iu[0]], assign[iu[1]]]).sum()
     ops = sum(1 for o, ws in OP_SHARED.items() for g in ws if assign[GI[g]] == OP_FIRST[o])
-    return off_w * off + one_w * one + op_w * ops, (int(off), int(one), int(ops))
+    return off_w * off + one_w * one + op_w * ops + ROOT_COST * disp, (int(off), int(one), int(ops), disp)
 
 
 def violations(assign):
@@ -430,11 +457,44 @@ OLD_SYL = np.array([IDX[w["old"]] if w["old"] else -1 for w in WORDS])
 KEEP = [0.0]    # penalty per existing word whose form changes (the keep sweep; 0 = a plain full rebuild)
 
 
+def legal_start(a, free, rng, iters=200000):
+    """04: min-conflicts repair from the given layer: while some free word breaks a hard rule, take one, and move it
+    to a legal free syllable, or swap it with another free word if both are legal afterwards, or else make a random
+    swap among free words of its kind (haplology or not)."""
+    a = a.copy()
+    free = list(free)
+    for it in range(iters):
+        bad = [i for i in free if not hard_ok(a, i, a[i])]
+        if not bad:
+            return a
+        i = rng.choice(bad)
+        opts = [s for s in range(NS) if s not in a and hard_ok(a, i, s)]
+        if opts:
+            a[i] = rng.choice(opts); continue
+        swaps = []
+        for j in free:
+            if j == i or HAPLO_W[j] != HAPLO_W[i]:
+                continue
+            b = a.copy(); b[i], b[j] = a[j], a[i]
+            if hard_ok(b, i, b[i]) and hard_ok(b, j, b[j]):
+                swaps.append(j)
+        if swaps:
+            j = rng.choice(swaps); a[i], a[j] = a[j], a[i]
+        elif rng.random() < 0.5:     # random walk: swap with any free word, or take any free syllable
+            j = rng.choice([j for j in free if j != i]); a[i], a[j] = a[j], a[i]
+        else:
+            a[i] = rng.choice([s for s in range(NS) if s not in a and HAS_ONSET[s] and not BLOCKED[s]
+                               and (not IS_DIGIT[i] or OPEN[s])])
+    raise AssertionError("no legal start (min-conflicts)")
+
+
 def anneal(start, free, steps, seed, pen, T0=0.02):
     """Simulated annealing over the words in `free` (indices), others fixed. start must satisfy the hard rules
     for fixed words; free words are repaired first."""
     rng = random.Random(seed)
     a = start.copy()
+    if SOFT and any(not hard_ok(a, i, a[i]) for i in free):   # 04: keep legal words, backtrack the rest
+        a = legal_start(a, free, rng)
     if any(not hard_ok(a, i, a[i]) for i in free):   # build a legal start: place free words one by one
         for _ in range(200):
             a[list(free)] = -1
