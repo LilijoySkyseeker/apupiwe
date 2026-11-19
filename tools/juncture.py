@@ -3,7 +3,9 @@
 Written tests can't hear these, so check them by rule (idea borrowed from the senary
 project's juncture.py, 2026-10-08). Reports:
   1. digit + following word that sounds like a content word (stress pattern is identical)
-  2. grammar words that differ only by a final -n (they merge before an n-initial word)
+  2. retired (author, 2026-11-19): grammar words that differ only by a final -n are a problem only when they share
+     a position, which tests/shortwords-04's hard rule H4 and tools/accent.py check; pairs in different positions
+     are on the drift watch list (docs/drift.md)
   3. grammar word ending in -n + vowel-initial content word, heard as the open grammar word
      + an n-initial content word ("den Ewo" ~ "de NEwo")
 
@@ -26,13 +28,9 @@ for d in digits:  # 1
         if inv.syl[W.IDX[f]][0] != "" and k in ckey:
             problems.append(f"digit+word: {d.upper()} {f} ~ {ckey[k]['gloss']} {ckey[k]['form']}")
 
-opens = {}
-for f, gl in gforms.items():  # 2
-    o, v, c = inv.syl[W.IDX[f]]
-    opens.setdefault((o, v), []).append(f"{gl}={f}")
-for k, v in opens.items():
-    if len(v) > 1:
-        problems.append(f"-n pair: {' / '.join(v)}")
+# known exceptions (author, 2026-11-19): the loan denu "gene" after the digit de, with no "at" or nun "and" between:
+# the misheard sequence is nonsense ("house gene city"), so context repairs it, and gene is rare
+KNOWN = {"digit+word: DE no ~ gene denu", "digit+word: DE nun ~ gene denu"}
 
 for f, gl in gforms.items():  # 3
     o, v, c = inv.syl[W.IDX[f]]
@@ -44,5 +42,9 @@ for f, gl in gforms.items():  # 3
             if heard in {x["form"] for x in lex}:
                 problems.append(f"-n + vowel: {f} {w['form']} ~ {o.replace('j','y') + v} {heard}")
 
+known = [p for p in problems if p in KNOWN]
+problems = [p for p in problems if p not in KNOWN]
+if known:
+    print(f"known exceptions (not failures): {len(known)}")
 print("\n".join(problems) if problems else "no juncture problems")
 sys.exit(1 if problems else 0)
