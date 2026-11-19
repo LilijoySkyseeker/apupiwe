@@ -6,9 +6,25 @@ Method: `tests/placement-02/` (and its parent, `tests/placement-01/`), with one 
 
 ## Progress
 
-- [ ] `./run.sh` (logs in `logs/`)
-- [ ] results below
+- [x] `./run.sh` (logs in `logs/`): `report-nv-k0.03.txt`, `forms-nv-k0.03.tsv` (seed 2, lowest J)
+- [x] results below
 
 ## Results
 
-(pending)
+| | placement-02 candidate (×10 any number pair) | **placement-03** |
+|---|---|---|
+| J / R | 33.44 / 0.120 | 31.74 / 0.133 (different weights, so not directly comparable) |
+| today's roots moved (104 forced) | 136 | **122** (18 unforced) |
+| seeds agree on a form | 54% | 60% |
+| near pairs (robust) | 5,747 | 5,639 |
+| vowel-initial roots | 95 | 100 |
+| n + vowel junction risk (sum) | 7.5 | 7.8 |
+| B2 margin, roots | 0.00% | 0.00% |
+
+Checks as before: tier 1 has 402 of 429 at three syllables, other tiers none; haplology and digit check passed; `juncture.py` fails only on fixed words (**denu** after **de**; the six grammar -n pairs). 1,099 forms differ from placement-02's candidate, almost all of them new roots.
+
+**Number words** are ordinary two-syllable forms again, and every one that had a form keeps it: 6 **ufo**, 7 **oma**, 100 **loki**, 1000 **munno**, 10 **yawu**, POINT **mimi**, MINUS **guti**, POWER **unun**, 10^9 **siwin**. Forced moves: 8 **kefi → pepe**, 9 **mape → tuli**, 10^6 **tonen → tiya**. New: pair **lanye**, average **fonton**, sum **nayon**, amount **wiyun**, rate **teyupu** (tier 1), percent **lonwon**. The won- cluster is gone.
+
+**Unforced moves (18):** can **lenu → nebi** (tier 5), many **feli → fefa**, big **kudu → tugu** (tier 4); use **bone → fone**, start **tuko → diye**, stand **kolu → yako**, smell **kanko → fopan**, sit **goyu → doyu**, above **bige → fide** (tier 3); wind, turn, tool, strong, star, sea, narrow, horse, back (tier 2).
+
+**Near pairs among frequent words:** yesterday/coffee **afe~kafe** (loan), stop/salty **bamo~fano**, true/answer **feko~febo**, need/MINUS **wupi~guti**, form/perfect **sisa~sita**, film/base **wabi~wati**. Closest antonyms: tell/ask **iko~mido**, fast/slow **yobe~gake**, happy/sad **sogi~bayi**; all far below the near-pair threshold.
