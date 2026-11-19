@@ -832,7 +832,7 @@ rise, go up	root		motion	3	260	fall, drop down; descend, go down; land (added)	L
 modern	root		quality	2	573		LAD	
 expert	root		people	2	596		LAD	
 judge (person; to judge)	root		people	2	513		LAD	
-planet	loan candidate		nature	2	621		LAD; LOAN-pending	pending: loan panel (author 2026-10-16); ladder 2 rung 1 gave the standard's form; if it fails, a root or a phrase
+planet	root		nature	2	621		LAD; LOAN-pending; LOANS02	"root (author 2026-11-19: loan failed 6/20; world compound ""moving star"" no longer covers it, and fails C4)"
 possible	root		quality	3	309		LAD	
 machine	loan	masina	loan	3	392		LAD; LOAN	panel 14/6; form fixed
 industry	root		abstract	2	468		LAD	
@@ -944,7 +944,7 @@ witness	root		people	2	505		LAD
 customer	root		people	2	855		LAD	
 league (sports)	loan	liga	loan	2	693		LAD; LOAN	panel 15/7; form fixed
 serve	root		action	2	720		LAD	
-temperature	loan candidate		nature	2	883		LAD; LOAN-pending	pending: loan panel (author 2026-10-16); ladder 2 rung 1 gave the standard's form; if it fails, a root or a phrase
+temperature	root		nature	2	883		LAD; LOAN-pending; LOANS02	root (author 2026-11-19: loan failed 4/20; world-compound clause deleted)
 brave	root		quality	2	531	fear	LAD	
 benefit	root		abstract	2	458		LAD	
 standard, norm	root		abstract	2	762		LAD	
@@ -1085,7 +1085,7 @@ fail	root		action	1	1086	success	LAD
 liquid	root		nature	2	808		LAD	
 needle	root		thing	1	1213		LAD	
 plot (of a story)	root		abstract	1	1018		LAD	
-oxygen	loan candidate		nature	1	1227		LAD; LOAN-pending	pending: loan panel (author 2026-10-16); ladder 2 rung 1 gave the standard's form; if it fails, a root or a phrase
+oxygen	loan	okusiden	nature	1	1227		LAD; LOAN-pending; LOANS02	loan okusiden (author 2026-11-19: panel 14/20, 5 regions; tests/loans-02)
 charge (a battery)	root		thing	1	1009		LAD	
 throne	root		thing	1	1096		PL-retro; LAD	was the phrase pu goyu pi king: pu goyu pi king (6 syll)
 climate	root		nature	1	1008		LAD; LOAN	loan failed the panel (8/4): native root
@@ -1212,7 +1212,7 @@ insurance	root		abstract	1	1102		LAD
 perfect	root		quality	3	378		LAD	
 joint (of the body)	root		body	1	1069		LAD	
 rate (speed, ratio, rate of pay)	root		number	1	1047		LAD	
-mass (physical quantity)	loan candidate		nature	1	998		LAD; LOAN-pending	pending: loan panel (author 2026-10-16); ladder 2 rung 1 gave the standard's form; if it fails, a root or a phrase
+mass (physical quantity)	root		nature	1	998		LAD; LOAN-pending; LOANS02	root (author 2026-11-19, C4: mass; weight is gogo)
 mention	root		sense	2	690		LAD	
 cinema	loan	sinema	loan	1	1181		LAD; LOAN	panel 16/6; form fixed
 fence	root		thing	1	1179		LAD	
@@ -1541,3 +1541,7 @@ hang, hang up	root		action	1	1379		WOLD-47	WOLD 9-341, 15/24 families
 mad, crazy	root		mind	1	1355		WOLD-47	WOLD 17-23, 17/24 families
 refuse, say no to	root		sense	1	1490	accept, take what is offered (added)	WOLD-47	WOLD 18-37, 6/24 families; the author separated deny and refuse; confirmed a root (author 2026-10-16)
 stranger, a person one does not know	root		people	1	1416		WOLD-47	WOLD 19-55, 10/24 families; 'ewo su lugo' is 5 syll; SSA gap (balance-02); confirmed a root (author 2026-10-16)
+useless	root		quality	1	1422		PHRASE-LINE	root (author 2026-11-19: the world-compound clause of the phrase line deleted)
+export	root		action	1	1448	import	PHRASE-LINE	root (author 2026-11-19: the world-compound clause of the phrase line deleted)
+import	root		action	1	1452	export	PHRASE-LINE	root (author 2026-11-19: the world-compound clause of the phrase line deleted)
+earthquake	root		nature	1	1130		PHRASE-LINE	root (author 2026-11-19: the world-compound clause of the phrase line deleted)

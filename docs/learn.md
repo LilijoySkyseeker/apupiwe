@@ -427,7 +427,7 @@ For the person an action is done to, there's **ewo gi gun wiwa** student ("perso
 
 For opposites, **su** plus a word gives "not X" (**su upe** "not good"), and many words also have an opposite word of their own (**yomo** "bad"). [§5.4.7](language.md#r-5-4-7)
 
-Ready-made compounds, such as **wa sunbu** "computer" ("thing for counting"), are in the [compounds list](../data/compounds.tsv). [§11.4](language.md#r-11-4)
+Ready-made compounds, such as **win obu don yaye** "alien" ("one who comes from the sky"), are in the [compounds list](../data/compounds.tsv). [§11.4](language.md#r-11-4)
 
 Things the whole world names the same way are borrowed in their international form, without **fo**: **imeyilu** email, **intelunetu** internet, **dolalu** dollar, **kilometulu** kilometre. You can also borrow any word you need from your own language, the way English borrowed *sushi* and *pizza*. Write it the way it sounds, with the language's letters: **to nawi susi sa** "I ate two sushi". A borrowed word needs no **fo**, and it can even be a verb: **to ben gugalu bun** "I googled it". Add **fo** only if it could be mistaken for a word of the language. [§11.3](language.md#r-11-3)
 

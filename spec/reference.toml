@@ -1687,7 +1687,7 @@ type = "bullet"
 title = "Computers and interfaces"
 gap = 0
 text = '''
-- Computers and interfaces use everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **selon**/**tapi**, settings **gen finsa la**, computer **wa sunbu** (`compounds.tsv`). **doku** "work" covers a machine working.'''
+- Computers and interfaces use everyday words: search **ditun**, delete **nuton**, share **peton**, copy **gayen**, add **ginni**, download **dunu**, install **yaga**, turn on/off **selon**/**tapi**, settings **gen finsa la** (`compounds.tsv`); computer is the loan **konpuyutalu**. **doku** "work" covers a machine working.'''
 
 [[item]]
 id = "11.5"

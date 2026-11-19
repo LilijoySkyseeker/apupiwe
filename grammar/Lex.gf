@@ -77,6 +77,9 @@ abstract Lex = {
     ayaya_N : N ;  -- tense, strained, nervous
     ayaya_V : V ;  -- tense, strained, nervous
     ayaya_A : A ;  -- tense, strained, nervous
+    ayomi_N : N ;  -- export
+    ayomi_V : V ;  -- export
+    ayomi_A : A ;  -- export
     badin_N : N ;  -- lung
     badin_V : V ;  -- lung
     badin_A : A ;  -- lung
@@ -1055,6 +1058,9 @@ abstract Lex = {
     gake_N : N ;  -- slow
     gake_V : V ;  -- slow
     gake_A : A ;  -- slow
+    gakodo_N : N ;  -- earthquake
+    gakodo_V : V ;  -- earthquake
+    gakodo_A : A ;  -- earthquake
     gala_N : N ;  -- tree
     gala_V : V ;  -- tree
     gala_A : A ;  -- tree
@@ -1562,6 +1568,9 @@ abstract Lex = {
     kinbo_N : N ;  -- disappointed
     kinbo_V : V ;  -- disappointed
     kinbo_A : A ;  -- disappointed
+    kinebe_N : N ;  -- mass (physical quantity)
+    kinebe_V : V ;  -- mass (physical quantity)
+    kinebe_A : A ;  -- mass (physical quantity)
     kinin_N : N ;  -- soap
     kinin_V : V ;  -- soap
     kinin_A : A ;  -- soap
@@ -2381,6 +2390,9 @@ abstract Lex = {
     munso_N : N ;  -- shorts
     munso_V : V ;  -- shorts
     munso_A : A ;  -- shorts
+    munya_N : N ;  -- temperature
+    munya_V : V ;  -- temperature
+    munya_A : A ;  -- temperature
     munyin_N : N ;  -- praise
     munyin_V : V ;  -- praise
     munyin_A : A ;  -- praise
@@ -2705,6 +2717,9 @@ abstract Lex = {
     ogene_N : N ;  -- angle
     ogene_V : V ;  -- angle
     ogene_A : A ;  -- angle
+    okusiden_N : N ;  -- oxygen
+    okusiden_V : V ;  -- oxygen
+    okusiden_A : A ;  -- oxygen
     olipa_N : N ;  -- blind
     olipa_V : V ;  -- blind
     olipa_A : A ;  -- blind
@@ -3089,6 +3104,9 @@ abstract Lex = {
     sewu_N : N ;  -- buttocks
     sewu_V : V ;  -- buttocks
     sewu_A : A ;  -- buttocks
+    sewubo_N : N ;  -- useless
+    sewubo_V : V ;  -- useless
+    sewubo_A : A ;  -- useless
     seyo_N : N ;  -- mirror
     seyo_V : V ;  -- mirror
     seyo_A : A ;  -- mirror
@@ -3944,6 +3962,9 @@ abstract Lex = {
     wensa_N : N ;  -- blanket
     wensa_V : V ;  -- blanket
     wensa_A : A ;  -- blanket
+    wensin_N : N ;  -- planet
+    wensin_V : V ;  -- planet
+    wensin_A : A ;  -- planet
     wento_N : N ;  -- penis
     wento_V : V ;  -- penis
     wento_A : A ;  -- penis
@@ -4166,6 +4187,9 @@ abstract Lex = {
     yadidi_N : N ;  -- put out, extinguish (a fire)
     yadidi_V : V ;  -- put out, extinguish (a fire)
     yadidi_A : A ;  -- put out, extinguish (a fire)
+    yafumu_N : N ;  -- import
+    yafumu_V : V ;  -- import
+    yafumu_A : A ;  -- import
     yafun_N : N ;  -- toy
     yafun_V : V ;  -- toy
     yafun_A : A ;  -- toy

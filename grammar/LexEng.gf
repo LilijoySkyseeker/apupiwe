@@ -75,6 +75,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     ayaya_N = D.tense_N ;
     ayaya_V = D.tense_V ;
     ayaya_A = D.tense_A ;
+    ayomi_N = D.export_N ;
+    ayomi_V = D.export_V ;
+    ayomi_A = P.mkA "exporting" ;
     badin_N = D.lung_N ;
     badin_V = P.mkV "lung" ;
     badin_A = P.mkA "lung" ;
@@ -1053,6 +1056,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     gake_N = P.mkN "slowness" ;
     gake_V = D.slow_V ;
     gake_A = D.slow_A ;
+    gakodo_N = D.earthquake_N ;
+    gakodo_V = P.mkV "earthquake" ;
+    gakodo_A = P.mkA "earthquake" ;
     gala_N = D.tree_N ;
     gala_V = D.tree_V ;
     gala_A = P.mkA "treeing" ;
@@ -1560,6 +1566,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     kinbo_N = P.mkN "disappointed" ;
     kinbo_V = P.mkV "disappointed" ;
     kinbo_A = P.mkA "disappointed" ;
+    kinebe_N = D.mass_N ;
+    kinebe_V = D.mass_V ;
+    kinebe_A = P.mkA "massing" ;
     kinin_N = D.soap_N ;
     kinin_V = D.soap_V ;
     kinin_A = P.mkA "soaping" ;
@@ -2379,6 +2388,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     munso_N = P.mkN "shorts" ;
     munso_V = P.mkV "shorts" ;
     munso_A = P.mkA "shorts" ;
+    munya_N = D.temperature_N ;
+    munya_V = P.mkV "temperature" ;
+    munya_A = P.mkA "temperature" ;
     munyin_N = D.praise_N ;
     munyin_V = D.praise_V ;
     munyin_A = P.mkA "praising" ;
@@ -2703,6 +2715,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     ogene_N = D.angle_N ;
     ogene_V = D.angle_V ;
     ogene_A = P.mkA "angling" ;
+    okusiden_N = D.oxygen_N ;
+    okusiden_V = P.mkV "oxygen" ;
+    okusiden_A = P.mkA "oxygen" ;
     olipa_N = D.blind_N ;
     olipa_V = D.blind_V ;
     olipa_A = D.blind_A ;
@@ -3087,6 +3102,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     sewu_N = D.buttocks_N ;
     sewu_V = P.mkV "buttocks" ;
     sewu_A = P.mkA "buttocks" ;
+    sewubo_N = P.mkN "uselessness" ;
+    sewubo_V = P.mkV "useless" ;
+    sewubo_A = D.useless_A ;
     seyo_N = D.mirror_N ;
     seyo_V = D.mirror_V ;
     seyo_A = P.mkA "mirroring" ;
@@ -3942,6 +3960,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     wensa_N = D.blanket_N ;
     wensa_V = D.blanket_V ;
     wensa_A = P.mkA "blanketing" ;
+    wensin_N = D.planet_N ;
+    wensin_V = P.mkV "planet" ;
+    wensin_A = P.mkA "planet" ;
     wento_N = D.penis_N ;
     wento_V = P.mkV "penis" ;
     wento_A = P.mkA "penis" ;
@@ -4164,6 +4185,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     yadidi_N = P.mkN "put out" ;
     yadidi_V = P.mkV "put out" ;
     yadidi_A = P.mkA "put out" ;
+    yafumu_N = D.import_N ;
+    yafumu_V = D.import_V ;
+    yafumu_A = P.mkA "importing" ;
     yafun_N = D.toy_N ;
     yafun_V = D.toy_V ;
     yafun_A = P.mkA "toying" ;
