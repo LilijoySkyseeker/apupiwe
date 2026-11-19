@@ -34,7 +34,7 @@ Triaged 2026-11-19: every item of the October queue is done (design log) or move
 
 1. **Outside review** of the design and the final forms by a non-Claude model (Codex), cold (process risk 1 of the unknown-unknowns review; the October plan for "a non-Claude model for one month").
 2. **Regression test on today's forms.** Words changed heavily since the last translation tests (October): blind translation and back-translation by fresh agents, one Claude and one Codex, on the test texts; include short answers after negative questions (**feko**, 4.8.6) and the standard UI button set (Yes / No / OK / Cancel / Back / Next / Undo). Also a fresh agent writing Apupiwe from the docs alone, to find where the docs fail (process risk 3).
-3. **Record the phrases already decided** but missing from `data/compounds.tsv`, with today's forms: dolphin, mule, frying pan, silk, tattoo, coconut, helmet, injection, tin can (2026-10-16, LOAN02); unique, participate, shelter, attend, festival (2026-10-16).
+3. ~~Record the phrases already decided~~ done 2026-11-19 (design log).
 4. **Senses the concept walk flagged as uncovered** (`tests/coverage-02/candidates.tsv`): "the rest" (remainder), "miss" (a target), "cause" as a verb, an academic degree. Check that each is sayable (a class-free root or a phrase) and record how.
 5. **Symbol names left** (reference 11.5): / \ _ - (LINE is **tenen**, ÷ is **gonwu**).
 
