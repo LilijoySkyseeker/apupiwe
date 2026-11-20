@@ -143,6 +143,17 @@ TOK = re.compile(r"[a-z]+")
 
 
 def remap_span(span, M, K):
+    # a name after fo (one whitespace-separated word, hyphens included, e.g. fo wi-fi) is never remapped (2026-11-19)
+    protected = {m.group(1) for m in re.finditer(r"\bfo\s+([A-Za-z][\w-]*)", span)}
+    if protected:
+        parts = re.split(r"(\bfo\s+[A-Za-z][\w-]*)", span)
+        out, changed = [], False
+        for k, part in enumerate(parts):
+            if k % 2 == 1:
+                out.append(part); continue
+            new, ch = remap_span(part, M, K) if TOK.search(part) else (part, False)
+            out.append(new); changed = changed or ch
+        return "".join(out), changed
     toks = TOK.findall(span.lower())
     names = {t for a, t in zip(toks, toks[1:]) if a == "fo" and t not in K}   # a name after fo (NAME) is not checked
     if not toks or any(t not in K and t not in names for t in toks):
