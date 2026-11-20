@@ -57,7 +57,7 @@ The tools need Python 3 with numpy. `parse.py` also needs lark and `offensive.py
 
 ## Related
 
-Senary, a base-six measurement system, is a sibling project. Apupiwe has words for it (`docs/measurement.md`). It will be published here too.
+Senary, a base-six measurement system, is a sibling project. Apupiwe has words for it (reserved in `data/senary.tsv`; described in the senary repo, `docs/apupiwe-vocabulary.md`). It will be published here too.
 
 ## Contributing
 
