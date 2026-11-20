@@ -2,7 +2,7 @@
 
 Where the project is and what comes next. Decisions and their reasons are in `design-log.md`; this file is the queue. Updated 2026-11-19.
 
-**Handoff (2026-11-19): where the work stands.** Since 2026-11-18 the critical path is done: the roots are placed (`tests/placement-03` to `-07`), the short words re-formed under the accent rule (`tests/shortwords-04/`), the standard-word loans, fractions and juncture decided, loan adaptation measured (`tests/loans-adapted-02/`) and the audit of exceptions closed; every decision is in the design log. **Next: "Open before v2" below, top to bottom.** The v2 site comes last. Tools for words: `tests/placement-06/place.py` (roots), `tests/shortwords-04/rebuild.py` (short words); after any word change run `tools/accent.py` and `tools/juncture.py` (AGENTS.md). Codex (non-Claude second opinion): see AGENTS.local.md.
+**Handoff (2026-11-19, evening): where the work stands.** The "Open before v2" list is empty: the roots are placed, the short words re-formed under the accent and pronoun rules, rule J holds, the outside review is resolved, and the old lessons, site and superseded docs are gone from this branch (git history keeps them). What remains: a second cold review of today's changes (proposed), then "Last" (lessons and docs from scratch, then the regression test) and the v2 site. "After v2" holds additions that don't change existing words. Tools: roots `tests/placement-11/place.py`, short words `tests/shortwords-04/rebuild.py`, form changes in texts `tests/placement-08/apply/apply.py`; after any word change run `tools/accent.py` and `tools/juncture.py` (AGENTS.md).
 
 **How the backlog is worked (author, 2026-10-15):** finish the current backlog one item at a time. Anything *new* a review turns up gets one test before it joins: does it block v2, i.e. would it change word forms or grammar that are costly to change once the author is learning? If not, it goes under "After v2", not into the queue. If the backlog keeps churning (growing rather than shrinking), the same test is applied to the whole backlog. v2 is done when: the short words are rebuilt, the concept list is closed and the ~1,500 roots placed once, the reference, grammar and lessons agree, and the v2 site is built.
 
@@ -32,7 +32,7 @@ Where the project is and what comes next. Decisions and their reasons are in `de
 
 Triaged 2026-11-19: every item of the October queue is done (design log) or moved to "After v2", except these.
 
-1. ~~Outside review~~ done 2026-11-19 (`research/reviews/codex-2026-11/`); its design questions are being decided (RESPONSE.md). Was: **Outside review** of the design and the final forms by a non-Claude model (Codex), cold (process risk 1 of the unknown-unknowns review; the October plan for "a non-Claude model for one month").
+1. ~~Outside review~~ done 2026-11-19 (`research/reviews/codex-2026-11/`); all 18 findings resolved (RESPONSE.md, Outcomes). Was: **Outside review** of the design and the final forms by a non-Claude model (Codex), cold (process risk 1 of the unknown-unknowns review; the October plan for "a non-Claude model for one month").
 2. ~~Regression test~~ moved to "Last" (author, 2026-11-19: it would mostly test the docs, which will be rebuilt).
 3. ~~Record the phrases already decided~~ done 2026-11-19 (design log).
 4. ~~Senses the concept walk flagged as uncovered~~ and 5. ~~symbol names~~ done 2026-11-19 by the ladders (`tests/ladder-02/`). The pronoun rule and rule J applied 2026-11-19 (`tests/placement-08/`). Next: the regression test (2).
