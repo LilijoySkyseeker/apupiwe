@@ -45,15 +45,15 @@ A few things about it:
 ## What's in this repo
 
 - `docs/goal.md`: what the language is for; everything else answers to it.
-- Lessons: removed on this branch (2026-11-19); new ones are written once the language is final. The published v1 site keeps the old ones.
+- Lessons and the website: removed on this branch (2026-11-19); both are rebuilt once the language is final. The published v1 site keeps the old ones.
 - `docs/language.md`: the full reference. It's generated from `spec/reference.toml`, so edit that and run `tools/spec.py build`.
 - `docs/rationale.md`: why things are the way they are.
 - `docs/design-log.md`: every decision, in order.
 - `data/`: the word lists.
 - `tools/`: Python scripts that make and check words and build the reference and the website.
-- `tests/`, `texts/`, `research/`: translation tests, sample texts and the research behind the choices.
+- `tests/`, `research/`: tests and the research behind the choices.
 
-The tools need Python 3 with numpy. `parse.py` also needs lark, `site.py` needs markdown and `offensive.py` needs wordfreq. With Nix, `nix develop` (or direnv) gives a shell with all of them.
+The tools need Python 3 with numpy. `parse.py` also needs lark and `offensive.py` needs wordfreq. With Nix, `nix develop` (or direnv) gives a shell with all of them.
 
 ## Related
 

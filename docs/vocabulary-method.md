@@ -1,6 +1,6 @@
 # Vocabulary method (roadmap B1, step 2): draft
 
-The decision procedure for choosing concepts and drawing their boundaries. Built on the plan (`vocabulary-plan.md`) and four research notes: `concept-sources.md`, `colexification.md`, `efficient-semantics.md`, `early-vocabulary.md`. Seed size and the lump/split rule were agreed by the author on 2026-10-08. Colour awaits the colour-vision check. The seed decisions are recorded in `data/concepts.tsv` (built by `tools/seed.py` and `seed_batch2.py`, removed 2026-10-09 as single-use; in git history).
+The decision procedure for choosing concepts and drawing their boundaries. Built on the plan (`vocabulary-plan.md`, in git history) and four research notes: `concept-sources.md`, `colexification.md`, `efficient-semantics.md`, `early-vocabulary.md`. Seed size and the lump/split rule were agreed by the author on 2026-10-08. Colour awaits the colour-vision check. The seed decisions are recorded in `data/concepts.tsv` (built by `tools/seed.py` and `seed_batch2.py`, removed 2026-10-09 as single-use; in git history).
 
 ## 0. The word-decision ladders (author, 2026-10-12)
 
@@ -101,4 +101,4 @@ Moved here from the reference (2026-10-10), which now states only what words are
 4. **Phrases aren't promoted or fused by design** (author, 2026-10-13). The base is seeded as fully as the coverage measurement says, then left to its speakers. Speakers will shorten frequent phrases the way people do: by dropping a word context carries, or by keeping first syllables, never by adopting an unrelated form (`drift.md` 9). Compounds stay separate words in speech and writing, as in Indonesian *rumah sakit* and Tok Pisin *haus sik*; the only one-word forms are the language's name in other languages and metric unit names, which the standard itself builds as one word (prefix + unit).
 5. **Names keep their owner's spelling; loans are adapted** with `tools/names.py` (broad IPA in), and only where the world shares a form.
 6. **No word may sound like one of the strongest, most common offensive words** in the world's most spoken languages (the reviewed hard list in `tools/offensive.py`, plus the `REJECTED` list). Other matches from the Wiktionary data (34 languages) only break ties (C3, author 2026-10-15).
-7. **One-syllable grammar forms** go by measured frequency: a meaning earns one only by beating the rarest current holder (`grammar-rebuild-spec.md`).
+7. **One-syllable grammar forms** go by measured frequency: a meaning earns one only by beating the rarest current holder (in git history: `grammar-rebuild-spec.md`).

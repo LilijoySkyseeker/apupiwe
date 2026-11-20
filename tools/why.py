@@ -11,7 +11,7 @@ import glob, os, re, sys
 
 ROOT = os.path.join(os.path.dirname(os.path.abspath(__file__)), "..")
 DOCS = ["docs/design-log.md", "docs/rationale.md", "docs/goal.md", "docs/roadmap.md", "docs/vocabulary-method.md",
-        "docs/drift.md", "docs/vocabulary-plan.md", "spec/reference.toml", "research/where-communication-fails.md",
+        "docs/drift.md", "spec/reference.toml", "research/where-communication-fails.md",
         "research/reviews/cold-review-2026-10/reports/C-verdict.md"] + sorted(glob.glob("research/notes/*.md"))
 
 

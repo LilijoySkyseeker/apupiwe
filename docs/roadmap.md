@@ -24,7 +24,7 @@ Where the project is and what comes next. Decisions and their reasons are in `de
 ## Done (2026-10-10 to 10-12)
 
 - Spec as structured source: `spec/reference.toml` → `docs/language.md` (`tools/spec.py`), every rule anchored (`#r-4-2-4`); lessons tag the rules they teach and `spec.py lessons` flags lessons whose rules changed.
-- Static site (`tools/site.py`, GitHub Pages).
+- Static site (`tools/site.py`, GitHub Pages; deleted on v2-work 2026-11-19, live on `main`).
 - The goal (`goal.md`), then a cold adversarial review against it (`research/reviews/cold-review-2026-10/`): **keep with repairs**.
 - Formal grammar in GF, phase 2 (`formal-grammar.md`, `grammar/`): every reference example parses with its intended reading; the UDHR parses.
 
@@ -39,7 +39,7 @@ Triaged 2026-11-19: every item of the October queue is done (design log) or move
 
 ## Last: the docs and lessons, rebuilt from scratch (author, 2026-11-19)
 
-Once the language itself is final, before the v2 site. The old lessons were deleted from this branch on 2026-11-19 (git history keeps them; `tools/site.py` still expects `docs/learn.md` and is rebuilt with the site).
+Once the language itself is final, before the v2 site. The old lessons were deleted from this branch on 2026-11-19 (git history keeps them), with the v1 site's machinery, `docs/why.md` and `examples/`.
 - **Lessons from scratch,** from the reference and data alone, plus research on how languages are best taught (to do: a research pass on language pedagogy before writing). Not adapted from today's lessons.
 - **Docs that agents and people can produce text from** (2026-10-13 item): worked examples for producing text, not only rules.
 - **Teach what the language already says but no text explains** (from the outside review, 2026-11-19): "the robot broke down" is **lewe gun** + the action word (4.5.4, finding 4); show whether each verb takes an object (`data/roles.tsv`, finding 7); "should" in questions and reports (finding 11, check it is sayable with **kifa**, **wupi** or **upe** first).
