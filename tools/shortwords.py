@@ -43,7 +43,7 @@ Layer files: tab-separated gloss, class, freq, old, new ("today" = today's layer
   python3 tools/shortwords.py report name=LAYER ...         # tables -> results.txt, forms.tsv in --dir
   python3 tools/shortwords.py positions                     # the position table -> positions.md in --dir
   --dir DIR: where output files go (default: a new temp dir, printed). --variants all|48: the model variant set
-  (default all: the 50 variants with src-av and src-lp, as the shortwords-04 runs used; 48 = confusion2.variants()).
+  (default 48 = confusion2.variants(), the author's Decision 2; all = the 50 with src-av and src-lp, as the shortwords-04 runs used).
 """
 import collections, csv, itertools, math, os, random, re, sys, tempfile
 import numpy as np
@@ -304,7 +304,7 @@ S_O = np.array([OI[o] for o, _, _ in SYL]); S_V = np.array([VI[v] for _, v, _ in
 OP_FIRST = {o: IDX[re.findall(r"[^aeiou]?[aeiou](?:n(?![aeiou]))?", o)[0]] for o in OPERATORS}
 
 # ------------------------------------------------------------------------------------------ variants
-VARSET = sys.argv[sys.argv.index("--variants") + 1] if "--variants" in sys.argv else "all"
+VARSET = sys.argv[sys.argv.index("--variants") + 1] if "--variants" in sys.argv else "48"
 assert VARSET in ("all", "48"), "--variants all|48"
 # all: confusion2.variants(av=True, lp=True), 50 variants, what every short-word run since 2026-10-15 used;
 # 48: confusion2.variants() as it defaults (author, 2026-10-15, Decision 2: src-av and src-lp changed no form).
