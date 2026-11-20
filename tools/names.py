@@ -32,7 +32,7 @@ DROP = "ˈˌːʰʲˑ.ˀ̥̩̯̪̚ʷ"
 NASAL = "̃"
 
 
-FRONT = "iɪyʏeɛøœæ"
+FRONT = "iɪyʏeɛøœ"   # vowels that adapt to i or e (æ adapts to a)
 
 
 def segments(ipa):
