@@ -56,6 +56,25 @@ These are the working methods; reuse them to keep changes consistent.
 
 This is the language's most distinctive machinery. Root **sounds are arbitrary on purpose**; logic lives in how words combine (§5).
 
+### 3.0 Every rule a word form must pass, in one table (doghouse review, 2026-11-19)
+
+The place to look before adding a rule, and the list to prune from. "Seen" means a real clash turned up in the lexicon; "predicted" means harm expected from the mishearing model, typology or sound-change research, never observed. A predicted-only rule is a candidate for deletion if it ever costs a better form; its trigger to keep is evidence of the harm.
+
+| rule | what it forbids | owner, date | harm | checked by |
+|---|---|---|---|---|
+| Drift keys | two content words that would merge after likely sound change (later-syllable e/i, o/u, voicing, a lost final n) | author, 2026-10-08 | predicted (sound change) | the placement tool |
+| Digits | a root starting with a digit's syllable (**mu ni sa de wo ma**); loans exempt | author, 2026-10-08 | predicted | `juncture.py` 1 |
+| Haplology | a root starting with the syllable of a grammar word that often precedes content words; loans exempt | author, 2026-10-15 (Globasa review) | predicted (typology) | the placement tool |
+| -n + vowel | X and nX both words where a grammar word and its -n twin exist | author, 2026-10-15 | predicted | `juncture.py` 3 |
+| Rule J | a word that sounds like a shorter word plus a grammar word | author, 2026-11-19 (outside review) | seen (**tiwuye** / **tiwu ye**, 79 words) | `juncture.py` 4 |
+| Accent (2.12) | content words, or short words sharing a position, that differ only by a declared accent variant | author, 2026-11-19 | seen pairs; merging predicted (sound change) | `accent.py` |
+| Loan vowels (11.3) | another word where a loan lands with its added final vowel changed or dropped | author, 2026-11-19 (loan research) | seen (**geni** / **geno**, **gen**) | `accent.py` |
+| Short words in one position (H4) | short words sharing a position that differ only by voicing, f/p, glide vs none, or a final -n | author, 2026-10-15 | predicted (model) | the short-word tool |
+| Pronouns (H7) | two pronouns differing only by their vowel | author, 2026-11-19 (outside review) | seen pairs (**sen** / **son**, **din** / **dan**); confusion predicted | the short-word tool |
+| Offensive (C3) | a form on the reviewed hard list; other matches only break ties | author, 2026-10-15 | predicted | the offensive screen |
+| Length | a three-syllable root outside the rarest tier (every other root has two syllables) | author, 2026-11-18 | — (a cost rule) | the placement tool |
+| Mishearing model v2 | the soft objective; frozen; differences under about 5% are ties | author, 2026-10-13; frozen 2026-11-19 | seen (v1 misrated voicing, l/n) | the placement and short-word tools |
+
 ### 3.1 Why arbitrary roots
 [evidence + Claude] Languages whose sounds encode meaning (Wilkins 1668: *Tida* redness / *Tide* greenness; Ro; Solresol, where reversing some words gives their opposite) turn one misheard sound into a plausible neighbouring meaning that context can't catch, and their categories go stale. Learning studies (Monaghan, Christiansen et al.) find arbitrary forms help learning individual words (and systematic ones help learning categories, which is what word-building is for, §5). So similar and opposite meanings get forms that sound **as different as possible**: this last step is [Claude], from the mishearing argument, not from those studies; natural languages lean the other way (Dautriche et al. 2017: semantically similar words sound more alike than chance). *(Corrected 2026-10-12 after the fact-check, C11, C12: Solresol's reversal isn't a general rule; "as different as possible" isn't in Monaghan et al.)*
 
@@ -77,10 +96,10 @@ This is the language's most distinctive machinery. Root **sounds are arbitrary o
 ### 3.4a Accent tolerance (`tools/accent.py`; language.md 2.9, 2.12)
 [Author, 2026-11-19; `tests/accent-01/`, `tests/shortwords-04/`] Speakers live among other languages and bring their accents, and children copy them (P4, B9). So the reference declares which realisations count as the same sound (2.9) and builds the words so that none of them turns one word into another (2.12). The cold review's replacement for "grammar words keep their consonants", a norm speakers can't obey: no contrast between words that can share a position may rest on a declared variant. The variants that mattered are the ones speech produces first: voiced stops softening between vowels, and k g palatalised before front vowels. Short, unstressed, frequent words wear fastest, so the grammar words were re-formed under the rule (27 changed), and digits, the name and the 22 grammar words that often precede roots constrain that (haplology). Vowel-only differences between same-position grammar words are kept out of new grammar words, since unstressed vowels weaken. Run `tools/accent.py` after any word change.
 
-### 3.5 The optimiser (`tests/placement-05/place.py`; `tools/words.py add-content` is out of date)
-**Since 2026-11-18 roots are placed by the placement tool** (`tests/placement-01` to `-05`): model v2's robust score over 48 listener variants, the length rule (three syllables only for the rarest tier), the haplology, digit, juncture and accent rules, and a keep term so placed roots stay. `words.py add-content` below still uses model v1 and lacks those rules (roadmap); use the placement tool until it is updated.
+### 3.5 The optimiser (`tools/place.py`, `tools/shortwords.py`)
+**Roots are placed by `tools/place.py`** (consolidated 2026-11-19 from `tests/placement-01` to `-11`), short words by `tools/shortwords.py`: model v2's robust score over 48 listener variants, the length rule (three syllables only for the rarest tier), the haplology, digit, juncture and accent rules, and a keep term so placed roots stay. `words.py add-content` below still uses model v1 and lacks those rules (roadmap); use the placement tool until it is updated.
 
-`words.py add-content`, as it was: for a new root it tries every two-syllable form not taken (after drift keys) and minimises:
+`words.py add-content` (deleted 2026-11-19; in git history), as it was: for a new root it tried every two-syllable form not taken (after drift keys) and minimises:
 - confusion with every existing two-syllable word, **weighted by meaning**: ×30 antonyms (`--antonym`, recorded in `data/antonyms.tsv`), ×30 between two number words (a number misheard as another number goes unnoticed; design log 2026-11-18), ×3 same semantic field, ×1 other;
 - weighted by frequency (`TIER_FREQ` tiers 1–5) in both directions;
 - plus a length penalty (`EFFORT = 0.02`) so frequent words stay short.
@@ -188,7 +207,7 @@ In order: (1) a formal efficiency model where one exists (colour, kinship); (2) 
 - **No teens or irregular tens** (15 **yawu ma**, 50 **ma yawu**) [evidence]: English *fifteen/fifty* is a known confusion (documented for learners of English, not in aviation or phone research); regular numerals help children learn to count (Miller, Smith, Zhu & Zhang 1995) *(corrected 2026-10-12 after the fact-check, C45: was "a classic confusion")*.
 - **Digit reading** for identifiers in groups of three [evidence: aviation reads digits one by one].
 - **Calendar:** today's (7-day **nelon**, **dunan** month (the Moon has its own word from 2026-10-13), 24-hour clock read as digits); months and weekdays by number [author]. Points in time are labels (noun + **mena** + number; **pi** + number until 2026-10-12).
-- **Senary** is a topic [author]: its words live in `data/senary.tsv` (described in the senary repo, `docs/apupiwe-vocabulary.md`), `data/units.tsv` and the senary rows of `numbers.tsv`; **senali** marks a senary number. Senary (its own repo, to be published) owns quantities; this repo owns all words, and senary uses them verbatim (r22–r23). Keep senary usable: it may be used for worldbuilding.
+- **Senary** is a topic [author]: its words are described in the senary repo (`docs/apupiwe-vocabulary.md`); since 2026-11-19 their forms are no longer reserved here (goal N6); `data/units.tsv` and the senary rows of `numbers.tsv`; **senali** marks a senary number. Senary (its own repo, to be published) owns quantities; this repo owns all words, and senary uses them verbatim (r22–r23). Keep senary usable: it may be used for worldbuilding.
 
 ---
 
@@ -203,7 +222,8 @@ In order: (1) a formal efficiency model where one exists (colour, kinship); (2) 
 ### 9.1 Environment
 Python with numpy, from the repo flake (`nix develop`, or direnv via `.envrc`), run from `tools/`:
 
-    python words.py add-content GLOSS FIELD TIER [--antonym GLOSS]
+    python tools/place.py start --state DIR   # after adding the concept to data/concept-list.tsv
+    python tools/place.py write DIR/A.json    # writes the forms into data/ and runs tools/check_all.py
 
 wordfreq is needed for the offensive filter's frequency ranking. `clics_rates.awk` needs the CLICS4 CLDF tables (download from Zenodo/clld; not kept in the repo).
 
@@ -220,10 +240,10 @@ wordfreq is needed for the offensive filter's frequency ranking. `clics_rates.aw
 
 ### 9.3 Common changes and what they touch
 - **Change a rule or example:** edit `spec/reference.toml` (never `docs/language.md`, which is generated), run `tools/spec.py build`, then `check.py` on the result.
-- **Add a word:** `words.py add-content` (with `--antonym` for opposites and close alternatives) → `juncture.py` → `check.py` on any text using it → log it.
+- **Add a word:** a row in `data/concept-list.tsv` (antonyms in its column) → `tools/place.py start` and `write` (which runs `tools/check_all.py`) → `check.py` on any text using it → log it.
 - **Move a word** (only with evidence): re-coin with the old form excluded (see the move script pattern in design-log "Offensive-word moves"), then update docs, `compounds.tsv`, and senary if it's a unit (senary's symbols are the first two letters).
 - **Change a grammar rule:** edit `spec/reference.toml` (the lessons are rewritten once the language is final), run a blind test that exercises it, log the rejected options and an add-back trigger.
-- **Tune the model:** the assumptions in `confusion.py` and the weights in `words.py`/`build.py` change *future* words only; existing words don't move.
+- **Tune the model:** the assumptions in `confusion.py` and the weights in `tools/place.py`/`build.py` change *future* words only (and the model is frozen, 2026-11-19: change it only for new evidence); existing words don't move.
 - **Change sounds or syllable shape:** requires a full rebuild; treat as a new language version.
 
 ### 9.4 Tests that exist
