@@ -187,7 +187,7 @@ type = "bullet"
 title = "Outside the sound system"
 gap = 0
 text = '''
-- Interjections are outside the sound system and carry no grammar. Each is written in a shape no word can have (a bare vowel, a final y, no vowel at all), so none is taken for a word. The standard ones are the shapes most of the world's languages share: **o** "oh" (noticing, realising, surprise; stretched, **ooo**, for wonder), **a?** "huh?, say again", **ey** "hey" (getting attention), **ss** "shh" and **mm** "heard you". Where the world shares no shape, the exclamation particle and an ordinary word say it (7.1): **ka bebu** "yuck", **ka gagan** "oops", **ka sonli** "phew". Speakers may also use their own interjection and hesitation sounds.'''
+- Interjections are outside the sound system and carry no grammar. Each is written in a shape no word can have (a bare vowel, two vowels together, a final y, no vowel at all), so none is taken for a word. The standard ones are the shapes most of the world's languages share: **o** "oh" (noticing, realising, surprise; stretched, **ooo**, for wonder), **a?** "huh?, say again", **ai** "ouch", **ey** "hey" (getting attention), **ss** "shh", **mm** "heard you" and **ee…** "uh, um" (hesitating, 4.6). Where the world shares no shape, the exclamation particle and an ordinary word say it (7.1): **ka bebu** "yuck", **ka gagan** "oops", **ka sonli** "phew". Speakers may also use their own interjection and hesitation sounds.'''
 
 [[item]]
 id = "2.11"

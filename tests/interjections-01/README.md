@@ -23,9 +23,9 @@ shape when their core sound matches, ignoring h, a glottal stop, length, tone an
 | "huh?" | a? / e? | 12 | 5 | **a?** (8 of 12 a-type); Dingemanse et al. 2013 found the same |
 | "hey" | e/o + y | 13 | 5 | **ey** (9 of 13 e-type) |
 | "shh" | sibilant | 13 | 6 | **ss** |
-| "ouch" | ai | 11 | 5 | fails by one: **open, the author decides** |
+| "ouch" | ai | 11 | 5 | fails by one; **ai** accepted by the author (2026-11-19: data gaps, consistent shape) |
 | "wow" | wa | 10 | 5 | fails; **o** (stretched) and **ka** + a word cover it |
-| "uh, um" (hesitation) | e/ə/ɯ (+m) | 10 | 4 | fails; a built filler would be a word, which a filler must not be: **open** |
+| "uh, um" (hesitation) | e/ə/ɯ (+m) | 10 | 4 | fails; a built filler would be a word, which a filler must not be; **ee…** chosen by the author as the written standard (2026-11-19) |
 | "yuck" | none | ≤6 | 3 | built **ka bebu** |
 | "phew" | fu/uf | 5 | 3 | built **ka sonli** |
 | "oops" | none | ≤5 | 2 | built **ka gagan** |
