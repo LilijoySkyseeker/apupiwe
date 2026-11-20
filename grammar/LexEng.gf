@@ -1701,6 +1701,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     kude_N = D.lie_N ;
     kude_V = I.lie_V ;
     kude_A = P.mkA "lying" ;
+    kufawo_N = D.dusk_N ;
+    kufawo_V = P.mkV "dusk" ;
+    kufawo_A = P.mkA "dusk" ;
     kugawe_N = D.pus_N ;
     kugawe_V = P.mkV "pus" ;
     kugawe_A = P.mkA "pus" ;

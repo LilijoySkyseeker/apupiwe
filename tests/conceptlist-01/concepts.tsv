@@ -1547,3 +1547,4 @@ import	root		action	1	1452	export	PHRASE-LINE	root (author 2026-11-19: the world
 earthquake	root		nature	1	1130		PHRASE-LINE	root (author 2026-11-19: the world-compound clause of the phrase line deleted)
 blame, hold responsible	root		sense	1	1039		AUDIT01	split from accuse by rung 4 (22.2%)
 spicy, pungent (the burn of chili, not temperature)	root		taste	1	1622		AUDIT01	"split from tikun ""hot"" (author 2026-11-19: ""the soup is hot"" is common; spicy food is not hotter, C4)"
+dusk, sunset (the end of daylight)	root		time	1	2171	dawn	SETS	root for symmetry with dawn (sets pass 2026-10-16; author 2026-11-19)

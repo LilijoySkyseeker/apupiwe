@@ -1700,6 +1700,9 @@ concrete LexApu of Lex = open Prelude in {
     kude_N = {s = "kude" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
     kude_V = {s = "kude" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
     kude_A = {s = "kude" ; act = True ; obj = False ; tm = False ; gd = False ; res = False} ;
+    kufawo_N = {s = "kufawo" ; act = False ; obj = False ; tm = True ; gd = False ; res = False} ;
+    kufawo_V = {s = "kufawo" ; act = False ; obj = False ; tm = True ; gd = False ; res = False} ;
+    kufawo_A = {s = "kufawo" ; act = False ; obj = False ; tm = True ; gd = False ; res = False} ;
     kugawe_N = {s = "kugawe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kugawe_V = {s = "kugawe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kugawe_A = {s = "kugawe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;

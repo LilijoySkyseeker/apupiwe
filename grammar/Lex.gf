@@ -1703,6 +1703,9 @@ abstract Lex = {
     kude_N : N ;  -- lie, tell an untruth
     kude_V : V ;  -- lie, tell an untruth
     kude_A : A ;  -- lie, tell an untruth
+    kufawo_N : N ;  -- dusk, sunset (the end of daylight)
+    kufawo_V : V ;  -- dusk, sunset (the end of daylight)
+    kufawo_A : A ;  -- dusk, sunset (the end of daylight)
     kugawe_N : N ;  -- pus
     kugawe_V : V ;  -- pus
     kugawe_A : A ;  -- pus
