@@ -1,0 +1,144 @@
+source	sentence	said	heard_as	stress	alt_parses	alt_sentence
+4.2.6	doyu pume	pume	pu me	diff	0	doyu pu me
+4.2.6	wan isi yinmi tanke	yinmi tanke	yin mitan ke	diff	0	wan isi yin mitan ke
+4.2.6	wan isi yinmi tanke	tanke	tan ke	diff	0	wan isi yinmi tan ke
+4.3.2	pi tale la , win kuwi guyi , yidu bun la	tale la	ta lela	diff	0	pi ta lela , win kuwi guyi , yidu bun la
+4.4.1	tiyen nan tanun tufun	tanun	ta nun	diff	3	tiyen nan ta nun tufun
+4.4.1	wan isi no wuma kon dili ni	wuma	wu ma	diff	0	wan isi no wu ma kon dili ni
+4.5.4	beya ben tapi	tapi	ta pi	diff	0	beya ben ta pi
+4.7.2	mon gun tiwu	tiwu	ti wu	diff	0	mon gun ti wu
+4.7.4	gun tapi	tapi	ta pi	diff	0	gun ta pi
+4.7.6	momu gun tiwu	tiwu	ti wu	diff	0	momu gun ti wu
+4.8.2	ba momu me wan oyi yu	ba momu	bamo mu	diff	0	bamo mu me wan oyi yu
+4.8.2	ba momu me wan oyi yu	me wan	mewan	diff	3	ba momu mewan oyi yu
+4.8.3	ewo wifu yu	wifu yu	wi fuyu	diff	2	ewo wi fuyu
+4.8.5	wan su loya me bi mon obu	loya	lo ya	diff	0	wan su lo ya me bi mon obu
+4.8.5	wan su loya me bi ewo yu obu	loya	lo ya	diff	0	wan su lo ya me bi ewo yu obu
+4.8.5	ba momu me wan oyi yu	ba momu	bamo mu	diff	0	bamo mu me wan oyi yu
+4.8.5	ba momu me wan oyi yu	me wan	mewan	diff	3	ba momu mewan oyi yu
+5.2.2	tiwu futa	tiwu	ti wu	diff	1	ti wu futa
+5.2.11	wan ibe lipo wiwi buda	wiwi	wi wi	diff	0	wan ibe lipo wi wi buda
+5.2.11	wan ibe lipo wiwi tan buda	wiwi	wi wi	diff	0	wan ibe lipo wi wi tan buda
+5.2.11	lipo gun wiwi tan buda	lipo gun	li pogun	diff	0	li pogun wiwi tan buda
+5.2.11	lipo gun wiwi tan buda	wiwi	wi wi	diff	0	lipo gun wi wi tan buda
+5.2.4	yawu gun upe	yawu	ya wu	diff	0	ya wu gun upe
+5.2.4	wuma gun upe	wuma	wu ma	diff	2	wu ma gun upe
+5.2.5	bifo mena de	bifo	bi fo	diff	0	bi fo mena de
+5.2.5	bifo mena de	mena de	me nade	diff	1	bifo me nade
+5.2.5	bifo pi fugi	bifo	bi fo	diff	1	bi fo pi fugi
+5.2.8	yefi kin	yefi kin	ye fikin	diff	1	ye fikin
+5.2.8	sen nume mesun	sen nume	sennu me	diff	0	sennu me mesun
+5.2.8	wan iko fin len mon	fin len	finlen	diff	2	wan iko finlen mon
+5.2.9	enpa pi pume nun enpa pi lite pi nubige	pume	pu me	diff	0	enpa pi pu me nun enpa pi lite pi nubige
+5.3.3	natun gi ba la yaga	yaga	ya ga	diff	0	natun gi ba la ya ga
+5.3.4	fela gi wan nume no	fela	fe la	diff	0	fe la gi wan nume no
+5.3.4	fela gi wan nume no bun	fela	fe la	diff	0	fe la gi wan nume no bun
+5.3.6	wonnun gi wan fonsu nan	fonsu	fon su	diff	0	wonnun gi wan fon su nan
+5.3.7	guyi gi beya pi bun gun tapi	tapi	ta pi	diff	0	guyi gi beya pi bun gun ta pi
+5.4.2	win febo	febo	fe bo	diff	0	win fe bo
+5.4.6	win obu don yaye	yaye	ya ye	diff	0	win obu don ya ye
+6.1.2	pe de yawu pi loki mon obu	yawu	ya wu	diff	0	pe de ya wu pi loki mon obu
+6.1.2	pe de yawu pi loki mon obu	yawu pi	ya wupi	diff	0	pe de ya wupi loki mon obu
+6.2.3	min fo tomas ben yidu bun	min fo	minfo	diff	0	minfo tomas ben yidu bun
+7.1.3	genso bi ba loya	loya	lo ya	diff	0	genso bi ba lo ya
+8.1.1	no wuma , gegi nuwo	wuma	wu ma	diff	0	no wu ma , gegi nuwo
+8.2.1	bifo sa	bifo	bi fo	diff	0	bi fo sa
+8.2.2	wuma kon dili ni	wuma	wu ma	diff	0	wu ma kon dili ni
+8.2.2	ya dunan ni	dunan	du nan	diff	0	ya du nan ni
+8.2.4	wan nume fawu de yawu	yawu	ya wu	diff	0	wan nume fawu de ya wu
+8.3.1	no yawu mu sa	yawu	ya wu	diff	0	no ya wu mu sa
+8.3.1	no yawu sa	yawu	ya wu	diff	0	no ya wu sa
+8.3.2	dili mena de	mena de	me nade	diff	1	dili me nade
+8.3.2	dili mena de pi dunan	mena de	me nade	diff	0	dili me nade pi dunan
+8.3.2	dili mena de pi dunan	dunan	du nan	diff	0	dili mena de pi du nan
+8.3.2	dili mena de pi isi	mena de	me nade	diff	0	dili me nade pi isi
+8.3.3	dunan mena yawu , dili mena tuli	dunan	du nan	diff	0	du nan mena yawu , dili mena tuli
+8.3.3	dunan mena yawu , dili mena tuli	yawu	ya wu	diff	0	dunan mena ya wu , dili mena tuli
+9.2.3	dili mena yawu wo	yawu	ya wu	diff	0	dili mena ya wu wo
+9.2.6	wan nawi bifo sa no dili mesun	bifo	bi fo	diff	0	wan nawi bi fo sa no dili mesun
+9.2.6	wan neke yefi de len ewo mesun	yefi de	ye fide	diff	3	wan neke ye fide len ewo mesun
+9.3.1	ewo fun de yawu	yawu	ya wu	diff	0	ewo fun de ya wu
+9.3.4	ke meli	meli	me li	diff	0	ke me li
+9.3.5	kilometulu ma	kilometulu	kilo metulu	diff	3	kilo metulu ma
+10.1.3	lanno , lo wu mon obu	lo wu	lowu	diff	1	lanno , lowu mon obu
+10.2.1	lo wu mon obu	lo wu	lowu	diff	1	lowu mon obu
+10.2.3	fon wu kan wupi isi	wu kan	wukan	diff	6	fon wukan wupi isi
+10.2.3	fon wu kan wupi isi	wupi	wu pi	diff	0	fon wu kan wu pi isi
+10.3.2	ba momu bun lu fin , yu	ba momu	bamo mu	diff	1	bamo mu bun lu fin , yu
+12.1	sin pe mu	pe mu	pemu	diff	1	sin pemu
+12.1	sin pe mu wan ben isi , wan ben nagu mon	pe mu	pemu	diff	0	sin pemu wan ben isi , wan ben nagu mon
+12.2	wupi	wupi	wu pi	diff	0	wu pi
+12.3	fan bika	bika	bi ka	diff	0	fan bi ka
+13.2	wan doku anko lokagi	lokagi	lo ka gi	diff	0	wan doku anko lo ka gi
+udhr	ewo mesun pi yonyo pi ewo we ibe bawe pi ewo bo mon gun ewo	yonyo	yon yo	diff	0	ewo mesun pi yon yo pi ewo we ibe bawe pi ewo bo mon gun ewo
+udhr	ewo mesun pi yonyo pi ewo we ibe bawe pi ewo bo mon gun ewo	bawe	ba we	diff	2	ewo mesun pi yonyo pi ewo we ibe ba we pi ewo bo mon gun ewo
+udhr	no fowo minwe , yinki pi enpa gun me ewo we tayu yin	fowo	fo wo	diff	2	no fo wo minwe , yinki pi enpa gun me ewo we tayu yin
+udhr	no fowo minwe , yinki pi enpa gun me ewo we tayu yin	minwe	min we	diff	2	no fowo min we , yinki pi enpa gun me ewo we tayu yin
+udhr	no fowo minwe , yinki pi enpa gun me ewo we tayu yin	tayu	ta yu	diff	0	no fowo minwe , yinki pi enpa gun me ewo we ta yu yin
+udhr	bo ewo we loya yefi upe nun yefi yomo , yefi la yin tula bonko mon la	loya	lo ya	diff	0	bo ewo we lo ya yefi upe nun yefi yomo , yefi la yin tula bonko mon la
+udhr	ewo la ganin me fowo minwe lewe upe	fowo	fo wo	diff	2	ewo la ganin me fo wo minwe lewe upe
+udhr	ewo la ganin me fowo minwe lewe upe	minwe	min we	diff	1	ewo la ganin me fowo min we lewe upe
+udhr	no fowo yin , dan oyi enpa , nun dan ibe gen pume feko fun enpa	fowo	fo wo	diff	0	no fo wo yin , dan oyi enpa , nun dan ibe gen pume feko fun enpa
+udhr	no fowo yin , dan oyi enpa , nun dan ibe gen pume feko fun enpa	pume	pu me	diff	0	no fowo yin , dan oyi enpa , nun dan ibe gen pu me feko fun enpa
+udhr	ganin yin gun ke tisan don we , nun ewo kin ben iko fin len ewo we	fin len	finlen	diff	9	ganin yin gun ke tisan don we , nun ewo kin ben iko finlen ewo we
+udhr	senya pi wabun kifa kuwi sogan pi ewo fan ewo la su kifa migi senya yomo pi win wungu	senya	sen ya	diff	0	sen ya pi wabun kifa kuwi sogan pi ewo fan ewo la su kifa migi senya yomo pi win wungu
+udhr	senya pi wabun kifa kuwi sogan pi ewo fan ewo la su kifa migi senya yomo pi win wungu	senya	sen ya	diff	0	senya pi wabun kifa kuwi sogan pi ewo fan ewo la su kifa migi sen ya yomo pi win wungu
+udhr	migi yin gun lite fugi	lite fugi	li tefu gi	diff	0	migi yin gun li tefu gi
+udhr	ewo we kifa yema fan yuna la lewe sonu pi nen nen	yema	ye ma	diff	3	ewo we kifa ye ma fan yuna la lewe sonu pi nen nen
+udhr	no pata pi loso pi yuna la , ewo la pi loso yin ben oyi osin me son gewan sogan bawe pi ewo , nun son gewan bawe pi ewo , nun son gewan me lowu nun futa ibe sogan kige	loso yin	lo soyin	diff	0	no pata pi loso pi yuna la , ewo la pi lo soyin ben oyi osin me son gewan sogan bawe pi ewo , nun son gewan bawe pi ewo , nun son gewan me lowu nun futa ibe sogan kige
+udhr	no pata pi loso pi yuna la , ewo la pi loso yin ben oyi osin me son gewan sogan bawe pi ewo , nun son gewan bawe pi ewo , nun son gewan me lowu nun futa ibe sogan kige	bawe	ba we	diff	90	no pata pi loso pi yuna la , ewo la pi loso yin ben oyi osin me son gewan sogan ba we pi ewo , nun son gewan bawe pi ewo , nun son gewan me lowu nun futa ibe sogan kige
+udhr	no pata pi loso pi yuna la , ewo la pi loso yin ben oyi osin me son gewan sogan bawe pi ewo , nun son gewan bawe pi ewo , nun son gewan me lowu nun futa ibe sogan kige	bawe	ba we	diff	135	no pata pi loso pi yuna la , ewo la pi loso yin ben oyi osin me son gewan sogan bawe pi ewo , nun son gewan ba we pi ewo , nun son gewan me lowu nun futa ibe sogan kige
+udhr	no pata pi loso pi yuna la , ewo la pi loso yin ben oyi osin me son gewan sogan bawe pi ewo , nun son gewan bawe pi ewo , nun son gewan me lowu nun futa ibe sogan kige	lowu	lo wu	diff	0	no pata pi loso pi yuna la , ewo la pi loso yin ben oyi osin me son gewan sogan bawe pi ewo , nun son gewan bawe pi ewo , nun son gewan me lo wu nun futa ibe sogan kige
+udhr	mon la pon ben waka yema fan ewo we guge	yema	ye ma	diff	2	mon la pon ben waka ye ma fan ewo we guge
+udhr	mon la pon ben waka yema fan ewo we nume ke upe	yema	ye ma	diff	2	mon la pon ben waka ye ma fan ewo we nume ke upe
+udhr	mon la pon ben waka yema fan ewo we ibe enpa ke fefa	yema	ye ma	diff	4	mon la pon ben waka ye ma fan ewo we ibe enpa ke fefa
+udhr	yuna la pi loso pi yuna la ben oyi du ta doku nan loso pi yuna la fan ewo we dundi sogan pi ewo nun enpa bawe	bawe	ba we	diff	0	yuna la pi loso pi yuna la ben oyi du ta doku nan loso pi yuna la fan ewo we dundi sogan pi ewo nun enpa ba we
+udhr	nade kige pi sogan la yin gun ke bawe don we fan yuna la nebi tula minwe gen oyi fin	bawe	ba we	diff	8	nade kige pi sogan la yin gun ke ba we don we fan yuna la nebi tula minwe gen oyi fin
+udhr	nade kige pi sogan la yin gun ke bawe don we fan yuna la nebi tula minwe gen oyi fin	minwe	min we	diff	6	nade kige pi sogan la yin gun ke bawe don we fan yuna la nebi tula min we gen oyi fin
+udhr	lo mon la walo nan wiwa fan dan ke dundi sogan la yin	wiwa fan	wi wafan	diff	0	lo mon la walo nan wi wafan dan ke dundi sogan la yin
+udhr	nan doku gi guge no yuna pi nen , lo mon la pon walo fan ewo we tayu sogan la yin	tayu	ta yu	diff	0	nan doku gi guge no yuna pi nen , lo mon la pon walo fan ewo we ta yu sogan la yin
+udhr	lo ewo we kuwi sogan la yin fun feko no yuna la pi loso pi yuna la	feko no	fe kono	diff	2	lo ewo we kuwi sogan la yin fun fe kono yuna la pi loso pi yuna la
+udhr	lo ewo we pon kuwi bun la no fela gi yuna la yin wungu	fela	fe la	diff	0	lo ewo we pon kuwi bun la no fe la gi yuna la yin wungu
+udhr	ewo we diye nume nan enpa , nun mon la ibe bawe kige nun sogan kige	bawe	ba we	diff	10	ewo we diye nume nan enpa , nun mon la ibe ba we kige nun sogan kige
+udhr	mon la nebi pume , nun nebi loya yefi upe nun yefi yomo	pume	pu me	diff	0	mon la nebi pu me , nun nebi loya yefi upe nun yefi yomo
+udhr	mon la nebi pume , nun nebi loya yefi upe nun yefi yomo	loya	lo ya	diff	0	mon la nebi pume , nun nebi lo ya yefi upe nun yefi yomo
+udhr	fisu pi ewo lu fisu pi unne lu lowu lu futa lu apu lu lite pi nubige lu yuna lu loso gi mon obu don , su kubo yin	lowu	lo wu	diff	0	fisu pi ewo lu fisu pi unne lu lo wu lu futa lu apu lu lite pi nubige lu yuna lu loso gi mon obu don , su kubo yin
+udhr	fisu pi ewo lu fisu pi unne lu lowu lu futa lu apu lu lite pi nubige lu yuna lu loso gi mon obu don , su kubo yin	loso gi	lo sogi	diff	0	fisu pi ewo lu fisu pi unne lu lowu lu futa lu apu lu lite pi nubige lu yuna lu lo sogi mon obu don , su kubo yin
+udhr	yefi pi mon lu diye nume pi mon lu yefi eni lu gen pume pi wungu lu gen pume eni , pon su kubo yin	pume	pu me	diff	0	yefi pi mon lu diye nume pi mon lu yefi eni lu gen pu me pi wungu lu gen pume eni , pon su kubo yin
+udhr	yefi pi mon lu diye nume pi mon lu yefi eni lu gen pume pi wungu lu gen pume eni , pon su kubo yin	pume	pu me	diff	0	yefi pi mon lu diye nume pi mon lu yefi eni lu gen pume pi wungu lu gen pu me eni , pon su kubo yin
+udhr	pi yuna pi mon lu fela pi mon , sin bun gun enpa , lu yuna eni wungu bun , lu bun su wungu nen , lu bun ibe senya ke uyo fun lite eni , senya pi bun pon su kubo yin	fela	fe la	diff	0	pi yuna pi mon lu fe la pi mon , sin bun gun enpa , lu yuna eni wungu bun , lu bun su wungu nen , lu bun ibe senya ke uyo fun lite eni , senya pi bun pon su kubo yin
+udhr	pi yuna pi mon lu fela pi mon , sin bun gun enpa , lu yuna eni wungu bun , lu bun su wungu nen , lu bun ibe senya ke uyo fun lite eni , senya pi bun pon su kubo yin	senya	sen ya	diff	0	pi yuna pi mon lu fela pi mon , sin bun gun enpa , lu yuna eni wungu bun , lu bun su wungu nen , lu bun ibe sen ya ke uyo fun lite eni , senya pi bun pon su kubo yin
+udhr	pi yuna pi mon lu fela pi mon , sin bun gun enpa , lu yuna eni wungu bun , lu bun su wungu nen , lu bun ibe senya ke uyo fun lite eni , senya pi bun pon su kubo yin	senya	sen ya	diff	0	pi yuna pi mon lu fela pi mon , sin bun gun enpa , lu yuna eni wungu bun , lu bun su wungu nen , lu bun ibe senya ke uyo fun lite eni , sen ya pi bun pon su kubo yin
+udhr	nume nun enpa nun sonli gun sogan pi dan	sonli	son li	diff	3	nume nun enpa nun son li gun sogan pi dan
+udhr	dan pon su gun efon ibe ewo , lu bika ewo , lu bosen ewo	bika	bi ka	diff	0	dan pon su gun efon ibe ewo , lu bi ka ewo , lu bosen ewo
+udhr	dan pon su gun efon ibe ewo , lu bika ewo , lu bosen ewo	bosen	bo sen	diff	0	dan pon su gun efon ibe ewo , lu bika ewo , lu bo sen ewo
+udhr	yin gun feko yon fan fupu pi wabun	yon fan	yonfan	diff	1	yin gun feko yonfan fupu pi wabun
+udhr	no fela we , dan ibe sogan fan gun ewo fan wabun	fela	fe la	diff	0	no fe la we , dan ibe sogan fan gun ewo fan wabun
+udhr	sin ewo kin alun sogan bawe gi wabun eni lu wabun bawe pi yuna neke tun , tun ibe sogan fan sen pi wabun pi yuna min tula upe fin	bawe	ba we	diff	360	sin ewo kin alun sogan ba we gi wabun eni lu wabun bawe pi yuna neke tun , tun ibe sogan fan sen pi wabun pi yuna min tula upe fin
+udhr	sin ewo kin alun sogan bawe gi wabun eni lu wabun bawe pi yuna neke tun , tun ibe sogan fan sen pi wabun pi yuna min tula upe fin	bawe	ba we	diff	360	sin ewo kin alun sogan bawe gi wabun eni lu wabun ba we pi yuna neke tun , tun ibe sogan fan sen pi wabun pi yuna min tula upe fin
+udhr	pi ewo mesun , sin wabun denku su efon , ewo eni su gun efon inwa nume kunsu pi mon , lu inwa yonyo pi mon , lu inwa guyi pi mon , lu inwa gen pofi pi mon	yonyo	yon yo	diff	0	pi ewo mesun , sin wabun denku su efon , ewo eni su gun efon inwa nume kunsu pi mon , lu inwa yon yo pi mon , lu inwa guyi pi mon , lu inwa gen pofi pi mon
+udhr	dan ibe sogan fan pume enpa	pume	pu me	diff	0	dan ibe sogan fan pu me enpa
+udhr	pi upe nun yomo , mon pon ibe sogan fan pume enpa	pume	pu me	diff	0	pi upe nun yomo , mon pon ibe sogan fan pu me enpa
+udhr	mon pon ibe sogan fan ibe lite pi nubige lu gen pume feko fun enpa	pume	pu me	diff	0	mon pon ibe sogan fan ibe lite pi nubige lu gen pu me feko fun enpa
+udhr	sogan yin pon gun sogan fan kubo lite pi nubige lu gen pume feko	yin pon	yinpon	diff	35	sogan yinpon gun sogan fan kubo lite pi nubige lu gen pume feko
+udhr	sogan yin pon gun sogan fan kubo lite pi nubige lu gen pume feko	pume	pu me	diff	0	sogan yin pon gun sogan fan kubo lite pi nubige lu gen pu me feko
+udhr	mon pon ibe sogan fan wuye lite pi nubige lu gen pume feko fun enpa	wuye	wu ye	diff	0	mon pon ibe sogan fan wu ye lite pi nubige lu gen pume feko fun enpa
+udhr	mon pon ibe sogan fan wuye lite pi nubige lu gen pume feko fun enpa	pume	pu me	diff	0	mon pon ibe sogan fan wuye lite pi nubige lu gen pu me feko fun enpa
+udhr	mon nebi tula fin no fela kunsu , lu tula fin no fela su kunsu	fela	fe la	diff	0	mon nebi tula fin no fe la kunsu , lu tula fin no fela su kunsu
+udhr	mon nebi tula fin no fela kunsu , lu tula fin no fela su kunsu	fela	fe la	diff	0	mon nebi tula fin no fela kunsu , lu tula fin no fe la su kunsu
+udhr	wiwa nun tula nun dundi nubige nun kuwi gun lite gi dan wuye bun la nan	wuye	wu ye	diff	0	wiwa nun tula nun dundi nubige nun kuwi gun lite gi dan wu ye bun la nan
+udhr	dan ibe sogan fan ibe gen pume fun enpa , nun dan ibe sogan fan oyi enpa	pume	pu me	diff	0	dan ibe sogan fan ibe gen pu me fun enpa , nun dan ibe sogan fan oyi enpa
+udhr	sogan yin pon gun sogan fan ewo eni su tula mon fun yomo bo mon pume yefi kin	yin pon	yinpon	diff	12	sogan yinpon gun sogan fan ewo eni su tula mon fun yomo bo mon pume yefi kin
+udhr	sogan yin pon gun sogan fan ewo eni su tula mon fun yomo bo mon pume yefi kin	pume	pu me	diff	0	sogan yin pon gun sogan fan ewo eni su tula mon fun yomo bo mon pu me yefi kin
+udhr	sogan yin pon gun sogan fan ewo eni su tula mon fun yomo bo mon pume yefi kin	yefi kin	ye fikin	diff	12	sogan yin pon gun sogan fan ewo eni su tula mon fun yomo bo mon pume ye fikin
+udhr	pi bansin nun gen iko , sogan yin pon gun me mon nebi ditun bun la , nun nebi dunu bun la , nun nebi peton bun la	yin pon	yinpon	diff	58	pi bansin nun gen iko , sogan yinpon gun me mon nebi ditun bun la , nun nebi dunu bun la , nun nebi peton bun la
+udhr	lifin pi yuna la su bamo fin	lifin	li fin	diff	0	li fin pi yuna la su bamo fin
+udhr	dan gun ni pi ewo we , nun dan ibe sogan fan dunu yema don ewo we	yema	ye ma	diff	10	dan gun ni pi ewo we , nun dan ibe sogan fan dunu ye ma don ewo we
+udhr	mon wupi bun la fan kuwi bawe pi nen	wupi	wu pi	diff	0	mon wu pi bun la fan kuwi bawe pi nen
+udhr	mon wupi bun la fan kuwi bawe pi nen	bawe	ba we	diff	1	mon wupi bun la fan kuwi ba we pi nen
+udhr	mon pon wupi bun la fan guge enpa	wupi	wu pi	diff	0	mon pon wu pi bun la fan guge enpa
+udhr	yin pon gun me mon su kifa doku yiwo ten fefa	yin pon	yinpon	diff	5	yinpon gun me mon su kifa doku yiwo ten fefa
+udhr	yin pon gun me mon ibe dili enpa nan nasi osin osin	yin pon	yinpon	diff	61	yinpon gun me mon ibe dili enpa nan nasi osin osin
+udhr	dan ibe sogan fan yile gi sogan we pi pata yin nebi lewe feko minwe no	minwe	min we	diff	15	dan ibe sogan fan yile gi sogan we pi pata yin nebi lewe feko min we no
+udhr	yile yin gun yile pi ewo we , nun gun yile lifin pi yuna la	lifin	li fin	diff	0	yile yin gun yile pi ewo we , nun gun yile li fin pi yuna la
+udhr	din pi pata yin yofu me yuna kin lu loso kin lu ewo kin ibe sogan fan tula yefi kin fan alun ni pi sogan pi pata yin	yefi kin	ye fikin	diff	48	din pi pata yin yofu me yuna kin lu loso kin lu ewo kin ibe sogan fan tula ye fikin fan alun ni pi sogan pi pata yin

@@ -1,0 +1,94 @@
+vocabulary 1635 words; pairs checked 2673225
+pairs with another cut: 790019  (SAME stress 0, diff 790019)
+  diff  root root    -> gram gram root     288199
+  diff  root root    -> root gram gram     288187
+  diff  root root    -> gram digit root    45427
+  diff  root root    -> root gram digit    45426
+  diff  root root    -> gram root root     19613
+  diff  root root    -> root gram root     18793
+  diff  root root    -> root root digit    12709
+  diff  root root    -> root digit root    12528
+  diff  root root    -> gram root gram     11988
+  diff  gram root    -> gram gram gram     11592
+  diff  root gram    -> gram gram gram     11592
+  diff  root root    -> root root root     6355
+  diff  gram root    -> gram gram digit    1827
+  diff  root gram    -> gram digit gram    1827
+  diff  root root    -> root root gram     1619
+  diff  root root    -> gram root digit    1570
+  diff  gram root    -> root gram          1457
+  diff  root gram    -> gram root          1457
+  diff  root digit   -> gram gram digit    1104
+  diff  digit root   -> digit gram gram    1104
+  diff  gram root    -> gram gram root     756
+  diff  root gram    -> gram root gram     756
+  diff  gram root    -> gram root digit    504
+  diff  root gram    -> root digit gram    504
+  diff  root gram    -> gram gram root     362
+  diff  root root    -> root gram          214
+  diff  root gram    -> root root          214
+  diff  gram root    -> root digit         202
+  diff  root digit   -> gram root          202
+  diff  gram root    -> root gram gram     197
+  diff  gram gram    -> root               184
+  diff  root digit   -> gram digit digit   174
+  diff  digit root   -> digit gram digit   174
+  diff  gram root    -> gram root root     126
+  diff  root gram    -> root root gram     126
+  diff  gram root    -> root root          117
+  diff  root root    -> gram root          117
+  diff  root gram    -> gram digit root    80
+  diff  root digit   -> gram root digit    72
+  diff  digit root   -> digit gram root    72
+  diff  gram root    -> root digit gram    64
+  diff  gram root    -> root gram digit    53
+  diff  root digit   -> root digit digit   48
+  diff  digit root   -> digit root digit   48
+  diff  root root    -> root root          46
+  diff  root digit   -> gram gram root     45
+  diff  gram digit   -> root               29
+  diff  root root    -> root digit         23
+  diff  root digit   -> root root          23
+  diff  gram root    -> root digit digit   22
+  diff  gram root    -> root gram root     13
+  diff  gram root    -> root               12
+  diff  digit root   -> digit root root    12
+  diff  root digit   -> root root digit    12
+  diff  root digit   -> gram digit root    9
+  diff  root digit   -> root               8
+  diff  root gram    -> digit gram root    8
+  diff  root root    -> root digit digit   7
+  diff  root root    -> root digit gram    6
+  diff  root root    -> root               2
+  diff  digit root   -> root gram          1
+  diff  root gram    -> digit root         1
+
+corpus: 361 sentences, 2219 tokens; re-cut spans 143
+  distinct (said, heard) 56
+  SAME stress: 0 spans, alternative sentence parses in 0
+  diff stress: 143 spans, alternative sentence parses in 48
+
+re-cuts that still parse, by frequency:
+    8  diff  bawe  ~  ba we   (important  ~  YOU + ALL)
+    5  diff  yema  ~  ye ma   (help  ~  PART + digit 5)
+    5  diff  yin pon  ~  yinpon   (THIS + ALSO  ~  react)
+    4  diff  minwe  ~  min we   (whole  ~  FOCUS + ALL)
+    3  diff  yefi kin  ~  ye fikin   (thing + UNSPEC  ~  PART + naughty)
+    2  diff  me wan  ~  mewan   (THAT.comp + I  ~  tax)
+    2  diff  mena de  ~  me nade   (number label, ordinal (day 3, the third) + digit 3  ~  THAT.comp + understand)
+    2  diff  fin len  ~  finlen   (THAT.dem + TO  ~  aspect)
+    2  diff  lo wu  ~  lowu   (REQUEST + POLITE  ~  man, male)
+    2  diff  fowo  ~  fo wo   (ground, earth or soil  ~  NAME + digit 4)
+    1  diff  tanun  ~  ta nun   (fruit  ~  WE.excl + AND)
+    1  diff  wifu yu  ~  wi fuyu   (number + WH  ~  ENDEAR + meat)
+    1  diff  tiwu  ~  ti wu   (child  ~  INSTRUCT + POLITE)
+    1  diff  wuma  ~  wu ma   (tomorrow  ~  POLITE + digit 5)
+    1  diff  bifo  ~  bi fo   (occasion, a time (three times)  ~  Q + NAME)
+    1  diff  yefi de  ~  ye fide   (thing + digit 3  ~  PART + above)
+    1  diff  kilometulu  ~  kilo metulu   (kilometre  ~  kilogram, everyday short form + metre)
+    1  diff  wu kan  ~  wukan   (POLITE + WE.incl  ~  juice)
+    1  diff  ba momu  ~  bamo mu   (YOU + want  ~  stop + digit 0)
+    1  diff  pe mu  ~  pemu   (CONF + digit 0  ~  nature)
+    1  diff  feko no  ~  fe kono   (true + AT  ~  SOME + die)
+    1  diff  sonli  ~  son li   (safe, not in danger  ~  LOGOPHOR + ONGOING)
+    1  diff  yon fan  ~  yonfan   (EVEN + FOR  ~  professional)
