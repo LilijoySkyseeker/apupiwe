@@ -19,9 +19,9 @@ leap.year	fawu netu	year long
 local.time	nufi pi fela	time of place
 the.count	sunbu pi nufi	count of time
 body.time	nufi pi gawo	time of body
-summer	nufi tikun	time hot
-winter	nufi tafa	time cold
-rainy.season	nufi pi gegi	time of rain
+summer	punna tikun	hot season
+winter	punna tafa	cold season
+rainy.season	punna pi gegi	season of rain
 the.language	apu pi we	language of all
 landlord	win ibe guyi	one who has the house
 neighbour	win nume gelu	one who lives near
@@ -63,3 +63,6 @@ the.rest (what is left over)	gi wuto	that remains
 miss (a target)	su payon	not hit
 academic.degree	gemo pi yesa	level of learning
 chili pepper	duteka bikode	spicy pepper
+spring.season	punna pi meyen	season of flowers
+autumn	punna pi mekega	season of harvest
+dry.season	punna kilan	dry season
