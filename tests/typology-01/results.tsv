@@ -1,0 +1,168 @@
+id	measure	n	k	share	family_balanced	families	areas_any	areas_10pct	class	share_by_area
+S01	WALS 2A Average (5-6)	564	287	0.509	0.574	157	6	6	converged	Africa 39%, Australia 28%, Eurasia 50%, North America 60%, Papunesia 65%, South America 55%
+S02	WALS 1A Small	563	89	0.158	0.211	156	6	3	common	Africa 4%, Australia 23%, Eurasia 2%, North America 9%, Papunesia 46%, South America 30%
+S03	WALS 4A In plosives alone	567	189	0.333	0.361	157	6	5	common	Africa 35%, Australia 3%, Eurasia 32%, North America 36%, Papunesia 42%, South America 32%
+S04	WALS 5A None missing in /p t k b d g/	567	255	0.450	0.347	157	6	5	common	Africa 65%, Australia 3%, Eurasia 64%, North America 24%, Papunesia 38%, South America 26%
+S05	none								regional	
+S06	WALS 6A None	567	470	0.829	0.819	157	6	6	converged	Africa 92%, Australia 100%, Eurasia 69%, North America 65%, Papunesia 96%, South America 91%
+S07	WALS 7A No glottalized consonants	567	409	0.721	0.701	157	6	6	converged	Africa 53%, Australia 100%, Eurasia 79%, North America 49%, Papunesia 96%, South America 78%
+S08	WALS 8A /l/, no obstruent laterals	567	388	0.684	0.576	157	6	6	converged	Africa 80%, Australia 100%, Eurasia 86%, North America 51%, Papunesia 58%, South America 35%
+S09	WALS 9A No velar nasal	469	235	0.501	0.609	128	5	5	converged	Africa 45%, Australia 0%, Eurasia 35%, North America 72%, Papunesia 31%, South America 87%
+S10	WALS 10A Contrast absent	244	180	0.738	0.759	108	6	6	converged	Africa 59%, Australia 100%, Eurasia 87%, North America 71%, Papunesia 97%, South America 52%
+S11	WALS 11A None	562	525	0.934	0.962	156	6	6	converged	Africa 99%, Australia 97%, Eurasia 80%, North America 98%, Papunesia 98%, South America 97%
+S12	WALS 19A None	567	449	0.792	0.853	157	6	6	converged	Africa 48%, Australia 97%, Eurasia 84%, North America 87%, Papunesia 90%, South America 92%
+S13	WALS 12A Moderately complex	486	274	0.564	0.533	143	6	6	converged	Africa 68%, Australia 67%, Eurasia 47%, North America 45%, Papunesia 61%, South America 54%
+S13	WALS 12A Simple/Moderately complex	486	335	0.689	0.701	143	6	6		Africa 83%, Australia 67%, Eurasia 48%, North America 48%, Papunesia 86%, South America 86%
+S14	WALS 14A Initial	502	92	0.183	0.246	104	6	5	common	Africa 23%, Australia 47%, Eurasia 19%, North America 15%, Papunesia 8%, South America 13%
+S14	WALS 15A Fixed stress (no weight-sensitivity)	500	281	0.562	0.563	104	6	6		Africa 50%, Australia 74%, Eurasia 45%, North America 41%, Papunesia 63%, South America 69%
+S15	WALS 17A No rhythmic stress	323	98	0.303	0.252	82	6	5	common	Africa 50%, Australia 12%, Eurasia 42%, North America 31%, Papunesia 33%, South America 9%
+S16	WALS 13A No tones	527	307	0.583	0.671	148	6	6	converged	Africa 12%, Australia 100%, Eurasia 67%, North America 63%, Papunesia 78%, South America 78%
+S17	none								converged	
+S18	none								common	
+S19	none								converged	
+S20	none								invented	
+M01	GB GB070=0 & GB071=0 & GB044=0 & GB079=0 & GB080=0 & GB089=0 & GB090=0 & GB091=0 & GB092=0 & GB093=0 & GB094=0	1819	75	0.041	0.012	269	6	1	regional	Africa 1%, Australia 1%, Eurasia 12%, North America 1%, Papunesia 2%, South America 1%
+M01	WALS 26A Little affixation	969	141	0.146	0.104	172	6	3		Africa 14%, Australia 4%, Eurasia 16%, North America 4%, Papunesia 29%, South America 7%
+M02	GB GB070=0 & GB071=0 & GB072=0 & GB073=0	1963	710	0.362	0.288	272	6	6	common	Africa 39%, Australia 11%, Eurasia 32%, North America 35%, Papunesia 46%, South America 18%
+M02	WALS 49A No morphological case-marking	261	100	0.383	0.327	110	6	6		Africa 56%, Australia 12%, Eurasia 22%, North America 38%, Papunesia 70%, South America 28%
+M03	GB GB089=0 & GB090=0 & GB091=0 & GB092=0 & GB093=0 & GB094=0	2142	602	0.281	0.162	301	6	5	common	Africa 23%, Australia 34%, Eurasia 48%, North America 10%, Papunesia 27%, South America 10%
+M03	WALS 102A No person marking	378	82	0.217	0.192	142	6	6		Africa 32%, Australia 31%, Eurasia 29%, North America 11%, Papunesia 16%, South America 15%
+M04	GB GB051=0 & GB052=0 & GB053=0 & GB054=0 & GB192=0	1902	1298	0.682	0.641	273	6	6	converged	Africa 44%, Australia 64%, Eurasia 73%, North America 64%, Papunesia 87%, South America 65%
+M04	WALS 30A None	257	145	0.564	0.612	91	6	6		Africa 22%, Australia 54%, Eurasia 54%, North America 80%, Papunesia 78%, South America 60%
+M05	GB GB030=0	2306	1750	0.759	0.714	310	6	6	converged	Africa 60%, Australia 73%, Eurasia 75%, North America 83%, Papunesia 88%, South America 71%
+M05	WALS 44A No gender distinctions	378	254	0.672	0.673	141	6	6		Africa 49%, Australia 65%, Eurasia 64%, North America 83%, Papunesia 76%, South America 63%
+W01	WALS 81A SVO	1376	488	0.355	0.195	205	6	5	common	Africa 67%, Australia 14%, Eurasia 26%, North America 9%, Papunesia 36%, South America 19%
+W01	GB GB132=1	2257	1083	0.480	0.316	307	6	6		Africa 74%, Australia 46%, Eurasia 38%, North America 25%, Papunesia 48%, South America 31%
+W02	GB GB136=1	1969	1218	0.619	0.572	286	6	6	converged	Africa 78%, Australia 27%, Eurasia 52%, North America 59%, Papunesia 67%, South America 58%
+W03	WALS 84A VOX	500	210	0.420	0.261	112	6	5	common	Africa 64%, Australia 8%, Eurasia 37%, North America 32%, Papunesia 59%, South America 18%
+W04	GB GB074=1 & GB075=0	2027	886	0.437	0.180	287	6	4	common	Africa 57%, Australia 8%, Eurasia 30%, North America 43%, Papunesia 59%, South America 6%
+W04	WALS 85A Prepositions	1184	511	0.432	0.226	188	6	6		Africa 65%, Australia 15%, Eurasia 27%, North America 43%, Papunesia 55%, South America 14%
+W05	GB GB193=2	2062	1215	0.589	0.500	281	6	6	converged	Africa 76%, Australia 45%, Eurasia 40%, North America 44%, Papunesia 71%, South America 51%
+W05	WALS 87A Noun-Adjective	1367	879	0.643	0.593	198	6	6		Africa 85%, Australia 60%, Eurasia 39%, North America 46%, Papunesia 80%, South America 62%
+W06	GB GB025=2	2200	1047	0.476	0.323	294	6	6	common	Africa 76%, Australia 21%, Eurasia 29%, North America 27%, Papunesia 63%, South America 11%
+W06	WALS 88A Noun-Demonstrative	1225	562	0.459	0.295	172	6	5		Africa 73%, Australia 27%, Eurasia 23%, North America 22%, Papunesia 71%, South America 8%
+W07	GB GB024=2	2131	1066	0.500	0.489	276	6	6	common	Africa 85%, Australia 38%, Eurasia 34%, North America 19%, Papunesia 55%, South America 21%
+W07	WALS 89A Noun-Numeral	1154	608	0.527	0.435	177	6	6		Africa 87%, Australia 52%, Eurasia 32%, North America 21%, Papunesia 64%, South America 14%
+W08	GB GB065=2	2253	864	0.383	0.189	299	6	6	common	Africa 69%, Australia 18%, Eurasia 23%, North America 35%, Papunesia 39%, South America 12%
+W08	WALS 86A Noun-Genitive	1249	468	0.375	0.178	196	6	6		Africa 68%, Australia 14%, Eurasia 21%, North America 34%, Papunesia 38%, South America 11%
+W09	GB GB327=1 & GB328=0	1504	1011	0.672	0.530	204	6	6	converged	Africa 88%, Australia 69%, Eurasia 37%, North America 69%, Papunesia 82%, South America 53%
+W09	WALS 90A Noun-Relative clause	824	579	0.703	0.631	126	6	6		Africa 91%, Australia 62%, Eurasia 39%, North America 74%, Papunesia 81%, South America 64%
+W10	WALS 91A Degree word-Adjective	481	227	0.472	0.519	101	6	6	converged	Africa 21%, Australia 28%, Eurasia 69%, North America 70%, Papunesia 20%, South America 48%
+W11	GB GB203=2	1519	784	0.516	0.471	216	6	6	common	Africa 84%, Australia 41%, Eurasia 36%, North America 17%, Papunesia 57%, South America 29%
+W12	WALS 94A Initial subordinator word	659	398	0.604	0.454	117	6	6	common	Africa 76%, Australia 76%, Eurasia 47%, North America 59%, Papunesia 74%, South America 21%
+W13	GB GB421=1	1076	433	0.402	0.210	169	6	5	common	Africa 59%, Australia 11%, Eurasia 35%, North America 39%, Papunesia 45%, South America 10%
+W14	GB GB132=1 & GB074=1 & GB075=0 & GB193=2 & GB025=2 & GB024=2 & GB065=2 & GB327=1 & GB328=0	1230	136	0.111	0.026	179	3	2	regional	Africa 26%, Australia 0%, Eurasia 6%, North America 0%, Papunesia 10%, South America 0%
+N01	GB GB318=1	1986	361	0.182	0.129	275	6	3	common	Africa 10%, Australia 3%, Eurasia 10%, North America 18%, Papunesia 35%, South America 16%
+N01	WALS 33A Plural word	1066	170	0.159	0.116	173	6	4		Africa 9%, Australia 3%, Eurasia 12%, North America 11%, Papunesia 38%, South America 15%
+N01	WALS 34A All nouns, always optional	291	55	0.189	0.180	78	6	5		Africa 10%, Australia 37%, Eurasia 18%, North America 22%, Papunesia 21%, South America 15%
+N02	GB GB020=0 & GB021=0	2032	1216	0.598	0.663	282	6	6	converged	Africa 53%, Australia 84%, Eurasia 75%, North America 45%, Papunesia 51%, South America 72%
+N02	WALS 37A No definite or indefinite article	620	198	0.319	0.401	116	6	6		Africa 19%, Australia 42%, Eurasia 43%, North America 23%, Papunesia 28%, South America 67%
+N03	WALS 41A Two-way contrast	234	126	0.538	0.483	85	6	6	common	Africa 51%, Australia 57%, Eurasia 72%, North America 50%, Papunesia 32%, South America 48%
+N03	GB GB035=0	2119	1078	0.509	0.513	285	6	6		Africa 56%, Australia 64%, Eurasia 60%, North America 48%, Papunesia 40%, South America 44%
+N04	GB GB057=0	2110	1611	0.764	0.846	286	6	6	converged	Africa 98%, Australia 98%, Eurasia 51%, North America 81%, Papunesia 72%, South America 82%
+N04	WALS 55A Absent	400	260	0.650	0.748	129	6	6		Africa 93%, Australia 100%, Eurasia 49%, North America 77%, Papunesia 47%, South America 70%
+N05	GB GB031=0	2264	1669	0.737	0.698	303	6	6	converged	Africa 96%, Australia 21%, Eurasia 73%, North America 83%, Papunesia 57%, South America 90%
+N06	GB GB028=1	2289	1205	0.526	0.452	303	6	6	common	Africa 28%, Australia 73%, Eurasia 41%, North America 46%, Papunesia 79%, South America 49%
+N06	WALS 39A Inclusive/exclusive	200	63	0.315	0.337	103	6	6		Africa 23%, Australia 86%, Eurasia 17%, North America 30%, Papunesia 42%, South America 31%
+N07	WALS 35A Person stem + nominal plural affix	261	19	0.073	0.061	109	4	2	regional	Africa 0%, Australia 0%, Eurasia 17%, North America 4%, Papunesia 2%, South America 12%
+N08	WALS 131A Decimal	196	125	0.638	0.562	84	5	5	converged	Africa 72%, Australia 0%, Eurasia 77%, North America 65%, Papunesia 57%, South America 42%
+N08	GB GB333=1	1688	1194	0.707	0.469	234	6	5		Africa 84%, Australia 3%, Eurasia 91%, North America 58%, Papunesia 69%, South America 29%
+N09	WALS 53A One-th, two-th, three-th	321	41	0.128	0.100	86	5	3	regional	Africa 6%, Australia 0%, Eurasia 17%, North America 11%, Papunesia 21%, South America 4%
+N10	GB GB204=1	1094	609	0.557	0.428	176	6	6	common	Africa 47%, Australia 24%, Eurasia 69%, North America 59%, Papunesia 52%, South America 46%
+N11	GB GB059=0	1965	1033	0.526	0.508	281	6	6	converged	Africa 62%, Australia 23%, Eurasia 80%, North America 42%, Papunesia 36%, South America 47%
+N12	WALS 46A Generic-noun-based	326	85	0.261	0.174	92	6	2	regional	Africa 93%, Australia 4%, Eurasia 9%, North America 6%, Papunesia 76%, South America 5%
+N13	WALS 121A Locational	167	78	0.467	0.505	59	6	6	converged	Africa 36%, Australia 20%, Eurasia 67%, North America 47%, Papunesia 23%, South America 42%
+N13	GB GB266=1	1210	381	0.315	0.294	180	6	6		Africa 27%, Australia 17%, Eurasia 37%, North America 30%, Papunesia 33%, South America 23%
+N13	GB GB276=1	1258	418	0.332	0.267	179	6	6		Africa 11%, Australia 31%, Eurasia 35%, North America 46%, Papunesia 41%, South America 48%
+N14	GB GB027=1	1725	1026	0.595	0.683	238	6	6	converged	Africa 31%, Australia 89%, Eurasia 69%, North America 68%, Papunesia 64%, South America 64%
+N14	WALS 63A 'And' different from 'with'	234	131	0.560	0.639	71	6	6		Africa 26%, Australia 91%, Eurasia 82%, North America 65%, Papunesia 38%, South America 35%
+N15	WALS 64A Identity	301	161	0.535	0.500	97	6	6	common	Africa 22%, Australia 40%, Eurasia 73%, North America 62%, Papunesia 64%, South America 36%
+N16	GB GB187=1	1427	641	0.449	0.510	223	6	6	converged	Africa 45%, Australia 12%, Eurasia 52%, North America 63%, Papunesia 22%, South America 68%
+N17	none								invented	
+N18	WALS 122A Gap	166	125	0.753	0.708	69	6	6	converged	Africa 87%, Australia 77%, Eurasia 70%, North America 40%, Papunesia 89%, South America 54%
+N18	WALS 123A Gap	112	55	0.491	0.543	54	6	6		Africa 41%, Australia 71%, Eurasia 47%, North America 43%, Papunesia 63%, South America 42%
+N18	WALS 123A Pronoun-retention	112	20	0.179	0.099	54	4	2		Africa 45%, Australia 0%, Eurasia 13%, North America 0%, Papunesia 5%, South America 8%
+N19	none								regional	
+N20	none								converged	
+V01	WALS 120A Impossible	386	211	0.547	0.570	95	6	5	converged	Africa 61%, Australia 5%, Eurasia 63%, North America 84%, Papunesia 31%, South America 31%
+V01	GB GB117=1	1971	1116	0.566	0.518	266	6	6		Africa 81%, Australia 30%, Eurasia 83%, North America 56%, Papunesia 22%, South America 54%
+V02	WALS 118A Nonverbal encoding	386	132	0.342	0.304	95	6	4	common	Africa 9%, Australia 70%, Eurasia 63%, North America 7%, Papunesia 32%, South America 41%
+V02	WALS 118A Nonverbal encoding/Mixed	386	235	0.609	0.565	95	6	6		Africa 71%, Australia 100%, Eurasia 73%, North America 31%, Papunesia 49%, South America 55%
+V02	GB GB068=0	1892	972	0.514	0.541	269	6	6		Africa 59%, Australia 84%, Eurasia 58%, North America 26%, Papunesia 45%, South America 47%
+V03	WALS 119A Identical	386	117	0.303	0.270	95	6	6	common	Africa 20%, Australia 40%, Eurasia 51%, North America 18%, Papunesia 12%, South America 48%
+V04	WALS 117A 'Have'	240	63	0.263	0.352	79	5	4	common	Africa 30%, Australia 0%, Eurasia 25%, North America 50%, Papunesia 3%, South America 32%
+V04	GB GB250=1	1462	637	0.436	0.455	204	6	6		Africa 44%, Australia 43%, Eurasia 45%, North America 61%, Papunesia 32%, South America 47%
+V05	none								common	
+V06	WALS 112A Negative particle	1157	502	0.434	0.396	191	6	6	common	Africa 38%, Australia 80%, Eurasia 31%, North America 58%, Papunesia 53%, South America 23%
+V06	WALS 143A NegV	1325	525	0.396	0.366	202	6	6		Africa 22%, Australia 79%, Eurasia 40%, North America 56%, Papunesia 48%, South America 20%
+V06	GB GB299=1	1998	1307	0.654	0.603	266	6	6		Africa 57%, Australia 89%, Eurasia 58%, North America 69%, Papunesia 78%, South America 49%
+V07	WALS 115A Predicate negation also present	206	170	0.825	0.862	71	6	6	converged	Africa 89%, Australia 78%, Eurasia 87%, North America 69%, Papunesia 65%, South America 90%
+V08	GB GB140=1	1531	766	0.500	0.558	237	6	6	converged	Africa 47%, Australia 61%, Eurasia 54%, North America 58%, Papunesia 45%, South America 53%
+V09	GB GB139=0	1974	506	0.256	0.269	269	6	6	common	Africa 25%, Australia 38%, Eurasia 20%, North America 37%, Papunesia 24%, South America 26%
+V09	WALS 71A Normal imperative + normal negative	496	113	0.228	0.230	122	6	6		Africa 18%, Australia 25%, Eurasia 24%, North America 26%, Papunesia 21%, South America 29%
+V10	WALS 70A No second-person imperatives	548	122	0.223	0.265	132	6	6	common	Africa 20%, Australia 19%, Eurasia 17%, North America 15%, Papunesia 47%, South America 20%
+V10	GB GB519=1	1553	621	0.400	0.310	219	6	6		Africa 31%, Australia 19%, Eurasia 41%, North America 46%, Papunesia 45%, South America 40%
+V11	WALS 73A Inflectional optative absent	319	271	0.850	0.902	102	6	6	converged	Africa 100%, Australia 100%, Eurasia 70%, North America 85%, Papunesia 95%, South America 90%
+V11	WALS 72A Neither type of system	375	201	0.536	0.612	105	6	6		Africa 35%, Australia 69%, Eurasia 61%, North America 56%, Papunesia 55%, South America 72%
+V12	none								converged	
+V13	none								invented	
+V14	none								regional	
+V15	none								common	
+V16	none								common	
+V17	none								invented	
+V18	GB GB262=1	1720	251	0.146	0.148	247	6	5	common	Africa 14%, Australia 27%, Eurasia 12%, North America 29%, Papunesia 9%, South America 13%
+V18	WALS 92A Initial	884	129	0.146	0.125	149	6	5		Africa 8%, Australia 31%, Eurasia 12%, North America 25%, Papunesia 12%, South America 18%
+V18	WALS 116A Question particle	955	585	0.613	0.533	157	6	6		Africa 71%, Australia 59%, Eurasia 58%, North America 67%, Papunesia 59%, South America 45%
+V19	GB GB263=1	1708	674	0.395	0.364	245	6	6	common	Africa 53%, Australia 15%, Eurasia 54%, North America 18%, Papunesia 36%, South America 18%
+V20	GB GB326=1	1698	905	0.533	0.449	240	6	6	common	Africa 56%, Australia 23%, Eurasia 68%, North America 19%, Papunesia 73%, South America 10%
+V20	WALS 93A Not initial interrogative phrase	902	615	0.682	0.602	149	6	6		Africa 84%, Australia 44%, Eurasia 86%, North America 30%, Papunesia 82%, South America 18%
+V21	none								common	
+V22	none								common	
+V23	none								common	
+V24	none								common	
+V25	none								common	
+V26	none								regional	
+V27	GB GB415=0	1694	1459	0.861	0.940	238	6	6	converged	Africa 94%, Australia 98%, Eurasia 71%, North America 87%, Papunesia 89%, South America 96%
+V27	WALS 45A No politeness distinction	207	136	0.657	0.811	86	6	6		Africa 85%, Australia 100%, Eurasia 30%, North America 87%, Papunesia 71%, South America 94%
+V28	none								common	
+V29	none								converged	
+V30	none								regional	
+V31	GB GB167=1	1541	104	0.067	0.060	224	5	1	regional	Africa 20%, Australia 0%, Eurasia 5%, North America 1%, Papunesia 1%, South America 3%
+V32	none								regional	
+V33	WALS 47A Identical	168	94	0.560	0.495	70	6	6	common	Africa 52%, Australia 56%, Eurasia 70%, North America 21%, Papunesia 67%, South America 27%
+V33	GB GB305=1	1657	826	0.498	0.461	232	6	6		Africa 50%, Australia 33%, Eurasia 74%, North America 40%, Papunesia 41%, South America 31%
+V34	WALS 106A Distinct from reflexive	175	99	0.566	0.578	71	6	6	converged	Africa 65%, Australia 56%, Eurasia 74%, North America 37%, Papunesia 47%, South America 50%
+V35	GB GB522=1	1492	1098	0.736	0.790	218	6	6	converged	Africa 63%, Australia 64%, Eurasia 79%, North America 81%, Papunesia 70%, South America 87%
+V35	WALS 101A Optional pronouns in subject position	711	61	0.086	0.076	144	6	2		Africa 2%, Australia 19%, Eurasia 21%, North America 1%, Papunesia 10%, South America 2%
+V36	GB GB401=1	817	229	0.280	0.293	144	6	6	common	Africa 25%, Australia 21%, Eurasia 27%, North America 19%, Papunesia 35%, South America 32%
+V37	WALS 105A Double-object construction	378	84	0.222	0.147	101	6	5	common	Africa 46%, Australia 28%, Eurasia 7%, North America 24%, Papunesia 10%, South America 22%
+V37	GB GB105=1	1830	1053	0.575	0.572	260	6	6		Africa 65%, Australia 72%, Eurasia 50%, North America 68%, Papunesia 55%, South America 47%
+V38	WALS 107A Present	373	162	0.434	0.375	139	6	6	common	Africa 61%, Australia 15%, Eurasia 62%, North America 48%, Papunesia 15%, South America 42%
+V38	GB GB302=1	1557	163	0.105	0.053	216	6	1		Africa 5%, Australia 5%, Eurasia 27%, North America 7%, Papunesia 3%, South America 4%
+V39	WALS 111A Neither	310	23	0.074	0.091	100	6	1	regional	Africa 10%, Australia 11%, Eurasia 9%, North America 6%, Papunesia 6%, South America 3%
+V39	GB GB155=0	1993	548	0.275	0.302	265	6	6		Africa 26%, Australia 37%, Eurasia 35%, North America 10%, Papunesia 32%, South America 11%
+V40	GB GB118=1	1543	818	0.530	0.420	239	6	6	common	Africa 48%, Australia 36%, Eurasia 43%, North America 35%, Papunesia 74%, South America 42%
+V41	WALS 124A Subject is left implicit	283	144	0.509	0.431	78	6	6	common	Africa 55%, Australia 57%, Eurasia 79%, North America 18%, Papunesia 42%, South America 39%
+V42	GB GB520=1	1615	616	0.381	0.262	223	6	6	common	Africa 33%, Australia 10%, Eurasia 34%, North America 25%, Papunesia 54%, South America 28%
+V43	WALS 66A No past tense	222	88	0.396	0.428	87	6	5	common	Africa 44%, Australia 7%, Eurasia 33%, North America 55%, Papunesia 50%, South America 29%
+V43	WALS 67A No inflectional future	222	112	0.505	0.477	87	6	6		Africa 56%, Australia 29%, Eurasia 58%, North America 42%, Papunesia 45%, South America 52%
+V43	GB GB083=0 & GB084=0 & GB521=0	1584	403	0.254	0.182	223	6	5		Africa 15%, Australia 3%, Eurasia 27%, North America 16%, Papunesia 39%, South America 17%
+V44	none								common	
+V45	none								common	
+V46	WALS 76A No overlap	207	105	0.507	0.606	74	6	6	converged	Africa 39%, Australia 75%, Eurasia 32%, North America 73%, Papunesia 71%, South America 81%
+V46	WALS 74A Verbal constructions	234	158	0.675	0.571	83	6	6		Africa 84%, Australia 22%, Eurasia 79%, North America 45%, Papunesia 47%, South America 72%
+V47	GB GB322=1 & GB323=1	1322	158	0.120	0.186	205	6	3	common	Africa 2%, Australia 3%, Eurasia 12%, North America 22%, Papunesia 5%, South America 41%
+V47	WALS 77A Direct and indirect	418	71	0.170	0.133	121	6	3		Africa 3%, Australia 10%, Eurasia 31%, North America 12%, Papunesia 5%, South America 25%
+V47	WALS 78A Separate particle	418	65	0.156	0.107	121	6	3		Africa 9%, Australia 3%, Eurasia 5%, North America 23%, Papunesia 14%, South America 24%
+V48	WALS 75A Verbal constructions/Affixes on verbs/Other	240	240	1.000	1.000	90	6	6	invented	Africa 100%, Australia 100%, Eurasia 100%, North America 100%, Papunesia 100%, South America 100%
+V49	none								invented	
+V50	none								common	
+V51	none								converged	
+V52	GB GB160=1	1666	1126	0.676	0.552	245	6	6	converged	Africa 71%, Australia 67%, Eurasia 75%, North America 55%, Papunesia 67%, South America 53%
+V52	WALS 27A Productive full and partial reduplication/Full reduplication only	368	313	0.851	0.767	99	6	6		Africa 94%, Australia 100%, Eurasia 70%, North America 80%, Papunesia 100%, South America 61%
+V53	GB GB048=1	1611	1054	0.654	0.659	235	6	6	converged	Africa 77%, Australia 63%, Eurasia 64%, North America 78%, Papunesia 45%, South America 86%
+V53	GB GB049=1	1538	984	0.640	0.578	226	6	6		Africa 67%, Australia 39%, Eurasia 66%, North America 73%, Papunesia 56%, South America 79%
+V53	GB GB047=1	1611	1148	0.713	0.682	237	6	6		Africa 86%, Australia 38%, Eurasia 67%, North America 64%, Papunesia 70%, South America 74%
+V54	none								regional	
+V55	none								regional	
+V56	none								invented	
