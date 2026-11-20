@@ -207,7 +207,7 @@ In order: (1) a formal efficiency model where one exists (colour, kinship); (2) 
 - **No teens or irregular tens** (15 **yawu ma**, 50 **ma yawu**) [evidence]: English *fifteen/fifty* is a known confusion (documented for learners of English, not in aviation or phone research); regular numerals help children learn to count (Miller, Smith, Zhu & Zhang 1995) *(corrected 2026-10-12 after the fact-check, C45: was "a classic confusion")*.
 - **Digit reading** for identifiers in groups of three [evidence: aviation reads digits one by one].
 - **Calendar:** today's (7-day **nelon**, **dunan** month (the Moon has its own word from 2026-10-13), 24-hour clock read as digits); months and weekdays by number [author]. Points in time are labels (noun + **mena** + number; **pi** + number until 2026-10-12).
-- **Senary** is a topic [author]: its words are described in the senary repo (`docs/apupiwe-vocabulary.md`); since 2026-11-19 their forms are no longer reserved here (goal N6); `data/units.tsv` and the senary rows of `numbers.tsv`; **senali** marks a senary number. Senary (its own repo, to be published) owns quantities; this repo owns all words, and senary uses them verbatim (r22–r23). Keep senary usable: it may be used for worldbuilding.
+- **Senary** is a topic [author]: its words are described in the senary repo (`docs/apupiwe-vocabulary.md`); since 2026-11-19 their forms are no longer reserved here and its unit words are gone from `data/` (goal N6: the language isn't tailored to the projects that use it). Senary (its own repo) adapts to the language; **senali** still marks a senary number.
 
 ---
 
