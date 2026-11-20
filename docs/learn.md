@@ -393,7 +393,7 @@ For habits, put **manni** before the verb. On its own it means "usually", as in 
 
 Before the verb, things go in this order: small operator words, then **manni**, then **ben**, **li** or **buntu**, then the verb. For example, **wan pon manni li doku** "I'm also usually working". The one exception is **li su** "still not", from above. [§6.2.7](language.md#r-6-2-7)
 
-To count from now, use **kon** and **ya**. **kon nelon ni** "after one week" is next week, and **ya dunan ni** "before one month" is a month ago. Any time can be the starting point: **wuma kon dili ni** "the day after tomorrow". [§8.2.2](language.md#r-8-2-2)
+To count from now, use **kon** and **ya**. **kon nelon ni** "after one week" is seven days from now (the calendar's next week is **nelon lolo**), and **ya dunan ni** "before one month" is a month ago. Any time can be the starting point: **wuma kon dili ni** "the day after tomorrow". [§8.2.2](language.md#r-8-2-2)
 
 The units of time are **dili** day, **nelon** week, **dunan** month and **fawu** year. Hours, minutes and seconds have their own words: **yiwo**, **yuku**, **dati**. [§8.2.1](language.md#r-8-2-1) [§8.2.5](language.md#r-8-2-5)
 

@@ -1286,7 +1286,7 @@ type = "bullet"
 title = "Anchor + offset"
 gap = 0
 text = '''
-- A time can be an anchor plus an offset, and the offset names its unit: **wuma kon dili ni** "the day after tomorrow". With no anchor, the offset counts from the current frame (8.1), which is now unless a story has set another time: **kon nelon ni** "a week from now, next week", **ya dunan ni** "a month ago". Any time or event can be the anchor.'''
+- A time can be an anchor plus an offset, and the offset names its unit: **wuma kon dili ni** "the day after tomorrow". With no anchor, the offset counts from the current frame (8.1), which is now unless a story has set another time: **kon nelon ni** "a week from now" (seven days on; the calendar's next week is **nelon lolo**), **ya dunan ni** "a month ago". Any time or event can be the anchor.'''
 
 [[item]]
 id = "8.2.3"

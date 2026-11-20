@@ -13,7 +13,7 @@ Where the project is and what comes next. Decisions and their reasons are in `de
 
 - Physics basics (author, 2026-11-19, with the mass decision): force, gravity and energy through the concept ladder on their own merits.
 
-- How notation is read aloud (author, 2026-11-19): Greek letters (the letter name "pi" is the grammar word **pi** "of", and a loan needs two syllables, so π needs an adapted form through the loan panel), operators and equations. Writing already passes notation through (reference 3.4); arithmetic read aloud is treated as a reading of notation (9.2.5).
+- How notation is read aloud (author, 2026-11-19; with the outside review's parentheses in arithmetic and letter case when spelling aloud, findings 12 and 5): Greek letters (the letter name "pi" is the grammar word **pi** "of", and a loan needs two syllables, so π needs an adapted form through the loan panel), operators and equations. Writing already passes notation through (reference 3.4); arithmetic read aloud is treated as a reading of notation (9.2.5).
 
 - `tools/words.py` lags the current rules (found 2026-11-19): it scores with mishearing model v1, doesn't know the haplology rule or rule 2.12, and `move` drops antonym weighting (it passes no antonyms to `add_content`). Until fixed, place roots with `tests/placement-04/place.py` (AGENTS.md). Bring `add-content` onto `confusion2`, the haplology table and `tools/accent.py`'s neighbours, or retire it in favour of the placement tool.
 
@@ -33,9 +33,17 @@ Where the project is and what comes next. Decisions and their reasons are in `de
 Triaged 2026-11-19: every item of the October queue is done (design log) or moved to "After v2", except these.
 
 1. ~~Outside review~~ done 2026-11-19 (`research/reviews/codex-2026-11/`); its design questions are being decided (RESPONSE.md). Was: **Outside review** of the design and the final forms by a non-Claude model (Codex), cold (process risk 1 of the unknown-unknowns review; the October plan for "a non-Claude model for one month").
-2. **Regression test on today's forms.** Words changed heavily since the last translation tests (October): blind translation and back-translation by fresh agents, one Claude and one Codex, on the test texts; include short answers after negative questions (**feko**, 4.8.6) and the standard UI button set (Yes / No / OK / Cancel / Back / Next / Undo). Also a fresh agent writing Apupiwe from the docs alone, to find where the docs fail (process risk 3).
+2. ~~Regression test~~ moved to "Last" (author, 2026-11-19: it would mostly test the docs, which will be rebuilt).
 3. ~~Record the phrases already decided~~ done 2026-11-19 (design log).
 4. ~~Senses the concept walk flagged as uncovered~~ and 5. ~~symbol names~~ done 2026-11-19 by the ladders (`tests/ladder-02/`). The pronoun rule and rule J applied 2026-11-19 (`tests/placement-08/`). Next: the regression test (2).
+
+## Last: the docs and lessons, rebuilt from scratch (author, 2026-11-19)
+
+Once the language itself is final, before the v2 site. `docs/learn.md` is frozen meanwhile and is not maintained.
+- **Lessons from scratch,** from the reference and data alone, plus research on how languages are best taught (to do: a research pass on language pedagogy before writing). Not adapted from today's lessons.
+- **Docs that agents and people can produce text from** (2026-10-13 item): worked examples for producing text, not only rules.
+- **Teach what the language already says but no text explains** (from the outside review, 2026-11-19): "the robot broke down" is **lewe gun** + the action word (4.5.4, finding 4); show whether each verb takes an object (`data/roles.tsv`, finding 7); "should" in questions and reports (finding 11, check it is sayable with **kifa**, **wupi** or **upe** first).
+- **Regression translation test** (moved here from "Open before v2"): blind translation and back-translation by fresh Claude and Codex agents, and a fresh agent writing Apupiwe from the new docs alone; include **feko** answers and the UI button set. Run on the final language with the new docs, so it tests both.
 
 ### Website: frozen at v1 (author, 2026-10-13)
 

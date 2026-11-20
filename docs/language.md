@@ -271,7 +271,7 @@
 ### 8.2 Time words
 
 - <span id="r-8-2-1"></span>The time roots are **eda** now, **mefa** today, **wuma** tomorrow, **afe** yesterday; **dili** day, **nelon** week (7 days), **dunan** month, **fawu** year; **nufi** time (a span or a point); **bifo** occasion (**bifo sa** "twice").
-- <span id="r-8-2-2"></span>A time can be an anchor plus an offset, and the offset names its unit: **wuma kon dili ni** "the day after tomorrow". With no anchor, the offset counts from the current frame (8.1), which is now unless a story has set another time: **kon nelon ni** "a week from now, next week", **ya dunan ni** "a month ago". Any time or event can be the anchor.
+- <span id="r-8-2-2"></span>A time can be an anchor plus an offset, and the offset names its unit: **wuma kon dili ni** "the day after tomorrow". With no anchor, the offset counts from the current frame (8.1), which is now unless a story has set another time: **kon nelon ni** "a week from now" (seven days on; the calendar's next week is **nelon lolo**), **ya dunan ni** "a month ago". Any time or event can be the anchor.
 - <span id="r-8-2-3"></span>A duration is a count: **yiwo de** "three hours". **pu** + duration means "during, for" a span that frames the clause: **pu dili oma** "for seven days".
 - <span id="r-8-2-4"></span>Age is lived time: **wan nume fawu de yawu** "I have lived 30 years".
 - <span id="r-8-2-5"></span>Hours, minutes and seconds have roots: **yiwo**, **yuku**, **dati**.
