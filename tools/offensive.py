@@ -196,7 +196,7 @@ def blocked(form):
 
 def matches(form):
     """True if a form exactly or nearly matches a common, strongly offensive Wiktionary word (main sense).
-    A tie-breaker only (C3): words.py prefers a form without a match among forms that cost about the same.
+    A tie-breaker only (C3): the placement (tools/place.py) prefers a form without a match among forms that cost about the same.
     Known faults (roadmap): aspiration read backwards for aspiration-contrast listeners, vowels with
     diacritics lost, tags pooled across senses. Run with wordfreq installed, or every listed word counts
     as common."""

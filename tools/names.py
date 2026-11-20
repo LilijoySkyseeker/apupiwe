@@ -12,7 +12,7 @@ The language uses the default rule (added vowel u). Until 2026-10-10 any argumen
 "default" silently switched to the echo rule, so passing a name printed the demo list wrongly.
 """
 import re, sys
-import words as W
+import build as W
 
 CONS = {
     "p": "p", "b": "b", "t": "t", "ʈ": "t", "d": "d", "ɖ": "d", "k": "k", "q": "k", "c": "k", "g": "g", "ɡ": "g",

@@ -4,7 +4,7 @@ Written tests can't hear these, so check them by rule (idea borrowed from the se
 project's juncture.py, 2026-10-08). Reports:
   1. digit + following word that sounds like a content word (stress pattern is identical)
   2. retired (author, 2026-11-19): grammar words that differ only by a final -n are a problem only when they share
-     a position, which tests/shortwords-04's hard rule H4 and tools/accent.py check; pairs in different positions
+     a position, which tools/shortwords.py's hard rule H4 and tools/accent.py check; pairs in different positions
      are on the drift watch list (docs/drift.md)
   3. grammar word ending in -n + vowel-initial content word, heard as the open grammar word
      + an n-initial content word ("den Ewo" ~ "de NEwo")
@@ -15,7 +15,7 @@ project's juncture.py, 2026-10-08). Reports:
   python juncture.py      # prints problems; exit code 1 if any
 """
 import re, sys
-import words as W
+import build as W
 
 inv = W.INV
 grammar = W.read("grammar.tsv")

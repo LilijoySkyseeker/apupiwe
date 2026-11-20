@@ -16,7 +16,7 @@ import collections, csv, os, re, sys
 HERE = os.path.dirname(os.path.abspath(__file__))
 ROOT = os.path.join(HERE, "..", "..")
 sys.path.insert(0, os.path.join(ROOT, "tools"))
-import words as W
+import build as W  # tools/words.py was deleted 2026-11-19; build.py has read, split, SYL
 import gf_check as G
 
 def rd(n): return W.read(n)
