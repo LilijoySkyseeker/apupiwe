@@ -1,0 +1,185 @@
+pair	glosses	root	root_gloss	root_tier	frames	pair_parses	root_fits	freq_g1	freq_g2	stakes	weight
+ba din	YOU + NONE	badin	lung	3	16	14	14	8.0	1.0	2	1.75
+ba lu	YOU + OR	balu	bar (place serving drinks)	1	10	5	5	8.0	2.0	2	2.00
+ba wan	YOU + I	bawan	always	2	13	3	3	8.0	10.0	2	3.69
+ba we	YOU + ALL	bawe	important	2	16	14	14	8.0	3.0	2	5.25
+bi fo	Q + NAME	bifo	occasion, a time (three times)	3	8	5	2	4.0	4.0	3	3.00
+bi ka	Q + EXCLAIM	bika	buy	2	13	0	0	4.0	1.5	3	0.00
+bi pi	Q + OF	bipi	bring	4	8	0	0	4.0	8.0	3	0.00
+bo du	BECAUSE + INTEND	bodu	dirty	1	10	0	0	1.5	2.0	3	0.00
+bo sen	BECAUSE + PLACE	bosen	sell	2	9	6	5	1.5	3.0	2	1.67
+bo tan	BECAUSE + MODMOD	botan	weapon	2	8	0	0	1.5	1.0	2	0.00
+bun wan	IT + I	bunwan	joke	2	13	3	3	5.0	10.0	2	2.31
+bun wu	IT + POLITE	bunwu	salt	1	8	0	0	5.0	3.0	2	0.00
+bun yo	IT + WARN	bunyo	interest, curiosity	3	8	0	0	5.0	0.5	3	0.00
+din ti	NONE + INSTRUCT	dinti	porridge	2	8	0	0	1.0	1.5	3	0.00
+din wi	NONE + ENDEAR	dinwi	countryside	2	8	0	0	1.0	1.0	2	0.00
+din yo	NONE + WARN	dinyo	carry	2	8	0	0	1.0	0.5	3	0.00
+du bi	INTEND + Q	dubi	speech	4	13	0	0	2.0	4.0	3	0.00
+du len	INTEND + TO	dulen	culture	3	8	0	0	2.0	5.0	3	0.00
+du nan	INTEND + WITH	dunan	month	2	8	0	0	2.0	3.0	3	0.00
+du su	INTEND + NOT	dusu	dance	3	10	3	2	2.0	7.0	3	1.20
+fe bo	SOME + BECAUSE	febo	answer	3	9	1	1	2.0	1.5	2	0.33
+fe gen	SOME + RESULT	fegen	pillow	2	8	0	0	2.0	2.0	2	0.00
+fe la	SOME + PLURAL	fela	place	4	11	0	0	2.0	4.0	2	0.00
+fe me	SOME + THAT.comp	feme	feel	4	9	0	0	2.0	5.0	2	0.00
+fe nun	SOME + AND	fenun	bicycle	2	9	3	3	2.0	9.0	2	1.33
+fe ti	SOME + INSTRUCT	feti	sun	3	8	0	0	2.0	1.5	3	0.00
+fe wi	SOME + ENDEAR	fewi	fate, destiny	3	8	0	0	2.0	1.0	2	0.00
+fen du	BUT + INTEND	fendu	shame	2	10	0	0	2.0	2.0	3	0.00
+fen fen	BUT + BUT	fenfen	governor	2	8	0	0	2.0	2.0	2	0.00
+fen ga	BUT + ONLY	fenga	grape	2	12	3	3	2.0	3.0	2	1.00
+fen mon	BUT + HE/SHE	fenmon	banana	2	16	9	9	2.0	8.0	2	2.25
+fen tan	BUT + MODMOD	fentan	famous	2	8	0	0	2.0	1.0	2	0.00
+fen wan	BUT + I	fenwan	glue	2	16	10	10	2.0	10.0	2	2.50
+fin bi	THAT.dem + Q	finbi	suddenly	2	8	0	0	3.0	4.0	3	0.00
+fin fon	THAT.dem + ADVISE	finfon	witness	2	8	0	0	3.0	1.0	3	0.00
+fin len	THAT.dem + TO	finlen	aspect	2	16	11	10	3.0	5.0	2	3.75
+fin lu	THAT.dem + OR	finlu	bitter	2	9	3	3	3.0	2.0	2	1.33
+fo fun	NAME + LIKE	fofun	ride	2	8	3	3	4.0	3.0	2	2.25
+fo ke	NAME + MORE	foke	moment	2	8	4	4	4.0	3.0	2	3.00
+fo lu	NAME + OR	folu	period, era, interval	3	8	2	2	4.0	2.0	2	1.00
+fo wi	NAME + ENDEAR	fowi	medicine	3	8	2	2	4.0	1.0	2	0.50
+fo ya	NAME + BEFORE	foya	order, command (someone to do something)	4	8	3	3	4.0	1.5	2	1.12
+fon dan	ADVISE + GENERIC	fondan	crisis	2	16	7	7	1.0	3.0	3	1.31
+fon pi	ADVISE + OF	fonpi	wolf	2	8	0	0	1.0	8.0	3	0.00
+fon sen	ADVISE + PLACE	fonsen	holy, sacred	2	8	2	1	1.0	3.0	3	0.38
+fon su	ADVISE + NOT	fonsu	cut	2	10	3	2	1.0	7.0	3	0.60
+fon ye	ADVISE + PART	fonye	truck	2	8	1	1	1.0	1.0	3	0.38
+ga fon	ONLY + ADVISE	gafon	never	2	8	0	0	3.0	1.0	3	0.00
+ga ke	ONLY + MORE	gake	slow	2	8	6	6	3.0	3.0	2	4.50
+ga su	ONLY + NOT	gasu	gas (state of matter; fuel gas)	2	11	5	5	3.0	7.0	3	4.09
+ka dan	EXCLAIM + GENERIC	kadan	demand	2	16	6	6	1.5	3.0	3	1.69
+ka fe	EXCLAIM + SOME	kafe	coffee	3	8	1	1	1.5	2.0	3	0.56
+ka gun	EXCLAIM + BE	kagun	zipper	2	8	2	2	1.5	8.0	3	1.12
+ka mon	EXCLAIM + HE/SHE	kamon	quality	3	16	7	7	1.5	8.0	3	1.97
+ka nen	EXCLAIM + SELF	kanen	province	3	16	6	6	1.5	3.0	3	1.69
+ka sin	EXCLAIM + IF	kasin	squirrel	2	8	0	0	1.5	2.0	3	0.00
+ka to	EXCLAIM + TOOL	kato	thin	3	8	2	1	1.5	3.0	3	0.56
+ka wi	EXCLAIM + ENDEAR	kawi	minister	3	8	0	0	1.5	1.0	3	0.00
+kan fun	WE.incl + LIKE	kanfun	debt	2	15	10	10	3.0	3.0	2	4.00
+kan ga	WE.incl + ONLY	kanga	basket	2	16	11	11	3.0	3.0	2	4.12
+kan gen	WE.incl + RESULT	kangen	standard, norm	2	8	1	1	3.0	2.0	2	0.50
+kan me	WE.incl + THAT.comp	kanme	tissue	2	10	0	0	3.0	5.0	2	0.00
+kin bo	UNSPEC + BECAUSE	kinbo	disappointed	2	9	0	0	1.0	1.5	2	0.00
+kin kon	UNSPEC + AFTER	kinkon	storm	2	12	4	4	1.0	1.5	2	0.67
+kin win	UNSPEC + AGENT	kinwin	port, harbour	2	8	0	0	1.0	4.0	2	0.00
+kin ye	UNSPEC + PART	kinye	attention	3	8	0	0	1.0	1.0	2	0.00
+kon sin	AFTER + IF	konsin	at least	1	8	0	0	1.5	2.0	2	0.00
+kon tun	AFTER + OBVIATIVE	kontun	pregnant	2	16	15	13	1.5	2.0	2	2.44
+len bo	TO + BECAUSE	lenbo	trade	2	8	0	0	5.0	1.5	2	0.00
+len nan	TO + WITH	lennan	expect	2	9	0	0	5.0	3.0	2	0.00
+len pe	TO + CONF	lenpe	middle, centre	3	8	0	0	5.0	1.5	2	0.00
+len ya	TO + BEFORE	lenya	strange, odd	2	9	0	0	5.0	1.5	2	0.00
+li fin	ONGOING + THAT.dem	lifin	between	2	8	0	0	2.0	3.0	2	0.00
+li ga	ONGOING + ONLY	liga	league (sports)	2	10	0	0	2.0	3.0	2	0.00
+li len	ONGOING + TO	lilen	increase	3	8	0	0	2.0	5.0	2	0.00
+li lu	ONGOING + OR	lilu	read	2	8	0	0	2.0	2.0	2	0.00
+lo kon	REQUEST + AFTER	lokon	patient, enduring	2	8	0	0	2.0	1.5	3	0.00
+lo lo	REQUEST + REQUEST	lolo	next	4	13	0	0	2.0	2.0	3	0.00
+lo nun	REQUEST + AND	lonun	alone	3	8	0	0	2.0	9.0	3	0.00
+lo ta	REQUEST + WE.excl	lota	thank	3	16	8	8	2.0	3.0	3	3.00
+lo we	REQUEST + ALL	lowe	song	4	8	1	1	2.0	3.0	3	0.75
+lo wu	REQUEST + POLITE	lowu	man, male	3	13	9	8	2.0	3.0	3	3.69
+lo ya	REQUEST + BEFORE	loya	know	5	8	0	0	2.0	1.5	3	0.00
+me fin	THAT.comp + THAT.dem	mefin	society	3	11	1	1	5.0	3.0	2	0.55
+me li	THAT.comp + ONGOING	meli	small	4	8	3	3	5.0	2.0	2	1.50
+me wan	THAT.comp + I	mewan	tax	2	16	9	9	5.0	10.0	2	5.62
+me wu	THAT.comp + POLITE	mewu	cry, weep	2	10	0	0	5.0	3.0	2	0.00
+min fo	FOCUS + NAME	minfo	university	3	9	5	0	3.0	4.0	2	0.00
+min mon	FOCUS + HE/SHE	minmon	exercise (physical)	2	9	6	6	3.0	8.0	2	4.00
+min we	FOCUS + ALL	minwe	whole	2	8	6	6	3.0	3.0	2	4.50
+min yu	FOCUS + WH	minyu	art	3	11	8	8	3.0	3.0	3	6.55
+nen fon	SELF + ADVISE	nenfon	park	2	8	0	0	3.0	1.0	3	0.00
+nen win	SELF + AGENT	nenwin	carpet	2	8	1	1	3.0	4.0	2	0.75
+pe gun	CONF + BE	pegun	population	2	14	0	0	1.5	8.0	2	0.00
+pe no	CONF + AT	peno	heart	3	12	0	0	1.5	5.0	2	0.00
+pe pe	CONF + CONF	pepe	8	4	11	0	0	1.5	1.5	2	0.00
+pu fan	WHILE + FOR	pufan	sheep	2	8	0	0	2.0	3.0	2	0.00
+pu me	WHILE + THAT.comp	pume	think	5	8	0	0	2.0	5.0	2	0.00
+pu tun	WHILE + OBVIATIVE	putun	service	3	16	13	13	2.0	2.0	2	3.25
+sen ke	PLACE + MORE	senke	armpit	2	8	0	0	3.0	3.0	2	0.00
+sen min	PLACE + FOCUS	senmin	detective	2	8	0	0	3.0	3.0	2	0.00
+sen nan	PLACE + WITH	sennan	bridge	2	10	0	0	3.0	3.0	2	0.00
+sen to	PLACE + TOOL	sento	sentence (grammar)	2	8	0	0	3.0	3.0	2	0.00
+sen wi	PLACE + ENDEAR	senwi	narrow	2	8	0	0	3.0	1.0	2	0.00
+sen ya	PLACE + BEFORE	senya	power, control	2	10	0	0	3.0	1.5	2	0.00
+son fon	LOGOPHOR + ADVISE	sonfon	mathematics	2	8	0	0	1.0	1.0	3	0.00
+son li	LOGOPHOR + ONGOING	sonli	safe, not in danger	2	16	8	8	1.0	2.0	2	1.00
+son no	LOGOPHOR + AT	sonno	novel (a long story)	2	15	10	10	1.0	5.0	2	1.33
+son sin	LOGOPHOR + IF	sonsin	sense (good sense; a sense organ)	2	10	3	3	1.0	2.0	2	0.60
+son ten	LOGOPHOR + VERY	sonten	liquid	2	9	7	7	1.0	3.0	2	1.56
+son wan	LOGOPHOR + I	sonwan	adult	2	13	3	3	1.0	10.0	2	0.46
+son yu	LOGOPHOR + WH	sonyu	shoulder	2	16	13	13	1.0	3.0	3	2.44
+ta nun	WE.excl + AND	tanun	fruit	2	10	5	5	3.0	9.0	2	3.00
+ta pi	WE.excl + OF	tapi	close, shut	2	15	12	12	3.0	8.0	2	4.80
+ta son	WE.excl + LOGOPHOR	tason	rather, somewhat	2	13	3	1	3.0	1.0	2	0.15
+ta ten	WE.excl + VERY	taten	cat	2	9	7	7	3.0	3.0	2	4.67
+ta yan	WE.excl + YOUKNOW	tayan	the press, news media	2	8	0	0	3.0	3.0	2	0.00
+ta yin	WE.excl + THIS	tayin	complain	2	16	14	14	3.0	4.0	2	5.25
+ta yu	WE.excl + WH	tayu	agree	3	16	13	13	3.0	3.0	3	7.31
+tan ke	MODMOD + MORE	tanke	forest	2	8	0	0	1.0	3.0	2	0.00
+tan ye	MODMOD + PART	tanye	fox	2	8	0	0	1.0	1.0	2	0.00
+ten bun	VERY + IT	tenbun	sword	2	8	7	7	3.0	5.0	2	5.25
+ten gi	VERY + WHO.rel	tengi	tuber	2	8	0	0	3.0	4.0	2	0.00
+ti ka	INSTRUCT + EXCLAIM	tika	egg	2	13	0	0	1.5	1.5	3	0.00
+ti mon	INSTRUCT + HE/SHE	timon	half	2	16	7	7	1.5	8.0	3	1.97
+ti to	INSTRUCT + TOOL	tito	worry	3	8	2	1	1.5	3.0	3	0.56
+ti we	INSTRUCT + ALL	tiwe	sweat	3	8	1	1	1.5	3.0	3	0.56
+ti wu	INSTRUCT + POLITE	tiwu	child	4	13	9	8	1.5	3.0	3	2.77
+ti ya	INSTRUCT + BEFORE	tiya	10^6	3	8	0	0	1.5	1.5	3	0.00
+to ti	TOOL + INSTRUCT	toti	spouse	3	8	0	0	3.0	1.5	3	0.00
+tun gi	OBVIATIVE + WHO.rel	tungi	sharp	1	10	4	4	2.0	4.0	2	1.60
+tun lo	OBVIATIVE + REQUEST	tunlo	milk	2	8	0	0	2.0	2.0	3	0.00
+tun son	OBVIATIVE + LOGOPHOR	tunson	theory	2	13	3	3	2.0	1.0	2	0.46
+tun we	OBVIATIVE + ALL	tunwe	skirt	2	16	14	14	2.0	3.0	2	3.50
+wan me	I + THAT.comp	wanme	seen, evidence by sight	1	10	0	0	10.0	5.0	2	0.00
+wi fe	ENDEAR + SOME	wife	report	4	8	3	3	1.0	2.0	2	0.75
+wi gen	ENDEAR + RESULT	wigen	love	3	8	1	1	1.0	2.0	2	0.25
+wi no	ENDEAR + AT	wino	light, brightness	3	8	5	5	1.0	5.0	2	1.25
+wi son	ENDEAR + LOGOPHOR	wison	pot, cooking pot	2	8	0	0	1.0	1.0	2	0.00
+wi wi	ENDEAR + ENDEAR	wiwi	red	2	6	0	0	1.0	1.0	1	0.00
+wi yan	ENDEAR + YOUKNOW	wiyan	soldier	3	8	0	0	1.0	3.0	1	0.00
+wu dan	POLITE + GENERIC	wudan	comment	2	16	9	9	3.0	3.0	2	3.38
+wu fon	POLITE + ADVISE	wufon	election	3	13	0	0	3.0	1.0	3	0.00
+wu kan	POLITE + WE.incl	wukan	juice	2	16	9	9	3.0	3.0	2	3.38
+wu pi	POLITE + OF	wupi	need (to)	4	8	0	0	3.0	8.0	2	0.00
+wu sin	POLITE + IF	wusin	secret	3	8	0	0	3.0	2.0	2	0.00
+wu su	POLITE + NOT	wusu	stone	3	10	4	3	3.0	7.0	3	2.70
+wu ten	POLITE + VERY	wuten	full	2	8	5	4	3.0	3.0	2	3.00
+wu to	POLITE + TOOL	wuto	stay	3	8	2	1	3.0	3.0	2	0.75
+wu wu	POLITE + POLITE	wuwu	navel	3	13	9	8	3.0	3.0	1	1.85
+wu ye	POLITE + PART	wuye	show	3	8	1	1	3.0	1.0	2	0.25
+ya fun	BEFORE + LIKE	yafun	toy	2	9	2	1	1.5	3.0	2	0.33
+ya ga	BEFORE + ONLY	yaga	put	3	8	3	3	1.5	3.0	2	1.12
+ya kin	BEFORE + UNSPEC	yakin	forget	2	8	0	0	1.5	1.0	2	0.00
+ya len	BEFORE + TO	yalen	thirst	2	9	0	0	1.5	5.0	2	0.00
+ya sen	BEFORE + PLACE	yasen	sock	2	10	8	7	1.5	3.0	2	2.10
+ya tan	BEFORE + MODMOD	yatan	market	3	8	0	0	1.5	1.0	2	0.00
+ya wu	BEFORE + POLITE	yawu	10	4	8	0	0	1.5	3.0	2	0.00
+ya ye	BEFORE + PART	yaye	sky	2	13	11	11	1.5	1.0	2	1.69
+yan du	YOUKNOW + INTEND	yandu	fridge	2	13	0	0	3.0	2.0	3	0.00
+yan fo	YOUKNOW + NAME	yanfo	gold	3	8	0	0	3.0	4.0	2	0.00
+yan pe	YOUKNOW + CONF	yanpe	underwear	2	10	0	0	3.0	1.5	2	0.00
+yan wi	YOUKNOW + ENDEAR	yanwi	rise, go up	3	8	0	0	3.0	1.0	1	0.00
+yan yan	YOUKNOW + YOUKNOW	yanyan	modern	2	13	0	0	3.0	3.0	1	0.00
+ye tun	PART + OBVIATIVE	yetun	doubt	3	8	2	2	1.0	2.0	2	0.50
+ye yan	PART + YOUKNOW	yeyan	smile	2	8	0	0	1.0	3.0	2	0.00
+ye yu	PART + WH	yeyu	company	4	16	0	0	1.0	3.0	3	0.00
+yin nen	THIS + SELF	yinnen	waste (use up for nothing)	2	8	2	2	4.0	3.0	2	1.50
+yin pon	THIS + ALSO	yinpon	react	2	16	11	9	4.0	4.0	2	4.50
+yin we	THIS + ALL	yinwe	partner (neutral in sex and setting)	2	11	0	0	4.0	3.0	2	0.00
+yin ya	THIS + BEFORE	yinya	broom	2	16	11	10	4.0	1.5	2	1.88
+yo li	WARN + ONGOING	yoli	party (social gathering, celebration)	3	8	1	1	0.5	2.0	3	0.19
+yon fan	EVEN + FOR	yonfan	professional	2	12	9	8	3.0	3.0	2	4.00
+yon gi	EVEN + WHO.rel	yongi	village	3	9	0	0	3.0	4.0	2	0.00
+yon me	EVEN + THAT.comp	yonme	discuss	2	9	0	0	3.0	5.0	2	0.00
+yon su	EVEN + NOT	yonsu	disappear, vanish	2	11	5	5	3.0	7.0	3	4.09
+yon ta	EVEN + WE.excl	yonta	hurry	2	9	6	6	3.0	3.0	2	4.00
+yon yo	EVEN + WARN	yonyo	family	2	8	0	0	3.0	0.5	3	0.00
+yu kin	WH + UNSPEC	yukin	cover, lid; to cover	2	11	1	1	3.0	1.0	3	0.27
+yu lo	WH + REQUEST	yulo	euro	2	8	0	0	3.0	2.0	3	0.00
+yu nen	WH + SELF	yunen	oil, the liquid	2	9	1	1	3.0	3.0	3	1.00
+yu son	WH + LOGOPHOR	yuson	rotten	3	9	1	1	3.0	1.0	3	0.33
+yu wan	WH + I	yuwan	yuan	2	9	1	1	3.0	10.0	3	1.00
+yu we	WH + ALL	yuwe	throat	3	8	0	0	3.0	3.0	3	0.00
