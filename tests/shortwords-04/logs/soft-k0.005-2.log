@@ -1,8 +1,0 @@
-direnv: loading ~/work/repos/universal-language/.envrc
-direnv: using flake
-direnv: nix-direnv: Using cached dev shell
-Building prefix dict from /nix/store/663s0209kc6p3kagj5xw37338va2f6zm-python3-3.14.7-env/lib/python3.14/site-packages/wordfreq/data/jieba_zh.txt ...
-Loading model from cache /tmp/jieba.u8b5994dfc1b5e770b1ff254a7c73a15a.cache
-Loading model cost 0.037 seconds.
-Prefix dict has been built successfully.
-REOPT today.tsv variants=all override=none | moved 47 | objective 0.4317 -> 0.6968 | robust 0.3037 -> 0.2878 | REQUEST ta->pan; INSTRUCT ti->ki; ADVISE fon->ka; INTEND me->ben; WARN yo->do; WH yu->den; UNSPEC pa->la; I to->gu; WE.incl kan->bon; WE.excl din->men; OBVIATIVE yi->lo; PLURAL la->fan; THAT.dem ben->tin; SOME go->ba; PART kin->ya; DONE sin->ko; AT mon->di; TO tun->kan; WITH nan->gon; FOR fan->yo; BEFORE ya->dun; AFTER kon->sin; AND yen->mi; BUT ka->bo; IF don->pu; BECAUSE bo->yan; WHO.rel gi->man; BE gun->non; MORE ke->ge; VERY ten->na; EXCLAIM ba->ton; SELF nen->ta; POLITE fin->mo; IT bun->ne; AGENT no->yun; RESULT gen->fin; TOOL du->fo; PLACE pu->gin; NAME fo->tun; ALSO pon->nin; EVEN yon->ken; FOCUS min->yen; YOUKNOW yan->fon; MODMOD tan->pon; D1 ni->yi; D3 de->te; D5 ma->to
