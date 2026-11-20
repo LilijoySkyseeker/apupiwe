@@ -35,7 +35,7 @@ sys.path.insert(0, TOOLS)
 import spec as SPEC
 
 FILLER = "mon obu"          # "she comes": stands in for "…"
-OUTSIDE = {"2.10", "9.2.5"}  # interjections carry no grammar (2.10); arithmetic read aloud is a reading of notation
+OUTSIDE = {"2.10", "9.2.5", "4.4.6"}  # interjections carry no grammar (2.10); arithmetic read aloud is a reading of notation; 4.4.6 quotes span sentences (the grammar parses one sentence)
                              # (9.2.5; author 2026-10-15: a notation reading, outside the sentence grammar like spelling aloud)
 # Single examples outside the reference grammar on purpose: words not in the lexicon (11.1, 11.3)
 OUTSIDE_SENT = {"mara ben obu": "casual speech: a name without fo (11.1)",

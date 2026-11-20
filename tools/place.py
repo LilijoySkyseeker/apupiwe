@@ -76,7 +76,7 @@ def state_dir():
 
 
 MOVE = set(_arg("--move").split(",")) if "--move" in sys.argv else set()
-FIXED_OPS = set("genso wanme inwun wemen konsin buntu tason nedin mesun manni buni donon lanno anko nuwen kiyu mena".split())
+FIXED_OPS = set("genso wanme inwun wemen konsin buntu tason nedin mesun manni buni donon lanno anko nuwen kiyu mena kenlin".split())
 HAPLO_MIN = 10  # a grammar word bans its syllable as a root's first syllable if it stands right before a content word >= 10 times in the corpus (data/bigrams.tsv; ~1% of the 930 such bigrams)
 MAX3_TIER = 1   # author 2026-11-18: three syllables only for tier 1
 LOCKED = {"language"}   # author 2026-11-18: apu, the language's name

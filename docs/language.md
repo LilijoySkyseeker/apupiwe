@@ -49,7 +49,7 @@
   |---|---|
   | `,` | a pause (section 4.6) |
   | `.` | end of a sentence; between digits, the decimal point |
-  | `" "` | around quoted speech |
+  | `" "` | around quoted speech: where the say-verb frame and **kenlin** are (4.4.6) |
 
   `?` and `!` are allowed, and `…` marks a hesitation or a trailing off; unlike the comma, it carries no grammar (4.6). In the reference variety the words already show what they would mark, so they carry no grammar of their own. `-` and `:` are not used in the language's own words.
 - <span id="r-3-4"></span>Some things pass through as written: chat abbreviations and interjections (ok, lol), digits, unit symbols (`5 km`, `20 °C`, `30%`), the local clock notation (`21:30`, `9:30 pm`), ISO dates (`2026-10-10`), letters used as labels, links, email addresses, @handles, #tags, emoji, code, file names, and personal and brand names (section 11). Unit symbols are read aloud by their borrowed names (9.3) and clock notation in the speaker's clock style (8.3). Other notation is read as the speaker's culture reads it.
@@ -111,7 +111,7 @@
 - <span id="r-4-4-4"></span>A relative clause attaches to the nearest noun before it. A time, reason or condition clause at the *start* of a sentence belongs to the main clause. At the *end*, it belongs to the innermost clause before it, unless a pause closes that clause first (**kiyu** closes relative clauses but not a trailing clause like this one, 5.3): **pu leso, wan ben miya ewo gi sigo** "in the morning, I watched the person who came back"; **wan ben miya ewo gi sigo pu leso** "I watched the person who came back in the morning". In the same way, a phrase or clause after verbs joined by **nun**, **lu** or **fen** belongs to the last of them, and at the start it covers them all: **mon doku nun nawi no guyi** "he works, and eats at home"; **no guyi, mon doku nun nawi** "at home, he works and eats".
 - <span id="r-4-4-5"></span>**nun** "and", **lu** "or" and **fen** "but" join nouns, verbs, modifiers or clauses. Nouns in a list are joined with **nun**: **mole nun sine** "mother and father". **lu X lu Y** means "either X or Y, not both".
 - <span id="r-4-4-7"></span>Verbs joined by **nun**, **lu** or **fen** are separate predicates. Operators and aspect words before one of them cover only that verb, and an object after the last verb belongs to it: **mon su nawi nun fimo** "she doesn't eat, and she sleeps"; **wan nagu nun yidu bun** "I see (it) and take it".
-- <span id="r-4-4-6"></span>A quote is framed by a say-verb, and in writing it goes in quotation marks. It is its own sentence with its own speech-act particle. Broken-off speech just stops.
+- <span id="r-4-4-6"></span>A quote is framed by a say-verb and is one sentence, with its own speech-act particle; the next sentence is the speaker's own again: **fo mara ben oyi, wan li doku. wan li fimo.** "Mara said, 'I'm working.' I'm sleeping." A quote of more than one sentence is said between two **kenlin** "quote … unquote", so a listener knows from its start that it runs on: **fo mara ben oyi kenlin wan li doku. wan li nawi. ba obu bi? kenlin fo tomas ben kusa.** "Mara said, 'I'm working. I'm eating. Are you coming?' Tomas left." In writing, quotation marks stand where the frame and **kenlin** are, so writing and speech say the same. A long quote inside a long quote is said as reported speech (**me** … **son**, 10.3.4). Broken-off speech just stops.
 
 ### 4.5 Leaving things out
 
@@ -395,7 +395,7 @@ A hesitation is not a pause: a held sound, a filler or a break while the speaker
 | Names | **fo** |
 | Derivation | doer **win** · thing **gen** · tool **to** · place **sen** |
 
-<span id="r-13-2"></span>These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyu**, number label **mena**. **mena** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **nan**: **wan doku anko lokagi** "I work until evening", **mon obu nuwen nasi** "he came without money". "Against" in the sense of protection is **don** "from" (**kuwi mon don fin** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".
+<span id="r-13-2"></span>These operators have two syllables, stressed on the first: not literal **genso**, seen **wanme**, told **inwun**, inferred **wemen**, at least **konsin**, about to **buntu**, rather **tason**, almost **nedin**, each **mesun**, usually **manni**, "okay?" **buni**, "it turned out" **donon**, title **lanno**, until **anko**, without **nuwen**, end of phrase **kiyu**, number label **mena**, quote … unquote **kenlin** (4.4.6). **mena** goes between a noun and a number to make a label or an ordinal (5.2). **anko** and **nuwen** are relation words, used like **ya** and **nan**: **wan doku anko lokagi** "I work until evening", **mon obu nuwen nasi** "he came without money". "Against" in the sense of protection is **don** "from" (**kuwi mon don fin** "protect him against that"); in the sense of opposing it is the verb **ninsu** "oppose".
 
 ## 14. Vocabulary
 
