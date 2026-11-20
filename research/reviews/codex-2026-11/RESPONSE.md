@@ -24,3 +24,7 @@ Brief: `BRIEF.md`; report: `report.txt`. Every claim was checked against the fil
 16. **kon nelon ni** "a week from now" vs "next week" (calendar).
 5. Case and punctuation when spelling aloud.
 7. Verbs' complement patterns (takes an object or not) for learners: `data/roles.tsv` has them; the lessons and dictionary don't show them.
+
+## Outcomes (2026-11-19)
+
+All 18 findings resolved: 1 (rule J, 85 roots re-placed), 8 (pronoun rule, 8 grammar words), 2 and 9 (kiyu: restructuring is the precise way), 10 (clashing borrowings reshaped, not marked with fo), 16 (spec error fixed), 3, 6, 13, 14, 15, 17, 18 (errors fixed); 4, 7, 11 go to the docs rebuild (the language already says them); 5, 12 join "notation read aloud" after v2. Design log, 2026-11-19.
