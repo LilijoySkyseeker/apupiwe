@@ -2,6 +2,10 @@
 
 Apupiwe (in the language **apu pi we**) is a thought experiment in the best human language, and a real language its author learns and shares. Read `docs/goal.md` first: every rule and word answers to it.
 
+## Why the project exists (author, 2026-11-19)
+
+The author makes Apupiwe because it's interesting, and because as far as they know nobody has tried this method: a language built from what the world's languages share, measured with modern tools. What makes it interesting is making it as good as it can possibly be; being learnable and usable is part of "good" (B10), as a property of the design. The author's own uses: worldbuilding, naming tools, things and projects, and possibly fiction (a self-consistent language for a science-fiction world, so conversation, including informal speech, must work). It is published as a resource for anyone who wants to learn it; no adoption push. The author doesn't plan to learn to speak it.
+
 ## Where things are
 
 - **Standard:** `docs/goal.md` (P, B, C, L, N items; cite them by id).

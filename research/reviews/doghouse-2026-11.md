@@ -55,3 +55,9 @@ Six checks (`spec.py check`, `gf_check.py`, `accent.py`, `juncture.py`, `check.p
 ## The one question
 
 Is "a language the author learns and uses" still half the goal? If yes, the next step is a week of using it, not more design; the machinery has done its job and should be frozen and reduced. If no, the design can go on, and the reductions above are housekeeping.
+
+## The author's answers (2026-11-19)
+
+- **Goal** (restated, AGENTS.md "Why the project exists"): interest in the method and in quality; learnability as a design property; the author's own use is worldbuilding, naming and possibly fiction (so conversation must work); a public resource. The author won't learn to speak it, so the "week of use" test becomes a naming and fiction-dialogue test, and learnability for others is tested by fresh agents learning from the new docs ("Last").
+- **Section 2:** all proposals agreed. The mishearing model is kept, differences under ~5% are ties, and it is frozen: no tuning without new evidence (published confusion data), since every change re-ranks the placements and no improvement can be checked.
+- **Rule 5:** agreed: one command runs every check, and the placement and apply tools run it themselves.
