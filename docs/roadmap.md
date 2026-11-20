@@ -13,7 +13,7 @@ Where the project is and what comes next. Decisions and their reasons are in `de
 
 - Physics basics (author, 2026-11-19, with the mass decision): force, gravity and energy through the concept ladder on their own merits.
 
-- How notation is read aloud (author, 2026-11-19; with the outside review's parentheses in arithmetic and letter case when spelling aloud, findings 12 and 5): Greek letters (the letter name "pi" is the grammar word **pi** "of", and a loan needs two syllables, so π needs an adapted form through the loan panel), operators and equations. Writing already passes notation through (reference 3.4); arithmetic read aloud is treated as a reading of notation (9.2.5).
+- How notation is read aloud (author, 2026-11-19; with the outside reviews' parentheses in arithmetic, letter case when spelling aloud, and readings for "20 °C" and "60 km/h" that reference 3.4 promises): Greek letters (the letter name "pi" is the grammar word **pi** "of", and a loan needs two syllables, so π needs an adapted form through the loan panel), operators and equations. Writing already passes notation through (reference 3.4); arithmetic read aloud is treated as a reading of notation (9.2.5).
 
 - `tools/words.py` lags the current rules (found 2026-11-19): it scores with mishearing model v1, doesn't know the haplology rule or rule 2.12, and `move` drops antonym weighting (it passes no antonyms to `add_content`). Until fixed, place roots with `tests/placement-04/place.py` (AGENTS.md). Bring `add-content` onto `confusion2`, the haplology table and `tools/accent.py`'s neighbours, or retire it in favour of the placement tool.
 

@@ -452,7 +452,7 @@ id = "4.4.1"
 type = "bullet"
 title = "A relation phrase"
 text = '''
-- A relation phrase (**no**, **len**, **don**, **nan**, **fan**, **ya**, **kon**, **fun**, **pu**, **bo** "because of", and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. A relation phrase right after a noun may instead describe that noun: **osa nan tanun tufun** "tea with lemon" (not after a pronoun, and not **fun**, which after an object says how). To be precise, use a relative clause for the noun (**osa gi ibe tanun tufun**, **sola gi gun no fide pi yolan** "the road that is above the river") or put the phrase first for the verb (**nan tanun tufun, wan koye osa**). In comparisons and quantities (9.3), **don**, **len** and **fun** belong to their number or adjective. After a time, **kon** and **ya** belong to that time (8.2): **wan isi no wuma kon dili ni** "I go the day after tomorrow". **bo** with a noun phrase gives **bo yu** "why" and **bo yin** "so" (because of this).'''
+- A relation phrase (**no**, **len**, **don**, **nan**, **fan**, **ya**, **kon**, **fun**, **pu**, **bo** "because of", and the two-syllable **anko** "until" and **nuwen** "without") at clause level attaches to the clause's verb. A relation phrase right after a noun may instead describe that noun: **tiyen nan tanun tufun** "tea with a sour fruit" (not after a pronoun, and not **fun**, which after an object says how). To be precise, use a relative clause for the noun (**tiyen gi ibe tanun tufun**, **sola gi gun no fide pi yolan** "the road that is above the river") or put the phrase first for the verb (**nan tanun tufun, wan koye osa**). In comparisons and quantities (9.3), **don**, **len** and **fun** belong to their number or adjective. After a time, **kon** and **ya** belong to that time (8.2): **wan isi no wuma kon dili ni** "I go the day after tomorrow". **bo** with a noun phrase gives **bo yu** "why" and **bo yin** "so" (because of this).'''
 
 [[item]]
 id = "4.4.2"
@@ -1432,7 +1432,7 @@ type = "bullet"
 title = "Rates"
 gap = 0
 text = '''
-- A rate is said with **mesun** "each" after the unit, joined by the relation word that fits: **wan nawi bifo sa no dili mesun** "I eat twice a day" (on each day), **wan neke de yefi len ewo mesun** "I give three to each person". Unit symbols such as `60 km/h` pass through as written and are read with their borrowed names (9.3).'''
+- A rate is said with **mesun** "each" after the unit, joined by the relation word that fits: **wan nawi bifo sa no dili mesun** "I eat twice a day" (on each day), **wan neke yefi de len ewo mesun** "I give three to each person". Unit symbols such as `60 km/h` pass through as written and are read with their borrowed names (9.3).'''
 
 [[item]]
 id = "9.2.7"
@@ -1667,7 +1667,7 @@ id = "11.1"
 type = "bullet"
 title = "Names"
 text = '''
-- Names take **fo**: **fo mara**. That is the precise form; casual speech often leaves **fo** out when a name can't be taken for a word (**mara ben obu** "Mara came"). A personal or brand name keeps its owner's spelling in lowercase, even with letters the language lacks: **fo denise**, **fo xi jinping**, **fo nguyen**, **fo wi-fi**. Say it as close to its owner's pronunciation as you can. Place names are names too: **fo london**, though an established adapted form may be used instead: **fo landan**. Names aren't used as verbs. A name runs until the next grammar word or pause, so a name of several words is written with no grammar words inside it, and a content word right after a name needs a grammar word or a pause before it: **fo xi jinping ben oyi** "Xi Jinping said". A name that contains a grammar word is closed with **kiyu** instead, and then runs until it: **fo cuerpo de paz kiyu ben obu** "the Peace Corps came". **kiyu** closes an open relative clause, built word or topic first, and a name only when none of those is open, so in **guyi gi fo mara ben miya kiyu gun tugu** "the house that Mara saw is big" it closes the clause and the name is **mara**. A name that needs **kiyu** therefore can't stand inside a relative clause; say it first, as a topic, or in its own sentence.'''
+- Names take **fo**: **fo mara**. That is the precise form; casual speech often leaves **fo** out when a name can't be taken for a word (**mara ben obu** "Mara came"). A personal or brand name keeps its owner's spelling in lowercase, even with letters the language lacks: **fo denise**, **fo xi jinping**, **fo nguyen**, **fo wi-fi**. Say it as close to its owner's pronunciation as you can. Place names are names too: **fo london**, though an established adapted form may be used instead: **fo landan**. Names aren't used as verbs. A name runs until the next grammar word or pause, so a name of several words is written with no grammar words inside it, and a content word right after a name needs a grammar word or a pause before it: **fo xi jinping ben oyi** "Xi Jinping said". A name that contains a grammar word is closed with **kiyu** instead, and then runs until it: **fo cuerpo de paz kiyu ben obu** "the Peace Corps came". **kiyu** closes an open relative clause, built word or topic first, and a name only when none of those is open, so in **guyi gi fo mara ben miya kiyu gun tugu** "the house that Mara saw is big" it closes the clause and the name is **mara**. A name that needs **kiyu** therefore can't stand inside a relative clause or a topic, since **kiyu** closes those first; say it in its own sentence.'''
 
 [[item]]
 id = "11.2"
@@ -1676,7 +1676,7 @@ title = "Adapted form"
 gap = 0
 text = '''
 - The adapted form (`tools/names.py`) is the spoken fallback for a name and the form of every loan. It is made like this:
-  - each foreign sound becomes the nearest native sound: r → l, v → b, ʋ → w, z/sh/zh → s, th → f, dh → d, ch → t and j → d (but k and g before i or e, whose harmless variant is the original sound: *gene* **geni**), kh → k; h and glottal sounds disappear; ng → n; length, aspiration and tone are dropped; ə, ʌ, æ → a;
+  - each foreign sound becomes the nearest native sound: r → l, v → b, ʋ → w, z/sh/zh → s, th → f, dh → d, ch → t and j → d (but k and g before i or e, whose harmless variant is the original sound: *technology* **tekunologi**), kh → k; h and glottal sounds disappear; ng → n; length, aspiration and tone are dropped; ə, ʌ, æ → a;
   - two vowels in a row get a glide between them, y after i or e and w otherwise;
   - a consonant that can't stand where it is gets an added **u**;
   - the result has at least two syllables, counting a glide (**tuwu**).'''

@@ -191,7 +191,7 @@ ti su kusa	ti [S su kusa]	yes
 wan su ibe poka din	[S wan su ibe [NP poka din]]	no	
 wan ben li nawi	[S wan ben li nawi]	yes	
 wan ben ditun bun no fo google	[S wan ben ditun bun [ADV no [NP fo google]]]	yes	
-osa nan tanun tufun	[NP osa nan [NP tanun tufun]]	no	
+tiyen nan tanun tufun	[NP tiyen nan [NP tanun tufun]]	no	
 to siten sokun kiyu tikun	[NP [NP to siten sokun] kiyu tikun]	no	
 to siten sokun	[NP to siten sokun]	no	
 fo cuerpo_de_paz kiyu ben obu	[S [NP fo cuerpo_de_paz kiyu] ben obu]	yes	
@@ -217,7 +217,7 @@ fo mara wi	[NP fo mara wi]	no
 poka wi tugu	[NP [NP poka wi] tugu]	no	fi before the describing words
 fo mara wi obu	[S [NP fo mara wi] obu]	yes	fi ends the name (5.2.12, 11.1)
 wan nawi bifo sa no dili mesun	[S wan nawi bifo sa [ADV no [NP dili mesun]]]	no	relation phrase may also attach to the noun (4.4.1)
-wan neke de yefi len ewo mesun	[S wan neke de yefi [ADV len [NP ewo mesun]]]	no	relation phrase may also attach to the noun (4.4.1)
+wan neke yefi de len ewo mesun	[S wan neke yefi de [ADV len [NP ewo mesun]]]	no	relation phrase may also attach to the noun (4.4.1)
 wan isi yinmi tanke	[S wan isi yinmi tanke]	no	the second verb describes the first and takes its own object (4.2.6); "through" is a verb chain with pass (design log 2026-10-16)
 sa pi ewo de	[NP sa pi [NP ewo de]]	yes	a part of a counted set: number pi noun (5.2.5, 9.2.7)
 de pi wo	[NP de pi wo]	yes	a fraction (9.2.7)

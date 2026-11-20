@@ -1160,9 +1160,6 @@ concrete LexApu of Lex = open Prelude in {
     gemo_N = {s = "gemo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     gemo_V = {s = "gemo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     gemo_A = {s = "gemo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    geni_N = {s = "geni" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    geni_V = {s = "geni" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    geni_A = {s = "geni" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     genogi_N = {s = "genogi" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     genogi_V = {s = "genogi" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     genogi_A = {s = "genogi" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
@@ -1226,6 +1223,9 @@ concrete LexApu of Lex = open Prelude in {
     ginto_N = {s = "ginto" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     ginto_V = {s = "ginto" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     ginto_A = {s = "ginto" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    ginu_N = {s = "ginu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    ginu_V = {s = "ginu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    ginu_A = {s = "ginu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     gitalu_N = {s = "gitalu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     gitalu_V = {s = "gitalu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     gitalu_A = {s = "gitalu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;

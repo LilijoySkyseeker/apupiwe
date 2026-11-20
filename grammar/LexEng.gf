@@ -1161,9 +1161,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     gemo_N = D.level_N ;
     gemo_V = P.mkV "level" ;
     gemo_A = D.level_A ;
-    geni_N = D.gene_N ;
-    geni_V = P.mkV "gene" ;
-    geni_A = P.mkA "gene" ;
     genogi_N = D.approach_N ;
     genogi_V = D.approach_V ;
     genogi_A = P.mkA "approaching" ;
@@ -1227,6 +1224,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     ginto_N = D.message_N ;
     ginto_V = P.mkV "message" ;
     ginto_A = P.mkA "message" ;
+    ginu_N = D.gene_N ;
+    ginu_V = P.mkV "gene" ;
+    ginu_A = P.mkA "gene" ;
     gitalu_N = D.guitar_N ;
     gitalu_V = P.mkV "guitar" ;
     gitalu_A = P.mkA "guitar" ;

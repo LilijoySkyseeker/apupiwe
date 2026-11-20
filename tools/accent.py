@@ -9,7 +9,8 @@ tests/shortwords-04/rebuild.py (its position table and the GF substitution count
 
 Also (author, 2026-11-19; research/notes/names-and-loans.md §5): a loan's added final vowel is the part speakers
 vary, so no other word may sit on a loan with that vowel changed (same drift key). A final vowel is added when the
-loan's source (data/loans.tsv, the panel's median) ends in a consonant.
+loan's source (data/loans.tsv, the panel's median) ends in a consonant; the vowel may also be dropped, so the
+form without it may not be another word either.
 """
 import os, re, subprocess, sys
 import words as W
@@ -59,6 +60,18 @@ def loan_vowel_clashes(lex):
             other = alt if alt in forms and alt != f else keys.get(k)
             if other and other != f:
                 out.append((f, forms[f], alt, other, forms[other]))
+        # the added vowel dropped (2026-11-19, second outside review): geni said [dʒen] is the grammar word gen
+        cut = f[:-1]
+        try:
+            ok = bool(W.split(cut)) and "".join(W.SYL[i] for i in W.split(cut)) == cut
+        except Exception:
+            ok = False
+        if ok:
+            gram = {g["form"]: g["gloss"] for g in W.read("grammar.tsv")}
+            kc = W.INV.content_key(W.split(cut))
+            hit = (cut, gram[cut]) if cut in gram else ((keys[kc], forms[keys[kc]]) if kc in keys and keys[kc] != f else None)
+            if hit:
+                out.append((f, forms[f], cut, hit[0], hit[1]))
     return out
 
 

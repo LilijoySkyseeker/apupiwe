@@ -1163,9 +1163,6 @@ abstract Lex = {
     gemo_N : N ;  -- level, degree
     gemo_V : V ;  -- level, degree
     gemo_A : A ;  -- level, degree
-    geni_N : N ;  -- gene
-    geni_V : V ;  -- gene
-    geni_A : A ;  -- gene
     genogi_N : N ;  -- approach, come near
     genogi_V : V ;  -- approach, come near
     genogi_A : A ;  -- approach, come near
@@ -1229,6 +1226,9 @@ abstract Lex = {
     ginto_N : N ;  -- message
     ginto_V : V ;  -- message
     ginto_A : A ;  -- message
+    ginu_N : N ;  -- gene
+    ginu_V : V ;  -- gene
+    ginu_A : A ;  -- gene
     gitalu_N : N ;  -- guitar
     gitalu_V : V ;  -- guitar
     gitalu_A : A ;  -- guitar
