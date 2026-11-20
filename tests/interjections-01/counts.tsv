@@ -1,0 +1,12 @@
+function	form	languages	n	regions	witnesses
+pain	ai	Chinese,Japanese,Korean,Vietnamese,Thai,Tamil,Persian,Turkish,Russian,Spanish,French	11	5	Chi:哎呀 /ˀaɪ̯⁵⁵ jä⁵⁵/ | Jap:あいた a-ita | Kor:아이고 aigo | Vie:ái [ʔaːj˧˦] | Tha:ไอ้หยา âi-yǎa | Tam:ஐயோ aiyō | Per:آی ây | Tur:ay  | Rus:ай aj | Spa:ay /ˈai/ | Fre:ahi /a.i/
+surprise	wa	Chinese,Japanese,Korean,Vietnamese,Tagalog,Hindi,Tamil,Persian,Russian,Spanish,French	11	5	Chi:wow /waːu̯⁵⁵/ | Jap:wow wō | Kor:와 wa | Vie:a [ʔaː˧˧] | Tag:a /ˈʔa/ | Hin:वाह vāh | Tam:ஆ ā | Per:وا wā | Rus:а a! | Spa:wow /ˈwau/ | Fre:ouah /wa/
+surprise	o	Japanese,Korean,Vietnamese,Tagalog,Tamil,Persian,Turkish,Russian,Spanish,French	10	5	Jap:ほう hō | Kor:오 o | Vie:ô [ʔo˧˧] | Tag:o /ʔo/ | Tam:ஓ ō | Per:اوه uh | Tur:oh /ˈoh/ | Rus:о-о o-o | Spa:oh /ˈo/ | Fre:ho /o/
+realise	a/o	Japanese,Korean,Vietnamese,Thai,Indonesian,Tagalog,Hindi,Bengali,Tamil,Persian,Turkish,Russian,Spanish,French	14	5	Jap:あ a | Kor:아 a | Vie:à [ʔaː˨˩] | Tha:อา aa | Ind:ah /ˈah/ | Tag:o /ʔo/ | Hin:आह āh | Ben:ও ō | Tam:ஆ ā | Per:آه âh | Tur:ha  | Rus:о o | Spa:oh /ˈo/ | Fre:oh /o/
+huh	huh	Japanese,Korean,Vietnamese,Thai,Indonesian,Tagalog,Hindi,Persian,Turkish,Russian,Spanish,French,Yoruba	13	6	Jap:あ a | Kor:어 eo | Vie:a [ʔaː˧˧] | Tha:หา hǎa | Ind:ah /ˈah/ | Tag:e /ʔe/ | Hin:अए ae | Per:آه āh | Tur:ha  | Rus:а a! | Spa:eh /ˈe/ | Fre:ha /ha/ | Yor:ẹn /ɛ̃̄/
+quiet	sh	Korean,Vietnamese,Hindi,Persian,Russian,Spanish,French	7	5	Kor:쉬 swi | Vie:suỵt [swit̚˧˨ʔ] | Hin:चुप cup | Per:چپ čup | Rus:тс-с-с ts-s-s | Spa:chito /ˈt͡ʃito/ | Fre:chut /ʃyt/
+disgust	fu	Persian,Russian,Spanish,French	4	2	Per:پیف pif | Rus:фу fu | Spa:fu /ˈfu/ | Fre:tfou /tfu/
+disgust	chi	Japanese,Hindi,Bengali,Tamil	4	2	Jap:ひ hi | Hin:छी chī | Ben:ছি chi | Tam:சீ cī
+relief	uf	Korean,Vietnamese,Russian,Spanish,French	5	3	Kor:후유 huyu | Vie:phù [fu˨˩] | Rus:уф uf | Spa:uf /ˈuf/ | Fre:ouf /uf/
+attention	ey/oy	Japanese,Vietnamese,Tagalog,Hindi,Tamil,Persian,Turkish,Russian,Spanish,French	10	5	Jap:おおい ōi | Vie:ê [ʔe˧˧] | Tag:hoy /ˈhoj/ | Hin:ऐ ai | Tam:ஓய் ōy | Per:ای ey | Tur:ey /ˈej/ | Rus:э e | Spa:hey /ˈei/ | Fre:hein /ɛ̃/
+hesitate	e/em	Japanese,Korean,Vietnamese,Thai,Bengali,Tamil,Russian,Spanish,French	9	4	Jap:エー ē | Kor:음 [ɯm] | Vie:ơ [ʔəː˧˧] | Tha:เอิ่ม ə̀əm | Ben:অ্যাঁ ễ | Tam:உம் um | Rus:э e | Spa:eh /ˈe/ | Fre:hem /ɛm/

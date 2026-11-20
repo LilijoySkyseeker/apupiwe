@@ -1,0 +1,227 @@
+=== ouch
+--- [expression of one’s own physical pain] (14/20 panel languages present)
+  Mandarin: 哎喲 (āiyō), 哎呀 (āiyā)
+  Japanese: 痛い (itai), いて (ite), いてて (itete)
+  Korean: 아야
+  Vietnamese: úi da, ai da, ui da, đau
+  Thai: อุ๊ย (úi), อุ๊ยตาย (úi-dtaai), โอ๊ย (ói)
+  Indonesian: aduh
+  Tagalog: aray, aruy, aguy, ay
+  Tamil: ஐயோ
+  Persian: آخ (âx), آی (ây)
+  Arabic: أَحّ, حِلْيَة
+  Russian: ой, ай, ох, а́уч
+  Spanish: ay, uy, au, aw
+  French: aïe, ouille
+  Yoruba: yéè
+--- [expression in sympathy at another’s pain] (2/20 panel languages present)
+  French: aïe
+  Yoruba: yéè
+--- [reply to an insult] (1/20 panel languages present)
+  French: aïe
+--- [something that causes discomfort or pain] (0/20 panel languages present)
+--- [to exclaim “ouch!” in discomfort or pain] (1/20 panel languages present)
+  Tagalog: umaray
+=== oh
+--- [expression of surprise] (13/20 panel languages present)
+  Mandarin: 哎呀 (āiyā), 哎哟 (āiyō), 哦 (o, ò, ó), 呵 (hē)
+  Japanese: あら (ara), おや (oya), ああ (aa), へえ (hee)
+  Korean: 아, 오, 어
+  Vietnamese: ồ, ôi, ối
+  Tagalog: ay
+  Hindi: अरे, हे, ओ
+  Persian: اه (oh), آه, آه
+  Arabic: وَا, يَا, يَاه, أُوه
+  Turkish: aman
+  Russian: о, ой, ах, ох
+  Spanish: oh, ay, ou
+  French: oh, ah
+  Swahili: ee, lo, loo, o
+--- [expression of wonder, amazement, or awe] (0/20 panel languages present)
+--- [expression of understanding] (3/20 panel languages present)
+  Mandarin: 哦 (ō, o), 噢 (ō)
+  Arabic: آه
+  Russian: а, ага
+--- [vocative] (4/20 panel languages present)
+  Persian: اِی
+  Arabic: يَا, أَيْ, أَيُّهَا, أَيَّتُهَا
+  Russian: о
+  French: ô
+--- [the digit zero in speech] (2/20 panel languages present)
+  Japanese: 〇 (maru)
+  Korean: 공
+=== huh
+--- [to express amusement or subtle surprise] (6/20 panel languages present)
+  Mandarin: 嗯 (ēn), 哼 (hēng)
+  Japanese: え (e), えっ (e')
+  Vietnamese: ủa
+  Tagalog: ha, a
+  Russian: а, что, да, [[да]] [[ну]]
+  French: oh
+--- [expressing doubt or confusion] (8/20 panel languages present)
+  Mandarin: 嘿 (hēi), 蛤 (há)
+  Japanese: へえ (hē), え (e), よ (yo), ぞ (zo)
+  Korean: 어
+  Vietnamese: ủa
+  Tagalog: ha, a
+  Russian: что, а, да
+  Spanish: que
+  French: hein
+--- [to reinforce a question] (7/20 panel languages present)
+  Mandarin: 呢 (ne), 啊 (à, a)
+  Japanese: ね (ne), な (na)
+  Vietnamese: hả
+  Tagalog: ha
+  Russian: а, да
+  Spanish: eh
+  French: hein
+--- ["I know, huh" what huh] (3/20 panel languages present)
+  Mandarin: 啊 (à)
+  Tagalog: ha
+  Russian: да, угу́, ага́
+--- [to indicate that one didn't hear] (6/20 panel languages present)
+  Mandarin: 啊
+  Japanese: え (e), えっ (e')
+  Vietnamese: cái gì
+  Tagalog: ha
+  Russian: что, а
+  French: hein
+--- [tag question] (7/20 panel languages present)
+  Mandarin: 嗎 (ma), 呢 (ne), 嘛 (ma)
+  Japanese: ね (ne), か (ka)
+  Korean: 아이가
+  Vietnamese: nhỉ, nhể, nhở, à
+  Tagalog: ha
+  Russian: а, да
+  French: hein
+--- [(unchecked)] (0/20 panel languages present)
+=== hey
+--- [exclamation to get attention] (12/20 panel languages present)
+  Mandarin: 喂 (wèi), 哎 (āi), 嗨 (hāi), 嘿 (hēi)
+  Japanese: おい (oi), ねえ (nē)
+  Korean: 이봐, 어이, 야
+  Vietnamese: ê, này, ơi
+  Tagalog: hoy, uy, oy, huy
+  Hindi: अरे, अजी, हे, रे
+  Tamil: ஏ, அடேய், டேய், ஏய்
+  Persian: هی (hey), هلا (halâ)
+  Arabic: يَاه, اسمع
+  Russian: эй
+  Spanish: ''imperative'' [[oír]], hey, ey, eh
+  French: hé
+--- [protest or reprimand] (6/20 panel languages present)
+  Japanese: おい (oi)
+  Vietnamese: ê
+  Tagalog: hoy, uy, oy, huy
+  Russian: эй, э
+  Spanish: ''imperative'' [[oír]], hey, ey, eh
+  French: hé
+--- [expression of surprise] (5/20 panel languages present)
+  Japanese: オラ (ora)
+  Tagalog: uy, oy, oi, ui
+  Russian: ой, ух ты, ого́, ого́ (ohó)
+  Spanish: hey, ey, eh, ''imperative'' [[oír]]
+  French: holà
+--- [informal greeting] (7/20 panel languages present)
+  Mandarin: 嗨
+  Japanese: ヘイ (hei)
+  Tagalog: hoy, uy, oy, huy
+  Arabic: هَلَا
+  Russian: о, ку-ку
+  Spanish: hey, ey, eh, hola
+  French: coucou
+--- [request for repetition or explanation] (3/20 panel languages present)
+  Tagalog: huy, uy, oy, ui
+  Russian: что, чо
+  Spanish: hey, ey, eh, ''imperative'' [[oír]]
+--- [meaningless beat marker, filler syllable] (1/20 panel languages present)
+  Tagalog: hoy, uy, ui, oy
+--- [(unchecked)] (0/20 panel languages present)
+--- [country dancing figure] (0/20 panel languages present)
+=== shh
+--- [requesting silence] (10/20 panel languages present)
+  Mandarin: 噓 (xū, shī)
+  Japanese: しーっ (shīt), 叱 ([[しっ]], shi)
+  Korean: 쉿
+  Vietnamese: suỵt
+  Persian: هیس (hiss)
+  Turkish: şşş
+  Russian: тсс, ш-ш-ш, ти́ше, ша
+  Spanish: chito, chitón
+  French: chut
+  Swahili: usu
+=== um
+=== wow
+--- [excitement, surprise|whoa] (11/20 panel languages present)
+  Mandarin: 哇 (wà), 呀 (yà), 啊 (à)
+  Japanese: うわ (uwa), わあ (wā), ワオ (wao)
+  Korean: 우와, 와, 와우
+  Hindi: वाह
+  Persian: وه (vah), به (bah)
+  Arabic: عَجَبًا
+  Turkish: vay, vay canına
+  Russian: ух ты́, ва́у, ура́
+  Spanish: guau, guao, hala, arrea
+  French: waouh, ouah, oh là là
+  Yoruba: ọmọ!
+--- [amazement|no way] (12/20 panel languages present)
+  Mandarin: 哇塞 (wāsài), 哇 (wā), 哎呀 (āiyā)
+  Japanese: わあ (wā), すごい (sugoi)
+  Korean: 와
+  Vietnamese: ồ, oa, uầy
+  Thai: ว้าว (waaw)
+  Hindi: वाह
+  Persian: واه (vâh), وا (vâ)
+  Arabic: سُبْحَانَ الله
+  Turkish: vay, vay canına, oha!
+  Russian: ого́, ого́ (ohó), ничего́ себе́!, ба
+  Spanish: guau, guao, salute, híjole
+  French: ouah, oh
+--- [(unchecked)] (0/20 panel languages present)
+--- [to amaze or awe] (0/20 panel languages present)
+=== yuck
+--- [uttered to indicate disgust|ew] (13/20 panel languages present)
+  Mandarin: 惡心 (ěxin), 呸 (pēi), 啐 (cuì), 哎呀 (āiyā)
+  Japanese: げ (ge), ゲ (ge), げっ (ge), ゲッ (ge)
+  Korean: 왝
+  Vietnamese: kinh, khiếp, eo
+  Thai: ยี้, แหวะ
+  Tagalog: kadiri
+  Tamil: சீ, சை, ஐய, கருமம்
+  Persian: ایش
+  Arabic: يَع
+  Turkish: ıyy, iğrenç, ıyk, ıyak
+  Russian: фу, тьфу, фе, фи
+  Spanish: puaj, guácala, fuchi, fuchila
+  French: beurk
+=== phew
+--- [Used to show relief, fatigue, or surprise] (8/20 panel languages present)
+  Mandarin: 喲 (yo)
+  Japanese: ふぅ (fū)
+  Korean: 후유, 휴, 어휴, 에휴
+  Vietnamese: phù
+  Tagalog: hays, hayst
+  Russian: [[уф]]!, фуф, фух
+  Spanish: fíu, menos mal
+  French: pfou, ouf
+--- [Used to show disgust] (2/20 panel languages present)
+  Spanish: puaj
+  French: pouah
+=== oops
+--- [acknowledging a minor mistake] (10/20 panel languages present)
+  Mandarin: 哎呀 (āiyā, āiyá), 啊哈 (āhā)
+  Japanese: おっと (otto), しまった (shimatta), あら (ara), おや (oya)
+  Korean: 아차
+  Indonesian: ups
+  Tagalog: ay
+  Arabic: آهٍ
+  Turkish: ay, hop, eyvah, hoppala
+  Russian: ой, упс, ох
+  Spanish: uy, vaya, ops, ups
+  French: oups, houp!
+--- [used sarcastically to acknowledge a major mistake] (4/20 panel languages present)
+  Japanese: おっと (otto), あら (ara)
+  Turkish: tüh, ay
+  Russian: ой, упс
+  Spanish: oh oh
+--- [(unchecked)] (0/20 panel languages present)

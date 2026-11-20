@@ -187,7 +187,7 @@ type = "bullet"
 title = "Outside the sound system"
 gap = 0
 text = '''
-- **mm** "heard you", **huh?** "say again", and any other interjection or hesitation sound speakers use are outside the sound system and carry no grammar.'''
+- Interjections are outside the sound system and carry no grammar. Each is written in a shape no word can have (a bare vowel, a final y, no vowel at all), so none is taken for a word. The standard ones are the shapes most of the world's languages share: **o** "oh" (noticing, realising, surprise; stretched, **ooo**, for wonder), **a?** "huh?, say again", **ey** "hey" (getting attention), **ss** "shh" and **mm** "heard you". Where the world shares no shape, the exclamation particle and an ordinary word say it (7.1): **ka bebu** "yuck", **ka gagan** "oops", **ka sonli** "phew". Speakers may also use their own interjection and hesitation sounds.'''
 
 [[item]]
 id = "2.11"
@@ -242,7 +242,7 @@ text = '''
   | `.` | end of a sentence; between digits, the decimal point |
   | `" "` | around quoted speech |
 
-  `?` and `!` are allowed. In the reference variety the words already show what they would mark, so they carry no grammar of their own. `-` and `:` are not used in the language's own words.'''
+  `?` and `!` are allowed, and `…` marks a hesitation or a trailing off; unlike the comma, it carries no grammar (4.6). In the reference variety the words already show what they would mark, so they carry no grammar of their own. `-` and `:` are not used in the language's own words.'''
 
 [[item]]
 id = "3.4"
@@ -613,7 +613,9 @@ text = '''
 id = "4.6.10"
 type = "para"
 text = '''
-In casual writing, pauses that context makes obvious may be dropped.'''
+In casual writing, pauses that context makes obvious may be dropped.
+
+A hesitation is not a pause: a held sound, a filler or a break while the speaker looks for a word carries no grammar. A pause is a clean break, after which the pitch starts fresh (2.7).'''
 
 [[item]]
 id = "4.7"
@@ -1582,7 +1584,8 @@ type = "bullet"
 title = "Routines"
 gap = 0
 text = '''
-- Routines are fixed formulas. The greetings are **upe** and **upe leso** "good morning", the farewell is **upe isi** "go well", thanks is **lota** and sorry is **mosu**. With politeness, **wu** comes first: **wu upe leso**.'''
+- Routines are fixed formulas. The greetings are **upe** and **upe leso** "good morning", the farewell is **upe isi** "go well", thanks is **lota** and sorry is **mosu**. With politeness, **wu** comes first: **wu upe leso**.
+- To correct what you just said, start a new sentence with **wan yofu** "I mean" and the right words, with no pause between: **wan ben nagu fo mara.** **wan yofu fo tomas.** "I saw Mara. I mean Tomas." After a pause, a name would call someone instead (4.6).'''
 
 [[item]]
 id = "10.3"
