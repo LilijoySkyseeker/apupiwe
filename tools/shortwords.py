@@ -1,48 +1,57 @@
-"""Short-word dry run 04 (2026-11-18, tests/accent-01, option B): tests/shortwords-03's optimiser, starting from the
-applied layer (data/grammar.tsv), with SW_SOFT=1 adding accent mergers to the hard rule H4 for words sharing a position:
-b/w (b softened between vowels ~ w as [ʋ]), d/l (d softened ~ l as a tap), g/w before o u, g/y before i e (g as [dʒ]),
-k/s before i e (k as [tʃ] ~ s as [ʃ]). MODMOD and ENDEAR now exist in data/grammar.tsv, so they are read from there.
+"""The short-word optimiser: the one-syllable grammar words and digits 0-5 (data/grammar.tsv, data/numbers.tsv).
 
-Was: Short-word rebuild, rerun (tests/shortwords-03, 2026-10-15) of the dry run in tests/shortwords-02.
-Copied from shortwords-02/rebuild.py; changes for the rerun (README.md here):
-  - offensive filter tiered (design log 2026-10-15): offensive.blocked(form) is a hard rule (H5);
-    offensive.matches(form) is the small tie-break penalty ("C3 mode", 0.002 each). No "hard" mode.
-  - variants: confusion2.variants() now has 50 (src-av, src-lp). SW_VARIANTS=all|no-av|no-lp|half-a|half-b|default
-    picks a subset (drop test, hold-out check); SW_OVERRIDE="param=value,..." sets a parameter in every v2
-    variant (one-at-a-time sensitivity; value may be low/high/best from the parameter table).
-  - --lock OF,ALL keeps those words at today's forms (the name apu pi we).
-  - reopt: re-optimise from a given layer (sensitivity, drop test); score: robust score of layers.
-Proposes forms only: reads data/, writes nothing outside this folder.
+History: tests/shortwords-02 (dry run), tests/shortwords-03 (rerun, Decision 2), tests/shortwords-04 (accent mergers,
+haplology, pronoun vowels; the layer in use since 2026-11-19). Consolidated here on 2026-11-19 with today's rules
+always on (they were the env flags SW_SOFT, SW_HAPLO_EXTRA=6, SW_ROOT_COST, SW_PRON_VOWEL). Input tables:
+data/shortwords/ (substitution, operators-extra, modmod, endear, adjacency, corpus-counts, frames; made by
+tests/shortwords-03/positions.py) and data/bigrams.tsv (haplology counts, by gloss).
+Proposes forms only: reads data/, writes layer files and reports into --dir (default: a new temp dir).
 
-Words: every row of data/grammar.tsv, MODMOD (new), ENDEAR (new, added 2026-10-15), digits 0-5. Every form is one syllable (C)V(n).
+Words: every row of data/grammar.tsv (MODMOD and ENDEAR included) and digits 0-5. Every form is one syllable (C)V(n).
 
 Hard rules (a move that breaks one is never taken):
   H1  every word has a consonant onset (rule 3)
-  H2  digits are open syllables, CV (numbers3 in tools/build.py; reference 2.11 is stated for open syllables)
-  H3  no two short words share a form (rule 6; today's layer has no homophones either)
-  H4  two words that share a position (positions.py + the position table) never differ only by voicing,
-      f/p, glide vs no onset or a final -n (rule 2)
+  H2  digits are open syllables, CV (reference 2.11 is stated for open syllables)
+  H3  no two short words share a form (rule 6)
+  H4  two words that share a position (POSITIONS below + the GF substitution counts) never differ only by voicing,
+      f/p, glide vs no onset or a final -n (rule 2), nor by an accent merger (reference 2.12, tests/accent-01):
+      b/w, d/l, g/w before o u, g/y before i e, k/s before i e
   H5  no word takes a form on the offensive hard list (offensive.blocked; author 2026-10-15)
+  H6  a haplology word (>= 10 bigrams before a content word, data/bigrams.tsv) takes only today's haplology
+      syllables, or a syllable that starts at most HAPLO_EXTRA (6) roots, at ROOT_COST (0.005) per displaced root
+      (tests/shortwords-04)
+  H7  no two pronouns differ only by their vowel (author 2026-11-19)
 Costs:
-  robust score  CVaR 0.25 over confusion2.variants() (48: best, 32 LHS, 14 corners, v1) of each variant's
-                cost / that variant's median over random layers (notes §6); cost = word confusion
-                sum_a sum_b W_ab f_a P_v(a heard as b)  +  junction misparse risk of short-word bigrams
-                sum_(A,B) w_AB P_v((A,B) heard as (A',B')) over boundary events, confusion2 junction terms
-                W_ab = 1 if a and b share a position, else 0.1; x10 for pairs with NOT, x3 digit-digit
-                (stakes inherited from tools/build.py); w_AB from corpus bigram counts (adjacency.tsv)
-  penalties     offensive tie-break match (offensive.matches, not blocked; goal C3) ; shared pair differing by only one feature (rule 2b) ;
-                form equal to the first syllable of a two-syllable operator sharing its position (rule 6)
+  robust score  CVaR 0.25 over the model v2 variants of each variant's cost / that variant's median over random
+                layers; cost = word confusion sum_a sum_b W_ab f_a P_v(a heard as b) + junction misparse risk of
+                short-word bigrams (confusion2 junction terms). W_ab = pooled substitution share (>= 0.5 in a shared
+                slot of the position table), floor 0.1; x10 for pairs with NOT, x3 digit-digit; w_AB from corpus
+                bigram counts (adjacency.tsv)
+  penalties     offensive tie-break match (offensive.matches, not blocked; goal C3); shared pair differing by only
+                one feature (rule 2b); form equal to the first syllable of a two-syllable operator sharing its
+                position (rule 6); keep term (--keep X per word whose form changes)
 
-  python3 rebuild.py full      [--seed0 N] [--seeds N] [--steps N] [--keep X] [--start F] [--lock OF,ALL] --out F
-  python3 rebuild.py patch
-  python3 rebuild.py report name=file.tsv ...   # tables -> results.txt, forms.tsv
+Layer files: tab-separated gloss, class, freq, old, new ("today" = today's layer from data/).
+
+  python3 tools/shortwords.py check                         # today's layer: hard-rule violations (exit 1 if any)
+  python3 tools/shortwords.py score LAYER ...               # robust score, penalties, words changed
+  python3 tools/shortwords.py reopt [--layer today] [--free all|changed] [--keep X] [--lock OF,ALL] [--steps N]
+                                    [--T0 X] [--seed N] [--out F]   # re-optimise from a layer (tests/shortwords-04)
+  python3 tools/shortwords.py softpatch [--lock OF,ALL] [--sets N] [--steps N] [--out F]
+                                    # fewest words to re-form so no merger is left among words sharing a position
+  python3 tools/shortwords.py full [--seed0 N] [--seeds N] [--steps N] [--keep X] [--start F] [--lock ...] [--out F]
+  python3 tools/shortwords.py report name=LAYER ...         # tables -> results.txt, forms.tsv in --dir
+  python3 tools/shortwords.py positions                     # the position table -> positions.md in --dir
+  --dir DIR: where output files go (default: a new temp dir, printed). --variants all|48: the model variant set
+  (default all: the 50 variants with src-av and src-lp, as the shortwords-04 runs used; 48 = confusion2.variants()).
 """
-import collections, csv, itertools, math, os, random, re, sys
+import collections, csv, itertools, math, os, random, re, sys, tempfile
 import numpy as np
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.join(HERE, "..", "..")
-sys.path.insert(0, os.path.join(ROOT, "tools"))
+TOOLS = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.join(TOOLS, "..")
+INPUT = os.path.join(ROOT, "data", "shortwords")
+sys.path.insert(0, TOOLS)
 import confusion2 as M2
 import offensive
 
@@ -125,11 +134,11 @@ for _, _, ws, _ in POSITIONS:
 def load_substitution():
     """substitution.tsv (positions.py). Returns: shared (fits_full >= 1 in either direction), the pooled share
     (fits A->B + fits B->A) / (contexts A + contexts B), operators' shared words, raw counts."""
-    path = os.path.join(HERE, "substitution.tsv")
+    path = os.path.join(INPUT, "substitution.tsv")
     gf = np.zeros((N, N), bool)
     ops = collections.defaultdict(set)
     fits, ctx = collections.Counter(), collections.Counter()
-    extra = os.path.join(HERE, "operators-extra.tsv")   # positions.py operators: frames for operators the corpus lacks
+    extra = os.path.join(INPUT, "operators-extra.tsv")   # positions.py operators: frames for operators the corpus lacks
     rows = (read(path) if os.path.exists(path) else []) + (read(extra) if os.path.exists(extra) else [])
     if rows:
         for r in rows:
@@ -155,7 +164,7 @@ def load_substitution():
 
 def load_modmod(fname="modmod.tsv"):
     """modmod.tsv / endear.tsv (positions.py modmod / endear): how many of the hand frames each short word fits."""
-    path = os.path.join(HERE, fname)
+    path = os.path.join(INPUT, fname)
     if not os.path.exists(path):
         return {}, 1
     rows = read(path)
@@ -189,13 +198,13 @@ WF = W * FREQ[:, None]          # cost of a heard as b: W_ab f_a P(a->b)
 
 
 def load_adjacency():
-    path = os.path.join(HERE, "adjacency.tsv")
+    path = os.path.join(INPUT, "adjacency.tsv")
     if not os.path.exists(path):
         return []
     rows = [r for r in read(path) if r["glossA"] in GI and r["glossB"] in GI]
     total = sum(int(r["count"]) for r in rows)
     # scale: a bigram as common as the average short word weighs like that word's frequency
-    tok = read(os.path.join(HERE, "corpus-counts.tsv"))
+    tok = read(os.path.join(INPUT, "corpus-counts.tsv"))
     ntok = sum(int(r["tokens"]) for r in tok if r["gloss"] in GI)
     scale = FREQ.sum() / max(ntok, 1)
     return [(GI[r["glossA"]], GI[r["glossB"]], int(r["count"]) * scale) for r in rows]
@@ -208,21 +217,20 @@ ADJ_W = np.array([w for _, _, w in ADJ])
 
 # ------------------------------------------------------------------------------------------ syllable facts
 VOI = {"b": "p", "d": "t", "g": "k"}
-SOFT = os.environ.get("SW_SOFT") == "1"
 
 
 def _haplo():
-    """04 H6 (knock.py): grammar words standing right before a content word >= 10 times (tests/placement-03/bigrams.tsv,
-    the placement's haplology rule) may only take a syllable that no root starts with, or one of today's haplology
-    syllables (already banned for roots), so the placed roots stay legal."""
-    big = read(os.path.join(ROOT, "tests", "placement-03", "bigrams.tsv"))
+    """H6: grammar words standing right before a content word >= 10 times (data/bigrams.tsv, the placement's
+    haplology rule) may only take a syllable that no root starts with, or one of today's haplology syllables
+    (already banned for roots), so the placed roots stay legal."""
+    big = read(os.path.join(ROOT, "data", "bigrams.tsv"))
     glosses = {r["gloss"] for r in big if int(r["before_content"]) >= 10}
     lex = read(os.path.join(ROOT, "data", "lexicon.tsv"))
     firsts = set()
     for r in lex:
         if r["field"] != "loan":
             firsts.add(re.findall(r"[^aeiou]?[aeiou](?:n(?![aeiou]))?", r["form"])[0])
-    today = {r["form"] for r in big if r["gloss"] in glosses}
+    today = {OLD_FORM[g] for g in glosses if OLD_FORM.get(g)}   # forms follow data/grammar.tsv and numbers.tsv
     return glosses, firsts, today
 
 
@@ -242,18 +250,17 @@ def merger(s, t):
         return "f/p"
     if "" in (o1, o2) and {o1, o2} - {""} <= {"w", "j"}:
         return "glide vs none"
-    if SOFT:
-        pair = {o1, o2}
-        if pair == {"b", "w"}:
-            return "b/w softening"
-        if pair == {"d", "l"}:
-            return "d/l softening"
-        if pair == {"g", "w"} and v1 in "ou":
-            return "g/w softening"
-        if pair == {"g", "j"} and v1 in "ie":
-            return "g/y before i e"
-        if pair == {"k", "s"} and v1 in "ie":
-            return "k/s before i e"
+    pair = {o1, o2}             # accent mergers (reference 2.12, tests/accent-01; was SW_SOFT)
+    if pair == {"b", "w"}:
+        return "b/w softening"
+    if pair == {"d", "l"}:
+        return "d/l softening"
+    if pair == {"g", "w"} and v1 in "ou":
+        return "g/w softening"
+    if pair == {"g", "j"} and v1 in "ie":
+        return "g/y before i e"
+    if pair == {"k", "s"} and v1 in "ie":
+        return "k/s before i e"
     return None
 
 
@@ -261,13 +268,12 @@ MERGE = np.array([[merger(s, t) is not None for t in range(NS)] for s in range(N
 _HG, _FIRSTS, _HTODAY = _haplo()
 _ROOTS_AT = collections.Counter(re.findall(r"[^aeiou]?[aeiou](?:n(?![aeiou]))?", r["form"])[0]
                                for r in read(os.path.join(ROOT, "data", "lexicon.tsv")) if r["field"] != "loan")
-HAPLO_EXTRA = int(os.environ.get("SW_HAPLO_EXTRA", "0"))   # 04: also allow syllables that start <= this many roots
-ROOT_COST = float(os.environ.get("SW_ROOT_COST", "0.005"))  # 04: penalty per root a haplology word would displace
+HAPLO_EXTRA = 6       # 04 H6: also allow syllables that start <= this many roots (author's chosen run, 2026-11-19)
+ROOT_COST = 0.005     # 04 H6: penalty per root a haplology word would displace
 HAPLO_OK = np.array([(NAME[s] not in _FIRSTS) or (NAME[s] in _HTODAY) or (_ROOTS_AT[NAME[s]] <= HAPLO_EXTRA)
                      for s in range(NS)])
 DISPLACE = np.array([0 if (NAME[s] in _HTODAY or NAME[s] not in _FIRSTS) else _ROOTS_AT[NAME[s]] for s in range(NS)])
 HAPLO_W = np.array([w["gloss"] in _HG for w in WORDS])
-PRON_VOWEL = os.environ.get("SW_PRON_VOWEL") == "1"
 IS_PRON = np.array([w["gloss"] in PRON for w in WORDS])
 CF = {"p": ("-", "lab", "stop"), "b": ("+", "lab", "stop"), "t": ("-", "cor", "stop"), "d": ("+", "cor", "stop"),
       "k": ("-", "dor", "stop"), "g": ("+", "dor", "stop"), "f": ("-", "lab", "fric"), "s": ("-", "cor", "fric"),
@@ -298,40 +304,13 @@ S_O = np.array([OI[o] for o, _, _ in SYL]); S_V = np.array([VI[v] for _, v, _ in
 OP_FIRST = {o: IDX[re.findall(r"[^aeiou]?[aeiou](?:n(?![aeiou]))?", o)[0]] for o in OPERATORS}
 
 # ------------------------------------------------------------------------------------------ variants
-VARSET = os.environ.get("SW_VARIANTS", "all")
-OVERRIDE = os.environ.get("SW_OVERRIDE", "")
-
-
-def _ov_value(k, v):
-    d = M2.PARAMS.get(k) or M2.ADDED.get(k)
-    return float(d[v]) if v in ("low", "high", "best") else float(v)
-
-
-def pick_variants():
-    """The variant set for this run (env SW_VARIANTS, SW_OVERRIDE)."""
-    if VARSET == "default":   # added 2026-10-16: confusion2.variants() as it defaults now (48, av/lp off)
-        return M2.variants()
-    vs = M2.variants(av=VARSET != "no-av", lp=VARSET != "no-lp")
-    if VARSET in ("half-a", "half-b"):
-        # hold-out split (added): stratified, half of the Latin-hypercube draws and half of the rest, fixed seed
-        rng = random.Random(7)
-        lhs = [i for i, (n, _) in enumerate(vs) if n.startswith("lhs-")]
-        rest = [i for i in range(len(vs)) if i not in lhs]
-        rng.shuffle(lhs); rng.shuffle(rest)
-        a = set(lhs[:len(lhs) // 2] + rest[:len(rest) // 2])
-        vs = [v for i, v in enumerate(vs) if (i in a) == (VARSET == "half-a")]
-    if OVERRIDE:
-        ov = {}
-        for kv in OVERRIDE.split(","):
-            k, v = kv.split("=")
-            keys = ["glide_hiatus_front", "glide_hiatus_back"] if k == "glide_hiatus" else [k]
-            for kk in keys:
-                ov[kk] = _ov_value(kk, v)
-        vs = [(n, p if p.get("model") == "v1" else dict(p, **ov)) for n, p in vs]
-    return vs
-
-
-VARIANTS = pick_variants()
+VARSET = sys.argv[sys.argv.index("--variants") + 1] if "--variants" in sys.argv else "all"
+assert VARSET in ("all", "48"), "--variants all|48"
+# all: confusion2.variants(av=True, lp=True), 50 variants, what every short-word run since 2026-10-15 used;
+# 48: confusion2.variants() as it defaults (author, 2026-10-15, Decision 2: src-av and src-lp changed no form).
+# The October sensitivity sets (SW_VARIANTS=no-av|no-lp|half-a|half-b, SW_OVERRIDE) were dropped 2026-11-19
+# (the model is frozen: research/reviews/doghouse-2026-11.md); they are in git history (tests/shortwords-04/rebuild.py).
+VARIANTS = M2.variants() if VARSET == "48" else M2.variants(av=True, lp=True)
 VNAMES = [n for n, _ in VARIANTS]
 NV = len(VARIANTS)
 
@@ -418,9 +397,9 @@ def hard_ok(assign, i, s, fixed_other=None):
     """Can word i take syllable s, given the other words' syllables?"""
     if not HAS_ONSET[s] or BLOCKED[s] or (IS_DIGIT[i] and not OPEN[s]):
         return False
-    if SOFT and HAPLO_W[i] and not HAPLO_OK[s]:      # 04 H6: no root may start with a haplology word's syllable
+    if HAPLO_W[i] and not HAPLO_OK[s]:               # H6: no root may start with a haplology word's syllable
         return False
-    if PRON_VOWEL and IS_PRON[i]:                     # 04b H7 (author 2026-11-19): no two pronouns differ only by vowel
+    if IS_PRON[i]:                                    # H7 (author 2026-11-19): no two pronouns differ only by vowel
         o, v, c = SYL[s]
         for j in np.where(IS_PRON & (assign >= 0))[0]:
             if j != i:
@@ -436,7 +415,7 @@ def hard_ok(assign, i, s, fixed_other=None):
 
 def penalties(assign, off_w, one_w, op_w):
     off = OFFENSIVE[assign].sum()
-    disp = int(DISPLACE[assign[HAPLO_W]].sum()) if SOFT else 0   # 04: roots a haplology word's new form displaces
+    disp = int(DISPLACE[assign[HAPLO_W]].sum())     # H6: roots a haplology word's new form displaces
     iu = np.triu_indices(N, 1)
     one = (SHARED[iu] & ONE_FEATURE[assign[iu[0]], assign[iu[1]]]).sum()
     ops = sum(1 for o, ws in OP_SHARED.items() for g in ws if assign[GI[g]] == OP_FIRST[o])
@@ -445,11 +424,10 @@ def penalties(assign, off_w, one_w, op_w):
 
 def violations(assign):
     out = []
-    if PRON_VOWEL:
-        for a, b in itertools.combinations(np.where(IS_PRON)[0], 2):
-            (o1, v1, c1), (o2, v2, c2) = SYL[assign[a]], SYL[assign[b]]
-            if o1 == o2 and c1 == c2 and v1 != v2:
-                out.append((GL[a], GL[b], NAME[assign[a]], NAME[assign[b]], "pronouns differ only by vowel"))
+    for a, b in itertools.combinations(np.where(IS_PRON)[0], 2):
+        (o1, v1, c1), (o2, v2, c2) = SYL[assign[a]], SYL[assign[b]]
+        if o1 == o2 and c1 == c2 and v1 != v2:
+            out.append((GL[a], GL[b], NAME[assign[a]], NAME[assign[b]], "pronouns differ only by vowel"))
     for a, b in itertools.combinations(range(N), 2):
         if SHARED[a, b] and MERGE[assign[a], assign[b]]:
             out.append((GL[a], GL[b], NAME[assign[a]], NAME[assign[b]], merger(assign[a], assign[b])))
@@ -507,7 +485,7 @@ def anneal(start, free, steps, seed, pen, T0=0.02):
     for fixed words; free words are repaired first."""
     rng = random.Random(seed)
     a = start.copy()
-    if SOFT and any(not hard_ok(a, i, a[i]) for i in free):   # 04: keep legal words, backtrack the rest
+    if any(not hard_ok(a, i, a[i]) for i in free):   # 04: keep legal words, backtrack the rest
         a = legal_start(a, free, rng)
     if any(not hard_ok(a, i, a[i]) for i in free):   # build a legal start: place free words one by one
         for _ in range(200):
@@ -582,8 +560,21 @@ def old_assign():
     return a
 
 
+_OUT = []
+
+
+def outdir():
+    """--dir DIR, or a new temp dir (made once per run). Output never goes into tools/ or data/."""
+    if not _OUT:
+        d = sys.argv[sys.argv.index("--dir") + 1] if "--dir" in sys.argv else tempfile.mkdtemp(prefix="shortwords-")
+        os.makedirs(d, exist_ok=True)
+        _OUT.append(d)
+        print(f"output dir: {d}", flush=True)
+    return _OUT[0]
+
+
 def write_layer(name, a, note=""):
-    path = os.path.join(HERE, name)
+    path = os.path.join(outdir(), name)
     with open(path + ".tmp", "w") as fh:     # atomic (added after the host crash): a layer file that exists is complete
         fh.write(f"# {note}\n" if note else "")
         fh.write("gloss\tclass\tfreq\told\tnew\n")
@@ -593,7 +584,10 @@ def write_layer(name, a, note=""):
 
 
 def read_layer(name):
-    rows = [r for r in csv.DictReader((l for l in open(os.path.join(HERE, name)) if not l.startswith("#")), delimiter="\t")]
+    """A layer file (path), or "today": today's layer from data/grammar.tsv and data/numbers.tsv."""
+    if name == "today":
+        return OLD_SYL.copy()
+    rows = [r for r in csv.DictReader((l for l in open(name) if not l.startswith("#")), delimiter="\t")]
     return np.array([IDX[{r["gloss"]: r["new"] for r in rows}[g]] for g in GL])
 
 
@@ -624,7 +618,7 @@ def full(argv):
               f"violations {len(violations(a))}", flush=True)
         results.append((obj, seed, a))
     obj, seed, a = min(results, key=lambda r: r[0])
-    write_layer(out, a, f"full rebuild, C3 tie-break, keep={KEEP[0]}, lock={','.join(GL[i] for i in lock) or 'none'}, variants={VARSET}{' ' + OVERRIDE if OVERRIDE else ''}, "
+    write_layer(out, a, f"full rebuild, C3 tie-break, keep={KEEP[0]}, lock={','.join(GL[i] for i in lock) or 'none'}, variants={VARSET}, "
                         f"best of {seeds} seeds (seed {seed}), {steps} steps, start {arg(argv, '--start', 'random')}, objective {obj:.4f}")
     print(f"wrote {out}")
 
@@ -634,7 +628,7 @@ def reopt(argv):
     --layer F  --free all|changed (changed: words whose form differs from today, plus MODMOD: the patch's own
     change set)  --keep X  --lock OF,ALL  --steps N  --T0 X  --seed N  [--out F]. Prints the forms that moved."""
     KEEP[0] = float(arg(argv, "--keep", 0.0))
-    a0 = read_layer(arg(argv, "--layer", ""))
+    a0 = read_layer(arg(argv, "--layer", "today"))
     lock = lock_set(argv)
     if arg(argv, "--free", "all") == "changed":
         free = [i for i in range(N) if (a0[i] != OLD_SYL[i] or OLD_SYL[i] < 0) and i not in lock]
@@ -643,10 +637,10 @@ def reopt(argv):
     steps, T0, seed = int(arg(argv, "--steps", 100000)), float(arg(argv, "--T0", 0.002)), int(arg(argv, "--seed", 1))
     o0 = objective_of(a0)
     a, obj = anneal(a0, free, steps, seed, PEN, T0=T0)
-    if objective_of(a) > o0 and not violations(a0):   # never report a worse layer than a legal start (04: today's layer breaks SW_SOFT)
+    if objective_of(a) > o0 and not violations(a0):   # never report a worse layer than a legal start
         a, obj = a0.copy(), o0
     moved = [f"{GL[i]} {NAME[a0[i]]}->{NAME[a[i]]}" for i in range(N) if a[i] != a0[i]]
-    tag = f"{os.path.basename(arg(argv, '--layer', ''))} variants={VARSET} override={OVERRIDE or 'none'}"
+    tag = f"{os.path.basename(arg(argv, '--layer', 'today'))} variants={VARSET}"
     print(f"REOPT {tag} | moved {len(moved)} | objective {o0:.4f} -> {obj:.4f} | robust {cvar(sum(totals(a0))):.4f} -> "
           f"{cvar(sum(totals(a))):.4f} | {'; '.join(moved)}", flush=True)
     if "--out" in argv:
@@ -657,7 +651,7 @@ def score(argv):
     """Robust score (and objective parts) of layer files under the current variant set."""
     for f in argv:
         a = read_layer(f)
-        print(f"SCORE {f} variants={VARSET} override={OVERRIDE or 'none'} robust {cvar(sum(totals(a))):.4f} "
+        print(f"SCORE {f} variants={VARSET} robust {cvar(sum(totals(a))):.4f} "
               f"penalties {penalties(a, *PEN)[1]} changed {int(((a != OLD_SYL) & (OLD_SYL >= 0)).sum())}", flush=True)
 
 
@@ -686,49 +680,8 @@ def min_covers(edges, forced, keep=frozenset(), limit=200000):
     return sorted(set(out), key=lambda c: sum(FREQ[list(c)]))
 
 
-def patch(argv):
-    rule3 = "--no-rule3" not in argv
-    steps = int(arg(argv, "--steps", 6000))
-    pen = PEN
-    out = arg(argv, "--out", "patch.tsv" if rule3 else "patch-no-rule3.tsv")
-    a0 = np.array([IDX[w["old"]] if w["old"] else -1 for w in WORDS])
-    a0[GI["MODMOD"]] = IDX["fan"]          # placeholders, re-formed below
-    a0[GI["ENDEAR"]] = IDX["fen"]
-    forced = {GI["MODMOD"], GI["ENDEAR"], GI["YOUKNOW"]} | {i for i in range(N) if a0[i] >= 0 and BLOCKED[a0[i]]}
-    if rule3:
-        forced |= {i for i in range(N) if WORDS[i]["old"] and not HAS_ONSET[IDX[WORDS[i]["old"]]]}
-    edges = [(i, j) for i, j in merger_edges(a0) if GI["MODMOD"] not in (i, j) and GI["ENDEAR"] not in (i, j)]
-    keep = frozenset(GI[g] for g in arg(argv, "--keep-words", "").split(",") if g)
-    covers = min_covers(edges, forced, keep)
-    print(f"{len(edges)} merger pairs; minimum change set {len(covers[0])} words; {len(covers)} such sets", flush=True)
-    results = []
-    for k, cov in enumerate(covers[:40]):
-        free = sorted(cov)
-        a = a0.copy(); a[free] = -1
-        rng = random.Random(k)
-        for _ in range(200):     # added: up to 200 random greedy starts (the dry run tried one and skipped some sets)
-            a[free] = -1
-            for i in sorted(free, key=lambda i: (-SHARED[i].sum(), rng.random())):
-                opts = [s for s in range(NS) if s not in a and hard_ok(a, i, s)]
-                if not opts:
-                    break
-                a[i] = rng.choice(opts)
-            if (a >= 0).all():
-                break
-        if (a < 0).any():
-            print(f"  set {k}: no legal start found, skipped"); continue
-        best_a, obj = anneal(a, free, steps, k, pen)
-        bad = merger_edges(best_a)
-        results.append((obj, k, best_a, cov))
-        print(f"  set {k}: {' '.join(GL[i] for i in sorted(cov))}  objective {obj:.4f}  mergers left {len(bad)}", flush=True)
-    obj, k, a, cov = min(results, key=lambda r: r[0])
-    write_layer(out, a, f"minimal patch ({'with' if rule3 else 'without'} rule 3): {len(cov)} words change; "
-                        f"best of {len(results)} minimum change sets; objective {obj:.4f}")
-    print(f"wrote {out}")
-
-
 def softpatch(argv):
-    """04: the fewest words to re-form so no accent merger (SW_SOFT) is left among words sharing a position.
+    """04: the fewest words to re-form so no merger (H4, accent mergers included) is left among words sharing a position.
     Every minimum vertex cover of the violation graph (name words locked), each re-formed by annealing over its
     words only; best by objective."""
     steps = int(arg(argv, "--steps", 20000))
@@ -736,6 +689,8 @@ def softpatch(argv):
     a0 = OLD_SYL.copy()
     lock = frozenset(lock_set(argv))
     edges = merger_edges(a0)
+    if not edges:
+        print("0 merger pairs: nothing to patch"); return
     covers = min_covers(edges, set(), lock)
     print(f"{len(edges)} merger pairs; minimum change set {len(covers[0])} words; {len(covers)} such sets", flush=True)
     results = []
@@ -804,11 +759,13 @@ def digit_clash(a):
 def report(argv):
     layers = {"old": old_assign()}
     for spec in argv:                       # name=file.tsv
+        if "=" not in spec:
+            continue                        # --dir DIR, --variants X
         name, f = spec.split("=")
         layers[name] = read_layer(f)
     out = []
     P = out.append
-    P("SHORT-WORD REBUILD, RERUN (tests/shortwords-03). Generated by rebuild.py report.\n")
+    P("SHORT-WORD LAYERS. Generated by tools/shortwords.py report.\n")
     P("SUMMARY: layer, changed, robust, mergers, C3 tie-break matches, blocked, one-feature pairs, operator clashes, name, "
       "desk-16 fixed, robust-13 fixed, shared pairs >= 10% in some v2 variant, digit/content clashes")
     for name, a in layers.items():
@@ -897,8 +854,8 @@ def report(argv):
     for v in violations(layers["old"]):
         P(f"  {v}")
     P("  operators to rename today: " + ("; ".join(ops_to_rename(layers["old"])) or "none"))
-    open(os.path.join(HERE, "results.txt"), "w").write("\n".join(out) + "\n")
-    with open(os.path.join(HERE, "forms.tsv"), "w") as fh:
+    open(os.path.join(outdir(), "results.txt"), "w").write("\n".join(out) + "\n")
+    with open(os.path.join(outdir(), "forms.tsv"), "w") as fh:
         fh.write("gloss\tclass\tfreq\t" + "\t".join(names) + "\n")
         for i in range(N):
             fh.write(f"{GL[i]}\t{WORDS[i]['cls']}\t{FREQ[i]:g}\t" + "\t".join(NAME[layers[n][i]] for n in names) + "\n")
@@ -909,7 +866,7 @@ def positions_md(argv):
     """positions.md: the named position table, the measured substitution relation and the adjacency counts."""
     fits, ctx = SUBCOUNT
     f = lambda g: f"{g} **{OLD_FORM[g]}**" if OLD_FORM.get(g) else g
-    out = ["# Position table (generated by `rebuild.py positions`)", "",
+    out = ["# Position table (generated by `tools/shortwords.py positions`)", "",
            "## 1. Named positions (reference + formal grammar)", "",
            "Words in the same row share a position. A word can stand in several rows. Operators are listed for the operator rule only.", "",
            "| position | source (reference rule; GF category) | short words | two-syllable operators |", "|---|---|---|---|"]
@@ -917,7 +874,7 @@ def positions_md(argv):
         out.append(f"| {name} | {src} | {', '.join(f(w) for w in ws)} | {', '.join(ops)} |")
     iu = np.triu_indices(N, 1)
     out += ["", "## 2. Measured: who can replace whom (GF substitution, `positions.py`)", "",
-            f"In {sum(1 for _ in open(os.path.join(HERE, 'frames.txt'))) - 1} parsed frames (reference examples and UDHR sentences), each short word was replaced by every other "
+            f"In {sum(1 for _ in open(os.path.join(INPUT, 'frames.txt'))) - 1} parsed frames (reference examples and UDHR sentences), each short word was replaced by every other "
             "short word and re-parsed. A pair shares a position if either replaces the other in at least one frame with a full-sentence "
             f"reading. Result: {GF_SHARED[iu].sum()} of {N * (N - 1) // 2} pairs (MODMOD, ENDEAR: hand frames in `modmod.tsv`, `endear.tsv`). Together with "
             f"section 1: {SHARED[iu].sum()} pairs. The hard rule (no merger) applies to all of them; the confusion cost weighs each "
@@ -933,31 +890,39 @@ def positions_md(argv):
     out += ["", "## 3. Next to each other (corpus bigrams, no pause between)", "",
             f"Short word + short word, counts in the reference examples and the UDHR translation (`adjacency.tsv`, all {len(ADJ)} pairs). Top 40:", ""]
     out.append(", ".join(f"{f(GL[a])} {f(GL[b])} {int(round(w / ADJ_W.min()))}" for a, b, w in sorted(ADJ, key=lambda x: -x[2])[:40]))
-    open(os.path.join(HERE, "positions.md"), "w").write("\n".join(out) + "\n")
-    print("wrote positions.md")
+    open(os.path.join(outdir(), "positions.md"), "w").write("\n".join(out) + "\n")
+    print(f"wrote {os.path.join(outdir(), 'positions.md')}")
 
 
 def arg(argv, name, default):
     return argv[argv.index(name) + 1] if name in argv else default
 
 
+def check(argv):
+    """Today's layer (data/grammar.tsv + digits 0-5) under the hard rules."""
+    v = violations(OLD_SYL)
+    for x in v:
+        print("short words:", *x)
+    print(f"short words: {len(v)} violations of the hard rules in today's layer ({N} words)")
+    return 1 if v else 0
+
+
 if __name__ == "__main__":
-    cmd = sys.argv[1]
-    if cmd == "full":
-        full(sys.argv[2:])
+    cmd = sys.argv[1] if len(sys.argv) > 1 else "check"
+    args = sys.argv[2:]
+    if cmd == "check":
+        sys.exit(check(args))
+    elif cmd == "full":
+        full(args)
     elif cmd == "positions":
-        positions_md(sys.argv[2:])
+        positions_md(args)
     elif cmd == "report":
-        report(sys.argv[2:])
-    elif cmd == "patch":
-        patch(sys.argv[2:])
+        report(args)
     elif cmd == "softpatch":
-        softpatch(sys.argv[2:])
+        softpatch(args)
     elif cmd == "reopt":
-        reopt(sys.argv[2:])
+        reopt(args)
     elif cmd == "score":
-        score(sys.argv[2:])
-    elif cmd == "score-old":
-        a = old_assign()
-        print("old layer, MODMOD ->", NAME[a[GI["MODMOD"]]], "ENDEAR ->", NAME[a[GI["ENDEAR"]]], "robust", cvar(sum(totals(a))), penalties(a, *PEN)[1])
-        print("\n".join(map(str, violations(a))))
+        score([a for a in args if not a.startswith("--") and a not in (arg(args, "--dir", None), arg(args, "--variants", None))])
+    else:
+        sys.exit(__doc__)

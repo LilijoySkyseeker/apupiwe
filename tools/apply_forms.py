@@ -1,130 +1,91 @@
-"""Apply map.tsv here (the re-formed short words and the 18 re-placed roots, design log 2026-11-19) to the repo.
-Copy of tests/placement-03/apply.py, plus `literals` (only inside "..." in code files) and `cols N` (first N tsv columns).
+"""Apply a map of word forms (old -> new) to the data and the texts. The one apply tool (consolidated 2026-11-19 from
+tests/placement-08/apply/apply.py; the earlier copies are in git history).
 
-  python3 apply.py data            # data/lexicon.tsv, numbers.tsv, compounds.tsv, roles.tsv, antonyms.tsv; writes map.tsv
-                                   # (old form -> new form) and roles-todo.tsv (new roots with no roles row yet)
-  python3 apply.py text FILE ...   # replace old forms by new ones, token by token, in Apupiwe text only (see below)
-  python3 apply.py left FILE ...   # list old forms still present in Apupiwe spans (for review)
-  python3 apply.py tokens FILE ... # files that are wholly Apupiwe, or code: every lowercase whole-word old form
-                                   # (tests/udhr-01/translation.md, grammar/intended.tsv, grammar/*.gf literals and comments)
+MAP is a tab-separated file with the columns old, new (tools/place.py write makes one). Every command applies the
+map simultaneously, one pass per file, so chains and swaps (nun -> sen while yen -> nun) can't cascade: run each
+command once per file.
 
-Text rule (as tests/shortwords-03/APPLY.md): the map is applied simultaneously, one pass per text, so chains and swaps
-(nebe -> panwe while lenu -> nebi) can't cascade. In markdown, only **bold** spans are Apupiwe, and only when every
-token in the span is a known Apupiwe word (old or new forms, grammar words, digits; a name right after fo is allowed).
-In spec/reference.toml every string is checked the same way, plus the fields that are wholly Apupiwe (apu = "...").
+  python3 tools/apply_forms.py data MAP              # the form columns of data/lexicon.tsv, grammar.tsv, numbers.tsv,
+                                                     # loans.tsv, roles.tsv, and every word of compounds.tsv's forms
+  python3 tools/apply_forms.py text MAP FILE ...     # Apupiwe spans in markdown and spec/reference.toml (see below)
+  python3 tools/apply_forms.py tokens MAP FILE ...   # files that are wholly Apupiwe, or code: every lowercase whole-word
+                                                     # old form (tests/udhr-01/translation.md, grammar/intended.tsv,
+                                                     # grammar/*.gf literals and comments)
+  python3 tools/apply_forms.py literals MAP FILE ... # only inside "..." string literals (code files)
+  python3 tools/apply_forms.py cols MAP N FILE ...   # TSV files: only the first N columns
+  python3 tools/apply_forms.py left MAP FILE ...     # list old forms still present in Apupiwe spans (for review)
+Every command but `left` runs tools/check_all.py at the end and exits with its result (expect failures until every
+file is done).
+
+Text rule (as tests/shortwords-03/APPLY.md): in markdown, only **bold** spans are Apupiwe, and only when every token
+in the span is a known Apupiwe word (old or new forms, grammar words, digits; a name right after fo is allowed). In
+spec/reference.toml every string is checked the same way, plus the fields that are wholly Apupiwe (apu = "...").
+A name after fo (one whitespace-separated word, hyphens included, e.g. fo wi-fi) is never remapped (2026-11-19).
 """
-import csv, os, re, sys
+import csv, os, re, subprocess, sys
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.abspath(os.path.join(HERE, "..", "..", ".."))
+TOOLS = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.abspath(os.path.join(TOOLS, ".."))
 DATA = os.path.join(ROOT, "data")
 
 
 def read(path):
-    return list(csv.DictReader(open(path), delimiter="\t"))
+    with open(path) as fh:
+        return list(csv.DictReader(fh, delimiter="\t"))
 
 
-def write(path, rows, cols):
-    tmp = path + ".tmp"
-    with open(tmp, "w", newline="") as fh:
-        w = csv.DictWriter(fh, cols, delimiter="\t", lineterminator="\n")
-        w.writeheader()
-        for r in rows:
-            w.writerow({c: r.get(c, "") for c in cols})
-    os.replace(tmp, path)
+def write_text(path, old, new):
+    if new != old:
+        with open(path + ".tmp", "w") as fh:
+            fh.write(new)
+        os.replace(path + ".tmp", path)
 
 
-FORMS = []   # 04: the data step was done by hand
-MAP_PATH = os.path.join(HERE, "map.tsv")
+def run_check_all():
+    """tools/check_all.py; returns its exit code."""
+    print("\n== tools/check_all.py", flush=True)
+    return subprocess.run([sys.executable, os.path.join(TOOLS, "check_all.py")], cwd=ROOT).returncode
 
 
-def load_map():
-    return {r["old"]: r["new"] for r in read(MAP_PATH)}
+MAP_PATH = [None]
 
 
-def cmd_data():
-    lex = read(os.path.join(DATA, "lexicon.tsv"))
-    concepts = [r for r in FORMS if r["route"] != "operator (fixed)" and r["new form"]]
-    by_gloss = {r["concept"]: r for r in concepts}
-    by_old = {}
-    for r in concepts:
-        if r["old form"] and r["route"] == "root":
-            by_old.setdefault(r["old form"], r)
-    for r in concepts:
-        if r["old form"]:
-            by_old.setdefault(r["old form"], r)
-    ops = {r["old form"] for r in FORMS if r["route"] == "operator (fixed)"}
+def load_map(path=None):
+    rows = read(path or MAP_PATH[0])
+    M = {r["old"]: r["new"] for r in rows}
+    assert len(M) == len(rows), "map has an old form twice"
+    return M
 
-    out, used, fmap = [], set(), {}
-    for row in lex:
-        if row["form"] in ops:
-            out.append(dict(row)); continue
-        c = by_gloss.get(row["gloss"]) or by_old.get(row["form"])
-        if c is None or c["concept"] in used:
-            sys.exit(f"no concept for lexicon row {row}")
-        used.add(c["concept"])
-        out.append({"gloss": c["concept"], "field": c["field"], "tier": c["tier"], "form": c["new form"]})
-        if c["new form"] != row["form"]:
-            fmap[row["form"]] = c["new form"]
-    for c in concepts:
-        if c["concept"] not in used:
-            out.append({"gloss": c["concept"], "field": c["field"], "tier": c["tier"], "form": c["new form"]})
-    forms = [r["form"] for r in out]
-    assert len(forms) == len(set(forms)), [f for f in forms if forms.count(f) > 1]
-    write(os.path.join(DATA, "lexicon.tsv"), out, ["gloss", "field", "tier", "form"])
-    write(MAP_PATH, [{"old": k, "new": v} for k, v in sorted(fmap.items())], ["old", "new"])
-    print(f"lexicon: {len(lex)} -> {len(out)} rows; {len(fmap)} forms change (map.tsv)")
 
-    nums = read(os.path.join(DATA, "numbers.tsv"))
-    for r in nums:
-        r["form"] = fmap.get(r["form"], r["form"])
-    write(os.path.join(DATA, "numbers.tsv"), nums, ["value", "kind", "form"])
+# ------------------------------------------------------------------------------------------ data
+DATA_FORMS = {"lexicon.tsv": "form", "grammar.tsv": "form", "numbers.tsv": "form", "loans.tsv": "form",
+              "roles.tsv": "form", "compounds.tsv": "form"}
 
-    comp = read(os.path.join(DATA, "compounds.tsv"))
-    n = 0
-    for r in comp:
-        new = " ".join(fmap.get(t, t) for t in r["form"].split())
-        n += new != r["form"]
-        r["form"] = new
-    write(os.path.join(DATA, "compounds.tsv"), comp, ["gloss", "form", "literal"])
-    print(f"compounds: {n} of {len(comp)} changed")
 
-    roles = read(os.path.join(DATA, "roles.tsv"))
-    rcols = list(roles[0].keys())
-    for r in roles:
-        r["form"] = fmap.get(r["form"], r["form"])
-    have = {r["form"] for r in roles}
-    content = [r for r in out if r["form"] not in ops and r["field"] != "number"]
-    todo = [r for r in content if r["form"] not in have]
-    keep = {r["form"] for r in out}
-    roles = [r for r in roles if r["form"] in keep]
-    write(os.path.join(DATA, "roles.tsv"), sorted(roles, key=lambda r: r["form"]), rcols)
-    write(os.path.join(HERE, "roles-todo.tsv"), todo, ["form", "gloss", "field", "tier"])
-    print(f"roles: {len(roles)} rows kept (forms remapped); {len(todo)} new roots need a row (roles-todo.tsv)")
+def map_column(path, col, fn, append=()):
+    """Rewrite one column of a TSV in place, line by line (other columns, quoting and order untouched); `append`:
+    extra rows (dicts). Writes only if something changed; returns the number of rows changed."""
+    s = open(path).read()
+    lines = s.splitlines()
+    cols = lines[0].split("\t")
+    k, n = cols.index(col), 0
+    for i in range(1, len(lines)):
+        parts = lines[i].split("\t")
+        if len(parts) > k:
+            new = fn(parts[k])
+            n += new != parts[k]
+            parts[k] = new
+            lines[i] = "\t".join(parts)
+    lines += ["\t".join(str(r.get(c, "")) for c in cols) for r in append]
+    write_text(path, s, "\n".join(lines) + "\n")
+    return n
 
-    # antonyms: rename glosses, and add the concept list's antonym column (decided 2026-10-16: "the added antonym
-    # pairs are kept"), via placement-01's parser
-    sys.path.insert(0, HERE)
-    sys.argv = [sys.argv[0], "--no-vbonus"]
-    import place as P
-    ren = {}
-    for row in lex:
-        c = by_gloss.get(row["gloss"]) or by_old.get(row["form"])
-        if c and c["concept"] != row["gloss"]:
-            ren[row["gloss"]] = c["concept"]
-    lines = [l.rstrip("\n").split("\t") for l in open(os.path.join(DATA, "antonyms.tsv")) if l.strip()]
-    pairs = [tuple(ren.get(g, g) for g in p) for p in lines]
-    seen = {frozenset(p) for p in pairs}
-    glosses = {r["gloss"] for r in out}
-    added = 0
-    for a, b in P.ANT_PAIRS:
-        ga, gb = P.ITEMS[a]["gloss"], P.ITEMS[b]["gloss"]
-        if frozenset((ga, gb)) not in seen and ga in glosses and gb in glosses:
-            pairs.append((ga, gb)); seen.add(frozenset((ga, gb))); added += 1
-    with open(os.path.join(DATA, "antonyms.tsv"), "w") as fh:
-        for p in pairs:
-            fh.write("\t".join(p) + "\n")
-    print(f"antonyms: {len(lines)} -> {len(pairs)} pairs ({added} from the concept list); glosses renamed: {ren}")
+
+def apply_data(M, files=tuple(DATA_FORMS)):
+    """The map on the form columns of data files (compounds: every word of the phrase). Writes only changed files."""
+    for name in files:
+        n = map_column(os.path.join(DATA, name), DATA_FORMS[name], lambda f: " ".join(M.get(t, t) for t in f.split(" ")))
+        print(f"data/{name}: {n} rows changed")
 
 
 # ------------------------------------------------------------------------------------------ text
@@ -167,7 +128,9 @@ def remap_span(span, M, K):
             return M[t]
         if t.lower() in M and t[0].isupper():
             n = M[t.lower()]
-            return n[0].upper() + n[1:]
+            if n == t.lower():
+                return t                       # unchanged: keep its capitals (stress marks such as WIfu)
+            return n.upper() if t.isupper() and len(t) > 1 else n[0].upper() + n[1:]
         return t
     return re.sub(r"[A-Za-z]+", sub, span), True
 
@@ -196,9 +159,8 @@ def apply_text(path, M, K, dry=False):
                 hits.append((m.group(1), new))
             return "**" + new + "**"
         s2 = re.sub(r"\*\*([^*\n]+)\*\*", b, s)
-    if not dry and s2 != s:
-        open(path + ".tmp", "w").write(s2)
-        os.replace(path + ".tmp", path)
+    if not dry:
+        write_text(path, s, s2)
     return hits
 
 
@@ -224,9 +186,8 @@ def cmd_tokens(files):
     pat = re.compile(r"(?<![A-Za-z_])(" + "|".join(sorted(M, key=len, reverse=True)) + r")(?![A-Za-z_])")
     for f in files:
         s = open(f).read()
-        s2, n = pat.subn(lambda m: M[m.group(1)], s)
-        if n:
-            open(f + ".tmp", "w").write(s2); os.replace(f + ".tmp", f)
+        s2, n = pat.subn(lambda m: M[m.group(1)], s) if M else (s, 0)
+        write_text(f, s, s2)
         print(f"{f}: {n} tokens changed")
 
 
@@ -242,9 +203,8 @@ def cmd_literals(files):
         def lit(m):
             new, k = pat.subn(lambda x: M[x.group(1)], m.group(0)); n[0] += k
             return new
-        s2 = re.sub(r'"[^"\n]*"', lit, s)
-        if s2 != s:
-            open(f + ".tmp", "w").write(s2); os.replace(f + ".tmp", f)
+        s2 = re.sub(r'"[^"\n]*"', lit, s) if M else s
+        write_text(f, s, s2)
         print(f"{f}: {n[0]} tokens changed")
 
 
@@ -252,27 +212,35 @@ def cmd_cols(ncols, files):
     """TSV files: only the first ncols columns, every whole old form."""
     M = load_map(); pat = _pat(M)
     for f in files:
-        out, n = [], 0
-        for line in open(f):
+        out, n, s = [], 0, open(f).read()
+        for line in s.splitlines(keepends=True):
+            nl = line[len(line.rstrip("\n")):]
             parts = line.rstrip("\n").split("\t")
             for k in range(min(ncols, len(parts))):
-                parts[k], c = pat.subn(lambda x: M[x.group(1)], parts[k]); n += c
-            out.append("\t".join(parts) + "\n")
-        open(f + ".tmp", "w").write("".join(out)); os.replace(f + ".tmp", f)
+                if M:
+                    parts[k], c = pat.subn(lambda x: M[x.group(1)], parts[k]); n += c
+            out.append("\t".join(parts) + nl)
+        write_text(f, s, "".join(out))
         print(f"{f}: {n} tokens changed")
 
 
 if __name__ == "__main__":
-    cmd = sys.argv[1]
+    if len(sys.argv) < 3:
+        sys.exit(__doc__)
+    cmd, MAP_PATH[0] = sys.argv[1], sys.argv[2]
+    files = sys.argv[3:]
+    if cmd == "left":
+        cmd_left(files); sys.exit(0)
     if cmd == "data":
-        cmd_data()
+        apply_data(load_map())
     elif cmd == "text":
-        cmd_text(sys.argv[2:])
+        cmd_text(files)
     elif cmd == "literals":
-        cmd_literals(sys.argv[2:])
+        cmd_literals(files)
     elif cmd == "cols":
-        cmd_cols(int(sys.argv[2]), sys.argv[3:])
+        cmd_cols(int(files[0]), files[1:])
     elif cmd == "tokens":
-        cmd_tokens(sys.argv[2:])
-    elif cmd == "left":
-        cmd_left(sys.argv[2:])
+        cmd_tokens(files)
+    else:
+        sys.exit(__doc__)
+    sys.exit(run_check_all())

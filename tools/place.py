@@ -1,38 +1,32 @@
-"""Placement 11 (2026-11-19): place the new root "dusk" (symmetry with dawn, sets pass; author); same rules as 08.
+"""Place roots: give every concept in data/concept-list.tsv a form, keeping today's roots (data/lexicon.tsv) where
+the rules allow. The one placement tool (consolidated 2026-11-19 from tests/placement-11/place.py and report.py; the
+eleven earlier copies, placement-01 to -11, are in git history, and each test's README records what it changed).
 
-Was: Placement 08 (2026-11-19, design log "No word sounds like a shorter word plus a grammar word"): as 07, plus
-hard rule J: no word sounds like a shorter content word (same drift key) followed by a grammar word. Roots that break
-it are re-placed; where a loan (fixed) breaks it, the two-syllable word moves.
+  python3 tools/place.py start [--move FORMS]     # A: today's legal roots kept, the rest placed one at a time -> A.json
+  python3 tools/place.py descend SEED --keep X    # C: coordinate descent from A with keep term X -> C-kX-SEED.json
+  python3 tools/place.py report [STATE ...]       # report.txt and forms.tsv (default: A.json and every C-*.json)
+  python3 tools/place.py write STATE              # put STATE's forms into data/ (lexicon, numbers, compounds, roles),
+                                                  # write map.tsv (old -> new), then run tools/check_all.py
+  python3 tools/place.py medians                  # random-lexicon medians (made on demand by start, descend, report)
+  python3 tools/place.py info
+  --state DIR: where state, reports and maps go (default: a new temp dir, printed). Never tools/ or data/.
+  Every long step writes its state atomically (tmp file + rename) and resumes from it: rerun with the same --state.
 
-Was: Placement 07 (2026-11-19, a proposal): as 06, with the operator kiyu "end of phrase" re-placed (--move kiyo),
-to separate it from the loan kilo, the worst near pair. Was: Placement 06 (2026-11-19): as 05, plus the loan-vowel rule (tools/accent.py): no root may take the drift key of a
-loan with its added final vowel changed. Moves the six roots that broke it.
+A new concept needs a row in data/concept-list.tsv first (route "root"); `start` then keeps every root that is still
+legal and places the new one. `--move kiyo,ode` re-places the named forms (roots or operators). After `write`, apply
+map.tsv to the texts with tools/apply_forms.py.
 
-Was: Placement 05 (2026-11-19): place the seven new roots (planet, temperature, mass, useless, export, import, earthquake)
-and the loan okusiden, everything else kept; same rules as placement 04.
-
-Was: Placement 04 (2026-11-19, design log "Accent tolerance ..."): re-place only the roots the new short words and the
-accent rule make illegal. Start = today's lexicon (data/lexicon.tsv); `start` keeps every root that is still legal and
-places the rest one at a time. New hard rule: no two content words differ only by a declared accent merger
-(k/s before i e in any syllable; b/w, d/l, g/w before o u, g/y before i e in a later syllable after an open one).
-bigrams.tsv: placement-03's, with the grammar forms of 2026-11-19.
-
-Was: Placement 03: placement-02 with number words weighted x30 against each other only (design log 2026-11-18),
-run with --no-vbonus --keep 0.03. Placement 02 was the placement-01 rerun under the author's Placement 1 decision (design log 2026-11-18):
-three syllables only for tier 1, apu "language" locked, a keep term (--keep X: a root that moves off today's
-form pays X in J, so only moves that gain more than X happen). Everything else as placement-01:
-
-Joint placement of the final concept list (tests/conceptlist-01/concepts.tsv) on mishearing model v2.
-
-Task: PROMPT.md here; method and choices: README.md here ("added" marks my choices).
-Proposals only: reads data/ and tests/, writes only into this folder.
-
-  python3 place.py medians            # random-lexicon medians per variant (normalisation) -> state/medians.json
-  python3 place.py start              # A: today's valid roots kept, the rest added one at a time -> state/A.json
-  python3 place.py descend SEED --keep X   # C: coordinate descent from A with keep term X -> state/C-kX-SEED.json
-  python3 place.py report STATE       # numbers, forms.tsv, report.txt
-
-Every long step writes its state atomically (tmp file + rename) and resumes from it.
+Hard rules (a form that breaks one is never taken; `start` re-places a today's root that breaks one):
+  - unique drift key (tools/build.py content_key); a later syllable has an onset; no form on the offensive hard list
+  - no root starts with a digit's syllable (mu ni sa de wo ma) or a haplology syllable: a grammar word standing right
+    before a content word >= 10 times in the corpus (data/bigrams.tsv, by gloss; forms from data/grammar.tsv)
+  - juncture (tools/juncture.py check 3): X and nX not both content words where a grammar word Cn has an open twin C
+  - accent (reference 2.12): no two content words differ only by a declared accent merger (acc_neigh)
+  - loan vowel: no root takes the drift key of a loan with its added final vowel changed (tools/accent.py also
+    checks the vowel dropped)
+  - rule J: no word sounds like a shorter content word followed by a grammar word (tiwuye ~ tiwu ye)
+  - three syllables only for tier 1 (author 2026-11-18); apu "language" locked
+The senary reservation (forms kept free for data/senary.tsv) was removed 2026-11-19 (author, goal N6).
 
 Objective (rule 1, design log 2026-10-13/15): per model variant v (confusion2.variants(), 48),
   conf_v = sum_{i != j, same length} W_ij f_i P_v(i heard as j)
@@ -40,46 +34,57 @@ Objective (rule 1, design log 2026-10-13/15): per model variant v (confusion2.va
 the robust score R = mean over the worst quarter of variants (12 of 48) of conf_v / med_v, med_v = the
 variant's median conf over random lexicons (every root at a random valid two-syllable form; loans and
 operators at their forms). Placement minimises
-  J = med_best * R + EFFORT * sum_i f_i (length_i - 2)
-(added: med_best, the best-estimate variant's random median, puts R back into the units words.py's
-effort term was set in, so the length trade-off keeps its meaning).
-W: same field x3, antonym x30, any pair with a number word x10 (placement.py, words.py). f: TIER_FREQ.
+  J = med_best * R + EFFORT * sum_i f_i (length_i - 2) [+ KEEP for each root that leaves today's form]
+W: same field x3, antonym x30, number words x30 against each other. f: TIER_FREQ. No vowel-start bonus (author,
+2026-11-18; was --no-vbonus).
 """
-import csv, json, math, os, random, re, sys, time
+import contextlib, csv, glob, io, json, math, os, random, re, runpy, subprocess, sys, tempfile, time
 import numpy as np
 
-HERE = os.path.dirname(os.path.abspath(__file__))
-ROOT = os.path.join(HERE, "..", "..")
-sys.path.insert(0, os.path.join(ROOT, "tools"))
-import words as W
+TOOLS = os.path.dirname(os.path.abspath(__file__))
+ROOT = os.path.join(TOOLS, "..")
+sys.path.insert(0, TOOLS)
+import build as W
 import offensive
 import confusion2 as M2
 from build import TIER_FREQ, EFFORT
 
 INV, SYL, IDX = W.INV, W.SYL, W.IDX
-if "--no-vbonus" in sys.argv:
-    INV.length = lambda form: sum(1 + 0.4 * bool(INV.syl[s][2]) for s in form)
 NS = len(SYL)
-STATE = os.path.join(HERE, "state")
-os.makedirs(STATE, exist_ok=True)
 assert [o.replace("j", "y") + v + c for o, v, c in M2.SYLLABLES] == SYL  # same syllable indexing
 
-MOVE = set(sys.argv[sys.argv.index("--move") + 1].split(",")) if "--move" in sys.argv else set()
+
+def _arg(name, default=None):
+    return sys.argv[sys.argv.index(name) + 1] if name in sys.argv else default
+
+
+_STATE = []
+
+
+def state_dir():
+    if not _STATE:
+        d = _arg("--state") or tempfile.mkdtemp(prefix="place-")
+        os.makedirs(d, exist_ok=True)
+        for bad in (os.path.abspath(TOOLS), os.path.abspath(W.DATA)):
+            assert not os.path.abspath(d).startswith(bad), f"--state must not be inside {bad}"
+        _STATE.append(d)
+        print(f"state dir: {d}", flush=True)
+    return _STATE[0]
+
+
+MOVE = set(_arg("--move").split(",")) if "--move" in sys.argv else set()
 FIXED_OPS = set("genso wanme inwun wemen konsin buntu tason nedin mesun manni buni donon lanno anko nuwen kiyu mena".split())
-HAPLO_MIN = 10  # added: a grammar word bans its syllable as a root's first syllable if it stands right before a content word >= 10 times in the corpus (bigrams.tsv; ~1% of the 930 such bigrams)
-ALLOW3 = "--no3" not in sys.argv  # sensitivity run: two syllables only (added)
-SUFFIX = "-no3" if not ALLOW3 else ""
+HAPLO_MIN = 10  # a grammar word bans its syllable as a root's first syllable if it stands right before a content word >= 10 times in the corpus (data/bigrams.tsv; ~1% of the 930 such bigrams)
 MAX3_TIER = 1   # author 2026-11-18: three syllables only for tier 1
 LOCKED = {"language"}   # author 2026-11-18: apu, the language's name
-NOVB = "--no-vbonus" in sys.argv   # added (variant): no -0.1 length bonus for a vowel start, no oversampling of V.CV.CV
-KEEP = float(sys.argv[sys.argv.index("--keep") + 1]) if "--keep" in sys.argv else 0.0
-TIE = W.TIE     # C3 tie-break window, words.py (2%)
-K3 = 400        # added: three-syllable candidates evaluated per word, half drawn from vowel-initial open forms (the cheapest by
-                # the length term), half from all valid forms; the space is sparse, so the effort term decides most of the choice
+KEEP = float(_arg("--keep", 0.0))
+TIE = W.TIE     # C3 tie-break window (2%)
+K3 = 400        # three-syllable candidates evaluated per word, drawn from all valid forms; the space is sparse, so
+                # the effort term decides most of the choice
 
 
 def save(name, obj):
-    path = os.path.join(STATE, name)
+    path = os.path.join(state_dir(), name)
     tmp = path + ".tmp"
     with open(tmp, "w") as fh:
         json.dump(obj, fh)
@@ -87,7 +92,7 @@ def save(name, obj):
 
 
 def load_state(name):
-    path = os.path.join(STATE, name)
+    path = name if os.path.sep in name and os.path.exists(name) else os.path.join(state_dir(), name)
     return json.load(open(path)) if os.path.exists(path) else None
 
 
@@ -101,7 +106,7 @@ def show(t):
 
 # ------------------------------------------------------------------------------------------ items
 def parse_antonyms(cell, glosses):
-    """concepts.tsv antonym cells join glosses with '; ', and some glosses contain '; ' themselves."""
+    """concept-list antonym cells join glosses with '; ', and some glosses contain '; ' themselves."""
     parts, out, i = cell.split("; "), [], 0
     clean = lambda s: re.sub(r"\s*\((added|decided)\)$", "", s).strip()
     while i < len(parts):
@@ -114,12 +119,11 @@ def parse_antonyms(cell, glosses):
     return out
 
 
-CURRENT = {r["gloss"]: r["form"] for r in W.read("lexicon.tsv")}   # 04: today's forms are the start
+CURRENT = {r["gloss"]: r["form"] for r in W.read("lexicon.tsv")}   # today's forms are the start
 
 
 def _loan_vowel_keys():
-    """06: drift keys a root may not take: each loan with an added final vowel, said with another vowel."""
-    sys.path.insert(0, os.path.join(ROOT, "tools"))
+    """Drift keys a root may not take: each loan with an added final vowel, said with another vowel."""
     import accent as _acc
     out = set()
     for r in W.read("loans.tsv"):
@@ -154,7 +158,7 @@ def j_keys2(occ):
 
 
 def acc_neigh(t):
-    """04: forms that a declared accent variant brings together with form t (tuple of syllable indices)."""
+    """Forms that a declared accent variant brings together with form t (tuple of syllable indices)."""
     out = []
     for k, s in enumerate(t):
         o, v, c = M2.SYLLABLES[s]
@@ -176,10 +180,10 @@ def acc_neigh(t):
 
 
 def load_items():
-    rows = list(csv.DictReader(open(os.path.join(ROOT, "tests/conceptlist-01/concepts.tsv")), delimiter="\t"))
+    rows = list(csv.DictReader(open(os.path.join(W.DATA, "concept-list.tsv")), delimiter="\t"))
     items = []
     for r in rows:
-        if r["route"] == "loan candidate":   # added: no form until the loan panel decides (4 rows)
+        if r["route"] == "loan candidate":   # no form until the loan panel decides
             continue
         items.append({"gloss": r["concept"], "field": r["field"], "tier": int(r["tier"]), "route": r["route"],
                       "old": CURRENT.get(r["concept"], r["form"]), "fixed": r["route"] != "root" or r["concept"] in LOCKED, "ant": r["antonym"]})
@@ -225,10 +229,10 @@ OLD = {i: tup(ITEMS[i]["old"]) for i in MOVABLE if ITEMS[i]["old"]}
 
 # ------------------------------------------------------------------------------------------ rules
 GRAM = W.read("grammar.tsv")
+GFORM = {g["gloss"]: g["form"] for g in GRAM}
 DIGITS = W.digit_syllables()                        # mu ni sa de wo ma
-BIG = list(csv.DictReader(open(os.path.join(HERE, "bigrams.tsv")), delimiter="\t"))
-HAPLO = {IDX[r["form"]] for r in BIG if int(r["before_content"]) >= HAPLO_MIN and r["gloss"] in {g["gloss"] for g in GRAM}}
-RESERVED = {INV.content_key(tup(r["form"])) for r in W.read("senary.tsv")}
+BIG = W.read("bigrams.tsv")
+HAPLO = {IDX[GFORM[r["gloss"]]] for r in BIG if int(r["before_content"]) >= HAPLO_MIN and r["gloss"] in GFORM}
 HAS_ONSET = np.array([INV.syl[s][0] != "" for s in range(NS)])
 FIRST_OK = np.array([s not in DIGITS and s not in HAPLO for s in range(NS)])
 # juncture.py check 3: a grammar word Cn whose open form C is also a grammar word makes "Cn X" ~ "C nX" for a
@@ -253,32 +257,23 @@ for a in range(NS):
     for b in range(NS):
         fm = SYL[a] + SYL[b]
         OFF2[a, b] = offensive.matches(fm)
-        VALID2[a, b] = FIRST_OK[a] and HAS_ONSET[b] and not offensive.blocked(fm) and INV.content_key((a, b)) not in RESERVED
+        VALID2[a, b] = FIRST_OK[a] and HAS_ONSET[b] and not offensive.blocked(fm)
 
 
 def valid3(t):
-    fm = show(t)
-    return (FIRST_OK[t[0]] and HAS_ONSET[t[1]] and HAS_ONSET[t[2]] and not offensive.blocked(fm)
-            and INV.content_key(t) not in RESERVED)
+    return FIRST_OK[t[0]] and HAS_ONSET[t[1]] and HAS_ONSET[t[2]] and not offensive.blocked(show(t))
 
 
 def pool3(seed=5, n=600000):
-    """Valid three-syllable forms (a random sample of the ~2.3M), as arrays: forms, key ids, length - 2,
-    offensive match, juncture-relevant first syllable (onsetless or n-onset), vowel-initial-open flag."""
+    """Valid three-syllable forms (a random sample of the ~2.3M), as arrays: forms, key ids, length - 2."""
     rng = np.random.default_rng(seed)
     a = rng.integers(0, NS, n); b = rng.integers(0, NS, n); c = rng.integers(0, NS, n)
-    vo = [s for s in range(NS) if INV.syl[s][0] == "" and INV.syl[s][2] == ""]
-    if not NOVB:
-        a[: n // 4] = rng.choice(vo, n // 4)                 # oversample V.CV.CV (cheapest lengths)
     ok = FIRST_OK[a] & HAS_ONSET[b] & HAS_ONSET[c]
     out = [t for t in dict.fromkeys(zip(a[ok].tolist(), b[ok].tolist(), c[ok].tolist())) if valid3(t)]
     F = np.array(out)
     K = np.array([kid(INV.content_key(t)) for t in out])
     L = np.array([INV.length(t) - 2.0 for t in out])
-    OFF = np.array([offensive.matches(show(t)) for t in out])
-    JR = np.array([(t[0] in O_OF) or (t[0] in N_OF) for t in out])
-    VOP = np.array([t[0] in vo for t in out])
-    return F, K, L, OFF, JR, VOP
+    return F, K, L
 
 
 # ------------------------------------------------------------------------------------------ model
@@ -356,17 +351,17 @@ def _med_worker(args):
     rng = np.random.default_rng(seed)
     if which == "after":
         base = [tup(it["old"]) if it["fixed"] else None for it in ITEMS]
-        taken = {kid(INV.content_key(f)) for f in base if f is not None} | {kid(k) for k in RESERVED}
+        taken = {kid(INV.content_key(f)) for f in base if f is not None}
         return conf_total(random_forms(rng, base, MOVABLE, taken)).tolist()
     T = TODAY
     base = [tup(it["form"]) if it["fixed"] else None for it in T["items"]]
-    taken = {kid(INV.content_key(f)) for f in base if f is not None} | {kid(k) for k in RESERVED}
+    taken = {kid(INV.content_key(f)) for f in base if f is not None}
     forms = random_forms(rng, base, [i for i, it in enumerate(T["items"]) if not it["fixed"]], taken)
     return conf_total(forms, Wm=T["W"], freq=T["freq"]).tolist()
 
 
 def today():
-    """Today's lexicon (data/lexicon.tsv, all 519 content words) with the same weights."""
+    """Today's lexicon (data/lexicon.tsv, every content word) with the same weights."""
     lex = W.read("lexicon.tsv")
     items = [{"gloss": r["gloss"], "field": r["field"], "tier": int(r["tier"]), "form": r["form"],
               "fixed": r["field"] == "loan" or r["form"] in FIXED_OPS or len(W.split(r["form"])) != 2, "ant": ""} for r in lex]
@@ -378,30 +373,32 @@ def today():
 
 
 TODAY = today()
-NDRAW = 200  # added: random lexicons per median (shortwords-03 used 400 one-syllable layers; these are ~9x bigger and slower)
+NDRAW = 200  # random lexicons per median
 
 
-def cmd_medians():
+def cmd_medians(which=("after", "today")):
     st = load_state("medians.json") or {}
     from multiprocessing import Pool
-    for which in ("after", "today"):
-        done = st.get(which + "_draws", [])
-        todo = [(1000 * (which == "today") + s, which) for s in range(len(done), NDRAW)]
-        with Pool(16) as pool:
+    for w in which:
+        if w in st:
+            continue
+        done = st.get(w + "_draws", [])
+        todo = [(1000 * (w == "today") + s, w) for s in range(len(done), NDRAW)]
+        with Pool(min(16, os.cpu_count() or 1)) as pool:
             for k in range(0, len(todo), 32):
                 done += pool.map(_med_worker, todo[k:k + 32])
-                st[which + "_draws"] = done
+                st[w + "_draws"] = done
                 save("medians.json", st)
-                print(f"medians {which}: {len(done)}/{NDRAW}", flush=True)
-        st[which] = np.median(np.array(done), 0).tolist()
+                print(f"medians {w}: {len(done)}/{NDRAW}", flush=True)
+        st[w] = np.median(np.array(done), 0).tolist()
         save("medians.json", st)
-
-
-MED = None
 
 
 def medians(which="after"):
     st = load_state("medians.json")
+    if not st or which not in st:
+        cmd_medians((which,))
+        st = load_state("medians.json")
     return np.array(st[which])
 
 
@@ -415,15 +412,12 @@ class Placer:
         self.X1 = np.zeros((NV, NS, 2 * N), np.float32)
         self.owner = {}                           # key id -> item
         self.occ = set()                          # exact forms
-        for k in RESERVED:
-            self.owner[kid(k)] = -1
         for i, f in enumerate(self.forms):
             if f is not None:
                 self._put(i, f)
         self.T = conf_total(self.forms)
         self.eff = sum(EFFORT * FREQ[i] * (INV.length(f) - 2.0) for i, f in enumerate(self.forms) if f is not None)
         self.pool3 = pool3()
-        self.vo_ix = np.where(self.pool3[5])[0]
         self.rng = np.random.default_rng(11)
 
     def _cols(self, i, f):
@@ -476,17 +470,17 @@ class Placer:
             if o != i:
                 taken[k] = True
         ok = VALID2 & ~taken[KEY2]
-        for a in range(NS):         # 06: loan-vowel rule
+        for a in range(NS):         # loan-vowel rule
             for b in range(NS):
                 if ok[a, b] and INV.content_key((a, b)) in LOANV:
                     ok[a, b] = False
-        bad2 = j_keys2(self.occ)    # 08: rule J
+        bad2 = j_keys2(self.occ)    # rule J
         if bad2:
             for a in range(NS):
                 for b in range(NS):
                     if ok[a, b] and INV.content_key((a, b)) in bad2:
                         ok[a, b] = False
-        for f in self.occ:          # 04: accent rule
+        for f in self.occ:          # accent rule
             for g in acc_neigh(f):
                 if len(g) == 2:
                     ok[g] = False
@@ -503,11 +497,11 @@ class Placer:
     def ok3(self, i, t):
         if not valid3(t) or self.owner.get(kid(INV.content_key(t)), i) != i:
             return False
-        if any(g in self.occ for g in acc_neigh(t)):    # 04: accent rule
+        if any(g in self.occ for g in acc_neigh(t)):    # accent rule
             return False
-        if INV.content_key(t) in LOANV:                 # 06: loan-vowel rule
+        if INV.content_key(t) in LOANV:                 # loan-vowel rule
             return False
-        if j_bad3(t, self.occ):                         # 08: rule J
+        if j_bad3(t, self.occ):                         # rule J
             return False
         if JPAIR:
             a = t[0]
@@ -519,7 +513,7 @@ class Placer:
 
     def best(self, i, allow3=None):
         """Best form for movable word i given the others: (form, marginal J). Word i must be removed."""
-        allow3 = (ALLOW3 and ITEMS[i]["tier"] <= MAX3_TIER) if allow3 is None else allow3
+        allow3 = ITEMS[i]["tier"] <= MAX3_TIER if allow3 is None else allow3
         base = self.T.copy()
         effb = self.eff
         g = self.grid2(i).astype(np.float64)                          # (V,140,140)
@@ -541,16 +535,14 @@ class Placer:
             cands.append((float(marg2[a, b]), (a, b)))
         best2 = cands[0][0]
         if allow3 and best2 > EFFORT * FREQ[i] * 0.9:   # a 3-syllable form costs at least this much effort
-            F3, K3k, L3, OFF3, JR3, VOP3 = self.pool3
-            vo_ix, all_ix = self.vo_ix, len(F3)
-            pick = (self.rng.choice(all_ix, K3, replace=False) if NOVB else
-                    np.concatenate([self.rng.choice(vo_ix, K3 // 2, replace=False), self.rng.choice(all_ix, K3 // 2, replace=False)]))
+            F3, K3k, L3 = self.pool3
+            pick = self.rng.choice(len(F3), K3, replace=False)
             taken = np.zeros(len(KEYS) + 1, bool)
             for k, o in self.owner.items():
                 if o != i:
                     taken[k] = True
             pick = pick[~taken[K3k[pick]]]
-            pick = np.array([p for p in pick if self.ok3(i, tuple(F3[p]))], int)   # 08: every candidate gets every rule (was: only juncture-relevant ones)
+            pick = np.array([p for p in pick if self.ok3(i, tuple(F3[p]))], int)   # every candidate gets every rule
             forms3 = [tuple(int(x) for x in F3[p]) for p in pick]
             lens3 = L3[pick]
             cur = self.forms_prev.get(i) if hasattr(self, "forms_prev") else None
@@ -601,18 +593,18 @@ class Placer:
 
 
 def ok_today(f, owner, occ):
-    """Can today's form stay under the new rules? (first syllable, onset, offensive, reserved, key free)"""
+    """Can today's form stay under the rules? (first syllable, onset, offensive, key free, accent, loan vowel, J)"""
     if len(f) == 2 and not VALID2[f]:
         return False
     if len(f) == 3 and not valid3(f):
         return False
     if kid(INV.content_key(f)) in owner:
         return False
-    if any(g in occ for g in acc_neigh(f)):     # 04: accent rule
+    if any(g in occ for g in acc_neigh(f)):     # accent rule
         return False
-    if INV.content_key(f) in LOANV:             # 06: loan-vowel rule
+    if INV.content_key(f) in LOANV:             # loan-vowel rule
         return False
-    if j_bad3(f, occ) or (len(f) == 2 and INV.content_key(f) in j_keys2(occ)):   # 08: rule J
+    if j_bad3(f, occ) or (len(f) == 2 and INV.content_key(f) in j_keys2(occ)):   # rule J
         return False
     if JPAIR:
         a = f[0]
@@ -622,19 +614,18 @@ def ok_today(f, owner, occ):
 
 
 def cmd_start():
-    SUF = SUFFIX + ("-nv" if NOVB else "")
-    st = load_state(f"A{SUF}.json")
+    st = load_state("A.json")
     if st and st.get("done"):
         print("A done"); return
     forms = [tup(it["old"]) if it["fixed"] else None for it in ITEMS]
-    owner = {kid(k): -1 for k in RESERVED}
+    owner = {}
     occ = set()
     for i, f in enumerate(forms):
         if f is not None:
             assert kid(INV.content_key(f)) not in owner, ITEMS[i]["gloss"]
             owner[kid(INV.content_key(f))] = i; occ.add(f)
     kept, todo = [], []
-    # 08: two-syllable roots first, so rule J moves the (rarer) three-syllable root, not the word inside it
+    # two-syllable roots first, so rule J moves the (rarer) three-syllable root, not the word inside it
     for i in sorted(MOVABLE, key=lambda i: len(tup(ITEMS[i]["old"])) if ITEMS[i]["old"] else 9):
         it = ITEMS[i]
         if it["old"] and it["old"] not in MOVE:
@@ -642,7 +633,11 @@ def cmd_start():
             if ok_today(f, owner, occ):
                 forms[i] = f; owner[kid(INV.content_key(f))] = i; occ.add(f); kept.append(i); continue
         todo.append(i)
-    print(f"today's roots kept as they are: {len(kept)}; to place: {len(todo)}", flush=True)
+    print(f"today's roots kept as they are: {len(kept)}; to place: {len(todo)}"
+          + (": " + ", ".join(ITEMS[i]["gloss"] for i in todo[:40]) if todo else ""), flush=True)
+    if not todo:
+        save("A.json", {"forms": forms, "todo": [], "done": True})
+        print("A done: nothing to place"); return
     if st:
         forms = [tuple(f) if f else None for f in st["forms"]]
         todo = st["todo"]
@@ -654,15 +649,14 @@ def cmd_start():
         P.place(i, f, g)
         todo = todo[1:]
         if len(todo) % 50 == 0:
-            save(f"A{SUF}.json", {"forms": P.forms, "todo": todo, "done": False})
+            save("A.json", {"forms": P.forms, "todo": todo, "done": False})
             print(f"  A: {len(todo)} left, R {P.R():.4f} J {P.J():.4f} ({time.time() - t0:.0f}s)", flush=True)
-    save(f"A{SUF}.json", {"forms": P.forms, "todo": [], "done": True, "R": P.R(), "J": P.J()})
+    save("A.json", {"forms": P.forms, "todo": [], "done": True, "R": P.R(), "J": P.J()})
     print(f"A done: R {P.R():.4f} J {P.J():.4f}")
 
 
 def cmd_descend(seed, maxsweeps=12):
-    start = f"A{SUFFIX}{'-nv' if NOVB else ''}.json"
-    name = f"C{SUFFIX}{'-nv' if NOVB else ''}-k{KEEP:g}-{seed}.json"
+    name = f"C-k{KEEP:g}-{seed}.json"
     st = load_state(name)
     if st and st.get("done"):
         print(name, "done"); return
@@ -670,9 +664,10 @@ def cmd_descend(seed, maxsweeps=12):
         forms, sweep, pos, hist = [tuple(f) for f in st["forms"]], st["sweep"], st["pos"], st["hist"]
         moved = st["moved"]
     else:
-        forms, sweep, pos, hist, moved = [tuple(f) for f in load_state(start)["forms"]], 0, 0, [], 0
+        start = load_state("A.json")
+        assert start and start.get("done"), "run start first (same --state)"
+        forms, sweep, pos, hist, moved = [tuple(f) for f in start["forms"]], 0, 0, [], 0
     P = Placer(forms)
-    rng = random.Random(seed)
     t0 = time.time()
     while sweep < maxsweeps:
         order = list(MOVABLE)
@@ -700,14 +695,326 @@ def cmd_descend(seed, maxsweeps=12):
     st = load_state(name); st["done"] = True; save(name, st)
 
 
+# ------------------------------------------------------------------------------------------ report
+VN = [n for n, _ in VARIANTS]
+_out = io.StringIO()
+
+
+def say(*a):
+    print(*a)
+    print(*a, file=_out)
+
+
+def forms_of(name):
+    st = load_state(name)
+    assert st and st.get("done"), f"no finished state {name} in {state_dir()}"
+    return [tuple(f) for f in st["forms"]]
+
+
+def scores(forms, Wm=None, freq=None, med=None):
+    Wm = WM if Wm is None else Wm
+    freq = FREQ if freq is None else freq
+    T = conf_total(forms, Wm=Wm, freq=freq)
+    x = T / med
+    R = cvar(x)
+    eff = sum(EFFORT * freq[i] * (INV.length(f) - 2.0) for i, f in enumerate(forms))
+    worst = [VN[k] for k in np.argsort(-x)[:3]]
+    return R, med[0] * R + eff, x[0], worst
+
+
+def sym_pairs(forms):
+    """Per pair: best-variant symmetric confusion, and its robust version (mean of the worst quarter of
+    variants of P(i->j) + P(j->i)). Upper triangle, same-length pairs only."""
+    n = len(forms)
+    lens = np.array([len(f) for f in forms])
+    iu = np.triu_indices(n, 1)
+    same = lens[iu[0]] == lens[iu[1]]
+    iu = (iu[0][same], iu[1][same])
+    allv = np.zeros((NV, len(iu[0])), np.float32)
+    for v in range(NV):
+        Pm = pair_matrix(forms, v)
+        allv[v] = (Pm + Pm.T)[iu]
+    rob = -np.partition(-allv, TOPQ - 1, axis=0)[:TOPQ].mean(0)
+    return iu, allv[0], rob
+
+
+# B2: single-feature neighbours (research/notes/unknown-unknowns.md #9: voicing, e/i, o/u, m/n, f/p, l/y/w, +-final n)
+ALT_O = {"p": "bf", "b": "p", "t": "d", "d": "t", "k": "g", "g": "k", "m": "n", "n": "m", "f": "p", "l": "wj", "w": "lj", "j": "lw"}
+ALT_V = {"e": "i", "i": "e", "o": "u", "u": "o"}
+
+
+def neighbours(f):
+    out = []
+    for k, s in enumerate(f):
+        o, v, c = M2.SYLLABLES[s]
+        alts = [(x, v, c) for x in ALT_O.get(o, "")] + [(o, x, c) for x in ALT_V.get(v, "")] + [(o, v, "n" if c == "" else "")]
+        for a in alts:
+            out.append(f[:k] + (M2.SYL_INDEX[a],) + f[k + 1:])
+    return out
+
+
+def b2(forms, which):
+    real = set(forms)
+    tot = hit = 0
+    for i in which:
+        for nb in neighbours(forms[i]):
+            tot += 1; hit += nb in real
+    return hit, tot
+
+
+def juncture(forms):
+    """tools/juncture.py on a placement's lexicon."""
+    orig = W.read
+    rows = [{"gloss": it["gloss"], "field": it["field"], "tier": str(it["tier"]), "form": show(f)} for it, f in zip(ITEMS, forms)]
+    W.read = lambda name: rows if name == "lexicon.tsv" else orig(name)
+    buf = io.StringIO()
+    code = 0
+    try:
+        with contextlib.redirect_stdout(buf):
+            runpy.run_path(os.path.join(TOOLS, "juncture.py"))
+    except SystemExit as e:
+        code = e.code
+    finally:
+        W.read = orig
+    return code, buf.getvalue().strip()
+
+
+def junction_risk(forms, roots):
+    """n + vowel resegmentation (research/notes/confusion-data.md §3, junction 1; a report, the model has no
+    junction term for content words): after a word ending in -n, a vowel-initial root X can be heard as nX, and
+    an n-initial root nX after a word ending in a vowel can be heard as -n + X. Risk = how close the re-cut form is
+    to a real content word of the same length (symmetric confusion, best variant and worst-quarter mean)."""
+    words = {}
+    for i, f in enumerate(forms):
+        words.setdefault(len(f), []).append(i)
+    rows = []
+    for i in roots:
+        f = forms[i]
+        a = f[0]
+        if a in N_OF:
+            g = (N_OF[a],) + f[1:]; kind = "n+" + show(f)
+        elif a in O_OF:
+            g = (O_OF[a],) + f[1:]; kind = "-n " + show(g)
+        else:
+            continue
+        others = [j for j in words[len(f)] if j != i]
+        O = np.array([forms[j] for j in others])
+        sv = np.zeros((NV, len(others)), np.float32)
+        for v in range(NV):
+            to = S0[v][g[0], O[:, 0]].copy(); fr = S0[v][O[:, 0], g[0]].copy()
+            for k in range(1, len(f)):
+                to *= S1[v][g[k], O[:, k]]; fr *= S1[v][O[:, k], g[k]]
+            sv[v] = to + fr
+        rob = -np.partition(-sv, TOPQ - 1, axis=0)[:TOPQ].mean(0)
+        k = int(np.argmax(rob))
+        exact = any(forms[j] == g for j in others)
+        rows.append((float(rob[k]) if not exact else 1.0, float(sv[0, k]), i, others[k], kind, exact))
+    return sorted(rows, reverse=True)
+
+
+def cmd_report(names):
+    """Scores, near pairs, B2 margin, p-initial count, moves, haplology and juncture checks, offensive matches;
+    report.txt and forms.tsv in the state dir."""
+    if not names:
+        names = ["A.json"] + sorted(os.path.basename(p) for p in glob.glob(os.path.join(state_dir(), "C-*.json")))
+    medA, medT = medians("after"), medians("today")
+    T = TODAY
+    say(f"{N} content words ({len(MOVABLE)} roots placed, {N - len(MOVABLE)} fixed: loans and operators); {NV} variants; "
+        f"robust score R = mean of worst {TOPQ} of conf_v / random median (1.0 = random lexicon)")
+    say(f"random medians, best variant: today {medT[0]:.2f}, full list {medA[0]:.2f}; v1 variant: today {medT[-1]:.2f}, full list {medA[-1]:.2f}")
+    Rt, Jt, bt, wt = scores(T["forms"], T["W"], T["freq"], medT)
+    say(f"today's lexicon ({len(T['forms'])} words, data/lexicon.tsv): R {Rt:.4f} | best variant {bt:.4f} | worst variants {', '.join(wt)}")
+    res = {}
+    for nm in names:
+        f = forms_of(nm)
+        R, J, b, w = scores(f, med=medA)
+        res[nm] = (R, J, f)
+        say(f"{nm}: R {R:.4f} | J {J:.3f} | best variant {b:.4f} | worst variants {', '.join(w)}")
+    cs = [n for n in names if os.path.basename(n).startswith("C")] or names
+    pick = min(cs, key=lambda n: res[n][1])
+    forms = res[pick][2]
+    say(f"chosen: {pick} (lowest J)")
+    if len(cs) > 1:
+        same = sum(1 for i in MOVABLE if len({res[n][2][i] for n in cs}) == 1)
+        sl = sum(1 for i in MOVABLE if len({len(res[n][2][i]) for n in cs}) == 1)
+        say(f"seeds agree on {same} of {len(MOVABLE)} root forms ({100 * same / len(MOVABLE):.0f}%); on length for {sl}")
+    an = [n for n in names if os.path.basename(n).startswith("A")]
+    A = res[an[0]][2] if an else None
+
+    # length
+    n3 = [i for i in MOVABLE if len(forms[i]) == 3]
+    say(f"three-syllable roots: {len(n3)}" + (": " + ", ".join(f"{ITEMS[i]['gloss']} {show(forms[i])}" for i in n3) if n3 else ""))
+    t1 = [i for i in MOVABLE if ITEMS[i]["tier"] == 1]
+    say(f"  tier 1: {sum(len(forms[i]) == 3 for i in t1)} of {len(t1)} at three syllables; other tiers: {sum(len(forms[i]) == 3 for i in MOVABLE if ITEMS[i]['tier'] > 1)}")
+    vi = lambda i: INV.syl[forms[i][0]][0] == ""
+    say(f"  vowel-initial roots: {sum(vi(i) for i in MOVABLE)} of {len(MOVABLE)} (two-syllable {sum(vi(i) for i in MOVABLE if len(forms[i]) == 2)}, three-syllable {sum(vi(i) for i in n3)})")
+    # moved
+    old = [i for i in MOVABLE if ITEMS[i]["old"]]
+    mv = [i for i in old if show(forms[i]) != ITEMS[i]["old"]]
+    must = [i for i in old if A is not None and show(A[i]) != ITEMS[i]["old"]]
+    say(f"today's roots moved: {len(mv)} of {len(old)} (forced by the rules: {len(must)})")
+    # near pairs
+    tf = T["forms"]
+    iu0, b0, r0 = sym_pairs(tf)
+    thr_b, thr_r = np.quantile(b0, 0.99), np.quantile(r0, 0.99)
+    iu, bb, rr = sym_pairs(forms)
+    say(f"near pairs (above today's 99th percentile of pair confusion): best variant thr {thr_b:.2e}: today {int((b0 > thr_b).sum())} "
+        f"of {len(b0)} pairs, after {int((bb > thr_b).sum())} of {len(bb)}; robust (worst-quarter mean) thr {thr_r:.2e}: today "
+        f"{int((r0 > thr_r).sum())}, after {int((rr > thr_r).sum())}")
+    if A is not None:
+        _, ba, ra = sym_pairs(A)
+        say(f"  A (one at a time): best {int((ba > thr_b).sum())}, robust {int((ra > thr_r).sum())}")
+    # nearest-neighbour confusion, frequency-weighted, best variant
+    Pm = pair_matrix(forms, 0); nn = (Pm + Pm.T).max(1)
+    Pt = pair_matrix(tf, 0); nnt = (Pt + Pt.T).max(1)
+    say(f"frequency-weighted nearest-neighbour confusion (best variant): today {(T['freq'] * nnt).sum() / T['freq'].sum():.5f}, after {(FREQ * nn).sum() / FREQ.sum():.5f}")
+    # B2
+    troots = [i for i, it in enumerate(T["items"]) if not it["fixed"]]
+    h0, t0 = b2(tf, troots)
+    roots = MOVABLE
+    h1, t1 = b2(forms, roots)
+    h2, t2 = b2(forms, range(N))
+    say(f"B2 margin (single-feature neighbours that are real words): today's roots {h0}/{t0} = {100 * h0 / t0:.2f}%; "
+        f"new roots {h1}/{t1} = {100 * h1 / t1:.2f}%; all content words {h2}/{t2} = {100 * h2 / t2:.2f}%")
+    if A is not None:
+        ha, ta = b2(A, roots)
+        say(f"  A (one at a time): roots {ha}/{ta} = {100 * ha / ta:.2f}%")
+    # p-initial
+    p0 = sum(1 for i in troots if INV.syl[tf[i][0]][0] == "p")
+    p1 = sum(1 for i in roots if INV.syl[forms[i][0]][0] == "p")
+    pall = sum(1 for i in range(N) if INV.syl[forms[i][0]][0] == "p")
+    say(f"p-initial roots: today {p0} of {len(troots)}; after {p1} of {len(roots)} (all content words incl. loans: {pall})")
+    on = {}
+    for i in roots:
+        o = INV.syl[forms[i][0]][0] or "V"
+        on[o] = on.get(o, 0) + 1
+    say("  first-onset counts, new roots: " + " ".join(f"{k}:{v}" for k, v in sorted(on.items(), key=lambda x: -x[1])))
+    # haplology / digit check
+    bad = [i for i in roots if forms[i][0] in HAPLO or forms[i][0] in DIGITS]
+    fixedbad = [i for i in range(N) if ITEMS[i]["fixed"] and (forms[i][0] in HAPLO or forms[i][0] in DIGITS)]
+    say(f"haplology + digit check (roots starting with {' '.join(sorted(SYL[s] for s in HAPLO))} or a digit): "
+        f"{'passed' if not bad else 'FAILED ' + str([show(forms[i]) for i in bad])}; fixed words that do (kept by rule 2): "
+        + ", ".join(f"{show(forms[i])} ({ITEMS[i]['gloss']})" for i in fixedbad))
+    keys = [INV.content_key(f) for f in forms]
+    say(f"unique drift keys: {'yes' if len(set(keys)) == N else 'NO'}; "
+        f"second syllable onset: {'yes' if all(all(HAS_ONSET[s] for s in f[1:]) for f in forms) else 'NO'}; "
+        f"blocked forms: {sum(offensive.blocked(show(f)) for f in forms)}")
+    code, txt = juncture(forms)
+    say(f"juncture.py on the result: exit {code}: {txt}")
+    offr = [i for i in roots if offensive.matches(show(forms[i]))]
+    offt = [i for i in troots if offensive.matches(show(tf[i]))]
+    say(f"offensive.matches (C3 tie-break only): new roots {len(offr)}: " + ", ".join(f"{show(forms[i])} ({ITEMS[i]['gloss']})" for i in offr)
+        + f"; today's roots {len(offt)}")
+
+    # n + vowel junction risk
+    jr = junction_risk(forms, MOVABLE)
+    say(f"\nn + vowel junction risk (vowel- or n-initial roots, {len(jr)}; re-cut form vs nearest real word, robust / best variant):")
+    if A is not None:
+        ja = junction_risk(A, MOVABLE)
+        say(f"  sum of robust risk: after {sum(r[0] for r in jr):.3e}; A (today's roots kept) {sum(r[0] for r in ja):.3e}; exact clashes after {sum(r[5] for r in jr)}")
+    for r, b, i, j, kind, ex in jr[:15]:
+        say(f"  {r:.2e} {b:.2e}  {kind} ({ITEMS[i]['gloss']}, t{ITEMS[i]['tier']})  ~  {show(forms[j])} {ITEMS[j]['gloss']} (t{ITEMS[j]['tier']}){'  EXACT' if ex else ''}")
+
+    # lists for the author
+    pos = {(a, b): k for k, (a, b) in enumerate(zip(*iu))}
+    say("\nantonym pairs, closest (best-variant / robust symmetric confusion):")
+    ap = []
+    for a, b in ANT_PAIRS:
+        k = pos.get((min(a, b), max(a, b)))
+        if k is not None:
+            ap.append((rr[k], bb[k], a, b))
+    for r, b, x, y in sorted(ap, reverse=True)[:15]:
+        say(f"  {r:.2e} {b:.2e}  {show(forms[x])} {ITEMS[x]['gloss']}  ~  {show(forms[y])} {ITEMS[y]['gloss']}")
+    say("\nnear pairs among frequent words (both tier >= 3), by robust confusion, top 25:")
+    fr = [(rr[k], bb[k], a, b) for k, (a, b) in enumerate(zip(*iu)) if ITEMS[a]["tier"] >= 3 and ITEMS[b]["tier"] >= 3]
+    for r, b, x, y in sorted(fr, reverse=True)[:25]:
+        say(f"  {r:.2e} {b:.2e}  {show(forms[x])} {ITEMS[x]['gloss']} (t{ITEMS[x]['tier']}, {ITEMS[x]['field']})  ~  "
+            f"{show(forms[y])} {ITEMS[y]['gloss']} (t{ITEMS[y]['tier']}, {ITEMS[y]['field']})  W {WM[x, y]:.0f}")
+    say("\nall near pairs (robust, above today's 99th percentile), top 40:")
+    top = np.argsort(-rr)[:40]
+    for k in top:
+        a, b = iu[0][k], iu[1][k]
+        say(f"  {rr[k]:.2e} {bb[k]:.2e}  {show(forms[a])} {ITEMS[a]['gloss']} (t{ITEMS[a]['tier']})  ~  {show(forms[b])} {ITEMS[b]['gloss']} (t{ITEMS[b]['tier']})")
+    say("\nfrequent roots (tier >= 4) whose form changed:")
+    for i in sorted(old, key=lambda i: (-ITEMS[i]["tier"], ITEMS[i]["gloss"])):
+        if ITEMS[i]["tier"] >= 4 and show(forms[i]) != ITEMS[i]["old"]:
+            say(f"  t{ITEMS[i]['tier']} {ITEMS[i]['gloss']}: {ITEMS[i]['old']} -> {show(forms[i])}")
+    say("\nnew roots, tier >= 4:")
+    for i in MOVABLE:
+        if ITEMS[i]["tier"] >= 4 and not ITEMS[i]["old"]:
+            say(f"  t{ITEMS[i]['tier']} {ITEMS[i]['gloss']}: {show(forms[i])}")
+
+    d = state_dir()
+    with open(os.path.join(d, "forms.tsv.tmp"), "w") as fh:
+        fh.write("concept\told form\tnew form\tfield\ttier\troute\n")
+        byg = {it["gloss"]: (it, f) for it, f in zip(ITEMS, forms)}
+        for r in CROWS:
+            it, f = byg.get(r["concept"], (None, None))
+            fh.write(f"{r['concept']}\t{r['form']}\t{show(f) if f else ''}\t{r['field']}\t{r['tier']}\t{r['route']}\n")
+        for it, f in zip(ITEMS, forms):
+            if it["route"] == "operator":
+                fh.write(f"{it['gloss']}\t{it['old']}\t{show(f)}\t{it['field']}\t{it['tier']}\toperator (fixed)\n")
+    os.replace(os.path.join(d, "forms.tsv.tmp"), os.path.join(d, "forms.tsv"))
+    with open(os.path.join(d, "report.txt"), "w") as fh:
+        fh.write(_out.getvalue())
+    print(f"wrote {os.path.join(d, 'report.txt')} and forms.tsv")
+
+
+# ------------------------------------------------------------------------------------------ write
+def cmd_write(name):
+    """Put a finished state's forms into data/: lexicon.tsv (changed forms; new concepts appended), then the map
+    (old form -> new form) on numbers.tsv, compounds.tsv and roles.tsv (tools/apply_forms.py data step); map.tsv in
+    the state dir for the texts. Runs tools/check_all.py at the end."""
+    import apply_forms as AF
+    forms = forms_of(name)
+    lex = W.read("lexicon.tsv")
+    by_gloss = {r["gloss"]: r for r in lex}
+    fmap, added = {}, []
+    for it, f in zip(ITEMS, forms):
+        new = show(f)
+        r = by_gloss.get(it["gloss"])
+        if r is None:
+            added.append({"gloss": it["gloss"], "field": it["field"], "tier": str(it["tier"]), "form": new})
+        elif r["form"] != new:
+            fmap[r["form"]] = new
+    forms_all = [fmap.get(r["form"], r["form"]) for r in lex] + [r["form"] for r in added]
+    assert len(forms_all) == len(set(forms_all)), sorted({f for f in forms_all if forms_all.count(f) > 1})
+    AF.map_column(os.path.join(W.DATA, "lexicon.tsv"), "form", lambda f: fmap.get(f, f), append=added)
+    mpath = os.path.join(state_dir(), "map.tsv")
+    with open(mpath, "w") as fh:
+        fh.write("old\tnew\n" + "".join(f"{k}\t{v}\n" for k, v in sorted(fmap.items())))
+    print(f"lexicon.tsv: {len(fmap)} forms changed, {len(added)} roots added")
+    for r in added:
+        print(f"  new: {r['form']} {r['gloss']} ({r['field']}, tier {r['tier']})")
+    AF.apply_data(fmap, files=("numbers.tsv", "compounds.tsv", "roles.tsv"))
+    have = {r["form"] for r in W.read("roles.tsv")}
+    todo = [r["form"] + " " + r["gloss"] for r in W.read("lexicon.tsv") if r["field"] not in ("number", "loan") and r["form"] not in FIXED_OPS
+            and r["form"] not in have]
+    if todo:
+        print(f"roles.tsv needs a row for: {', '.join(todo)} (tools/gf_lexicon.py fails until it has one)")
+    if fmap:
+        print(f"map: {mpath}; apply it to the texts: tools/apply_forms.py text {mpath} spec/reference.toml docs/*.md ..."
+              " (then tokens / literals for grammar/ and the UDHR translation; see its docstring)")
+    sys.exit(AF.run_check_all())
+
+
 if __name__ == "__main__":
-    cmd = sys.argv[1]
+    cmd = sys.argv[1] if len(sys.argv) > 1 else "info"
+    rest = [a for a in sys.argv[2:] if not a.startswith("--")]
+    rest = [a for a in rest if a not in (_arg("--state"), _arg("--keep"), _arg("--move"))]
     if cmd == "medians":
         cmd_medians()
     elif cmd == "start":
         cmd_start()
     elif cmd == "descend":
-        cmd_descend(int([a for a in sys.argv[2:] if a.isdigit()][0]) if [a for a in sys.argv[2:] if a.isdigit()] else 1)
+        cmd_descend(int(rest[0]) if rest else 1)
+    elif cmd == "report":
+        cmd_report(rest)
+    elif cmd == "write":
+        assert rest, "write STATE (e.g. A.json or C-k0.03-1.json in --state DIR)"
+        cmd_write(rest[0])
     elif cmd == "info":
         print(N, "items;", len(MOVABLE), "movable;", len(ANT_PAIRS), "antonym pairs;", NV, "variants; HAPLO", sorted(SYL[s] for s in HAPLO),
               "; JPAIR", JPAIR, "; valid 2-syll forms", int(VALID2.sum()))
+    else:
+        sys.exit(__doc__)
