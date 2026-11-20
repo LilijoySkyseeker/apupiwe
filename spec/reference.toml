@@ -636,7 +636,7 @@ type = "bullet"
 title = "gun"
 gap = 0
 text = '''
-- **gun** goes before a noun: **mon gun tiwu** "she is a child".'''
+- **gun** goes before a noun: **mon gun lenu** "she is a child".'''
 
 [[item]]
 id = "4.7.3"
@@ -667,7 +667,7 @@ id = "4.7.6"
 type = "bullet"
 gap = 0
 text = '''
-- **gun** with no subject is always "is" or "to be", with the subject understood: **momu gun tiwu** "want to be a child", **dan ibe sogan fan gun kuwi** "everyone has the right to be protected", **mon obu nun gun simi** "she came and is sick".'''
+- **gun** with no subject is always "is" or "to be", with the subject understood: **momu gun lenu** "want to be a child", **dan ibe sogan fan gun kuwi** "everyone has the right to be protected", **mon obu nun gun simi** "she came and is sick".'''
 
 [[item]]
 id = "4.7.7"
@@ -783,7 +783,7 @@ type = "bullet"
 title = "Gender"
 gap = 0
 text = '''
-- Gender is a modifier, stated once when it matters: **tiwu futa** "daughter", **win wungu futa** "the leader, a woman".'''
+- Gender is a modifier, stated once when it matters: **lenu futa** "daughter", **win wungu futa** "the leader, a woman".'''
 
 [[item]]
 id = "5.2.11"
@@ -963,7 +963,7 @@ id = "5.4.4"
 type = "bullet"
 gap = 0
 text = '''
-- The base may be a verb phrase: **win isi don guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyu** separates it from a following verb or describing word: **to siten sokun** "a pan" (a thing for cooking flat), **to siten sokun kiyu tikun** "a hot pan"; without **kiyu**, **tikun** would join the phrase inside. It also ends before a name (**fo** …) or a gender word (**futa**, **lowu**), so **win wiwa fo mara** is "Teacher Mara" and **win wungu futa** "the leader, a woman".'''
+- The base may be a verb phrase: **win isi don guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyu** separates it from a following verb or describing word: **to siten sokun** "a pan" (a thing for cooking flat), **to siten sokun kiyu tikun** "a hot pan"; without **kiyu**, **tikun** would join the phrase inside. It also ends before a name (**fo** …) or a gender word (**futa**, **dage**), so **win wiwa fo mara** is "Teacher Mara" and **win wungu futa** "the leader, a woman".'''
 
 [[item]]
 id = "5.4.5"
@@ -1440,7 +1440,7 @@ type = "bullet"
 title = "Fractions"
 gap = 0
 text = '''
-- A fraction is a number, **pi**, and the number of equal parts: **ni pi de** ⅓, **de pi wo** ¾, **sa pi wo** or **timon** ½. Two numbers joined by **pi** are always a fraction. A fraction of something takes **pi** again: **sa pi de pi ewo la** "two thirds of the people", **wan nawi de pi wo pi pasu** "I eat three quarters of the food". A part of a counted set puts the noun after **pi** instead: **sa pi ewo de** "two of the three people". Exact or long fractions can use decimals (9.2.4) or percent, **lonwon**.'''
+- A fraction is a number, **pi**, and the number of equal parts: **ni pi de** ⅓, **de pi wo** ¾, **sa pi wo** or **bedun** ½. Two numbers joined by **pi** are always a fraction. A fraction of something takes **pi** again: **sa pi de pi ewo la** "two thirds of the people", **wan nawi de pi wo pi pasu** "I eat three quarters of the food". A part of a counted set puts the noun after **pi** instead: **sa pi ewo de** "two of the three people". Exact or long fractions can use decimals (9.2.4) or percent, **lonwon**.'''
 
 
 [[item]]

@@ -1,7 +1,7 @@
 gloss	field	tier	form
 person	people	5	ewo
-child	people	4	tiwu
-man, male	people	3	lowu
+child	people	4	lenu
+man, male	people	3	dage
 woman, female	people	3	futa
 friend	people	3	sonu
 family	people	2	yonyo
@@ -107,7 +107,7 @@ light, not heavy	size	1	gamun
 thick	size	1	kifela
 full	size	2	wuten
 empty	size	2	tapun
-half	size	2	timon
+half	size	2	bedun
 whole	size	2	minwe
 good	quality	5	upe
 bad	quality	4	yomo
@@ -124,7 +124,7 @@ hard, not soft	quality	2	gufu
 soft	quality	1	tutin
 sharp	quality	1	tungi
 fast, quick	quality	2	yobe
-slow	quality	2	gake
+slow	quality	2	geyin
 strong	quality	2	konki
 weak	quality	1	nensi
 clean	quality	1	inan
@@ -556,7 +556,7 @@ table	thing	2	wonse
 blanket	thing	2	wensa
 baby	people	3	diba
 jump	motion	2	mipen
-cat	animal	2	taten
+cat	animal	2	kimon
 tiger	animal	2	fiyon
 motorcycle	loan	2	moto
 potato	nature	2	ganfi
@@ -1164,7 +1164,7 @@ menstruation	body	1	tefole
 balance	abstract	1	iledu
 pilot	people	1	dibesi
 corpse, dead body	body	2	dinmun
-sword	thing	2	tenbun
+sword	thing	2	migon
 investigate	mind	3	dupo
 invent	action	1	fimofa
 context	abstract	1	tesimi

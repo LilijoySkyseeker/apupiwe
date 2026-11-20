@@ -25,6 +25,9 @@ Hard rules (a form that breaks one is never taken; `start` re-places a today's r
   - loan vowel: no root takes the drift key of a loan with its added final vowel changed (tools/accent.py also
     checks the vowel dropped)
   - rule J: no word sounds like a shorter content word followed by a grammar word (tiwuye ~ tiwu ye)
+  - rule G: no root sounds like two one-syllable grammar words in a row (ti wu ~ tiwu; Decision 23), except roots
+    checked and cleared in data/regroup-reviewed.tsv (tests/stress-02/); today's roots by exact sounds, new forms
+    by drift key (as rule J)
   - three syllables only for tier 1 (author 2026-11-18); apu "language" locked
 The senary reservation (forms kept free for data/senary.tsv) was removed 2026-11-19 (author, goal N6).
 
@@ -242,6 +245,14 @@ JPAIR = any(INV.syl[IDX[f]][2] == "n" and (INV.syl[IDX[f]][0].replace("j", "y") 
 N_OF = {s: M2.SYL_INDEX["n", v, c] for s, (o, v, c) in enumerate(M2.SYLLABLES) if o == ""}       # onsetless -> n-onset
 O_OF = {M2.SYL_INDEX["n", v, c]: M2.SYL_INDEX["", v, c] for (o, v, c) in M2.SYLLABLES if o == ""}  # n-onset -> onsetless
 LEN2 = np.array([[INV.length((a, b)) - 2.0 for b in range(NS)] for a in range(NS)])
+# rule G (Decision 23, tests/stress-02/): no root sounds like two one-syllable grammar words in a row (ti wu ~ tiwu);
+# only stress tells them apart. Roots checked and cleared keep their form (data/regroup-reviewed.tsv, form + gloss).
+G1 = {IDX[f] for f in GFORMS if len(W.split(f)) == 1}
+REVIEWED = {(r["form"], r["gloss"]) for r in W.read("regroup-reviewed.tsv")}
+def g_bad(f, gloss):
+    """Today's roots: exact sounds (the test measured those)."""
+    return len(f) == 2 and f[0] in G1 and f[1] in G1 and (show(f), gloss) not in REVIEWED
+GKEYS = {INV.content_key((a, b)) for a in G1 for b in G1}   # new forms: by drift key, as rule J (tiwo ~ ti wu)
 
 KEYS = {}
 
@@ -474,6 +485,10 @@ class Placer:
             for b in range(NS):
                 if ok[a, b] and INV.content_key((a, b)) in LOANV:
                     ok[a, b] = False
+        for a in range(NS):         # rule G (by drift key; a cleared root keeps its own form)
+            for b in range(NS):
+                if ok[a, b] and INV.content_key((a, b)) in GKEYS and (show((a, b)), ITEMS[i]["gloss"]) not in REVIEWED:
+                    ok[a, b] = False
         bad2 = j_keys2(self.occ)    # rule J
         if bad2:
             for a in range(NS):
@@ -592,8 +607,10 @@ class Placer:
         return cvar(self.T / self.med)
 
 
-def ok_today(f, owner, occ):
-    """Can today's form stay under the rules? (first syllable, onset, offensive, key free, accent, loan vowel, J)"""
+def ok_today(f, owner, occ, gloss=None):
+    """Can today's form stay under the rules? (first syllable, onset, offensive, key free, accent, loan vowel, J, G)"""
+    if g_bad(f, gloss):                         # rule G
+        return False
     if len(f) == 2 and not VALID2[f]:
         return False
     if len(f) == 3 and not valid3(f):
@@ -630,7 +647,7 @@ def cmd_start():
         it = ITEMS[i]
         if it["old"] and it["old"] not in MOVE:
             f = tup(it["old"])
-            if ok_today(f, owner, occ):
+            if ok_today(f, owner, occ, it["gloss"]):
                 forms[i] = f; owner[kid(INV.content_key(f))] = i; occ.add(f); kept.append(i); continue
         todo.append(i)
     print(f"today's roots kept as they are: {len(kept)}; to place: {len(todo)}"

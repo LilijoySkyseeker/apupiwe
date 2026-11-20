@@ -14,7 +14,7 @@ senya pi wabun kifa kuwi sogan pi ewo fan ewo la su kifa migi senya yomo pi win 
 ewo we kifa yema fan yuna la lewe sonu pi nen nen.
 {.apu}
 
-no pata pi loso pi yuna la, ewo la pi loso yin ben oyi osin me son gewan sogan bawe pi ewo, nun son gewan bawe pi ewo, nun son gewan me lowu nun futa ibe sogan kige. mon la pon ben waka yema fan ewo we guge. mon la pon ben waka yema fan ewo we nume ke upe. mon la pon ben waka yema fan ewo we ibe enpa ke fefa.
+no pata pi loso pi yuna la, ewo la pi loso yin ben oyi osin me son gewan sogan bawe pi ewo, nun son gewan bawe pi ewo, nun son gewan me dage nun futa ibe sogan kige. mon la pon ben waka yema fan ewo we guge. mon la pon ben waka yema fan ewo we nume ke upe. mon la pon ben waka yema fan ewo we ibe enpa ke fefa.
 {.apu}
 
 yuna la pi loso pi yuna la ben oyi "du ta doku nan loso pi yuna la fan ewo we dundi sogan pi ewo nun enpa bawe. du ta pon doku nan bun fan ewo we kuwi bun la."
@@ -33,7 +33,7 @@ ewo we diye nume nan enpa, nun mon la ibe bawe kige nun sogan kige. mon la nebi 
 
 ## Article 2
 
-dan ibe sogan we pi pata yin. yefi din kubo yin. fisu pi ewo lu fisu pi unne lu lowu lu futa lu apu lu lite pi nubige lu yuna lu loso gi mon obu don, su kubo yin. yefi pi mon lu diye nume pi mon lu yefi eni lu gen pume pi wungu lu gen pume eni, pon su kubo yin.
+dan ibe sogan we pi pata yin. yefi din kubo yin. fisu pi ewo lu fisu pi unne lu dage lu futa lu apu lu lite pi nubige lu yuna lu loso gi mon obu don, su kubo yin. yefi pi mon lu diye nume pi mon lu yefi eni lu gen pume pi wungu lu gen pume eni, pon su kubo yin.
 {.apu}
 
 pi yuna pi mon lu fela pi mon, sin bun gun enpa, lu yuna eni wungu bun, lu bun su wungu nen, lu bun ibe senya ke uyo fun lite eni, senya pi bun pon su kubo yin.
@@ -118,7 +118,7 @@ pi ewo mesun, sin wabun denku su efon, ewo eni su gun efon inwa nume kunsu pi mo
 
 ## Article 16
 
-1. sin lowu lu futa ben guge, mon ibe sogan fan bedan. mon pon ibe sogan fan diye yonyo. mon la ibe sogan la yin nuwen bamo gi gun fun fisu pi ewo lu yuna lu lite pi nubige. lowu nun futa ibe sogan kige fan bedan. mon la pon ibe sogan kige pu bedan. mon la pon ibe sogan kige no fugi pi bedan.
+1. sin dage lu futa ben guge, mon ibe sogan fan bedan. mon pon ibe sogan fan diye yonyo. mon la ibe sogan la yin nuwen bamo gi gun fun fisu pi ewo lu yuna lu lite pi nubige. dage nun futa ibe sogan kige fan bedan. mon la pon ibe sogan kige pu bedan. mon la pon ibe sogan kige no fugi pi bedan.
 {.apu}
 
 2. ewo sa nebi bedan ga sin mon la nen tayu enpa nun minwe.
@@ -193,18 +193,18 @@ dan ibe sogan fan wanan. mon pon ibe sogan fan ibe nufi enpa. yin pon gun me mon
 1. dan nun yonyo pi mon ibe sogan fan ibe tonya fan nume upe. yin pon gun me mon la ibe tonya fan gawo upe. yin pon gun me mon la ibe pasu nun lonne nun guyi. yin pon gun me ewo we nun yuna yema mon la pu mon la simi. yin pon gun me ewo we nun yuna yema mon la pu mon la wupi bun. sin mon su ibe doku, lu gun simi lu su nebi doku, lu gun pani lu toti pi mon ben kono lu mon su ibe tonya fun lite eni gi mon su nebi kubo, mon pon ibe sogan fan gun yema don ewo we nun yuna.
 {.apu}
 
-2. mole nun tiwu ibe sogan fan gun kuwi fun ke fefa, nun gun yema fun ke fefa. pi tiwu we, yon sin mole pi mon la nun sine pi mon la su gun toti, mon la ibe sogan fan ewo we kuwi mon la fun kige.
+2. mole nun lenu ibe sogan fan gun kuwi fun ke fefa, nun gun yema fun ke fefa. pi lenu we, yon sin mole pi mon la nun sine pi mon la su gun toti, mon la ibe sogan fan ewo we kuwi mon la fun kige.
 {.apu}
 
 ## Article 26
 
-1. dan ibe sogan fan yesa. dan su kifa unfu fan konsin wiwa pi diye. tiwu we kifa dunu wiwa pi diye. ewo we kifa nebi dunu wiwa pi doku. ewo we pon kifa nebi inwa wiwa tisan fun nebi pi nen fun kige.
+1. dan ibe sogan fan yesa. dan su kifa unfu fan konsin wiwa pi diye. lenu we kifa dunu wiwa pi diye. ewo we kifa nebi dunu wiwa pi doku. ewo we pon kifa nebi inwa wiwa tisan fun nebi pi nen fun kige.
 {.apu}
 
 2. wiwa kifa yema fan ewo guge minwe. bun pon kifa yema fan dan ke dundi sogan pi ewo nun enpa bawe. bun kifa yema fan yuna we nade nen nen, nun gun sonu, nun efon me eni pume eni. yin pon gun feko fan loso we pi fisu pi ewo. yin pon gun feko fan loso we pi lite pi nubige lu loso we pi gen pume feko. bun pon kifa yema doku pi loso pi yuna la fan kuwi bonwi.
 {.apu}
 
-3. mole nun sine ibe sogan fan waka fisu pi wiwa pi tiwu pi nen. waka pi mon la gun ke bawe don waka pi ewo eni.
+3. mole nun sine ibe sogan fan waka fisu pi wiwa pi lenu pi nen. waka pi mon la gun ke bawe don waka pi ewo eni.
 {.apu}
 
 ## Article 27

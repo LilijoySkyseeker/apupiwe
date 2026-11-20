@@ -161,6 +161,9 @@ concrete LexApu of Lex = open Prelude in {
     bedan_N = {s = "bedan" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     bedan_V = {s = "bedan" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     bedan_A = {s = "bedan" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
+    bedun_N = {s = "bedun" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    bedun_V = {s = "bedun" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    bedun_A = {s = "bedun" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     bekan_N = {s = "bekan" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     bekan_V = {s = "bekan" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     bekan_A = {s = "bekan" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
@@ -338,6 +341,9 @@ concrete LexApu of Lex = open Prelude in {
     dafen_N = {s = "dafen" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     dafen_V = {s = "dafen" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     dafen_A = {s = "dafen" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    dage_N = {s = "dage" ; act = False ; obj = False ; tm = False ; gd = True ; res = False} ;
+    dage_V = {s = "dage" ; act = False ; obj = False ; tm = False ; gd = True ; res = False} ;
+    dage_A = {s = "dage" ; act = False ; obj = False ; tm = False ; gd = True ; res = False} ;
     dagepo_N = {s = "dagepo" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     dagepo_V = {s = "dagepo" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     dagepo_A = {s = "dagepo" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
@@ -1067,9 +1073,6 @@ concrete LexApu of Lex = open Prelude in {
     gakabe_N = {s = "gakabe" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     gakabe_V = {s = "gakabe" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     gakabe_A = {s = "gakabe" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
-    gake_N = {s = "gake" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    gake_V = {s = "gake" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    gake_A = {s = "gake" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     gakodo_N = {s = "gakodo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     gakodo_V = {s = "gakodo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     gakodo_A = {s = "gakodo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
@@ -1193,6 +1196,9 @@ concrete LexApu of Lex = open Prelude in {
     geyawe_N = {s = "geyawe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     geyawe_V = {s = "geyawe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     geyawe_A = {s = "geyawe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    geyin_N = {s = "geyin" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    geyin_V = {s = "geyin" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    geyin_A = {s = "geyin" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     ginda_N = {s = "ginda" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     ginda_V = {s = "ginda" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     ginda_A = {s = "ginda" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
@@ -1580,6 +1586,9 @@ concrete LexApu of Lex = open Prelude in {
     kima_N = {s = "kima" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kima_V = {s = "kima" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kima_A = {s = "kima" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    kimon_N = {s = "kimon" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    kimon_V = {s = "kimon" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    kimon_A = {s = "kimon" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kinbo_N = {s = "kinbo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kinbo_V = {s = "kinbo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     kinbo_A = {s = "kinbo" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
@@ -1871,6 +1880,9 @@ concrete LexApu of Lex = open Prelude in {
     lenton_N = {s = "lenton" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     lenton_V = {s = "lenton" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     lenton_A = {s = "lenton" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    lenu_N = {s = "lenu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    lenu_V = {s = "lenu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    lenu_A = {s = "lenu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     lenya_N = {s = "lenya" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     lenya_V = {s = "lenya" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     lenya_A = {s = "lenya" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
@@ -2045,9 +2057,6 @@ concrete LexApu of Lex = open Prelude in {
     lowiku_N = {s = "lowiku" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     lowiku_V = {s = "lowiku" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     lowiku_A = {s = "lowiku" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    lowu_N = {s = "lowu" ; act = False ; obj = False ; tm = False ; gd = True ; res = False} ;
-    lowu_V = {s = "lowu" ; act = False ; obj = False ; tm = False ; gd = True ; res = False} ;
-    lowu_A = {s = "lowu" ; act = False ; obj = False ; tm = False ; gd = True ; res = False} ;
     loya_N = {s = "loya" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     loya_V = {s = "loya" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     loya_A = {s = "loya" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
@@ -2222,6 +2231,9 @@ concrete LexApu of Lex = open Prelude in {
     migisa_N = {s = "migisa" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     migisa_V = {s = "migisa" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     migisa_A = {s = "migisa" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    migon_N = {s = "migon" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    migon_V = {s = "migon" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
+    migon_A = {s = "migon" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     migotu_N = {s = "migotu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     migotu_V = {s = "migotu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     migotu_A = {s = "migotu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
@@ -3476,9 +3488,6 @@ concrete LexApu of Lex = open Prelude in {
     tasumo_N = {s = "tasumo" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     tasumo_V = {s = "tasumo" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
     tasumo_A = {s = "tasumo" ; act = True ; obj = True ; tm = False ; gd = False ; res = False} ;
-    taten_N = {s = "taten" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    taten_V = {s = "taten" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    taten_A = {s = "taten" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tatinu_N = {s = "tatinu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tatinu_V = {s = "tatinu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tatinu_A = {s = "tatinu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
@@ -3536,9 +3545,6 @@ concrete LexApu of Lex = open Prelude in {
     tenbe_N = {s = "tenbe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tenbe_V = {s = "tenbe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tenbe_A = {s = "tenbe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    tenbun_N = {s = "tenbun" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    tenbun_V = {s = "tenbun" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    tenbun_A = {s = "tenbun" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tenen_N = {s = "tenen" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tenen_V = {s = "tenen" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tenen_A = {s = "tenen" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
@@ -3602,9 +3608,6 @@ concrete LexApu of Lex = open Prelude in {
     timika_N = {s = "timika" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     timika_V = {s = "timika" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     timika_A = {s = "timika" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    timon_N = {s = "timon" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    timon_V = {s = "timon" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    timon_A = {s = "timon" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     timusi_N = {s = "timusi" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     timusi_V = {s = "timusi" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     timusi_A = {s = "timusi" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
@@ -3665,9 +3668,6 @@ concrete LexApu of Lex = open Prelude in {
     tiwe_N = {s = "tiwe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tiwe_V = {s = "tiwe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tiwe_A = {s = "tiwe" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    tiwu_N = {s = "tiwu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    tiwu_V = {s = "tiwu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
-    tiwu_A = {s = "tiwu" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tiyen_N = {s = "tiyen" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tiyen_V = {s = "tiyen" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;
     tiyen_A = {s = "tiyen" ; act = False ; obj = False ; tm = False ; gd = False ; res = False} ;

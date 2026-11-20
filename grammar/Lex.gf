@@ -164,6 +164,9 @@ abstract Lex = {
     bedan_N : N ;  -- marry, wedding
     bedan_V : V ;  -- marry, wedding
     bedan_A : A ;  -- marry, wedding
+    bedun_N : N ;  -- half
+    bedun_V : V ;  -- half
+    bedun_A : A ;  -- half
     bekan_N : N ;  -- mute, unable to speak
     bekan_V : V ;  -- mute, unable to speak
     bekan_A : A ;  -- mute, unable to speak
@@ -341,6 +344,9 @@ abstract Lex = {
     dafen_N : N ;  -- heaven, paradise
     dafen_V : V ;  -- heaven, paradise
     dafen_A : A ;  -- heaven, paradise
+    dage_N : N ;  -- man, male
+    dage_V : V ;  -- man, male
+    dage_A : A ;  -- man, male
     dagepo_N : N ;  -- spin (thread)
     dagepo_V : V ;  -- spin (thread)
     dagepo_A : A ;  -- spin (thread)
@@ -1070,9 +1076,6 @@ abstract Lex = {
     gakabe_N : N ;  -- swallow (food, drink)
     gakabe_V : V ;  -- swallow (food, drink)
     gakabe_A : A ;  -- swallow (food, drink)
-    gake_N : N ;  -- slow
-    gake_V : V ;  -- slow
-    gake_A : A ;  -- slow
     gakodo_N : N ;  -- earthquake
     gakodo_V : V ;  -- earthquake
     gakodo_A : A ;  -- earthquake
@@ -1196,6 +1199,9 @@ abstract Lex = {
     geyawe_N : N ;  -- ceiling
     geyawe_V : V ;  -- ceiling
     geyawe_A : A ;  -- ceiling
+    geyin_N : N ;  -- slow
+    geyin_V : V ;  -- slow
+    geyin_A : A ;  -- slow
     ginda_N : N ;  -- crooked
     ginda_V : V ;  -- crooked
     ginda_A : A ;  -- crooked
@@ -1583,6 +1589,9 @@ abstract Lex = {
     kima_N : N ;  -- wood, the material
     kima_V : V ;  -- wood, the material
     kima_A : A ;  -- wood, the material
+    kimon_N : N ;  -- cat
+    kimon_V : V ;  -- cat
+    kimon_A : A ;  -- cat
     kinbo_N : N ;  -- disappointed
     kinbo_V : V ;  -- disappointed
     kinbo_A : A ;  -- disappointed
@@ -1874,6 +1883,9 @@ abstract Lex = {
     lenton_N : N ;  -- bullet
     lenton_V : V ;  -- bullet
     lenton_A : A ;  -- bullet
+    lenu_N : N ;  -- child
+    lenu_V : V ;  -- child
+    lenu_A : A ;  -- child
     lenya_N : N ;  -- strange, odd
     lenya_V : V ;  -- strange, odd
     lenya_A : A ;  -- strange, odd
@@ -2048,9 +2060,6 @@ abstract Lex = {
     lowiku_N : N ;  -- noble
     lowiku_V : V ;  -- noble
     lowiku_A : A ;  -- noble
-    lowu_N : N ;  -- man, male
-    lowu_V : V ;  -- man, male
-    lowu_A : A ;  -- man, male
     loya_N : N ;  -- know
     loya_V : V ;  -- know
     loya_A : A ;  -- know
@@ -2225,6 +2234,9 @@ abstract Lex = {
     migisa_N : N ;  -- cliff, steep rock face
     migisa_V : V ;  -- cliff, steep rock face
     migisa_A : A ;  -- cliff, steep rock face
+    migon_N : N ;  -- sword
+    migon_V : V ;  -- sword
+    migon_A : A ;  -- sword
     migotu_N : N ;  -- wheat
     migotu_V : V ;  -- wheat
     migotu_A : A ;  -- wheat
@@ -3479,9 +3491,6 @@ abstract Lex = {
     tasumo_N : N ;  -- hollow out
     tasumo_V : V ;  -- hollow out
     tasumo_A : A ;  -- hollow out
-    taten_N : N ;  -- cat
-    taten_V : V ;  -- cat
-    taten_A : A ;  -- cat
     tatinu_N : N ;  -- waist
     tatinu_V : V ;  -- waist
     tatinu_A : A ;  -- waist
@@ -3539,9 +3548,6 @@ abstract Lex = {
     tenbe_N : N ;  -- rope
     tenbe_V : V ;  -- rope
     tenbe_A : A ;  -- rope
-    tenbun_N : N ;  -- sword
-    tenbun_V : V ;  -- sword
-    tenbun_A : A ;  -- sword
     tenen_N : N ;  -- line, stripe, row
     tenen_V : V ;  -- line, stripe, row
     tenen_A : A ;  -- line, stripe, row
@@ -3605,9 +3611,6 @@ abstract Lex = {
     timika_N : N ;  -- consciousness
     timika_V : V ;  -- consciousness
     timika_A : A ;  -- consciousness
-    timon_N : N ;  -- half
-    timon_V : V ;  -- half
-    timon_A : A ;  -- half
     timusi_N : N ;  -- chain
     timusi_V : V ;  -- chain
     timusi_A : A ;  -- chain
@@ -3668,9 +3671,6 @@ abstract Lex = {
     tiwe_N : N ;  -- sweat
     tiwe_V : V ;  -- sweat
     tiwe_A : A ;  -- sweat
-    tiwu_N : N ;  -- child
-    tiwu_V : V ;  -- child
-    tiwu_A : A ;  -- child
     tiyen_N : N ;  -- tea
     tiyen_V : V ;  -- tea
     tiyen_A : A ;  -- tea

@@ -24,7 +24,7 @@ OUT = os.path.join(ROOT, "grammar")
 
 # The two-syllable operators kept in lexicon.tsv (language.md 13.2): grammar words, not content words.
 OPS2 = set("genso wanme inwun wemen konsin nedin tason mesun manni buntu buni donon lanno anko nuwen kiyu mena".split())
-GENDER = {"futa", "lowu"}            # 5.2.2, 5.4.4
+GENDER = {"futa", "dage"}            # 5.2.2, 5.4.4
 RESULT = {"tula"}                    # 4.2.7
 TIME_EXTRA = set()  # 8.2.5: hour, minute and second were loans; roots in the field "time" since 2026-11-18
 VERBISH = {"action", "motion", "sense", "mind"}

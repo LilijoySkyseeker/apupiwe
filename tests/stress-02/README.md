@@ -32,3 +32,9 @@ that sound like a root (`tests/stress-01/`) need fixing, measure it. Method in `
 - Of the eight roots hand-picked earlier (stress-01), three hold up (*lowu*, *tiwu*, *timon*); *kamon*,
   *lota*, *wukan*, *tiwe*, *lowe* don't (nonsense in context, or almost never grammatical), and three
   new ones appear (*taten*, *tenbun*, *gake*).
+
+## Applied (Decision 23 A, author, 2026-11-19)
+
+The six moved (`tools/place.py start`, every other root kept): child **lenu**, man **dage**, half **bedun**,
+cat **kimon**, sword **migon**, slow **geyin**. Rule G in `tools/place.py` and `tools/juncture.py` 5; the 178
+others are in `data/regroup-reviewed.tsv` with their verdicts.

@@ -11,6 +11,9 @@ project's juncture.py, 2026-10-08). Reports:
 
   4. a word that sounds like a shorter content word followed by a grammar word: stress falls on the first syllable
      and grammar words are unstressed, so **tiwuye** would sound like **tiwu ye** (author, 2026-11-19)
+  5. rule G: a root that sounds like two one-syllable grammar words in a row (**ti wu** "please" ~ the old
+     **tiwu** "child"); only stress tells them apart. Roots checked and cleared in tests/stress-02 are listed in
+     data/regroup-reviewed.tsv (Decision 23, author, 2026-11-19)
 
   python juncture.py      # prints problems; exit code 1 if any
 """
@@ -42,6 +45,14 @@ for w in lex:
         if short is not None:
             problems.append(f"word + grammar word: {w['form']} ({w['gloss']}) ~ {short['form']} {W.SYL[s_[-1]]} "
                             f"({short['gloss']} + {gforms[W.SYL[s_[-1]]]})")
+
+g1 = {f for f in gforms if len(W.split(f)) == 1}  # 5
+reviewed = {(r["form"], r["gloss"]) for r in W.read("regroup-reviewed.tsv")}
+for w in lex:
+    s_ = [W.SYL[i] for i in W.split(w["form"])]
+    if len(s_) == 2 and all(x in g1 for x in s_) and (w["form"], w["gloss"]) not in reviewed:
+        problems.append(f"two grammar words: {w['form']} ({w['gloss']}) ~ {s_[0]} {s_[1]} "
+                        f"({gforms[s_[0]]} + {gforms[s_[1]]}); move it, or clear it in data/regroup-reviewed.tsv")
 
 # known exceptions: none (denu "gene" was one until gene became geni, 2026-11-19)
 KNOWN = set()

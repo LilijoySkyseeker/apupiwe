@@ -162,6 +162,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     bedan_N = P.mkN "marrying" ;
     bedan_V = D.marry_V ;
     bedan_A = P.mkA "marrying" ;
+    bedun_N = D.half_N ;
+    bedun_V = P.mkV "half" ;
+    bedun_A = D.half_A ;
     bekan_N = D.mute_N ;
     bekan_V = D.mute_V ;
     bekan_A = D.mute_A ;
@@ -339,6 +342,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     dafen_N = D.heaven_N ;
     dafen_V = P.mkV "heaven" ;
     dafen_A = P.mkA "heaven" ;
+    dage_N = D.man_N ;
+    dage_V = D.man_V ;
+    dage_A = P.mkA "maning" ;
     dagepo_N = D.spin_N ;
     dagepo_V = I.spin_V ;
     dagepo_A = P.mkA "spining" ;
@@ -1068,9 +1074,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     gakabe_N = P.mkN "swallow (food" ;
     gakabe_V = P.mkV "swallow (food" ;
     gakabe_A = P.mkA "swallow (food" ;
-    gake_N = P.mkN "slowness" ;
-    gake_V = D.slow_V ;
-    gake_A = D.slow_A ;
     gakodo_N = D.earthquake_N ;
     gakodo_V = P.mkV "earthquake" ;
     gakodo_A = P.mkA "earthquake" ;
@@ -1194,6 +1197,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     geyawe_N = D.ceiling_N ;
     geyawe_V = P.mkV "ceiling" ;
     geyawe_A = P.mkA "ceiling" ;
+    geyin_N = P.mkN "slowness" ;
+    geyin_V = D.slow_V ;
+    geyin_A = D.slow_A ;
     ginda_N = P.mkN "crooked" ;
     ginda_V = P.mkV "crooked" ;
     ginda_A = P.mkA "crooked" ;
@@ -1581,6 +1587,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     kima_N = D.wood_N ;
     kima_V = P.mkV "wood" ;
     kima_A = P.mkA "wood" ;
+    kimon_N = D.cat_N ;
+    kimon_V = P.mkV "cat" ;
+    kimon_A = P.mkA "cat" ;
     kinbo_N = P.mkN "disappointed" ;
     kinbo_V = P.mkV "disappointed" ;
     kinbo_A = P.mkA "disappointed" ;
@@ -1872,6 +1881,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     lenton_N = D.bullet_N ;
     lenton_V = P.mkV "bullet" ;
     lenton_A = P.mkA "bullet" ;
+    lenu_N = D.child_N ;
+    lenu_V = P.mkV "child" ;
+    lenu_A = P.mkA "child" ;
     lenya_N = P.mkN "strangeness" ;
     lenya_V = P.mkV "strange" ;
     lenya_A = D.strange_A ;
@@ -2046,9 +2058,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     lowiku_N = D.noble_N ;
     lowiku_V = P.mkV "noble" ;
     lowiku_A = D.noble_A ;
-    lowu_N = D.man_N ;
-    lowu_V = D.man_V ;
-    lowu_A = P.mkA "maning" ;
     loya_N = D.know_N ;
     loya_V = I.know_V ;
     loya_A = P.mkA "knowing" ;
@@ -2223,6 +2232,9 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     migisa_N = D.cliff_N ;
     migisa_V = P.mkV "cliff" ;
     migisa_A = P.mkA "cliff" ;
+    migon_N = D.sword_N ;
+    migon_V = P.mkV "sword" ;
+    migon_A = P.mkA "sword" ;
     migotu_N = D.wheat_N ;
     migotu_V = P.mkV "wheat" ;
     migotu_A = P.mkA "wheat" ;
@@ -3477,9 +3489,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     tasumo_N = P.mkN "hollow out" ;
     tasumo_V = P.mkV "hollow out" ;
     tasumo_A = P.mkA "hollow out" ;
-    taten_N = D.cat_N ;
-    taten_V = P.mkV "cat" ;
-    taten_A = P.mkA "cat" ;
     tatinu_N = D.waist_N ;
     tatinu_V = P.mkV "waist" ;
     tatinu_A = P.mkA "waist" ;
@@ -3537,9 +3546,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     tenbe_N = D.rope_N ;
     tenbe_V = D.rope_V ;
     tenbe_A = P.mkA "roping" ;
-    tenbun_N = D.sword_N ;
-    tenbun_V = P.mkV "sword" ;
-    tenbun_A = P.mkA "sword" ;
     tenen_N = D.line_N ;
     tenen_V = D.line_V ;
     tenen_A = P.mkA "lining" ;
@@ -3603,9 +3609,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     timika_N = D.consciousness_N ;
     timika_V = P.mkV "consciousness" ;
     timika_A = P.mkA "consciousness" ;
-    timon_N = D.half_N ;
-    timon_V = P.mkV "half" ;
-    timon_A = D.half_A ;
     timusi_N = D.chain_N ;
     timusi_V = D.chain_V ;
     timusi_A = P.mkA "chaining" ;
@@ -3666,9 +3669,6 @@ concrete LexEng of Lex = open SyntaxEng, (P=ParadigmsEng), (D=MorphoDictEng), (I
     tiwe_N = D.sweat_N ;
     tiwe_V = D.sweat_V ;
     tiwe_A = P.mkA "sweating" ;
-    tiwu_N = D.child_N ;
-    tiwu_V = P.mkV "child" ;
-    tiwu_A = P.mkA "child" ;
     tiyen_N = D.tea_N ;
     tiyen_V = P.mkV "tea" ;
     tiyen_A = P.mkA "tea" ;

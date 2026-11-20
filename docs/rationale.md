@@ -67,6 +67,7 @@ The place to look before adding a rule, and the list to prune from. "Seen" means
 | Haplology | a root starting with the syllable of a grammar word that often precedes content words; loans exempt | author, 2026-10-15 (Globasa review) | predicted (typology) | the placement tool |
 | -n + vowel | X and nX both words where a grammar word and its -n twin exist | author, 2026-10-15 | predicted | `juncture.py` 3 |
 | Rule J | a word that sounds like a shorter word plus a grammar word | author, 2026-11-19 (outside review) | seen (**tiwuye** / **tiwu ye**, 79 words) | `juncture.py` 4 |
+| Rule G | a root that sounds like two one-syllable grammar words in a row; today's roots cleared by test kept (`data/regroup-reviewed.tsv`); new forms by drift key | author, 2026-11-19 (Decision 23, `tests/stress-02/`) | seen (**ti wu mon obu** "please let her come" / **tiwu mon obu** "the child, she comes", 6 roots) | `juncture.py` 5, the placement tool |
 | Accent (2.12) | content words, or short words sharing a position, that differ only by a declared accent variant | author, 2026-11-19 | seen pairs; merging predicted (sound change) | `accent.py` |
 | Loan vowels (11.3) | another word where a loan lands with its added final vowel changed or dropped | author, 2026-11-19 (loan research) | seen (**geni** / **geno**, **gen**) | `accent.py` |
 | Short words in one position (H4) | short words sharing a position that differ only by voicing, f/p, glide vs none, or a final -n | author, 2026-10-15 | predicted (model) | the short-word tool |

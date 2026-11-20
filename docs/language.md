@@ -137,11 +137,11 @@
 ### 4.7 "Is": gun
 
 - <span id="r-4-7-1"></span>**gun** goes before a state: **guyi gun tugu** "the house is big". Without it, **guyi tugu** is normally read as "the big house".
-- <span id="r-4-7-2"></span>**gun** goes before a noun: **mon gun tiwu** "she is a child".
+- <span id="r-4-7-2"></span>**gun** goes before a noun: **mon gun lenu** "she is a child".
 - <span id="r-4-7-3"></span>**gun** goes before a place phrase: **mon gun no guyi** "he is at home".
 - <span id="r-4-7-4"></span>**gun** before an action word gives the state of whoever undergoes the action: **gun tapi** "is closed", **mon gun kuwi** "she is protected", **wan gun nuta** "I am feared". This holds for every action word, feelings included; the one who feels takes the plain verb (**wan nuta** "I'm afraid").
 - <span id="r-4-7-5"></span>**gun** before a **me** clause means "is that …".
-- <span id="r-4-7-6"></span>**gun** with no subject is always "is" or "to be", with the subject understood: **momu gun tiwu** "want to be a child", **dan ibe sogan fan gun kuwi** "everyone has the right to be protected", **mon obu nun gun simi** "she came and is sick".
+- <span id="r-4-7-6"></span>**gun** with no subject is always "is" or "to be", with the subject understood: **momu gun lenu** "want to be a child", **dan ibe sogan fan gun kuwi** "everyone has the right to be protected", **mon obu nun gun simi** "she came and is sick".
 - <span id="r-4-7-7"></span>"There is" is **ibe** "have" with no subject, and **ibe** with no subject always means "there is": **ibe pasu** "there's food", **su ibe pasu** "there's no food", **fen, ibe yefi fefa** "but there are many things", **sin ibe pasu** "if there is food". To say someone has it, name them: **wan ibe pasu** "I have food".
 
 ### 4.8 Questions and answers
@@ -163,7 +163,7 @@
 ### 5.2 Parts
 
 - <span id="r-5-2-1"></span>Describing words follow the noun: **guyi tugu** "big house". For a clear description, use **gi** (5.3).
-- <span id="r-5-2-2"></span>Gender is a modifier, stated once when it matters: **tiwu futa** "daughter", **win wungu futa** "the leader, a woman".
+- <span id="r-5-2-2"></span>Gender is a modifier, stated once when it matters: **lenu futa** "daughter", **win wungu futa** "the leader, a woman".
 - <span id="r-5-2-11"></span>Describing words after a noun each describe the noun: **wan ibe lipo wiwi buda** "I have a red, dark cloth". **tan** between two describing words makes the second describe the first: **wan ibe lipo wiwi tan buda** "I have a dark-red cloth". It joins only the word before it and the word after it, and works after **gun** too: **lipo gun wiwi tan buda** "the cloth is dark red".
 - <span id="r-5-2-12"></span>**wi** right after a noun or a name adds affection, "dear little": **poka wi** "doggy", **fo mara wi** "dear Mara". It comes before the noun's describing words: **poka wi tugu** "the dear big dog". As a grammar word it also ends a name, so a content word can follow it with no pause: **fo mara wi obu** "dear Mara is coming".
 - <span id="r-5-2-3"></span>Noun + noun is used only for gender and for the compounds in `compounds.tsv`. Other relations use **pi** or a relative clause.
@@ -202,7 +202,7 @@
 | **sen** | the place | **sen tedo** "place for walking" = a path |
 
 - <span id="r-5-4-3"></span>A **pi** phrase after a derived word belongs to the last noun inside its base, or to the derived word itself if its base has no noun: **to meko pi wan** "my thing for keeping".
-- <span id="r-5-4-4"></span>The base may be a verb phrase: **win isi don guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyu** separates it from a following verb or describing word: **to siten sokun** "a pan" (a thing for cooking flat), **to siten sokun kiyu tikun** "a hot pan"; without **kiyu**, **tikun** would join the phrase inside. It also ends before a name (**fo** …) or a gender word (**futa**, **lowu**), so **win wiwa fo mara** is "Teacher Mara" and **win wungu futa** "the leader, a woman".
+- <span id="r-5-4-4"></span>The base may be a verb phrase: **win isi don guyi** "one who goes from home", a traveller. It runs to the end of its phrase, like a relative clause, and a pause or **kiyu** separates it from a following verb or describing word: **to siten sokun** "a pan" (a thing for cooking flat), **to siten sokun kiyu tikun** "a hot pan"; without **kiyu**, **tikun** would join the phrase inside. It also ends before a name (**fo** …) or a gender word (**futa**, **dage**), so **win wiwa fo mara** is "Teacher Mara" and **win wungu futa** "the leader, a woman".
 - <span id="r-5-4-5"></span>A person something is done to is **ewo gi gun** + verb: **ewo gi gun wiwa** "a student".
 - <span id="r-5-4-6"></span>A noun base is linked with **pi** or a verb: **sen pi natun** "an office", **win obu don yaye** "an alien".
 - <span id="r-5-4-7"></span>For opposites, **su** + word means "not X" (**su upe** "not good"), and a separate opposite root names the other pole (**yomo** "bad").
@@ -310,7 +310,7 @@
 - <span id="r-9-2-4"></span>Decimals use **mimi** "point": 1.5 = **ni mimi ma**. **guti** means minus. With **unun** "× 10 to the", **de unun guti ufo** = 3 × 10⁻⁶.
 - <span id="r-9-2-5"></span>Arithmetic aloud is a reading of notation, like spelling aloud, not an ordinary sentence: read the signs in the order written, + **ginni**, − **guti**, × **bifo**, ÷ **gonwu**, = **gun**: **sa ginni de gun ma** "2 + 3 = 5", **de bifo wo gun yawu sa** "3 × 4 = 12", **ufo gonwu sa gun de** "6 ÷ 2 = 3". **guti** before a number makes it negative and between two numbers means minus; a list keeps its pauses (**ma, guti de** "5, −3").
 - <span id="r-9-2-6"></span>A rate is said with **mesun** "each" after the unit, joined by the relation word that fits: **wan nawi bifo sa no dili mesun** "I eat twice a day" (on each day), **wan neke yefi de len ewo mesun** "I give three to each person". Unit symbols such as `60 km/h` pass through as written and are read with their borrowed names (9.3).
-- <span id="r-9-2-7"></span>A fraction is a number, **pi**, and the number of equal parts: **ni pi de** ⅓, **de pi wo** ¾, **sa pi wo** or **timon** ½. Two numbers joined by **pi** are always a fraction. A fraction of something takes **pi** again: **sa pi de pi ewo la** "two thirds of the people", **wan nawi de pi wo pi pasu** "I eat three quarters of the food". A part of a counted set puts the noun after **pi** instead: **sa pi ewo de** "two of the three people". Exact or long fractions can use decimals (9.2.4) or percent, **lonwon**.
+- <span id="r-9-2-7"></span>A fraction is a number, **pi**, and the number of equal parts: **ni pi de** ⅓, **de pi wo** ¾, **sa pi wo** or **bedun** ½. Two numbers joined by **pi** are always a fraction. A fraction of something takes **pi** again: **sa pi de pi ewo la** "two thirds of the people", **wan nawi de pi wo pi pasu** "I eat three quarters of the food". A part of a counted set puts the noun after **pi** instead: **sa pi ewo de** "two of the three people". Exact or long fractions can use decimals (9.2.4) or percent, **lonwon**.
 
 ### 9.3 Amounts and comparison
 
