@@ -45,7 +45,7 @@ A few things about it:
 ## What's in this repo
 
 - `docs/goal.md`: what the language is for; everything else answers to it.
-- `docs/learn.md`: the lessons, also on the website.
+- Lessons: removed on this branch (2026-11-19); new ones are written once the language is final. The published v1 site keeps the old ones.
 - `docs/language.md`: the full reference. It's generated from `spec/reference.toml`, so edit that and run `tools/spec.py build`.
 - `docs/rationale.md`: why things are the way they are.
 - `docs/design-log.md`: every decision, in order.

@@ -39,7 +39,7 @@ Triaged 2026-11-19: every item of the October queue is done (design log) or move
 
 ## Last: the docs and lessons, rebuilt from scratch (author, 2026-11-19)
 
-Once the language itself is final, before the v2 site. `docs/learn.md` is frozen meanwhile and is not maintained.
+Once the language itself is final, before the v2 site. The old lessons were deleted from this branch on 2026-11-19 (git history keeps them; `tools/site.py` still expects `docs/learn.md` and is rebuilt with the site).
 - **Lessons from scratch,** from the reference and data alone, plus research on how languages are best taught (to do: a research pass on language pedagogy before writing). Not adapted from today's lessons.
 - **Docs that agents and people can produce text from** (2026-10-13 item): worked examples for producing text, not only rules.
 - **Teach what the language already says but no text explains** (from the outside review, 2026-11-19): "the robot broke down" is **lewe gun** + the action word (4.5.4, finding 4); show whether each verb takes an object (`data/roles.tsv`, finding 7); "should" in questions and reports (finding 11, check it is sayable with **kifa**, **wupi** or **upe** first).

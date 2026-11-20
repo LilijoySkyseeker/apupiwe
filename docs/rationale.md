@@ -222,7 +222,7 @@ wordfreq is needed for the offensive filter's frequency ranking. `clics_rates.aw
 - **Change a rule or example:** edit `spec/reference.toml` (never `docs/language.md`, which is generated), run `tools/spec.py build`, then `check.py` on the result.
 - **Add a word:** `words.py add-content` (with `--antonym` for opposites and close alternatives) → `juncture.py` → `check.py` on any text using it → log it.
 - **Move a word** (only with evidence): re-coin with the old form excluded (see the move script pattern in design-log "Offensive-word moves"), then update docs, `compounds.tsv`, and senary if it's a unit (senary's symbols are the first two letters).
-- **Change a grammar rule:** edit language.md and learn.md, run a blind test that exercises it, log the rejected options and an add-back trigger.
+- **Change a grammar rule:** edit `spec/reference.toml` (the lessons are rewritten once the language is final), run a blind test that exercises it, log the rejected options and an add-back trigger.
 - **Tune the model:** the assumptions in `confusion.py` and the weights in `words.py`/`build.py` change *future* words only; existing words don't move.
 - **Change sounds or syllable shape:** requires a full rebuild; treat as a new language version.
 

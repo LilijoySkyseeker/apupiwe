@@ -25,7 +25,6 @@ Article 1 of the Universal Declaration of Human Rights:
 
 ## Where to go
 
-- [Learn it](learn.md) in fourteen short lessons written for English speakers.
 - The [reference](language.md) has every rule, with examples.
 - The [dictionary](dictionary.md) lists every word. Type in it to filter, or press / anywhere on the site to search.
 - [Examples](examples.md): longer texts, where you can tap any word to see its meaning.
