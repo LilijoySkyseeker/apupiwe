@@ -267,3 +267,5 @@ Add-back triggers for parts I added: the 0.01 keep point is in because the curve
 ## Files
 
 `positions.py` (GF substitution, MODMOD, ENDEAR and operator frames, bigrams), `rebuild.py` (rules, objective, annealer, patch, reopt, score, report), `runs.sh` / `checks.sh` (resumable batches), `checks.py` (summaries: agree, diff, sens, drop, vsctl, rank), `results.txt` (all tables), `forms.tsv`; layers `full.tsv full-lock.tsv mid-{0.01,0.02,0.04}.tsv mid-lock-{0.01,0.02,0.04}.tsv patch.tsv patch-lock.tsv`, hold-out layers `*-ha.tsv *-hb.tsv`; check outputs `holdout.txt sens-score.txt drop-score.txt`, `runs/` (every seed and check run), `logs/`; inputs `substitution.tsv frames.txt adjacency.tsv corpus-counts.tsv modmod.tsv endear.tsv operators-extra.tsv`.
+
+Scripts consolidated into tools/ on 2026-11-19; the version used here is in git history.

@@ -34,7 +34,7 @@ Two rules depend on a word's kind of meaning: **gun** + a word gives the undergo
 | `grammar/ApupiweApu.gf` | Apupiwe concrete syntax | written by hand |
 | `grammar/ApupiweEng.gf` | English concrete syntax, on the RGL | written by hand |
 | `grammar/Lexicon*.gf` | the words | generated from `data/*.tsv` (never edited by hand) |
-| `tools/check_all.py` | runs every check above on every document | new; replaces `tools/parse.py` once it covers the same ground |
+| `tools/check_all.py` | runs every check above on every document | built 2026-11-19 for the reference (`tools/parse.py` deleted then) |
 | `flake.nix` | GF 3.12 (official binary, library paths patched) and the RGL release | so anyone can reproduce it |
 
 ## Spike result (2026-10-12)
@@ -49,7 +49,7 @@ Two rules depend on a word's kind of meaning: **gun** + a word gives the undergo
 4. **All documents** checked by one command.
 5. **Later:** reference tables generated from the grammar; publishing refuses to go out while a check fails (automation last, once the checks have proven themselves).
 
-`tools/parse.py` stays until phase 4 covers what it checks, then retires.
+`tools/parse.py` was deleted on 2026-11-19: the GF check covers every example (doghouse review).
 
 ## What it doesn't do
 

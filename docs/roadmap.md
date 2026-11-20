@@ -2,7 +2,7 @@
 
 Where the project is and what comes next. Decisions and their reasons are in `design-log.md`; this file is the queue. Updated 2026-11-19.
 
-**Handoff (2026-11-19, evening): where the work stands.** The "Open before v2" list is empty: the roots are placed, the short words re-formed under the accent and pronoun rules, rule J holds, the outside review is resolved, and the old lessons, site and superseded docs are gone from this branch (git history keeps them). What remains: a second cold review of today's changes (proposed), then "Last" (lessons and docs from scratch, then the regression test) and the v2 site. "After v2" holds additions that don't change existing words. Tools: roots `tests/placement-11/place.py`, short words `tests/shortwords-04/rebuild.py`, form changes in texts `tests/placement-08/apply/apply.py`; after any word change run `tools/accent.py` and `tools/juncture.py` (AGENTS.md).
+**Handoff (2026-11-19, evening): where the work stands.** The "Open before v2" list is empty: the roots are placed, the short words re-formed under the accent and pronoun rules, rule J holds, the outside review is resolved, and the old lessons, site and superseded docs are gone from this branch (git history keeps them). What remains: a second cold review of today's changes (proposed), then "Last" (lessons and docs from scratch, then the regression test) and the v2 site. "After v2" holds additions that don't change existing words. Tools (one each, consolidated 2026-11-19): roots `tools/place.py`, short words `tools/shortwords.py`, form changes `tools/apply_forms.py`; after any change run `tools/check_all.py` (the placement and apply tools run it themselves; AGENTS.md).
 
 **How the backlog is worked (author, 2026-10-15):** finish the current backlog one item at a time. Anything *new* a review turns up gets one test before it joins: does it block v2, i.e. would it change word forms or grammar that are costly to change once the author is learning? If not, it goes under "After v2", not into the queue. If the backlog keeps churning (growing rather than shrinking), the same test is applied to the whole backlog. v2 is done when: the short words are rebuilt, the concept list is closed and the ~1,500 roots placed once, the reference, grammar and lessons agree, and the v2 site is built.
 
@@ -14,8 +14,6 @@ Where the project is and what comes next. Decisions and their reasons are in `de
 - Physics basics (author, 2026-11-19, with the mass decision): force, gravity and energy through the concept ladder on their own merits.
 
 - How notation is read aloud (author, 2026-11-19; with the outside reviews' parentheses in arithmetic, letter case when spelling aloud, and readings for "20 °C" and "60 km/h" that reference 3.4 promises): Greek letters (the letter name "pi" is the grammar word **pi** "of", and a loan needs two syllables, so π needs an adapted form through the loan panel), operators and equations. Writing already passes notation through (reference 3.4); arithmetic read aloud is treated as a reading of notation (9.2.5).
-
-- `tools/words.py` lags the current rules (found 2026-11-19): it scores with mishearing model v1, doesn't know the haplology rule or rule 2.12, and `move` drops antonym weighting (it passes no antonyms to `add_content`). Until fixed, place roots with `tests/placement-04/place.py` (AGENTS.md). Bring `add-content` onto `confusion2`, the haplology table and `tools/accent.py`'s neighbours, or retire it in favour of the placement tool.
 
 - From the Globasa review (author, 2026-10-15): a learning order from running-text coverage ("the first N roots cover X%", row 62); old → new tables per release when the freeze returns (row 5); dictionary glosses in several languages (row 61).
 
@@ -55,8 +53,8 @@ The published site stays at v1 until the language is solid; then a v2 site is bu
 
 ## Later
 
-- Formal grammar phase 3 (English concrete syntax) and phase 4 (every document checked by one command); `tools/parse.py` retires then.
-- Senary gets its own vocabulary and page (a separate project; its words are reserved in `data/senary.tsv`).
+- Formal grammar phase 3 (English concrete syntax) and phase 4 (every document checked by one command; `tools/check_all.py` checks the reference so far). `tools/parse.py` was deleted 2026-11-19 (the GF check covers every example).
+- Senary gets its own vocabulary and page (a separate project; no forms are reserved for it since 2026-11-19, goal N6: it adapts to the language).
 - **Needs real human listeners or readers (running list; author, 2026-10-15: keep a running note of what really needs testing with humans).** Model or AI checks stand in until then; add to this list whenever a decision rests on one. Trigger for running them: listeners or readers from at least three language families, or money for a crowd study (~$150–300 for 60 listeners; `research/notes/unknown-unknowns.md` #1).
   - Listening: the mishearing model's ranking of word pairs (listening-01's 32 pairs; the final short words and roots), in noise, by listeners of several first languages (B2; cold review's first repair).
   - Listening: recognition of adapted loans (**intelunetu**, **kilometulu** …) by speakers of the panel languages; screened by Codex 2026-10-15 (`tests/loans-adapted-01/`); test especially the rules behind most low scores: affricates → **t**/**d** (before i e → **k**/**g** since 2026-11-19, `tests/loans-adapted-02/`) and final r → **-lu** (**metulu**, **dolalu**, **biyalu**).

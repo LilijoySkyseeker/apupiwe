@@ -28,3 +28,5 @@ Result: 18 roots move, as predicted: the 14 the new haplology syllables displace
 | pull | nunya | sekan |
 
 Nine take **se-**, freed when FROM moved from **se** to **don**: the model puts new roots in the emptiest region. Also the tool to use for future roots until `tools/words.py` catches up (AGENTS.md).
+
+Scripts consolidated into tools/ on 2026-11-19; the version used here is in git history.

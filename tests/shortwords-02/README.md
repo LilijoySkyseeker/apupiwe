@@ -193,3 +193,5 @@ Add-back triggers for the parts I added: the 0.1 floor weight if never-substitut
 ## Files
 
 `positions.py` (GF substitution, MODMOD and operator frames, bigrams), `rebuild.py` (rules, objective, annealer, patch, report), `positions.md` (position table), `results.txt` (all tables), `forms.tsv`, the layers `full-hard.tsv full-c3.tsv mid-26.tsv mid-18.tsv patch.tsv patch-keep-pi.tsv patch-no-rule3.tsv`, the inputs `substitution.tsv adjacency.tsv corpus-counts.tsv frames.txt modmod.tsv operators-extra.tsv`.
+
+Scripts consolidated into tools/ on 2026-11-19; the version used here is in git history.

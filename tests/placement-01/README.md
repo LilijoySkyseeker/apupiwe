@@ -74,3 +74,5 @@ Checks on C: unique drift keys, no senary key, every later syllable has an onset
 ## Files
 
 `bigrams.py` → `bigrams.tsv`; `place.py` (rules, objective, placer, start, descend); `report.py` → `report.txt`, `forms.tsv` (C-3), `report-no3.txt`, `forms-no3.tsv` (C-no3-2); `keepcheck.py` (cost of keeping a frequent root); `state/` (A, C and medians, resumable); `logs/`. `forms.tsv`: concept, old form, new form, field, tier, route; the 17 operators at the end.
+
+Scripts consolidated into tools/ on 2026-11-19; the version used here is in git history.

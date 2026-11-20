@@ -26,7 +26,7 @@ A competent human writer explaining a language to a curious English-speaking adu
 
 ## When rewording existing text
 
-- Examples are written `**apu words** "gloss"`; `tools/spec.py examples` and `tools/parse.py` read that pattern, so keep it.
+- Examples are written `**apu words** "gloss"`; `tools/spec.py examples`, `tools/gf_check.py` and `tools/check.py` read that pattern, so keep it.
 - Rewording must not change a rule. Changing a rule is a design decision and goes in the design log.
 - Headings are link targets; renaming one means fixing its links.
 

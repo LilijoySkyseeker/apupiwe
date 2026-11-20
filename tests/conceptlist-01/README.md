@@ -290,3 +290,5 @@ Not concept-list decisions, so nothing to apply here: grammar, sound, model, off
    - the `tools/build.py` whitespace split;
    - the lexicon regloss of **tolin** and **tinli** at adoption;
    - the ladder rows for church, angel, bishop, prophet and idol, still never updated after 2026-10-13.
+
+The final list `concepts.tsv` moved to `data/concept-list.tsv` on 2026-11-19 (the placement tool reads it there).

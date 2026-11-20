@@ -57,3 +57,5 @@ Findings:
 
 5. **The candidate** (no vowel bonus, keep 0.03; `forms-nv-k0.03.tsv`, `report-nv-k0.03.txt`) moves 32 roots that weren't forced. Frequent ones: "come" **obu → mele**, "can" **lenu → iya**, "small" **meli → nebi**, "food" **pasu → gene** (reads as the English word), "big" **kudu → kulu**, "100" **loki → onwun**.
 6. **Number words crowd into won-**: 9 **wonlin**, 10^6 **wonfon**, percent **wonnon**, pair **wonken**, 8 **manwon**, 100 **onwun**, while **wo** is the digit 4. The ×10 weight on any pair with a number word (set for 500 words, placement-01 item 2) drives them into the sparse -n region, where they end up resembling each other and the digit. Question for the author: rescale ×10 for the larger lexicon, or fix these forms by hand.
+
+Scripts consolidated into tools/ on 2026-11-19; the version used here is in git history.

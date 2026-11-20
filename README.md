@@ -50,14 +50,14 @@ A few things about it:
 - `docs/rationale.md`: why things are the way they are.
 - `docs/design-log.md`: every decision, in order.
 - `data/`: the word lists.
-- `tools/`: Python scripts that make and check words and build the reference and the website.
+- `tools/`: Python scripts that make and check words and build the reference: `place.py` (roots), `shortwords.py` (grammar words and digits), `apply_forms.py` (form changes in data and texts), `check_all.py` (every check).
 - `tests/`, `research/`: tests and the research behind the choices.
 
-The tools need Python 3 with numpy. `parse.py` also needs lark and `offensive.py` needs wordfreq. With Nix, `nix develop` (or direnv) gives a shell with all of them.
+The tools need Python 3 with numpy; `offensive.py` also needs wordfreq, and the grammar checks need GF. With Nix, `nix develop` (or direnv) gives a shell with all of them.
 
 ## Related
 
-Senary, a base-six measurement system, is a sibling project. Apupiwe has words for it (reserved in `data/senary.tsv`; described in the senary repo, `docs/apupiwe-vocabulary.md`). It will be published here too.
+Senary, a base-six measurement system, is a sibling project. Its words are described in the senary repo (`docs/apupiwe-vocabulary.md`); Apupiwe no longer reserves forms for them (2026-11-19, goal N6). It will be published here too.
 
 ## Contributing
 
